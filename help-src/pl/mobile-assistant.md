@@ -14,7 +14,7 @@ Otworzysz go w zakładce **Asystent**.
 
 ![Odpowiedź Cora Assistant o alkaliczności w Cora Mobile](img/mobile-assistant.webp "Odpowiedź zbudowana z danych akwarium na żywo, z liczbą wiadomości w tym miesiącu nad polem.")
 
-## Najpierw wybierz akwarium
+## Najpierw wybierz akwarium {#pick-a-tank-first}
 
 Wybór akwarium na górze ustala, o czym mówi Cora. Pytania, które wpisujesz, i odpowiedzi, które dostajesz, należą do tego akwarium.
 
@@ -74,7 +74,7 @@ Pod odpowiedzią możesz zobaczyć do dwóch sekcji Pomocy, każda z maksymalnie
 
 Przyciski pojawiają się tylko wtedy, gdy jest ekran lub strona do otwarcia.
 
-## Zgoda
+## Zgoda {#consent}
 
 ![Zgoda Asystenta](img/mobile-assistant-consent.webp "Dwie osobne zgody i pamięć, którą prowadzi Cora.")
 

@@ -2,7 +2,7 @@
 title: Podłączanie sprzętu
 description: Jak podłączyć do Cory urządzenie Neptune Apex, Red Sea ReefBeat, Jecod albo AquaWiz.
 section: Cora Mobile
-reviewed: 2026-10-17
+reviewed: 2026-10-18
 order: 12
 group: Equipment
 ---
@@ -90,6 +90,8 @@ Gdy **Automatycznie utrzymuj połączenie** jest włączone, Cora przechowuje Tw
 
 Dostajesz alkaliczność jako źródło, a także pH, jeśli Twoje urządzenie je zgłasza i **Odczytuj też jego pH** jest włączone. Pierwszy odczyt przychodzi zaraz po połączeniu. Potem AquaWiz pozwala Corze automatycznie czytać swoją chmurę tylko co 12 godzin, więc odczyt stamtąd może mieć nawet pół doby. Cora Max przy akwarium może też sam czytać kontroler co godzinę, gdy może go osiągnąć. Otwórz stronę urządzenia, żeby zobaczyć, kiedy zmierzono każdy odczyt i skąd pochodzi, i dotknij **Odczytaj teraz**, żeby dostać świeży (najwyżej raz na 15 minut). Co pokazuje karta AquaWiz i jej alerty, opisuje [Sterowanie sprzętem](/help/mobile-device-control#aquawiz).
 
+Aby przenieść kontroler do innego akwarium, otwórz jego stronę w **Urządzenia** i dotknij **Zmień** w sekcji **Akwaria**. Nie musisz ponownie logować się do AquaWiz.
+
 :::warning Cora używa tego samego logowania AquaWiz
 AquaWiz daje każdemu kontu jedno logowanie, więc Cora używa tego samego co aplikacja AquaWiz. Jeśli zmienisz hasło AquaWiz, Cora się rozłączy. Połącz ją potem ponownie z wiersza urządzenia. Żeby całkowicie odebrać Corze dostęp, usuń urządzenie w Corze i zmień hasło AquaWiz.
 :::
@@ -104,7 +106,7 @@ Cora dociera do AquaWiz maksymalnie trzema drogami, które działają razem.
 | Usługa Cora od AquaWiz | Najnowszy odczyt KH i pH. | Po połączeniu, potem co 12 godzin (limit AquaWiz) oraz gdy otworzysz stronę urządzenia lub dotkniesz **Odczytaj teraz** (najwyżej co 15 minut) |
 | Cora Max przy akwarium | Odczytuje kontroler bezpośrednio przez jego własne Wi-Fi i dodaje alerty pompy, sondy pH i pojemnika z wodą. | Co godzinę |
 
-Bez Cora Max odczyty przychodzą co 12 godzin, taki jest limit AquaWiz, więc odczyt może mieć nawet pół doby. **Chcesz odczyty co godzinę? Dodaj Cora Max przy akwarium.** [Zobacz Cora Max](https://coraiq.tech/pl/#max) i [skonfiguruj go](/help/max-setup). Pojawi się wraz z następną aktualizacją Cora Max i wymaga kontrolera w zasięgu Wi-Fi Cora Max oraz oprogramowania kontrolera z dostępem lokalnym. Szczegóły są w [Odczyt co godzinę z Cora Max](/help/max-device-control#aquawiz-hourly).
+Bez Cora Max odczyty przychodzą co 12 godzin, taki jest limit AquaWiz, więc odczyt może mieć nawet pół doby. **Chcesz odczyty co godzinę? Dodaj Cora Max przy akwarium.** [Zobacz Cora Max](https://coraiq.tech/pl/#max) i [skonfiguruj go](/help/max-setup). Wymaga kontrolera w zasięgu Wi-Fi Cora Max oraz oprogramowania kontrolera z dostępem lokalnym. Szczegóły są w [Odczyt co godzinę z Cora Max](/help/max-device-control#aquawiz-hourly).
 
 Karta urządzenia pokazuje, skąd pochodzi każdy odczyt: **Co godzinę z Twojego Cora Max** albo **Z chmury AquaWiz, co 12 godzin**.
 

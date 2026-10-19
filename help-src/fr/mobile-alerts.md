@@ -2,7 +2,7 @@
 title: Alertes et seuils
 description: Réglez la plage saine de chaque mesure, choisissez à quelle fréquence une alerte peut vous prévenir, et découvrez pourquoi un appareil "ne remonte plus de mesures".
 section: Cora Mobile
-reviewed: 2026-10-17
+reviewed: 2026-10-18
 order: 22
 group: Alerts and automation
 twin: max-alerts
@@ -10,7 +10,7 @@ twin: max-alerts
 
 Vous recevez une alerte quand une mesure sort de la plage que vous avez réglée pour elle. Cette page explique comment régler ces plages, ce qui se passe quand une alerte se déclenche, et combien de temps Cora attend avant de dire qu’un appareil ne remonte plus de mesures.
 
-Pour ouvrir le **Centre d’alertes**, touchez **Alertes** dans la rangée de boutons sous le tableau de bord. Vous le trouvez aussi dans Réglages → votre aquarium → **Seuils d’alerte**.
+Pour ouvrir le **Centre d’alertes**, touchez **Alertes** dans la rangée de boutons sous le tableau de bord. Vous le trouvez aussi dans Paramètres → votre aquarium → **Seuils d’alerte**.
 
 ![L’onglet Actives du Centre d’alertes dans Cora Mobile](img/mobile-alerts.webp "Les alertes actives, chacune avec sa gravité, ce qui l’a déclenchée et quand, plus Voir la règle et Expliquer cette alerte.")
 
@@ -85,7 +85,7 @@ Une fois qu’une alerte est en cours, elle ne vous prévient pas sans cesse de 
 
 ## Quand un équipement demande de l’attention {#equipment-faults}
 
-Certaines alertes concernent l’équipement, pas une mesure. Quand un appareil comme un Trident ou une pompe Jecod signale une panne, Cora envoie une notification qui nomme l’aquarium et l’appareil, par exemple *« Aquarium principal : Pompe de remontée demande de l’attention »*. Elle dit aussi ce qui ne va pas, comme un rotor bloqué. Quand la panne disparaît, vous en recevez une deuxième : *« Aquarium principal : Pompe de remontée fonctionne de nouveau »*. Les deux relèvent de **Pannes d’équipement** dans **Réglages → Notifications**.
+Certaines alertes concernent l’équipement, pas une mesure. Quand un appareil comme un Trident ou une pompe Jecod signale une panne, Cora envoie une notification qui nomme l’aquarium et l’appareil, par exemple *« Aquarium principal : Pompe de remontée demande de l’attention »*. Elle dit aussi ce qui ne va pas, comme un rotor bloqué. Quand la panne disparaît, vous en recevez une deuxième : *« Aquarium principal : Pompe de remontée fonctionne de nouveau »*. Les deux relèvent de **Pannes d’équipement** dans **Paramètres → Notifications**.
 
 Un AquaWiz KH Controller lu toutes les heures par votre Cora Max déclenche le même type d’alerte quand :
 
@@ -93,7 +93,7 @@ Un AquaWiz KH Controller lu toutes les heures par votre Cora Max déclenche le m
 - sa sonde pH est défaillante ou proche de la fin de sa vie ;
 - le niveau de son réservoir d’eau reste bas ou haut pendant plus d’une heure.
 
-Cela demande la lecture horaire par le Cora Max (à partir de la prochaine mise à jour de Cora Max) (voir [Contrôler l’équipement depuis Cora Max](/help/max-device-control#aquawiz-hourly)) : la lecture cloud d’AquaWiz toutes les 12 heures ne les transmet pas.
+Cela demande la lecture horaire par le Cora Max (voir [Contrôler l’équipement depuis Cora Max](/help/max-device-control#aquawiz-hourly)) : la lecture cloud d’AquaWiz toutes les 12 heures ne les transmet pas.
 
 
 ## Un appareil ne remonte plus de mesures {#stopped-reporting}
@@ -116,16 +116,16 @@ Ce qu’il faut vérifier dépend de la façon dont Cora lit l’appareil.
 - AquaWiz est lu par votre compte chez le fabricant. Vérifiez la connexion du compte sur la page de l’appareil dans Cora Mobile.
 
 
-Ces notifications relèvent de **Pannes d’équipement** dans **Réglages → Notifications**.
+Ces notifications relèvent de **Pannes d’équipement** dans **Paramètres → Notifications**.
 
 
 Un aquarium Red Sea peut aussi afficher un bandeau, *« Les relevés Red Sea ne se mettent plus à jour »*, quand aucun téléphone ni aucun Cora Max ne lit son équipement ReefBeat. Touchez-le pour choisir un **Cora Max principal**. La solution complète est dans [Résolution de problèmes](/help/troubleshooting#red-sea-readings-have-stopped-updating).
 
 ## Choisir ce qui vous parvient {#choosing-what-reaches-you}
 
-Dans **Réglages → Notifications**, vous choisissez quelles catégories peuvent vous envoyer une notification. Voir [Notifications](/help/mobile-notifications), qui explique aussi comment [garder des nuits calmes](/help/mobile-notifications#quiet-at-night).
+Dans **Paramètres → Notifications**, vous choisissez quelles catégories peuvent vous envoyer une notification. Voir [Notifications](/help/mobile-notifications), qui explique aussi comment [garder des nuits calmes](/help/mobile-notifications#quiet-at-night).
 
-Reef Buddy n’a pas d’interrupteur à lui. Son horaire est la ligne **Heure du briefing**, juste sous Notifications dans les Réglages. Avec le forfait gratuit, il n’y a pas de notification de briefing.
+Reef Buddy n’a pas d’interrupteur à lui. Son horaire est la ligne **Heure du briefing**, juste sous Notifications dans les Paramètres. Avec le forfait gratuit, il n’y a pas de notification de briefing.
 
 :::note Cora reste silencieux sauf si quelque chose a changé
 Le briefing quotidien est une seule notification par aquarium et par jour. Un jour où rien ne demande votre attention, il reste en général silencieux au lieu de vous dire que tout va bien. Si Cora vous envoie une notification, quelque chose a changé.

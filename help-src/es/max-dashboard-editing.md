@@ -2,7 +2,7 @@
 title: Editar el panel de Cora Max
 description: Añade, mueve y quita tarjetas en el panel de Cora Max, elige una cuadrícula, usa plantillas o Diseñar con IA y guarda diseños para reutilizarlos en cualquier Cora Max.
 section: Cora Max
-reviewed: 2026-10-17
+reviewed: 2026-10-18
 order: 4
 group: Your dashboard
 twin: mobile-dashboard-editing
@@ -49,7 +49,7 @@ Cuando cambias la cuadrícula, Cora no descarta tarjetas según su posición. La
 
 Los gestos aparecen arriba en el editor: **toca una tarjeta para editar**, **mantén pulsado para mover** y **✕ para eliminar**. **Vaciar todo** vacía la cuadrícula para que empieces de nuevo.
 
-Los tipos de tarjeta son Valor, Medidor, Gráfico, Estado, Toma, Escena, ReefBeat, Módulo del Apex y Jecod. Los encontrarás en la [Referencia de widgets](/help/mobile-widgets). La tarjeta **Escena** solo existe en Cora Max. Ejecuta una [escena](/help/max-automation) con un toque.
+Los tipos de tarjeta son Valor, Medidor, Gráfico, Estado, Toma, Escena, ReefBeat, Módulo del Apex y Jecod. **Luz**, **Bomba de circulación** y **Bomba** enumeran todas las luces, bombas de circulación y bombas del acuario, sea cual sea la marca, y cada una aparece solo cuando el acuario tiene una. Las encontrarás en la [Referencia de widgets](/help/mobile-widgets). La tarjeta **Escena** solo existe en Cora Max. Ejecuta una [escena](/help/max-automation) con un toque.
 
 
 ## Tomas y alimentación {#outlets-feed}

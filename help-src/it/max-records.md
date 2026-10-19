@@ -2,7 +2,7 @@
 title: Diario, popolazione e manutenzione
 description: Registra un test, aggiungi una voce di diario, annota un pasto e spunta la manutenzione su Cora Max, e scopri cosa fai ancora dal telefono.
 section: Cora Max
-reviewed: 2026-10-17
+reviewed: 2026-10-18
 order: 10
 group: Records
 twin: mobile-journal
@@ -19,7 +19,7 @@ Cora Max mostra gli stessi registri del telefono, ma qui non puoi modificarli tu
 
 Si trovano tutte nel **menu della vasca** (tocca il nome della vasca nella barra in alto) e in **Impostazioni → [la tua vasca]**. Tutto quello che aggiungi qui compare subito sul telefono, e viceversa.
 
-## Registrare le letture
+## Registrare le letture {#logging-readings}
 
 Apri **Registra parametri**, tocca un parametro, scrivi la lettura con il tastierino sullo schermo e salva. Va subito nella dashboard e nello storico della vasca, così puoi registrare un test alla vasca dove l'hai fatto. Puoi anche dire *"Hey Cora, registra alcalinità 8,1."*
 
@@ -27,7 +27,7 @@ Cora controlla ogni numero prima di salvarlo. Se uno sembra un errore di battitu
 
 Se per quel parametro è già visualizzata una lettura più recente, il tuo valore dice **Salvato solo nella cronologia**. Viene conservato nello storico e nei grafici, e la dashboard continua a mostrare quello più recente.
 
-## Diario
+## Diario {#journal}
 
 Apri **Diario** dal menu della vasca e tocca **Nuova voce**. Dagli un titolo, e aggiungi una descrizione, dei tag o una foto se vuoi. **Allega parametri dell'acqua** salva con la voce le letture attuali. Oppure di' *"Hey Cora, annota che ho dato mysis."* Di più in [Il diario](/help/mobile-journal).
 
@@ -47,7 +47,7 @@ L'icona accanto a quella dei dispositivi è **Reef Buddy**, e il suo puntino vuo
 
 In alto la schermata dice quante attività sono in scadenza. Sotto, **In arrivo** elenca ogni attività con **OGGI**, **IN 3g** o **IN RITARDO 2g**, e **Completate · ultimi 7 giorni** mostra quello che hai fatto di recente.
 
-- Tocca **Fatto** quando finisci un'attività. Se è in ritardo, Cora chiede **Quando l'hai fatto?**
+- Tocca **Fatto** quando finisci un'attività. Se è in ritardo, Cora chiede **Quando l'hai fatto?** Cora aggiunge anche una breve voce al tuo [diario](/help/max-records#journal), segnalando se l'attività era in ritardo.
 - Tocca **Fatto prima…** se l'hai fatta prima di oggi. Scegli data e ora, e la prossima scadenza si calcola da lì. Un'ora futura, o precedente all'ultimo completamento, non viene accettata.
 - Tocca **Rinvia** per spostarla di **1 giorno**, **3 giorni**, **1 settimana**, **2 settimane** o **1 mese**.
 

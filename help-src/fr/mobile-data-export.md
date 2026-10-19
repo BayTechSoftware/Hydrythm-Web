@@ -9,11 +9,11 @@ group: Settings and account
 
 Les suivis de votre aquarium vous appartiennent. Cette page explique comment les exporter, et comment supprimer votre compte si vous le souhaitez.
 
-![Exporter mes données et Supprimer le compte dans Cora Mobile](img/mobile-data.webp "Réglages, puis votre compte : Exporter mes données et Supprimer le compte se trouvent sous Se déconnecter.")
+![Exporter mes données et Supprimer le compte dans Cora Mobile](img/mobile-data.webp "Paramètres, puis votre compte : Exporter mes données et Supprimer le compte se trouvent sous Se déconnecter.")
 
 ## Exporter {#exporting}
 
-1. Ouvrez **Réglages** et touchez la carte du compte en haut. **Compte et abonnement** s’ouvre.
+1. Ouvrez **Paramètres** et touchez la carte du compte en haut. **Compte et abonnement** s’ouvre.
 2. Touchez **Exporter mes données**.
 
 L’export est **gratuit avec tous les forfaits**, y compris le forfait gratuit.
@@ -52,7 +52,7 @@ Un abonnement App Store ou Google Play appartient à la **boutique**. Supprimer 
 :::
 
 1. Si vous voulez garder quelque chose, [exportez-le](#exporting) d’abord.
-2. Ouvrez **Réglages**, touchez la carte du compte, puis **Supprimer le compte**.
+2. Ouvrez **Paramètres**, touchez la carte du compte, puis **Supprimer le compte**.
 3. Lisez la confirmation. Si vous avez un abonnement par une boutique, elle propose un bouton **Gérer l’abonnement** pour que vous puissiez résilier d’abord.
 4. Touchez **Supprimer**.
 
@@ -62,7 +62,7 @@ Si vous vous êtes connecté il y a longtemps, Cora peut vous demander de prouve
 
 ## Partager des données anonymisées {#contributing-anonymised-data}
 
-**Réglages → Cora Assistant → Contribuer des données d’aquarium anonymisées.**
+**Paramètres → Cora Assistant → Contribuer des données d’aquarium anonymisées.**
 
 Tant que cette option est activée, l’historique des paramètres de votre aquarium est conservé pour la recherche sur les récifs, **sans aucun lien avec vous**. Cela se produit quand vous supprimez un aquarium, et quand vous supprimez votre compte. Désactivez-la et cet historique est supprimé avec tout le reste.
 

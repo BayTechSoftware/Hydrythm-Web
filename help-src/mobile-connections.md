@@ -2,7 +2,7 @@
 title: Connecting your equipment
 description: How to connect a Neptune Apex, Red Sea ReefBeat, Jecod or AquaWiz unit to Cora.
 section: Cora Mobile
-reviewed: 2026-10-17
+reviewed: 2026-10-18
 order: 12
 group: Equipment
 ---
@@ -90,6 +90,8 @@ With **Stay connected automatically** on, Cora keeps your AquaWiz password and r
 
 You get alkalinity as a source, and pH too if your unit reports it and **Also read its pH** is on. Your first reading arrives as soon as you link. After that AquaWiz lets Cora read its cloud automatically only every 12 hours, so a reading from there can be up to about half a day old. A Cora Max at the tank can also read the controller itself every hour when it can reach it. Open the device's page to see when each reading was measured and where it came from, and tap **Read now** for a fresh one (at most once every 15 minutes). What the AquaWiz card shows, and its alerts, are in [Controlling your equipment](/help/mobile-device-control#aquawiz).
 
+To move the controller to another tank, open its page in **Devices** and tap **Change** under **Tanks**. You don't have to sign in to AquaWiz again.
+
 :::warning Cora shares your AquaWiz sign-in
 AquaWiz gives each account one sign-in, so Cora uses the same one as the AquaWiz app. If you change your AquaWiz password, Cora disconnects. Reconnect it from the device row afterwards. To take away Cora's access completely, remove the device in Cora and change your AquaWiz password.
 :::
@@ -104,7 +106,7 @@ Cora reaches an AquaWiz in up to three ways, and they work together.
 | AquaWiz's Cora service | The latest KH and pH reading. | When you link, then every 12 hours (the AquaWiz limit), and when you open the device page or tap **Read now** (at most every 15 minutes) |
 | A Cora Max at the tank | Reads the controller directly over the controller's own Wi-Fi, and adds pump, pH probe and water box alerts. | Every hour |
 
-Without a Cora Max, readings come every 12 hours, which is AquaWiz's limit, so one can be up to about half a day old. **Want hourly readings? Add a Cora Max at your tank.** [See Cora Max](https://coraiq.tech/#max) and [set it up](/help/max-setup). It arrives with the next Cora Max update, and needs the controller within Cora Max's Wi-Fi range and controller firmware with local access. The details are in [Hourly reading from Cora Max](/help/max-device-control#aquawiz-hourly).
+Without a Cora Max, readings come every 12 hours, which is AquaWiz's limit, so one can be up to about half a day old. **Want hourly readings? Add a Cora Max at your tank.** [See Cora Max](https://coraiq.tech/#max) and [set it up](/help/max-setup). It needs the controller within Cora Max's Wi-Fi range and controller firmware with local access. The details are in [Hourly reading from Cora Max](/help/max-device-control#aquawiz-hourly).
 
 The device card shows where each reading came from: **Hourly from your Cora Max** or **From AquaWiz cloud, every 12 hours**.
 

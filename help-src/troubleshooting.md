@@ -129,7 +129,7 @@ That's normal. A Red Sea device's own settings only open when your phone is on t
 
 That can be normal. AquaWiz lets Cora read its cloud only every 12 hours, so without a Cora Max a reading can be up to about half a day old. Open the device's page in Cora Mobile: it shows when the reading was measured and where it came from, and **Read now** asks for a fresh one (at most once every 15 minutes).
 
-If you have a Cora Max (with the next Cora Max update) and the card still says **From AquaWiz cloud, every 12 hours**:
+If you have a Cora Max and the card still says **From AquaWiz cloud, every 12 hours**:
 
 - Check the controller is within Wi-Fi range of the tank's main Cora Max.
 - Check the controller's firmware is up to date in the AquaWiz app; older firmware has no local access.
@@ -243,6 +243,14 @@ After it loses its connection, Cora Max waits a bit longer before each retry so 
 
 1. Give it about a minute after your network comes back.
 2. If it still hasn't reconnected, check **Settings → Cora Max Settings → Wi-Fi**.
+
+### Cora Max says "Bluetooth stopped working" {#bluetooth-stopped-working}
+
+A card with this title covers the screen: *Cora Max can't reach your Bluetooth devices (lights, pumps, sensors). Restarting Cora Max fixes this.* It appears when Cora Max's Bluetooth has stopped and only a restart brings it back.
+
+1. Tap **Restart now**. Cora Max restarts.
+2. If now is a bad time, tap **Later**. The card goes away for 30 minutes and comes back for as long as the problem lasts.
+3. If nothing restarts when you tap **Restart now**, restart Cora Max by switching its power off and on.
 
 ### Renaming a Cora Max on the phone doesn't change what it shows {#renaming-a-cora-max-on-the-phone-doesnt-change-what-the-tabl}
 

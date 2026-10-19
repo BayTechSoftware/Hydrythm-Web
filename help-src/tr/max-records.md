@@ -2,7 +2,7 @@
 title: Günlük, canlılar ve bakım
 description: Cora Max'te test kaydedin, günlüğe kayıt ekleyin, besleme kaydedin ve bakım görevlerini tamamlayın. Hâlâ telefonunuzda yaptıklarınızı da görün.
 section: Cora Max
-reviewed: 2026-10-17
+reviewed: 2026-10-18
 order: 10
 group: Records
 twin: mobile-journal
@@ -19,7 +19,7 @@ Cora Max telefonunuzla aynı kayıtları gösterir, ama hepsini burada değişti
 
 Hepsi **akvaryum menüsünde** (üst çubukta akvaryum adına dokunun) ve **Ayarlar → [akvaryumunuz]** altında. Burada eklediğiniz her şey hemen telefonunuzda görünür, tersi de geçerli.
 
-## Ölçüm kaydetme
+## Ölçüm kaydetme {#logging-readings}
 
 **Parametreleri kaydet**'i açın, bir parametreye dokunun, ölçümü ekran klavyesiyle yazın ve kaydedin. Doğrudan akvaryumun panosuna ve geçmişine gider, böylece testi yaptığınız yerde, akvaryumun başında kaydedebilirsiniz. *"Hey Cora, alkaliniteyi 8.1 olarak kaydet"* de diyebilirsiniz.
 
@@ -27,7 +27,7 @@ Cora her sayıyı kaydetmeden önce kontrol eder. Biri yazım hatası gibi gör�
 
 O parametre için daha yeni bir ölçüm zaten gösteriliyorsa değerinizin yanında **Yalnızca geçmişe kaydedildi** yazar. Değer geçmişte ve grafiklerde saklanır, pano ise daha yeni olanı göstermeye devam eder.
 
-## Günlük
+## Günlük {#journal}
 
 Akvaryum menüsünden **Günlük**'ü açın ve **Yeni kayıt**'a dokunun. Bir başlık verin, isterseniz açıklama, etiket ya da fotoğraf ekleyin. **Su parametrelerini ekle**, güncel ölçümleri kayıtla birlikte saklar. Ya da *"Hey Cora, mysis ile beslediğimi kaydet"* deyin. Ayrıntılar [Günlük](/help/mobile-journal) sayfasında.
 
@@ -47,7 +47,7 @@ Cihazlar simgesinin yanındaki simge **Reef Buddy**'dir. Üzerindeki nokta, bug�
 
 Ekranın üstü kaç görevin zamanının geldiğini söyler. Altında **Yaklaşan**, her görevi **BUGÜN**, **3g İÇİNDE** ya da **GECİKTİ 2g** ile listeler. **Tamamlandı · son 7 gün** de son yaptıklarınızı gösterir.
 
-- Bir görevi bitirdiğinizde **Tamamlandı**'ya dokunun. Zamanı geçmişse Cora **Ne zaman yaptınız?** diye sorar.
+- Bir görevi bitirdiğinizde **Tamamlandı**'ya dokunun. Zamanı geçmişse Cora **Ne zaman yaptınız?** diye sorar. Cora ayrıca [günlüğünüze](/help/max-records#journal) kısa bir kayıt ekler ve görev gecikmişse bunu da belirtir.
 - Bugünden önce yaptıysanız **Daha önce yapıldı…**'ya dokunun. Tarihi ve saati seçin, bir sonraki tarih o andan sayılır. Gelecekteki bir zaman ya da son tamamlamadan önceki bir zaman kabul edilmez.
 - Görevi **1 Gün**, **3 Gün**, **1 Hafta**, **2 Hafta** ya da **1 Ay** ertelemek için **Ertele**'ye dokunun.
 

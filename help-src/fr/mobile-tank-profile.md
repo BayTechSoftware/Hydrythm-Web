@@ -9,11 +9,11 @@ group: Getting started
 
 Le profil de l’aquarium décrit votre système. Cora s’en sert pour juger les mesures, calculer les doses et décider de ce qui est normal pour votre aquarium en particulier.
 
-Pour l’ouvrir, touchez le **crayon à droite de l’en-tête de l’aquarium**, ou allez dans **Réglages**, touchez l’aquarium et choisissez **Modifier l’aquarium**. Toucher le nom de l’aquarium dans l’en-tête permet de le renommer rapidement. Cela n’ouvre pas le profil.
+Pour l’ouvrir, touchez le **crayon à droite de l’en-tête de l’aquarium**, ou allez dans **Paramètres**, touchez l’aquarium et choisissez **Modifier l’aquarium**. Toucher le nom de l’aquarium dans l’en-tête permet de le renommer rapidement. Cela n’ouvre pas le profil.
 
 ## Configuration guidée {#guided-setup}
 
-Un profil contient beaucoup de choses, alors la **Configuration guidée** vous le fait parcourir une section à la fois. Elle s’ouvre depuis **Configurer mon aquarium, guidé** juste après la création d’un aquarium, depuis **Réglages → Votre aquarium → Configuration guidée**, et depuis l’invitation à compléter le profil sur le tableau de bord.
+Un profil contient beaucoup de choses, alors la **Configuration guidée** vous le fait parcourir une section à la fois. Elle s’ouvre depuis **Configurer mon aquarium, guidé** juste après la création d’un aquarium, depuis **Paramètres → Votre aquarium → Configuration guidée**, et depuis l’invitation à compléter le profil sur le tableau de bord.
 
 Les sections viennent dans cet ordre : **Nom et type de l’aquarium**, **Dimensions de l’aquarium**, **Éclairage**, **Dosage**, **Gestion de l’eau**, **Population**, **Contrôle de la température**, **Brassage et filtration** et **Nuisibles et traitement**. Le haut de l’écran affiche **Étape 2 sur 10** et ainsi de suite.
 
@@ -21,7 +21,7 @@ Les sections viennent dans cet ordre : **Nom et type de l’aquarium**, **Dimen
 - **Terminer plus tard** vous ramène en arrière et garde les réponses enregistrées jusque-là. Quand vous rouvrez la configuration guidée, elle reprend là où vous vous êtes arrêté.
 - Si vous quittez une section avec des changements non enregistrés, Cora demande **Quitter cette étape ?** Touchez **Continuer à modifier** ou **Quitter**.
 
-Si vous n’y avez pas encore répondu, la dernière page est **Cora Assistant et vos données**. Activez **Utiliser les données de mon aquarium pour des conseils personnalisés** si vous voulez que les réponses de Cora Assistant utilisent ce profil, puis touchez **Enregistrer**, ou touchez **Décider plus tard**. Vous pouvez changer cela à tout moment dans les Réglages. Voir [Interroger Cora](/help/mobile-assistant#consent).
+Si vous n’y avez pas encore répondu, la dernière page est **Cora Assistant et vos données**. Activez **Utiliser les données de mon aquarium pour des conseils personnalisés** si vous voulez que les réponses de Cora Assistant utilisent ce profil, puis touchez **Enregistrer**, ou touchez **Décider plus tard**. Vous pouvez changer cela à tout moment dans les Paramètres. Voir [Interroger Cora](/help/mobile-assistant#consent).
 
 À la fin, vous voyez **Bon travail : le profil de votre aquarium est configuré**. **Ajouter des appareils** vous mène à l’onglet **Appareils** pour ajouter l’équipement de cet aquarium, et **Aller à mon tableau de bord** vous ramène au tableau de bord.
 
@@ -57,17 +57,17 @@ Dans le profil, les sections sont listées ainsi. Touchez-en une pour l’ouvrir
 
 Quand vous ajoutez un chauffage, une pompe, une lampe ou un écumeur sous **Contrôle de la température**, **Brassage et filtration** ou **Éclairage**, Cora suggère des marques et des modèles pendant que vous tapez. Si le vôtre n’est pas dans la liste, tapez-le quand même. Cora garde ce que vous saisissez.
 
-**Sources des paramètres** n’apparaît pas pendant que vous ajoutez un nouvel aquarium. Il couvre le même choix que l’**Association des paramètres** dans les réglages de l’aquarium, qui vous donne le contrôle complet sur chaque sonde. Voir [Association des paramètres](/help/mobile-probes).
+**Sources des paramètres** n’apparaît pas pendant que vous ajoutez un nouvel aquarium. Il couvre le même choix que l’**Association des paramètres** dans les paramètres de l’aquarium, qui vous donne le contrôle complet sur chaque sonde. Voir [Association des paramètres](/help/mobile-probes).
 
 ![La moitié inférieure d’un profil d’aquarium dans Cora Mobile](img/mobile-tank-profile-devices.webp "Sources des paramètres et Nuisibles et traitement, puis Retirer l’aquarium en bas.")
 
 :::note Les appareils sont dans l’onglet Appareils
-Votre Apex, vos appareils Red Sea et tous les autres appareils s’ajoutent, s’attribuent et se retirent depuis l’onglet **Appareils**, pas depuis le profil. Voir [Ajouter, modifier et retirer des appareils](/help/mobile-devices). La page de l’aquarium dans **Réglages** affiche une liste **Appareils sur cet aquarium** en lecture seule si vous voulez simplement vérifier ce qui est attribué.
+Votre Apex, vos appareils Red Sea et tous les autres appareils s’ajoutent, s’attribuent et se retirent depuis l’onglet **Appareils**, pas depuis le profil. Voir [Ajouter, modifier et retirer des appareils](/help/mobile-devices). La page de l’aquarium dans **Paramètres** affiche une liste **Appareils sur cet aquarium** en lecture seule si vous voulez simplement vérifier ce qui est attribué.
 :::
 
 ## Unités {#units}
 
-Chaque aquarium a ses propres unités d’affichage. Touchez l’icône de règle dans l’en-tête de l’aquarium, ou allez dans **Réglages**, touchez l’aquarium et choisissez **Unités**. Vous pouvez régler comment cet aquarium affiche la salinité, la température, l’alcalinité, le volume, les phosphates et les nitrates. Le volume peut être en litres, en gallons US ou en gallons UK.
+Chaque aquarium a ses propres unités d’affichage. Touchez l’icône de règle dans l’en-tête de l’aquarium, ou allez dans **Paramètres**, touchez l’aquarium et choisissez **Unités**. Vous pouvez régler comment cet aquarium affiche la salinité, la température, l’alcalinité, le volume, les phosphates et les nitrates. Le volume peut être en litres, en gallons US ou en gallons UK.
 
 Les unités s’appliquent à cet aquarium sur chaque téléphone et chaque Cora Max qui l’ouvre. Vos mesures ne sont pas modifiées, seulement leur affichage. Les jauges, les tuiles, l’historique, les rapports et ce que dit Cora Assistant suivent tous ce choix. Sur Cora Max, ouvrez le menu de l’aquarium et touchez **Unités**.
 
@@ -91,7 +91,7 @@ Mettez le profil à jour quand votre système change, par exemple un nouvel équ
 
 ## Ajouter un autre aquarium {#adding-another-tank}
 
-Allez dans **Réglages** et touchez **Ajouter un aquarium**. Cela ouvre ce même profil, vide, avec **Enregistrer l’aquarium** en bas. Les étapes complètes, y compris l’équipement et Cora Max, sont dans [Gérer vos aquariums](/help/mobile-tanks#adding-another-tank).
+Allez dans **Paramètres** et touchez **Ajouter un aquarium**. Cela ouvre ce même profil, vide, avec **Enregistrer l’aquarium** en bas. Les étapes complètes, y compris l’équipement et Cora Max, sont dans [Gérer vos aquariums](/help/mobile-tanks#adding-another-tank).
 
 ## Retirer un aquarium {#removing-a-tank}
 

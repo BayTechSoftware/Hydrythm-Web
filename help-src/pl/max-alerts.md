@@ -38,7 +38,7 @@ Każdy aktywny alert pojawia się też jako mała etykieta na górnym pasku, do�
 
 **Ustawienia → Ustawienia Cora Max → Historia powiadomień** to skrzynka całego Twojego konta. Zawiera każde podsumowanie, alarm i komunikat konta dla Twojego systemu, także te, których nie zgłosił ten ekran, i wszystko, co ominęło telefon. Gdy odczyt wyjdzie poza zakres i wróci, zobaczysz oba zdarzenia.
 
-## Edytowanie progów
+## Edytowanie progów {#editing-thresholds}
 
 ![Ustawienia akwarium na Cora Max, z Progami alertów, Jednostkami i Głównym Cora Max](img/max-tank-settings.webp "Najpierw Progi alertów i Jednostki, potem Główny Cora Max dla tego akwarium.")
 

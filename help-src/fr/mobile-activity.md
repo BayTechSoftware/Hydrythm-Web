@@ -11,7 +11,7 @@ twin: max-activity
 Activité liste chaque tentative de changer quelque chose sur votre équipement : prises allumées ou éteintes, cycles de nourrissage, dosages, et tout ce qu’une scène ou une automatisation a fait. Chaque ligne indique ce qui l’a demandé et ce qui s’est passé ensuite, y compris pour les demandes qui n’ont pas marché.
 
 
-Allez dans **Réglages → Activité**. Si vous avez plusieurs aquariums, choisissez-le avec les puces d’aquarium en haut.
+Allez dans **Paramètres → Activité**. Si vous avez plusieurs aquariums, choisissez-le avec les puces d’aquarium en haut.
 
 ![Activité dans Cora Mobile](img/mobile-activity.webp "La légende des résultats en haut, puis chaque action avec son résultat, sa cause et son trajet.")
 

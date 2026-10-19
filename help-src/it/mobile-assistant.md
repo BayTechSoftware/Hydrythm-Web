@@ -14,7 +14,7 @@ Aprilo dalla scheda **Assistente**.
 
 ![Una risposta di Cora Assistant sull'alcalinità in Cora Mobile](img/mobile-assistant.webp "Una risposta costruita dai dati in tempo reale della vasca, con il numero di messaggi del mese sopra la casella.")
 
-## Prima scegli una vasca
+## Prima scegli una vasca {#pick-a-tank-first}
 
 Il selettore della vasca in alto decide di cosa sta parlando Cora. Le domande che scrivi e le risposte che ricevi appartengono tutte a quella vasca.
 
@@ -74,7 +74,7 @@ Sotto la risposta puoi vedere fino a due sezioni della Guida, ognuna con fino a 
 
 I pulsanti compaiono solo se c'è una schermata o una pagina da aprire.
 
-## Consenso
+## Consenso {#consent}
 
 ![Il consenso dell'Assistente](img/mobile-assistant-consent.webp "Due permessi separati, e la memoria che Cora conserva.")
 

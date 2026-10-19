@@ -39,7 +39,7 @@ Prob çalıştığı halde bir parametrede hiç ölçüm görünmüyorsa önce e
 
 **Kaynaklar** sekmesi, Cora'nın bu akvaryum için izlediği pH ya da sıcaklık gibi her metriği listeler ve şu anda onu hangi probun sağladığını gösterir.
 
-Bağladığınız tüm kontrolcülerde onu bildiren her probu görmek için bir ölçüme dokunun. Her biri markasını, prob için kullandığı kendi adını ve canlı değerini gösterir. Sabitlemek için birini seçin ya da Cora'nın en son bildiren probu kullanması için **Otomatik (en yeni ölçüm kazanır)**'ı seçin. Diğerleri geçmişte kalır.
+Bağladığınız tüm kontrolörlerde onu bildiren her probu görmek için bir ölçüme dokunun. Her biri markasını, prob için kullandığı kendi adını ve canlı değerini gösterir. Sabitlemek için birini seçin ya da Cora'nın en son bildiren probu kullanması için **Otomatik (en yeni ölçüm kazanır)**'ı seçin. Diğerleri geçmişte kalır.
 
 Her ölçümün yanındaki etiket hangisinin geçerli olduğunu gösterir: **Otomatik** ya da bir probu sabitlediğinizde **Sizin seçiminiz**. Seçiminiz tek bir widget için değil, o ölçüm için tüm akvaryumda geçerlidir.
 
@@ -47,7 +47,7 @@ Sabitlenmiş bir prob bildirmeyi bırakırsa Cora ondan en son ne zaman haber al
 
 Bir ölçüme kendi görünen adını vermek için **Yeniden adlandır**'a dokunun. Bu, probun kendisine verdiğiniz addan ayrıdır. Panonuzda, uyarılarda ve Reef Buddy'de görünen budur.
 
-Akvaryum profilinde de bir **Parametre Kaynakları** bölümü vardır (yeni bir akvaryum oluştururken gizlidir). Aynı şeyi daha kısa bir biçimde ayarlar. Her kontrolcüdeki her probu tek yerde görmek istediğinizde Parametre Eşlemesi'ni kullanın.
+Akvaryum profilinde de bir **Parametre Kaynakları** bölümü vardır (yeni bir akvaryum oluştururken gizlidir). Aynı şeyi daha kısa bir biçimde ayarlar. Her kontrolördeki her probu tek yerde görmek istediğinizde Parametre Eşlemesi'ni kullanın.
 
 :::note Sızıntı sensörü burada yeniden atanamaz
 Bir sızıntı sensörünün alarmı kendi adına bağlıdır, bu yüzden bu seçicinin dışında tutulur. Her zamanki gibi çalışır.

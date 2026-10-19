@@ -2,7 +2,7 @@
 title: Editar tu panel
 description: Añade, mueve, cambia de tamaño y quita widgets en el panel del teléfono, elige el número de columnas y edita el panel de un Cora Max desde el teléfono.
 section: Cora Mobile
-reviewed: 2026-10-17
+reviewed: 2026-10-18
 order: 8
 group: Your dashboard
 twin: max-dashboard-editing
@@ -33,7 +33,7 @@ Elige **2**, **3** o **4** junto a **COLUMNAS**, arriba del editor. La cuadrícu
 ## Añadir un widget {#adding-a-widget}
 
 1. Toca **Agregar tarjeta** debajo de la cuadrícula, o toca una celda vacía.
-2. En **Agregar una tarjeta**, elige de qué tipo es. **Parámetro** incluye un valor, un medidor, un gráfico o un estado de un parámetro. **Toma** controla una toma del Apex. Las demás filas son para equipos, como **ReefBeat**, **Trident**, **DŌS** o **Jecod**. La mayoría solo aparecen cuando el acuario tiene ese equipo.
+2. En **Agregar una tarjeta**, elige de qué tipo es. **Parámetro** incluye un valor, un medidor, un gráfico o un estado de un parámetro. **Toma** controla una toma del Apex. Las demás filas son para equipos, como **ReefBeat**, **Trident**, **DŌS** o **Jecod**. La mayoría solo aparecen cuando el acuario tiene ese equipo. **Luz**, **Bomba de circulación** y **Bomba** enumeran todas las luces, bombas de circulación y bombas del acuario, sea cual sea la marca, y cada una aparece solo cuando el acuario tiene una. **ReefBeat** y **Jecod** conservan el resto de sus dispositivos, como una ReefDose o una bomba dosificadora Jecod.
 3. Elige el parámetro, la toma o el dispositivo.
 4. En un parámetro, elige el tipo. La [Referencia de widgets](/help/mobile-widgets) describe cada uno.
 

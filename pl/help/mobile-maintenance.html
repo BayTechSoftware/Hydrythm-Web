@@ -210,7 +210,7 @@
 <aside class="cal cal-warning"><p class="cal-t">Oznaczaj zadanie jako wykonane dopiero po wykonaniu</p><p>Następny termin liczy się od chwili, w której zadanie zostało zrobione. Jeśli oznaczysz otwarte zadanie jako wykonane, przesuną się wszystkie kolejne terminy. Jeśli zrobiono je wcześniej, użyj <strong>Zrobione wcześniej…</strong> i wybierz prawdziwą godzinę. Jeśli go nie zrobiono, zamiast tego odłóż zadanie.</p></aside>
 <p>Zadania nie da się wstrzymać. Pracę, która nie dotyczy bieżącego sezonu, odłóż na <strong>1 miesiąc</strong> albo usuń i dodaj ponownie później.</p>
       <nav class="pn" aria-label="Czytaj dalej"><a class="pn-p" href="/pl/help/mobile-dosing"><span>Poprzedni</span><b>Produkty dozujące i kalkulator dawek</b></a><a class="pn-n" href="/pl/help/mobile-livestock"><span>Następny</span><b>Obsada</b></a></nav>
-      <p class="stamp">Napisano dla Cora Max 0.28.217 i Cora Mobile 0.5.125. Ostatnio sprawdzono 2026-10-17.</p>
+      <p class="stamp">Napisano dla Cora Max 0.28.219 i Cora Mobile 1.4.1. Ostatnio sprawdzono 2026-10-17.</p>
       <p class="ask">Wciąż masz problem? Napisz na <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, pomożemy.</p>
     </article>
   </main>
@@ -601,7 +601,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/pl/help/search.json?v=594e6c5535').then(function (r) { return r.json(); })
+    fetch('/pl/help/search.json?v=303849d9da').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "pl"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Wyszukiwanie jest niedost\u0119pne. U\u017cyj menu." + '</li>';

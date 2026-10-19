@@ -12,7 +12,7 @@ Im Tab **Intelligenz** liegen deine Laborergebnisse und langfristigen Berichte. 
 
 ![Der Tab Intelligenz](img/mobile-intelligence.webp "ICP hochladen, einen Gesundheitsbericht erstellen und sehen, was sich seit dem letzten bewegt hat.")
 
-## Einen ICP-Test hochladen
+## Einen ICP-Test hochladen {#uploading-an-icp-test}
 
 Cora liest den PDF-Bericht, den dein Labor dir schickt. Lade ihn zuerst aus der E-Mail oder von der Website deines Labors herunter. Fotos, Scans und Screenshots lassen sich nicht lesen.
 
@@ -32,7 +32,7 @@ Lädst du denselben Bericht zweimal hoch, zeigt Cora dir den, den du schon hast,
 Die ICP-Analyse schickt den Bericht an die KI, sie braucht also **Cora Assistant erlauben, gespeicherte Beckendaten zu nutzen**. Ist das aus, fragt Cora vor dem Hochladen. Siehe [Wofür der Schalter gilt](/help/mobile-assistant#what-the-switch-covers).
 :::
 
-## Welche E-Mail-Adresse ein Labor nutzen kann
+## Welche E-Mail-Adresse ein Labor nutzen kann {#which-email-a-lab-can-use}
 
 Ein Labor oder ein per E-Mail geschicktes Ergebnis findet dein Konto über die E-Mail-Adresse, die es kennt. Das ist deine Anmelde-E-Mail plus jede Labor-E-Mail, die du unter **Einstellungen → deine Kontokarte (Konto & Abo) → Labor- & ICP-E-Mails** hinzufügst.
 
@@ -44,7 +44,7 @@ Du kannst bis zu 3 Labor-E-Mails hinzufügen. Jede zeigt **Bestätigt** oder **W
 
 Hast du dich mit einer verborgenen Apple-E-Mail-Adresse angemeldet, können Labore dein Konto nicht finden. Der ICP-Bildschirm zeigt dann eine Karte, **Laborergebnisse automatisch erhalten**, die dich zu dieser Einstellung bringt. Wählst du bei der Anmeldung mit Apple **E-Mail-Adresse teilen**, vermeidest du das Problem.
 
-## An Cora senden: Ergebnisse, die ein Labor oder eine E-Mail für dich liefert
+## An Cora senden: Ergebnisse, die ein Labor oder eine E-Mail für dich liefert {#send-to-cora-results-a-lab-or-an-email-delivers-for-you}
 
 Manche Labore können ein Ergebnis direkt an Cora schicken, und ein ICP-PDF, das du per E-Mail schickst, kommt auf dieselbe Weise an. Du musst selbst nichts hochladen.
 
@@ -104,7 +104,7 @@ Ein ICP sagt dir, wo du stehst. Der zweite sagt dir, wohin es geht, und damit ka
 
 Lädst du RO/DI- oder anderes Quellwasser hoch, wähl beim Hochladen **RO/DI-Wasser**. Cora bewertet es nicht an den Zielwerten deines Beckens. Es gibt ein klares Urteil, ob das Wasser sauber genug zum Verwenden ist, und hält diese Zahlen aus den Messwerten deines Beckens heraus. Es wird als eigener Bericht gespeichert. Dasselbe macht Cora bei **Salzmischung** oder **Andere**: Es sagt, wie die Probe aussieht, und bewertet sie nicht als dein Becken.
 
-## Gesundheitsberichte
+## Gesundheitsberichte {#health-reports}
 
 Ein **Gesundheitsbericht** ist eine gründlichere Prüfung des ganzen Systems, von Zeit zu Zeit gemacht. Er betrachtet jeden Wasserwert, jede Quelle, deine Dosierung, deinen Verlauf und deine letzten ICP-Ergebnisse zusammen.
 

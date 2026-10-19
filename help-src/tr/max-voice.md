@@ -23,7 +23,7 @@ Ya da üst çubuktaki **Cora Assistant** simgesine dokunun. Cora hemen dinlemeye
 
 ![Kararmış panonun üstünde, İptal düğmesiyle dinleyen Cora Assistant](img/max-voice-session.webp "Dinleyen Cora Assistant, altında İptal.")
 
-## Ses ve uyandırma sözcüğü ayarları
+## Ses ve uyandırma sözcüğü ayarları {#sound-and-wake-word-settings}
 
 ![Cora Max Ayarları'nda Uyarı sesi, Sesli uyarılar ve Uyandırma sözcüğü anahtarları, altında Reef Buddy özeti anahtarı](img/max-voice.webp "Uyarı sesi, Sesli uyarılar ve Uyandırma sözcüğü, altlarında Reef Buddy.")
 

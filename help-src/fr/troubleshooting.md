@@ -59,7 +59,7 @@ Un [résultat ICP](/help/mobile-icp-health) vous donne un troisième chiffre à 
 
 Ce sont les unités d’affichage de l’aquarium. Vos données sont intactes, et les valeurs sont stockées de la même façon quel que soit leur affichage.
 
-1. Ouvrez **Réglages**, ouvrez cet aquarium et choisissez **Unités**.
+1. Ouvrez **Paramètres**, ouvrez cet aquarium et choisissez **Unités**.
 2. Changez-les là. Chaque téléphone et chaque Cora Max qui affiche cet aquarium se met à jour en conséquence.
 
 ### Une jauge ou un seuil a changé d’aspect après un changement d’unités {#a-gauge-or-threshold-looks-different-after-changing-display-}
@@ -75,7 +75,7 @@ Vos mesures, votre historique et votre journal sont stockés à part de la dispo
 
 ### Établir pourquoi quelque chose a changé {#establishing-why-something-changed}
 
-**Réglages → Activité** liste chaque commande de prise, nourrissage et dosage, et ce qui l’a demandé : Cora Mobile, un Cora Max, la voix, l’Assistant, une automatisation ou votre compte. Plus de détails dans [Activité et chronologie](/help/mobile-activity).
+**Paramètres → Activité** liste chaque commande de prise, nourrissage et dosage, et ce qui l’a demandé : Cora Mobile, un Cora Max, la voix, l’Assistant, une automatisation ou votre compte. Plus de détails dans [Activité et chronologie](/help/mobile-activity).
 
 ## Un appareil ne remonte plus de mesures ou est injoignable {#device-not-reporting}
 
@@ -113,7 +113,7 @@ Le fabricant a rejeté les identifiants enregistrés. Presque toujours, c’est 
 
 Rien sur cet aquarium ne lit votre équipement Red Sea en ce moment, donc les mesures à l’écran ne sont pas rafraîchies.
 
-1. Ouvrez **Réglages**, ouvrez l’aquarium, puis **Cora Max principal**. Vérifiez qu’un Cora Max est défini, ou que **Tout appareil actif (automatique)** est choisi.
+1. Ouvrez **Paramètres**, ouvrez l’aquarium, puis **Cora Max principal**. Vérifiez qu’un Cora Max est défini, ou que **Tout appareil actif (automatique)** est choisi.
 2. Si vous n’avez pas de Cora Max, ouvrez l’aquarium dans Cora Mobile pendant que votre téléphone est sur le même Wi-Fi que l’équipement Red Sea.
 3. Vérifiez que l’équipement Red Sea est allumé et en ligne dans sa propre application.
 
@@ -129,7 +129,7 @@ C’est normal. Les réglages propres d’un appareil Red Sea ne s’ouvrent que
 
 Cela peut être normal. AquaWiz ne laisse Cora lire son cloud que toutes les 12 heures, donc sans Cora Max une mesure peut dater d’une demi-journée. Ouvrez la page de l’appareil dans Cora Mobile : elle indique quand la mesure a été prise et d’où elle vient, et **Lire maintenant** en demande une fraîche (au plus une fois toutes les 15 minutes).
 
-Si vous avez un Cora Max (à partir de la prochaine mise à jour de Cora Max) et que la carte indique toujours **Depuis le cloud AquaWiz, toutes les 12 heures** :
+Si vous avez un Cora Max et que la carte indique toujours **Depuis le cloud AquaWiz, toutes les 12 heures** :
 
 - Vérifiez que le contrôleur est à portée Wi-Fi du Cora Max principal de l’aquarium.
 - Vérifiez dans l’application AquaWiz que le firmware du contrôleur est à jour ; un firmware plus ancien n’a pas d’accès local.
@@ -165,7 +165,7 @@ Un Neptune Apex, un Trident ou une tête DŌS n’a pas répondu à une commande
 Cora Max affiche ce message quand il n’a aucun moyen de joindre votre Apex et qu’aucun autre appareil de l’aquarium ne peut envoyer la commande à sa place. Le message dit d’ajouter les informations Apex dans les Paramètres, mais elles se règlent maintenant sur votre téléphone.
 
 1. Sur votre téléphone, ouvrez **Appareils**, puis votre Apex, et vérifiez son adresse et ses identifiants sous **Connexion**. Corrigez-les avec **Modifier la connexion**.
-2. Ou faites d’un Cora Max qui fonctionne le **Cora Max principal** de cet aquarium : **Réglages**, ouvrez l’aquarium, puis **Cora Max principal**.
+2. Ou faites d’un Cora Max qui fonctionne le **Cora Max principal** de cet aquarium : **Paramètres**, ouvrez l’aquarium, puis **Cora Max principal**.
 
 ### Le nourrissage ne démarre pas depuis le téléphone {#feed-does-not-start}
 
@@ -188,12 +188,12 @@ La tête DŌS a perdu le contact pendant le dosage. Cora vous le dit pour ne pas
 Sur votre téléphone, sa ligne dans l’onglet **Appareils** a un point rouge. Tant qu’il est hors ligne, l’équipement qu’il lit ne se met plus à jour, vous pouvez recevoir des alertes "ne remonte plus de mesures" pour cet équipement, et les commandes envoyées à distance peuvent revenir avec *« Rien n’a été envoyé »*.
 
 1. Vérifiez que Cora Max est alimenté et que l’écran est allumé.
-2. Sur Cora Max, vérifiez **Réglages → Réglages Cora Max → Wi-Fi**, et que votre routeur fonctionne.
+2. Sur Cora Max, vérifiez **Paramètres → Paramètres Cora Max → Wi-Fi**, et que votre routeur fonctionne.
 3. Si un autre Cora Max est sur l’aquarium, réglez le **Cora Max principal** sur **Tout appareil actif (automatique)** pour qu’il puisse prendre le relais. Voir [Plus d’un appareil Cora](/help/mobile-multi-device#primary-cora-max).
 4. S’il ne démarre pas correctement, voir [Mises à jour et récupération](/help/max-updates).
 
 :::tip Soyez prévenu la prochaine fois
-Dans Cora Mobile, ouvrez **Réglages → Automatisations** et créez une règle avec le déclencheur **Quand un appareil passe hors ligne**, choisissez votre Cora Max, et ajoutez l’action **Me notifier**. Plus de détails dans [Automatisations et scènes](/help/mobile-automation).
+Dans Cora Mobile, ouvrez **Paramètres → Automatisations** et créez une règle avec le déclencheur **Quand un appareil passe hors ligne**, choisissez votre Cora Max, et ajoutez l’action **Me notifier**. Plus de détails dans [Automatisations et scènes](/help/mobile-automation).
 :::
 
 ### L’association d’un Cora Max échoue {#pairing-a-cora-max-fails}
@@ -201,10 +201,10 @@ Dans Cora Mobile, ouvrez **Réglages → Automatisations** et créez une règle 
 Cora Mobile trouve un nouveau Cora Max en Bluetooth, puis lui donne votre Wi-Fi. Avant de commencer, ayez au moins un aquarium dans Cora Mobile, le Bluetooth activé, et votre téléphone près de l’écran. Si l’association s’arrête en cours de route, Cora Mobile vous dit pourquoi, avec **Annuler** et **Réessayer** en dessous.
 
 - *« Le Bluetooth est désactivé. Activez-le, puis appuyez à nouveau sur Rechercher. »* Activez le Bluetooth et relancez la recherche.
-- *« L’autorisation Bluetooth est désactivée pour Cora. Activez-la dans les Réglages, puis appuyez à nouveau sur Rechercher. »* Autorisez le Bluetooth pour Cora dans les réglages de votre téléphone. **Réglages → Accès aux appareils** dans Cora Mobile vous y mène.
+- *« L’autorisation Bluetooth est désactivée pour Cora. Activez-la dans les Paramètres, puis appuyez à nouveau sur Rechercher. »* Autorisez le Bluetooth pour Cora dans les réglages de votre téléphone. **Paramètres → Accès aux appareils** dans Cora Mobile vous y mène.
 - *« Aucun appareil de configuration Cora à proximité n’a été trouvé via Bluetooth. »* Placez-vous à côté de Cora Max, vérifiez qu’il affiche son écran de configuration, et relancez la recherche.
 - **Aucun aquarium trouvé** : créez d’abord un aquarium dans Cora Mobile, puis associez.
-- *« Votre téléphone n’a pas pu joindre le Cora Max sur votre Wi-Fi. »* Mettez votre téléphone et Cora Max sur le même réseau Wi-Fi. Sur iPhone, vérifiez aussi que Cora a l’accès au réseau local (**Réglages → Accès aux appareils**). Puis touchez **Réessayer**.
+- *« Votre téléphone n’a pas pu joindre le Cora Max sur votre Wi-Fi. »* Mettez votre téléphone et Cora Max sur le même réseau Wi-Fi. Sur iPhone, vérifiez aussi que Cora a l’accès au réseau local (**Paramètres → Accès aux appareils**). Puis touchez **Réessayer**.
 - *« Le Cora Max n’a pas accepté cette session d’association. »* Réessayer n’aidera pas. Fermez l’écran et recommencez depuis **Appareils → Ajouter un appareil → Cora**.
 
 Pour tout autre message, touchez **Réessayer**. Toute la configuration est dans [Configurer Cora Max](/help/max-setup).
@@ -213,7 +213,7 @@ Pour tout autre message, touchez **Réessayer**. Toute la configuration est dans
 
 Regardez l’étiquette d’état dans la barre du haut. **En ligne** et **Cloud** sont tous deux normaux. Si vous avez plusieurs Cora Max, celui qui ne collecte pas les données affiche **Cloud**, et ses mesures sont tout aussi à jour. **Obsolète** ou **Hors ligne** veut dire que Cora Max a perdu sa source et affiche les dernières données qu’il a reçues.
 
-- Vérifiez le Wi-Fi sous **Réglages → Réglages Cora Max → Wi-Fi**.
+- Vérifiez le Wi-Fi sous **Paramètres → Paramètres Cora Max → Wi-Fi**.
 - Vérifiez que votre réseau lui-même fonctionne.
 - Si l’étiquette indique **En ligne** ou **Cloud** et que les données sont toujours anciennes, le problème est en amont de Cora Max. Vérifiez le même aquarium sur votre téléphone.
 
@@ -225,7 +225,7 @@ Votre Apex a refusé les identifiants que Cora a enregistrés, en général parc
 
 Cora Cloud refuse d’enregistrer une partie des données de cet écran. Rien ne va mal avec votre aquarium ni avec Cora Max, et rien n’est à changer sur l’écran. La solution est une mise à jour de Cora Cloud.
 
-1. Ouvrez **Réglages → Réglages Cora Max** et faites défiler jusqu’à **ÉTAT**. La ligne **Enregistrement cloud** indique quelles données sont refusées, par exemple les mesures ou les prises d’un appareil.
+1. Ouvrez **Paramètres → Paramètres Cora Max** et faites défiler jusqu’à **ÉTAT**. La ligne **Enregistrement cloud** indique quelles données sont refusées, par exemple les mesures ou les prises d’un appareil.
 2. [Contactez l’assistance](/support.html) et dites-nous ce qu’indique cette ligne.
 
 Vos mesures continuent de s’afficher sur Cora Max en attendant. Elles ne sont simplement pas enregistrées sur votre compte tant que la correction n’est pas en place.
@@ -242,7 +242,15 @@ Le Cora Max principal de cet aquarium s’est déconnecté. Cet écran affiche l
 Après avoir perdu sa connexion, Cora Max attend un peu plus longtemps avant chaque nouvelle tentative, pour ne pas inonder votre réseau. L’attente monte jusqu’à environ une minute.
 
 1. Laissez-lui environ une minute après le retour de votre réseau.
-2. S’il ne s’est toujours pas reconnecté, vérifiez **Réglages → Réglages Cora Max → Wi-Fi**.
+2. S’il ne s’est toujours pas reconnecté, vérifiez **Paramètres → Paramètres Cora Max → Wi-Fi**.
+
+### Cora Max affiche "Le Bluetooth ne fonctionne plus" {#bluetooth-stopped-working}
+
+Une carte portant ce titre recouvre l’écran : *Cora Max ne peut plus joindre vos appareils Bluetooth (éclairages, pompes, capteurs). Un redémarrage de Cora Max règle le problème.* Elle apparaît quand le Bluetooth de Cora Max s’est arrêté et que seul un redémarrage le remet en marche.
+
+1. Touchez **Redémarrer maintenant**. Cora Max redémarre.
+2. Si ce n’est pas le bon moment, touchez **Plus tard**. La carte disparaît pendant 30 minutes et revient tant que le problème dure.
+3. Si rien ne redémarre quand vous touchez **Redémarrer maintenant**, redémarrez Cora Max en coupant puis en rétablissant son alimentation.
 
 ### Renommer un Cora Max sur le téléphone ne change pas ce qu’il affiche {#renaming-a-cora-max-on-the-phone-doesnt-change-what-the-tabl}
 
@@ -255,7 +263,7 @@ Le nom que vous réglez sur votre téléphone est l’étiquette de cet appareil
 
 Les commandes du mot d’activation sont avec les réglages du son, pas avec ceux de Cora Assistant.
 
-1. Sur Cora Max, allez dans **Réglages → Réglages Cora Max**, et trouvez **Mot d’activation** sous **SON ET VOIX**.
+1. Sur Cora Max, allez dans **Paramètres → Paramètres Cora Max**, et trouvez **Mot d’activation** sous **SON ET VOIX**.
 2. Désactivez-le. Vous pouvez toujours toucher l’icône **Cora Assistant** pour commencer à parler.
 
 Plus de détails dans [Parler à Cora](/help/max-voice).
@@ -267,7 +275,7 @@ C’est le rôle du verrouillage enfant. Après un certain temps sans contact, i
 1. Appuyez trois fois sur **Volume +** ou **Volume -** en moins de deux secondes, ou
 2. Posez cinq doigts en haut à droite de l’écran pendant dix secondes.
 
-Plus de détails dans [Réglages de Cora Max](/help/max-settings#child-lock).
+Plus de détails dans [Paramètres de Cora Max](/help/max-settings#child-lock).
 
 ### Une scène créée sur le téléphone n’est pas modifiable sur Cora Max {#a-scene-made-on-the-phone-doesnt-show-up-as-editable-on-cora}
 
@@ -295,7 +303,7 @@ Une alerte disparaît quand la mesure revient dans la plage. Si elle ne dispara�
 
 ### Je ne reçois pas de notifications {#im-not-getting-notifications}
 
-1. Dans **Réglages → Notifications**, vérifiez que la catégorie est autorisée à envoyer des notifications.
+1. Dans **Paramètres → Notifications**, vérifiez que la catégorie est autorisée à envoyer des notifications.
 2. Vérifiez l’autorisation de notification de votre téléphone pour Cora.
 3. Le briefing quotidien reste silencieux les jours où rien n’a changé. S’il s’est complètement arrêté, voir l’entrée suivante.
 
@@ -304,7 +312,7 @@ Plus de détails dans [Notifications](/help/mobile-notifications).
 ### Mon briefing quotidien s’est arrêté {#my-daily-briefing-stopped}
 
 - Votre essai est terminé. Reef Buddy fait partie des forfaits payants. Après l’essai de 30 jours, un compte gratuit ne reçoit plus le briefing quotidien. Voir [Forfaits et abonnements](/help/mobile-plans).
-- L’aquarium n’est pas couvert par votre forfait. Chaque forfait couvre un nombre fixe d’aquariums, comptés dans l’ordre de **Réglages → Réorganiser les aquariums**. Remontez un aquarium pour l’inclure.
+- L’aquarium n’est pas couvert par votre forfait. Chaque forfait couvre un nombre fixe d’aquariums, comptés dans l’ordre de **Paramètres → Réorganiser les aquariums**. Remontez un aquarium pour l’inclure.
 - Rien n’a changé aujourd’hui. Le briefing reste silencieux un jour calme.
 
 Plus de détails dans [Reef Buddy](/help/mobile-reef-buddy).
@@ -313,7 +321,7 @@ Plus de détails dans [Reef Buddy](/help/mobile-reef-buddy).
 
 Un aquarium retiré est conservé pour son historique, mais il n’envoie ni alertes ni rappels, et ses automatisations s’arrêtent. Si vous en recevez encore une :
 
-1. Ouvrez **Réglages → Aquariums supprimés**. Si l’aquarium n’y figure pas, il n’a pas été retiré.
+1. Ouvrez **Paramètres → Aquariums supprimés**. Si l’aquarium n’y figure pas, il n’a pas été retiré.
 2. Mettez à jour Cora Mobile et votre Cora Max vers la dernière version.
 3. Vous recevez toujours des alertes ? Écrivez au support avec le texte de l’alerte et l’heure. Voir [Signaler un problème](/help/mobile-support).
 
@@ -328,11 +336,11 @@ Vous n’avez pas choisi d’aquarium avant de poser la question, ou le mauvais 
 
 ### Cora Assistant refuse de répondre, ou affiche à nouveau un écran de consentement {#cora-assistant-refuses-to-answer-or-shows-a-consent-screen-a}
 
-**Autoriser Cora Assistant à utiliser les données d’aquarium enregistrées** est désactivé, il n’a donc rien à partir de quoi répondre. Touchez **Accepter et continuer** sur l’écran de consentement, ou activez l’interrupteur dans **Réglages → Cora Assistant**.
+**Autoriser Cora Assistant à utiliser les données d’aquarium enregistrées** est désactivé, il n’a donc rien à partir de quoi répondre. Touchez **Accepter et continuer** sur l’écran de consentement, ou activez l’interrupteur dans **Paramètres → Cora Assistant**.
 
 ### Cora Max indique "La voix a besoin de votre accord" {#voice-needs-your-ok}
 
-La voix sur Cora Max utilise le même choix de partage de données que Cora Assistant sur votre téléphone. Dans Cora Mobile, ouvrez **Réglages → Cora Assistant** et activez **Autoriser Cora Assistant à utiliser les données d’aquarium enregistrées**, puis réessayez. Plus de détails dans [Parler à Cora](/help/max-voice).
+La voix sur Cora Max utilise le même choix de partage de données que Cora Assistant sur votre téléphone. Dans Cora Mobile, ouvrez **Paramètres → Cora Assistant** et activez **Autoriser Cora Assistant à utiliser les données d’aquarium enregistrées**, puis réessayez. Plus de détails dans [Parler à Cora](/help/max-voice).
 
 ## Résultats de laboratoire et rapports de santé {#lab-results-and-health-reports}
 
@@ -340,7 +348,7 @@ La voix sur Cora Max utilise le même choix de partage de données que Cora Assi
 
 Un résultat ne s’attache qu’une fois qu’il a un aquarium, Cora doit parfois aussi reconnaître l’expéditeur, et Cora a besoin de votre accord pour le lire.
 
-1. Si vous voyez *« Cora Assistant a besoin de votre accord pour le lire. »*, ouvrez **Réglages → Cora Assistant** et activez **Autoriser Cora Assistant à utiliser les données d’aquarium enregistrées**. Le résultat arrive dès que vous acceptez.
+1. Si vous voyez *« Cora Assistant a besoin de votre accord pour le lire. »*, ouvrez **Paramètres → Cora Assistant** et activez **Autoriser Cora Assistant à utiliser les données d’aquarium enregistrées**. Le résultat arrive dès que vous acceptez.
 2. Vérifiez l’indication que Cora affiche la première fois que vous lui envoyez un résultat.
 3. Quand Cora le demande, confirmez à quel aquarium appartient le résultat.
 4. Si vous avez déjà envoyé un résultat, envoyez celui-ci depuis la même adresse e-mail.
@@ -361,7 +369,7 @@ Cela pouvait arriver dans Cora Mobile 1.2 et versions antérieures, et Cora Mobi
 
 Quelqu’un a changé la langue du compte sur l’un de vos appareils. C’est un seul réglage pour tout le compte.
 
-1. Ouvrez **Réglages → Langue** dans Cora Mobile ou sur Cora Max.
+1. Ouvrez **Paramètres → Langue** dans Cora Mobile ou sur Cora Max.
 2. Remettez-la. Le changement s’applique partout.
 
 ### Une ancienne alerte ou un ancien rapport est dans une autre langue après le changement {#an-old-alert-or-report-is-still-in-a-different-language-afte}

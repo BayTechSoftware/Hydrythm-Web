@@ -23,7 +23,7 @@ Die Karte **Startest du ein neues Becken?** erscheint nur bei einem Becken ganz 
 
 Läuft sie, zeigt die Karte auf dem Dashboard **Einfahren fortsetzen · Tag N**. Tippe darauf, um zur Journey zurückzukehren. Steht dort **Einfahren wieder aufnehmen**, ist das Becken noch fürs Einfahren eingerichtet: Tippe darauf, um die Anleitung wieder zu öffnen.
 
-## Ein neues Becken einfahren
+## Ein neues Becken einfahren {#cycling-a-new-tank}
 
 Das ist für ein Becken, das noch nicht bereit für Besatz ist. Beim Einfahren wachsen die Bakterien heran, die giftiges Ammoniak in unbedenkliches Nitrat umwandeln, und die Journey begleitet diesen Prozess bis zum Ende.
 

@@ -38,7 +38,7 @@ Listedeki her cihaz kendi uyandırma ifadesini ve çevrimiçi olup olmadığın�
 Telefon bir uyandırma ifadesi dinlemez. Telefonda konuşmayı dokunarak başlatırsınız ve bu ayar ne derse desin bu her zaman çalışır. Liste yalnızca sesli Cora donanımını gösterir.
 :::
 
-## Birincil Cora Max
+## Birincil Cora Max {#primary-cora-max}
 
 Ağınızdaki ekipmanı bir Cora Max okur. Aynı kontrolöre birden fazla Cora Max ulaşabiliyorsa hepsi onu yan yana yoklar.
 
@@ -59,7 +59,7 @@ Bir birincil cihaz seçmek kontrolörün yükünü azaltır ve aynı kaynaktan g
 Birincil Cora Max, tüm hesap için akvaryum başına ayarlanır. Elinizdeki telefona ya da Cora Max'e ait değildir. Hangi cihazdan değiştirirseniz değiştirin tüm ev için değişir.
 :::
 
-## Evden uzaktayken neler çalışır
+## Evden uzaktayken neler çalışır {#what-works-away-from-home}
 
 Akvaryumunuzun Wi-Fi ağından uzaktayken telefonunuz ekipmanınızla doğrudan konuşmaz. Komut Cora Cloud'a gider, o da onu akvaryumdaki bir Cora Max'e verir. Ekipmana ulaşan o Cora Max'tir.
 

@@ -171,12 +171,12 @@
       <nav class="crumbs" aria-label="Gezinme yolu"><ol><li><a href="/tr/help/">Yardım</a></li><li><a href="/tr/help/max-setup" lang="en">Cora Max</a></li><li><a href="/tr/help/max-settings">Ayarlar ve hesap</a></li></ol></nav>
       <h1>Güncellemeler ve kurtarma</h1>
       
-      <nav class="toc" aria-label="Bu sayfada"><p>Bu sayfada</p><ul><li><a href="#otomatik-guncellemeler">Otomatik güncellemeler</a></li><li><a href="#surumu-ve-guncelleme-ayarlarini-kontrol-etme">Sürümü ve güncelleme ayarlarını kontrol etme</a></li><li><a href="#bir-guncelleme-oldugunda">Bir güncelleme olduğunda</a></li><li><a href="#recovery">Kurtarma</a></li><li><a href="#cora-max-cora-max-hit-a-problem-gosterirse">Cora Max &quot;Cora Max hit a problem&quot; gösterirse</a></li><li><a href="#bir-unite-yeniden-baslamazsa">Bir ünite yeniden başlamazsa</a></li></ul></nav>
+      <nav class="toc" aria-label="Bu sayfada"><p>Bu sayfada</p><ul><li><a href="#otomatik-guncellemeler">Otomatik güncellemeler</a></li><li><a href="#checking-the-version-and-update-settings">Sürümü ve güncelleme ayarlarını kontrol etme</a></li><li><a href="#bir-guncelleme-oldugunda">Bir güncelleme olduğunda</a></li><li><a href="#recovery">Kurtarma</a></li><li><a href="#cora-max-cora-max-hit-a-problem-gosterirse">Cora Max &quot;Cora Max hit a problem&quot; gösterirse</a></li><li><a href="#bir-unite-yeniden-baslamazsa">Bir ünite yeniden başlamazsa</a></li></ul></nav>
 <p>Cora Max kendini güncel tutar. Bu sayfa güncellemelerin ne zaman yüklendiğini, sürümünüzü nasıl kontrol edeceğinizi ve Cora Max normal açılmazsa onu nasıl yeniden çalıştıracağınızı anlatır.</p>
 <h2 id="otomatik-guncellemeler">Otomatik güncellemeler</h2>
 <p>Yeni sürümler çıkar çıkmaz arka planda iner. Siz değiştirmedikçe sabah 3 ile 5 arasındaki <strong>Yükleme penceresi</strong> içinde yüklenirler, böylece siz ekrana bakarken yeniden başlamaz. Bir sürüm sürüm notlarıyla geliyorsa Cora Max onları gösterir.</p>
 <p>Güncel kalmak için bir şey yapmanız gerekmez.</p>
-<h2 id="surumu-ve-guncelleme-ayarlarini-kontrol-etme">Sürümü ve güncelleme ayarlarını kontrol etme</h2>
+<h2 id="checking-the-version-and-update-settings">Sürümü ve güncelleme ayarlarını kontrol etme</h2>
 <figure class="shot"><button type="button" class="zoom" aria-label="Büyüt: Cora Max&#x27;te ağ ve güncellemeler"><img src="/help/img/max-updates.webp" alt="Cora Max&#x27;te ağ ve güncellemeler" width="1280" height="800" loading="lazy" decoding="async"></button><figcaption>Yazılım Güncellemesi, Cora Max Ayarları'nın AĞ VE GÜNCELLEMELER bölümünde.</figcaption></figure>
 <p>Sürümünüz <strong>Ayarlar → Cora Max Ayarları</strong> ekranının en üstündeki kartta (<em>Cora Max · yazılım 0.28.170</em>) ve <strong>YARDIM VE HAKKINDA → Hakkında</strong> altında yazar.</p>
 <p><strong>Ayarlar → Cora Max Ayarları → Yazılım Güncellemesi</strong> (<strong>AĞ VE GÜNCELLEMELER</strong> içinde), kullandığınız sürümü ve bekleyen bir güncelleme olup olmadığını gösterir. Hemen bakmak için <strong>Güncellemeleri kontrol et</strong>'e, bir güncelleme varsa <strong>İndir ve yükle</strong>'ye dokunun.</p>
@@ -208,7 +208,7 @@
 <h2 id="bir-unite-yeniden-baslamazsa">Bir ünite yeniden başlamazsa</h2>
 <p>Ekranda görünen sürümü ve gösterdiği mesajı <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-postayla gönderin. Önce yeniden eşleştirmeyin. Eşleştirme durumu, ne olduğunu anlamamıza çoğu zaman yardım eder.</p>
       <nav class="pn" aria-label="Okumaya devam edin"><a class="pn-p" href="/tr/help/max-settings"><span>Önceki</span><b>Cora Max ayarları</b></a></nav>
-      <p class="stamp">Cora Max 0.28.217 ve Cora Mobile 0.5.125 için yazılmıştır. Son kontrol: 2026-10-17.</p>
+      <p class="stamp">Cora Max 0.28.219 ve Cora Mobile 1.4.1 için yazılmıştır. Son kontrol: 2026-10-17.</p>
       <p class="ask">Sorun devam ediyor mu? <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> adresine yazın, yardımcı olalım.</p>
     </article>
   </main>
@@ -599,7 +599,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/tr/help/search.json?v=32184d0520').then(function (r) { return r.json(); })
+    fetch('/tr/help/search.json?v=f1ddfa4ac9').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "tr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Arama \u015fu anda kullan\u0131lam\u0131yor. Men\u00fcy\u00fc kullan\u0131n." + '</li>';

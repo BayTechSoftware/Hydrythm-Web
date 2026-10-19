@@ -9,7 +9,7 @@ group: Alerts and automation
 
 Le mode vacances aide quelqu’un d’autre à s’occuper de votre aquarium pendant votre absence. Vous choisissez les dates et les tâches, et Cora crée une page web que vous envoyez à votre gardien.
 
-Allez dans Réglages → votre aquarium → **Mode vacances**. Si vous avez plusieurs aquariums, choisissez l’aquarium en haut. Chaque aquarium a son propre plan.
+Allez dans Paramètres → votre aquarium → **Mode vacances**. Si vous avez plusieurs aquariums, choisissez l’aquarium en haut. Chaque aquarium a son propre plan.
 
 ![Le mode vacances dans Cora Mobile](img/mobile-vacation.webp "L’aquarium, un rappel que les alertes vous parviennent toujours, les dates du voyage, puis la liste pour le gardien.")
 
@@ -38,7 +38,7 @@ Le lien fonctionne jusqu’à votre date de retour plus 2 jours. **Nouveau lien*
 
 ## Pendant votre absence {#while-away}
 
-Tout le reste continue de fonctionner normalement : mesures, alertes, Reef Buddy, dosage et automatisations. Le mode vacances ne met rien en pause. Tant qu’il est actif, le haut des Réglages indique *Le mode vacances est activé*. Touchez-le pour revoir le plan ou y mettre fin.
+Tout le reste continue de fonctionner normalement : mesures, alertes, Reef Buddy, dosage et automatisations. Le mode vacances ne met rien en pause. Tant qu’il est actif, le haut des Paramètres indique *Le mode vacances est activé*. Touchez-le pour revoir le plan ou y mettre fin.
 
 :::warning Les alertes vous parviennent toujours
 La page du gardien montre les alertes actives, mais le gardien n’est jamais notifié. Les alertes de paramètres continuent d’arriver sur votre téléphone. Restez joignable, et mettez votre numéro dans le plan. Vérifiez vos [réglages de notifications](/help/mobile-notifications) avant de partir.

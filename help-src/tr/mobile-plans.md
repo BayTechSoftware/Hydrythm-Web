@@ -32,7 +32,7 @@ Akvaryumunuzu izlemek ücretsizdir ve sınırı yoktur. Ücretli planlar size da
 
 Bir hak bittiğinde Cora'nın sizin için daha önce hazırladığı her şeyi okumaya devam edebilirsiniz.
 
-## Deneme süresi
+## Deneme süresi {#the-trial}
 
 **30 günlük Advanced denemeniz hesabınızı oluşturduğunuzda başlar**. Bir özelliği ilk kullanmanızı beklemez ve kart gerekmez. **Hesap ve Abonelik**, onu bittiği tarihle birlikte **Cora Advanced Denemesi** olarak gösterir.
 
@@ -48,7 +48,7 @@ Deneme Reef Buddy'yi ve **Yapay zeka ile tasarla**'yı içerir. Hakları Advance
 
 Bittiğinde hesabınız Free'ye döner. **Hiçbir şey silinmez.** Elinizdeki her ölçümü, günlük kaydını, raporu ve özeti okumaya devam edebilirsiniz.
 
-## Ücretli planlar
+## Ücretli planlar {#paid-tiers}
 
 Üç plan var: **Essential**, **Advanced** ve **Expert**. Her biri aylık ya da yıllık alınabilir. Ayarlar onları Cora Essential, Cora Advanced ve Cora Expert olarak gösterir. Güncel fiyatları Cora Mobile'da ve uygulama mağazanızda bulursunuz, çünkü ödemeyi orada yaparsınız.
 
@@ -112,7 +112,7 @@ Sayaçlar her takvim ayının başında yeniden başlar.
 
 Yükseltmek için yukarıdaki gibi **Yükselt**'i ya da **Expert'e yükselt**'i kullanın. Düşürmek ya da aylık ile yıllık arasında geçmek için **Aboneliği Yönet**'i kullanın. Değişiklikler App Store ya da Google Play üzerinden yapılır ve telefonunuzdaki diğer abonelikler gibi, o mağazanın iade ve iptal koşulları dahil, aynı kurallara uyar.
 
-## İptal etme
+## İptal etme {#cancelling}
 
 Ödeme yaptığınız mağaza üzerinden iptal edersiniz. Cora içinden iptal edemezsiniz. Planınız ödediğiniz dönemin sonuna kadar sürer, sonra Free'ye döner.
 

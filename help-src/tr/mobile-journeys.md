@@ -23,7 +23,7 @@ Rehberli döngü her planda ücretsizdir. Onu akvaryumun panosundan başlatırs�
 
 Yolculuk çalışmaya başladığında panodaki kartta **Döngüye devam et · N. Gün** yazar. Yolculuğa dönmek için ona dokunun. **Döngüyü sürdür** yazıyorsa akvaryum hâlâ döngü için ayarlıdır: rehberi yeniden açmak için ona dokunun.
 
-## Yeni bir akvaryumun döngüsü
+## Yeni bir akvaryumun döngüsü {#cycling-a-new-tank}
 
 Bu, henüz canlılara hazır olmayan bir akvaryum içindir. Döngü, zehirli amonyağı zararsız nitrata çeviren bakterileri çoğaltır ve yolculuk bu süreci sonuna kadar izler.
 

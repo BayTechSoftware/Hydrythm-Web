@@ -15,7 +15,7 @@ Yeni sürümler çıkar çıkmaz arka planda iner. Siz değiştirmedikçe sabah 
 
 Güncel kalmak için bir şey yapmanız gerekmez.
 
-## Sürümü ve güncelleme ayarlarını kontrol etme
+## Sürümü ve güncelleme ayarlarını kontrol etme {#checking-the-version-and-update-settings}
 
 ![Cora Max'te ağ ve güncellemeler](img/max-updates.webp "Yazılım Güncellemesi, Cora Max Ayarları'nın AĞ VE GÜNCELLEMELER bölümünde.")
 

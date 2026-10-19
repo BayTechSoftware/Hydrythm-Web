@@ -11,7 +11,7 @@ Your tank records belong to you. This page shows how to export them, and how to 
 
 ![Export My Data and Delete Account in Cora Mobile](img/mobile-data.webp "Settings, then your account: Export My Data and Delete Account sit below Sign Out.")
 
-## Exporting
+## Exporting {#exporting}
 
 1. Open **Settings** and tap the account card at the top. **Account & Subscription** opens.
 2. Tap **Export My Data**.
@@ -45,7 +45,7 @@ Take an export before you shut down a tank or make big changes to your setup. Th
 
 **Delete Account** is permanent.
 
-## Deleting your account
+## Deleting your account {#deleting-your-account}
 
 :::warning Deleting doesn't cancel your subscription
 An App Store or Google Play subscription belongs to the **store**. Deleting your account removes your record with Cora, but **the billing doesn't stop**. You'll keep being charged until you cancel with Apple or Google yourself. Cancel there first, then delete. See [Cancelling](/help/mobile-plans#cancelling).
@@ -60,7 +60,7 @@ This removes your account, tanks, readings, journal, lab results and device link
 
 If you signed in a while ago, Cora may ask you to prove it's you before it deletes anything. With an email and password, it asks you to **Confirm your password**. With Apple or Google, sign in with them again. Then try again. Until you do, nothing is deleted.
 
-## Contributing anonymised data
+## Contributing anonymised data {#contributing-anonymised-data}
 
 **Settings → Cora Assistant → Contribute anonymized tank data.**
 

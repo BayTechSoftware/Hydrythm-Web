@@ -2,7 +2,7 @@
 title: Edytowanie panelu Cora Max
 description: Dodawaj, przenoś i usuwaj kafelki na panelu Cora Max, wybierz siatkę, użyj szablonów albo Zaprojektuj z AI i zapisuj układy do ponownego użycia na dowolnym Cora Max.
 section: Cora Max
-reviewed: 2026-10-17
+reviewed: 2026-10-18
 order: 4
 group: Your dashboard
 twin: mobile-dashboard-editing
@@ -49,7 +49,7 @@ Gdy zmieniasz siatkę, Cora nie wyrzuca kafelków według pozycji. Kafelki, któ
 
 Gesty są wymienione u góry edytora: **Dotknij kafelek, aby edytować**, **przytrzymaj, aby przenieść** i **✕, aby usunąć**. **Wyczyść wszystko** opróżnia siatkę, żeby zacząć od nowa.
 
-Typy kafelków to Wartość, Wskaźnik, Wykres, Stan, Gniazdo, Scena, ReefBeat, Moduł Apex i Jecod. Znajdziesz je w [Rodzajach widżetów](/help/mobile-widgets). Kafelek **Scena** istnieje tylko na Cora Max. Uruchamia [scenę](/help/max-automation) jednym dotknięciem.
+Typy kafelków to Wartość, Wskaźnik, Wykres, Stan, Gniazdo, Scena, ReefBeat, Moduł Apex i Jecod. **Oświetlenie**, **Pompa cyrkulacyjna** i **Pompa** wymieniają wszystkie lampy, pompy cyrkulacyjne i pompy w akwarium, niezależnie od marki, a każdy wiersz pojawia się tylko wtedy, gdy akwarium ma takie urządzenie. Znajdziesz je w [Rodzajach widżetów](/help/mobile-widgets). Kafelek **Scena** istnieje tylko na Cora Max. Uruchamia [scenę](/help/max-automation) jednym dotknięciem.
 
 
 ## Gniazda i karmienie {#outlets-feed}

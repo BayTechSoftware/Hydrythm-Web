@@ -207,7 +207,7 @@
 <p>Some alerts are about equipment, not a reading. When a device such as a Trident or a Jecod™ pump reports a fault, Cora sends a notification naming the tank and the device, for example <em>"Display tank: Return pump needs attention"</em>. It also says what's wrong, such as a jammed rotor. When the fault clears, you get a second one: <em>"Display tank: Return pump is OK again"</em>. Both fall under <strong>Equipment Faults</strong> in <strong>Settings → Notifications</strong>.</p>
 <p>An AquaWiz™ KH Controller read every hour by your Cora Max raises the same kind of alert when:</p>
 <ul><li>its dosing pump reports a fault;</li><li>its pH probe has failed, or is near the end of its life;</li><li>its water box level stays low or high for over an hour.</li></ul>
-<p>These need the hourly reading from Cora Max (from the next Cora Max update) (see <a href="/help/max-device-control#aquawiz-hourly">Cora Max device pages</a>): AquaWiz's 12-hourly cloud reading doesn't carry them.</p>
+<p>These need the hourly reading from Cora Max (see <a href="/help/max-device-control#aquawiz-hourly">Cora Max device pages</a>): AquaWiz's 12-hourly cloud reading doesn't carry them.</p>
 <h2 id="stopped-reporting">A device has stopped reporting</h2>
 <p>When a connected device goes quiet, Cora sends <em>"[Device]: stopped reporting"</em>. It doesn't mean the device is broken, only that Cora hasn't heard from it for a while. You get a second notification, <em>"[Device]: reporting again"</em>, when it comes back.</p>
 <p>How long Cora waits depends on the device:</p>
@@ -235,7 +235,7 @@
 <p>While a rule is off, Cora doesn't grade that reading. Its widget stays neutral grey and it never raises an alert.</p>
 <aside class="cal cal-warning"><p class="cal-t">Turn a parameter off without deleting its range</p><p>Deleting a rule doesn't always stop Cora assessing that reading. Default reference bands still colour the value and can still feed the briefing. Use the rule's switch.</p></aside>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-consumables"><span>Previous</span><b>Consumables and refill alerts</b></a><a class="pn-n" href="/help/mobile-notifications"><span>Next</span><b>Notifications</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.217 and Cora Mobile 0.5.125. Last checked 2026-10-17.</p>
+      <p class="stamp">Written for Cora Max 0.28.219 and Cora Mobile 1.4.1. Last checked 2026-10-18.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>
@@ -626,7 +626,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/help/search.json?v=ad6eb3513f').then(function (r) { return r.json(); })
+    fetch('/help/search.json?v=7c71dd0350').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "en"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';

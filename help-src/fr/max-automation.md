@@ -1,6 +1,6 @@
 ---
 title: Scènes sur Cora Max
-description: Créez, lancez, modifiez et supprimez des scènes sur Cora Max, depuis Réglages → Automatisations ou une tuile de scène sur le tableau de bord.
+description: Créez, lancez, modifiez et supprimez des scènes sur Cora Max, depuis Paramètres → Automatisations ou une tuile de scène sur le tableau de bord.
 section: Cora Max
 reviewed: 2026-10-18
 order: 9
@@ -14,7 +14,7 @@ Une **scène** est un ensemble enregistré d’actions sur l’équipement qui s
 
 ## Où trouver les scènes
 
-**Réglages → Automatisations** ouvre **Scènes**, la liste de toutes les scènes de tous vos aquariums. Si vous avez plusieurs aquariums, il y a une puce de filtre pour chacun, plus **Tous les aquariums**.
+**Paramètres → Automatisations** ouvre **Scènes**, la liste de toutes les scènes de tous vos aquariums. Si vous avez plusieurs aquariums, il y a une puce de filtre pour chacun, plus **Tous les aquariums**.
 
 Touchez une scène pour la modifier, ou touchez **Nouvelle scène** pour en créer une. Si vous avez plusieurs aquariums et qu’aucun filtre n’est choisi, Cora Max demande **Pour quel aquarium est cette scène ?**
 
@@ -49,7 +49,7 @@ Pendant qu’une scène minutée tourne, sa tuile compte à rebours jusqu’à l
 
 Lancer ou arrêter une scène passe par Cora Cloud, comme toute autre commande. Vous trouverez le résultat dans [Activité](/help/max-activity).
 
-Les scènes ne peuvent pas être lancées à la voix sur Cora Max. Utilisez la tuile, **Réglages → Automatisations**, ou votre téléphone.
+Les scènes ne peuvent pas être lancées à la voix sur Cora Max. Utilisez la tuile, **Paramètres → Automatisations**, ou votre téléphone.
 
 Si une scène refuse de se lancer ou de s’arrêter, consultez [Résolution de problèmes](/help/troubleshooting).
 
@@ -61,7 +61,7 @@ Une étape qui échoue ou doit attendre ne reste pas en attente. Elle expire aus
 
 ## Modifier ou supprimer une scène
 
-Pour changer une scène, ouvrez-la depuis **Réglages → Automatisations** ou faites un appui long sur sa tuile dans le tableau de bord. Changez ce qu’il faut et touchez **Enregistrer**. Pour la retirer, touchez **Supprimer la scène**. C’est irréversible.
+Pour changer une scène, ouvrez-la depuis **Paramètres → Automatisations** ou faites un appui long sur sa tuile dans le tableau de bord. Changez ce qu’il faut et touchez **Enregistrer**. Pour la retirer, touchez **Supprimer la scène**. C’est irréversible.
 
 :::note Un Cora Max plus ancien peut lancer une scène mais pas la modifier
 Les anciennes versions de Cora Max affichent et lancent toujours toutes les scènes, mais ne peuvent pas en changer une. Mettez Cora Max à jour ([Mises à jour et récupération](/help/max-updates)), ou modifiez la scène sur votre téléphone.

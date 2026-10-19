@@ -171,7 +171,7 @@
       <nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="/help/">Help</a></li><li><a href="/help/max-setup" lang="en">Cora Max</a></li><li><a href="/help/max-controls">Equipment</a></li></ol></nav>
       <h1>Controlling equipment from Cora Max</h1>
       <p class="twin">On Cora Mobile: <a href="/help/mobile-device-control">Controlling your equipment</a></p>
-      <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#what-has-a-page">What has a page</a></li><li><a href="#neptune-apex">Neptune Apex</a></li><li><a href="#dos-heads">DŌS heads</a></li><li><a href="#red-sea">Red Sea ReefBeat</a></li><li><a href="#jecod">Jecod</a></li><li><a href="#aquawiz">AquaWiz</a></li><li><a href="#consumables">Consumables</a></li><li><a href="#logging-and-calculating-at-the-tank">Logging and calculating at the tank</a></li><li><a href="#on-a-second-cora-max">On a second Cora Max</a></li><li><a href="#what-was-changed-and-by-what">What was changed, and by what</a></li></ul></nav>
+      <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#what-has-a-page">What has a page</a></li><li><a href="#neptune-apex">Neptune Apex</a></li><li><a href="#dos-heads">DŌS heads</a></li><li><a href="#red-sea">Red Sea ReefBeat</a></li><li><a href="#jecod">Jecod</a></li><li><a href="#aquawiz">AquaWiz</a></li><li><a href="#bluetooth-stopped">If Bluetooth stops working</a></li><li><a href="#consumables">Consumables</a></li><li><a href="#logging-and-calculating-at-the-tank">Logging and calculating at the tank</a></li><li><a href="#on-a-second-cora-max">On a second Cora Max</a></li><li><a href="#what-was-changed-and-by-what">What was changed, and by what</a></li></ul></nav>
 <p>This page covers what you can see and do on each device's page on Cora Max, brand by brand. Cora Max reaches the same equipment as your phone. Open a device page from the devices icon in the top bar, from <strong>Settings → Devices</strong>, or by tapping a device tile on the dashboard.</p>
 <figure class="shot"><button type="button" class="zoom" aria-label="Enlarge: An Apex page on Cora Max with its feed buttons and outlets"><img src="/help/img/max-device-control.webp" alt="An Apex page on Cora Max with its feed buttons and outlets" width="1100" height="688" loading="lazy" decoding="async"></button><figcaption>Feed A to D and Cancel, then the outlets, laid out for a wall screen.</figcaption></figure>
 <aside class="cal cal-warning"><p class="cal-t">These controls act on live equipment</p><p>There's no preview and no undo. A command goes out the moment you tap, but sending it doesn't mean it's done. It comes back <strong>Confirmed</strong>, <strong>Unconfirmed</strong>, <strong>Refused</strong> or <strong>No change</strong>, and you can see which in <a href="/help/max-activity">Activity</a>.</p></aside>
@@ -209,10 +209,11 @@
 <h2 id="aquawiz">AquaWiz</h2>
 <p>An AquaWiz KH Controller has no page of its own on Cora Max. It's listed in <strong>Devices</strong>, where you can rename it, and its readings show on the dashboard like any other source. Set it up and manage it on your phone, see <a href="/help/mobile-connections">Connecting your equipment</a>.</p>
 <h3 id="aquawiz-hourly">Hourly reading from Cora Max</h3>
-<p>Coming with the next Cora Max update.</p>
 <p>AquaWiz lets Cora read its cloud only every 12 hours. To keep alkalinity current, the tank's main Cora Max also reads the controller directly, once an hour at ten to the hour:</p>
 <ul><li>It joins the controller's own Wi-Fi for a few seconds, reads the latest result, and goes straight back to your home Wi-Fi. Cora Max is offline for about 4 seconds while it does this.</li><li>Your home Wi-Fi password is never saved or sent anywhere by this.</li><li>Only the tank's main Cora Max does it. A second Cora Max on the same tank doesn't.</li><li>It waits while Cora Max is talking to you, updating, pairing or changing Wi-Fi, and tries again the next hour.</li><li>The controller must be within Wi-Fi range of the Cora Max, and its firmware must offer local access. If two reads in a row fail, Cora Max stops trying for the rest of the day and the 12-hour cloud reading carries on.</li></ul>
 <p>A reading from Cora Max shows <strong>Hourly from your Cora Max</strong> on the phone's AquaWiz card. It also brings the pump, pH probe and water box alerts described in <a href="/help/mobile-alerts#equipment-faults">Alerts</a>.</p>
+<h2 id="bluetooth-stopped">If Bluetooth stops working</h2>
+<p>Cora Max reads lights, pumps and sensors over Bluetooth. If its Bluetooth stops and only a restart brings it back, a card appears over the screen: <strong>Bluetooth stopped working</strong>, with <strong>Restart now</strong> and <strong>Later</strong>. The steps are in <a href="/help/troubleshooting#bluetooth-stopped-working">Cora Max says "Bluetooth stopped working"</a>.</p>
 <h2 id="consumables">Consumables</h2>
 <p>You set refill thresholds (reagent, containers, reservoirs) on the device's own page here, the same as on your phone. More in <a href="/help/mobile-consumables">Consumables</a>.</p>
 <h2 id="logging-and-calculating-at-the-tank">Logging and calculating at the tank</h2>
@@ -225,7 +226,7 @@
 <h2 id="what-was-changed-and-by-what">What was changed, and by what</h2>
 <p>Every action is logged along with what caused it. More in <a href="/help/max-activity">Activity on Cora Max</a>.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/max-controls"><span>Previous</span><b>Outlets and controls</b></a><a class="pn-n" href="/help/max-devices"><span>Next</span><b>Devices and device health</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.217 and Cora Mobile 0.5.125. Last checked 2026-10-18.</p>
+      <p class="stamp">Written for Cora Max 0.28.219 and Cora Mobile 1.4.1. Last checked 2026-10-18.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>
@@ -616,7 +617,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/help/search.json?v=ad6eb3513f').then(function (r) { return r.json(); })
+    fetch('/help/search.json?v=7c71dd0350').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "en"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';

@@ -182,7 +182,7 @@
 <h3 id="bluetooth-capacity">Capacità Bluetooth</h3>
 <p>Un Cora Max condivide il suo Bluetooth tra tutta l'attrezzatura che legge, quindi può tenere il passo solo fino a un certo punto. Quando aggiungi una pompa Jecod che si collega via Bluetooth, Cora controlla prima quanto è occupato il Cora Max della vasca. Di solito non vedi nulla. Altrimenti compare uno di due messaggi:</p>
 <ul><li><strong>Il Bluetooth si sta affollando</strong>: <em>Questo Cora Max è vicino al limite Bluetooth. Più dispositivi potrebbero aggiornarsi meno spesso. Aggiungi un secondo Cora Max se prevedi di aggiungerne altri.</em> Tocca <strong>Continua</strong> per aggiungere comunque il dispositivo, oppure <strong>Annulla</strong>.</li><li><strong>Limite Bluetooth raggiunto</strong>: <em>Questo Cora Max ha raggiunto il limite Bluetooth. Aggiungi un secondo Cora Max per questi dispositivi.</em> Il dispositivo non viene aggiunto. Tocca <strong>OK</strong>.</li></ul>
-<p>Cora controlla il Cora Max principale della vasca o, se non ne è scelto uno, il Cora Max con più spazio. Di più in <a href="/it/help/mobile-multi-device">Più di un dispositivo Cora</a>.</p>
+<p>Cora controlla il Cora Max principale della vasca o, se non ne è scelto uno, il Cora Max con più spazio. Di più in <a href="/it/help/mobile-multi-device#primary-cora-max">Più di un dispositivo Cora</a>.</p>
 <h2 id="pairing-a-cora-max">Associare un Cora Max</h2>
 <figure class="shot phone"><button type="button" class="zoom" aria-label="Ingrandisci: La schermata di aggiunta del tuo Cora in Cora Mobile, durante la ricerca dei dispositivi"><img src="/help/img/mobile-add-device.webp" alt="La schermata di aggiunta del tuo Cora in Cora Mobile, durante la ricerca dei dispositivi" width="620" height="1323" loading="lazy" decoding="async"></button><figcaption>Aggiungi dispositivo, poi Cora. Cora Mobile cerca sul tuo Wi-Fi e via Bluetooth, con Inserisci l'indirizzo IP manualmente sotto.</figcaption></figure>
 <p><strong>Cora</strong> è il modo per associare un nuovo Cora Max. Trova le unità già sul tuo Wi-Fi, o quelle vicine via Bluetooth. Se non trova il tuo, usa <strong>Inserisci l'indirizzo IP manualmente</strong> nella stessa schermata. La procedura completa è in <a href="/it/help/max-setup">Configurare Cora Max</a>.</p>
@@ -208,7 +208,7 @@
 <p>Perdi il collegamento in tempo reale. Se il dispositivo si collegava tramite un account del produttore, perdi anche l'accesso salvato, quindi dovrai accedere di nuovo se lo aggiungi un'altra volta.</p>
 <aside class="cal cal-tip"><p class="cal-t">Zittisci un dispositivo rumoroso senza rimuoverlo</p><p>Se un dispositivo funziona bene ma avvisa troppo spesso, cambia le sue soglie o le impostazioni delle notifiche in <a href="/it/help/mobile-alerts">Avvisi e soglie</a>. Tieni il collegamento e i dati, e il rumore finisce.</p></aside>
       <nav class="pn" aria-label="Continua a leggere"><a class="pn-p" href="/it/help/mobile-sharing"><span>Precedente</span><b>Condividere la tua vasca</b></a><a class="pn-n" href="/it/help/mobile-connections"><span>Successivo</span><b>Collegare la tua attrezzatura</b></a></nav>
-      <p class="stamp">Scritto per Cora Max 0.28.217 e Cora Mobile 0.5.125. Ultimo controllo il 2026-10-17.</p>
+      <p class="stamp">Scritto per Cora Max 0.28.219 e Cora Mobile 1.4.1. Ultimo controllo il 2026-10-17.</p>
       <p class="ask">Ancora bloccato? Scrivi a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, ti aiutiamo.</p>
     </article>
   </main>
@@ -599,7 +599,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/it/help/search.json?v=5d2fb8db12').then(function (r) { return r.json(); })
+    fetch('/it/help/search.json?v=e9a867e72b').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "it"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La ricerca non \u00e8 disponibile. Usa la navigazione." + '</li>';

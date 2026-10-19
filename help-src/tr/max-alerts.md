@@ -38,7 +38,7 @@ Her etkin uyarı üst çubukta odanın öbür ucundan fark edilecek büyüklükt
 
 **Ayarlar → Cora Max Ayarları → Bildirim geçmişi**, tüm hesabınızın gelen kutusudur. Sisteminizin her özetini, alarmını ve hesap bildirimini tutar. Bu ekranın vermedikleri ve telefonunuzun kaçırdıkları da buna dahildir. Bir ölçüm aralık dışına çıkıp geri döndüğünde ikisini de görürsünüz.
 
-## Eşikleri düzenleme
+## Eşikleri düzenleme {#editing-thresholds}
 
 ![Cora Max'te bir akvaryumun ayarları: Uyarı eşikleri, Birimler ve Birincil Cora Max](img/max-tank-settings.webp "Önce Uyarı eşikleri ve Birimler, ardından bu akvaryumun Birincil Cora Max'i.")
 

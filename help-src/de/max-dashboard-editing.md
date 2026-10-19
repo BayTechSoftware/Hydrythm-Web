@@ -2,7 +2,7 @@
 title: Das Cora Max-Dashboard bearbeiten
 description: Kacheln auf dem Cora Max-Dashboard hinzufügen, verschieben und entfernen, ein Raster wählen, Vorlagen oder Mit KI gestalten nutzen und Layouts speichern, um sie auf jedem Cora Max wiederzuverwenden.
 section: Cora Max
-reviewed: 2026-10-17
+reviewed: 2026-10-18
 order: 4
 group: Your dashboard
 twin: mobile-dashboard-editing
@@ -44,12 +44,12 @@ Wenn du das Raster wechselst, wirft Cora keine Kacheln wegen ihrer Position weg.
 
 1. Tippe auf eine leere Zelle (sie zeigt ein **+**), um **Widget hinzufügen** zu öffnen.
 2. Wähl unter **TYP** die Art der Kachel und dann, was sie zeigt (einen Messwert, eine Steckdose, ein Gerät oder eine Szene).
-3. Wähl unter **GRÖSSE**, wie groß sie ist. Eine Kachel kann eine oder zwei Zellen breit und eine oder zwei Zellen hoch sein. Ein Diagramm hat außerdem einen **ZEITRAUM**. Eine Dosierer-Kachel hat **Restmenge anzeigen als**, in **Tage** oder **Milliliter (mL)**.
+3. Wähl unter **GRÖSSE**, wie groß sie ist. Eine Kachel kann eine oder zwei Zellen breit und eine oder zwei Zellen hoch sein. Ein Diagramm hat außerdem einen **ZEITRAUM**. Eine Dosierpumpen-Kachel hat **Restmenge anzeigen als**, in **Tage** oder **Milliliter (mL)**.
 4. Tippe auf **Hinzufügen**.
 
 Die Gesten stehen oben im Editor: **Tippen zum Bearbeiten**, **Lange drücken zum Verschieben** und **✕ zum Entfernen**. **Alles löschen** leert das Raster, damit du neu anfangen kannst.
 
-Die Kacheltypen sind Wert, Anzeige, Diagramm, Status, Steckdose, Szene, ReefBeat, Apex-Modul und Jecod. Du findest sie in der [Widget-Referenz](/help/mobile-widgets). Die Kachel **Szene** gibt es nur auf Cora Max. Sie startet eine [Szene](/help/max-automation) mit einem Tippen.
+Die Kacheltypen sind Wert, Anzeige, Diagramm, Status, Steckdose, Szene, ReefBeat, Apex-Modul und Jecod. **Licht**, **Strömungspumpe** und **Pumpe** listen alle Leuchten, Strömungspumpen und Pumpen des Beckens auf, egal von welcher Marke, und jede erscheint nur, wenn das Becken so ein Gerät hat. Du findest die Kacheln in der [Widget-Referenz](/help/mobile-widgets). Die Kachel **Szene** gibt es nur auf Cora Max. Sie startet eine [Szene](/help/max-automation) mit einem Tippen.
 
 
 ## Steckdosen & Füttern {#outlets-feed}

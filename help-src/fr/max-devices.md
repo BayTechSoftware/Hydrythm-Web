@@ -8,7 +8,7 @@ group: Equipment
 twin: mobile-devices
 ---
 
-**Réglages → Appareils** sur Cora Max liste l’équipement qu’il voit et l’état de chaque appareil. L’icône des appareils dans la barre du haut ouvre la même liste, filtrée sur l’aquarium affiché.
+**Paramètres → Appareils** sur Cora Max liste l’équipement qu’il voit et l’état de chaque appareil. L’icône des appareils dans la barre du haut ouvre la même liste, filtrée sur l’aquarium affiché.
 
 ## La liste des appareils {#the-device-list}
 
@@ -37,7 +37,7 @@ Vous ajoutez, attribuez et retirez des appareils sur votre téléphone. Cora Max
 
 Le **Cora Max principal** est le Cora Max (ou autre appareil Cora) qui lit le contrôleur et les autres équipements d’un aquarium pour tout le compte. Chaque aquarium n’a besoin que d’un appareil pour cela. Tous les autres écrans affichent ce qu’il lit.
 
-Pour le voir ou le changer, ouvrez **Réglages → [votre aquarium] → Cora Max principal**. Vous avez deux options.
+Pour le voir ou le changer, ouvrez **Paramètres → [votre aquarium] → Cora Max principal**. Vous avez deux options.
 
 - **Tout appareil actif (automatique)** veut dire que chaque appareil Cora en ligne qui peut joindre l’équipement de cet aquarium partage le travail, et la dernière écriture l’emporte. Utilisez cette option sauf si vous avez une raison d’épingler un appareil.
 - Épinglez un appareil, pour que lui seul lise l’équipement. S’il se déconnecte, aucun autre Cora Max ne prend le relais. Seul Cora Mobile, ouvert sur le même Wi-Fi, lit l’équipement jusqu’à ce que vous en épingliez un autre ou que vous repassiez sur **Tout appareil actif (automatique)**.
@@ -53,10 +53,10 @@ Le Cora Max principal décide quel appareil **lit votre équipement**. L’**App
 
 Si les mesures d’un aquarium s’arrêtent alors qu’un autre aquarium du même écran continue de se mettre à jour, commencez ici.
 
-1. Ouvrez **Réglages → [cet aquarium] → Cora Max principal**. Vérifiez qu’un appareil est attribué et qu’il est en ligne.
+1. Ouvrez **Paramètres → [cet aquarium] → Cora Max principal**. Vérifiez qu’un appareil est attribué et qu’il est en ligne.
 2. Si un autre Cora Max de cet aquarium affiche **Cora principal hors ligne** dans sa barre du haut, le principal a perdu sa connexion. La signification de l’étiquette d’état est expliquée dans [L’écran d’accueil de Cora Max](/help/max-tour#what-the-status-pill-means).
-3. **Réglages → Réglages Cora Max → Réseau et mises à jour → Interrogation des appareils** indique à quelle fréquence ce Cora Max lit vos appareils. Ici, vous pouvez seulement le consulter. Il se règle depuis Cora Mobile.
-4. Vérifiez la section **État** de **Réglages → Réglages Cora Max**. Elle affiche l’état de l’interrogation, l’heure de la dernière interrogation et la dernière écriture cloud pour chaque aquarium, sans rien changer.
+3. **Paramètres → Paramètres Cora Max → Réseau et mises à jour → Interrogation des appareils** indique à quelle fréquence ce Cora Max lit vos appareils. Ici, vous pouvez seulement le consulter. Il se règle depuis Cora Mobile.
+4. Vérifiez la section **État** de **Paramètres → Paramètres Cora Max**. Elle affiche l’état de l’interrogation, l’heure de la dernière interrogation et la dernière écriture cloud pour chaque aquarium, sans rien changer.
 
 Si cela ne suffit pas, consultez [Résolution de problèmes](/help/troubleshooting).
 

@@ -34,7 +34,7 @@ La scheda in alto mostra con quale account hai fatto l'accesso e che piano hai. 
 Una regola che accende o spegne una pompa lo fa anche quando non stai guardando. Crea le regole una alla volta, e controlla che ognuna faccia quello che ti aspetti prima di aggiungere la successiva.
 :::
 
-## Vasche
+## Vasche {#tanks}
 
 Vedi una riga per ogni vasca, poi queste.
 
@@ -64,13 +64,13 @@ Apri una vasca e la sua pagina delle impostazioni ha tre parti.
 - **Aiuto e assistenza** è dove contatti l'assistenza, segnali un bug e trovi il sito e le FAQ di Cora. Vedi sotto.
 - **Informazioni** è spiegato sotto.
 
-## Lingua
+## Lingua {#language}
 
 **C'è una sola lingua per tutto l'account.** I dispositivi non ne hanno una ciascuno. Se la cambi sul telefono, cambia anche su ogni Cora Max di casa, e viceversa. I nuovi report, avvisi e briefing di Reef Buddy usano la nuova lingua da quel momento. Quelli più vecchi restano nella lingua in cui sono stati scritti. Non vengono tradotti di nuovo.
 
 Se all'improvviso tutto compare in una lingua che non ti aspettavi, qualcuno l'ha cambiata. Potrebbe averlo fatto qui, da un altro dispositivo dell'account, o nell'impostazione **Lingua** di un Cora Max. È la stessa impostazione ovunque.
 
-## Accesso dispositivi
+## Accesso dispositivi {#device-access}
 
 **Accesso dispositivi** apre le impostazioni del telefono dedicate a Cora. È lì che consenti quello che serve a Cora per trovare la tua attrezzatura. La riga non mostra se qualcosa è spento. Ti porta solo nel posto dove puoi controllare.
 
@@ -89,7 +89,7 @@ Lo apri dalla riga **Cora Assistant** sotto **Cora**, più in alto.
 - **Laboratori affidabili** elenca i laboratori che possono inviare risultati alle tue vasche senza chiederlo ogni volta. Compare dopo che hai reso affidabile un laboratorio. Di più in [ICP e report di salute](/help/mobile-icp-health#trusted-labs).
 - **Utilizzo e limiti** mostra le tue quote mensili e quanto hai usato.
 
-## I tuoi dati e la privacy
+## I tuoi dati e la privacy {#your-data-and-privacy}
 
 Tre impostazioni sui tuoi dati stanno in posti diversi, quindi è facile non vederle.
 

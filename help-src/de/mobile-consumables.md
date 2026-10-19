@@ -18,8 +18,8 @@ Das Fenster heißt **Warnungen:** gefolgt vom Namen des Geräts. Hat die Ausrüs
 Wo du es einstellst:
 
 - **Die meisten Geräte**: die Glocke in der oberen Leiste der Geräteseite.
-- **DŌS**: die Karte **Warnungen** auf der DŌS-Seite oder die Glocke. Siehe [Dosierer-Warnungen](/help/mobile-device-control#doser-alerts).
-- **AquaWiz-Dosierer**: ihre Regel im Tab **Regeln** der [Warnzentrale](/help/mobile-alerts).
+- **DŌS**: die Karte **Warnungen** auf der DŌS-Seite oder die Glocke. Siehe [Dosierpumpen-Warnungen](/help/mobile-device-control#doser-alerts).
+- **AquaWiz-Dosierpumpen**: ihre Regel im Tab **Regeln** der [Warnzentrale](/help/mobile-alerts).
 
 Die meisten Schwellenwerte sind in Tagen, nicht in Volumen. Cora rechnet aus, wie lange der Rest bei deinem Verbrauch noch reicht. "Calcium für vier Tage übrig" ist etwas, womit du arbeiten kannst. "180 ml übrig" nicht.
 

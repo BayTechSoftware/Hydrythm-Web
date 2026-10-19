@@ -190,7 +190,7 @@
 <h2 id="anything-else">Anything else</h2>
 <p>For equipment Cora doesn't connect to, log readings by hand. See <a href="/help/mobile-connections#logging-by-hand">Logging by hand</a>.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/how-do-i"><span>Previous</span><b>How do I...?</b></a><a class="pn-n" href="/help/faq"><span>Next</span><b>Frequently asked questions</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.217 and Cora Mobile 0.5.125. Last checked 2026-10-17.</p>
+      <p class="stamp">Written for Cora Max 0.28.219 and Cora Mobile 1.4.1. Last checked 2026-10-17.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>
@@ -581,7 +581,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/help/search.json?v=ad6eb3513f').then(function (r) { return r.json(); })
+    fetch('/help/search.json?v=7c71dd0350').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "en"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';

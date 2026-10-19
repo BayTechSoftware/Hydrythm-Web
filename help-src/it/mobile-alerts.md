@@ -2,7 +2,7 @@
 title: Avvisi e soglie
 description: Imposta l'intervallo ideale di ogni lettura, scegli ogni quanto un avviso può notificarti e scopri perché un dispositivo "ha smesso di inviare dati".
 section: Cora Mobile
-reviewed: 2026-10-17
+reviewed: 2026-10-18
 order: 22
 group: Alerts and automation
 twin: max-alerts
@@ -93,7 +93,7 @@ Un controller KH AquaWiz letto ogni ora dal tuo Cora Max dà lo stesso tipo di a
 - la sua sonda pH si è guastata o è vicina a fine vita;
 - il livello del suo contenitore dell'acqua resta basso o alto per più di un'ora.
 
-Servono la lettura oraria da Cora Max (dal prossimo aggiornamento di Cora Max) (vedi [Controllare l'attrezzatura da Cora Max](/help/max-device-control#aquawiz-hourly)): la lettura dal cloud AquaWiz ogni 12 ore non li porta.
+Servono la lettura oraria da Cora Max (vedi [Controllare l'attrezzatura da Cora Max](/help/max-device-control#aquawiz-hourly)): la lettura dal cloud AquaWiz ogni 12 ore non li porta.
 
 
 ## Un dispositivo ha smesso di inviare dati {#stopped-reporting}

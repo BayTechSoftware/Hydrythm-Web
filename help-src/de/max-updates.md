@@ -15,7 +15,7 @@ Neue Versionen laden im Hintergrund, sobald sie erscheinen. Sie installieren sic
 
 Du musst nichts tun, um aktuell zu bleiben.
 
-## Die Version und die Update-Einstellungen prüfen
+## Die Version und die Update-Einstellungen prüfen {#checking-the-version-and-update-settings}
 
 ![Netzwerk und Updates auf Cora Max](img/max-updates.webp "Firmware-Update, im Bereich NETZWERK & UPDATES der Cora Max-Einstellungen.")
 

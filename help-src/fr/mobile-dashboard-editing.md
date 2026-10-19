@@ -2,7 +2,7 @@
 title: Modifier votre tableau de bord
 description: Ajoutez, déplacez, redimensionnez et retirez des widgets sur le tableau de bord de votre téléphone, réglez le nombre de colonnes et modifiez un tableau de bord Cora Max depuis votre téléphone.
 section: Cora Mobile
-reviewed: 2026-10-17
+reviewed: 2026-10-18
 order: 8
 group: Your dashboard
 twin: max-dashboard-editing
@@ -33,7 +33,7 @@ Choisissez **2**, **3** ou **4** à côté de **COLONNES** en haut de l’édite
 ## Ajouter un widget {#adding-a-widget}
 
 1. Touchez **Ajouter une tuile** sous la grille, ou touchez une case vide.
-2. Dans **Ajouter une tuile**, choisissez son genre. **Paramètre** couvre une valeur, une jauge, un graphique ou un état pour un paramètre. **Prise** commande une prise Apex. Les autres lignes concernent l’équipement, comme **ReefBeat**, **Trident**, **DŌS** ou **Jecod**. La plupart n’apparaissent que si l’aquarium a cet équipement.
+2. Dans **Ajouter une tuile**, choisissez son genre. **Paramètre** couvre une valeur, une jauge, un graphique ou un état pour un paramètre. **Prise** commande une prise Apex. Les autres lignes concernent l’équipement, comme **ReefBeat**, **Trident**, **DŌS** ou **Jecod**. La plupart n’apparaissent que si l’aquarium a cet équipement. **Éclairage**, **Pompe de brassage** et **Pompe** listent tous les éclairages, pompes de brassage et pompes de l’aquarium, quelle que soit la marque, et chacun n’apparaît que si l’aquarium en a un. **ReefBeat** et **Jecod** gardent le reste de leurs appareils, comme une ReefDose ou un doseur Jecod.
 3. Choisissez le paramètre, la prise ou l’appareil.
 4. Pour un paramètre, choisissez le type. La [Référence des widgets](/help/mobile-widgets) décrit chacun d’eux.
 

@@ -49,7 +49,7 @@ Du musst einen DŌS-Kopf einmal messen, bevor Cora damit von Hand dosiert. **Zum
 
 Nach einer manuellen Dosierung bleibt ein Kopf, den du in Apex Fusion auf Aus gestellt hast, auf Aus. Jeder andere Kopf geht zurück auf Auto.
 
-Ein DŌS hat keinen Füllstandssensor und dosiert auch aus einem leeren Behälter weiter. Leg mit **Warnungseinstellungen** auf der DŌS-Seite eine Nachfüllwarnung fest. Mehr dazu unter [Dosierer-Warnungen](/help/mobile-device-control#doser-alerts).
+Ein DŌS hat keinen Füllstandssensor und dosiert auch aus einem leeren Behälter weiter. Leg mit **Warnungseinstellungen** auf der DŌS-Seite eine Nachfüllwarnung fest. Mehr dazu unter [Dosierpumpen-Warnungen](/help/mobile-device-control#doser-alerts).
 
 ### Wofür ein Kopf verwendet wird {#what-a-head-is-used-for}
 
@@ -94,8 +94,6 @@ Ein AquaWiz KH Controller hat auf Cora Max keine eigene Seite. Er steht unter **
 
 ### Stündliches Auslesen durch Cora Max {#aquawiz-hourly}
 
-Kommt mit dem nächsten Cora-Max-Update.
-
 AquaWiz lässt Cora seine Cloud nur alle 12 Stunden auslesen. Damit die Alkalinität aktuell bleibt, liest das Haupt-Cora-Max des Beckens den Controller auch direkt aus, einmal pro Stunde, zehn Minuten vor der vollen Stunde:
 
 - Es verbindet sich für ein paar Sekunden mit dem eigenen WLAN des Controllers, liest das letzte Ergebnis und wechselt sofort zurück in dein Heim-WLAN. Dabei ist das Cora Max etwa 4 Sekunden offline.
@@ -106,6 +104,10 @@ AquaWiz lässt Cora seine Cloud nur alle 12 Stunden auslesen. Damit die Alkalini
 
 Ein Messwert vom Cora Max zeigt auf der AquaWiz-Karte im Handy **Stündlich von deinem Cora Max**. Er bringt außerdem die Warnungen zu Pumpe, pH-Sonde und Wasserbehälter mit, die unter [Warnungen](/help/mobile-alerts#equipment-faults) beschrieben sind.
 
+
+## Wenn Bluetooth nicht mehr funktioniert {#bluetooth-stopped}
+
+Cora Max liest Leuchten, Pumpen und Sensoren über Bluetooth. Bleibt sein Bluetooth stehen und bringt nur ein Neustart es zurück, erscheint eine Karte über dem Bildschirm: **Bluetooth funktioniert nicht mehr**, mit **Jetzt neu starten** und **Später**. Die Schritte stehen unter [Cora Max sagt "Bluetooth funktioniert nicht mehr"](/help/troubleshooting#bluetooth-stopped-working).
 
 ## Verbrauchsmaterial {#consumables}
 

@@ -10,7 +10,7 @@ twin: max-records
 
 Entretien garde les tâches régulières dont votre aquarium a besoin, avec un rappel pour chacune.
 
-Touchez **Entretien** dans la rangée de boutons sous le tableau de bord. Vous le trouvez aussi dans Réglages → votre aquarium → **Entretien**.
+Touchez **Entretien** dans la rangée de boutons sous le tableau de bord. Vous le trouvez aussi dans Paramètres → votre aquarium → **Entretien**.
 
 ![La liste d’entretien](img/mobile-maintenance.webp "Le taux de conformité, le nombre de tâches en retard, et chaque tâche avec sa dernière réalisation et sa prochaine échéance.")
 
@@ -74,7 +74,7 @@ Une [automatisation](/help/mobile-automation) avec l’action **Créer une tâch
 
 Ouvrez une tâche et activez **Rappel**, puis choisissez **Me le rappeler à**. Vous recevez une notification la veille de l’échéance et une le jour même. Tant qu’elle est en retard, vous recevez un rappel tous les quelques jours. Si plusieurs tâches d’un aquarium arrivent à échéance ensemble, elles arrivent en une seule notification.
 
-Les rappels relèvent de **Rappels d’entretien** dans [Réglages → Notifications](/help/mobile-notifications). Si vous préférez simplement voir une tâche dans la liste, désactivez son **Rappel**.
+Les rappels relèvent de **Rappels d’entretien** dans [Paramètres → Notifications](/help/mobile-notifications). Si vous préférez simplement voir une tâche dans la liste, désactivez son **Rappel**.
 
 ## Marquer une tâche comme faite {#marking-done}
 

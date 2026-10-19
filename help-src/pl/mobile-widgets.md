@@ -2,7 +2,7 @@
 title: Rodzaje widżetów
 description: Każdy typ widżetu na panelu Cora Mobile, od wartości, wskaźnika, wykresu, stanu i gniazda po kafelki urządzeń, i kiedy używać każdego z nich.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 9
 group: Your dashboard
 ---

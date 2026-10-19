@@ -11,7 +11,7 @@ Die Aufzeichnungen zu deinen Becken gehören dir. Diese Seite zeigt, wie du sie 
 
 ![Meine Daten exportieren und Konto löschen in Cora Mobile](img/mobile-data.webp "Einstellungen, dann dein Konto: Meine Daten exportieren und Konto löschen stehen unter Abmelden.")
 
-## Exportieren
+## Exportieren {#exporting}
 
 1. Öffne **Einstellungen** und tippe oben auf die Kontokarte. **Konto & Abo** öffnet sich.
 2. Tippe auf **Meine Daten exportieren**.
@@ -45,13 +45,13 @@ Mach einen Export, bevor du ein Becken auflöst oder deine Einrichtung stark än
 
 **Konto löschen** ist endgültig.
 
-## Dein Konto löschen
+## Dein Konto löschen {#deleting-your-account}
 
 :::warning Löschen kündigt dein Abo nicht
 Ein Abo aus dem App Store oder von Google Play gehört dem **Store**. Löschst du dein Konto, wird dein Eintrag bei Cora entfernt, aber **die Abrechnung hört nicht auf**. Dir wird weiter etwas berechnet, bis du selbst bei Apple oder Google kündigst. Kündige zuerst dort und lösche dann. Siehe [Kündigen](/help/mobile-plans#cancelling).
 :::
 
-1. Willst du etwas behalten, [exportiere es](#exportieren) zuerst.
+1. Willst du etwas behalten, [exportiere es](#exporting) zuerst.
 2. Öffne **Einstellungen**, tippe auf die Kontokarte und dann auf **Konto löschen**.
 3. Lies die Bestätigung. Hast du ein Store-Abo, hat sie eine Taste **Abo verwalten**, damit du zuerst kündigen kannst.
 4. Tippe auf **Löschen**.
@@ -60,7 +60,7 @@ Das entfernt dein Konto, deine Becken, Messwerte, dein Tagebuch, deine Laborerge
 
 Hast du dich vor einer Weile angemeldet, bittet dich Cora vielleicht, zu beweisen, dass du es bist, bevor etwas gelöscht wird. Mit E-Mail und Passwort fragt es **Bestätige dein Passwort**. Mit Apple oder Google meldest du dich dort noch einmal an. Versuch es dann erneut. Bis du das tust, wird nichts gelöscht.
 
-## Anonymisierte Daten beisteuern
+## Anonymisierte Daten beisteuern {#contributing-anonymised-data}
 
 **Einstellungen → Cora Assistant → Anonymisierte Beckendaten beisteuern.**
 

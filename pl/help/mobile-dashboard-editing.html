@@ -181,7 +181,7 @@
 <p>Wybierz <strong>2</strong>, <strong>3</strong> albo <strong>4</strong> obok <strong>KOLUMNY</strong> na górze edytora. Siatka rośnie w dół, gdy dodajesz widżety, a panel się przewija.</p>
 <div class="tw"><table class="stack"><thead><tr><th>Kolumny</th><th>Kiedy wybrać</th></tr></thead><tbody><tr><td data-th="Kolumny">2</td><td data-th="Kiedy wybrać">Śledzisz kilka parametrów i chcesz dużych kafelków</td></tr><tr><td data-th="Kolumny">3</td><td data-th="Kiedy wybrać">Ustawienie domyślne. Pasuje do większości akwariów</td></tr><tr><td data-th="Kolumny">4</td><td data-th="Kiedy wybrać">Chcesz gęstszego widoku albo masz duży telefon</td></tr></tbody></table></div>
 <h2 id="adding-a-widget">Dodawanie widżetu</h2>
-<ol><li>Dotknij <strong>Dodaj kafelek</strong> pod siatką albo dotknij pustej komórki.</li><li>W <strong>Dodaj kafelek</strong> wybierz jego rodzaj. <strong>Parametr</strong> obejmuje wartość, wskaźnik, wykres albo stan parametru. <strong>Gniazdo</strong> steruje gniazdem Apex. Pozostałe wiersze są dla sprzętu, na przykład <strong>ReefBeat</strong>, <strong>Trident</strong>, <strong>DŌS</strong> albo <strong>Jecod™</strong>. Większość z nich pojawia się tylko wtedy, gdy akwarium ma ten sprzęt.</li><li>Wybierz parametr, gniazdo albo urządzenie.</li><li>Dla parametru wybierz typ. Każdy opisują <a href="/pl/help/mobile-widgets">Rodzaje widżetów</a>.</li></ol>
+<ol><li>Dotknij <strong>Dodaj kafelek</strong> pod siatką albo dotknij pustej komórki.</li><li>W <strong>Dodaj kafelek</strong> wybierz jego rodzaj. <strong>Parametr</strong> obejmuje wartość, wskaźnik, wykres albo stan parametru. <strong>Gniazdo</strong> steruje gniazdem Apex. Pozostałe wiersze są dla sprzętu, na przykład <strong>ReefBeat</strong>, <strong>Trident</strong>, <strong>DŌS</strong> albo <strong>Jecod™</strong>. Większość z nich pojawia się tylko wtedy, gdy akwarium ma ten sprzęt. <strong>Oświetlenie</strong>, <strong>Pompa cyrkulacyjna</strong> i <strong>Pompa</strong> wymieniają wszystkie lampy, pompy cyrkulacyjne i pompy w akwarium, niezależnie od marki, a każdy wiersz pojawia się tylko wtedy, gdy akwarium ma takie urządzenie. <strong>ReefBeat</strong> i <strong>Jecod</strong> zachowują resztę swoich urządzeń, na przykład ReefDose albo dozownik Jecod.</li><li>Wybierz parametr, gniazdo albo urządzenie.</li><li>Dla parametru wybierz typ. Każdy opisują <a href="/pl/help/mobile-widgets">Rodzaje widżetów</a>.</li></ol>
 <p>Widzisz tylko parametry, które ma akwarium. Parametr bez źródła pojawi się, gdy podłączysz sprzęt, który go podaje, albo zapiszesz odczyt ręcznie.</p>
 <p>Siatka mieści do 20 rzędów. Gdy jest pełna, Cora pokaże <strong>Panel jest pełny: najpierw usuń jakiś kafelek.</strong> Wykres potrzebuje dwóch wolnych komórek obok siebie.</p>
 <p>Gdy usuniesz urządzenie z akwarium, jego kafelki same znikają z panelu, w telefonie i na każdym Cora Max tego akwarium. Kafelek, którego urządzenia już nie ma, pokazuje <strong>To urządzenie nie jest już w tym akwarium</strong> i niczego nie otwiera.</p>
@@ -201,7 +201,7 @@
 <ul><li><strong>Moje panele</strong> przechowuje na Twoim koncie do 30 zapisanych projektów. Każdy Cora Max na koncie może wczytać dowolny z nich. Kafelki, których docelowy panel nie wypełni, są wymienione pod <strong>Pozostawione:</strong> przed wczytaniem.</li><li><strong>Szablony</strong> otwiera <strong>Szablony panelu</strong>: <strong>Przegląd</strong>, <strong>Sprzęt</strong> i <strong>Parametry</strong>. Działają w każdym planie i nie używają AI.</li><li><strong>Zaprojektuj z AI</strong>, w płatnym planie albo w okresie próbnym, proponuje cały układ na podstawie tego, co akwarium zgłasza i co ma podłączone. Możesz zrobić 5 projektów na akwarium dziennie.</li></ul>
 <p>Jak działa każdy z nich, opisuje <a href="/pl/help/max-dashboard-editing">Edytowanie panelu Cora Max</a>.</p>
       <nav class="pn" aria-label="Czytaj dalej"><a class="pn-p" href="/pl/help/mobile-metric-detail"><span>Poprzedni</span><b>Szczegóły parametru</b></a><a class="pn-n" href="/pl/help/mobile-widgets"><span>Następny</span><b>Rodzaje widżetów</b></a></nav>
-      <p class="stamp">Napisano dla Cora Max 0.28.217 i Cora Mobile 0.5.125. Ostatnio sprawdzono 2026-10-17.</p>
+      <p class="stamp">Napisano dla Cora Max 0.28.219 i Cora Mobile 1.4.1. Ostatnio sprawdzono 2026-10-18.</p>
       <p class="ask">Wciąż masz problem? Napisz na <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, pomożemy.</p>
     </article>
   </main>
@@ -592,7 +592,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/pl/help/search.json?v=594e6c5535').then(function (r) { return r.json(); })
+    fetch('/pl/help/search.json?v=303849d9da').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "pl"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Wyszukiwanie jest niedost\u0119pne. U\u017cyj menu." + '</li>';

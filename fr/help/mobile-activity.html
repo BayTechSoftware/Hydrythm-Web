@@ -120,7 +120,7 @@
 </ul></details>
 <details class="nav-g">
 <summary>Paramètres et compte</summary><ul>
-<li><a href="/fr/help/mobile-settings">Réglages de Cora Mobile</a></li>
+<li><a href="/fr/help/mobile-settings">Paramètres de Cora Mobile</a></li>
 <li><a href="/fr/help/mobile-multi-device">Plus d’un appareil Cora</a></li>
 <li><a href="/fr/help/mobile-plans">Forfaits et abonnements</a></li>
 <li><a href="/fr/help/mobile-data-export">Exporter vos données et supprimer votre compte</a></li>
@@ -160,7 +160,7 @@
 </ul></details>
 <details class="nav-g">
 <summary>Paramètres et compte</summary><ul>
-<li><a href="/fr/help/max-settings">Réglages de Cora Max</a></li>
+<li><a href="/fr/help/max-settings">Paramètres de Cora Max</a></li>
 <li><a href="/fr/help/max-updates">Mises à jour et récupération</a></li>
 </ul></details>
     </nav>
@@ -173,7 +173,7 @@
       <p class="twin">Sur Cora Max : <a href="/fr/help/max-activity">Activité sur Cora Max</a></p>
       <nav class="toc" aria-label="Sur cette page"><p>Sur cette page</p><ul><li><a href="#outcomes">Ce que signifient les résultats</a></li><li><a href="#causes">Ce qui l’a déclenchée</a></li><li><a href="#route">Par quel chemin</a></li><li><a href="#tank-timeline">La chronologie de l’aquarium</a></li></ul></nav>
 <p>Activité liste chaque tentative de changer quelque chose sur votre équipement : prises allumées ou éteintes, cycles de nourrissage, dosages, et tout ce qu’une scène ou une automatisation a fait. Chaque ligne indique ce qui l’a demandé et ce qui s’est passé ensuite, y compris pour les demandes qui n’ont pas marché.</p>
-<p>Allez dans <strong>Réglages → Activité</strong>. Si vous avez plusieurs aquariums, choisissez-le avec les puces d’aquarium en haut.</p>
+<p>Allez dans <strong>Paramètres → Activité</strong>. Si vous avez plusieurs aquariums, choisissez-le avec les puces d’aquarium en haut.</p>
 <figure class="shot phone"><button type="button" class="zoom" aria-label="Agrandir : Activité dans Cora Mobile"><img src="/help/img/mobile-activity.webp" alt="Activité dans Cora Mobile" width="620" height="1347" loading="lazy" decoding="async"></button><figcaption>La légende des résultats en haut, puis chaque action avec son résultat, sa cause et son trajet.</figcaption></figure>
 <h2 id="outcomes">Ce que signifient les résultats</h2>
 <p>Chaque ligne porte un résultat. La même légende figure en haut de l’écran sous <strong>CE QUE SIGNIFIENT LES RÉSULTATS</strong>.</p>
@@ -193,7 +193,7 @@
 <p>Utilisez Activité quand vous voulez savoir <em>« qu’a fait cet équipement ? »</em>. Utilisez la chronologie quand vous voulez savoir <em>« que se passait-il autour de cette date ? »</em>.</p>
 <aside class="cal cal-note"><p class="cal-t">Utilisez la chronologie avec le journal</p><p>La chronologie rassemble ce que Cora a enregistré. Le journal contient ce que vous avez fait et pourquoi. Lisez-les côte à côte pour voir les causes et les effets autour d’une date.</p></aside>
       <nav class="pn" aria-label="Poursuivre la lecture"><a class="pn-p" href="/fr/help/mobile-livestock"><span>Précédent</span><b>Population</b></a><a class="pn-n" href="/fr/help/mobile-reef-buddy"><span>Suivant</span><b>Reef Buddy</b></a></nav>
-      <p class="stamp">Rédigé pour Cora Max 0.28.217 et Cora Mobile 0.5.125. Vérifié pour la dernière fois le 2026-10-18.</p>
+      <p class="stamp">Rédigé pour Cora Max 0.28.219 et Cora Mobile 1.4.1. Vérifié pour la dernière fois le 2026-10-18.</p>
       <p class="ask">Toujours bloqué ? Écrivez à <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, nous vous aiderons.</p>
     </article>
   </main>
@@ -584,7 +584,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/fr/help/search.json?v=1dc5ffe8af').then(function (r) { return r.json(); })
+    fetch('/fr/help/search.json?v=f7254a1ed6').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "fr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La recherche est indisponible. Utilisez la navigation." + '</li>';

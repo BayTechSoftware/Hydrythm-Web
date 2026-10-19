@@ -185,7 +185,7 @@
 <h2 id="adding-and-arranging">Adding and arranging tiles</h2>
 <ol><li>Tap an empty cell (it shows a <strong>+</strong>) to open <strong>Add widget</strong>.</li><li>Under <strong>TYPE</strong>, pick the kind of tile, then what it shows (a reading, an outlet, a device or a scene).</li><li>Under <strong>SIZE</strong>, pick how big it is. A tile can be one or two cells wide and one or two cells tall. A Graph also has a <strong>TIME RANGE</strong>. A doser tile has <strong>Show remaining as</strong>, in <strong>Days</strong> or <strong>Milliliters (mL)</strong>.</li><li>Tap <strong>Add</strong>.</li></ol>
 <p>The gestures are listed along the top of the editor: <strong>tap a tile to edit</strong>, <strong>long-press to move it</strong>, and <strong>✕ to remove it</strong>. <strong>Clear all</strong> empties the grid so you can start over.</p>
-<p>The tile types are Value, Gauge, Graph, Status, Outlet, Scene, ReefBeat, Apex module and Jecod™. You'll find them in the <a href="/help/mobile-widgets">Widget reference</a>. The <strong>Scene</strong> tile only exists on Cora Max. It runs a <a href="/help/max-automation">scene</a> with one tap.</p>
+<p>The tile types are Value, Gauge, Graph, Status, Outlet, Scene, ReefBeat, Apex module and Jecod™. <strong>Light</strong>, <strong>Wavemaker</strong> and <strong>Pump</strong> list every light, wavemaker or pump on the tank, whatever the brand, and each appears only when the tank has one. You'll find the tiles in the <a href="/help/mobile-widgets">Widget reference</a>. The <strong>Scene</strong> tile only exists on Cora Max. It runs a <a href="/help/max-automation">scene</a> with one tap.</p>
 <h2 id="outlets-feed">Outlets &amp; Feed</h2>
 <p><strong>Outlets &amp; Feed</strong> in the editor chooses which outlets and feed cycles appear in <strong>Controls</strong>, the drawer you swipe up from the bottom of the dashboard. It doesn't add tiles. If you pick none, Controls lists all of them. To put an outlet on the grid itself, add an <strong>Outlet</strong> tile. More in <a href="/help/max-controls">Outlets and controls</a>.</p>
 <p>When you remove a device from a tank, its tiles leave the dashboard by themselves, on your phone and on every Cora Max of that tank. A tile whose device has gone says <strong>This device is no longer on this tank</strong> and opens nothing.</p>
@@ -208,7 +208,7 @@
 <h2 id="multiple-tanks">Multiple tanks</h2>
 <p>Each tank has its own layout. Switch to that tank and open <strong>Dashboard layout</strong> from its tank menu, or use <strong>Settings → [that tank] → Dashboard layout</strong>.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/max-reef-room"><span>Previous</span><b>The Reef Room</b></a><a class="pn-n" href="/help/max-controls"><span>Next</span><b>Outlets and controls</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.217 and Cora Mobile 0.5.125. Last checked 2026-10-17.</p>
+      <p class="stamp">Written for Cora Max 0.28.219 and Cora Mobile 1.4.1. Last checked 2026-10-18.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>
@@ -599,7 +599,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/help/search.json?v=ad6eb3513f').then(function (r) { return r.json(); })
+    fetch('/help/search.json?v=7c71dd0350').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "en"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';

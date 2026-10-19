@@ -12,7 +12,7 @@ twin: max-intelligence
 
 ![Zeka sekmesi](img/mobile-intelligence.webp "ICP yükleyin, bir sağlık raporu çalıştırın ve sonuncusundan bu yana neyin değiştiğini görün.")
 
-## ICP testi yükleme
+## ICP testi yükleme {#uploading-an-icp-test}
 
 Cora, laboratuvarınızın size gönderdiği PDF raporu okur. Önce onu laboratuvarınızın e-postasından ya da web sitesinden indirin. Fotoğraflar, taramalar ve ekran görüntüleri okunamaz.
 
@@ -32,7 +32,7 @@ Aynı raporu iki kez yüklerseniz Cora size zaten elinizde olanı gösterir ve y
 ICP analizi raporu yapay zekaya gönderir, bu yüzden **Cora Assistant'ın kayıtlı akvaryum verilerini kullanmasına izin ver** gerekir. Bu kapalıysa Cora yüklemeden önce sorar. [Anahtarın kapsadıkları](/help/mobile-assistant#what-the-switch-covers) bölümüne bakın.
 :::
 
-## Bir laboratuvarın kullanabileceği e-posta
+## Bir laboratuvarın kullanabileceği e-posta {#which-email-a-lab-can-use}
 
 Bir laboratuvar ya da e-postayla gelen bir sonuç hesabınızı bildiği e-posta adresiyle bulur. Bu, giriş e-postanız ve **Ayarlar → hesap kartınız (Hesap ve Abonelik) → Laboratuvar ve ICP e-postaları** altında eklediğiniz laboratuvar e-postalarıdır.
 
@@ -44,7 +44,7 @@ En fazla 3 laboratuvar e-postası ekleyebilirsiniz. Her biri **Doğrulandı** ya
 
 Gizli bir Apple e-postasıyla giriş yaptıysanız laboratuvarlar hesabınızı bulamaz. ICP ekranı sizi bu ayara götüren **Laboratuvar sonuçlarını otomatik alın** kartını gösterir. Bu sorunu yaşamamak için Apple ile giriş yaparken **E-postamı Paylaş**'ı seçin.
 
-## Cora'ya gönder: bir laboratuvarın ya da e-postanın sizin için ilettiği sonuçlar
+## Cora'ya gönder: bir laboratuvarın ya da e-postanın sizin için ilettiği sonuçlar {#send-to-cora-results-a-lab-or-an-email-delivers-for-you}
 
 Bazı laboratuvarlar bir sonucu doğrudan Cora'ya gönderebilir ve e-postayla gönderdiğiniz bir ICP PDF'i de aynı şekilde ulaşır. Kendiniz hiçbir şey yüklemeniz gerekmez.
 
@@ -104,7 +104,7 @@ Bir ICP size nerede olduğunuzu söyler. İkincisi hangi yöne gittiğinizi söy
 
 RO/DI ya da başka bir kaynak suyu yüklüyorsanız yüklerken **RO/DI suyu**'nu seçin. Cora onu akvaryumunuzun hedeflerine göre puanlamaz. Suyun kullanılacak kadar temiz olup olmadığına dair sade bir karar verir ve bu sayıları akvaryum ölçümlerinizin dışında tutar. Ayrı bir rapor olarak kaydedilir. Cora **Tuz karışımı** ya da **Diğer** için de aynısını yapar: numunenin nasıl göründüğünü söyler ve onu akvaryumunuz gibi puanlamaz.
 
-## Sağlık raporları
+## Sağlık raporları {#health-reports}
 
 **Sağlık Raporu**, zaman zaman yapılan, tüm sistemin daha derin bir kontrolüdür. Her parametreye, her kaynağa, dozajınıza, geçmişinize ve son ICP sonuçlarınıza birlikte bakar.
 

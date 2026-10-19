@@ -94,8 +94,6 @@ Un AquaWiz KH Controller no tiene página propia en Cora Max. Aparece en **Dispo
 
 ### Lectura cada hora desde Cora Max {#aquawiz-hourly}
 
-Llega con la próxima actualización de Cora Max.
-
 AquaWiz solo deja que Cora lea su nube cada 12 horas. Para mantener la alcalinidad al día, el Cora Max principal del acuario también lee el controlador directamente, una vez por hora, diez minutos antes de cada hora en punto:
 
 - Se conecta unos segundos al Wi-Fi propio del controlador, lee el último resultado y vuelve enseguida a tu Wi-Fi de casa. El Cora Max queda sin conexión unos 4 segundos.
@@ -106,6 +104,10 @@ AquaWiz solo deja que Cora lea su nube cada 12 horas. Para mantener la alcalinid
 
 Una lectura desde Cora Max muestra **Cada hora desde tu Cora Max** en la tarjeta de AquaWiz del teléfono. También trae las alertas de bomba, sonda de pH y depósito de agua descritas en [Alertas](/help/mobile-alerts#equipment-faults).
 
+
+## Si el Bluetooth deja de funcionar {#bluetooth-stopped}
+
+Cora Max lee luces, bombas y sensores por Bluetooth. Si su Bluetooth se detiene y solo un reinicio lo recupera, aparece una tarjeta sobre la pantalla: **El Bluetooth dejó de funcionar**, con **Reiniciar ahora** y **Más tarde**. Los pasos están en [Cora Max dice "El Bluetooth dejó de funcionar"](/help/troubleshooting#bluetooth-stopped-working).
 
 ## Consumibles {#consumables}
 

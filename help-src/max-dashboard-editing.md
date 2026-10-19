@@ -2,7 +2,7 @@
 title: Editing the Cora Max dashboard
 description: Add, move and remove tiles on the Cora Max dashboard, pick a grid, use templates or Design with AI, and save layouts to reuse on any Cora Max.
 section: Cora Max
-reviewed: 2026-10-17
+reviewed: 2026-10-18
 order: 4
 group: Your dashboard
 twin: mobile-dashboard-editing
@@ -49,7 +49,7 @@ When you change the grid, Cora doesn't throw tiles away by position. Tiles that 
 
 The gestures are listed along the top of the editor: **tap a tile to edit**, **long-press to move it**, and **✕ to remove it**. **Clear all** empties the grid so you can start over.
 
-The tile types are Value, Gauge, Graph, Status, Outlet, Scene, ReefBeat, Apex module and Jecod. You'll find them in the [Widget reference](/help/mobile-widgets). The **Scene** tile only exists on Cora Max. It runs a [scene](/help/max-automation) with one tap.
+The tile types are Value, Gauge, Graph, Status, Outlet, Scene, ReefBeat, Apex module and Jecod. **Light**, **Wavemaker** and **Pump** list every light, wavemaker or pump on the tank, whatever the brand, and each appears only when the tank has one. You'll find the tiles in the [Widget reference](/help/mobile-widgets). The **Scene** tile only exists on Cora Max. It runs a [scene](/help/max-automation) with one tap.
 
 
 ## Outlets & Feed {#outlets-feed}

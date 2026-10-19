@@ -181,7 +181,7 @@
 <p>Düzenleyicinin üstünde <strong>SÜTUNLAR</strong>'ın yanından <strong>2</strong>, <strong>3</strong> ya da <strong>4</strong>'ü seçin. Widget ekledikçe ızgara aşağı doğru uzar ve pano kaydırılır.</p>
 <div class="tw"><table class="stack"><thead><tr><th>Sütun</th><th>Ne zaman kullanılır</th></tr></thead><tbody><tr><td data-th="Sütun">2</td><td data-th="Ne zaman kullanılır">Az sayıda parametre izliyorsanız ve büyük kutucuklar istiyorsanız</td></tr><tr><td data-th="Sütun">3</td><td data-th="Ne zaman kullanılır">Varsayılan. Çoğu akvaryum için uygun</td></tr><tr><td data-th="Sütun">4</td><td data-th="Ne zaman kullanılır">Sık bir görünüm istiyorsanız ya da telefonunuz büyükse</td></tr></tbody></table></div>
 <h2 id="adding-a-widget">Widget ekleme</h2>
-<ol><li>Izgaranın altındaki <strong>Kutucuk ekle</strong>'ye ya da boş bir hücreye dokunun.</li><li><strong>Bir kutucuk ekle</strong> içinde türünü seçin. <strong>Metrik</strong>, bir parametre için değer, gösterge, grafik ya da durum gösterir. <strong>Priz</strong> bir Apex prizini kontrol eder. Diğer satırlar <strong>ReefBeat</strong>, <strong>Trident</strong>, <strong>DŌS</strong> ya da <strong>Jecod™</strong> gibi ekipmanlar içindir. Bunların çoğu yalnızca akvaryumda o ekipman varsa görünür.</li><li>Parametreyi, prizi ya da cihazı seçin.</li><li>Bir metrik için türü seçin. <a href="/tr/help/mobile-widgets">Widget rehberi</a> her birini anlatır.</li></ol>
+<ol><li>Izgaranın altındaki <strong>Kutucuk ekle</strong>'ye ya da boş bir hücreye dokunun.</li><li><strong>Bir kutucuk ekle</strong> içinde türünü seçin. <strong>Metrik</strong>, bir parametre için değer, gösterge, grafik ya da durum gösterir. <strong>Priz</strong> bir Apex prizini kontrol eder. Diğer satırlar <strong>ReefBeat</strong>, <strong>Trident</strong>, <strong>DŌS</strong> ya da <strong>Jecod™</strong> gibi ekipmanlar içindir. Bunların çoğu yalnızca akvaryumda o ekipman varsa görünür. <strong>Işık</strong>, <strong>Dalga pompası</strong> ve <strong>Pompa</strong>, markası ne olursa olsun akvaryumdaki tüm ışıkları, dalga pompalarını ve pompaları listeler; her biri yalnızca akvaryumda böyle bir cihaz varsa görünür. <strong>ReefBeat</strong> ve <strong>Jecod</strong>, ReefDose ya da bir Jecod dozaj pompası gibi diğer cihazlarını korur.</li><li>Parametreyi, prizi ya da cihazı seçin.</li><li>Bir metrik için türü seçin. <a href="/tr/help/mobile-widgets">Widget rehberi</a> her birini anlatır.</li></ol>
 <p>Yalnızca akvaryumda bulunan parametreleri görürsünüz. Kaynağı olmayan bir parametre, onu bildiren ekipmanı bağladığınızda ya da elle bir ölçüm girdiğinizde görünür.</p>
 <p>Izgara en fazla 20 satır alır. Dolduğunda Cora <strong>Pano dolu: önce bir kutucuk kaldırın.</strong> der. Bir grafik yan yana iki boş hücre ister.</p>
 <p>Bir cihazı akvaryumdan çıkardığınızda kutucukları panodan kendiliğinden kalkar, telefonunuzda ve o akvaryumdaki her Cora Max'te. Cihazı gitmiş bir kutucuk <strong>Bu cihaz artık bu akvaryumda değil</strong> yazar ve hiçbir şey açmaz.</p>
@@ -201,7 +201,7 @@
 <ul><li><strong>Panolarım</strong>, hesabınızda en fazla 30 kayıtlı tasarım tutar. Hesaptaki her Cora Max bunlardan birini yükleyebilir. Hedefin dolduramayacağı kutucuklar, yüklemeden önce <strong>Geride kalanlar:</strong> altında listelenir.</li><li><strong>Şablonlar</strong>, <strong>Pano şablonları</strong>'nı açar: <strong>Genel bakış</strong>, <strong>Ekipman</strong> ve <strong>Parametreler</strong>. Her planda açıktır ve yapay zeka kullanmaz.</li><li><strong>Yapay zeka ile tasarla</strong>, ücretli bir planda ya da deneme süresinde, akvaryumun bildirdiği ve bağladığı şeylerden komple bir düzen önerir. Her akvaryum için günde 5 tasarım yapabilirsiniz.</li></ul>
 <p>Her birinin nasıl çalıştığı <a href="/tr/help/max-dashboard-editing">Cora Max panosunu düzenleme</a> sayfasında.</p>
       <nav class="pn" aria-label="Okumaya devam edin"><a class="pn-p" href="/tr/help/mobile-metric-detail"><span>Önceki</span><b>Bir parametreyi inceleme</b></a><a class="pn-n" href="/tr/help/mobile-widgets"><span>Sonraki</span><b>Widget rehberi</b></a></nav>
-      <p class="stamp">Cora Max 0.28.217 ve Cora Mobile 0.5.125 için yazılmıştır. Son kontrol: 2026-10-17.</p>
+      <p class="stamp">Cora Max 0.28.219 ve Cora Mobile 1.4.1 için yazılmıştır. Son kontrol: 2026-10-18.</p>
       <p class="ask">Sorun devam ediyor mu? <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> adresine yazın, yardımcı olalım.</p>
     </article>
   </main>
@@ -592,7 +592,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/tr/help/search.json?v=32184d0520').then(function (r) { return r.json(); })
+    fetch('/tr/help/search.json?v=f1ddfa4ac9').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "tr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Arama \u015fu anda kullan\u0131lam\u0131yor. Men\u00fcy\u00fc kullan\u0131n." + '</li>';

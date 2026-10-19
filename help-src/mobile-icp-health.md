@@ -12,7 +12,7 @@ The **Intelligence** tab is where your lab results and long-term reports live. P
 
 ![The Intelligence tab](img/mobile-intelligence.webp "Upload ICP, run a health report, and see what moved since the last one.")
 
-## Uploading an ICP test
+## Uploading an ICP test {#uploading-an-icp-test}
 
 Cora reads the PDF report your lab sends you. Download it from your lab's email or website first. Photos, scans and screenshots can't be read.
 
@@ -32,7 +32,7 @@ If you upload the same report twice, Cora shows you the one you already have and
 ICP analysis sends the report to the AI, so it needs **Allow Cora Assistant to use saved tank data**. If that's off, Cora asks before the upload. See [what the switch covers](/help/mobile-assistant#what-the-switch-covers).
 :::
 
-## Which email a lab can use
+## Which email a lab can use {#which-email-a-lab-can-use}
 
 A lab or an emailed result finds your account by the email address it knows. That is your sign-in email, plus any lab email you add under **Settings → your account card (Account & Subscription) → Lab & ICP emails**.
 
@@ -44,7 +44,7 @@ You can add up to 3 lab emails. Each shows **Verified** or **Waiting for code**,
 
 If you signed in with a hidden Apple email, labs can't find your account. The ICP screen shows a card, **Get lab results automatically**, that takes you to this setting. When you sign in with Apple, choose **Share My Email** to avoid the problem.
 
-## Send to Cora: results a lab or an email delivers for you
+## Send to Cora: results a lab or an email delivers for you {#send-to-cora-results-a-lab-or-an-email-delivers-for-you}
 
 Some labs can send a result straight to Cora, and an ICP PDF you email in arrives the same way. You don't have to upload anything yourself.
 
@@ -104,7 +104,7 @@ One ICP tells you where you are. The second tells you which way you're heading, 
 
 If you upload RO/DI or other source water, pick **RO/DI water** when you upload. Cora doesn't score it against your tank's targets. It gives a plain verdict on whether the water is clean enough to use, and it keeps those numbers out of your tank readings. It's saved as a separate report. Cora does the same for **Salt mix** or **Other**: it says what the sample looks like and doesn't score it as your tank.
 
-## Health reports
+## Health reports {#health-reports}
 
 A **Health Report** is a deeper check of the whole system, done from time to time. It looks at every parameter, every source, your dosing, your history and your recent ICP results together.
 

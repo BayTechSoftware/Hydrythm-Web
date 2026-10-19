@@ -178,7 +178,7 @@
 <p>Profil ma dużo pól, więc <strong>Prowadzona konfiguracja</strong> przeprowadza Cię przez niego po jednej sekcji. Otworzysz ją przyciskiem <strong>Skonfiguruj mój akwarium z przewodnikiem</strong> zaraz po utworzeniu akwarium, z <strong>Ustawienia → Twoje akwarium → Prowadzona konfiguracja</strong> oraz z zachęty do profilu na panelu.</p>
 <p>Sekcje są w tej kolejności: <strong>Nazwa i typ akwarium</strong>, <strong>Wymiary akwarium</strong>, <strong>Oświetlenie</strong>, <strong>Dozowanie</strong>, <strong>Zarządzanie wodą</strong>, <strong>Obsada</strong>, <strong>Kontrola temperatury</strong>, <strong>Przepływ i filtracja</strong> oraz <strong>Szkodniki i leczenie</strong>. Góra ekranu pokazuje <strong>Krok 2 z 10</strong> i tak dalej.</p>
 <ul><li><strong>Zapisz i kontynuuj</strong> zapisuje sekcję i przechodzi dalej. <strong>Pomiń</strong> przechodzi dalej bez zapisywania.</li><li><strong>Dokończ później</strong> wraca i zachowuje zapisane dotąd odpowiedzi. Gdy znów otworzysz prowadzoną konfigurację, zacznie tam, gdzie skończono.</li><li>Jeśli wychodzisz z sekcji z niezapisanymi zmianami, Cora zapyta <strong>Opuścić ten krok?</strong> Dotknij <strong>Kontynuuj edycję</strong> albo <strong>Opuść</strong>.</li></ul>
-<p>Jeśli nie odpowiedziano na nie wcześniej, ostatnia strona to <strong>Cora Assistant i Twoje dane</strong>. Włącz <strong>Użyj danych mojego akwarium do spersonalizowanych porad</strong>, jeśli chcesz, żeby odpowiedzi Cora Assistant korzystały z tego profilu, a potem dotknij <strong>Zapisz</strong>, albo dotknij <strong>Zdecyduj później</strong>. Możesz to zmienić w każdej chwili w Ustawieniach. Zobacz <a href="/pl/help/mobile-assistant">Pytania do Cory</a>.</p>
+<p>Jeśli nie odpowiedziano na nie wcześniej, ostatnia strona to <strong>Cora Assistant i Twoje dane</strong>. Włącz <strong>Użyj danych mojego akwarium do spersonalizowanych porad</strong>, jeśli chcesz, żeby odpowiedzi Cora Assistant korzystały z tego profilu, a potem dotknij <strong>Zapisz</strong>, albo dotknij <strong>Zdecyduj później</strong>. Możesz to zmienić w każdej chwili w Ustawieniach. Zobacz <a href="/pl/help/mobile-assistant#consent">Pytania do Cory</a>.</p>
 <p>Na końcu zobaczysz <strong>Dobra robota: profil Twojego akwarium jest skonfigurowany</strong>. <strong>Dodaj urządzenia</strong> przenosi do zakładki <strong>Urządzenia</strong>, żeby dodać sprzęt dla tego akwarium, a <strong>Przejdź do mojego panelu</strong> wraca.</p>
 <aside class="cal cal-note"><p class="cal-t">Każda sekcja zmienia to, co może Ci powiedzieć Cora</p><p>Im więcej wypełnisz, tym więcej Cora potrafi. Produkty dozujące uruchamiają kalkulator dawek i śledzenie zużycia. Obsada i typ akwarium zmieniają to, z czym porównywane są Twoje odczyty. Sprzęt mówi Corze, co masz. Przy ubogim profilu dostaniesz bardziej ogólne odpowiedzi.</p></aside>
 <figure class="shot phone"><button type="button" class="zoom" aria-label="Powiększ: Edytor profilu akwarium"><img src="/help/img/mobile-tank-profile.webp" alt="Edytor profilu akwarium" width="620" height="1347" loading="lazy" decoding="async"></button><figcaption>Każda sekcja pokazuje stan wypełnienia. Wynik na górze odzwierciedla, ile Cora wie o akwarium.</figcaption></figure>
@@ -208,7 +208,7 @@
 <h2 id="removing-a-tank">Usuwanie akwarium</h2>
 <p><strong>Usuń akwarium</strong> jest na dole profilu. Ukrywa akwarium i zachowuje jego dane, a później możesz je przywrócić. Zanim go użyjesz, przeczytaj <a href="/pl/help/mobile-tanks#removing-a-tank">Usuwanie akwarium</a>, bo niektóre rzeczy działają dalej.</p>
       <nav class="pn" aria-label="Czytaj dalej"><a class="pn-p" href="/pl/help/mobile-tour"><span>Poprzedni</span><b>Jak poruszać się po Cora Mobile</b></a><a class="pn-n" href="/pl/help/mobile-tanks"><span>Następny</span><b>Zarządzanie akwariami</b></a></nav>
-      <p class="stamp">Napisano dla Cora Max 0.28.217 i Cora Mobile 0.5.125. Ostatnio sprawdzono 2026-10-13.</p>
+      <p class="stamp">Napisano dla Cora Max 0.28.219 i Cora Mobile 1.4.1. Ostatnio sprawdzono 2026-10-13.</p>
       <p class="ask">Wciąż masz problem? Napisz na <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, pomożemy.</p>
     </article>
   </main>
@@ -599,7 +599,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/pl/help/search.json?v=594e6c5535').then(function (r) { return r.json(); })
+    fetch('/pl/help/search.json?v=303849d9da').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "pl"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Wyszukiwanie jest niedost\u0119pne. U\u017cyj menu." + '</li>';

@@ -34,7 +34,7 @@ Karta na górze pokazuje, na jakie konto się logujesz i jaki masz plan. Dotknij
 Reguła, która przełącza pompę, przełączy ją także wtedy, gdy nie patrzysz. Twórz reguły po jednej i sprawdź, czy każda robi to, czego się spodziewasz, zanim dodasz następną.
 :::
 
-## Akwaria
+## Akwaria {#tanks}
 
 Zobaczysz jeden wiersz na każde akwarium, a pod nimi:
 
@@ -64,13 +64,13 @@ W **Mapowaniu parametrów** wybierasz, które urządzenie dostarcza każdy odczy
 - **Pomoc i wsparcie** to miejsce, w którym skontaktujesz się z pomocą, zgłosisz błąd i znajdziesz stronę Cora oraz FAQ. Zobacz niżej.
 - **O aplikacji** jest opisane niżej.
 
-## Język
+## Język {#language}
 
 **Całe konto ma jeden język.** Urządzenia nie mają własnych. Jeśli zmienisz go w telefonie, zmieni się też na każdym Cora Max w domu, i odwrotnie. Nowe raporty, alerty i podsumowania Reef Buddy są od tej chwili w nowym języku. Starsze zostają w języku, w którym je napisano. Nie są tłumaczone ponownie.
 
 Jeśli nagle wszystko pokazuje się w języku, którego się nie spodziewasz, ktoś go zmienił. Mógł to zrobić tutaj, z innego urządzenia na koncie albo w ustawieniu **Język** na Cora Max. To wszędzie to samo ustawienie.
 
-## Dostęp do urządzeń
+## Dostęp do urządzeń {#device-access}
 
 **Dostęp do urządzeń** otwiera ustawienia telefonu dla Cory. Tam zezwalasz na to, czego Cora potrzebuje, żeby znaleźć Twój sprzęt. Wiersz nie pokazuje, czy coś jest wyłączone. Po prostu przenosi Cię tam, gdzie możesz to sprawdzić.
 

@@ -38,7 +38,7 @@ Zu jedem Gerät in der Liste siehst du, auf welches Weckwort es hört und ob es 
 Das Handy hört auf kein Weckwort. Dort startest du ein Gespräch per Tippen. Das klappt immer, egal wie diese Einstellung steht. In der Liste stehen nur Cora-Geräte, die Sprache verstehen.
 :::
 
-## Primäres Cora Max
+## Primäres Cora Max {#primary-cora-max}
 
 Die Ausrüstung in deinem Netzwerk liest ein Cora Max aus. Könnten mehrere Cora Max denselben Controller lesen, würden sie ihn sonst alle gleichzeitig abfragen.
 
@@ -59,7 +59,7 @@ Mit einem primären Gerät wird der Controller weniger belastet, und doppelte Me
 Das Primäre Cora Max gehört zum Becken und nicht zu dem Handy oder Cora Max, auf das du gerade schaust. Änderst du es auf irgendeinem Gerät, gilt die Änderung für den ganzen Haushalt.
 :::
 
-## Was unterwegs funktioniert
+## Was unterwegs funktioniert {#what-works-away-from-home}
 
 Bist du nicht im WLAN deines Beckens, spricht dein Handy nicht direkt mit deiner Ausrüstung. Ein Befehl geht dann an Cora Cloud, und Cora Cloud gibt ihn an ein Cora Max am Becken weiter. Erst dieses Cora Max erreicht die Ausrüstung.
 

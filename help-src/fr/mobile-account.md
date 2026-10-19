@@ -65,17 +65,17 @@ Changer l’adresse e-mail d’un compte est une mesure de sécurité, donc Cora
 Une fois votre e-mail vérifié, Cora Mobile n’a de réglage ni pour l’un ni pour l’autre.
 
 - Pour votre mot de passe, déconnectez-vous, puis utilisez **Mot de passe oublié ?** sur l’écran de connexion.
-- Pour votre adresse e-mail, contactez l’assistance depuis **Réglages → Aide et assistance**. Voir [Signaler un problème](/help/mobile-support).
+- Pour votre adresse e-mail, contactez l’assistance depuis **Paramètres → Aide et assistance**. Voir [Signaler un problème](/help/mobile-support).
 - Le mot de passe et l’adresse d’un compte Apple ou Google sont gérés par Apple ou Google.
 
 ## Votre nom {#your-name}
 
-Allez dans **Réglages**, puis la carte du compte en haut, et touchez **Nom d’affichage**. Cora Assistant l’utilise pour s’adresser à vous.
+Allez dans **Paramètres**, puis la carte du compte en haut, et touchez **Nom d’affichage**. Cora Assistant l’utilise pour s’adresser à vous.
 
 ## E-mails labo et ICP {#lab-and-icp-emails}
 
-Les laboratoires et les résultats ICP envoyés par e-mail retrouvent votre compte par l’adresse e-mail. Si votre laboratoire connaît une autre adresse que celle avec laquelle vous vous connectez, ou si vous vous êtes connecté avec une adresse Apple masquée, ajoutez-la sous **Réglages → carte de votre compte → E-mails labo et ICP**. Touchez **Ajouter un e-mail de labo**, puis **Envoyer le code**, saisissez le code à 6 chiffres reçu par e-mail et touchez **Vérifier**. Vous pouvez en ajouter jusqu’à 3. Les étapes sont dans [Rapports ICP et de santé](/help/mobile-icp-health).
+Les laboratoires et les résultats ICP envoyés par e-mail retrouvent votre compte par l’adresse e-mail. Si votre laboratoire connaît une autre adresse que celle avec laquelle vous vous connectez, ou si vous vous êtes connecté avec une adresse Apple masquée, ajoutez-la sous **Paramètres → carte de votre compte → E-mails labo et ICP**. Touchez **Ajouter un e-mail de labo**, puis **Envoyer le code**, saisissez le code à 6 chiffres reçu par e-mail et touchez **Vérifier**. Vous pouvez en ajouter jusqu’à 3. Les étapes sont dans [Rapports ICP et de santé](/help/mobile-icp-health).
 
 ## Se déconnecter {#signing-out}
 
-**Réglages → Votre compte → Se déconnecter** déconnecte cet appareil. Rien n’est supprimé, et quand vous vous reconnectez, vos aquariums, vos mesures et vos appareils sont tous là. [Vos données](/help/mobile-data-export) explique la différence entre se déconnecter et supprimer votre compte.
+**Paramètres → Votre compte → Se déconnecter** déconnecte cet appareil. Rien n’est supprimé, et quand vous vous reconnectez, vos aquariums, vos mesures et vos appareils sont tous là. [Vos données](/help/mobile-data-export) explique la différence entre se déconnecter et supprimer votre compte.

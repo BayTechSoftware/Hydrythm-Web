@@ -2,7 +2,7 @@
 title: Journal, livestock and maintenance
 description: Log a test, add a journal entry, record a feed and tick off maintenance on Cora Max, and what you still do on your phone.
 section: Cora Max
-reviewed: 2026-10-17
+reviewed: 2026-10-18
 order: 10
 group: Records
 twin: mobile-journal
@@ -19,7 +19,7 @@ Cora Max shows the same records as your phone, but you can't change all of them 
 
 All of them are in the **tank menu** (tap the tank name in the top bar) and under **Settings → [your tank]**. Anything you add here shows up on your phone right away, and the other way round.
 
-## Logging readings
+## Logging readings {#logging-readings}
 
 Open **Log parameters**, tap a parameter, type the reading with the on-screen keypad and save. It goes straight to the tank's dashboard and history, so you can record a test at the tank where you did it. You can also say *"Hey Cora, log alkalinity 8.1."*
 
@@ -27,7 +27,7 @@ Cora checks each number before it saves. If one looks like a typo, or is far out
 
 If a newer reading for that parameter is already showing, your value says **Saved to history only**. It's kept in the history and charts, and the dashboard keeps showing the newer one.
 
-## Journal
+## Journal {#journal}
 
 Open **Journal** from the tank menu and tap **New entry**. Give it a title, and add a description, tags or a photo if you like. **Attach water params** saves the current readings with it. Or say *"Hey Cora, log that I fed mysis."* More about this in [The journal](/help/mobile-journal).
 
@@ -47,7 +47,7 @@ The icon next to the devices icon is **Reef Buddy**, and its dot means today's b
 
 The top of the screen says how many tasks are due. Below it, **Upcoming** lists each task with **TODAY**, **IN 3d** or **OVERDUE 2d**, and **Completed · last 7 days** shows what you've done lately.
 
-- Tap **Done** when you finish a task. If it's overdue, Cora asks **When did you do it?**
+- Tap **Done** when you finish a task. If it's overdue, Cora asks **When did you do it?** Cora also adds a short entry to your [journal](/help/max-records#journal), noting if the task was late.
 - Tap **Done earlier…** if you did it before today. Pick the date and time, and the next due date counts from then. A time in the future, or before the last completion, isn't accepted.
 - Tap **Snooze** to push it back by **1 Day**, **3 Days**, **1 Week**, **2 Weeks** or **1 Month**.
 

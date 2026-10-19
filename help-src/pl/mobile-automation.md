@@ -79,7 +79,7 @@ Akcja, która wymaga sprzętu, pojawia się tylko przy akwarium, które ma ten s
 | **Steruj sprzętem Apex** | Przełącza gniazdo |
 | **Uruchom cykl karmienia Apex** | Zaczyna karmienie. Apex kończy je według własnego timera |
 | **Uruchom test Trident** | Zaczyna test. Każde uruchomienie zużywa odczynnik |
-| **Zdawkuj z głowicy DŌS** | Podaje odmierzoną dawkę z głowicy DŌS |
+| **Dozuj z głowicy DŌS** | Podaje odmierzoną dawkę z głowicy DŌS |
 | **Steruj sprzętem Red Sea** | Steruje urządzeniem ReefBeat |
 | **Steruj pompą cyrkulacyjną** | Ustawia przepływ, tryb fali albo zasilanie pompy Jecod albo **Wstrzymaj na czas karmienia**. Cora Max przy akwarium przywraca pompę, gdy karmienie się skończy |
 | **Powiadom mnie** | Wysyła Ci powiadomienie z własnym **Tytułem** i **Wiadomością** |

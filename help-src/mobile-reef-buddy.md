@@ -40,7 +40,7 @@ Tap **×** to clear today's card from the dashboard. Tomorrow's still comes.
 
 To open today's briefing after you've cleared the card, tap the newspaper button at the top of the dashboard (**Reef Buddy daily health**). An older briefing opens from its notification.
 
-## Updating the briefing with a new test
+## Updating the briefing with a new test {#updating-the-briefing-with-a-new-test}
 
 If you log a test by hand or add an ICP result after the briefing came out, the full briefing shows **New readings since this briefing** with an **Update briefing** button. Tap it and Cora redoes the briefing with the new numbers. It uses one message from your Assistant allowance.
 
@@ -55,7 +55,7 @@ Under an insight, tap **Why am I seeing this?** The sheet **Why you're seeing th
 Briefings also draw on more than parameter readings. They can use the light schedules on your lights, the speed of a ReefMat roll, your hand-logged alkalinity next to a device's and the totals of your DŌS heads.
 
 
-## When it arrives
+## When it arrives {#when-it-arrives}
 
 Once a day for each tank, at the hour you choose. Set it in **Settings → Briefing time**, next to **Notifications**. The briefing arrives within about 15 minutes of that hour, in your own time zone. If you never choose, it comes at 8:00.
 
@@ -98,7 +98,7 @@ After the trial, a free account sees a locked Reef Buddy card with **See plans**
 
 If you turned off **Allow Cora Assistant to use saved tank data**, the briefing still comes, but its summary is a plain fixed text and the AI-written observation is left out. See [Asking Cora](/help/mobile-assistant#consent).
 
-## Correcting an insight
+## Correcting an insight {#correcting-an-insight}
 
 You can respond to each insight in one of four ways.
 

@@ -203,11 +203,12 @@
 <ol><li>Przejdź do <strong>Urządzenia → Dodaj urządzenie → AquaWiz</strong>.</li><li>Wpisz nazwę użytkownika i hasło AquaWiz i dotknij <strong>Połącz</strong>.</li><li>Wybierz akwarium, sprawdź <strong>Odczytuj też jego pH</strong> (dla urządzenia, które zgłasza pH, na początku jest włączone) i dotknij <strong>Połącz z Cora</strong>.</li></ol>
 <p>Gdy <strong>Automatycznie utrzymuj połączenie</strong> jest włączone, Cora przechowuje Twoje hasło AquaWiz i sama odnawia połączenie. Gdy jest wyłączone, Cora przechowuje tylko token logowania, który AquaWiz unieważnia mniej więcej co 30 dni, i wysyła Ci powiadomienie, gdy trzeba zalogować się ponownie.</p>
 <p>Dostajesz alkaliczność jako źródło, a także pH, jeśli Twoje urządzenie je zgłasza i <strong>Odczytuj też jego pH</strong> jest włączone. Pierwszy odczyt przychodzi zaraz po połączeniu. Potem AquaWiz pozwala Corze automatycznie czytać swoją chmurę tylko co 12 godzin, więc odczyt stamtąd może mieć nawet pół doby. Cora Max przy akwarium może też sam czytać kontroler co godzinę, gdy może go osiągnąć. Otwórz stronę urządzenia, żeby zobaczyć, kiedy zmierzono każdy odczyt i skąd pochodzi, i dotknij <strong>Odczytaj teraz</strong>, żeby dostać świeży (najwyżej raz na 15 minut). Co pokazuje karta AquaWiz i jej alerty, opisuje <a href="/pl/help/mobile-device-control#aquawiz">Sterowanie sprzętem</a>.</p>
+<p>Aby przenieść kontroler do innego akwarium, otwórz jego stronę w <strong>Urządzenia</strong> i dotknij <strong>Zmień</strong> w sekcji <strong>Akwaria</strong>. Nie musisz ponownie logować się do AquaWiz.</p>
 <aside class="cal cal-warning"><p class="cal-t">Cora używa tego samego logowania AquaWiz</p><p>AquaWiz daje każdemu kontu jedno logowanie, więc Cora używa tego samego co aplikacja AquaWiz. Jeśli zmienisz hasło AquaWiz, Cora się rozłączy. Połącz ją potem ponownie z wiersza urządzenia. Żeby całkowicie odebrać Corze dostęp, usuń urządzenie w Corze i zmień hasło AquaWiz.</p></aside>
 <h3 id="how-cora-reads-aquawiz">Jak Cora odczytuje Twój AquaWiz</h3>
 <p>Cora dociera do AquaWiz maksymalnie trzema drogami, które działają razem.</p>
 <div class="tw"><table class="stack"><thead><tr><th>Droga</th><th>Co daje Corze</th><th>Jak często</th></tr></thead><tbody><tr><td data-th="Droga">Twoje logowanie do AquaWiz</td><td data-th="Co daje Corze">Znajduje Twoje kontrolery, odczytuje ich ustawienia (docelowe KH, siłę dozowania, pojemnik) i pobiera dzienną historię.</td><td data-th="Jak często">Raz na dobę i gdy potrzebne są ustawienia</td></tr><tr><td data-th="Droga">Usługa Cora od AquaWiz</td><td data-th="Co daje Corze">Najnowszy odczyt KH i pH.</td><td data-th="Jak często">Po połączeniu, potem co 12 godzin (limit AquaWiz) oraz gdy otworzysz stronę urządzenia lub dotkniesz <strong>Odczytaj teraz</strong> (najwyżej co 15 minut)</td></tr><tr><td data-th="Droga">Cora Max przy akwarium</td><td data-th="Co daje Corze">Odczytuje kontroler bezpośrednio przez jego własne Wi-Fi i dodaje alerty pompy, sondy pH i pojemnika z wodą.</td><td data-th="Jak często">Co godzinę</td></tr></tbody></table></div>
-<p>Bez Cora Max odczyty przychodzą co 12 godzin, taki jest limit AquaWiz, więc odczyt może mieć nawet pół doby. <strong>Chcesz odczyty co godzinę? Dodaj Cora Max przy akwarium.</strong> <a href="https://coraiq.tech/pl/#max">Zobacz Cora Max</a> i <a href="/pl/help/max-setup">skonfiguruj go</a>. Pojawi się wraz z następną aktualizacją Cora Max i wymaga kontrolera w zasięgu Wi-Fi Cora Max oraz oprogramowania kontrolera z dostępem lokalnym. Szczegóły są w <a href="/pl/help/max-device-control#aquawiz-hourly">Odczyt co godzinę z Cora Max</a>.</p>
+<p>Bez Cora Max odczyty przychodzą co 12 godzin, taki jest limit AquaWiz, więc odczyt może mieć nawet pół doby. <strong>Chcesz odczyty co godzinę? Dodaj Cora Max przy akwarium.</strong> <a href="https://coraiq.tech/pl/#max">Zobacz Cora Max</a> i <a href="/pl/help/max-setup">skonfiguruj go</a>. Wymaga kontrolera w zasięgu Wi-Fi Cora Max oraz oprogramowania kontrolera z dostępem lokalnym. Szczegóły są w <a href="/pl/help/max-device-control#aquawiz-hourly">Odczyt co godzinę z Cora Max</a>.</p>
 <p>Karta urządzenia pokazuje, skąd pochodzi każdy odczyt: <strong>Co godzinę z Twojego Cora Max</strong> albo <strong>Z chmury AquaWiz, co 12 godzin</strong>.</p>
 <h2 id="logging-by-hand">Ręczne zapisywanie</h2>
 <p>Niektóre parametry pochodzą z testu kropelkowego, a nie ze sprzętu. Żeby wpisać wynik, przewiń na dół panelu i dotknij <strong>Zapisz parametry</strong>.</p>
@@ -215,7 +216,7 @@
 <h2 id="if-a-connection-stops-working">Gdy połączenie przestaje działać</h2>
 <p>Wiersz urządzenia mówi, jaki to rodzaj problemu. Znajdź go w tabeli w <a href="/pl/help/mobile-devices#health">Dodawaniu, edytowaniu i usuwaniu urządzeń</a>. We wszystkim, czego tam nie ma, zobacz <a href="/pl/help/troubleshooting">Rozwiązywanie problemów</a>.</p>
       <nav class="pn" aria-label="Czytaj dalej"><a class="pn-p" href="/pl/help/mobile-devices"><span>Poprzedni</span><b>Dodawanie, edytowanie i usuwanie urządzeń</b></a><a class="pn-n" href="/pl/help/mobile-device-control"><span>Następny</span><b>Sterowanie sprzętem</b></a></nav>
-      <p class="stamp">Napisano dla Cora Max 0.28.217 i Cora Mobile 0.5.125. Ostatnio sprawdzono 2026-10-17.</p>
+      <p class="stamp">Napisano dla Cora Max 0.28.219 i Cora Mobile 1.4.1. Ostatnio sprawdzono 2026-10-18.</p>
       <p class="ask">Wciąż masz problem? Napisz na <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, pomożemy.</p>
     </article>
   </main>
@@ -606,7 +607,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/pl/help/search.json?v=594e6c5535').then(function (r) { return r.json(); })
+    fetch('/pl/help/search.json?v=303849d9da').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "pl"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Wyszukiwanie jest niedost\u0119pne. U\u017cyj menu." + '</li>';

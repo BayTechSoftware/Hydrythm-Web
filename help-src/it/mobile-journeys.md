@@ -23,7 +23,7 @@ La scheda **Stai avviando una nuova vasca?** compare solo su una vasca senza nes
 
 Quando è in corso, la scheda sulla dashboard dice **Continua la maturazione · Giorno N**. Toccala per tornare al percorso. Se dice **Riprendi la maturazione**, la vasca è ancora impostata per la maturazione: toccala per riaprire la guida.
 
-## La maturazione di una nuova vasca
+## La maturazione di una nuova vasca {#cycling-a-new-tank}
 
 Serve per una vasca non ancora pronta per gli animali. Durante il ciclo crescono i batteri che trasformano l'ammoniaca, che è tossica, in nitrati innocui, e il percorso segue il processo fino alla fine.
 

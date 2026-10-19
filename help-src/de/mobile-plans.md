@@ -32,7 +32,7 @@ Dein Becken zu überwachen ist kostenlos und unbegrenzt. Die bezahlten Pläne ge
 
 Ist ein Kontingent aufgebraucht, kannst du trotzdem alles lesen, was Cora schon für dich erstellt hat.
 
-## Die Testphase
+## Die Testphase {#the-trial}
 
 Deine **30-tägige Advanced-Testphase beginnt, wenn du dein Konto anlegst**. Sie wartet nicht, bis du eine Funktion zum ersten Mal nutzt, und du brauchst keine Karte. **Konto & Abo** zeigt sie als **Cora Advanced Test**, mit dem Datum, an dem sie endet.
 
@@ -48,7 +48,7 @@ Die Testphase enthält Reef Buddy und **Mit KI gestalten**. Ihre Kontingente sin
 
 Endet sie, geht dein Konto zurück auf Free. **Es wird nichts gelöscht.** Du kannst weiterhin jeden Messwert, Tagebucheintrag, Bericht und jedes Briefing lesen, das du hast.
 
-## Bezahlte Stufen
+## Bezahlte Stufen {#paid-tiers}
 
 Es gibt drei Pläne, **Essential**, **Advanced** und **Expert**, jeweils monatlich oder jährlich. Die Einstellungen zeigen sie als Cora Essential, Cora Advanced und Cora Expert. Aktuelle Preise findest du in Cora Mobile und in deinem App Store, denn dort bezahlst du.
 
@@ -112,7 +112,7 @@ Die Zählung beginnt am Anfang jedes Kalendermonats von vorn.
 
 Um hochzuwechseln, nutze **Upgrade** oder **Auf Expert upgraden** wie oben. Um herunterzuwechseln oder zwischen monatlich und jährlich zu wechseln, nutze **Abo verwalten**. Änderungen laufen über den App Store oder Google Play und folgen denselben Regeln wie jedes andere Abo auf deinem Handy, einschließlich der Erstattungs- und Kündigungsbedingungen des Stores.
 
-## Kündigen
+## Kündigen {#cancelling}
 
 Du kündigst bei dem Store, bei dem du bezahlt hast. In Cora kannst du nicht kündigen. Dein Plan läuft bis zum Ende des bezahlten Zeitraums und geht dann zurück auf Free.
 

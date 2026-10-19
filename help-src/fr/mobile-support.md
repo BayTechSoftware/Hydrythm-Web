@@ -7,7 +7,7 @@ order: 39
 group: Settings and account
 ---
 
-Pour signaler un problème ou envoyer un retour, utilisez **Réglages → Aide et assistance → Signaler un bug / envoyer un retour**. Un signalement fait depuis Cora Mobile joint des détails dont on se souvient mal après coup.
+Pour signaler un problème ou envoyer un retour, utilisez **Paramètres → Aide et assistance → Signaler un bug / envoyer un retour**. Un signalement fait depuis Cora Mobile joint des détails dont on se souvient mal après coup.
 
 ![Le formulaire d’envoi de retour dans Cora Mobile](img/mobile-support.webp "Choisissez de quel genre de chose il s’agit, dites ce qui s’est passé et ajoutez une capture d’écran si cela aide.")
 
@@ -45,11 +45,11 @@ Quand vous consultez l’aquarium de quelqu’un d’autre par un lien partagé,
 
 ## Rapports de plantage automatiques
 
-**Envoyer les rapports de plantage**, dans **Aide et assistance** sous la ligne de signalement, fait le même travail sans que vous ayez à remarquer le problème et à le décrire. Si Cora Mobile s’arrête ou qu’un écran ne se charge pas, il envoie les détails techniques. Aucune donnée d’aquarium, aucune photo ni aucun détail de compte n’est inclus. Voir [Réglages de Cora Mobile](/help/mobile-settings#getting-help).
+**Envoyer les rapports de plantage**, dans **Aide et assistance** sous la ligne de signalement, fait le même travail sans que vous ayez à remarquer le problème et à le décrire. Si Cora Mobile s’arrête ou qu’un écran ne se charge pas, il envoie les détails techniques. Aucune donnée d’aquarium, aucune photo ni aucun détail de compte n’est inclus. Voir [Paramètres de Cora Mobile](/help/mobile-settings#getting-help).
 
 ## Écrire à l’assistance
 
-**Réglages → Aide et assistance → Contacter l’assistance** ouvre un e-mail à **[cora@coraiq.tech](mailto:cora@coraiq.tech)** avec votre version de Cora Mobile déjà remplie. Nous répondons en général sous un jour. Si votre téléphone n’a pas d’application de messagerie, écrivez à cette adresse depuis n’importe quel compte e-mail.
+**Paramètres → Aide et assistance → Contacter l’assistance** ouvre un e-mail à **[cora@coraiq.tech](mailto:cora@coraiq.tech)** avec votre version de Cora Mobile déjà remplie. Nous répondons en général sous un jour. Si votre téléphone n’a pas d’application de messagerie, écrivez à cette adresse depuis n’importe quel compte e-mail.
 
 ## Ailleurs
 

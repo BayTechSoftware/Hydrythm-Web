@@ -65,6 +65,6 @@ Plus de détails dans [Parler à Cora](/help/max-voice).
 
 ## Voir ce qui s’est passé {#seeing-what-happened}
 
-Chaque demande est enregistrée, avec ce qui l’a demandée et comment elle s’est passée, qu’elle vienne de Cora Mobile, d’un Cora Max, de la voix, de l’Assistant ou d’une automatisation. Sur Cora Max, touchez le nom de l’aquarium dans la barre du haut et choisissez **Activité**. Sur votre téléphone, c’est dans **Réglages → Activité**. Plus de détails dans [Activité sur Cora Max](/help/max-activity).
+Chaque demande est enregistrée, avec ce qui l’a demandée et comment elle s’est passée, qu’elle vienne de Cora Mobile, d’un Cora Max, de la voix, de l’Assistant ou d’une automatisation. Sur Cora Max, touchez le nom de l’aquarium dans la barre du haut et choisissez **Activité**. Sur votre téléphone, c’est dans **Paramètres → Activité**. Plus de détails dans [Activité sur Cora Max](/help/max-activity).
 
 Quand quelque chose a changé sans que vous sachiez pourquoi, regardez là en premier.

@@ -39,7 +39,7 @@ Bunu yalnızca Neptune Apex'i olan bir akvaryumda görürsünüz. Panonun altın
 
 ![Kontroller çekmecesi](img/max-controls.webp "Üstte besleme döngüleri, altında bu pano için seçilen prizler.")
 
-Çekmece, [pano düzenleyicisinde](/help/max-dashboard-editing#outlets-feed) **Prizler ve Besleme** altında seçtiğiniz prizleri ve besleme döngülerini gösterir. Hiç seçmediyseniz hepsini gösterir. Asma kilitli prizler burada da onay ister. Diğer kontrolcülerdeki prizler kendi cihaz sayfalarından açılıp kapatılır, [Cora Max'ten ekipman kontrolü](/help/max-device-control) sayfasına bakın.
+Çekmece, [pano düzenleyicisinde](/help/max-dashboard-editing#outlets-feed) **Prizler ve Besleme** altında seçtiğiniz prizleri ve besleme döngülerini gösterir. Hiç seçmediyseniz hepsini gösterir. Asma kilitli prizler burada da onay ister. Diğer kontrolörlerdeki prizler kendi cihaz sayfalarından açılıp kapatılır, [Cora Max'ten ekipman kontrolü](/help/max-device-control) sayfasına bakın.
 
 Bir prize dokunduğunuzda *Apex yanıt vermedi: uygulanmış olabilir* mesajı gelirse tekrar denemeden önce prizi kontrol edin.
 

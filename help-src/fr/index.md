@@ -68,7 +68,7 @@ Chaque mesure indique sa source et son âge. Si deux sources ne sont pas d’acc
 | Alertes et automatisation | [Alertes et seuils](/help/mobile-alerts) · [Notifications](/help/mobile-notifications) · [Automatisations et scènes](/help/mobile-automation) · [Partir en vacances](/help/mobile-vacation) |
 | Suivi | [Le journal](/help/mobile-journal) · [Dosage](/help/mobile-dosing) · [Entretien](/help/mobile-maintenance) · [Population](/help/mobile-livestock) · [Activité et chronologie](/help/mobile-activity) |
 | Intelligence | [Reef Buddy](/help/mobile-reef-buddy) · [Interroger Cora](/help/mobile-assistant) · [Rapports ICP et de santé](/help/mobile-icp-health) · [Parcours guidés](/help/mobile-journeys) |
-| Réglages et compte | [Réglages de Cora Mobile](/help/mobile-settings) · [Plus d’un appareil Cora](/help/mobile-multi-device) · [Forfaits et abonnements](/help/mobile-plans) · [Exporter vos données et supprimer votre compte](/help/mobile-data-export) · [Signaler un problème](/help/mobile-support) |
+| Paramètres et compte | [Paramètres de Cora Mobile](/help/mobile-settings) · [Plus d’un appareil Cora](/help/mobile-multi-device) · [Forfaits et abonnements](/help/mobile-plans) · [Exporter vos données et supprimer votre compte](/help/mobile-data-export) · [Signaler un problème](/help/mobile-support) |
 
 ## Cora Max
 
@@ -80,7 +80,7 @@ Chaque mesure indique sa source et son âge. Si deux sources ne sont pas d’acc
 | Alertes et automatisation | [Alertes sur Cora Max](/help/max-alerts) · [Scènes sur Cora Max](/help/max-automation) |
 | Suivi | [Journal, population et entretien](/help/max-records) · [Activité sur Cora Max](/help/max-activity) |
 | Intelligence | [Reef Buddy et rapports](/help/max-intelligence) · [Parler à Cora](/help/max-voice) |
-| Réglages et compte | [Réglages de Cora Max](/help/max-settings) · [Mises à jour et récupération](/help/max-updates) |
+| Paramètres et compte | [Paramètres de Cora Max](/help/max-settings) · [Mises à jour et récupération](/help/max-updates) |
 
 ## Aide
 

@@ -14,7 +14,7 @@ Onu **Asistan** sekmesinden açın.
 
 ![Cora Mobile'da alkaliniteyle ilgili bir Cora Assistant yanıtı](img/mobile-assistant.webp "Akvaryumun canlı verisinden hazırlanmış bir yanıt, kutunun üstünde bu ayın mesaj sayısı.")
 
-## Önce bir akvaryum seçin
+## Önce bir akvaryum seçin {#pick-a-tank-first}
 
 En üstteki akvaryum seçici Cora'nın neyden bahsettiğini belirler. Yazdığınız sorular ve aldığınız yanıtlar o akvaryuma aittir.
 
@@ -74,7 +74,7 @@ Yanıtın altında en fazla iki Yardım bölümü görebilirsiniz, her birinde e
 
 Düğmeler yalnızca açılacak bir ekran ya da sayfa varsa görünür.
 
-## İzin
+## İzin {#consent}
 
 ![Asistan izni](img/mobile-assistant-consent.webp "İki ayrı izin ve Cora'nın tuttuğu hafıza.")
 

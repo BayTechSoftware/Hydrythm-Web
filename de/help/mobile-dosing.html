@@ -197,10 +197,10 @@
 <p>Sobald Cora sowohl deine Dosierungen als auch deine Messwerte sieht, kann es ausrechnen, was dein Becken verbraucht, und dir sagen, wenn sich das ändert.</p>
 <p>Ändert sich der Bedarf, schau genauer hin, bevor du Schlüsse ziehst. Steigender Alkalinitätsbedarf heißt oft Wachstum, aber eine plötzliche Änderung in die eine oder andere Richtung kann auch von einer verpassten Dosierung, einem Testfehler, einer Ausfällung, einem Wasserwechsel oder einer Änderung an der Technik kommen. Prüf, was sich um dieses Datum herum noch geändert hat.</p>
 <h2 id="dosing-equipment">Dosiertechnik</h2>
-<p>Hast du einen verbundenen Dosierer, etwa einen Neptune™ DŌS oder einen Red Sea™ ReefDose, erscheinen seine Köpfe mit eigenen Messwerten, auch was jeder Kopf noch übrig hat und was er dosiert hat. Wie du sie betreibst und nachfüllst, steht unter <a href="/de/help/mobile-device-control">Deine Ausrüstung steuern</a>, und ihre Warnungen für leere Behälter und verpasste Dosierungen stehen unter <a href="/de/help/mobile-device-control#doser-alerts">Dosierer-Warnungen</a>.</p>
+<p>Hast du eine verbundene Dosierpumpe, etwa einen Neptune™ DŌS oder einen Red Sea™ ReefDose, erscheinen ihre Köpfe mit eigenen Messwerten, auch was jeder Kopf noch übrig hat und was er dosiert hat. Wie du sie betreibst und nachfüllst, steht unter <a href="/de/help/mobile-device-control">Deine Ausrüstung steuern</a>, und ihre Warnungen für leere Behälter und verpasste Dosierungen stehen unter <a href="/de/help/mobile-device-control#doser-alerts">Dosierpumpen-Warnungen</a>.</p>
 <p>Eine Automation kann auch aus einem DŌS-Kopf dosieren, begrenzt auf 10 ml pro Kopf und Tag. Siehe <a href="/de/help/mobile-automation#actions">Automationen und Szenen</a>.</p>
       <nav class="pn" aria-label="Weiterlesen"><a class="pn-p" href="/de/help/mobile-journal"><span>Zurück</span><b>Das Tagebuch</b></a><a class="pn-n" href="/de/help/mobile-maintenance"><span>Weiter</span><b>Wartung</b></a></nav>
-      <p class="stamp">Geschrieben für Cora Max 0.28.217 und Cora Mobile 0.5.125. Zuletzt geprüft am 2026-10-13.</p>
+      <p class="stamp">Geschrieben für Cora Max 0.28.219 und Cora Mobile 1.4.1. Zuletzt geprüft am 2026-10-13.</p>
       <p class="ask">Kommst du nicht weiter? Schreib eine E-Mail an <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, wir helfen dir.</p>
     </article>
   </main>
@@ -591,7 +591,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/de/help/search.json?v=eaa607bd77').then(function (r) { return r.json(); })
+    fetch('/de/help/search.json?v=2242ca5a10').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "de"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Die Suche ist nicht verf\u00fcgbar. Nutze die Navigation." + '</li>';

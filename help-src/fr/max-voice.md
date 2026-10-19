@@ -12,7 +12,7 @@ Vous pouvez parler à Cora Max. C’est le plus pratique quand vous avez les mai
 
 ## Avant de commencer
 
-- **Le partage de données avec l’IA doit être activé.** Activez **Autoriser Cora Assistant à utiliser les données d’aquarium enregistrées** dans Cora Mobile, sous **Réglages → Cora Assistant**. Tant que c’est désactivé, Cora Max affiche **La voix a besoin de votre accord** et rien de ce que vous dites n’est envoyé. Plus de détails dans [Interroger Cora](/help/mobile-assistant#consent).
+- **Le partage de données avec l’IA doit être activé.** Activez **Autoriser Cora Assistant à utiliser les données d’aquarium enregistrées** dans Cora Mobile, sous **Paramètres → Cora Assistant**. Tant que c’est désactivé, Cora Max affiche **La voix a besoin de votre accord** et rien de ce que vous dites n’est envoyé. Plus de détails dans [Interroger Cora](/help/mobile-assistant#consent).
 - **La voix utilise votre quota mensuel d’IA.** Les sessions vocales ont leur propre compteur mensuel, et chaque réponse parlée utilise aussi des messages du même quota d’Assistant que votre téléphone, plus qu’une réponse écrite. Votre forfait fixe les deux. Plus de détails dans [Forfaits et abonnements](/help/mobile-plans).
 
 ## Deux façons de commencer
@@ -25,9 +25,9 @@ Ou touchez l’icône **Cora Assistant** dans la barre du haut. Cora commence à
 
 ## Réglages du son et du mot d’activation {#sound-and-wake-word-settings}
 
-![Les interrupteurs Son d’alerte, Alertes vocales et Mot d’activation dans les Réglages Cora Max, avec l’interrupteur du briefing Reef Buddy en dessous](img/max-voice.webp "Son d’alerte, Alertes vocales et Mot d’activation, avec Reef Buddy en dessous.")
+![Les interrupteurs Son d’alerte, Alertes vocales et Mot d’activation dans les Paramètres Cora Max, avec l’interrupteur du briefing Reef Buddy en dessous](img/max-voice.webp "Son d’alerte, Alertes vocales et Mot d’activation, avec Reef Buddy en dessous.")
 
-Ils se trouvent dans **Réglages → Réglages Cora Max → SON ET VOIX**, et ne concernent que cet écran.
+Ils se trouvent dans **Paramètres → Paramètres Cora Max → SON ET VOIX**, et ne concernent que cet écran.
 
 - **Mot d’activation** active ou désactive l’écoute en arrière-plan. Quand il est désactivé, toucher l’icône **Cora Assistant** fonctionne toujours : utilisez-le si vous préférez que l’écran n’écoute pas en permanence.
 - **Haut-parleur** choisit d’où sort le son : **Interne**, **3.5 mm** ou **BT** (Bluetooth). Pour la voix, le haut-parleur interne est le plus faible des trois. **BT** ouvre **Associer une enceinte Bluetooth**, où vous mettez votre enceinte en mode association et la choisissez dans la liste.
@@ -36,7 +36,7 @@ Ils se trouvent dans **Réglages → Réglages Cora Max → SON ET VOIX**, et ne
 
 Si vous avez plusieurs Cora Max à la maison, un seul répond à la phrase d’activation. C’est l’**Appareil répondant**. C’est un réglage distinct de l’appareil qui lit votre équipement, le **Cora Max principal** (plus de détails dans [Appareils et état des appareils](/help/max-devices)).
 
-Changez-le dans **Réglages → Cora Assistant** sur n’importe quel Cora Max, ou dans Cora Mobile. Il s’applique à tout votre foyer.
+Changez-le dans **Paramètres → Cora Assistant** sur n’importe quel Cora Max, ou dans Cora Mobile. Il s’applique à tout votre foyer.
 
 Seul l’**Appareil répondant** écoute "Hey Cora". Vos autres écrans Cora Max n’écoutent pas tant qu’il est en ligne. S’il se déconnecte, ou qu’on ne l’a pas vu depuis plus de 15 minutes, un autre Cora Max se met à écouter à sa place, et s’arrête dès qu’il revient. Le relais prend environ une minute : si personne ne répond à "Hey Cora" juste après, redites-le ou touchez l’icône **Cora Assistant**.
 
@@ -108,18 +108,18 @@ Tant que le [verrouillage enfant](/help/max-settings#child-lock) a verrouillé l
 
 ## S’il comprend mal
 
-Les mots du récif sont difficiles, et les noms d’équipement encore plus. Si Cora comprend sans cesse mal un appareil, donnez-lui un nom plus distinct. Allez dans **Réglages → Appareils**, touchez le crayon à côté de l’appareil (ou **Renommer** sur sa page), et tapez un nom court et courant. Le nouveau nom apparaît aussi sur votre téléphone.
+Les mots du récif sont difficiles, et les noms d’équipement encore plus. Si Cora comprend sans cesse mal un appareil, donnez-lui un nom plus distinct. Allez dans **Paramètres → Appareils**, touchez le crayon à côté de l’appareil (ou **Renommer** sur sa page), et tapez un nom court et courant. Le nouveau nom apparaît aussi sur votre téléphone.
 
 ## Si Cora ne répond pas
 
-- Vérifiez que **Mot d’activation** est activé (**Réglages → Réglages Cora Max → SON ET VOIX**), que ce Cora Max est votre **Appareil répondant** (voir plus haut), et que son volume est monté.
+- Vérifiez que **Mot d’activation** est activé (**Paramètres → Paramètres Cora Max → SON ET VOIX**), que ce Cora Max est votre **Appareil répondant** (voir plus haut), et que son volume est monté.
 - Une décantation bruyante ou un filtre juste à côté de Cora Max peut l’empêcher d’entendre la phrase d’activation. Déplacez-le, ou parlez un peu plus près.
 
 Si Cora Max affiche un message au lieu d’écouter :
 
 | Message | Que faire |
 |---|---|
-| **La voix a besoin de votre accord** | Activez le partage de données avec l’IA dans Cora Mobile (**Réglages → Cora Assistant**), puis réessayez |
+| **La voix a besoin de votre accord** | Activez le partage de données avec l’IA dans Cora Mobile (**Paramètres → Cora Assistant**), puis réessayez |
 | **Limite vocale gratuite atteinte** | Le quota de ce mois est épuisé. Passez à un forfait supérieur dans Cora Mobile, ou attendez le mois prochain |
 | **Trop de requêtes** | Attendez un instant, puis réessayez |
 | **Problème de connexion** | Vérifiez le Wi-Fi de ce Cora Max, puis touchez à nouveau l’icône **Cora Assistant** |

@@ -188,9 +188,9 @@
 <ol><li>Such den Eintrag für das, worum du gebeten hast.</li><li>Steht dort <strong>Abgelehnt</strong>, lies den Grund darunter. Es wurde nichts ausgeführt.</li><li>Steht dort <strong>Unbestätigt</strong>, prüf die Ausrüstung selbst, bevor du es noch einmal versuchst, damit es nicht zweimal passiert.</li></ol>
 <p>Wenn es dann immer noch keinen Sinn ergibt, siehe <a href="/de/help/troubleshooting#establishing-why-something-changed">Herausfinden, warum sich etwas geändert hat</a>.</p>
 <h2 id="zusammen-mit-dem-tagebuch-lesen">Zusammen mit dem Tagebuch lesen</h2>
-<p>Die Aktivität zeigt, was das System getan hat. Das <a href="/de/help/max-records">Tagebuch</a> zeigt, was du von Hand gemacht hast. Zusammen erklären sie die meisten Überraschungen.</p>
+<p>Die Aktivität zeigt, was das System getan hat. Das <a href="/de/help/max-records#journal">Tagebuch</a> zeigt, was du von Hand gemacht hast. Zusammen erklären sie die meisten Überraschungen.</p>
       <nav class="pn" aria-label="Weiterlesen"><a class="pn-p" href="/de/help/max-records"><span>Zurück</span><b>Tagebuch, Besatz und Wartung</b></a><a class="pn-n" href="/de/help/max-intelligence"><span>Weiter</span><b>Reef Buddy und Berichte</b></a></nav>
-      <p class="stamp">Geschrieben für Cora Max 0.28.217 und Cora Mobile 0.5.125. Zuletzt geprüft am 2026-10-18.</p>
+      <p class="stamp">Geschrieben für Cora Max 0.28.219 und Cora Mobile 1.4.1. Zuletzt geprüft am 2026-10-18.</p>
       <p class="ask">Kommst du nicht weiter? Schreib eine E-Mail an <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, wir helfen dir.</p>
     </article>
   </main>
@@ -581,7 +581,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/de/help/search.json?v=eaa607bd77').then(function (r) { return r.json(); })
+    fetch('/de/help/search.json?v=2242ca5a10').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "de"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Die Suche ist nicht verf\u00fcgbar. Nutze die Navigation." + '</li>';

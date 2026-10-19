@@ -129,7 +129,7 @@ Bu normaldir. Bir Red Sea cihazının kendi ayarları yalnızca telefonunuz ciha
 
 Bu normal olabilir. AquaWiz, Cora'nın bulutunu yalnızca 12 saatte bir okumasına izin verir; bu yüzden Cora Max yoksa bir ölçüm yaklaşık yarım gün eski olabilir. Cora Mobile'da cihazın sayfasını açın: ölçümün ne zaman yapıldığını ve nereden geldiğini gösterir, **Şimdi oku** da yeni bir ölçüm ister (en fazla 15 dakikada bir).
 
-Bir Cora Max'iniz varsa (sonraki Cora Max güncellemesinden itibaren) ve kart hâlâ **AquaWiz bulutundan, 12 saatte bir** diyorsa:
+Bir Cora Max'iniz varsa ve kart hâlâ **AquaWiz bulutundan, 12 saatte bir** diyorsa:
 
 - Kontrolörün akvaryumun ana Cora Max'inin Wi-Fi menzilinde olduğunu kontrol edin.
 - AquaWiz uygulamasında kontrolörün ürün yazılımının güncel olduğunu kontrol edin; eski ürün yazılımında yerel erişim yoktur.
@@ -243,6 +243,14 @@ Bağlantısını kaybettikten sonra Cora Max, ağınızı boğmamak için her de
 
 1. Ağınız geri geldikten sonra ona yaklaşık bir dakika verin.
 2. Hâlâ yeniden bağlanmadıysa **Ayarlar → Cora Max Ayarları → Wi-Fi**'ı kontrol edin.
+
+### Cora Max "Bluetooth çalışmayı durdurdu" diyor {#bluetooth-stopped-working}
+
+Bu başlıklı bir kart ekranı kaplar: *Cora Max, Bluetooth cihazlarınıza (ışıklar, pompalar, sensörler) ulaşamıyor. Cora Max'i yeniden başlatmak sorunu giderir.* Cora Max'in Bluetooth'u durduğunda ve yalnızca yeniden başlatma onu geri getirdiğinde görünür.
+
+1. **Şimdi yeniden başlat**'a dokunun. Cora Max yeniden başlar.
+2. Şimdi uygun değilse **Sonra**'ya dokunun. Kart 30 dakika kaybolur ve sorun sürdüğü sürece geri gelir.
+3. **Şimdi yeniden başlat**'a dokunduğunuzda hiçbir şey yeniden başlamazsa, gücünü kapatıp açarak Cora Max'i yeniden başlatın.
 
 ### Telefonda bir Cora Max'in adını değiştirmek gösterdiğini değiştirmiyor {#renaming-a-cora-max-on-the-phone-doesnt-change-what-the-tabl}
 

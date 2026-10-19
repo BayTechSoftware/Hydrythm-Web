@@ -220,7 +220,7 @@
 <ol><li>Verbinde dich mit dem WLAN des Beckens, um diese Einstellungen zu ändern.</li><li>Messwerte und Verlauf funktionieren weiter, wenn du unterwegs bist.</li></ol>
 <h3 id="an-aquawiz-reading-is-hours-old">Ein AquaWiz™-Messwert ist Stunden alt</h3>
 <p>Das kann normal sein. AquaWiz lässt Cora seine Cloud nur alle 12 Stunden auslesen, ohne Cora Max kann ein Messwert also bis zu einem halben Tag alt sein. Öffne die Seite des Geräts in Cora Mobile: Sie zeigt, wann der Messwert gemessen wurde und woher er kam, und <strong>Jetzt auslesen</strong> fragt einen frischen an (höchstens alle 15 Minuten).</p>
-<p>Wenn du ein Cora Max hast (ab dem nächsten Cora-Max-Update) und auf der Karte trotzdem <strong>Aus der AquaWiz-Cloud, alle 12 Stunden</strong> steht:</p>
+<p>Wenn du ein Cora Max hast und auf der Karte trotzdem <strong>Aus der AquaWiz-Cloud, alle 12 Stunden</strong> steht:</p>
 <ul><li>Prüfe, ob der Controller in WLAN-Reichweite des Haupt-Cora-Max des Beckens ist.</li><li>Prüfe in der AquaWiz-App, ob die Firmware des Controllers aktuell ist; ältere Firmware bietet keinen lokalen Zugriff.</li><li>Nach zwei fehlgeschlagenen Messungen hintereinander wartet das Cora Max bis zum nächsten Tag. Klappt es weiterhin nicht, wende dich an den Support.</li></ul>
 <h2 id="command-did-not-go-through">Ein Befehl ist nicht durchgekommen</h2>
 <p>Jeder Befehl endet als <strong>Bestätigt</strong>, <strong>Unbestätigt</strong>, <strong>Abgelehnt</strong> oder <strong>Keine Änderung</strong>. Was jedes davon bedeutet, steht unter <a href="/de/help/mobile-device-control">Deine Ausrüstung steuern</a>.</p>
@@ -244,7 +244,7 @@
 <h2 id="cora-max">Cora Max</h2>
 <h3 id="my-cora-max-is-offline">Mein Cora Max ist offline</h3>
 <p>Auf dem Handy hat seine Zeile im Tab <strong>Geräte</strong> einen roten Punkt. Solange es offline ist, wird Ausrüstung, die es abfragt, nicht mehr aktualisiert, du bekommst vielleicht Warnungen, dass sich diese Ausrüstung nicht mehr meldet, und Befehle, die du von unterwegs schickst, können mit <em>"Es wurde nichts gesendet"</em> zurückkommen.</p>
-<ol><li>Prüf, ob Cora Max Strom hat und der Bildschirm an ist.</li><li>Prüf auf Cora Max <strong>Einstellungen → Cora Max-Einstellungen → WLAN</strong> und ob dein Router funktioniert.</li><li>Ist ein weiteres Cora Max am Becken, stell <strong>Primäres Cora Max</strong> auf <strong>Jedes aktive (automatisch)</strong>, damit es übernehmen kann. Siehe <a href="/de/help/mobile-multi-device">Mehr als ein Cora-Gerät</a>.</li><li>Startet es nicht richtig, siehe <a href="/de/help/max-updates">Updates und Wiederherstellung</a>.</li></ol>
+<ol><li>Prüf, ob Cora Max Strom hat und der Bildschirm an ist.</li><li>Prüf auf Cora Max <strong>Einstellungen → Cora Max-Einstellungen → WLAN</strong> und ob dein Router funktioniert.</li><li>Ist ein weiteres Cora Max am Becken, stell <strong>Primäres Cora Max</strong> auf <strong>Jedes aktive (automatisch)</strong>, damit es übernehmen kann. Siehe <a href="/de/help/mobile-multi-device#primary-cora-max">Mehr als ein Cora-Gerät</a>.</li><li>Startet es nicht richtig, siehe <a href="/de/help/max-updates">Updates und Wiederherstellung</a>.</li></ol>
 <aside class="cal cal-tip"><p class="cal-t">Lass es dir beim nächsten Mal sagen</p><p>Öffne in Cora Mobile <strong>Einstellungen → Automationen</strong> und leg eine Regel mit dem Auslöser <strong>Wenn ein Gerät offline geht</strong> an, wähl dein Cora Max und füg die Aktion <strong>Mich benachrichtigen</strong> hinzu. Mehr dazu unter <a href="/de/help/mobile-automation">Automationen und Szenen</a>.</p></aside>
 <h3 id="pairing-a-cora-max-fails">Das Koppeln eines Cora Max schlägt fehl</h3>
 <p>Cora Mobile findet ein neues Cora Max über Bluetooth und gibt ihm dann dein WLAN. Bevor du anfängst, brauchst du mindestens ein Becken in Cora Mobile, eingeschaltetes Bluetooth und dein Handy in der Nähe des Bildschirms. Bleibt das Koppeln mittendrin stehen, sagt dir Cora Mobile, warum, mit <strong>Abbrechen</strong> und <strong>Erneut versuchen</strong> darunter.</p>
@@ -265,6 +265,9 @@
 <h3 id="cora-max-wont-reconnect-right-away-after-a-wi-fi-outage">Cora Max verbindet sich nach einem WLAN-Ausfall nicht sofort wieder</h3>
 <p>Nachdem es seine Verbindung verloren hat, wartet Cora Max vor jedem neuen Versuch etwas länger, damit es dein Netzwerk nicht überflutet. Die Wartezeit wächst auf etwa eine Minute.</p>
 <ol><li>Gib ihm etwa eine Minute, nachdem dein Netzwerk zurück ist.</li><li>Hat es sich dann immer noch nicht verbunden, prüf <strong>Einstellungen → Cora Max-Einstellungen → WLAN</strong>.</li></ol>
+<h3 id="bluetooth-stopped-working">Cora Max sagt "Bluetooth funktioniert nicht mehr"</h3>
+<p>Eine Karte mit diesem Titel liegt über dem Bildschirm: <em>Cora Max erreicht deine Bluetooth-Geräte (Leuchten, Pumpen, Sensoren) nicht mehr. Ein Neustart von Cora Max behebt das.</em> Sie erscheint, wenn das Bluetooth von Cora Max stehen geblieben ist und nur ein Neustart es zurückbringt.</p>
+<ol><li>Tippe auf <strong>Jetzt neu starten</strong>. Cora Max startet neu.</li><li>Passt es gerade nicht, tippe auf <strong>Später</strong>. Die Karte verschwindet für 30 Minuten und kommt wieder, solange das Problem besteht.</li><li>Startet nichts neu, wenn du auf <strong>Jetzt neu starten</strong> tippst, starte Cora Max neu, indem du die Stromversorgung aus- und wieder einschaltest.</li></ol>
 <h3 id="renaming-a-cora-max-on-the-phone-doesnt-change-what-the-tabl">Ein Cora Max auf dem Handy umzubenennen ändert nicht, was es zeigt</h3>
 <p>Der Name, den du auf dem Handy festlegst, ist die Bezeichnung des Kontos für dieses Gerät. Der Name, den Cora Max auf seinem eigenen Kopplungsbildschirm zeigt, kann ein anderer sein.</p>
 <ol><li>Prüf, welchen Namen du ansiehst: den in der Geräteliste deines Handys oder den auf dem Kopplungsbildschirm von Cora Max.</li><li>Um die Bezeichnung des Kontos zu ändern, benenn es in der Geräteliste deines Handys um.</li></ol>
@@ -325,7 +328,7 @@
 <h2 id="still-stuck">Immer noch nicht gelöst</h2>
 <p>Schreib eine E-Mail an <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> oder melde es aus Cora Mobile heraus, wie unter <a href="/de/help/mobile-support">Ein Problem melden</a> beschrieben. Sag uns, welches Becken, welches Gerät, welcher Bildschirm und was du erwartet hast.</p>
       <nav class="pn" aria-label="Weiterlesen"><a class="pn-n" href="/de/help/how-do-i"><span>Weiter</span><b>Wie mache ich...?</b></a></nav>
-      <p class="stamp">Geschrieben für Cora Max 0.28.217 und Cora Mobile 0.5.125. Zuletzt geprüft am 2026-10-18.</p>
+      <p class="stamp">Geschrieben für Cora Max 0.28.219 und Cora Mobile 1.4.1. Zuletzt geprüft am 2026-10-18.</p>
       <p class="ask">Kommst du nicht weiter? Schreib eine E-Mail an <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, wir helfen dir.</p>
     </article>
   </main>
@@ -716,7 +719,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/de/help/search.json?v=eaa607bd77').then(function (r) { return r.json(); })
+    fetch('/de/help/search.json?v=2242ca5a10').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "de"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Die Suche ist nicht verf\u00fcgbar. Nutze die Navigation." + '</li>';

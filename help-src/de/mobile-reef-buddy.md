@@ -40,7 +40,7 @@ Tippe auf **×**, um die heutige Karte vom Dashboard zu entfernen. Die von morge
 
 Um das heutige Briefing zu öffnen, nachdem du die Karte entfernt hast, tippe oben auf dem Dashboard auf die Zeitungstaste (**Reef Buddy tägliche Gesundheit**). Ein älteres Briefing öffnest du über seine Benachrichtigung.
 
-## Das Briefing mit einem neuen Test aktualisieren
+## Das Briefing mit einem neuen Test aktualisieren {#updating-the-briefing-with-a-new-test}
 
 Trägst du einen Test von Hand ein oder fügst ein ICP-Ergebnis hinzu, nachdem das Briefing erschienen ist, zeigt das ganze Briefing **Neue Messwerte seit diesem Briefing** mit einer Taste **Briefing aktualisieren**. Tippe darauf, und Cora erstellt das Briefing mit den neuen Zahlen neu. Das verbraucht eine Nachricht aus deinem Assistant-Kontingent.
 
@@ -50,12 +50,12 @@ Messwerte von Sonden und Controllern lösen dieses Angebot nicht aus, weil sie d
 
 ## Warum du ein Insight siehst
 
-Tippe unter einem Insight auf **Warum sehe ich das?** Das Fenster **Darum siehst du das** listet die **Verwendete Messwerte** auf, den **Verglichener Zielwert** (dein eigener Zielwert oder ein Referenzbereich), alles **Aus deinem Tagebuch**, was berücksichtigt wurde, und das Zeitfenster in Tagen, das betrachtet wurde. Passt die Begründung nicht zu deinem Becken, antworte auf das Insight, wie unter [Ein Insight korrigieren](#ein-insight-korrigieren) beschrieben.
+Tippe unter einem Insight auf **Warum sehe ich das?** Das Fenster **Darum siehst du das** listet die **Verwendete Messwerte** auf, den **Verglichener Zielwert** (dein eigener Zielwert oder ein Referenzbereich), alles **Aus deinem Tagebuch**, was berücksichtigt wurde, und das Zeitfenster in Tagen, das betrachtet wurde. Passt die Begründung nicht zu deinem Becken, antworte auf das Insight, wie unter [Ein Insight korrigieren](#correcting-an-insight) beschrieben.
 
 Briefings stützen sich auch auf mehr als Wasserwerte. Sie können die Lichtzeitpläne deiner Leuchten nutzen, die Geschwindigkeit einer ReefMat-Rolle, deine von Hand eingetragene Alkalinität neben der eines Geräts und die Summen deiner DŌS-Köpfe.
 
 
-## Wann es kommt
+## Wann es kommt {#when-it-arrives}
 
 Einmal am Tag für jedes Becken, zu der Stunde, die du wählst. Stell sie unter **Einstellungen → Briefing-Zeit** ein, neben **Benachrichtigungen**. Das Briefing kommt innerhalb von etwa 15 Minuten nach dieser Stunde, in deiner eigenen Zeitzone. Wählst du nie etwas, kommt es um 8:00.
 
@@ -98,7 +98,7 @@ Nach der Testphase sieht ein kostenloses Konto dort, wo das Briefing war, eine g
 
 Hast du **Cora Assistant erlauben, gespeicherte Beckendaten zu nutzen** ausgeschaltet, kommt das Briefing trotzdem, aber seine Zusammenfassung ist ein einfacher fester Text, und die Beobachtung, die eine KI schreibt, fehlt. Siehe [Cora fragen](/help/mobile-assistant#consent).
 
-## Ein Insight korrigieren
+## Ein Insight korrigieren {#correcting-an-insight}
 
 Du kannst auf jedes Insight auf eine von vier Arten reagieren.
 

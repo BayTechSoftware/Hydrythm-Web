@@ -2,7 +2,7 @@
 title: Panonuzu düzenleme
 description: Telefon panonuzda widget ekleyin, taşıyın, boyutlandırın ve kaldırın, sütun sayısını ayarlayın ve bir Cora Max panosunu telefonunuzdan düzenleyin.
 section: Cora Mobile
-reviewed: 2026-10-17
+reviewed: 2026-10-18
 order: 8
 group: Your dashboard
 twin: max-dashboard-editing
@@ -33,7 +33,7 @@ Düzenleyicinin üstünde **SÜTUNLAR**'ın yanından **2**, **3** ya da **4**'�
 ## Widget ekleme {#adding-a-widget}
 
 1. Izgaranın altındaki **Kutucuk ekle**'ye ya da boş bir hücreye dokunun.
-2. **Bir kutucuk ekle** içinde türünü seçin. **Metrik**, bir parametre için değer, gösterge, grafik ya da durum gösterir. **Priz** bir Apex prizini kontrol eder. Diğer satırlar **ReefBeat**, **Trident**, **DŌS** ya da **Jecod** gibi ekipmanlar içindir. Bunların çoğu yalnızca akvaryumda o ekipman varsa görünür.
+2. **Bir kutucuk ekle** içinde türünü seçin. **Metrik**, bir parametre için değer, gösterge, grafik ya da durum gösterir. **Priz** bir Apex prizini kontrol eder. Diğer satırlar **ReefBeat**, **Trident**, **DŌS** ya da **Jecod** gibi ekipmanlar içindir. Bunların çoğu yalnızca akvaryumda o ekipman varsa görünür. **Işık**, **Dalga pompası** ve **Pompa**, markası ne olursa olsun akvaryumdaki tüm ışıkları, dalga pompalarını ve pompaları listeler; her biri yalnızca akvaryumda böyle bir cihaz varsa görünür. **ReefBeat** ve **Jecod**, ReefDose ya da bir Jecod dozaj pompası gibi diğer cihazlarını korur.
 3. Parametreyi, prizi ya da cihazı seçin.
 4. Bir metrik için türü seçin. [Widget rehberi](/help/mobile-widgets) her birini anlatır.
 

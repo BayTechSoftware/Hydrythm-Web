@@ -99,7 +99,7 @@ Mit fünf Fingern in der Ecke kommst du auch in die [Wiederherstellung](/help/ma
 
 Die Kindersicherung ist keine Sicherheitssperre. Wer sieht, wie du sie entsperrst, kann das auch.
 
-## Koppeln, neu koppeln und Werksreset
+## Koppeln, neu koppeln und Werksreset {#pairing-re-pairing-and-factory-reset}
 
 **Cora Max-Einstellungen → ZURÜCKSETZEN** hat zwei Optionen.
 

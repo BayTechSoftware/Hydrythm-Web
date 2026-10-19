@@ -12,7 +12,7 @@ W zakładce **Inteligencja** są Twoje wyniki z laboratorium i raporty długoter
 
 ![Zakładka Inteligencja](img/mobile-intelligence.webp "Prześlij ICP, uruchom raport zdrowia i zobacz, co się zmieniło od ostatniego razu.")
 
-## Przesyłanie testu ICP
+## Przesyłanie testu ICP {#uploading-an-icp-test}
 
 Cora odczytuje raport PDF, który przysyła Ci laboratorium. Najpierw pobierz go z e-maila albo strony laboratorium. Zdjęć, skanów i zrzutów ekranu nie da się odczytać.
 
@@ -32,7 +32,7 @@ Jeśli prześlesz ten sam raport dwa razy, Cora pokaże ten, który już masz, i
 Analiza ICP wysyła raport do AI, więc wymaga **Pozwól Cora Assistant korzystać z zapisanych danych akwarium**. Jeśli to jest wyłączone, Cora zapyta przed przesłaniem. Zobacz [czego dotyczy przełącznik](/help/mobile-assistant#what-the-switch-covers).
 :::
 
-## Którego e-maila może użyć laboratorium
+## Którego e-maila może użyć laboratorium {#which-email-a-lab-can-use}
 
 Laboratorium albo wynik wysłany e-mailem znajduje Twoje konto po adresie e-mail, który zna. To Twój e-mail do logowania oraz każdy e-mail laboratorium, który dodasz w **Ustawienia → karta Twojego konta (Konto i subskrypcja) → E-maile laboratorium i ICP**.
 
@@ -44,7 +44,7 @@ Możesz dodać do 3 e-maili laboratorium. Każdy pokazuje **Potwierdzony** albo 
 
 Jeśli logujesz się ukrytym adresem Apple, laboratoria nie znajdą Twojego konta. Ekran ICP pokazuje wtedy kartę **Otrzymuj wyniki z laboratorium automatycznie**, która prowadzi do tego ustawienia. Gdy logujesz się przez Apple, wybierz **Udostępnij mój adres e-mail**, żeby uniknąć problemu.
 
-## Wyślij do Cory: wyniki, które dostarcza laboratorium albo e-mail
+## Wyślij do Cory: wyniki, które dostarcza laboratorium albo e-mail {#send-to-cora-results-a-lab-or-an-email-delivers-for-you}
 
 Niektóre laboratoria mogą wysłać wynik prosto do Cory, a PDF z ICP wysłany e-mailem dociera w ten sam sposób. Nie musisz niczego przesyłać samodzielnie.
 
@@ -104,7 +104,7 @@ Jeden ICP mówi, gdzie jesteś. Drugi mówi, w którą stronę zmierzasz, i na t
 
 Jeśli przesyłasz wodę RO/DI albo inną wodę źródłową, wybierz przy przesyłaniu **Woda RO/DI**. Cora nie ocenia jej według celów Twojego akwarium. Podaje prosty werdykt, czy woda jest wystarczająco czysta do użycia, i trzyma te liczby poza odczytami akwarium. Jest zapisywana jako osobny raport. Cora robi to samo dla **Mieszanka soli** albo **Inne**: mówi, jak wygląda próbka, i nie ocenia jej jak Twojego akwarium.
 
-## Raporty zdrowia
+## Raporty zdrowia {#health-reports}
 
 **Raport zdrowia** to głębsze sprawdzenie całego systemu, robione od czasu do czasu. Bierze pod uwagę razem każdy parametr, każde źródło, dozowanie, historię i ostatnie wyniki ICP.
 

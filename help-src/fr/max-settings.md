@@ -1,5 +1,5 @@
 ---
-title: Réglages de Cora Max
+title: Paramètres de Cora Max
 description: Tous les réglages de Cora Max, du nom, de la luminosité, de l’atténuation nocturne, du haut-parleur et du mot d’activation au verrouillage enfant, à la langue, au Wi-Fi, à la nouvelle association et à la réinitialisation d’usine.
 section: Cora Max
 reviewed: 2026-10-18
@@ -12,10 +12,10 @@ Ouvrez les réglages avec la **roue dentée** tout à droite de la barre du haut
 
 ![Les réglages sur Cora Max, avec le groupe CORA et une ligne par aquarium](img/max-settings.webp "Le groupe CORA (Automatisations, Appareils, Cora Assistant), puis une ligne par aquarium.")
 
-Les réglages ont trois groupes. **CORA** contient ce qui s’applique à tous les appareils Cora de votre foyer. **AQUARIUMS** a une ligne par aquarium. La dernière ligne, **Réglages Cora Max**, concerne uniquement cet écran.
+Les réglages ont trois groupes. **CORA** contient ce qui s’applique à tous les appareils Cora de votre foyer. **AQUARIUMS** a une ligne par aquarium. La dernière ligne, **Paramètres Cora Max**, concerne uniquement cet écran.
 
 :::note Deux sortes de réglages
-Certains réglages appartiennent à votre **compte**. Ils sont les mêmes quel que soit le téléphone ou le Cora Max que vous regardez, et en changer un le change partout. D’autres n’appartiennent qu’à **cet écran**, comme sa luminosité ou son Wi-Fi. Les groupes CORA et AQUARIUMS sont des réglages de compte. Réglages Cora Max contient les réglages propres à cet écran.
+Certains réglages appartiennent à votre **compte**. Ils sont les mêmes quel que soit le téléphone ou le Cora Max que vous regardez, et en changer un le change partout. D’autres n’appartiennent qu’à **cet écran**, comme sa luminosité ou son Wi-Fi. Les groupes CORA et AQUARIUMS sont des réglages de compte. Paramètres Cora Max contient les réglages propres à cet écran.
 :::
 
 ## CORA
@@ -38,7 +38,7 @@ Chaque aquarium a une ligne qui ouvre ses propres réglages.
 - **Disposition du tableau de bord** est la disposition Cora Max de cet aquarium. Plus de détails dans [Modifier le tableau de bord Cora Max](/help/max-dashboard-editing).
 - Sous **REGISTRES ET RAPPORTS** : **Enregistrer les paramètres**, **Journal**, **Entretien**, **Population**, **Reef Buddy**, **Rapports de santé**, **Rapports ICP** et **Activité**. Plus de détails dans [Journal, population et entretien](/help/max-records) et [Reef Buddy et rapports](/help/max-intelligence).
 
-## Réglages Cora Max : tout ce qui concerne cet écran
+## Paramètres Cora Max : tout ce qui concerne cet écran
 
 La dernière ligne des réglages porte le nom de ce Cora Max. Elle ouvre tout ce qui s’applique **uniquement à cet écran**.
 
@@ -78,7 +78,7 @@ Les retours à la normale sont enregistrés comme les alarmes. Quand un paramèt
 
 Le verrouillage enfant empêche les petites mains de changer quoi que ce soit sur un écran que des enfants ou des visiteurs peuvent atteindre. Les mesures, les graphiques et les alertes continuent de se mettre à jour. Seules les commandes s’arrêtent.
 
-Pour l’activer, allez dans **Réglages → Réglages Cora Max → VERROUILLAGE ENFANT**, activez **Verrouillage enfant**, et choisissez **Verrouiller après**. Les choix sont 30 secondes, 1, 2, 5, 15 ou 30 minutes (1 minute sauf si vous le changez).
+Pour l’activer, allez dans **Paramètres → Paramètres Cora Max → VERROUILLAGE ENFANT**, activez **Verrouillage enfant**, et choisissez **Verrouiller après**. Les choix sont 30 secondes, 1, 2, 5, 15 ou 30 minutes (1 minute sauf si vous le changez).
 
 Cora Max se verrouille alors tout seul après le délai **Verrouiller après** sans contact. Chaque contact remet ce délai à zéro. Tant qu’il est verrouillé :
 
@@ -101,7 +101,7 @@ Le verrouillage enfant n’est pas un verrou de sécurité. Quiconque vous voit 
 
 ## Association, nouvelle association et réinitialisation d’usine {#pairing-re-pairing-and-factory-reset}
 
-**Réglages Cora Max → RÉINITIALISATION** propose deux options.
+**Paramètres Cora Max → RÉINITIALISATION** propose deux options.
 
 **Réassocier cet appareil** efface l’association de cet écran et le ramène à l’écran d’association.
 
@@ -109,7 +109,7 @@ Le verrouillage enfant n’est pas un verrou de sécurité. Quiconque vous voit 
 
 Aucune des deux ne touche aux données d’aquarium déjà enregistrées dans Cora Cloud. Les deux retirent ce Cora Max de votre compte et lui font oublier son réseau Wi-Fi : vous l’associez donc à nouveau depuis Cora Mobile comme un appareil neuf. Si Cora Max ne peut pas joindre Cora Cloud pour se retirer, il indique *Ce Cora Max figure encore dans l’application Cora. Retirez-le également de là-bas.* Ouvrez-le dans Cora Mobile sous **Appareils** et choisissez **Retirer l’appareil**.
 
-![Les sections AIDE ET À PROPOS et RÉINITIALISATION des Réglages Cora Max](img/max-factory-reset.webp "La section RÉINITIALISATION, avec Réassocier cet appareil et Réinitialisation d’usine.")
+![Les sections AIDE ET À PROPOS et RÉINITIALISATION des Paramètres Cora Max](img/max-factory-reset.webp "La section RÉINITIALISATION, avec Réassocier cet appareil et Réinitialisation d’usine.")
 
 Vous pouvez aussi réinitialiser un Cora Max depuis votre téléphone, dans Cora Mobile sous **Appareils →** votre Cora Max **→ Zone à risque**. C’est utile quand l’écran est hors de portée ou verrouillé.
 

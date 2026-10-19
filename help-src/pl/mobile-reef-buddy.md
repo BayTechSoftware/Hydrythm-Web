@@ -40,7 +40,7 @@ Dotknij **×**, żeby usunąć dzisiejszą kartę z panelu. Jutrzejsza i tak prz
 
 Żeby otworzyć dzisiejsze podsumowanie po usunięciu karty, dotknij przycisku z gazetą na górze panelu (**Codzienne zdrowie Reef Buddy**). Starsze podsumowanie otworzysz z jego powiadomienia.
 
-## Aktualizacja podsumowania po nowym teście
+## Aktualizacja podsumowania po nowym teście {#updating-the-briefing-with-a-new-test}
 
 Jeśli zapiszesz test ręcznie albo dodasz wynik ICP po tym, jak przyszło podsumowanie, pełne podsumowanie pokaże **Nowe odczyty od czasu tego podsumowania** z przyciskiem **Zaktualizuj podsumowanie**. Dotknij go, a Cora przygotuje podsumowanie od nowa z nowymi liczbami. Zużywa to jedną wiadomość z limitu Asystenta.
 
@@ -55,7 +55,7 @@ Pod spostrzeżeniem dotknij **Dlaczego to widzę?** Arkusz **Dlaczego to widzisz
 Podsumowania korzystają też z czegoś więcej niż odczyty parametrów. Mogą użyć harmonogramów Twoich lamp, prędkości rolki ReefMat, ręcznie zapisanej alkaliczności obok tej z urządzenia oraz sum z Twoich głowic DŌS.
 
 
-## Kiedy przychodzi
+## Kiedy przychodzi {#when-it-arrives}
 
 Raz dziennie dla każdego akwarium, o wybranej godzinie. Ustawisz ją w **Ustawienia → Godzina podsumowania**, obok **Powiadomień**. Podsumowanie przychodzi w ciągu około 15 minut od tej godziny, w Twojej strefie czasowej. Jeśli nigdy jej nie wybierzesz, przychodzi o 8:00.
 

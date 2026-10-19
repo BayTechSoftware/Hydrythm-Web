@@ -2,7 +2,7 @@
 title: Référence des widgets
 description: Chaque type de widget du tableau de bord de Cora Mobile, de la valeur, la jauge, le graphique, l’état et la prise aux tuiles d’appareils, et quand utiliser chacun.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 9
 group: Your dashboard
 ---

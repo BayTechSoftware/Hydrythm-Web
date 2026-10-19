@@ -12,7 +12,7 @@ La scheda **Intelligence** è dove stanno i risultati di laboratorio e i report 
 
 ![La scheda Intelligence](img/mobile-intelligence.webp "Carica un ICP, avvia un report di salute e guarda cosa è cambiato dall'ultimo.")
 
-## Caricare un test ICP
+## Caricare un test ICP {#uploading-an-icp-test}
 
 Cora legge il report in PDF che ti manda il laboratorio. Scaricalo prima dall'email o dal sito del tuo laboratorio. Foto, scansioni e screenshot non si possono leggere.
 
@@ -32,7 +32,7 @@ Se carichi due volte lo stesso report, Cora ti mostra quello che hai già e non 
 L'analisi ICP invia il report all'IA, quindi richiede **Consenti al Cora Assistant di usare i dati salvati della vasca**. Se è spento, Cora te lo chiede prima del caricamento. Vedi [cosa copre l'interruttore](/help/mobile-assistant#what-the-switch-covers).
 :::
 
-## Quale email può usare un laboratorio
+## Quale email può usare un laboratorio {#which-email-a-lab-can-use}
 
 Un laboratorio o un risultato inviato per email trova il tuo account dall'indirizzo email che conosce. È la tua email di accesso, più qualsiasi email di laboratorio che aggiungi in **Impostazioni → la scheda del tuo account (Account e abbonamento) → Email laboratorio e ICP**.
 
@@ -44,7 +44,7 @@ Puoi aggiungere fino a 3 email di laboratorio. Ognuna mostra **Verificata** o **
 
 Se hai effettuato l'accesso con un'email Apple nascosta, i laboratori non possono trovare il tuo account. La schermata ICP mostra una scheda, **Ricevi automaticamente i risultati del laboratorio**, che ti porta a questa impostazione. Quando accedi con Apple, scegli **Condividi la mia email** per evitare il problema.
 
-## Invia a Cora: risultati che un laboratorio o un'email consegnano per te
+## Invia a Cora: risultati che un laboratorio o un'email consegnano per te {#send-to-cora-results-a-lab-or-an-email-delivers-for-you}
 
 Alcuni laboratori possono inviare un risultato direttamente a Cora, e un PDF ICP che invii per email arriva allo stesso modo. Non devi caricare niente tu.
 
@@ -104,7 +104,7 @@ Un ICP ti dice dove sei. Il secondo ti dice in che direzione stai andando, ed è
 
 Se carichi acqua RO/DI o un'altra acqua di partenza, scegli **Acqua RO/DI** al caricamento. Cora non la valuta rispetto agli obiettivi della tua vasca. Dà un giudizio semplice su quanto l'acqua è abbastanza pulita da usare, e tiene quei numeri fuori dalle letture della vasca. Viene salvata come report separato. Cora fa lo stesso per **Miscela di sale** o **Altro**: dice a cosa assomiglia il campione e non lo valuta come se fosse la tua vasca.
 
-## Report di salute
+## Report di salute {#health-reports}
 
 Un **Report di salute** è un controllo più approfondito di tutto l'impianto, da fare ogni tanto. Guarda insieme ogni parametro, ogni fonte, il dosaggio, lo storico e i risultati ICP recenti.
 

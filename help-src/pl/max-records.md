@@ -2,7 +2,7 @@
 title: Dziennik, obsada i konserwacja
 description: Zapisz test, dodaj wpis w dzienniku, zapisz karmienie i odhacz konserwację na Cora Max, a także co nadal robisz na telefonie.
 section: Cora Max
-reviewed: 2026-10-17
+reviewed: 2026-10-18
 order: 10
 group: Records
 twin: mobile-journal
@@ -19,7 +19,7 @@ Cora Max pokazuje te same zapisy co telefon, ale nie wszystkie możesz tu zmieni
 
 Wszystkie są w **menu akwarium** (dotknij nazwy akwarium na górnym pasku) i w **Ustawienia → [Twoje akwarium]**. Wszystko, co tu dodasz, od razu pojawi się na telefonie, i odwrotnie.
 
-## Zapisywanie odczytów
+## Zapisywanie odczytów {#logging-readings}
 
 Otwórz **Zapisz parametry**, dotknij parametru, wpisz odczyt na klawiaturze ekranowej i zapisz. Trafia on od razu na panel i do historii akwarium, więc test zapiszesz przy akwarium, przy którym go robisz. Możesz też powiedzieć *„Hey Cora, zapisz alkaliczność 8,1”*.
 
@@ -27,7 +27,7 @@ Cora sprawdza każdą liczbę przed zapisem. Jeśli któraś wygląda na literó
 
 Jeśli dla tego parametru widać już nowszy odczyt, przy Twojej wartości pojawi się **Zapisano tylko w historii**. Zostaje ona w historii i na wykresach, a panel dalej pokazuje nowszą.
 
-## Dziennik
+## Dziennik {#journal}
 
 Otwórz **Dziennik** z menu akwarium i dotknij **Nowy wpis**. Nadaj mu tytuł i, jeśli chcesz, dodaj opis, tagi albo zdjęcie. **Dołącz parametry wody** zapisuje razem z nim bieżące odczyty. Możesz też powiedzieć *„Hey Cora, zapisz karmienie mysis”*. Więcej w [Dzienniku](/help/mobile-journal).
 
@@ -47,7 +47,7 @@ Ikona obok ikony urządzeń to **Reef Buddy**, a kropka przy niej oznacza, że d
 
 Góra ekranu mówi, ile zadań czeka. Pod nią **Nadchodzące** wymienia każde zadanie z oznaczeniem **DZIŚ**, **ZA 3d** albo **ZALEGŁE 2d**, a **Zakończone · ostatnie 7 dni** pokazuje, co ostatnio zrobiono.
 
-- Dotknij **Gotowe**, gdy skończysz zadanie. Jeśli jest po terminie, Cora pyta **Kiedy to zostało zrobione?**
+- Dotknij **Gotowe**, gdy skończysz zadanie. Jeśli jest po terminie, Cora pyta **Kiedy to zostało zrobione?** Cora dodaje też krótki wpis do Twojego [dziennika](/help/max-records#journal), z adnotacją, jeśli zadanie było po terminie.
 - Dotknij **Zrobione wcześniej…**, jeśli zrobiono to przed dzisiaj. Wybierz datę i godzinę, a następny termin liczy się od niej. Godzina z przyszłości ani wcześniejsza niż ostatnie wykonanie nie jest przyjmowana.
 - Dotknij **Odłóż**, żeby przesunąć je o **1 dzień**, **3 dni**, **1 tydzień**, **2 tygodnie** albo **1 miesiąc**.
 

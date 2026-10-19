@@ -40,7 +40,7 @@ Bugünün kartını panodan kaldırmak için **×**'e dokunun. Yarınki yine gel
 
 Kartı kaldırdıktan sonra bugünün özetini açmak için panonun üstündeki gazete düğmesine (**Reef Buddy günlük sağlık**) dokunun. Daha eski bir özet kendi bildiriminden açılır.
 
-## Özeti yeni bir testle güncelleme
+## Özeti yeni bir testle güncelleme {#updating-the-briefing-with-a-new-test}
 
 Özet çıktıktan sonra elle bir test kaydederseniz ya da bir ICP sonucu eklerseniz tam özet, bir **Özeti güncelle** düğmesiyle birlikte **Bu özetten sonra yeni ölçümler geldi** gösterir. Ona dokunun, Cora özeti yeni sayılarla yeniden hazırlar. Bu, asistan hakkınızdan bir mesaj kullanır.
 
@@ -50,12 +50,12 @@ Prob ve kontrolör ölçümleri bu teklifi tetiklemez, çünkü gün boyu gelirl
 
 ## Bir içgörüyü neden görüyorsunuz
 
-Bir içgörünün altında **Bunu neden görüyorum?**'a dokunun. **Bunu neden görüyorsunuz** sayfası **Kullanılan ölçümler**'i, **Karşılaştırılan hedef**'i (kendi hedefiniz ya da bir referans aralığı), dikkate aldığı her şeyi **Günlüğünüzden** ve baktığı gün cinsinden zaman aralığını listeler. Gerekçe akvaryumunuza uymuyorsa içgörüyü [Bir içgörüyü düzeltme](#bir-icgoruyu-duzeltme) bölümünde anlatıldığı gibi yanıtlayın.
+Bir içgörünün altında **Bunu neden görüyorum?**'a dokunun. **Bunu neden görüyorsunuz** sayfası **Kullanılan ölçümler**'i, **Karşılaştırılan hedef**'i (kendi hedefiniz ya da bir referans aralığı), dikkate aldığı her şeyi **Günlüğünüzden** ve baktığı gün cinsinden zaman aralığını listeler. Gerekçe akvaryumunuza uymuyorsa içgörüyü [Bir içgörüyü düzeltme](#correcting-an-insight) bölümünde anlatıldığı gibi yanıtlayın.
 
 Özetler parametre ölçümlerinden fazlasına da dayanır. Işıklarınızdaki ışık zamanlamalarını, bir ReefMat rulosunun hızını, elle kaydettiğiniz alkaliniteyi bir cihazınkinin yanında ve DŌS kafalarınızın toplamlarını kullanabilirler.
 
 
-## Ne zaman gelir
+## Ne zaman gelir {#when-it-arrives}
 
 Her akvaryum için günde bir kez, seçtiğiniz saatte. Bunu **Bildirimler**'in yanındaki **Ayarlar → Özet saati** içinde ayarlayın. Özet o saatten sonraki yaklaşık 15 dakika içinde, kendi saat diliminizde gelir. Hiç seçmezseniz 8:00'de gelir.
 
@@ -98,7 +98,7 @@ Deneme bittikten sonra ücretsiz bir hesap, özetin olduğu yerde **Planları g�
 
 **Cora Assistant'ın kayıtlı akvaryum verilerini kullanmasına izin ver**'i kapattıysanız özet yine gelir, ama özeti sabit düz bir metindir ve yapay zekanın yazdığı gözlem çıkarılır. [Cora'ya sorun](/help/mobile-assistant#consent) sayfasına bakın.
 
-## Bir içgörüyü düzeltme
+## Bir içgörüyü düzeltme {#correcting-an-insight}
 
 Her içgörüye dört yoldan biriyle yanıt verebilirsiniz.
 

@@ -99,7 +99,7 @@ Tenere cinque dita nell'angolo è anche il modo per entrare nel [Ripristino](/he
 
 Il blocco bambini non è un blocco di sicurezza. Chiunque veda come lo sblocchi può fare lo stesso.
 
-## Associazione, nuova associazione e ripristino di fabbrica
+## Associazione, nuova associazione e ripristino di fabbrica {#pairing-re-pairing-and-factory-reset}
 
 **Impostazioni Cora Max → RIPRISTINO** ha due opzioni.
 

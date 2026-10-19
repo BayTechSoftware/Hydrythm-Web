@@ -38,7 +38,7 @@ Każde urządzenie na liście pokazuje swoją frazę aktywującą i to, czy jest
 Telefon nie nasłuchuje frazy aktywującej. Rozmowę zaczynasz na nim dotknięciem i to działa zawsze, niezależnie od tego ustawienia. Lista pokazuje tylko sprzęt Cora z obsługą głosu.
 :::
 
-## Główne Cora Max
+## Główne Cora Max {#primary-cora-max}
 
 Cora Max odczytuje sprzęt w Twojej sieci. Gdyby więcej niż jeden mógł połączyć się z tym samym kontrolerem, wszystkie odpytywałyby go równolegle.
 
@@ -59,7 +59,7 @@ Wybór głównego urządzenia odciąża kontroler i usuwa zdublowane odczyty z t
 Główne Cora Max ustawia się dla każdego akwarium w całym koncie. Nie należy do telefonu ani do Cora Max, który akurat masz w ręku. Zmień je na dowolnym urządzeniu, a zmieni się dla całego domu.
 :::
 
-## Co działa poza domem
+## Co działa poza domem {#what-works-away-from-home}
 
 Gdy jesteś poza siecią Wi-Fi akwarium, telefon nie łączy się ze sprzętem bezpośrednio. Polecenie trafia do Cora Cloud, która przekazuje je do Cora Max przy akwarium. To ten Cora Max łączy się ze sprzętem.
 

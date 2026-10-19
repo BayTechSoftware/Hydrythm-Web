@@ -15,7 +15,7 @@ Le nuove versioni si scaricano in background appena escono. Si installano dentro
 
 Non devi fare niente per restare aggiornato.
 
-## Controllare la versione e le impostazioni di aggiornamento
+## Controllare la versione e le impostazioni di aggiornamento {#checking-the-version-and-update-settings}
 
 ![Rete e aggiornamenti su Cora Max](img/max-updates.webp "Aggiornamento firmware, nella sezione RETE E AGGIORNAMENTI delle Impostazioni Cora Max.")
 

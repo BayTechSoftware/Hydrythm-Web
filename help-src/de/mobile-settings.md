@@ -21,7 +21,7 @@ Die Karte oben zeigt, als wer du angemeldet bist und welches Abo du hast. Tippe 
 - **Abo** zeigt dein Abo und wann es sich verlängert, mit **Pläne ansehen**, **Upgrade** oder **Auf Max upgraden**, dann **Abo verwalten** und **Käufe wiederherstellen**. Auf Android gibt es außerdem **Code einlösen**. Alles davon ist unter [Pläne und Abos](/help/mobile-plans) erklärt.
 - **Abmelden**
 - **Meine Daten exportieren** gibt dir deine Messwerte, Tagebucheinträge und Warnungen als Dateien, in jedem Abo kostenlos. Siehe [Deine Daten exportieren](/help/mobile-data-export).
-- **Konto löschen** ist endgültig. Lies die beiden Hinweise unter [Deine Daten und Datenschutz](#deine-daten-und-datenschutz), bevor du es nutzt.
+- **Konto löschen** ist endgültig. Lies die beiden Hinweise unter [Deine Daten und Datenschutz](#your-data-and-privacy), bevor du es nutzt.
 
 ## Cora
 
@@ -34,7 +34,7 @@ Die Karte oben zeigt, als wer du angemeldet bist und welches Abo du hast. Tippe 
 Eine Regel, die eine Pumpe schaltet, schaltet sie auch, wenn du nicht hinschaust. Bau Regeln eine nach der anderen und prüf bei jeder, ob sie tut, was du erwartest, bevor du die nächste hinzufügst.
 :::
 
-## Becken
+## Becken {#tanks}
 
 Du siehst eine Zeile für jedes Becken und dann:
 
@@ -64,13 +64,13 @@ Unter **Parameterzuordnung** wählst du, welches Gerät welchen Messwert liefert
 - **Hilfe & Support** ist, wo du den Support kontaktierst, einen Fehler meldest und die Cora-Website und die FAQ findest. Siehe unten.
 - **Über** wird unten erklärt.
 
-## Sprache
+## Sprache {#language}
 
 **Es gibt eine Sprache für das ganze Konto.** Die Geräte haben keine eigene. Änderst du sie auf deinem Handy, ändert sie sich auch auf jedem Cora Max im Haushalt, und umgekehrt. Neue Berichte, Warnungen und Reef Buddy-Briefings nutzen ab dann die neue Sprache. Ältere bleiben in der Sprache, in der sie geschrieben wurden. Sie werden nicht neu übersetzt.
 
 Erscheint plötzlich alles in einer Sprache, mit der du nicht gerechnet hast, hat jemand sie geändert. Vielleicht hier, auf einem anderen Gerät im Konto oder in der Einstellung **Sprache** auf einem Cora Max. Es ist überall dieselbe Einstellung.
 
-## Gerätezugriff
+## Gerätezugriff {#device-access}
 
 **Gerätezugriff** öffnet die eigenen Einstellungen deines Handys für Cora. Dort erlaubst du, was Cora braucht, um deine Ausrüstung zu finden. Die Zeile zeigt nicht, ob etwas ausgeschaltet ist. Sie bringt dich nur an die Stelle, wo du es prüfen kannst.
 
@@ -89,7 +89,7 @@ Du öffnest das über die Zeile **Cora Assistant** unter **Cora** weiter oben.
 - **Vertraute Labore** listet die Labore auf, die Ergebnisse an deine Becken schicken können, ohne jedes Mal zu fragen. Es erscheint, sobald du einem vertraut hast. Mehr dazu unter [ICP und Gesundheitsberichte](/help/mobile-icp-health#trusted-labs).
 - **Nutzung & Limits** zeigt deine monatlichen Kontingente und wie viel du verbraucht hast.
 
-## Deine Daten und Datenschutz
+## Deine Daten und Datenschutz {#your-data-and-privacy}
 
 Drei Einstellungen zu deinen Daten liegen an verschiedenen Stellen, deshalb übersieht man sie leicht.
 

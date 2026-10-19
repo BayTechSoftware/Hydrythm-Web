@@ -57,7 +57,7 @@ Les briefings s’appuient aussi sur plus que les mesures de paramètres. Ils pe
 
 ## Quand il arrive {#when-it-arrives}
 
-Une fois par jour pour chaque aquarium, à l’heure que vous choisissez. Réglez-la dans **Réglages → Heure du briefing**, à côté de **Notifications**. Le briefing arrive dans les 15 minutes environ qui suivent cette heure, dans votre fuseau horaire. Si vous ne choisissez jamais, il arrive à 8:00.
+Une fois par jour pour chaque aquarium, à l’heure que vous choisissez. Réglez-la dans **Paramètres → Heure du briefing**, à côté de **Notifications**. Le briefing arrive dans les 15 minutes environ qui suivent cette heure, dans votre fuseau horaire. Si vous ne choisissez jamais, il arrive à 8:00.
 
 Choisissez une heure après votre test habituel du matin, pour que le résultat du jour soit dans le briefing.
 
@@ -85,7 +85,7 @@ Si vous n’avez rien testé depuis une semaine, le score Données baisse et le 
 
 Reef Buddy fait partie des forfaits payants. Il est aussi inclus dans l’essai de 30 jours qui commence à la création de votre compte.
 
-Chaque forfait couvre un nombre fixe d’aquariums : 1 pendant l’essai et avec Essential, 5 avec Advanced et 20 avec Expert. Les briefings vont aux premiers aquariums dans l’ordre défini dans **Réglages → Réorganiser les aquariums**. Pour inclure un aquarium qui n’en reçoit pas, remontez-le dans la liste. Les aquariums supprimés ne prennent pas de place.
+Chaque forfait couvre un nombre fixe d’aquariums : 1 pendant l’essai et avec Essential, 5 avec Advanced et 20 avec Expert. Les briefings vont aux premiers aquariums dans l’ordre défini dans **Paramètres → Réorganiser les aquariums**. Pour inclure un aquarium qui n’en reçoit pas, remontez-le dans la liste. Les aquariums supprimés ne prennent pas de place.
 
 Après l’essai, un compte gratuit voit une carte Reef Buddy verrouillée avec **Voir les forfaits** à la place du briefing, et ne reçoit pas de notification de briefing. Plus de détails dans [Forfaits et abonnements](/help/mobile-plans).
 
@@ -93,7 +93,7 @@ Après l’essai, un compte gratuit voit une carte Reef Buddy verrouillée avec 
 
 - **Rien ne demandait votre attention.** Reef Buddy reste silencieux un bon jour. La carte est quand même sur le tableau de bord.
 - **Votre essai est terminé.** Un compte gratuit a la carte verrouillée et aucune notification.
-- **L’aquarium dépasse la limite de votre forfait.** Remontez-le dans **Réglages → Réorganiser les aquariums**.
+- **L’aquarium dépasse la limite de votre forfait.** Remontez-le dans **Paramètres → Réorganiser les aquariums**.
 - **Les notifications sont désactivées.** Vérifiez [Notifications](/help/mobile-notifications).
 
 Si vous avez désactivé **Autoriser Cora Assistant à utiliser les données d’aquarium enregistrées**, le briefing arrive quand même, mais son résumé est un texte fixe simple et l’observation rédigée par l’IA est omise. Voir [Interroger Cora](/help/mobile-assistant#consent).

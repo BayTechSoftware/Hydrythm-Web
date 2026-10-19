@@ -80,7 +80,7 @@ Les boutons n’apparaissent que s’il y a un écran ou une page à ouvrir.
 
 La première fois que vous ouvrez le tableau de bord, Cora demande **Activer les conseils récifaux personnalisés ?** **Activer** active le partage de données. **Pas maintenant** le laisse désactivé. Si vous utilisez la configuration guidée, sa dernière page pose la même question.
 
-Vous pouvez le changer à tout moment dans **Réglages → Cora Assistant**, qui a deux interrupteurs distincts.
+Vous pouvez le changer à tout moment dans **Paramètres → Cora Assistant**, qui a deux interrupteurs distincts.
 
 - **Autoriser Cora Assistant à utiliser les données d’aquarium enregistrées** doit être activé pour que Cora Assistant vous réponde. S’il est désactivé, Cora affiche à nouveau son écran de consentement avant votre prochain message ou votre prochaine conversation vocale. L’écran liste ce qu’utilise Cora Assistant, et **Où vont vos données** nomme le fournisseur d’IA qui rédige les réponses. **Accepter et continuer** réactive l’interrupteur et continue. **Pas maintenant** n’envoie rien et garde ce que vous avez tapé.
 - **Contribuer des données d’aquarium anonymisées** est expliqué dans [Exporter vos données et supprimer votre compte](/help/mobile-data-export#contributing-anonymised-data).
@@ -100,7 +100,7 @@ Quand il est désactivé, la fonction vous demande d’abord votre accord. Les b
 
 ## La langue dans laquelle Cora répond
 
-Cora Assistant utilise la langue de votre compte. C’est la langue unique de tout le foyer, réglée dans **Réglages → Langue**. Cora Assistant n’a pas de réglage de langue à lui. Changez-la là, et dès votre prochaine conversation, Cora Assistant écrit et parle dans la nouvelle langue. Plus de détails dans [Réglages de Cora Mobile](/help/mobile-settings#language).
+Cora Assistant utilise la langue de votre compte. C’est la langue unique de tout le foyer, réglée dans **Paramètres → Langue**. Cora Assistant n’a pas de réglage de langue à lui. Changez-la là, et dès votre prochaine conversation, Cora Assistant écrit et parle dans la nouvelle langue. Plus de détails dans [Paramètres de Cora Mobile](/help/mobile-settings#language).
 
 ## Ce que Cora voit
 
@@ -116,11 +116,11 @@ Cora indique l’âge des mesures qu’il utilise. Si votre dernière mesure d�
 
 ## Mémoire
 
-![Réglages, Cora Assistant dans Cora Mobile](img/mobile-assistant-settings.webp "Les deux interrupteurs de données, la mémoire IA, l’appareil répondant et le partage de l’analyse de Cora avec les laboratoires.")
+![Paramètres, Cora Assistant dans Cora Mobile](img/mobile-assistant-settings.webp "Les deux interrupteurs de données, la mémoire IA, l’appareil répondant et le partage de l’analyse de Cora avec les laboratoires.")
 
 Cora retient des choses sur votre aquarium d’une conversation à l’autre. Par exemple, que vous dosez en deux parties, que votre bac à boutures partage une décantation, ou que vous essayez de faire remonter les nutriments. Vous n’avez pas à expliquer votre système à chaque fois.
 
-**Réglages → Cora Assistant → Mémoire IA** montre ce que Cora a enregistré sur votre aquarium et vous permet de le réinitialiser. Chaque aquarium a sa propre mémoire, choisissez donc d’abord l’aquarium. La ligne n’apparaît que tant que **Autoriser Cora Assistant à utiliser les données d’aquarium enregistrées** est activé.
+**Paramètres → Cora Assistant → Mémoire IA** montre ce que Cora a enregistré sur votre aquarium et vous permet de le réinitialiser. Chaque aquarium a sa propre mémoire, choisissez donc d’abord l’aquarium. La ligne n’apparaît que tant que **Autoriser Cora Assistant à utiliser les données d’aquarium enregistrées** est activé.
 
 :::note Ce qu’efface la réinitialisation de la mémoire
 La réinitialisation retire ce que Cora a retenu *de vos conversations* pour un aquarium. C’est son profil de votre système, les préoccupations qu’il suivait et chaque session enregistrée. Si une partie ne peut pas être retirée, Cora Mobile vous dit que cela a échoué.

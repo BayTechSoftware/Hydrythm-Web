@@ -40,7 +40,7 @@ Tocca **×** per togliere la scheda di oggi dalla dashboard. Quella di domani ar
 
 Per aprire il briefing di oggi dopo aver tolto la scheda, tocca il pulsante del giornale in alto sulla dashboard (**Salute quotidiana di Reef Buddy**). Un briefing più vecchio si apre dalla sua notifica.
 
-## Aggiornare il briefing con un nuovo test
+## Aggiornare il briefing con un nuovo test {#updating-the-briefing-with-a-new-test}
 
 Se registri un test a mano o aggiungi un risultato ICP dopo l'uscita del briefing, il briefing completo mostra **Nuove misurazioni dopo questo briefing** con un pulsante **Aggiorna il briefing**. Toccalo e Cora rifà il briefing con i numeri nuovi. Usa un messaggio della tua quota dell'Assistente.
 
@@ -55,7 +55,7 @@ Sotto un'osservazione, tocca **Perché vedo questo?** Il pannello **Perché lo v
 I briefing usano anche altro oltre ai valori dei parametri. Possono usare le programmazioni delle tue luci, la velocità di un rotolo ReefMat, la tua alcalinità registrata a mano accanto a quella di un dispositivo e i totali delle tue teste DŌS.
 
 
-## Quando arriva
+## Quando arriva {#when-it-arrives}
 
 Una volta al giorno per ogni vasca, all'ora che scegli. La imposti in **Impostazioni → Orario del riepilogo**, accanto a **Notifiche**. Il briefing arriva entro circa 15 minuti da quell'ora, nel tuo fuso orario. Se non scegli mai, arriva alle 8:00.
 
@@ -98,7 +98,7 @@ Dopo la prova, un account gratuito vede una scheda Reef Buddy bloccata con **Ved
 
 Se hai spento **Consenti al Cora Assistant di usare i dati salvati della vasca**, il briefing arriva comunque, ma il suo riassunto è un testo fisso semplice e l'osservazione scritta dall'IA viene omessa. Vedi [Fare domande a Cora](/help/mobile-assistant#consent).
 
-## Correggere un'osservazione
+## Correggere un'osservazione {#correcting-an-insight}
 
 Puoi rispondere a ogni osservazione in uno di quattro modi.
 

@@ -67,7 +67,7 @@ Eine Gabe Flüssigkeit aus einem DŌS-Kopf oder einer anderen Dosierpumpe, mit d
 
 ## DŌS-Kopf {#dos-head}
 
-Eine Pumpe eines Neptune DŌS-Dosierers. Du kannst jedem Kopf eine Aufgabe geben (Wasserwechsel, Kalkwasser, Reaktor, Fütterung und mehr), ihn in Litern oder mit großen Behältern verfolgen und eigene Grenzen setzen. Verliert ein Kopf mitten in einer Dosierung die Verbindung, löst Cora eine Wiederherstellungswarnung aus. Siehe [Deine Ausrüstung steuern](/help/mobile-device-control).
+Eine Pumpe einer Neptune DŌS-Dosierpumpe. Du kannst jedem Kopf eine Aufgabe geben (Wasserwechsel, Kalkwasser, Reaktor, Fütterung und mehr), ihn in Litern oder mit großen Behältern verfolgen und eigene Grenzen setzen. Verliert ein Kopf mitten in einer Dosierung die Verbindung, löst Cora eine Wiederherstellungswarnung aus. Siehe [Deine Ausrüstung steuern](/help/mobile-device-control).
 
 ## Entferntes Becken {#removed-tank}
 
@@ -129,7 +129,7 @@ Eine Taste im Dashboard-Editor. Cora schlägt ein ganzes Layout vor, ausgehend v
 
 ## Neptune Apex
 
-Der Controller von Neptune Systems, mit seinem DŌS-Dosierer und dem Trident-Tester. Cora liest ihn in deinem Heimnetz. Siehe [Ausrüstung nach Marke](/help/equipment-by-brand).
+Der Controller von Neptune Systems, mit seiner DŌS-Dosierpumpe und dem Trident-Tester. Cora liest ihn in deinem Heimnetz. Siehe [Ausrüstung nach Marke](/help/equipment-by-brand).
 
 ## Parameterzuordnung {#parameter-mapping}
 

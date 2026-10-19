@@ -14,7 +14,7 @@ Du öffnest Cora Assistant über den Tab **Assistent**.
 
 ![Eine Antwort von Cora Assistant zur Alkalinität in Cora Mobile](img/mobile-assistant.webp "Eine Antwort aus den Live-Daten des Beckens, mit der Nachrichtenzahl dieses Monats über dem Eingabefeld.")
 
-## Zuerst ein Becken wählen
+## Zuerst ein Becken wählen {#pick-a-tank-first}
 
 Die Beckenauswahl oben legt fest, worüber Cora spricht. Die Fragen, die du tippst, und die Antworten, die du bekommst, gehören alle zu diesem Becken.
 
@@ -74,7 +74,7 @@ Unter der Antwort siehst du bis zu zwei Abschnitte der Hilfe, jeweils mit bis zu
 
 Die Schaltflächen erscheinen nur, wenn es einen Bildschirm oder eine Seite zum Öffnen gibt.
 
-## Zustimmung
+## Zustimmung {#consent}
 
 ![Zustimmung für den Assistenten](img/mobile-assistant-consent.webp "Zwei getrennte Berechtigungen und das Gedächtnis, das Cora behält.")
 

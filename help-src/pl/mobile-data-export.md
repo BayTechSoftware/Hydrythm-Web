@@ -45,7 +45,7 @@ Wyeksportuj dane, zanim zlikwidujesz akwarium albo mocno zmienisz swój system. 
 
 **Usuń konto** działa na stałe.
 
-## Usuwanie konta
+## Usuwanie konta {#deleting-your-account}
 
 :::warning Usunięcie konta nie anuluje subskrypcji
 Subskrypcja w App Store albo Google Play należy do **sklepu**. Usunięcie konta kasuje Twój zapis w Corze, ale **płatności się nie zatrzymują**. Opłaty będą pobierane, dopóki samodzielnie nie anulujesz subskrypcji w Apple albo Google. Najpierw anuluj ją tam, potem usuń konto. Zobacz [Anulowanie](/help/mobile-plans#cancelling).
@@ -60,7 +60,7 @@ To usuwa konto, akwaria, odczyty, dziennik, wyniki z laboratorium i połączenia
 
 Jeśli logowanie było dawno, Cora może poprosić o potwierdzenie tożsamości, zanim cokolwiek usunie. Przy e-mailu i haśle poprosi **Potwierdź swoje hasło**. Przy Apple albo Google zaloguj się nimi ponownie. Potem spróbuj jeszcze raz. Dopóki tego nie zrobisz, nic nie zostanie usunięte.
 
-## Udostępnianie zanonimizowanych danych
+## Udostępnianie zanonimizowanych danych {#contributing-anonymised-data}
 
 **Ustawienia → Cora Assistant → Udostępniaj zanonimizowane dane akwarium.**
 

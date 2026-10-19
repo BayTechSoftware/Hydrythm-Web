@@ -2,7 +2,7 @@
 title: Edytowanie panelu
 description: Dodawaj, przenoś, zmieniaj rozmiar i usuwaj widżety na panelu w telefonie, ustaw liczbę kolumn i edytuj z telefonu panel Cora Max.
 section: Cora Mobile
-reviewed: 2026-10-17
+reviewed: 2026-10-18
 order: 8
 group: Your dashboard
 twin: max-dashboard-editing
@@ -33,7 +33,7 @@ Wybierz **2**, **3** albo **4** obok **KOLUMNY** na górze edytora. Siatka rośn
 ## Dodawanie widżetu {#adding-a-widget}
 
 1. Dotknij **Dodaj kafelek** pod siatką albo dotknij pustej komórki.
-2. W **Dodaj kafelek** wybierz jego rodzaj. **Parametr** obejmuje wartość, wskaźnik, wykres albo stan parametru. **Gniazdo** steruje gniazdem Apex. Pozostałe wiersze są dla sprzętu, na przykład **ReefBeat**, **Trident**, **DŌS** albo **Jecod**. Większość z nich pojawia się tylko wtedy, gdy akwarium ma ten sprzęt.
+2. W **Dodaj kafelek** wybierz jego rodzaj. **Parametr** obejmuje wartość, wskaźnik, wykres albo stan parametru. **Gniazdo** steruje gniazdem Apex. Pozostałe wiersze są dla sprzętu, na przykład **ReefBeat**, **Trident**, **DŌS** albo **Jecod**. Większość z nich pojawia się tylko wtedy, gdy akwarium ma ten sprzęt. **Oświetlenie**, **Pompa cyrkulacyjna** i **Pompa** wymieniają wszystkie lampy, pompy cyrkulacyjne i pompy w akwarium, niezależnie od marki, a każdy wiersz pojawia się tylko wtedy, gdy akwarium ma takie urządzenie. **ReefBeat** i **Jecod** zachowują resztę swoich urządzeń, na przykład ReefDose albo dozownik Jecod.
 3. Wybierz parametr, gniazdo albo urządzenie.
 4. Dla parametru wybierz typ. Każdy opisują [Rodzaje widżetów](/help/mobile-widgets).
 

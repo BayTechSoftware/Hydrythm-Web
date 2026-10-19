@@ -182,7 +182,7 @@
 <h3 id="bluetooth-capacity">Pojemność Bluetooth</h3>
 <p>Cora Max dzieli swój Bluetooth między cały sprzęt, który odczytuje, więc nadąży tylko z ograniczoną liczbą urządzeń. Gdy dodajesz pompę Jecod łączącą się przez Bluetooth, Cora najpierw sprawdza, jak bardzo obciążony jest Cora Max akwarium. Zwykle nic nie widzisz. W przeciwnym razie pojawia się jeden z dwóch komunikatów:</p>
 <ul><li><strong>Bluetooth robi się zajęty</strong>: <em>Ten Cora Max zbliża się do limitu Bluetooth. Więcej urządzeń może aktualizować się rzadziej. Dodaj drugi Cora Max, jeśli planujesz dodać więcej.</em> Dotknij <strong>Dalej</strong>, aby mimo to dodać urządzenie, albo <strong>Anuluj</strong>.</li><li><strong>Osiągnięto limit Bluetooth</strong>: <em>Ten Cora Max osiągnął limit Bluetooth. Dodaj drugi Cora Max dla tych urządzeń.</em> Urządzenie nie zostaje dodane. Dotknij <strong>OK</strong>.</li></ul>
-<p>Cora sprawdza główny Cora Max akwarium albo, jeśli żaden nie jest wybrany, Cora Max z największym zapasem. Więcej w <a href="/pl/help/mobile-multi-device">Więcej niż jedno urządzenie Cora</a>.</p>
+<p>Cora sprawdza główny Cora Max akwarium albo, jeśli żaden nie jest wybrany, Cora Max z największym zapasem. Więcej w <a href="/pl/help/mobile-multi-device#primary-cora-max">Więcej niż jedno urządzenie Cora</a>.</p>
 <h2 id="pairing-a-cora-max">Parowanie Cora Max</h2>
 <figure class="shot phone"><button type="button" class="zoom" aria-label="Powiększ: Ekran Dodaj swoje Cora w Cora Mobile, szukający urządzeń"><img src="/help/img/mobile-add-device.webp" alt="Ekran Dodaj swoje Cora w Cora Mobile, szukający urządzeń" width="620" height="1323" loading="lazy" decoding="async"></button><figcaption>Dodaj urządzenie, potem Cora. Cora Mobile szuka w Twojej sieci Wi-Fi i przez Bluetooth, a niżej jest Wpisz adres IP ręcznie.</figcaption></figure>
 <p><strong>Cora</strong> służy do parowania nowego Cora Max. Znajduje urządzenia już podłączone do Twojej sieci Wi-Fi albo pobliskie przez Bluetooth. Jeśli nie może znaleźć Twojego, użyj <strong>Wpisz adres IP ręcznie</strong> na tym samym ekranie. Pełny opis jest w <a href="/pl/help/max-setup">Konfiguracji Cora Max</a>.</p>
@@ -208,7 +208,7 @@
 <p>Tracisz połączenie na żywo. Jeśli urządzenie łączyło się przez konto producenta, tracisz też zapisane dane logowania, więc po ponownym dodaniu trzeba będzie znów się zalogować.</p>
 <aside class="cal cal-tip"><p class="cal-t">Wycisz uciążliwe urządzenie bez usuwania</p><p>Jeśli urządzenie działa dobrze, ale za często wywołuje alerty, zmień jego progi albo ustawienia powiadomień w <a href="/pl/help/mobile-alerts">Alertach i progach</a>. Zachowasz połączenie i dane, a hałas ustanie.</p></aside>
       <nav class="pn" aria-label="Czytaj dalej"><a class="pn-p" href="/pl/help/mobile-sharing"><span>Poprzedni</span><b>Udostępnianie akwarium</b></a><a class="pn-n" href="/pl/help/mobile-connections"><span>Następny</span><b>Podłączanie sprzętu</b></a></nav>
-      <p class="stamp">Napisano dla Cora Max 0.28.217 i Cora Mobile 0.5.125. Ostatnio sprawdzono 2026-10-17.</p>
+      <p class="stamp">Napisano dla Cora Max 0.28.219 i Cora Mobile 1.4.1. Ostatnio sprawdzono 2026-10-17.</p>
       <p class="ask">Wciąż masz problem? Napisz na <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, pomożemy.</p>
     </article>
   </main>
@@ -599,7 +599,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/pl/help/search.json?v=594e6c5535').then(function (r) { return r.json(); })
+    fetch('/pl/help/search.json?v=303849d9da').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "pl"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Wyszukiwanie jest niedost\u0119pne. U\u017cyj menu." + '</li>';

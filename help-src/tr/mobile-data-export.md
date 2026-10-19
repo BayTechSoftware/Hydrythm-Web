@@ -11,7 +11,7 @@ Akvaryum kayıtlarınız size aittir. Bu sayfa onları nasıl dışa aktaracağ�
 
 ![Cora Mobile'da Verilerimi Dışa Aktar ve Hesabı Sil](img/mobile-data.webp "Ayarlar, ardından hesabınız: Verilerimi Dışa Aktar ve Hesabı Sil, Çıkış Yap'ın altında durur.")
 
-## Dışa aktarma
+## Dışa aktarma {#exporting}
 
 1. **Ayarlar**'ı açın ve en üstteki hesap kartına dokunun. **Hesap ve Abonelik** açılır.
 2. **Verilerimi Dışa Aktar**'a dokunun.
@@ -45,13 +45,13 @@ Bir akvaryumu kapatmadan ya da sisteminizde büyük değişiklikler yapmadan ön
 
 **Hesabı Sil** kalıcıdır.
 
-## Hesabınızı silme
+## Hesabınızı silme {#deleting-your-account}
 
 :::warning Hesabı silmek aboneliği iptal etmez
 App Store ya da Google Play aboneliği **mağazaya** aittir. Hesabınızı silmek Cora'daki kaydınızı kaldırır ama **ödemeler durmaz**. Apple ya da Google üzerinden kendiniz iptal edene kadar ücret alınmaya devam eder. Önce orada iptal edin, sonra silin. [İptal etme](/help/mobile-plans#cancelling) bölümüne bakın.
 :::
 
-1. Saklamak istediğiniz bir şey varsa önce [dışa aktarın](#disa-aktarma).
+1. Saklamak istediğiniz bir şey varsa önce [dışa aktarın](#exporting).
 2. **Ayarlar**'ı açın, hesap kartına ve ardından **Hesabı Sil**'e dokunun.
 3. Onay metnini okuyun. Mağaza aboneliğiniz varsa önce iptal edebilmeniz için bir **Aboneliği yönet** düğmesi bulunur.
 4. **Sil**'e dokunun.
@@ -60,7 +60,7 @@ Bu işlem hesabınızı, akvaryumlarınızı, ölçümlerinizi, günlüğünüz�
 
 Giriş yapalı uzun zaman olduysa Cora bir şey silmeden önce sizin olduğunuzu kanıtlamanızı isteyebilir. E-posta ve şifreyle giriş yaptıysanız **Şifrenizi onaylayın** der. Apple ya da Google ile giriş yaptıysanız onlarla yeniden giriş yapın. Sonra tekrar deneyin. Siz bunu yapana kadar hiçbir şey silinmez.
 
-## Anonimleştirilmiş veriye katkı
+## Anonimleştirilmiş veriye katkı {#contributing-anonymised-data}
 
 **Ayarlar → Cora Assistant → Anonimleştirilmiş akvaryum verisine katkıda bulun.**
 

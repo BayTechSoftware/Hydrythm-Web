@@ -205,7 +205,7 @@
 <p>Wpisy do dziennika możesz dodawać także na Cora Max, co jest wygodne, gdy stoisz przy akwarium. Otwórz dziennik z menu akwarium albo podyktuj wpis.</p>
 <p>Ekran dziennika na Cora Max ma też przyciski <strong>Dodatkowe karmienie</strong> i <strong>Pominięte karmienie</strong> oraz linijkę z Twoim planem karmienia. Jeśli go nie ustawiono, linijka mówi <em>Ustaw plan karmienia w aplikacji na telefonie</em>, bo plan ustawiasz w Cora Mobile. Więcej w <a href="/pl/help/max-records">Dzienniku, obsadzie i konserwacji</a> na Cora Max.</p>
       <nav class="pn" aria-label="Czytaj dalej"><a class="pn-p" href="/pl/help/mobile-vacation"><span>Poprzedni</span><b>Wyjazd: plan dla opiekuna akwarium</b></a><a class="pn-n" href="/pl/help/mobile-dosing"><span>Następny</span><b>Produkty dozujące i kalkulator dawek</b></a></nav>
-      <p class="stamp">Napisano dla Cora Max 0.28.217 i Cora Mobile 0.5.125. Ostatnio sprawdzono 2026-10-13.</p>
+      <p class="stamp">Napisano dla Cora Max 0.28.219 i Cora Mobile 1.4.1. Ostatnio sprawdzono 2026-10-13.</p>
       <p class="ask">Wciąż masz problem? Napisz na <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, pomożemy.</p>
     </article>
   </main>
@@ -596,7 +596,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/pl/help/search.json?v=594e6c5535').then(function (r) { return r.json(); })
+    fetch('/pl/help/search.json?v=303849d9da').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "pl"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Wyszukiwanie jest niedost\u0119pne. U\u017cyj menu." + '</li>';

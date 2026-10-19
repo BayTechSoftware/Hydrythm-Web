@@ -2,7 +2,7 @@
 title: Widget rehberi
 description: Cora Mobile panosundaki her widget türü, değer, gösterge, grafik, durum ve prizden cihaz kutucuklarına kadar, ve her birini ne zaman kullanacağınız.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 9
 group: Your dashboard
 ---

@@ -2,7 +2,7 @@
 title: Connecter votre équipement
 description: Comment connecter à Cora un Neptune Apex, un Red Sea ReefBeat, un Jecod ou un AquaWiz.
 section: Cora Mobile
-reviewed: 2026-10-17
+reviewed: 2026-10-18
 order: 12
 group: Equipment
 ---
@@ -68,7 +68,7 @@ Cora se connecte aux pompes Jecod et peut les lire et les commander. Ajoutez-en 
 Les pompes répondent à une recherche et manquent la suivante. Si la vôtre n’est pas listée, relancez la recherche avant de conclure qu’elle est injoignable.
 :::
 
-Si une recherche ne trouve rien, le résultat montre les adresses vérifiées en Wi-Fi. Si l’application Jebao affiche une autre adresse pour votre pompe, votre téléphone est sur un autre réseau. Un réseau invité ou IoT, ou une bande 5 GHz uniquement, ne voit pas ces pompes. Sur iPhone, Cora a aussi besoin de l’accès au réseau local pour voir les pompes sur votre Wi-Fi. Sans lui, la liste reste vide et aucune erreur n’apparaît : le résultat l’explique donc et propose **Ouvrir les Réglages** pour le réactiver. Vous pouvez aussi y accéder à tout moment depuis **Réglages → Accès aux appareils**, décrit dans [Réglages](/help/mobile-settings).
+Si une recherche ne trouve rien, le résultat montre les adresses vérifiées en Wi-Fi. Si l’application Jebao affiche une autre adresse pour votre pompe, votre téléphone est sur un autre réseau. Un réseau invité ou IoT, ou une bande 5 GHz uniquement, ne voit pas ces pompes. Sur iPhone, Cora a aussi besoin de l’accès au réseau local pour voir les pompes sur votre Wi-Fi. Sans lui, la liste reste vide et aucune erreur n’apparaît : le résultat l’explique donc et propose **Ouvrir les Paramètres** pour le réactiver. Vous pouvez aussi y accéder à tout moment depuis **Paramètres → Accès aux appareils**, décrit dans [Paramètres](/help/mobile-settings).
 
 **En Bluetooth.** Certaines pompes ne sont joignables que depuis un téléphone qui se trouve près d’elles. La page de la pompe l’indique, et affiche les derniers réglages lus et leur ancienneté. Cora a besoin de l’autorisation Bluetooth pour cela. Accordez-la avant d’ajouter une pompe Bluetooth, sinon Cora ne peut pas du tout trouver la pompe.
 
@@ -90,6 +90,8 @@ Avec **Rester connecté automatiquement** activé, Cora garde votre mot de passe
 
 Vous obtenez l’alcalinité comme source, et aussi le pH si votre appareil le signale et que **Lire aussi son pH** est activé. Votre première mesure arrive dès que vous liez l’appareil. Ensuite, AquaWiz ne laisse Cora lire son cloud automatiquement que toutes les 12 heures : une mesure venue de là peut avoir jusqu’à une demi-journée. Un Cora Max à l’aquarium peut aussi lire lui-même le contrôleur toutes les heures quand il peut l’atteindre. Ouvrez la page de l’appareil pour voir quand chaque mesure a été prise et d’où elle vient, et touchez **Lire maintenant** pour en avoir une fraîche (au plus une fois toutes les 15 minutes). Ce qu’affiche la carte AquaWiz, et ses alertes, sont dans [Contrôler votre équipement](/help/mobile-device-control#aquawiz).
 
+Pour déplacer le contrôleur vers un autre aquarium, ouvrez sa page dans **Appareils** et touchez **Modifier** sous **Aquariums**. Vous n’avez pas à vous reconnecter à AquaWiz.
+
 :::warning Cora partage votre connexion AquaWiz
 AquaWiz donne une seule connexion par compte, donc Cora utilise la même que l’application AquaWiz. Si vous changez votre mot de passe AquaWiz, Cora se déconnecte. Reconnectez-le ensuite depuis la ligne de l’appareil. Pour retirer complètement l’accès de Cora, retirez l’appareil dans Cora et changez votre mot de passe AquaWiz.
 :::
@@ -104,7 +106,7 @@ Cora joint un AquaWiz par jusqu’à trois voies, qui se complètent.
 | Le service Cora d’AquaWiz | La dernière mesure de KH et de pH. | À l’association, puis toutes les 12 heures (limite d’AquaWiz), et quand vous ouvrez la page de l’appareil ou touchez **Lire maintenant** (au plus toutes les 15 minutes) |
 | Un Cora Max à l’aquarium | Lit directement le contrôleur sur son propre Wi-Fi et ajoute les alertes de pompe, de sonde pH et de boîte à eau. | Toutes les heures |
 
-Sans Cora Max, les mesures arrivent toutes les 12 heures, c’est la limite d’AquaWiz : une mesure peut donc avoir jusqu’à une demi-journée. **Envie de mesures toutes les heures ? Ajoutez un Cora Max à votre aquarium.** [Découvrir Cora Max](https://coraiq.tech/fr/#max) et [le configurer](/help/max-setup). Elle arrive avec la prochaine mise à jour de Cora Max et demande le contrôleur à portée du Wi-Fi de Cora Max et un firmware de contrôleur avec accès local. Les détails sont dans [Lecture toutes les heures par Cora Max](/help/max-device-control#aquawiz-hourly).
+Sans Cora Max, les mesures arrivent toutes les 12 heures, c’est la limite d’AquaWiz : une mesure peut donc avoir jusqu’à une demi-journée. **Envie de mesures toutes les heures ? Ajoutez un Cora Max à votre aquarium.** [Découvrir Cora Max](https://coraiq.tech/fr/#max) et [le configurer](/help/max-setup). Elle demande le contrôleur à portée du Wi-Fi de Cora Max et un firmware de contrôleur avec accès local. Les détails sont dans [Lecture toutes les heures par Cora Max](/help/max-device-control#aquawiz-hourly).
 
 La carte de l’appareil indique d’où vient chaque mesure : **Toutes les heures depuis votre Cora Max** ou **Depuis le cloud AquaWiz, toutes les 12 heures**.
 

@@ -10,7 +10,7 @@ twin: max-records
 
 Le journal est l’endroit où vous notez ce que vous avez fait sur l’aquarium : changements d’eau, nouveaux habitants, changements de dosage, interventions sur l’équipement et tout ce qui sort de l’ordinaire. Quand un paramètre bouge sans que vous sachiez pourquoi, le journal montre ce qui a changé autour de cette date.
 
-Touchez **Journal** dans la rangée de boutons sous le tableau de bord pour ouvrir le **Journal de l’aquarium**. Vous le trouvez aussi dans Réglages → votre aquarium → **Journal**.
+Touchez **Journal** dans la rangée de boutons sous le tableau de bord pour ouvrir le **Journal de l’aquarium**. Vous le trouvez aussi dans Paramètres → votre aquarium → **Journal**.
 
 ![Le journal de l’aquarium dans Cora Mobile](img/mobile-journal.webp "Les entrées, de la plus récente à la plus ancienne, avec des puces de catégorie pour les filtrer.")
 

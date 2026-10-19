@@ -23,7 +23,7 @@ Karta **Zaczynasz nowe akwarium?** pokazuje się tylko przy akwarium bez żadnyc
 
 Gdy ścieżka działa, karta na panelu pokazuje **Kontynuuj cyklowanie · Dzień N**. Dotknij jej, żeby wrócić do ścieżki. Jeśli widać **Wznów cyklowanie**, akwarium jest nadal ustawione na cyklowanie: dotknij, żeby ponownie otworzyć przewodnik.
 
-## Cyklowanie nowego akwarium
+## Cyklowanie nowego akwarium {#cycling-a-new-tank}
 
 To ścieżka dla akwarium, które nie jest jeszcze gotowe na obsadę. Podczas cyklowania rosną bakterie, które zamieniają toksyczny amoniak w bezpieczne azotany, a ścieżka śledzi ten proces do końca.
 

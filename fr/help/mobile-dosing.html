@@ -120,7 +120,7 @@
 </ul></details>
 <details class="nav-g">
 <summary>Paramètres et compte</summary><ul>
-<li><a href="/fr/help/mobile-settings">Réglages de Cora Mobile</a></li>
+<li><a href="/fr/help/mobile-settings">Paramètres de Cora Mobile</a></li>
 <li><a href="/fr/help/mobile-multi-device">Plus d’un appareil Cora</a></li>
 <li><a href="/fr/help/mobile-plans">Forfaits et abonnements</a></li>
 <li><a href="/fr/help/mobile-data-export">Exporter vos données et supprimer votre compte</a></li>
@@ -160,7 +160,7 @@
 </ul></details>
 <details class="nav-g">
 <summary>Paramètres et compte</summary><ul>
-<li><a href="/fr/help/max-settings">Réglages de Cora Max</a></li>
+<li><a href="/fr/help/max-settings">Paramètres de Cora Max</a></li>
 <li><a href="/fr/help/max-updates">Mises à jour et récupération</a></li>
 </ul></details>
     </nav>
@@ -173,7 +173,7 @@
       
       <nav class="toc" aria-label="Sur cette page"><p>Sur cette page</p><ul><li><a href="#the-product-library">La bibliothèque de produits</a></li><li><a href="#adding-your-own">Ajouter votre propre produit</a></li><li><a href="#the-dose-calculator">Le calculateur de dose</a></li><li><a href="#consumption">Consommation</a></li><li><a href="#dosing-equipment">Équipement de dosage</a></li></ul></nav>
 <p>Cora ne peut faire les calculs de dosage que s’il connaît la concentration de vos produits. Cette page explique la liste des produits et le calculateur de dose qui s’en sert.</p>
-<p>Allez dans <strong>Réglages → Produits de dosage</strong>.</p>
+<p>Allez dans <strong>Paramètres → Produits de dosage</strong>.</p>
 <figure class="shot phone"><button type="button" class="zoom" aria-label="Agrandir : Produits de dosage"><img src="/help/img/mobile-dosing.webp" alt="Produits de dosage" width="620" height="1323" loading="lazy" decoding="async"></button><figcaption>Les produits portent la concentration que Cora utilise pour les calculs de dose et de consommation.</figcaption></figure>
 <h2 id="the-product-library">La bibliothèque de produits</h2>
 <p>L’écran <strong>Produits de dosage</strong> liste déjà des produits courants, regroupés sous <strong>Alcalinité (dKH)</strong>, <strong>Calcium (ppm)</strong> et <strong>Magnésium (ppm)</strong>. Trouvez le vôtre et touchez-le pour vérifier sa concentration.</p>
@@ -200,7 +200,7 @@
 <p>Si vous avez un doseur connecté, comme un Neptune™ DŌS ou un Red Sea™ ReefDose, ses têtes apparaissent avec leurs propres mesures, dont ce qui reste dans chaque tête et ce qu’elle a dosé. La façon de les faire fonctionner et de les remplir est dans <a href="/fr/help/mobile-device-control">Contrôler votre équipement</a>, et leurs alertes de réservoir bas et de dose manquée sont dans <a href="/fr/help/mobile-device-control#doser-alerts">Alertes des doseurs</a>.</p>
 <p>Une automatisation peut aussi doser depuis une tête DŌS, avec un plafond de 10 mL par tête et par jour. Voir <a href="/fr/help/mobile-automation#actions">Automatisations et scènes</a>.</p>
       <nav class="pn" aria-label="Poursuivre la lecture"><a class="pn-p" href="/fr/help/mobile-journal"><span>Précédent</span><b>Le journal</b></a><a class="pn-n" href="/fr/help/mobile-maintenance"><span>Suivant</span><b>Entretien</b></a></nav>
-      <p class="stamp">Rédigé pour Cora Max 0.28.217 et Cora Mobile 0.5.125. Vérifié pour la dernière fois le 2026-10-13.</p>
+      <p class="stamp">Rédigé pour Cora Max 0.28.219 et Cora Mobile 1.4.1. Vérifié pour la dernière fois le 2026-10-13.</p>
       <p class="ask">Toujours bloqué ? Écrivez à <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, nous vous aiderons.</p>
     </article>
   </main>
@@ -591,7 +591,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/fr/help/search.json?v=1dc5ffe8af').then(function (r) { return r.json(); })
+    fetch('/fr/help/search.json?v=f7254a1ed6').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "fr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La recherche est indisponible. Utilisez la navigation." + '</li>';

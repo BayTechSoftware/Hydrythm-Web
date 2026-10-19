@@ -190,7 +190,7 @@
 <h2 id="reading-it-alongside-the-journal">Reading it alongside the journal</h2>
 <p>Activity shows what the system did. The <a href="/help/max-records#journal">journal</a> shows what you did by hand. Between them, they explain most surprises.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/max-records"><span>Previous</span><b>Journal, livestock and maintenance</b></a><a class="pn-n" href="/help/max-intelligence"><span>Next</span><b>Reef Buddy and reports</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.217 and Cora Mobile 0.5.125. Last checked 2026-10-18.</p>
+      <p class="stamp">Written for Cora Max 0.28.219 and Cora Mobile 1.4.1. Last checked 2026-10-18.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>
@@ -581,7 +581,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/help/search.json?v=ad6eb3513f').then(function (r) { return r.json(); })
+    fetch('/help/search.json?v=7c71dd0350').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "en"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';

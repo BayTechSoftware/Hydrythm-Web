@@ -171,14 +171,14 @@
       <nav class="crumbs" aria-label="Ścieżka nawigacji"><ol><li><a href="/pl/help/">Pomoc</a></li><li><a href="/pl/help/mobile-setup" lang="en">Cora Mobile</a></li><li><a href="/pl/help/mobile-reef-buddy">Inteligencja</a></li></ol></nav>
       <h1>Ścieżki z przewodnikiem</h1>
       
-      <nav class="toc" aria-label="Na tej stronie"><p>Na tej stronie</p><ul><li><a href="#rozpoczynanie-sciezki-cyklowania">Rozpoczynanie ścieżki cyklowania</a></li><li><a href="#cyklowanie-nowego-akwarium">Cyklowanie nowego akwarium</a></li><li><a href="#gdy-cykl-sie-zakonczy">Gdy cykl się zakończy</a></li><li><a href="#rozwiazywanie-problemu">Rozwiązywanie problemu</a></li><li><a href="#odrzucanie-sciezki">Odrzucanie ścieżki</a></li></ul></nav>
+      <nav class="toc" aria-label="Na tej stronie"><p>Na tej stronie</p><ul><li><a href="#rozpoczynanie-sciezki-cyklowania">Rozpoczynanie ścieżki cyklowania</a></li><li><a href="#cycling-a-new-tank">Cyklowanie nowego akwarium</a></li><li><a href="#gdy-cykl-sie-zakonczy">Gdy cykl się zakończy</a></li><li><a href="#rozwiazywanie-problemu">Rozwiązywanie problemu</a></li><li><a href="#odrzucanie-sciezki">Odrzucanie ścieżki</a></li></ul></nav>
 <p>W ścieżce Cora prowadzi Cię przez coś, co trwa dni albo tygodnie. Są dwa rodzaje ścieżek i działają inaczej: <strong>cyklowanie</strong> nowego akwarium i rozwiązywanie <strong>problemu</strong>.</p>
 <h2 id="rozpoczynanie-sciezki-cyklowania">Rozpoczynanie ścieżki cyklowania</h2>
 <p>Prowadzone cyklowanie jest bezpłatne w każdym planie. Uruchamiasz je z panelu akwarium.</p>
 <ol><li>Otwórz nowe akwarium w zakładce <strong>Panel</strong>. Karta zapyta <strong>Zaczynasz nowe akwarium?</strong></li><li>Dotknij jej. Za pierwszym razem Cora wyjaśni <strong>Prowadzone cyklowanie</strong>: gdy akwarium się cykluje, panel skupia się na amoniaku, azotynach i azotanach i wstrzymuje zwykłe kontrole rafowe, które jeszcze nie mają zastosowania.</li><li>Dotknij <strong>Rozumiem: zacznij cyklowanie</strong>. Ścieżka się otworzy.</li></ol>
 <aside class="cal cal-warning"><p class="cal-t">Uruchom ją, zanim cokolwiek zapiszesz albo podłączysz sprzęt</p><p>Karta <strong>Zaczynasz nowe akwarium?</strong> pokazuje się tylko przy akwarium bez żadnych odczytów. Gdy tylko zapiszesz test albo podłączysz urządzenie, które wysyła odczyty, karta znika i nie ma innego sposobu na uruchomienie ścieżki cyklowania. Jeśli akwarium wciąż się cykluje, najpierw uruchom ścieżkę, a potem zapisz pierwszy test z jej wnętrza.</p></aside>
 <p>Gdy ścieżka działa, karta na panelu pokazuje <strong>Kontynuuj cyklowanie · Dzień N</strong>. Dotknij jej, żeby wrócić do ścieżki. Jeśli widać <strong>Wznów cyklowanie</strong>, akwarium jest nadal ustawione na cyklowanie: dotknij, żeby ponownie otworzyć przewodnik.</p>
-<h2 id="cyklowanie-nowego-akwarium">Cyklowanie nowego akwarium</h2>
+<h2 id="cycling-a-new-tank">Cyklowanie nowego akwarium</h2>
 <p>To ścieżka dla akwarium, które nie jest jeszcze gotowe na obsadę. Podczas cyklowania rosną bakterie, które zamieniają toksyczny amoniak w bezpieczne azotany, a ścieżka śledzi ten proces do końca.</p>
 <figure class="shot phone"><button type="button" class="zoom" aria-label="Powiększ: Ścieżka cyklowania w trakcie"><img src="/help/img/mobile-journeys.webp" alt="Ścieżka cyklowania w trakcie" width="620" height="1347" loading="lazy" decoding="async"></button><figcaption>Etap, trzy wartości, które go wyznaczają, i czas od ostatniego testu.</figcaption></figure>
 <p>Ekran ścieżki, <strong>Nowe akwarium: cyklowanie</strong>, ma <strong>Twoją listę kontrolną konfiguracji</strong> z krokami przygotowania akwarium i zaszczepienia go bakteriami oraz krótkim wyjaśnieniem dlaczego i jak przy każdym z nich. Odhaczaj je na bieżąco.</p>
@@ -206,7 +206,7 @@
 <h2 id="odrzucanie-sciezki">Odrzucanie ścieżki</h2>
 <p>Jeśli ścieżka problemu się nie przydaje, odrzuć ją. Przestanie się pokazywać, a Cora zapisze odrzucenie i będzie rzadziej proponować podobne ścieżki.</p>
       <nav class="pn" aria-label="Czytaj dalej"><a class="pn-p" href="/pl/help/mobile-icp-health"><span>Poprzedni</span><b>ICP i raporty zdrowia</b></a><a class="pn-n" href="/pl/help/mobile-settings"><span>Następny</span><b>Ustawienia Cora Mobile</b></a></nav>
-      <p class="stamp">Napisano dla Cora Max 0.28.217 i Cora Mobile 0.5.125. Ostatnio sprawdzono 2026-10-13.</p>
+      <p class="stamp">Napisano dla Cora Max 0.28.219 i Cora Mobile 1.4.1. Ostatnio sprawdzono 2026-10-13.</p>
       <p class="ask">Wciąż masz problem? Napisz na <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, pomożemy.</p>
     </article>
   </main>
@@ -597,7 +597,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/pl/help/search.json?v=594e6c5535').then(function (r) { return r.json(); })
+    fetch('/pl/help/search.json?v=303849d9da').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "pl"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Wyszukiwanie jest niedost\u0119pne. U\u017cyj menu." + '</li>';

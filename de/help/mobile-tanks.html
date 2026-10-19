@@ -180,7 +180,7 @@
 <ul><li>Um neue Ausrüstung dafür hinzuzufügen, geh zu <strong>Geräte → Gerät hinzufügen</strong>, wähl die Marke und dann dieses Becken. Siehe <a href="/de/help/mobile-connections">Deine Ausrüstung verbinden</a>.</li><li>Um Ausrüstung zu verschieben, die du schon hast, öffne das Gerät im Tab <strong>Geräte</strong> und ändere sein Becken. Siehe <a href="/de/help/mobile-devices">Geräte hinzufügen, bearbeiten und entfernen</a>.</li><li>Um das Becken auf Cora Max anzuzeigen, geh zu <strong>Geräte</strong>, öffne dein Cora Max und tippe unter <strong>Zugewiesene Becken</strong> auf <strong>Becken hinzufügen</strong>. Ein Cora Max zeigt bis zu 4 Becken.</li></ul>
 <aside class="cal cal-tip"><p class="cal-t">Fährt das neue Becken noch ein?</p><p>Tippe auf seinem Dashboard auf <strong>Startest du ein neues Becken?</strong>, bevor du einen Test einträgst oder Ausrüstung verknüpfst. Die Karte erscheint nur bei einem Becken ganz ohne Messwerte. Mehr dazu unter <a href="/de/help/mobile-journeys">Geführte Journeys</a>.</p></aside>
 <h2 id="switching-between-tanks">Zwischen Becken wechseln</h2>
-<ul><li><strong>Dashboard</strong>: Wisch nach links oder rechts. Die Punkte oben zeigen, auf welchem Becken du bist.</li><li><strong>Einstellungen</strong>: Jedes Becken hat seine eigene Zeile. Tippe auf eine, um die Einstellungen dieses Beckens zu öffnen, etwa <strong>Warnschwellen</strong>, <strong>Parameterzuordnung</strong> und <strong>Einheiten</strong>.</li><li><strong>Assistent</strong> und <strong>Intelligenz</strong>: Wähl das Becken oben auf dem Bildschirm. Siehe <a href="/de/help/mobile-assistant">Cora fragen</a>.</li><li>Eine Benachrichtigung zu einem Becken öffnet das Dashboard dieses Beckens.</li></ul>
+<ul><li><strong>Dashboard</strong>: Wisch nach links oder rechts. Die Punkte oben zeigen, auf welchem Becken du bist.</li><li><strong>Einstellungen</strong>: Jedes Becken hat seine eigene Zeile. Tippe auf eine, um die Einstellungen dieses Beckens zu öffnen, etwa <strong>Warnschwellen</strong>, <strong>Parameterzuordnung</strong> und <strong>Einheiten</strong>.</li><li><strong>Assistent</strong> und <strong>Intelligenz</strong>: Wähl das Becken oben auf dem Bildschirm. Siehe <a href="/de/help/mobile-assistant#pick-a-tank-first">Cora fragen</a>.</li><li>Eine Benachrichtigung zu einem Becken öffnet das Dashboard dieses Beckens.</li></ul>
 <p>Auf Cora Max zeigt der Riffraum alle Becken nebeneinander. Siehe <a href="/de/help/max-reef-room">Der Riffraum</a>.</p>
 <h2 id="changing-the-order">Die Reihenfolge ändern</h2>
 <p>Geh zu <strong>Einstellungen</strong>, tippe auf <strong>Becken neu anordnen</strong> und zieh die Becken in die gewünschte Reihenfolge. Du kannst ein Becken auch an seinem Griff in der Liste auf dem Einstellungsbildschirm ziehen. <strong>Becken neu anordnen</strong> funktioniert erst, wenn du mindestens zwei Becken hast.</p>
@@ -199,7 +199,7 @@
 <p>Geh zu <strong>Einstellungen</strong> und tippe auf <strong>Entfernte Becken</strong>. Die Zeile erscheint nur, wenn du ein entferntes Becken hast. Tippe neben dem Becken auf <strong>Wiederherstellen</strong>. Seine Messwerte, sein Tagebuch und seine Geräte kommen genau so zurück, wie sie waren.</p>
 <p>In Cora Mobile kannst du ein einzelnes Becken nicht endgültig löschen. Die Daten eines Beckens löschst du nur, indem du dein Konto löschst. Siehe <a href="/de/help/mobile-data-export">Deine Daten</a>.</p>
       <nav class="pn" aria-label="Weiterlesen"><a class="pn-p" href="/de/help/mobile-tank-profile"><span>Zurück</span><b>Dein Beckenprofil</b></a><a class="pn-n" href="/de/help/mobile-account"><span>Weiter</span><b>Anmelden und Konto wiederherstellen</b></a></nav>
-      <p class="stamp">Geschrieben für Cora Max 0.28.217 und Cora Mobile 0.5.125. Zuletzt geprüft am 2026-10-18.</p>
+      <p class="stamp">Geschrieben für Cora Max 0.28.219 und Cora Mobile 1.4.1. Zuletzt geprüft am 2026-10-18.</p>
       <p class="ask">Kommst du nicht weiter? Schreib eine E-Mail an <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, wir helfen dir.</p>
     </article>
   </main>
@@ -590,7 +590,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/de/help/search.json?v=eaa607bd77').then(function (r) { return r.json(); })
+    fetch('/de/help/search.json?v=2242ca5a10').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "de"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Die Suche ist nicht verf\u00fcgbar. Nutze die Navigation." + '</li>';

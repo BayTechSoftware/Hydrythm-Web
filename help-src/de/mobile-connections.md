@@ -2,7 +2,7 @@
 title: Deine Ausrüstung verbinden
 description: So verbindest du ein Neptune Apex-, Red Sea ReefBeat-, Jecod- oder AquaWiz-Gerät mit Cora.
 section: Cora Mobile
-reviewed: 2026-10-17
+reviewed: 2026-10-18
 order: 12
 group: Equipment
 ---
@@ -90,6 +90,8 @@ Mit eingeschaltetem **Automatisch verbunden bleiben** behält Cora dein AquaWiz-
 
 Du bekommst die Alkalinität als Quelle, und auch den pH-Wert, wenn dein Gerät ihn meldet und **Auch pH-Wert lesen** an ist. Dein erster Messwert kommt, sobald du verknüpfst. Danach erlaubt AquaWiz Cora nur alle 12 Stunden, seine Cloud automatisch abzufragen. Ein Messwert von dort kann also bis zu etwa einen halben Tag alt sein. Ein Cora Max am Becken kann den Controller auch selbst jede Stunde auslesen, wenn er ihn erreicht. Öffne die Seite des Geräts, um zu sehen, wann jeder Messwert gemessen wurde und woher er kam, und tippe auf **Jetzt auslesen** für einen frischen (höchstens alle 15 Minuten). Was die AquaWiz-Karte zeigt und welche Warnungen es gibt, steht unter [Deine Ausrüstung steuern](/help/mobile-device-control#aquawiz).
 
+Um den Controller einem anderen Becken zuzuordnen, öffne seine Seite unter **Geräte** und tippe unter **Becken** auf **Ändern**. Du musst dich dafür nicht erneut bei AquaWiz anmelden.
+
 :::warning Cora teilt deine AquaWiz-Anmeldung
 AquaWiz vergibt pro Konto eine Anmeldung, deshalb nutzt Cora dieselbe wie die AquaWiz-App. Änderst du dein AquaWiz-Passwort, trennt sich Cora. Verbinde es danach über die Gerätezeile neu. Um Cora den Zugriff ganz zu entziehen, entferne das Gerät in Cora und ändere dein AquaWiz-Passwort.
 :::
@@ -104,7 +106,7 @@ Cora erreicht einen AquaWiz auf bis zu drei Wegen, und sie arbeiten zusammen.
 | Der Cora-Dienst von AquaWiz | Der neueste KH- und pH-Messwert. | Beim Verknüpfen, danach alle 12 Stunden (AquaWiz-Limit) und wenn du die Geräteseite öffnest oder auf **Jetzt auslesen** tippst (höchstens alle 15 Minuten) |
 | Ein Cora Max am Becken | Liest den Controller direkt über dessen eigenes WLAN und bringt Warnungen zu Pumpe, pH-Sonde und Wasserbox. | Jede Stunde |
 
-Ohne Cora Max kommen die Messwerte alle 12 Stunden, das ist das Limit von AquaWiz, ein Messwert kann also bis zu etwa einen halben Tag alt sein. **Stündliche Messwerte gewünscht? Stell ein Cora Max an dein Becken.** [Cora Max ansehen](https://coraiq.tech/de/#max) und [einrichten](/help/max-setup). Es kommt mit dem nächsten Cora-Max-Update und braucht den Controller in WLAN-Reichweite des Cora Max und eine Controller-Firmware mit lokalem Zugriff. Die Einzelheiten stehen unter [Stündliches Auslesen durch Cora Max](/help/max-device-control#aquawiz-hourly).
+Ohne Cora Max kommen die Messwerte alle 12 Stunden, das ist das Limit von AquaWiz, ein Messwert kann also bis zu etwa einen halben Tag alt sein. **Stündliche Messwerte gewünscht? Stell ein Cora Max an dein Becken.** [Cora Max ansehen](https://coraiq.tech/de/#max) und [einrichten](/help/max-setup). Es braucht den Controller in WLAN-Reichweite des Cora Max und eine Controller-Firmware mit lokalem Zugriff. Die Einzelheiten stehen unter [Stündliches Auslesen durch Cora Max](/help/max-device-control#aquawiz-hourly).
 
 Die Gerätekarte zeigt, woher jeder Messwert kam: **Stündlich von deinem Cora Max** oder **Aus der AquaWiz-Cloud, alle 12 Stunden**.
 

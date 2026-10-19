@@ -2,7 +2,7 @@
 title: Widget-Referenz
 description: Jeder Widget-Typ auf dem Dashboard von Cora Mobile, von Wert, Anzeige, Diagramm, Status und Steckdose bis zu den Gerätekacheln, und wann du welchen nimmst.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 9
 group: Your dashboard
 ---
@@ -90,12 +90,12 @@ Aus heißt aus, bis du es zurück auf Auto stellst. Schaltest du eine Rückförd
 
 ## ReefBeat {#reefbeat}
 
-Das ist eine Kachel für ein ganzes Stück Ausrüstung. Sie zeigt die eigene Zusammenfassung des Geräts statt eines einzelnen Wasserwerts, etwa Status und Nachfüllbehälter einer Nachfüllanlage, die Köpfe eines Dosierers oder wie viele Tage ein Mattenroller noch hat. Du wählst, welches Gerät sie zeigt.
+Das ist eine Kachel für ein ganzes Stück Ausrüstung. Sie zeigt die eigene Zusammenfassung des Geräts statt eines einzelnen Wasserwerts, etwa Status und Nachfüllbehälter einer Nachfüllanlage, die Köpfe einer Dosierpumpe oder wie viele Tage ein Mattenroller noch hat. Du wählst, welches Gerät sie zeigt.
 
 Welche Geräte eine Kachel haben können, hängt davon ab, was du verbunden hast. Siehe [Deine Ausrüstung verbinden](/help/mobile-connections).
 
-## Dosierer-Kacheln {#doser-tiles}
+## Dosierpumpen-Kacheln {#doser-tiles}
 
-Eine Kachel für einen Dosierer (ein Apex DŌS oder ein ReefDose) zeigt eine Zeile pro Kopf. Ein Kopfname wird nie unter eine lesbare Größe verkleinert. Auf einer hohen Kachel nimmt die Zeile zwei Zeilen ein, mit dem Namen in der ersten und dem, was übrig ist, in der zweiten, zum Beispiel *40d* und *2.8 L*. Auf einer niedrigen Kachel fällt die Detailzeile weg, und der Name bleibt lesbar.
+Eine Kachel für eine Dosierpumpe (ein Apex DŌS oder ein ReefDose) zeigt eine Zeile pro Kopf. Ein Kopfname wird nie unter eine lesbare Größe verkleinert. Auf einer hohen Kachel nimmt die Zeile zwei Zeilen ein, mit dem Namen in der ersten und dem, was übrig ist, in der zweiten, zum Beispiel *40d* und *2.8 L*. Auf einer niedrigen Kachel fällt die Detailzeile weg, und der Name bleibt lesbar.
 
-Leg mit **Restmenge anzeigen als** fest, was zuerst kommt: **Tage** oder **Milliliter (mL)**. Ein ReefDose-Kopf ohne eigenen Namen wird als Gerätename, gefolgt von "Kopf" und seiner Nummer, angezeigt. Eine Jecod-Dosierer-Kachel ist nur zum Lesen und zeigt den Tagesplan, weil Jecod nicht meldet, wie viel noch in der Flasche ist.
+Leg mit **Restmenge anzeigen als** fest, was zuerst kommt: **Tage** oder **Milliliter (mL)**. Ein ReefDose-Kopf ohne eigenen Namen wird als Gerätename, gefolgt von "Kopf" und seiner Nummer, angezeigt. Eine Jecod-Dosierpumpen-Kachel ist nur zum Lesen und zeigt den Tagesplan, weil Jecod nicht meldet, wie viel noch in der Flasche ist.

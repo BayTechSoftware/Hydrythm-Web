@@ -120,7 +120,7 @@
 </ul></details>
 <details class="nav-g">
 <summary>Paramètres et compte</summary><ul>
-<li><a href="/fr/help/mobile-settings">Réglages de Cora Mobile</a></li>
+<li><a href="/fr/help/mobile-settings">Paramètres de Cora Mobile</a></li>
 <li><a href="/fr/help/mobile-multi-device">Plus d’un appareil Cora</a></li>
 <li><a href="/fr/help/mobile-plans">Forfaits et abonnements</a></li>
 <li><a href="/fr/help/mobile-data-export">Exporter vos données et supprimer votre compte</a></li>
@@ -160,7 +160,7 @@
 </ul></details>
 <details class="nav-g">
 <summary>Paramètres et compte</summary><ul>
-<li><a href="/fr/help/max-settings">Réglages de Cora Max</a></li>
+<li><a href="/fr/help/max-settings">Paramètres de Cora Max</a></li>
 <li><a href="/fr/help/max-updates">Mises à jour et récupération</a></li>
 </ul></details>
     </nav>
@@ -172,7 +172,7 @@
       <h1>Association des paramètres et sondes</h1>
       
       <nav class="toc" aria-label="Sur cette page"><p>Sur cette page</p><ul><li><a href="#mapping">Sondes : dire à Cora ce qu’est chacune</a></li><li><a href="#sources">D’où vient chaque mesure</a></li><li><a href="#multiple-probes">Plusieurs sondes pour un même paramètre</a></li><li><a href="#recording-probe-care">Noter l’entretien des sondes</a></li></ul></nav>
-<p>Utilisez <strong>Association des paramètres</strong> pour dire à Cora ce que mesure chaque sonde et, quand deux sondes mesurent la même chose, laquelle croire. Allez dans <strong>Réglages</strong>, ouvrez l’aquarium et touchez <strong>Association des paramètres</strong>.</p>
+<p>Utilisez <strong>Association des paramètres</strong> pour dire à Cora ce que mesure chaque sonde et, quand deux sondes mesurent la même chose, laquelle croire. Allez dans <strong>Paramètres</strong>, ouvrez l’aquarium et touchez <strong>Association des paramètres</strong>.</p>
 <p>Elle se trouve entre <strong>Modifier l’aquarium</strong> et <strong>Seuils d’alerte</strong>. Le crayon en haut du tableau de bord ouvre <strong>Modifier l’aquarium</strong>, qui ne la contient pas. Vous pouvez aussi y accéder depuis les pages d’appareil Neptune™ Apex.</p>
 <p>L’écran a un champ de recherche (<strong>Rechercher un paramètre</strong>) et deux onglets, <strong>Association</strong> et <strong>Sources</strong>. La recherche porte sur les noms de paramètres, les noms de sondes, les appareils et les marques. Le même champ de recherche se trouve dans chaque sélecteur de paramètre.</p>
 <h2 id="mapping">Sondes : dire à Cora ce qu’est chacune</h2>
@@ -201,7 +201,7 @@
 <p>La page du paramètre indique ensuite depuis combien de temps cette sonde a été étalonnée. L’entretien des sondes fait aussi une bonne <a href="/fr/help/mobile-maintenance">tâche d’entretien</a> régulière.</p>
 <aside class="cal cal-note"><p class="cal-t">Les dates d’étalonnage expliquent les désaccords</p><p>Quand une sonde et un kit de test ne sont pas d’accord, regardez quand vous avez étalonné la sonde pour la dernière fois. C’est en général la réponse.</p></aside>
       <nav class="pn" aria-label="Poursuivre la lecture"><a class="pn-p" href="/fr/help/mobile-schedules"><span>Précédent</span><b>Programmer l’équipement</b></a><a class="pn-n" href="/fr/help/mobile-consumables"><span>Suivant</span><b>Consommables et alertes de réapprovisionnement</b></a></nav>
-      <p class="stamp">Rédigé pour Cora Max 0.28.217 et Cora Mobile 0.5.125. Vérifié pour la dernière fois le 2026-10-13.</p>
+      <p class="stamp">Rédigé pour Cora Max 0.28.219 et Cora Mobile 1.4.1. Vérifié pour la dernière fois le 2026-10-13.</p>
       <p class="ask">Toujours bloqué ? Écrivez à <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, nous vous aiderons.</p>
     </article>
   </main>
@@ -592,7 +592,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/fr/help/search.json?v=1dc5ffe8af').then(function (r) { return r.json(); })
+    fetch('/fr/help/search.json?v=f7254a1ed6').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "fr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La recherche est indisponible. Utilisez la navigation." + '</li>';

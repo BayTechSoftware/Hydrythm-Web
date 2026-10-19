@@ -193,7 +193,7 @@
 <h3 id="can-two-cora-max-screens-show-the-same-tank">İki Cora Max ekranı aynı akvaryumu gösterebilir mi?</h3>
 <p>Evet. İkisini de aynı akvaryuma ekleyin, aynı canlı veriyi gösterirler. <strong>Birincil Cora Max</strong> yalnızca hangisinin akvaryumun ekipmanıyla konuşacağına karar verir. Ayrıntılar <a href="/tr/help/mobile-multi-device">Birden fazla Cora cihazı</a> sayfasında.</p>
 <h3 id="what-is-primary-cora-max">"Birincil Cora Max" nedir ve onu ayarlamam gerekir mi?</h3>
-<p>Bir akvaryumun ekipmanını hangi Cora Max'in okuyacağına karar verir. Çoğu kişi ona hiç dokunmaz. Tek bir Cora Max ile seçilecek bir şey yoktur. Varsayılan olan <strong>Aktif olan herhangi biri (otomatik)</strong>, çevrimiçi her Cora Max'in işi paylaşmasını sağlar. Yalnızca işi tek bir cihazın yapmasını istiyorsanız belirli birini seçin. Ayrıntılar <a href="/tr/help/mobile-multi-device">Birden fazla Cora cihazı</a> sayfasında.</p>
+<p>Bir akvaryumun ekipmanını hangi Cora Max'in okuyacağına karar verir. Çoğu kişi ona hiç dokunmaz. Tek bir Cora Max ile seçilecek bir şey yoktur. Varsayılan olan <strong>Aktif olan herhangi biri (otomatik)</strong>, çevrimiçi her Cora Max'in işi paylaşmasını sağlar. Yalnızca işi tek bir cihazın yapmasını istiyorsanız belirli birini seçin. Ayrıntılar <a href="/tr/help/mobile-multi-device#primary-cora-max">Birden fazla Cora cihazı</a> sayfasında.</p>
 <h3 id="which-device-answers-hey-cora">Birden fazla Cora Max'im varsa "Hey Cora"ya hangi cihaz yanıt verir?</h3>
 <p>Aynı anda yalnızca bir Cora cihazı yanıt verir. Onu Cora Mobile'da <strong>Ayarlar → Cora Assistant</strong> altında seçersiniz. Birincil Cora Max ile ilgisi yoktur. Ayrıntılar <a href="/tr/help/max-voice">Cora ile konuşma</a> sayfasında.</p>
 <h3 id="why-cant-cora-mobile-find-my-cora-max">Eşleştirmeye çalıştığımda Cora Mobile neden Cora Max'imi bulamıyor?</h3>
@@ -279,7 +279,7 @@
 <hr>
 <p>Hâlâ yanıtınızı bulamadınız mı? <a href="/tr/help/troubleshooting">Sorun giderme</a> çözümleri belirti belirti anlatır ya da <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> adresine e-posta gönderin.</p>
       <nav class="pn" aria-label="Okumaya devam edin"><a class="pn-p" href="/tr/help/equipment-by-brand"><span>Önceki</span><b>Markaya göre ekipman</b></a><a class="pn-n" href="/tr/help/glossary"><span>Sonraki</span><b>Sözlük</b></a></nav>
-      <p class="stamp">Cora Max 0.28.217 ve Cora Mobile 0.5.125 için yazılmıştır. Son kontrol: 2026-10-18.</p>
+      <p class="stamp">Cora Max 0.28.219 ve Cora Mobile 1.4.1 için yazılmıştır. Son kontrol: 2026-10-18.</p>
       <p class="ask">Sorun devam ediyor mu? <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> adresine yazın, yardımcı olalım.</p>
     </article>
   </main>
@@ -670,7 +670,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/tr/help/search.json?v=32184d0520').then(function (r) { return r.json(); })
+    fetch('/tr/help/search.json?v=f1ddfa4ac9').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "tr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Arama \u015fu anda kullan\u0131lam\u0131yor. Men\u00fcy\u00fc kullan\u0131n." + '</li>';

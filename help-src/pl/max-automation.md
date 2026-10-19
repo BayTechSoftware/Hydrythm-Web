@@ -25,7 +25,7 @@ Dotknij sceny, żeby ją edytować, albo dotknij **Nowa scena**, żeby utworzyć
 1. Wpisz **Nazwę sceny**.
 2. Dotknij **Dodaj krok** i wybierz, co robi ten krok. Widzisz tylko rodzaje sprzętu, które ma to akwarium:
    - **Gniazdo Apex**: przełącz gniazdo Neptune Apex na **WŁ.**, **WYŁ.** albo **AUTO**.
-   - **Steruj sprzętem Red Sea**: na przykład **ReefDose: dawkuj teraz**, **ReefDose: ustaw dawkę dzienną**, **ReefRun: ustaw prędkość pompy**, **ATO: zacznij ręczne napełnianie** albo **ReefMat: przewiń rolkę**.
+   - **Steruj sprzętem Red Sea**: na przykład **ReefDose: dozuj teraz**, **ReefDose: ustaw dawkę dzienną**, **ReefRun: ustaw prędkość pompy**, **ATO: zacznij ręczne napełnianie** albo **ReefMat: przewiń rolkę**.
    - **Steruj pompą cyrkulacyjną**: ustaw przepływ albo tryb fali pompy Jecod, włącz ją lub wyłącz albo **Wstrzymaj na czas karmienia**.
    - **Uruchom test Trident**: alkaliczność, test łączony lub biogeny. Każde uruchomienie zużywa odczynnik.
    - **Uruchom cykl karmienia Apex**: wybierz cykl. Timer karmienia prowadzi Apex i sam wznawia pracę.
@@ -35,7 +35,7 @@ Dotknij sceny, żeby ją edytować, albo dotknij **Nowa scena**, żeby utworzyć
 6. Dotknij **Zapisz**.
 
 :::note Dawki w scenie
-Głowica Neptune DŌS nigdy nie może być krokiem sceny. Krok **ReefDose: dawkuj teraz** może i ma własne pole **Maks. na dawkę (ml)**. Zostaw je puste, a limit wyniesie 10 mL. Dawka powyżej tego limitu jest odrzucana, nigdy zmniejszana. W każdej scenie, która dozuje, zostaw **Pytaj przed uruchomieniem** włączone.
+Głowica Neptune DŌS nigdy nie może być krokiem sceny. Krok **ReefDose: dozuj teraz** może i ma własne pole **Maks. na dawkę (ml)**. Zostaw je puste, a limit wyniesie 10 mL. Dawka powyżej tego limitu jest odrzucana, nigdy zmniejszana. W każdej scenie, która dozuje, zostaw **Pytaj przed uruchomieniem** włączone.
 :::
 
 

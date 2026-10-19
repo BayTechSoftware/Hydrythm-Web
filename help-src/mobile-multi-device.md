@@ -38,7 +38,7 @@ Each device in the list shows its wake phrase and whether it's online. **The wak
 The phone doesn't listen for a wake phrase. You start a conversation on it by tapping, and that always works, whatever this setting says. The list only shows Cora hardware that has voice.
 :::
 
-## Primary Cora Max
+## Primary Cora Max {#primary-cora-max}
 
 A Cora Max reads the equipment on your network. If more than one can reach the same controller, they'd all poll it side by side.
 
@@ -59,7 +59,7 @@ Naming a primary takes load off the controller and gets rid of duplicate reading
 Primary Cora Max is set per tank for the whole account. It doesn't belong to the phone or Cora Max you're holding. Change it from any device and it changes for the whole household.
 :::
 
-## What works away from home
+## What works away from home {#what-works-away-from-home}
 
 When you're away from your tank's Wi-Fi, your phone doesn't talk to your equipment directly. A command goes to Cora Cloud, which hands it to a Cora Max at the tank. That Cora Max is what reaches the equipment.
 

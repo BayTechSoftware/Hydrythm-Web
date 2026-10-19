@@ -2,7 +2,7 @@
 title: Collegare la tua attrezzatura
 description: Come collegare a Cora un'unità Neptune Apex, Red Sea ReefBeat, Jecod o AquaWiz.
 section: Cora Mobile
-reviewed: 2026-10-17
+reviewed: 2026-10-18
 order: 12
 group: Equipment
 ---
@@ -90,6 +90,8 @@ Con **Resta connesso automaticamente** attivo, Cora conserva la tua password Aqu
 
 Ottieni l'alcalinità come fonte, e anche il pH se la tua unità lo riporta e **Leggi anche il pH** è attivo. La prima lettura arriva appena colleghi. Dopo, AquaWiz lascia che Cora legga il suo cloud in automatico solo ogni 12 ore, quindi una lettura da lì può avere anche mezza giornata. Un Cora Max nella vasca può anche leggere il controller da solo ogni ora, quando riesce a raggiungerlo. Apri la pagina del dispositivo per vedere quando è stata misurata ogni lettura e da dove viene, e tocca **Leggi ora** per averne una fresca (al massimo una ogni 15 minuti). Cosa mostra la scheda AquaWiz, e i suoi avvisi, sono in [Controllare la tua attrezzatura](/help/mobile-device-control#aquawiz).
 
+Per spostare il controller in un'altra vasca, apri la sua pagina in **Dispositivi** e tocca **Modifica** sotto **Acquari**. Non devi accedere di nuovo ad AquaWiz.
+
 :::warning Cora condivide il tuo accesso AquaWiz
 AquaWiz dà un solo accesso per account, quindi Cora usa lo stesso dell'app AquaWiz. Se cambi la password AquaWiz, Cora si scollega. Ricollegala poi dalla riga del dispositivo. Per togliere del tutto l'accesso a Cora, rimuovi il dispositivo in Cora e cambia la password AquaWiz.
 :::
@@ -104,7 +106,7 @@ Cora raggiunge un AquaWiz in un massimo di tre modi, che lavorano insieme.
 | Il servizio Cora di AquaWiz | L'ultima lettura di KH e pH. | Quando associ, poi ogni 12 ore (limite di AquaWiz) e quando apri la pagina del dispositivo o tocchi **Leggi ora** (al massimo ogni 15 minuti) |
 | Un Cora Max alla vasca | Legge il controller direttamente sul suo Wi-Fi e aggiunge gli avvisi di pompa, sonda pH e water box. | Ogni ora |
 
-Senza un Cora Max le letture arrivano ogni 12 ore, che è il limite di AquaWiz, quindi una lettura può avere anche mezza giornata. **Vuoi letture ogni ora? Aggiungi un Cora Max alla vasca.** [Scopri Cora Max](https://coraiq.tech/it/#max) e [configuralo](/help/max-setup). Arriva con il prossimo aggiornamento di Cora Max e richiede il controller nel raggio del Wi-Fi di Cora Max e un firmware del controller con accesso locale. I dettagli sono in [Lettura oraria da Cora Max](/help/max-device-control#aquawiz-hourly).
+Senza un Cora Max le letture arrivano ogni 12 ore, che è il limite di AquaWiz, quindi una lettura può avere anche mezza giornata. **Vuoi letture ogni ora? Aggiungi un Cora Max alla vasca.** [Scopri Cora Max](https://coraiq.tech/it/#max) e [configuralo](/help/max-setup). Richiede il controller nel raggio del Wi-Fi di Cora Max e un firmware del controller con accesso locale. I dettagli sono in [Lettura oraria da Cora Max](/help/max-device-control#aquawiz-hourly).
 
 La scheda del dispositivo mostra da dove viene ogni lettura: **Ogni ora dal tuo Cora Max** oppure **Dal cloud AquaWiz, ogni 12 ore**.
 

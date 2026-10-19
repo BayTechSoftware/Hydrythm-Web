@@ -171,12 +171,12 @@
       <nav class="crumbs" aria-label="Navigationspfad"><ol><li><a href="/de/help/">Hilfe</a></li><li><a href="/de/help/max-setup" lang="en">Cora Max</a></li><li><a href="/de/help/max-settings">Einstellungen und Konto</a></li></ol></nav>
       <h1>Updates und Wiederherstellung</h1>
       
-      <nav class="toc" aria-label="Auf dieser Seite"><p>Auf dieser Seite</p><ul><li><a href="#automatische-updates">Automatische Updates</a></li><li><a href="#die-version-und-die-update-einstellungen-prufen">Die Version und die Update-Einstellungen prüfen</a></li><li><a href="#wenn-ein-update-bereitsteht">Wenn ein Update bereitsteht</a></li><li><a href="#recovery">Wiederherstellung</a></li><li><a href="#wenn-cora-max-cora-max-hit-a-problem-zeigt">Wenn Cora Max &quot;Cora Max hit a problem&quot; zeigt</a></li><li><a href="#wenn-ein-gerat-nicht-neu-startet">Wenn ein Gerät nicht neu startet</a></li></ul></nav>
+      <nav class="toc" aria-label="Auf dieser Seite"><p>Auf dieser Seite</p><ul><li><a href="#automatische-updates">Automatische Updates</a></li><li><a href="#checking-the-version-and-update-settings">Die Version und die Update-Einstellungen prüfen</a></li><li><a href="#wenn-ein-update-bereitsteht">Wenn ein Update bereitsteht</a></li><li><a href="#recovery">Wiederherstellung</a></li><li><a href="#wenn-cora-max-cora-max-hit-a-problem-zeigt">Wenn Cora Max &quot;Cora Max hit a problem&quot; zeigt</a></li><li><a href="#wenn-ein-gerat-nicht-neu-startet">Wenn ein Gerät nicht neu startet</a></li></ul></nav>
 <p>Cora Max hält sich selbst aktuell. Diese Seite erklärt, wann Updates installiert werden, wie du deine Version prüfst und wie du Cora Max wieder zum Laufen bringst, wenn es nicht normal startet.</p>
 <h2 id="automatische-updates">Automatische Updates</h2>
 <p>Neue Versionen laden im Hintergrund, sobald sie erscheinen. Sie installieren sich im <strong>Installationsfenster</strong>, 3 bis 5 Uhr morgens, außer du änderst es, damit der Bildschirm nicht neu startet, während du draufschaust. Bringt eine Version Versionshinweise mit, zeigt Cora Max sie an.</p>
 <p>Du musst nichts tun, um aktuell zu bleiben.</p>
-<h2 id="die-version-und-die-update-einstellungen-prufen">Die Version und die Update-Einstellungen prüfen</h2>
+<h2 id="checking-the-version-and-update-settings">Die Version und die Update-Einstellungen prüfen</h2>
 <figure class="shot"><button type="button" class="zoom" aria-label="Vergrößern: Netzwerk und Updates auf Cora Max"><img src="/help/img/max-updates.webp" alt="Netzwerk und Updates auf Cora Max" width="1280" height="800" loading="lazy" decoding="async"></button><figcaption>Firmware-Update, im Bereich NETZWERK &amp;amp; UPDATES der Cora Max-Einstellungen.</figcaption></figure>
 <p>Deine Version steht auf der Karte oben unter <strong>Einstellungen → Cora Max-Einstellungen</strong> (<em>Cora Max · Firmware 0.28.170</em>) und unter <strong>HILFE &amp; ÜBER → Über</strong>.</p>
 <p><strong>Einstellungen → Cora Max-Einstellungen → Firmware-Update</strong> (in <strong>NETZWERK &amp; UPDATES</strong>) zeigt die Version, die du hast, und ob ein Update wartet. Tippe auf <strong>Nach Updates suchen</strong>, um jetzt nachzusehen, oder auf <strong>Herunterladen &amp; installieren</strong>, wenn eins da ist.</p>
@@ -208,7 +208,7 @@
 <h2 id="wenn-ein-gerat-nicht-neu-startet">Wenn ein Gerät nicht neu startet</h2>
 <p>Schreib eine E-Mail an <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> mit der Version, die auf dem Bildschirm steht, und der Meldung, die er zeigt. Koppel es vorher nicht neu. Der Kopplungsstatus hilft oft herauszufinden, was passiert ist.</p>
       <nav class="pn" aria-label="Weiterlesen"><a class="pn-p" href="/de/help/max-settings"><span>Zurück</span><b>Cora Max-Einstellungen</b></a></nav>
-      <p class="stamp">Geschrieben für Cora Max 0.28.217 und Cora Mobile 0.5.125. Zuletzt geprüft am 2026-10-17.</p>
+      <p class="stamp">Geschrieben für Cora Max 0.28.219 und Cora Mobile 1.4.1. Zuletzt geprüft am 2026-10-17.</p>
       <p class="ask">Kommst du nicht weiter? Schreib eine E-Mail an <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, wir helfen dir.</p>
     </article>
   </main>
@@ -599,7 +599,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/de/help/search.json?v=eaa607bd77').then(function (r) { return r.json(); })
+    fetch('/de/help/search.json?v=2242ca5a10').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "de"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Die Suche ist nicht verf\u00fcgbar. Nutze die Navigation." + '</li>';

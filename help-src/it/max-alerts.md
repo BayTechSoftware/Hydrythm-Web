@@ -38,7 +38,7 @@ Ogni avviso attivo compare anche come piccola etichetta nella barra in alto, abb
 
 **Impostazioni → Impostazioni Cora Max → Cronologia notifiche** è la casella di tutto il tuo account. Contiene ogni briefing, allarme e comunicazione dell'account per il tuo impianto, compresi quelli che questo schermo non ha mostrato e tutto quello che il telefono si è perso. Quando una lettura esce dall'intervallo e poi ci rientra, vedi entrambe le cose.
 
-## Modificare le soglie
+## Modificare le soglie {#editing-thresholds}
 
 ![Le impostazioni di una vasca su Cora Max, con Soglie di avviso, Unità e Cora Max principale](img/max-tank-settings.webp "Prima Soglie di avviso e Unità, poi il Cora Max principale di questa vasca.")
 

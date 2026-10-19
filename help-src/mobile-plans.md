@@ -32,7 +32,7 @@ Monitoring your tank is free, with no limit. The paid plans give you bigger AI a
 
 When an allowance runs out, you can still read everything Cora has already made for you.
 
-## The trial
+## The trial {#the-trial}
 
 Your **30-day Advanced trial starts when you create your account**. It doesn't wait until you first use a feature, and you don't need a card. **Account & Subscription** shows it as **Cora Advanced Trial**, with the date it ends.
 
@@ -48,7 +48,7 @@ The trial includes Reef Buddy and **Design with AI**. Its allowances are smaller
 
 When it ends, your account goes back to Free. **Nothing is deleted.** You can still read every reading, journal entry, report and briefing you have.
 
-## Paid tiers
+## Paid tiers {#paid-tiers}
 
 There are three plans, **Essential**, **Advanced** and **Expert**, each monthly or annual. Settings shows them as Cora Essential, Cora Advanced and Cora Expert. You'll find current prices in Cora Mobile and in your app store, since that's where you pay.
 
@@ -112,7 +112,7 @@ The counts start again at the beginning of each calendar month.
 
 To move up, use **Upgrade** or **Upgrade to Expert** as above. To move down or switch between monthly and annual, use **Manage Subscription**. Changes go through the App Store or Google Play and follow the same rules as any other subscription on your phone, including that store's refund and cancellation terms.
 
-## Cancelling
+## Cancelling {#cancelling}
 
 You cancel with the store you paid. You can't cancel inside Cora. Your plan runs to the end of the period you've paid for, then goes back to Free.
 

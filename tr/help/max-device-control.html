@@ -171,7 +171,7 @@
       <nav class="crumbs" aria-label="Gezinme yolu"><ol><li><a href="/tr/help/">Yardım</a></li><li><a href="/tr/help/max-setup" lang="en">Cora Max</a></li><li><a href="/tr/help/max-controls">Ekipman</a></li></ol></nav>
       <h1>Cora Max&#x27;ten ekipman kontrolü</h1>
       <p class="twin">Cora Mobile'da: <a href="/tr/help/mobile-device-control">Ekipmanınızı kontrol etme</a></p>
-      <nav class="toc" aria-label="Bu sayfada"><p>Bu sayfada</p><ul><li><a href="#what-has-a-page">Neyin sayfası var</a></li><li><a href="#neptune-apex">Neptune Apex</a></li><li><a href="#dos-heads">DŌS kafaları</a></li><li><a href="#red-sea">Red Sea ReefBeat</a></li><li><a href="#jecod">Jecod</a></li><li><a href="#aquawiz">AquaWiz</a></li><li><a href="#consumables">Sarf malzemeleri</a></li><li><a href="#logging-and-calculating-at-the-tank">Akvaryumun başında kaydetme ve hesaplama</a></li><li><a href="#on-a-second-cora-max">İkinci bir Cora Max&#x27;te</a></li><li><a href="#what-was-changed-and-by-what">Neyin, neyle değiştirildiği</a></li></ul></nav>
+      <nav class="toc" aria-label="Bu sayfada"><p>Bu sayfada</p><ul><li><a href="#what-has-a-page">Neyin sayfası var</a></li><li><a href="#neptune-apex">Neptune Apex</a></li><li><a href="#dos-heads">DŌS kafaları</a></li><li><a href="#red-sea">Red Sea ReefBeat</a></li><li><a href="#jecod">Jecod</a></li><li><a href="#aquawiz">AquaWiz</a></li><li><a href="#bluetooth-stopped">Bluetooth çalışmayı durdurursa</a></li><li><a href="#consumables">Sarf malzemeleri</a></li><li><a href="#logging-and-calculating-at-the-tank">Akvaryumun başında kaydetme ve hesaplama</a></li><li><a href="#on-a-second-cora-max">İkinci bir Cora Max&#x27;te</a></li><li><a href="#what-was-changed-and-by-what">Neyin, neyle değiştirildiği</a></li></ul></nav>
 <p>Bu sayfa, Cora Max'te her cihazın sayfasında neleri görüp yapabileceğinizi marka marka anlatır. Cora Max telefonunuzla aynı ekipmana ulaşır. Bir cihaz sayfasını üst çubuktaki cihazlar simgesinden, <strong>Ayarlar → Cihazlar</strong> yolundan ya da panoda bir cihaz kutucuğuna dokunarak açın.</p>
 <figure class="shot"><button type="button" class="zoom" aria-label="Büyüt: Cora Max&#x27;te besleme düğmeleri ve prizleriyle bir Apex sayfası"><img src="/help/img/max-device-control.webp" alt="Cora Max&#x27;te besleme düğmeleri ve prizleriyle bir Apex sayfası" width="1100" height="688" loading="lazy" decoding="async"></button><figcaption>Besleme A–D ve İptal, ardından bir duvar ekranı için yerleştirilmiş prizler.</figcaption></figure>
 <aside class="cal cal-warning"><p class="cal-t">Bu kontroller canlı ekipman üzerinde çalışır</p><p>Önizleme ve geri alma yoktur. Dokunduğunuz anda bir komut gider, ama göndermek yapıldığı anlamına gelmez. Sonuç <strong>Onaylandı</strong>, <strong>Onaylanmadı</strong>, <strong>Reddedildi</strong> ya da <strong>Değişiklik yok</strong> olarak döner ve hangisi olduğunu <a href="/tr/help/max-activity">Etkinlik</a> içinde görebilirsiniz.</p></aside>
@@ -209,10 +209,11 @@
 <h2 id="aquawiz">AquaWiz</h2>
 <p>Bir AquaWiz KH Controller'ın Cora Max'te kendi sayfası yoktur. <strong>Cihazlar</strong> içinde listelenir, orada adını değiştirebilirsiniz, ölçümleri de diğer kaynaklar gibi panoda görünür. Onu telefonunuzda kurun ve yönetin, <a href="/tr/help/mobile-connections">Ekipmanınızı bağlama</a> sayfasına bakın.</p>
 <h3 id="aquawiz-hourly">Cora Max'ten saatlik okuma</h3>
-<p>Sonraki Cora Max güncellemesiyle geliyor.</p>
 <p>AquaWiz, Cora'nın bulutunu yalnızca 12 saatte bir okumasına izin verir. Alkaliniteyi güncel tutmak için akvaryumun ana Cora Max'i kontrolörü doğrudan da okur, saat başından on dakika önce, saatte bir kez:</p>
 <ul><li>Birkaç saniyeliğine kontrolörün kendi Wi-Fi ağına bağlanır, son sonucu okur ve hemen ev Wi-Fi'nize döner. Bu sırada Cora Max yaklaşık 4 saniye çevrimdışı kalır.</li><li>Ev Wi-Fi şifreniz bu işlem için hiçbir yere kaydedilmez veya gönderilmez.</li><li>Bunu yalnızca akvaryumun ana Cora Max'i yapar. Aynı akvaryumdaki ikinci bir Cora Max yapmaz.</li><li>Cora Max sizinle konuşurken, güncellenirken, eşleşirken ya da Wi-Fi değiştirirken bekler ve bir sonraki saatte yeniden dener.</li><li>Kontrolör Cora Max'in Wi-Fi menzilinde olmalı ve ürün yazılımı yerel erişim sunmalıdır. Üst üste iki okuma başarısız olursa Cora Max günün geri kalanında denemeyi bırakır ve 12 saatlik bulut okuması devam eder.</li></ul>
 <p>Cora Max'ten gelen bir ölçüm, telefondaki AquaWiz kartında <strong>Cora Max cihazınızdan saatlik</strong> olarak görünür. Ayrıca <a href="/tr/help/mobile-alerts#equipment-faults">Uyarılar</a> sayfasında anlatılan pompa, pH probu ve su haznesi uyarılarını da getirir.</p>
+<h2 id="bluetooth-stopped">Bluetooth çalışmayı durdurursa</h2>
+<p>Cora Max ışıkları, pompaları ve sensörleri Bluetooth üzerinden okur. Bluetooth'u durursa ve yalnızca yeniden başlatma onu geri getiriyorsa, ekranın üzerinde bir kart belirir: <strong>Bluetooth çalışmayı durdurdu</strong>, <strong>Şimdi yeniden başlat</strong> ve <strong>Sonra</strong> ile. Adımlar <a href="/tr/help/troubleshooting#bluetooth-stopped-working">Cora Max "Bluetooth çalışmayı durdurdu" diyor</a> bölümünde.</p>
 <h2 id="consumables">Sarf malzemeleri</h2>
 <p>Dolum eşiklerini (reaktif, kaplar, depolar) burada da telefonunuzdaki gibi cihazın kendi sayfasında ayarlarsınız. Ayrıntılar <a href="/tr/help/mobile-consumables">Sarf malzemeleri</a> sayfasında.</p>
 <h2 id="logging-and-calculating-at-the-tank">Akvaryumun başında kaydetme ve hesaplama</h2>
@@ -225,7 +226,7 @@
 <h2 id="what-was-changed-and-by-what">Neyin, neyle değiştirildiği</h2>
 <p>Her eylem, ona neyin neden olduğuyla birlikte kaydedilir. Ayrıntılar <a href="/tr/help/max-activity">Cora Max'te etkinlik</a> sayfasında.</p>
       <nav class="pn" aria-label="Okumaya devam edin"><a class="pn-p" href="/tr/help/max-controls"><span>Önceki</span><b>Prizler ve kontroller</b></a><a class="pn-n" href="/tr/help/max-devices"><span>Sonraki</span><b>Cihazlar ve cihaz sağlığı</b></a></nav>
-      <p class="stamp">Cora Max 0.28.217 ve Cora Mobile 0.5.125 için yazılmıştır. Son kontrol: 2026-10-18.</p>
+      <p class="stamp">Cora Max 0.28.219 ve Cora Mobile 1.4.1 için yazılmıştır. Son kontrol: 2026-10-18.</p>
       <p class="ask">Sorun devam ediyor mu? <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> adresine yazın, yardımcı olalım.</p>
     </article>
   </main>
@@ -616,7 +617,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/tr/help/search.json?v=32184d0520').then(function (r) { return r.json(); })
+    fetch('/tr/help/search.json?v=f1ddfa4ac9').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "tr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Arama \u015fu anda kullan\u0131lam\u0131yor. Men\u00fcy\u00fc kullan\u0131n." + '</li>';

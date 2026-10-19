@@ -129,7 +129,7 @@ Das ist normal. Die eigenen Einstellungen eines Red Sea-Geräts öffnen sich nur
 
 Das kann normal sein. AquaWiz lässt Cora seine Cloud nur alle 12 Stunden auslesen, ohne Cora Max kann ein Messwert also bis zu einem halben Tag alt sein. Öffne die Seite des Geräts in Cora Mobile: Sie zeigt, wann der Messwert gemessen wurde und woher er kam, und **Jetzt auslesen** fragt einen frischen an (höchstens alle 15 Minuten).
 
-Wenn du ein Cora Max hast (ab dem nächsten Cora-Max-Update) und auf der Karte trotzdem **Aus der AquaWiz-Cloud, alle 12 Stunden** steht:
+Wenn du ein Cora Max hast und auf der Karte trotzdem **Aus der AquaWiz-Cloud, alle 12 Stunden** steht:
 
 - Prüfe, ob der Controller in WLAN-Reichweite des Haupt-Cora-Max des Beckens ist.
 - Prüfe in der AquaWiz-App, ob die Firmware des Controllers aktuell ist; ältere Firmware bietet keinen lokalen Zugriff.
@@ -243,6 +243,14 @@ Nachdem es seine Verbindung verloren hat, wartet Cora Max vor jedem neuen Versuc
 
 1. Gib ihm etwa eine Minute, nachdem dein Netzwerk zurück ist.
 2. Hat es sich dann immer noch nicht verbunden, prüf **Einstellungen → Cora Max-Einstellungen → WLAN**.
+
+### Cora Max sagt "Bluetooth funktioniert nicht mehr" {#bluetooth-stopped-working}
+
+Eine Karte mit diesem Titel liegt über dem Bildschirm: *Cora Max erreicht deine Bluetooth-Geräte (Leuchten, Pumpen, Sensoren) nicht mehr. Ein Neustart von Cora Max behebt das.* Sie erscheint, wenn das Bluetooth von Cora Max stehen geblieben ist und nur ein Neustart es zurückbringt.
+
+1. Tippe auf **Jetzt neu starten**. Cora Max startet neu.
+2. Passt es gerade nicht, tippe auf **Später**. Die Karte verschwindet für 30 Minuten und kommt wieder, solange das Problem besteht.
+3. Startet nichts neu, wenn du auf **Jetzt neu starten** tippst, starte Cora Max neu, indem du die Stromversorgung aus- und wieder einschaltest.
 
 ### Ein Cora Max auf dem Handy umzubenennen ändert nicht, was es zeigt {#renaming-a-cora-max-on-the-phone-doesnt-change-what-the-tabl}
 

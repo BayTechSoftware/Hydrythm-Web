@@ -52,7 +52,7 @@ Il décide quel Cora Max lit l’équipement d’un aquarium. La plupart des gen
 
 ### Quel appareil répond à "Hey Cora" si j’ai plusieurs Cora Max ? {#which-device-answers-hey-cora}
 
-Un seul appareil Cora répond à la fois. Vous le choisissez dans Cora Mobile sous **Réglages → Cora Assistant**. Cela n’a rien à voir avec le Cora Max principal. Plus de détails dans [Parler à Cora](/help/max-voice).
+Un seul appareil Cora répond à la fois. Vous le choisissez dans Cora Mobile sous **Paramètres → Cora Assistant**. Cela n’a rien à voir avec le Cora Max principal. Plus de détails dans [Parler à Cora](/help/max-voice).
 
 ### Pourquoi Cora Mobile ne trouve-t-il pas mon Cora Max quand j’essaie de l’associer ? {#why-cant-cora-mobile-find-my-cora-max}
 
@@ -72,13 +72,13 @@ Cora Max et Cora Mobile continuent d’afficher les dernières données qu’ils
 
 ### Puis-je passer Cora Max sur un nouveau réseau Wi-Fi ou un nouveau routeur ? {#can-i-move-cora-max-to-a-new-wi-fi}
 
-Oui. Sur Cora Max, rejoignez le nouveau réseau sous **Réglages → Réglages Cora Max → Wi-Fi**. Vos aquariums, appareils et compte restent les mêmes. L’équipement de l’ancien réseau devient injoignable tant qu’il n’a pas rejoint le nouveau, reconnectez donc chaque appareil comme vous l’avez ajouté la première fois. Plus de détails dans [Configurer Cora Max](/help/max-setup).
+Oui. Sur Cora Max, rejoignez le nouveau réseau sous **Paramètres → Paramètres Cora Max → Wi-Fi**. Vos aquariums, appareils et compte restent les mêmes. L’équipement de l’ancien réseau devient injoignable tant qu’il n’a pas rejoint le nouveau, reconnectez donc chaque appareil comme vous l’avez ajouté la première fois. Plus de détails dans [Configurer Cora Max](/help/max-setup).
 
 ## Cora Mobile
 
 ### Pourquoi Cora Mobile demande-t-il l’accès au réseau local et au Bluetooth ? {#why-local-network-and-bluetooth}
 
-Il a besoin de l’accès au réseau local pour trouver l’équipement Wi-Fi et joindre un Cora Max sur votre réseau domestique, et du Bluetooth pour associer un Cora Max et l’équipement qui utilise le Bluetooth. Sans eux, il ne peut pas trouver l’appareil. Plus de détails dans [Réglages de Cora Mobile](/help/mobile-settings).
+Il a besoin de l’accès au réseau local pour trouver l’équipement Wi-Fi et joindre un Cora Max sur votre réseau domestique, et du Bluetooth pour associer un Cora Max et l’équipement qui utilise le Bluetooth. Sans eux, il ne peut pas trouver l’appareil. Plus de détails dans [Paramètres de Cora Mobile](/help/mobile-settings).
 
 ### Puis-je surveiller mon aquarium quand je ne suis pas chez moi ? {#can-i-check-on-my-tank-away}
 
@@ -94,11 +94,11 @@ Il n’y a pas encore d’accès partagé entre deux comptes distincts. Un foyer
 
 ### Comment ajouter un autre aquarium ? {#how-do-i-add-another-tank}
 
-Dans Cora Mobile, ouvrez **Réglages** et touchez **Ajouter un aquarium**. Déplacez ensuite ses appareils vers lui, et ajoutez-le à votre Cora Max si vous en avez un. Plus de détails dans [Gérer vos aquariums](/help/mobile-tanks).
+Dans Cora Mobile, ouvrez **Paramètres** et touchez **Ajouter un aquarium**. Déplacez ensuite ses appareils vers lui, et ajoutez-le à votre Cora Max si vous en avez un. Plus de détails dans [Gérer vos aquariums](/help/mobile-tanks).
 
 ### J’ai retiré un aquarium par erreur. Puis-je le récupérer ? {#can-i-get-a-removed-tank-back}
 
-Oui. Retirer un aquarium ne fait que le masquer. Ouvrez **Réglages → Aquariums supprimés** et touchez **Restaurer**. Ses mesures, son journal et ses appareils reviennent comme avant. Si un aquarium retiré envoie encore des alertes, voir [Résolution de problèmes](/help/troubleshooting#alerts-from-a-removed-tank).
+Oui. Retirer un aquarium ne fait que le masquer. Ouvrez **Paramètres → Aquariums supprimés** et touchez **Restaurer**. Ses mesures, son journal et ses appareils reviennent comme avant. Si un aquarium retiré envoie encore des alertes, voir [Résolution de problèmes](/help/troubleshooting#alerts-from-a-removed-tank).
 
 ## Équipement
 
@@ -128,7 +128,7 @@ Elle vient de la bibliothèque de produits intégrée, qui liste les sels et les
 
 ### Pourquoi est-ce que je ne reçois aucune notification ? {#why-no-notifications}
 
-En général, une catégorie est désactivée dans **Réglages → Notifications**, ou votre téléphone n’autorise pas les notifications de Cora. Les étapes sont dans [Résolution de problèmes](/help/troubleshooting#im-not-getting-notifications).
+En général, une catégorie est désactivée dans **Paramètres → Notifications**, ou votre téléphone n’autorise pas les notifications de Cora. Les étapes sont dans [Résolution de problèmes](/help/troubleshooting#im-not-getting-notifications).
 
 ### Pourquoi mon widget est-il gris ? {#why-is-my-widget-grey}
 
@@ -136,7 +136,7 @@ Cora ne l’évalue pas : son alerte est désactivée, il n’a pas de plage, o
 
 ### Puis-je couper les notifications la nuit ? {#can-i-stop-notifications-at-night}
 
-Cora Mobile n’a pas d’heures calmes à lui. Utilisez le mode Concentration ou Ne pas déranger de votre téléphone, et laissez passer Cora si vous voulez quand même les alertes urgentes. Sur Cora Max, **Atténuation nocturne** baisse la luminosité de l’écran la nuit, et vous pouvez désactiver **Son d’alerte** sous **SON ET VOIX** dans **Réglages → Réglages Cora Max**. Plus de détails dans [Notifications](/help/mobile-notifications#quiet-at-night).
+Cora Mobile n’a pas d’heures calmes à lui. Utilisez le mode Concentration ou Ne pas déranger de votre téléphone, et laissez passer Cora si vous voulez quand même les alertes urgentes. Sur Cora Max, **Atténuation nocturne** baisse la luminosité de l’écran la nuit, et vous pouvez désactiver **Son d’alerte** sous **SON ET VOIX** dans **Paramètres → Paramètres Cora Max**. Plus de détails dans [Notifications](/help/mobile-notifications#quiet-at-night).
 
 ### Comment faire taire une alerte un moment sans la désactiver ? {#how-do-i-silence-an-alert}
 
@@ -148,7 +148,7 @@ Les deux sont sur Cora Max et ne concernent que cet écran. **Reporter** coupe l
 
 ### Pourquoi ai-je reçu une alerte sur mon téléphone mais pas sur Cora Max, ou l’inverse ? {#alert-on-phone-not-on-cora-max}
 
-Les interrupteurs de **Réglages → Notifications** appartiennent à votre compte, ils s’appliquent donc à tous les téléphones sur lesquels vous êtes connecté. Cora Max affiche chaque alerte, sauf si les alertes à l’écran sont désactivées pour cet écran (sur votre téléphone, **Appareils**, votre Cora Max, **Alertes**), ou si vous l’avez reportée ou ignorée là. Plus de détails dans [Alertes sur Cora Max](/help/max-alerts).
+Les interrupteurs de **Paramètres → Notifications** appartiennent à votre compte, ils s’appliquent donc à tous les téléphones sur lesquels vous êtes connecté. Cora Max affiche chaque alerte, sauf si les alertes à l’écran sont désactivées pour cet écran (sur votre téléphone, **Appareils**, votre Cora Max, **Alertes**), ou si vous l’avez reportée ou ignorée là. Plus de détails dans [Alertes sur Cora Max](/help/max-alerts).
 
 ## Reef Buddy et Cora Assistant
 
@@ -158,7 +158,7 @@ Reef Buddy est votre briefing quotidien, écrit pour vous sans que vous le deman
 
 ### Pourquoi mon briefing s’est-il arrêté, ou pourquoi mon deuxième aquarium n’en reçoit-il pas ? {#why-did-my-briefing-stop}
 
-Reef Buddy fait partie des forfaits payants et de l’essai de 30 jours. Chaque forfait couvre un nombre fixe d’aquariums, comptés dans l’ordre de **Réglages → Réorganiser les aquariums**. Un jour où rien n’a changé, le briefing reste silencieux. Plus de détails dans [Résolution de problèmes](/help/troubleshooting#my-daily-briefing-stopped).
+Reef Buddy fait partie des forfaits payants et de l’essai de 30 jours. Chaque forfait couvre un nombre fixe d’aquariums, comptés dans l’ordre de **Paramètres → Réorganiser les aquariums**. Un jour où rien n’a changé, le briefing reste silencieux. Plus de détails dans [Résolution de problèmes](/help/troubleshooting#my-daily-briefing-stopped).
 
 ### Que puis-je demander à Cora, et que peut-il faire ? {#what-can-i-ask-cora}
 
@@ -176,7 +176,7 @@ Cora répond à partir des données qu’il a pour l’aquarium sélectionné. L
 
 ### Quelles langues Cora parle-t-il ? {#which-languages}
 
-L’anglais, l’allemand, le français, le turc, l’italien, l’espagnol et le polonais. Cora utilise une seule langue pour tout le compte : tous ceux qui sont connectés à ce compte voient donc la même langue sur chaque appareil. Plus de détails dans [Réglages de Cora Mobile](/help/mobile-settings).
+L’anglais, l’allemand, le français, le turc, l’italien, l’espagnol et le polonais. Cora utilise une seule langue pour tout le compte : tous ceux qui sont connectés à ce compte voient donc la même langue sur chaque appareil. Plus de détails dans [Paramètres de Cora Mobile](/help/mobile-settings).
 
 ### J’ai changé la langue sur mon téléphone. Pourquoi mon Cora Max a-t-il changé aussi ? {#language-changed-everywhere}
 
@@ -210,7 +210,7 @@ Pour changer votre mot de passe, déconnectez-vous et utilisez **Mot de passe ou
 
 ### Que fait Cora des données de mon aquarium ? {#what-does-cora-do-with-my-data}
 
-Cora s’en sert pour afficher vos mesures, faire fonctionner les alertes, et alimenter Reef Buddy et Cora Assistant. Ce qui est stocké et la façon dont cela peut être utilisé sont expliqués dans [Exporter vos données et supprimer votre compte](/help/mobile-data-export), [Réglages de Cora Mobile](/help/mobile-settings) et la politique de confidentialité.
+Cora s’en sert pour afficher vos mesures, faire fonctionner les alertes, et alimenter Reef Buddy et Cora Assistant. Ce qui est stocké et la façon dont cela peut être utilisé sont expliqués dans [Exporter vos données et supprimer votre compte](/help/mobile-data-export), [Paramètres de Cora Mobile](/help/mobile-settings) et la politique de confidentialité.
 
 ### Puis-je obtenir une copie de tout ce que Cora a stocké sur mon aquarium ? {#can-i-get-a-copy}
 

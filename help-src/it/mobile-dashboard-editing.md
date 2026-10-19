@@ -2,7 +2,7 @@
 title: Modificare la dashboard
 description: Aggiungi, sposta, ridimensiona e rimuovi i widget sulla dashboard del telefono, imposta il numero di colonne e modifica dal telefono la dashboard di un Cora Max.
 section: Cora Mobile
-reviewed: 2026-10-17
+reviewed: 2026-10-18
 order: 8
 group: Your dashboard
 twin: max-dashboard-editing
@@ -33,7 +33,7 @@ Scegli **2**, **3** o **4** accanto a **COLONNE** in alto nell'editor. La grigli
 ## Aggiungere un widget {#adding-a-widget}
 
 1. Tocca **Aggiungi riquadro** sotto la griglia, oppure tocca una cella vuota.
-2. In **Aggiungi un riquadro**, scegli di che tipo è. **Parametro** comprende un valore, un indicatore, un grafico o uno stato per un parametro. **Presa** comanda una presa Apex. Le altre righe sono per l'attrezzatura, come **ReefBeat**, **Trident**, **DŌS** o **Jecod**. La maggior parte compare solo quando la vasca ha quell'attrezzatura.
+2. In **Aggiungi un riquadro**, scegli di che tipo è. **Parametro** comprende un valore, un indicatore, un grafico o uno stato per un parametro. **Presa** comanda una presa Apex. Le altre righe sono per l'attrezzatura, come **ReefBeat**, **Trident**, **DŌS** o **Jecod**. La maggior parte compare solo quando la vasca ha quell'attrezzatura. **Luce**, **Pompa di movimento** e **Pompa** elencano tutte le luci, le pompe di movimento e le pompe della vasca, di qualsiasi marca, e ciascuna compare solo quando la vasca ne ha una. **ReefBeat** e **Jecod** tengono gli altri dispositivi, come una ReefDose o una pompa dosometrica Jecod.
 3. Scegli il parametro, la presa o il dispositivo.
 4. Per un parametro, scegli il tipo. La [Guida ai widget](/help/mobile-widgets) li descrive tutti.
 

@@ -11,7 +11,7 @@ I dati della tua vasca sono tuoi. Questa pagina spiega come esportarli e come el
 
 ![Esporta i miei dati ed Elimina account in Cora Mobile](img/mobile-data.webp "Impostazioni, poi il tuo account: Esporta i miei dati ed Elimina account si trovano sotto Esci.")
 
-## Esportare
+## Esportare {#exporting}
 
 1. Apri **Impostazioni** e tocca la scheda dell'account in alto. Si apre **Account e abbonamento**.
 2. Tocca **Esporta i miei dati**.
@@ -45,7 +45,7 @@ Fai un'esportazione prima di smontare una vasca o di cambiare molto l'impianto. 
 
 **Elimina account** è definitivo.
 
-## Eliminare l'account
+## Eliminare l'account {#deleting-your-account}
 
 :::warning Eliminare l'account non annulla l'abbonamento
 Un abbonamento App Store o Google Play appartiene allo **store**. Se elimini l'account cancelli i tuoi dati presso Cora, ma **gli addebiti non si fermano**. Continuerai a pagare finché non annulli tu con Apple o Google. Annulla prima lì, poi elimina. Vedi [Annullare](/help/mobile-plans#cancelling).
@@ -60,7 +60,7 @@ Così rimuovi account, vasche, letture, diario, risultati di laboratorio e colle
 
 Se hai fatto l'accesso parecchio tempo fa, Cora potrebbe chiederti di dimostrare che sei tu prima di eliminare qualsiasi cosa. Con email e password ti chiede **Conferma la tua password**. Con Apple o Google, accedi di nuovo con loro. Poi riprova. Finché non lo fai, non viene eliminato nulla.
 
-## Contribuire con dati anonimi
+## Contribuire con dati anonimi {#contributing-anonymised-data}
 
 **Impostazioni → Cora Assistant → Contribuisci con dati anonimi della vasca.**
 

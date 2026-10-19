@@ -84,13 +84,13 @@ L’appareil n’a pas de capteur de niveau et ne s’arrête pas tout seul. Ré
 
 ### À quoi sert chaque tête {#dos-head-use}
 
-Donnez à chaque tête un **type d’usage** pour que Cora sache ce qu’elle fait et en parle correctement. Les choix sont **Complément**, **Changement d’eau : entrée d’eau salée neuve**, **Changement d’eau : sortie d’eau ancienne**, **Kalkwasser**, **Réacteur à calcium**, **Nourriture**, **Appoint** et **Autre**. Réglez-le sous **Utilisée pour** dans les réglages de la tête.
+Donnez à chaque tête un **type d’usage** pour que Cora sache ce qu’elle fait et en parle correctement. Les choix sont **Complément**, **Changement d’eau : entrée d’eau salée neuve**, **Changement d’eau : sortie d’eau ancienne**, **Kalkwasser**, **Réacteur à calcium**, **Nourriture**, **Appoint** et **Autre**. Réglez-le sous **Utilisée pour** dans les paramètres de la tête.
 
 Les deux types d’usage de changement d’eau vont par **paires**. Réglez la **Tête associée** d’une tête sur la tête qui déplace l’eau dans l’autre sens, et Cora traite les deux comme une seule paire de changement d’eau.
 
 Un réservoir peut faire jusqu’à 1 000 L, pour tous les types d’usage. L’Apex lui-même ne compte que jusqu’à 150 L, donc au-delà, Cora suit lui-même le réservoir d’après ce que dose la tête. Saisissez le **Volume total** lors de la configuration. Cora remet aussi de temps en temps à zéro le compteur propre de l’Apex, et Activité l’affiche comme *Compteur propre de l'Apex remis à 150 L*.
 
-Chaque tête a aussi une limite de **Dosage manuel maximal**, pour qu’une faute de frappe ne puisse pas transformer une dose manuelle en quelque chose de bien plus gros que prévu. Les grosses doses à la main ne deviennent disponibles qu’après que le débit de la tête a été mesuré par un vrai test à l’aquarium, et après que vous avez activé **Doses importantes** dans les réglages de la tête. C’est désactivé par défaut. Ne l’activez qu’après avoir regardé la première grosse dose se faire à l’aquarium.
+Chaque tête a aussi une limite de **Dosage manuel maximal**, pour qu’une faute de frappe ne puisse pas transformer une dose manuelle en quelque chose de bien plus gros que prévu. Les grosses doses à la main ne deviennent disponibles qu’après que le débit de la tête a été mesuré par un vrai test à l’aquarium, et après que vous avez activé **Doses importantes** dans les paramètres de la tête. C’est désactivé par défaut. Ne l’activez qu’après avoir regardé la première grosse dose se faire à l’aquarium.
 
 ## Red Sea ReefBeat {#red-sea}
 
@@ -204,7 +204,7 @@ La carte AquaWiz affiche vos mesures d’alcalinité, et le pH si votre appareil
 
 Sous les mesures, la carte indique quand la dernière a été prise (par exemple *Mesuré 14:00*) et d’où elle vient : **Toutes les heures depuis votre Cora Max** ou **Depuis le cloud AquaWiz, toutes les 12 heures**. Elle affiche aussi la **variation du pH**. L’ouverture de la page demande une mesure fraîche, et **Lire maintenant** la redemande, au plus une fois toutes les 15 minutes. Si une mesure n’a pas changé, c’est normal : l’appareil ne mesure que de temps en temps.
 
-Quand un Cora Max lit l’appareil toutes les heures, la carte affiche aussi sa pompe, sa sonde de pH et le niveau du bac d’eau, et Cora vous alerte quand la pompe signale un défaut, quand la sonde de pH est en panne ou presque en fin de vie, ou quand le niveau du bac d’eau reste bas ou haut plus d’une heure.
+Quand un Cora Max lit l’appareil toutes les heures, la carte affiche aussi sa pompe, sa sonde de pH et le niveau du réservoir d’eau, et Cora vous alerte quand la pompe signale un défaut, quand la sonde de pH est en panne ou presque en fin de vie, ou quand le niveau du réservoir d’eau reste bas ou haut plus d’une heure.
 
 Si votre appareil suit son réservoir, Cora vous prévient quand le produit s’épuise, à 100 mL par défaut. Changez-le depuis sa règle dans le [Centre d’alertes](/help/mobile-alerts).
 

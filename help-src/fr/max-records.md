@@ -2,7 +2,7 @@
 title: Journal, population et entretien
 description: Notez un test, ajoutez une entrée de journal, enregistrez un repas et cochez l’entretien sur Cora Max, et ce que vous faites encore sur votre téléphone.
 section: Cora Max
-reviewed: 2026-10-17
+reviewed: 2026-10-18
 order: 10
 group: Records
 twin: mobile-journal
@@ -17,7 +17,7 @@ Cora Max affiche les mêmes suivis que votre téléphone, mais vous ne pouvez pa
 | **Entretien** | Marquer une tâche **Terminé** ou la **Reporter**. Vous créez et modifiez les tâches sur votre téléphone |
 | **Population** | Lecture seule. Ajouts et modifications sur votre téléphone |
 
-Tout se trouve dans le **menu de l’aquarium** (touchez le nom de l’aquarium dans la barre du haut) et sous **Réglages → [votre aquarium]**. Ce que vous ajoutez ici apparaît aussitôt sur votre téléphone, et inversement.
+Tout se trouve dans le **menu de l’aquarium** (touchez le nom de l’aquarium dans la barre du haut) et sous **Paramètres → [votre aquarium]**. Ce que vous ajoutez ici apparaît aussitôt sur votre téléphone, et inversement.
 
 ## Saisir des mesures {#logging-readings}
 
@@ -47,7 +47,7 @@ L’icône à côté de celle des appareils est **Reef Buddy**, et son point sig
 
 Le haut de l’écran indique combien de tâches sont à faire. En dessous, **À venir** liste chaque tâche avec **AUJOURD’HUI**, **DANS 3 j** ou **EN RETARD 2 j**, et **Terminées · 7 derniers jours** montre ce que vous avez fait récemment.
 
-- Touchez **Terminé** quand vous avez fini une tâche. Si elle est en retard, Cora demande **Quand l’avez-vous fait ?**
+- Touchez **Terminé** quand vous avez fini une tâche. Si elle est en retard, Cora demande **Quand l’avez-vous fait ?** Cora ajoute aussi une courte entrée à votre [journal](/help/max-records#journal), en notant si la tâche était en retard.
 - Touchez **Fait plus tôt…** si vous l’avez faite avant aujourd’hui. Choisissez la date et l’heure, et la prochaine échéance est calculée à partir de là. Une heure future, ou antérieure à la dernière validation, n’est pas acceptée.
 - Touchez **Reporter** pour la repousser de **1 jour**, **3 jours**, **1 semaine**, **2 semaines** ou **1 mois**.
 

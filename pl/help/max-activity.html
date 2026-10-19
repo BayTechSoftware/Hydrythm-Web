@@ -188,9 +188,9 @@
 <ol><li>Znajdź wpis z tym, o co prosisz.</li><li>Jeśli to <strong>Odmówiono</strong>, przeczytaj powód pod spodem. Nic się nie wykonało.</li><li>Jeśli to <strong>Niepotwierdzone</strong>, sprawdź sam sprzęt przed ponowną próbą, żeby nie zrobić tego dwa razy.</li></ol>
 <p>Jeśli nadal coś się nie zgadza, zajrzyj do <a href="/pl/help/troubleshooting#establishing-why-something-changed">Ustalania, dlaczego coś się zmieniło</a>.</p>
 <h2 id="aktywnosc-i-dziennik">Aktywność i dziennik</h2>
-<p>Aktywność pokazuje, co zrobił system. <a href="/pl/help/max-records">Dziennik</a> pokazuje, co robisz ręcznie. Razem wyjaśniają większość niespodzianek.</p>
+<p>Aktywność pokazuje, co zrobił system. <a href="/pl/help/max-records#journal">Dziennik</a> pokazuje, co robisz ręcznie. Razem wyjaśniają większość niespodzianek.</p>
       <nav class="pn" aria-label="Czytaj dalej"><a class="pn-p" href="/pl/help/max-records"><span>Poprzedni</span><b>Dziennik, obsada i konserwacja</b></a><a class="pn-n" href="/pl/help/max-intelligence"><span>Następny</span><b>Reef Buddy i raporty</b></a></nav>
-      <p class="stamp">Napisano dla Cora Max 0.28.217 i Cora Mobile 0.5.125. Ostatnio sprawdzono 2026-10-18.</p>
+      <p class="stamp">Napisano dla Cora Max 0.28.219 i Cora Mobile 1.4.1. Ostatnio sprawdzono 2026-10-18.</p>
       <p class="ask">Wciąż masz problem? Napisz na <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, pomożemy.</p>
     </article>
   </main>
@@ -581,7 +581,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/pl/help/search.json?v=594e6c5535').then(function (r) { return r.json(); })
+    fetch('/pl/help/search.json?v=303849d9da').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "pl"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Wyszukiwanie jest niedost\u0119pne. U\u017cyj menu." + '</li>';

@@ -120,7 +120,7 @@
 </ul></details>
 <details class="nav-g">
 <summary>Paramètres et compte</summary><ul>
-<li><a href="/fr/help/mobile-settings">Réglages de Cora Mobile</a></li>
+<li><a href="/fr/help/mobile-settings">Paramètres de Cora Mobile</a></li>
 <li><a href="/fr/help/mobile-multi-device">Plus d’un appareil Cora</a></li>
 <li><a href="/fr/help/mobile-plans">Forfaits et abonnements</a></li>
 <li><a href="/fr/help/mobile-data-export">Exporter vos données et supprimer votre compte</a></li>
@@ -160,7 +160,7 @@
 </ul></details>
 <details class="nav-g">
 <summary>Paramètres et compte</summary><ul>
-<li><a href="/fr/help/max-settings">Réglages de Cora Max</a></li>
+<li><a href="/fr/help/max-settings">Paramètres de Cora Max</a></li>
 <li><a href="/fr/help/max-updates">Mises à jour et récupération</a></li>
 </ul></details>
     </nav>
@@ -173,7 +173,7 @@
       <p class="twin">Sur Cora Max : <a href="/fr/help/max-records">Journal, population et entretien</a></p>
       <nav class="toc" aria-label="Sur cette page"><p>Sur cette page</p><ul><li><a href="#adding-an-entry">Écrire une entrée</a></li><li><a href="#dictating">Dicter une entrée</a></li><li><a href="#what-to-record">Que noter</a></li><li><a href="#feeding">Nourrissage</a></li><li><a href="#editing">Modifier et supprimer des entrées</a></li><li><a href="#analyze">Interroger Cora sur une entrée</a></li><li><a href="#reading-it-back">Le relire</a></li><li><a href="#on-cora-max">Sur Cora Max</a></li></ul></nav>
 <p>Le journal est l’endroit où vous notez ce que vous avez fait sur l’aquarium : changements d’eau, nouveaux habitants, changements de dosage, interventions sur l’équipement et tout ce qui sort de l’ordinaire. Quand un paramètre bouge sans que vous sachiez pourquoi, le journal montre ce qui a changé autour de cette date.</p>
-<p>Touchez <strong>Journal</strong> dans la rangée de boutons sous le tableau de bord pour ouvrir le <strong>Journal de l’aquarium</strong>. Vous le trouvez aussi dans Réglages → votre aquarium → <strong>Journal</strong>.</p>
+<p>Touchez <strong>Journal</strong> dans la rangée de boutons sous le tableau de bord pour ouvrir le <strong>Journal de l’aquarium</strong>. Vous le trouvez aussi dans Paramètres → votre aquarium → <strong>Journal</strong>.</p>
 <figure class="shot phone"><button type="button" class="zoom" aria-label="Agrandir : Le journal de l’aquarium dans Cora Mobile"><img src="/help/img/mobile-journal.webp" alt="Le journal de l’aquarium dans Cora Mobile" width="620" height="940" loading="lazy" decoding="async"></button><figcaption>Les entrées, de la plus récente à la plus ancienne, avec des puces de catégorie pour les filtrer.</figcaption></figure>
 <h2 id="adding-an-entry">Écrire une entrée</h2>
 <p>Touchez <strong>Nouvelle entrée</strong>. Le formulaire contient :</p>
@@ -205,7 +205,7 @@
 <p>Vous pouvez aussi ajouter des entrées de journal sur Cora Max, ce qui est pratique quand vous êtes devant l’aquarium. Ouvrez le journal depuis le menu de l’aquarium, ou dictez une entrée.</p>
 <p>L’écran du journal sur Cora Max a aussi les boutons <strong>Repas en plus</strong> et <strong>Repas sauté</strong>, avec une ligne qui affiche votre routine de nourrissage. Si vous n’en avez pas réglé, la ligne indique <em>Définissez votre routine de nourrissage dans l’application mobile</em>, car la routine se règle dans Cora Mobile. Plus de détails dans <a href="/fr/help/max-records">Journal, population et entretien</a> sur Cora Max.</p>
       <nav class="pn" aria-label="Poursuivre la lecture"><a class="pn-p" href="/fr/help/mobile-vacation"><span>Précédent</span><b>Partir en vacances : un plan pour la personne qui garde votre aquarium</b></a><a class="pn-n" href="/fr/help/mobile-dosing"><span>Suivant</span><b>Produits de dosage et calculateur de dose</b></a></nav>
-      <p class="stamp">Rédigé pour Cora Max 0.28.217 et Cora Mobile 0.5.125. Vérifié pour la dernière fois le 2026-10-13.</p>
+      <p class="stamp">Rédigé pour Cora Max 0.28.219 et Cora Mobile 1.4.1. Vérifié pour la dernière fois le 2026-10-13.</p>
       <p class="ask">Toujours bloqué ? Écrivez à <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, nous vous aiderons.</p>
     </article>
   </main>
@@ -596,7 +596,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/fr/help/search.json?v=1dc5ffe8af').then(function (r) { return r.json(); })
+    fetch('/fr/help/search.json?v=f7254a1ed6').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "fr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La recherche est indisponible. Utilisez la navigation." + '</li>';

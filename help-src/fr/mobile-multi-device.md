@@ -24,7 +24,7 @@ Si vous changez un seuil sur un appareil, il change partout. Les dispositions de
 
 ## Cora Assistant : Appareil répondant {#cora-assistant-answering-device}
 
-**Réglages → Cora Assistant → Appareil répondant** choisit l’**appareil Cora** qui répond quand vous parlez dans la pièce. Peu importe combien d’appareils vous entendent, un seul répond. Choisissez celui qui est le plus proche de l’endroit où vous vous tenez d’habitude.
+**Paramètres → Cora Assistant → Appareil répondant** choisit l’**appareil Cora** qui répond quand vous parlez dans la pièce. Peu importe combien d’appareils vous entendent, un seul répond. Choisissez celui qui est le plus proche de l’endroit où vous vous tenez d’habitude.
 
 Seul l’appareil répondant écoute la phrase d’activation. Un autre Cora Max prend le relais de l’écoute tant qu’il est hors ligne, ou qu’on ne l’a pas vu depuis plus de 15 minutes, et s’arrête dès qu’il revient. Plus de détails dans [Parler à Cora](/help/max-voice).
 
@@ -78,4 +78,4 @@ Si l’un de ces messages revient sans cesse, vérifiez qu’un Cora Max à l’
 
 ## Où voir l’état de chaque appareil
 
-Cora Max affiche l’état d’interrogation de chaque aquarium sous **Réglages → Réglages Cora Max → État**. Plus de détails dans [Appareils et état des appareils](/help/max-devices).
+Cora Max affiche l’état d’interrogation de chaque aquarium sous **Paramètres → Paramètres Cora Max → État**. Plus de détails dans [Appareils et état des appareils](/help/max-devices).

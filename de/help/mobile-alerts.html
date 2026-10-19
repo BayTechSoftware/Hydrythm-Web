@@ -178,11 +178,11 @@
 <h2 id="alert-center">Die Warnzentrale</h2>
 <p>Sie hat zwei Tabs. <strong>Aktiv</strong> listet die Warnungen auf, die gerade bestehen, mit einer Zahl daneben. <strong>Regeln</strong> enthält die Regeln, die sie auslösen.</p>
 <p>Jede aktive Warnung zeigt den Wasserwert und das Becken, den Messwert, der sie ausgelöst hat, eine kurze Erklärung, einen Chip für den Schweregrad, die Art der Regel, die ausgelöst hat (<strong>Schwellenwert</strong> oder <strong>Änderungsrate</strong>), und wann sie ausgelöst hat. Sie hat zwei Tasten:</p>
-<ul><li><strong>Regel ansehen</strong> öffnet die Regel dahinter, damit du den Bereich anpassen kannst. Bei einer Dosierer-Warnung, etwa einem DŌS- oder ReefDose-Kopf, der zur Neige geht, oder einer verpassten Dosierung, heißt diese Taste stattdessen <strong>Dosierer öffnen</strong>. Sie öffnet die Seite dieses Dosierers mit seinen Warnungen.</li><li><strong>Diese Warnung erklären</strong> öffnet Cora Assistant mit einer fertigen Frage zur Warnung. Prüf sie, ändere sie, wenn du willst, und schick sie dann ab.</li></ul>
+<ul><li><strong>Regel ansehen</strong> öffnet die Regel dahinter, damit du den Bereich anpassen kannst. Bei einer Dosierpumpen-Warnung, etwa einem DŌS- oder ReefDose-Kopf, der zur Neige geht, oder einer verpassten Dosierung, heißt diese Taste stattdessen <strong>Dosierpumpe öffnen</strong>. Sie öffnet die Seite dieser Dosierpumpe mit ihren Warnungen.</li><li><strong>Diese Warnung erklären</strong> öffnet Cora Assistant mit einer fertigen Frage zur Warnung. Prüf sie, ändere sie, wenn du willst, und schick sie dann ab.</li></ul>
 <h2 id="rules">Der Tab Regeln</h2>
 <figure class="shot phone"><button type="button" class="zoom" aria-label="Vergrößern: Der Tab Regeln"><img src="/help/img/mobile-alert-rules.webp" alt="Der Tab Regeln" width="620" height="1347" loading="lazy" decoding="async"></button><figcaption>Regeln nach Wasserwert gruppiert, jede mit ihrem eigenen Schalter.</figcaption></figure>
 <p>Die Regeln sind nach Wasserwert gruppiert. Jede Regel hat in ihrer Zeile einen eigenen Schalter, du kannst sie also ausschalten, ohne sie zu öffnen. Eine Zeile zeigt außerdem <strong>Löst gerade aus</strong>, solange ihre Warnung besteht, oder wann sie zuletzt ausgelöst hat (oder <strong>Nie ausgelöst</strong>).</p>
-<p>Die Regeln eines Dosierkopfs heißen nach dem Kopf und dem, was sie überwachen, zum Beispiel <em>Jod · Tage übrig</em> oder <em>Jod · verbleibend</em>. Eine verpasste Dosierung erscheint als <em>Jod · Dosierung verpasst</em>. Jeder DŌS und jeder ReefDose hat hier eine eigene Zeile, und die Warnungen seiner Köpfe werden nicht einzeln aufgelistet. Tippe auf die Zeile, um die Seite dieses Dosierers zu öffnen. Siehe <a href="/de/help/mobile-device-control#doser-alerts">Dosierer-Warnungen</a>.</p>
+<p>Die Regeln eines Dosierkopfs heißen nach dem Kopf und dem, was sie überwachen, zum Beispiel <em>Jod · Tage übrig</em> oder <em>Jod · verbleibend</em>. Eine verpasste Dosierung erscheint als <em>Jod · Dosierung verpasst</em>. Jeder DŌS und jeder ReefDose hat hier eine eigene Zeile, und die Warnungen seiner Köpfe werden nicht einzeln aufgelistet. Tippe auf die Zeile, um die Seite dieser Dosierpumpe zu öffnen. Siehe <a href="/de/help/mobile-device-control#doser-alerts">Dosierpumpen-Warnungen</a>.</p>
 <p>Ganz unten:</p>
 <ul><li><strong>Empfohlene Regeln hinzufügen</strong> fügt die empfohlenen Regeln von Cora hinzu, die fehlen. Einen Wasserwert, der schon eine Regel hat, überspringt es. Bei einem Becken ganz ohne Regeln heißt diese Taste <strong>Standardregeln hinzufügen</strong>.</li><li><strong>Eigene Regel hinzufügen</strong> richtet eine eigene Regel ein. Wähl den Wasserwert und den <strong>Regeltyp</strong>, <strong>Schwellenwert</strong> oder <strong>Änderungsrate</strong>. Die Taste <strong>Regel hinzufügen</strong> unten rechts tut dasselbe.</li></ul>
 <h3 id="editing-a-rule">Eine Regel bearbeiten</h3>
@@ -206,8 +206,8 @@
 <h2 id="equipment-faults">Wenn Ausrüstung Aufmerksamkeit braucht</h2>
 <p>Manche Warnungen betreffen Ausrüstung, keinen Messwert. Meldet ein Gerät wie ein Trident oder eine Jecod™-Pumpe einen Fehler, schickt Cora eine Benachrichtigung mit dem Becken und dem Gerät, zum Beispiel <em>"Hauptbecken: Rückförderpumpe braucht Aufmerksamkeit"</em>. Sie sagt auch, was los ist, etwa ein blockierter Rotor. Ist der Fehler behoben, bekommst du eine zweite: <em>"Hauptbecken: Rückförderpumpe ist wieder in Ordnung"</em>. Beide fallen unter <strong>Gerätefehler</strong> in <strong>Einstellungen → Benachrichtigungen</strong>.</p>
 <p>Ein AquaWiz™ KH Controller, den dein Cora Max jede Stunde ausliest, löst dieselbe Art Warnung aus, wenn:</p>
-<ul><li>seine Dosierpumpe einen Fehler meldet;</li><li>seine pH-Sonde ausgefallen ist oder bald am Ende ihrer Lebensdauer ist;</li><li>der Füllstand seines Wasserbehälters länger als eine Stunde zu niedrig oder zu hoch bleibt.</li></ul>
-<p>Dafür braucht es das stündliche Auslesen durch das Cora Max (ab dem nächsten Cora-Max-Update) (siehe <a href="/de/help/max-device-control#aquawiz-hourly">Ausrüstung mit Cora Max steuern</a>): Die 12-Stunden-Messung aus der AquaWiz-Cloud enthält sie nicht.</p>
+<ul><li>seine Dosierpumpe einen Fehler meldet;</li><li>seine pH-Sonde ausgefallen ist oder bald am Ende ihrer Lebensdauer ist;</li><li>der Füllstand seiner Wasserbox länger als eine Stunde zu niedrig oder zu hoch bleibt.</li></ul>
+<p>Dafür braucht es das stündliche Auslesen durch das Cora Max (siehe <a href="/de/help/max-device-control#aquawiz-hourly">Ausrüstung mit Cora Max steuern</a>): Die 12-Stunden-Messung aus der AquaWiz-Cloud enthält sie nicht.</p>
 <h2 id="stopped-reporting">Ein Gerät meldet sich nicht mehr</h2>
 <p>Wird ein verbundenes Gerät still, schickt Cora <em>"[Gerät]: meldet sich nicht mehr"</em>. Das heißt nicht, dass das Gerät kaputt ist, nur, dass Cora eine Weile nichts von ihm gehört hat. Du bekommst eine zweite Benachrichtigung, <em>"[Gerät]: meldet sich wieder"</em>, wenn es zurückkommt.</p>
 <p>Wie lange Cora wartet, hängt vom Gerät ab:</p>
@@ -235,7 +235,7 @@
 <p>Solange eine Regel aus ist, bewertet Cora diesen Messwert nicht. Sein Widget bleibt neutral grau und löst nie eine Warnung aus.</p>
 <aside class="cal cal-warning"><p class="cal-t">Schalte einen Wasserwert aus, ohne seinen Bereich zu löschen</p><p>Eine Regel zu löschen, hält Cora nicht immer davon ab, diesen Messwert zu bewerten. Standard-Referenzbereiche färben den Wert weiter ein und können weiter ins Briefing einfließen. Nimm den Schalter der Regel.</p></aside>
       <nav class="pn" aria-label="Weiterlesen"><a class="pn-p" href="/de/help/mobile-consumables"><span>Zurück</span><b>Verbrauchsmaterial und Nachfüllwarnungen</b></a><a class="pn-n" href="/de/help/mobile-notifications"><span>Weiter</span><b>Benachrichtigungen</b></a></nav>
-      <p class="stamp">Geschrieben für Cora Max 0.28.217 und Cora Mobile 0.5.125. Zuletzt geprüft am 2026-10-17.</p>
+      <p class="stamp">Geschrieben für Cora Max 0.28.219 und Cora Mobile 1.4.1. Zuletzt geprüft am 2026-10-18.</p>
       <p class="ask">Kommst du nicht weiter? Schreib eine E-Mail an <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, wir helfen dir.</p>
     </article>
   </main>
@@ -626,7 +626,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/de/help/search.json?v=eaa607bd77').then(function (r) { return r.json(); })
+    fetch('/de/help/search.json?v=2242ca5a10').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "de"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Die Suche ist nicht verf\u00fcgbar. Nutze die Navigation." + '</li>';

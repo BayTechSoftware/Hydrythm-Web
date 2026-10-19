@@ -36,13 +36,13 @@ Chaque alerte active apparaît aussi sous forme de petite étiquette dans la bar
 
 ## La boîte de réception des notifications
 
-**Réglages → Réglages Cora Max → Historique des notifications** est la boîte de réception de tout votre compte. Elle contient chaque briefing, alarme et avis de compte de votre système, y compris ceux que cet écran n’a pas déclenchés et tout ce que votre téléphone a manqué. Quand une mesure sort de sa plage puis y revient, vous voyez les deux.
+**Paramètres → Paramètres Cora Max → Historique des notifications** est la boîte de réception de tout votre compte. Elle contient chaque briefing, alarme et avis de compte de votre système, y compris ceux que cet écran n’a pas déclenchés et tout ce que votre téléphone a manqué. Quand une mesure sort de sa plage puis y revient, vous voyez les deux.
 
 ## Modifier les seuils {#editing-thresholds}
 
 ![Les réglages d’un aquarium sur Cora Max, avec Seuils d’alerte, Unités et Cora Max principal](img/max-tank-settings.webp "Seuils d’alerte et Unités d’abord, puis le Cora Max principal de cet aquarium.")
 
-Touchez le nom de l’aquarium dans la barre du haut et choisissez **Seuils d’alerte**, ou allez dans **Réglages → [votre aquarium] → Seuils d’alerte**. Les deux ouvrent les mêmes plages que sur votre téléphone, et un changement fait ici s’applique partout.
+Touchez le nom de l’aquarium dans la barre du haut et choisissez **Seuils d’alerte**, ou allez dans **Paramètres → [votre aquarium] → Seuils d’alerte**. Les deux ouvrent les mêmes plages que sur votre téléphone, et un changement fait ici s’applique partout.
 
 Vous pouvez aussi changer un seuil par un appui long sur son widget dans le tableau de bord, ou à la voix : *« Hey Cora, règle l’alerte de pH entre 7,9 et 8,4. »* Cora vous indique le changement et attend votre accord.
 
@@ -61,7 +61,7 @@ La signification de chaque alerte de doseur est dans [Alertes des doseurs](/help
 
 ## Son d’alerte, alertes vocales et réveil de l’écran
 
-Ces réglages ne concernent que cet écran. Vous les trouvez dans **Réglages → Réglages Cora Max**.
+Ces réglages ne concernent que cet écran. Vous les trouvez dans **Paramètres → Paramètres Cora Max**.
 
 - **Son d’alerte** (sous **SON ET VOIX**) joue un son quand une nouvelle alerte arrive. Son curseur règle le volume.
 - **Alertes vocales** (sous **SON ET VOIX**) fait dire l’alerte à voix haute par Cora.

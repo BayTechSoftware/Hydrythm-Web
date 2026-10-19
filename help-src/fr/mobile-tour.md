@@ -50,15 +50,15 @@ Plus de détails dans [Rapports ICP et de santé](/help/mobile-icp-health).
 
 ## Paramètres {#settings}
 
-L’onglet **Paramètres** ouvre l’écran **Réglages**. Vous y gérez votre compte, vos aquariums, vos produits de dosage, Cora Assistant, les notifications, les automatisations et votre forfait. Touchez un aquarium dans la liste pour ouvrir tout ce qui lui appartient, comme ses seuils d’alerte, l’**Association des paramètres** et les **Unités**.
+L’onglet **Paramètres** ouvre l’écran **Paramètres**. Vous y gérez votre compte, vos aquariums, vos produits de dosage, Cora Assistant, les notifications, les automatisations et votre forfait. Touchez un aquarium dans la liste pour ouvrir tout ce qui lui appartient, comme ses seuils d’alerte, l’**Association des paramètres** et les **Unités**.
 
-Plus de détails dans [Réglages de Cora Mobile](/help/mobile-settings).
+Plus de détails dans [Paramètres de Cora Mobile](/help/mobile-settings).
 
 ## La visite du premier lancement {#the-first-run-tour}
 
 La première fois que vous ouvrez le tableau de bord, Cora vous montre les parties de l’écran une par une : les widgets, **Modifier le tableau de bord**, l’appui long sur un widget pour régler sa plage d’alerte, **Enregistrer les paramètres**, les raccourcis vers vos suivis, et les onglets **Appareils**, **Assistant** et **Intelligence**. Elle ne le fait qu’une fois.
 
-Pour la revoir, allez dans **Réglages → À propos → Revoir les conseils**. La visite repart de zéro et vous emmène au tableau de bord pour commencer. C’est pratique après une mise à jour, ou quand vous prêtez votre téléphone à quelqu’un.
+Pour la revoir, allez dans **Paramètres → À propos → Revoir les conseils**. La visite repart de zéro et vous emmène au tableau de bord pour commencer. C’est pratique après une mise à jour, ou quand vous prêtez votre téléphone à quelqu’un.
 
 ## Deux commandes hors des onglets {#two-controls-outside-the-tabs}
 

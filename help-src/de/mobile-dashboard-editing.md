@@ -2,7 +2,7 @@
 title: Dein Dashboard bearbeiten
 description: Widgets auf deinem Handy-Dashboard hinzufügen, verschieben, in der Größe ändern und entfernen, die Spaltenzahl festlegen und ein Cora Max-Dashboard vom Handy aus bearbeiten.
 section: Cora Mobile
-reviewed: 2026-10-17
+reviewed: 2026-10-18
 order: 8
 group: Your dashboard
 twin: max-dashboard-editing
@@ -33,7 +33,7 @@ Wähl oben im Editor neben **SPALTEN** **2**, **3** oder **4**. Das Raster wäch
 ## Ein Widget hinzufügen {#adding-a-widget}
 
 1. Tippe unter dem Raster auf **Kachel hinzufügen** oder auf eine leere Zelle.
-2. Wähl unter **Kachel hinzufügen**, welche Art es ist. **Wasserwert** umfasst einen Wert, eine Anzeige, ein Diagramm oder einen Status für einen Wasserwert. **Steckdose** steuert eine Apex-Steckdose. Die anderen Zeilen sind für Ausrüstung, etwa **ReefBeat**, **Trident**, **DŌS** oder **Jecod**. Die meisten erscheinen nur, wenn das Becken diese Ausrüstung hat.
+2. Wähl unter **Kachel hinzufügen**, welche Art es ist. **Wasserwert** umfasst einen Wert, eine Anzeige, ein Diagramm oder einen Status für einen Wasserwert. **Steckdose** steuert eine Apex-Steckdose. Die anderen Zeilen sind für Ausrüstung, etwa **ReefBeat**, **Trident**, **DŌS** oder **Jecod**. Die meisten erscheinen nur, wenn das Becken diese Ausrüstung hat. **Licht**, **Strömungspumpe** und **Pumpe** listen alle Leuchten, Strömungspumpen und Pumpen des Beckens auf, egal von welcher Marke, und jede erscheint nur, wenn das Becken so ein Gerät hat. **ReefBeat** und **Jecod** behalten die übrigen Geräte, etwa eine ReefDose oder eine Jecod-Dosierpumpe.
 3. Wähl den Wasserwert, die Steckdose oder das Gerät.
 4. Bei einem Wasserwert wählst du den Typ. Die [Widget-Referenz](/help/mobile-widgets) beschreibt jeden.
 
@@ -58,7 +58,7 @@ Tippe im Editor auf ein Widget, um seine Einstellungen zu öffnen. Je nach Widge
 | **Typ** | Wasserwert-Widgets: Wert, Anzeige, Diagramm oder Status |
 | **Wasserwert** | Wasserwert-Widgets: welchen Wasserwert es zeigt |
 | Die Steckdose oder das Gerät | Steckdosen- und Ausrüstungskacheln: welche oder welches sie zeigen |
-| **Restmenge anzeigen als** | Dosierer-Kacheln: **Tage** oder **Milliliter (mL)** |
+| **Restmenge anzeigen als** | Dosierpumpen-Kacheln: **Tage** oder **Milliliter (mL)** |
 | **Breite** | Jedes Widget: **1×** oder **2×**. Ein Diagramm ist immer mindestens 2 breit |
 | **Höhe** | Jedes Widget: **1×** oder **2×** |
 | **Zeitraum** | Diagramm: 1h, 6h, 24h, 7d, 30d oder 1y |

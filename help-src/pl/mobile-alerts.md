@@ -2,7 +2,7 @@
 title: Alerty i progi
 description: Ustaw prawidłowy zakres dla każdego odczytu, wybierz, jak często alert może Cię powiadamiać, i sprawdź, dlaczego urządzenie „przestało raportować”.
 section: Cora Mobile
-reviewed: 2026-10-17
+reviewed: 2026-10-18
 order: 22
 group: Alerts and automation
 twin: max-alerts
@@ -93,7 +93,7 @@ AquaWiz KH Controller czytany co godzinę przez Twój Cora Max wywołuje ten sam
 - jego sonda pH uległa awarii albo kończy żywotność;
 - poziom w jego zbiorniku na wodę przez ponad godzinę pozostaje niski lub wysoki.
 
-Potrzebny jest do tego godzinowy odczyt z Cora Max (od następnej aktualizacji Cora Max) (zobacz [Sterowanie sprzętem z Cora Max](/help/max-device-control#aquawiz-hourly)): odczyt z chmury AquaWiz co 12 godzin ich nie niesie.
+Potrzebny jest do tego godzinowy odczyt z Cora Max (zobacz [Sterowanie sprzętem z Cora Max](/help/max-device-control#aquawiz-hourly)): odczyt z chmury AquaWiz co 12 godzin ich nie niesie.
 
 
 ## Urządzenie przestało raportować {#stopped-reporting}

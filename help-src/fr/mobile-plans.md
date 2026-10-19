@@ -69,11 +69,11 @@ Le **forfait Expert** est un abonnement. **Cora Max** est l’écran installé p
 
 ### Quels aquariums ont l’IA {#which-tanks-get-ai}
 
-Reef Buddy et la surveillance par l’IA couvrent autant d’aquariums que votre forfait le permet, comptés à partir du haut de **Réglages → Réorganiser les aquariums**. Pour inclure un aquarium, remontez-le dans la liste. Les aquariums supprimés ne prennent pas de place.
+Reef Buddy et la surveillance par l’IA couvrent autant d’aquariums que votre forfait le permet, comptés à partir du haut de **Paramètres → Réorganiser les aquariums**. Pour inclure un aquarium, remontez-le dans la liste. Les aquariums supprimés ne prennent pas de place.
 
 ## S’abonner ou passer à un forfait supérieur {#subscribing}
 
-1. Ouvrez **Réglages** et touchez la carte du compte en haut. **Compte et abonnement** s’ouvre.
+1. Ouvrez **Paramètres** et touchez la carte du compte en haut. **Compte et abonnement** s’ouvre.
 2. À côté de votre forfait, touchez **Voir les forfaits** (en Free ou pendant l’essai), **Passer à un forfait supérieur** (en Essential) ou **Passer à Expert** (en Advanced).
 3. Choisissez **Mensuel** ou **Annuel**. Le prix annuel indique combien vous économisez.
 4. Choisissez un forfait et touchez **S’abonner**.
@@ -99,7 +99,7 @@ Le même choix de forfait s’ouvre aussi quand vous atteignez une limite, par e
 
 ![Utilisation et limites dans Cora Mobile](img/mobile-usage.webp "Chaque fonction décomptée face à son quota mensuel.")
 
-**Réglages → Cora Assistant → Utilisation et limites** affiche chaque fonction décomptée à côté de son quota mensuel, sur un seul écran. Cela concerne les messages à l’Assistant, les analyses ICP et les rapports de santé.
+**Paramètres → Cora Assistant → Utilisation et limites** affiche chaque fonction décomptée à côté de son quota mensuel, sur un seul écran. Cela concerne les messages à l’Assistant, les analyses ICP et les rapports de santé.
 
 Vous voyez aussi la consommation là où vous utilisez chaque fonction.
 
@@ -116,11 +116,11 @@ Pour monter en gamme, utilisez **Passer à un forfait supérieur** ou **Passer �
 
 Vous résiliez auprès de la boutique où vous avez payé. Vous ne pouvez pas résilier dans Cora. Votre forfait court jusqu’à la fin de la période payée, puis repasse en Free.
 
-Le plus rapide est **Réglages → carte de votre compte → Gérer l’abonnement**. Si vous avez acheté le forfait sur l’autre type de téléphone, Cora le dit (*Acheté sur l'App Store* ou *Acheté sur Google Play*) et **Continuer** ouvre la page de cette boutique.
+Le plus rapide est **Paramètres → carte de votre compte → Gérer l’abonnement**. Si vous avez acheté le forfait sur l’autre type de téléphone, Cora le dit (*Acheté sur l'App Store* ou *Acheté sur Google Play*) et **Continuer** ouvre la page de cette boutique.
 
 Si **Gérer l’abonnement** n’apparaît pas, passez directement par la boutique.
 
-- **iPhone :** ouvrez l’application **Réglages**, touchez votre nom, puis **Abonnements**. Choisissez Cora et touchez **Annuler l’abonnement**.
+- **iPhone :** ouvrez l’application **Paramètres**, touchez votre nom, puis **Abonnements**. Choisissez Cora et touchez **Annuler l’abonnement**.
 - **Android :** ouvrez **Google Play**, touchez votre photo de profil, puis **Paiements et abonnements → Abonnements**. Choisissez Cora et touchez **Résilier l’abonnement**.
 
 :::note Résilier ne supprime rien
@@ -139,6 +139,6 @@ Un achat met parfois un moment à arriver dans Cora Mobile. Si cela fait quelque
 2. Vérifiez que vous êtes connecté au même compte que celui qui a fait l’achat.
 3. Vérifiez que le compte de la boutique sur votre téléphone est celui avec lequel vous avez acheté.
 
-Si ce n’est toujours pas là, touchez **Restaurer les achats**. Si les Réglages indiquent *Impossible de vérifier votre forfait*, vérifiez votre connexion et touchez **Réessayer**. Votre accès ne change pas pendant que Cora vérifie. Si rien de tout cela ne marche, écrivez à **[cora@coraiq.tech](mailto:cora@coraiq.tech)** en indiquant la date de l’achat.
+Si ce n’est toujours pas là, touchez **Restaurer les achats**. Si les Paramètres indiquent *Impossible de vérifier votre forfait*, vérifiez votre connexion et touchez **Réessayer**. Votre accès ne change pas pendant que Cora vérifie. Si rien de tout cela ne marche, écrivez à **[cora@coraiq.tech](mailto:cora@coraiq.tech)** en indiquant la date de l’achat.
 
 Vos données restent à vous quel que soit votre forfait. Plus de détails dans [Exporter vos données et supprimer votre compte](/help/mobile-data-export). Pour signaler un problème de facturation depuis Cora Mobile, voir [Signaler un problème](/help/mobile-support).

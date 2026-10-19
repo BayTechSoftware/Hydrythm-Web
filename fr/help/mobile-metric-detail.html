@@ -120,7 +120,7 @@
 </ul></details>
 <details class="nav-g">
 <summary>Paramètres et compte</summary><ul>
-<li><a href="/fr/help/mobile-settings">Réglages de Cora Mobile</a></li>
+<li><a href="/fr/help/mobile-settings">Paramètres de Cora Mobile</a></li>
 <li><a href="/fr/help/mobile-multi-device">Plus d’un appareil Cora</a></li>
 <li><a href="/fr/help/mobile-plans">Forfaits et abonnements</a></li>
 <li><a href="/fr/help/mobile-data-export">Exporter vos données et supprimer votre compte</a></li>
@@ -160,7 +160,7 @@
 </ul></details>
 <details class="nav-g">
 <summary>Paramètres et compte</summary><ul>
-<li><a href="/fr/help/max-settings">Réglages de Cora Max</a></li>
+<li><a href="/fr/help/max-settings">Paramètres de Cora Max</a></li>
 <li><a href="/fr/help/max-updates">Mises à jour et récupération</a></li>
 </ul></details>
     </nav>
@@ -191,7 +191,7 @@
 <p>Si une sonde et vos tests notés à la main restent écartés du même écart, la sonde a en général besoin d’être étalonnée.</p>
 <p>Un <a href="/fr/help/mobile-icp-health">résultat ICP</a> est un troisième avis utile, mais il ne tranche pas la question. Les laboratoires diffèrent entre eux, et la façon dont l’échantillon a été manipulé, conservé et expédié change le résultat. Considérez un ICP comme un indice. Deux tests concordants valent bien plus qu’un seul.</p>
 <h2 id="choosing-which-source-a-widget-trusts">Choisir la source que suit une mesure</h2>
-<p>La source se règle par aquarium et par paramètre, pas par widget. Allez dans <strong>Réglages</strong>, touchez l’aquarium, touchez <strong>Association des paramètres</strong>, puis l’onglet <strong>Sources</strong>. Choisissez une sonde, ou <strong>Automatique (la mesure la plus récente l’emporte)</strong>. Le choix s’applique à ce paramètre partout pour l’aquarium. Plus de détails dans <a href="/fr/help/mobile-probes">Association des paramètres</a>.</p>
+<p>La source se règle par aquarium et par paramètre, pas par widget. Allez dans <strong>Paramètres</strong>, touchez l’aquarium, touchez <strong>Association des paramètres</strong>, puis l’onglet <strong>Sources</strong>. Choisissez une sonde, ou <strong>Automatique (la mesure la plus récente l’emporte)</strong>. Le choix s’applique à ce paramètre partout pour l’aquarium. Plus de détails dans <a href="/fr/help/mobile-probes">Association des paramètres</a>.</p>
 <h2 id="excluding-a-bad-reading">Exclure une mesure erronée</h2>
 <p>Une sonde a peut-être fait un pic, vous avez mal lu un test, ou vous avez prélevé l’échantillon en plein changement d’eau. Une seule mesure fausse fausse le graphique, les moyennes et tout ce qui en est calculé.</p>
 <figure class="shot phone"><button type="button" class="zoom" aria-label="Agrandir : La liste des mesures de pH dans Cora Mobile"><img src="/help/img/mobile-readings.webp" alt="La liste des mesures de pH dans Cora Mobile" width="620" height="1347" loading="lazy" decoding="async"></button><figcaption>Chaque mesure derrière la courbe, avec son heure et sa source. Touchez-en une pour l’exclure.</figcaption></figure>
@@ -204,7 +204,7 @@
 <p>Vous notez les mesures depuis le tableau de bord, pas depuis cet écran. Touchez <strong>Enregistrer les paramètres</strong> sous les widgets et saisissez ce qu’indique votre kit de test. La liste est groupée, et le groupe <strong>Oligoéléments</strong> couvre l’iode, le fer et le cuivre en µg/L, et le potassium en mg/L. Les mesures notées à la main comptent autant que les autres. Elles ont leur propre source et leur propre heure, s’affichent sur le graphique et alimentent Reef Buddy. C’est aussi à elles que Cora compare votre équipement.</p>
 <aside class="cal cal-note"><p class="cal-t">Cora revérifie les saisies qui semblent bizarres</p><p>Si une valeur est loin de là où se trouvait l’aquarium, Cora vous demande de la confirmer avant de l’enregistrer. Cela attrape une virgule mal placée, ou une mesure saisie sous le mauvais paramètre. Une fois confirmée, la mesure est enregistrée comme d’habitude.</p></aside>
       <nav class="pn" aria-label="Poursuivre la lecture"><a class="pn-p" href="/fr/help/mobile-dashboard"><span>Précédent</span><b>Lire votre tableau de bord</b></a><a class="pn-n" href="/fr/help/mobile-dashboard-editing"><span>Suivant</span><b>Modifier votre tableau de bord</b></a></nav>
-      <p class="stamp">Rédigé pour Cora Max 0.28.217 et Cora Mobile 0.5.125. Vérifié pour la dernière fois le 2026-10-17.</p>
+      <p class="stamp">Rédigé pour Cora Max 0.28.219 et Cora Mobile 1.4.1. Vérifié pour la dernière fois le 2026-10-17.</p>
       <p class="ask">Toujours bloqué ? Écrivez à <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, nous vous aiderons.</p>
     </article>
   </main>
@@ -595,7 +595,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/fr/help/search.json?v=1dc5ffe8af').then(function (r) { return r.json(); })
+    fetch('/fr/help/search.json?v=f7254a1ed6').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "fr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La recherche est indisponible. Utilisez la navigation." + '</li>';

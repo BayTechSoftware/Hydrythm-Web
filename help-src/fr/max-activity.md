@@ -10,7 +10,7 @@ twin: mobile-activity
 
 L’activité est le journal de chaque tentative de changer quelque chose sur votre équipement, et de ce qu’elle est devenue. C’est le même journal que celui de votre téléphone. Regardez ici en premier quand quelque chose que vous avez demandé ne semble pas avoir eu lieu.
 
-Ouvrez-la depuis le **menu de l’aquarium** (touchez le nom de l’aquarium dans la barre du haut), ou allez dans **Réglages → [votre aquarium] → Activité**.
+Ouvrez-la depuis le **menu de l’aquarium** (touchez le nom de l’aquarium dans la barre du haut), ou allez dans **Paramètres → [votre aquarium] → Activité**.
 
 ![Le journal d’activité sur Cora Max](img/max-activity.webp "La légende en haut explique chaque résultat.")
 

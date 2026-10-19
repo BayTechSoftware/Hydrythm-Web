@@ -2,7 +2,7 @@
 title: Editing your dashboard
 description: Add, move, resize and remove widgets on your phone dashboard, set the column count, and edit a Cora Max dashboard from your phone.
 section: Cora Mobile
-reviewed: 2026-10-17
+reviewed: 2026-10-18
 order: 8
 group: Your dashboard
 twin: max-dashboard-editing
@@ -33,7 +33,7 @@ Pick **2**, **3** or **4** next to **COLUMNS** at the top of the editor. The gri
 ## Adding a widget {#adding-a-widget}
 
 1. Tap **Add tile** under the grid, or tap an empty cell.
-2. In **Add a tile**, pick what kind it is. **Metric** covers a value, gauge, graph or status for a parameter. **Outlet** controls an Apex outlet. The other rows are for equipment, such as **ReefBeat**, **Trident**, **DŌS** or **Jecod**. Most of them only appear when the tank has that equipment.
+2. In **Add a tile**, pick what kind it is. **Metric** covers a value, gauge, graph or status for a parameter. **Outlet** controls an Apex outlet. The other rows are for equipment, such as **ReefBeat**, **Trident**, **DŌS** or **Jecod**. Most of them only appear when the tank has that equipment. **Light**, **Wavemaker** and **Pump** list every light, wavemaker or pump on the tank, whatever the brand, and each appears only when the tank has one. **ReefBeat** and **Jecod** keep the rest of their devices, such as a ReefDose or a Jecod doser.
 3. Pick the parameter, outlet or device.
 4. For a metric, pick the type. The [Widget reference](/help/mobile-widgets) describes each one.
 

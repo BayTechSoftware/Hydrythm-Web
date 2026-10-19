@@ -59,7 +59,7 @@ Un [résultat ICP](/help/mobile-icp-health) est un troisième avis utile, mais i
 
 ## Choisir la source que suit une mesure {#choosing-which-source-a-widget-trusts}
 
-La source se règle par aquarium et par paramètre, pas par widget. Allez dans **Réglages**, touchez l’aquarium, touchez **Association des paramètres**, puis l’onglet **Sources**. Choisissez une sonde, ou **Automatique (la mesure la plus récente l’emporte)**. Le choix s’applique à ce paramètre partout pour l’aquarium. Plus de détails dans [Association des paramètres](/help/mobile-probes).
+La source se règle par aquarium et par paramètre, pas par widget. Allez dans **Paramètres**, touchez l’aquarium, touchez **Association des paramètres**, puis l’onglet **Sources**. Choisissez une sonde, ou **Automatique (la mesure la plus récente l’emporte)**. Le choix s’applique à ce paramètre partout pour l’aquarium. Plus de détails dans [Association des paramètres](/help/mobile-probes).
 
 ## Exclure une mesure erronée {#excluding-a-bad-reading}
 

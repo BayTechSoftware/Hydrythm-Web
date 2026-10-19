@@ -171,14 +171,14 @@
       <nav class="crumbs" aria-label="Percorso di navigazione"><ol><li><a href="/it/help/">Aiuto</a></li><li><a href="/it/help/mobile-setup" lang="en">Cora Mobile</a></li><li><a href="/it/help/mobile-reef-buddy">Intelligenza</a></li></ol></nav>
       <h1>Percorsi guidati</h1>
       
-      <nav class="toc" aria-label="In questa pagina"><p>In questa pagina</p><ul><li><a href="#avviare-il-percorso-di-maturazione">Avviare il percorso di maturazione</a></li><li><a href="#la-maturazione-di-una-nuova-vasca">La maturazione di una nuova vasca</a></li><li><a href="#quando-il-ciclo-e-finito">Quando il ciclo è finito</a></li><li><a href="#affrontare-un-problema">Affrontare un problema</a></li><li><a href="#ignorare-un-percorso">Ignorare un percorso</a></li></ul></nav>
+      <nav class="toc" aria-label="In questa pagina"><p>In questa pagina</p><ul><li><a href="#avviare-il-percorso-di-maturazione">Avviare il percorso di maturazione</a></li><li><a href="#cycling-a-new-tank">La maturazione di una nuova vasca</a></li><li><a href="#quando-il-ciclo-e-finito">Quando il ciclo è finito</a></li><li><a href="#affrontare-un-problema">Affrontare un problema</a></li><li><a href="#ignorare-un-percorso">Ignorare un percorso</a></li></ul></nav>
 <p>In un percorso Cora ti accompagna in qualcosa che dura giorni o settimane. Ci sono due tipi di percorso e funzionano in modo diverso: la <strong>maturazione</strong> di una nuova vasca e la gestione di un <strong>problema</strong>.</p>
 <h2 id="avviare-il-percorso-di-maturazione">Avviare il percorso di maturazione</h2>
 <p>La maturazione guidata è gratuito con tutti i piani. Lo avvii dalla dashboard della vasca.</p>
 <ol><li>Apri la nuova vasca nella scheda <strong>Dashboard</strong>. Una scheda chiede <strong>Stai avviando una nuova vasca?</strong></li><li>Toccala. La prima volta Cora spiega la <strong>Maturazione guidata</strong>: mentre la vasca fa il ciclo, la dashboard si concentra su ammoniaca, nitriti e nitrati e mette in pausa i normali controlli da reef, che non servono ancora.</li><li>Tocca <strong>Capito: avvia la maturazione</strong>. Si apre il percorso.</li></ol>
 <aside class="cal cal-warning"><p class="cal-t">Avvialo prima di registrare qualcosa o collegare attrezzatura</p><p>La scheda <strong>Stai avviando una nuova vasca?</strong> compare solo su una vasca senza nessuna lettura. Appena registri un test o colleghi un dispositivo che invia letture, la scheda sparisce, e non c'è un altro modo per avviare il percorso di maturazione. Se la vasca sta ancora facendo il ciclo, avvia prima il percorso, poi registra il primo test dall'interno del percorso.</p></aside>
 <p>Quando è in corso, la scheda sulla dashboard dice <strong>Continua la maturazione · Giorno N</strong>. Toccala per tornare al percorso. Se dice <strong>Riprendi la maturazione</strong>, la vasca è ancora impostata per la maturazione: toccala per riaprire la guida.</p>
-<h2 id="la-maturazione-di-una-nuova-vasca">La maturazione di una nuova vasca</h2>
+<h2 id="cycling-a-new-tank">La maturazione di una nuova vasca</h2>
 <p>Serve per una vasca non ancora pronta per gli animali. Durante il ciclo crescono i batteri che trasformano l'ammoniaca, che è tossica, in nitrati innocui, e il percorso segue il processo fino alla fine.</p>
 <figure class="shot phone"><button type="button" class="zoom" aria-label="Ingrandisci: Un percorso di maturazione in corso"><img src="/help/img/mobile-journeys.webp" alt="Un percorso di maturazione in corso" width="620" height="1347" loading="lazy" decoding="async"></button><figcaption>La fase, i tre numeri che la definiscono e da quanto tempo non fai un test.</figcaption></figure>
 <p>La schermata del percorso, <strong>Nuova vasca: maturazione</strong>, ha <strong>La tua lista di controllo per la configurazione</strong>, con i passi per preparare la vasca e inocularla, e per ognuno un breve perché e come. Spuntali man mano.</p>
@@ -206,7 +206,7 @@
 <h2 id="ignorare-un-percorso">Ignorare un percorso</h2>
 <p>Se un percorso per un problema non ti è utile, ignoralo. Non compare più, e Cora registra la tua scelta così ti propone meno spesso percorsi simili.</p>
       <nav class="pn" aria-label="Continua a leggere"><a class="pn-p" href="/it/help/mobile-icp-health"><span>Precedente</span><b>ICP e report di salute</b></a><a class="pn-n" href="/it/help/mobile-settings"><span>Successivo</span><b>Impostazioni di Cora Mobile</b></a></nav>
-      <p class="stamp">Scritto per Cora Max 0.28.217 e Cora Mobile 0.5.125. Ultimo controllo il 2026-10-13.</p>
+      <p class="stamp">Scritto per Cora Max 0.28.219 e Cora Mobile 1.4.1. Ultimo controllo il 2026-10-13.</p>
       <p class="ask">Ancora bloccato? Scrivi a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, ti aiutiamo.</p>
     </article>
   </main>
@@ -597,7 +597,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/it/help/search.json?v=5d2fb8db12').then(function (r) { return r.json(); })
+    fetch('/it/help/search.json?v=e9a867e72b').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "it"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La ricerca non \u00e8 disponibile. Usa la navigazione." + '</li>';

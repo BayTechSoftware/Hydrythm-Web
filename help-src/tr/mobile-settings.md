@@ -21,7 +21,7 @@ En üstteki kart kimin olarak giriş yaptığınızı ve hangi planda olduğunuz
 - **Abonelik**, planınızı ve ne zaman yenileneceğini **Planları gör**, **Yükselt** ya da **Max'e yükselt**, ardından **Aboneliği Yönet** ve **Satın Alımları Geri Yükle** ile birlikte gösterir. Android'de ayrıca **Kodu kullan** vardır. Hepsi [Planlar ve abonelikler](/help/mobile-plans) sayfasında anlatılır.
 - **Çıkış Yap**
 - **Verilerimi Dışa Aktar**, ölçümlerinizi, günlük kayıtlarınızı ve uyarılarınızı dosya olarak verir, her planda ücretsizdir. [Verilerinizi dışa aktarma](/help/mobile-data-export) sayfasına bakın.
-- **Hesabı Sil** kalıcıdır. Kullanmadan önce [Verileriniz ve gizlilik](#verileriniz-ve-gizlilik) bölümündeki iki notu okuyun.
+- **Hesabı Sil** kalıcıdır. Kullanmadan önce [Verileriniz ve gizlilik](#your-data-and-privacy) bölümündeki iki notu okuyun.
 
 ## Cora
 
@@ -34,7 +34,7 @@ En üstteki kart kimin olarak giriş yaptığınızı ve hangi planda olduğunuz
 Bir pompayı açıp kapatan bir kural, siz izlemiyorken de onu açıp kapatır. Kuralları tek tek oluşturun ve bir sonrakini eklemeden önce her birinin beklediğiniz şeyi yaptığını kontrol edin.
 :::
 
-## Akvaryumlar
+## Akvaryumlar {#tanks}
 
 Her akvaryum için bir satır, ardından şunları görürsünüz.
 
@@ -64,13 +64,13 @@ Bir akvaryumu açın, ayarlar sayfası üç bölümden oluşur.
 - **Yardım ve Destek**, destekle iletişime geçtiğiniz, hata bildirdiğiniz ve Cora web sitesini ve SSS'yi bulduğunuz yerdir. Aşağıya bakın.
 - **Hakkında** aşağıda anlatılır.
 
-## Dil
+## Dil {#language}
 
 **Tüm hesap için tek bir dil vardır.** Cihazların her birinin kendi dili yoktur. Telefonunuzda değiştirirseniz evdeki her Cora Max'te de değişir, tersi de geçerlidir. Yeni raporlar, uyarılar ve Reef Buddy özetleri o andan itibaren yeni dili kullanır. Eskiler yazıldıkları dilde kalır. Yeniden çevrilmezler.
 
 Her şey birden beklemediğiniz bir dilde görünüyorsa biri onu değiştirmiştir. Burada, hesaptaki başka bir cihazdan ya da bir Cora Max'teki **Dil** ayarından yapmış olabilir. Her yerde aynı ayardır.
 
-## Cihaz erişimi
+## Cihaz erişimi {#device-access}
 
 **Cihaz erişimi**, telefonunuzun Cora için kendi ayarlarını açar. Cora'nın ekipmanınızı bulmak için ihtiyaç duyduğu şeylere orada izin verirsiniz. Satır bir şeyin kapalı olup olmadığını göstermez. Yalnızca kontrol edebileceğiniz yere götürür.
 
@@ -89,7 +89,7 @@ Bunu yukarıda **Cora** altındaki **Cora Assistant** satırından açarsınız.
 - **Güvenilen laboratuvarlar**, her seferinde sormadan akvaryumlarınıza sonuç gönderebilen laboratuvarları listeler. Bir laboratuvara güvendiğinizde görünür. Ayrıntılar [ICP ve sağlık raporları](/help/mobile-icp-health#trusted-labs) sayfasında.
 - **Kullanım ve Sınırlar**, aylık haklarınızı ve ne kadarını kullandığınızı gösterir.
 
-## Verileriniz ve gizlilik
+## Verileriniz ve gizlilik {#your-data-and-privacy}
 
 Verilerinizle ilgili üç ayar farklı yerlerde durur, bu yüzden gözden kaçmaları kolaydır.
 

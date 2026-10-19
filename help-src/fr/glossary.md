@@ -10,7 +10,7 @@ Les mots que vous rencontrerez dans Cora Mobile et sur Cora Max, dans l’ordre 
 
 ## Langue du compte {#account-language}
 
-La langue unique qu’utilise tout votre compte Cora : anglais, allemand, français, turc, italien, espagnol ou polonais. Elle ne se règle ni par personne ni par appareil. Changez-la dans **Réglages → Langue** sur votre téléphone ou sur n’importe quel Cora Max, et chaque appareil suit en quelques instants. Ce qui est déjà écrit reste dans sa langue d’origine. Voir [Réglages de Cora Mobile](/help/mobile-settings).
+La langue unique qu’utilise tout votre compte Cora : anglais, allemand, français, turc, italien, espagnol ou polonais. Elle ne se règle ni par personne ni par appareil. Changez-la dans **Paramètres → Langue** sur votre téléphone ou sur n’importe quel Cora Max, et chaque appareil suit en quelques instants. Ce qui est déjà écrit reste dans sa langue d’origine. Voir [Paramètres de Cora Mobile](/help/mobile-settings).
 
 ## Âge
 
@@ -22,7 +22,7 @@ Cora qui vous dit que quelque chose demande votre attention. En général, c’e
 
 ## Appareil répondant {#answering-device}
 
-L’appareil Cora qui répond quand vous dites "Hey Cora". Vous le choisissez dans **Réglages → Cora Assistant**. Un seul appareil répond à la fois. C’est un réglage différent du [Cora Max principal](#primary-cora-max).
+L’appareil Cora qui répond quand vous dites "Hey Cora". Vous le choisissez dans **Paramètres → Cora Assistant**. Un seul appareil répond à la fois. C’est un réglage différent du [Cora Max principal](#primary-cora-max).
 
 ## AquaWiz
 
@@ -30,7 +30,7 @@ L’AquaWiz KH Controller, un testeur d’alcalinité. Cora le lit par le cloud 
 
 ## Automatisation {#automation}
 
-Une règle qui s’exécute toute seule, comme « si la température dépasse 27, allume le ventilateur ». Chaque règle a un [déclencheur](#trigger), des [conditions](#condition) facultatives et une ou plusieurs actions. Vous les trouvez dans Cora Mobile sous **Réglages → Automatisations**. Voir [Automatisations et scènes](/help/mobile-automation).
+Une règle qui s’exécute toute seule, comme « si la température dépasse 27, allume le ventilateur ». Chaque règle a un [déclencheur](#trigger), des [conditions](#condition) facultatives et une ou plusieurs actions. Vous les trouvez dans Cora Mobile sous **Paramètres → Automatisations**. Voir [Automatisations et scènes](/help/mobile-automation).
 
 
 ## Étalonnage {#calibration}
@@ -39,7 +39,7 @@ Ajuster une sonde pour que ses mesures correspondent à une référence connue, 
 
 ## Verrouillage enfant {#child-lock}
 
-Un réglage de Cora Max qui empêche quiconque de commander l’équipement depuis cet écran, au toucher comme à la voix, après un certain temps sans contact. Les mesures et les questions fonctionnent toujours. Voir [Réglages de Cora Max](/help/max-settings#child-lock).
+Un réglage de Cora Max qui empêche quiconque de commander l’équipement depuis cet écran, au toucher comme à la voix, après un certain temps sans contact. Les mesures et les questions fonctionnent toujours. Voir [Paramètres de Cora Max](/help/max-settings#child-lock).
 
 ## Résultat d’une commande {#command-outcome}
 
@@ -139,7 +139,7 @@ L’endroit où vous dites à Cora ce que mesure chaque sonde d’un contrôleur
 
 ## Cora Max principal {#primary-cora-max}
 
-Le Cora Max qui lit pour vous l’équipement d’un aquarium sur votre réseau. Réglez-le sur un Cora Max, ou sur **Tout appareil actif (automatique)**, où chaque Cora Max en ligne de l’aquarium partage le travail. Il concerne la lecture de l’équipement, pas la voix (pour cela, c’est l’[appareil répondant](#answering-device)). Changez-le dans Cora Mobile : **Réglages**, ouvrez l’aquarium, puis **Cora Max principal**. Voir [Plus d’un appareil Cora](/help/mobile-multi-device).
+Le Cora Max qui lit pour vous l’équipement d’un aquarium sur votre réseau. Réglez-le sur un Cora Max, ou sur **Tout appareil actif (automatique)**, où chaque Cora Max en ligne de l’aquarium partage le travail. Il concerne la lecture de l’équipement, pas la voix (pour cela, c’est l’[appareil répondant](#answering-device)). Changez-le dans Cora Mobile : **Paramètres**, ouvrez l’aquarium, puis **Cora Max principal**. Voir [Plus d’un appareil Cora](/help/mobile-multi-device).
 
 ## Code PIN de récupération {#recovery-pin}
 
@@ -159,7 +159,7 @@ L’écran de Cora Max qui montre tous vos aquariums côte à côte. À l’écr
 
 ## Aquarium supprimé {#removed-tank}
 
-Un aquarium que vous avez retiré. Ses données sont conservées, et vous pouvez le faire revenir depuis **Réglages → Aquariums supprimés**. Voir [Gérer vos aquariums](/help/mobile-tanks). Il n’est jamais affiché, n’envoie ni alertes ni rappels, et ses automatisations s’arrêtent.
+Un aquarium que vous avez retiré. Ses données sont conservées, et vous pouvez le faire revenir depuis **Paramètres → Aquariums supprimés**. Voir [Gérer vos aquariums](/help/mobile-tanks). Il n’est jamais affiché, n’envoie ni alertes ni rappels, et ses automatisations s’arrêtent.
 
 
 ## Design enregistré {#saved-design}

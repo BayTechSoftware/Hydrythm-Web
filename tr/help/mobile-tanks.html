@@ -180,7 +180,7 @@
 <ul><li>Akvaryum için yeni ekipman eklemek üzere <strong>Cihazlar → Cihaz Ekle</strong> yoluna gidin, markayı seçin ve bu akvaryumu seçin. <a href="/tr/help/mobile-connections">Ekipmanınızı bağlama</a> sayfasına bakın.</li><li>Zaten sahip olduğunuz ekipmanı taşımak için cihazı <strong>Cihazlar</strong> sekmesinde açın ve akvaryumunu değiştirin. <a href="/tr/help/mobile-devices">Cihaz ekleme, düzenleme ve kaldırma</a> sayfasına bakın.</li><li>Akvaryumu Cora Max'te göstermek için <strong>Cihazlar</strong>'a gidin, Cora Max'inizi açın ve <strong>Atanmış Akvaryumlar</strong> altında <strong>Akvaryum Ekle</strong>'ye dokunun. Bir Cora Max en fazla 4 akvaryum gösterir.</li></ul>
 <aside class="cal cal-tip"><p class="cal-t">Yeni akvaryum hâlâ döngüde mi?</p><p>Bir test kaydetmeden ya da ekipman bağlamadan önce panosundaki <strong>Yeni bir akvaryum mu kuruyorsunuz?</strong> kartına dokunun. Kart yalnızca hiç ölçümü olmayan bir akvaryumda görünür. Ayrıntılar <a href="/tr/help/mobile-journeys">Rehberli yolculuklar</a> sayfasında.</p></aside>
 <h2 id="switching-between-tanks">Akvaryumlar arasında geçiş</h2>
-<ul><li><strong>Pano</strong>: sola ya da sağa kaydırın. Üstteki noktalar hangi akvaryumda olduğunuzu gösterir.</li><li><strong>Ayarlar</strong>: her akvaryumun kendi satırı vardır. O akvaryumun <strong>Uyarı eşikleri</strong>, <strong>Parametre Eşlemesi</strong> ve <strong>Birimler</strong> gibi ayarlarını açmak için birine dokunun.</li><li><strong>Asistan</strong> ve <strong>Zeka</strong>: akvaryumu ekranın üstünden seçin. <a href="/tr/help/mobile-assistant">Cora'ya sorun</a> sayfasına bakın.</li><li>Bir akvaryumla ilgili bildirim o akvaryumun panosunu açar.</li></ul>
+<ul><li><strong>Pano</strong>: sola ya da sağa kaydırın. Üstteki noktalar hangi akvaryumda olduğunuzu gösterir.</li><li><strong>Ayarlar</strong>: her akvaryumun kendi satırı vardır. O akvaryumun <strong>Uyarı eşikleri</strong>, <strong>Parametre Eşlemesi</strong> ve <strong>Birimler</strong> gibi ayarlarını açmak için birine dokunun.</li><li><strong>Asistan</strong> ve <strong>Zeka</strong>: akvaryumu ekranın üstünden seçin. <a href="/tr/help/mobile-assistant#pick-a-tank-first">Cora'ya sorun</a> sayfasına bakın.</li><li>Bir akvaryumla ilgili bildirim o akvaryumun panosunu açar.</li></ul>
 <p>Cora Max'te Reef Room tüm akvaryumları yan yana gösterir. <a href="/tr/help/max-reef-room">Reef Room</a> sayfasına bakın.</p>
 <h2 id="changing-the-order">Sırayı değiştirme</h2>
 <p><strong>Ayarlar</strong>'a gidin, <strong>Akvaryumları yeniden sırala</strong>'ya dokunun ve akvaryumları istediğiniz sıraya sürükleyin. Bir akvaryumu Ayarlar ekranındaki listede tutamacından da sürükleyebilirsiniz. <strong>Akvaryumları yeniden sırala</strong> ancak iki ya da daha fazla akvaryumunuz olduğunda çalışır.</p>
@@ -199,7 +199,7 @@
 <p><strong>Ayarlar</strong>'a gidin ve <strong>Kaldırılan akvaryumlar</strong>'a dokunun. Bu satır yalnızca kaldırılmış bir akvaryumunuz olduğunda görünür. Akvaryumun yanındaki <strong>Geri Yükle</strong>'ye dokunun. Ölçümleri, günlüğü ve cihazları tam olarak eskisi gibi geri gelir.</p>
 <p>Cora Mobile'da tek bir akvaryumu kalıcı olarak silmenin bir yolu yoktur. Bir akvaryumun verilerini silmenin tek yolu hesabınızı silmektir. <a href="/tr/help/mobile-data-export">Verileriniz</a> sayfasına bakın.</p>
       <nav class="pn" aria-label="Okumaya devam edin"><a class="pn-p" href="/tr/help/mobile-tank-profile"><span>Önceki</span><b>Akvaryum profiliniz</b></a><a class="pn-n" href="/tr/help/mobile-account"><span>Sonraki</span><b>Giriş yapma ve hesap kurtarma</b></a></nav>
-      <p class="stamp">Cora Max 0.28.217 ve Cora Mobile 0.5.125 için yazılmıştır. Son kontrol: 2026-10-18.</p>
+      <p class="stamp">Cora Max 0.28.219 ve Cora Mobile 1.4.1 için yazılmıştır. Son kontrol: 2026-10-18.</p>
       <p class="ask">Sorun devam ediyor mu? <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> adresine yazın, yardımcı olalım.</p>
     </article>
   </main>
@@ -590,7 +590,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/tr/help/search.json?v=32184d0520').then(function (r) { return r.json(); })
+    fetch('/tr/help/search.json?v=f1ddfa4ac9').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "tr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Arama \u015fu anda kullan\u0131lam\u0131yor. Men\u00fcy\u00fc kullan\u0131n." + '</li>';

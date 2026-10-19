@@ -38,7 +38,7 @@ Ogni dispositivo nell'elenco mostra la sua frase di attivazione e se è online. 
 Il telefono non ascolta una frase di attivazione. Sul telefono avvii una conversazione con un tocco, e questo funziona sempre, qualunque cosa dica questa impostazione. L'elenco mostra solo l'hardware Cora con la voce.
 :::
 
-## Cora Max principale
+## Cora Max principale {#primary-cora-max}
 
 Un Cora Max legge l'attrezzatura sulla tua rete. Se più di uno può raggiungere lo stesso controller, lo leggerebbero tutti in parallelo.
 
@@ -59,7 +59,7 @@ Scegliere un principale alleggerisce il controller ed elimina le letture doppie 
 Il Cora Max principale si imposta per vasca per tutto l'account. Non appartiene al telefono o al Cora Max che hai in mano. Cambialo da un dispositivo qualsiasi e cambia per tutta la casa.
 :::
 
-## Cosa funziona fuori casa
+## Cosa funziona fuori casa {#what-works-away-from-home}
 
 Quando sei lontano dal Wi-Fi della vasca, il telefono non parla direttamente con l'attrezzatura. Un comando va a Cora Cloud, che lo passa a un Cora Max nella vasca. È quel Cora Max a raggiungere l'attrezzatura.
 

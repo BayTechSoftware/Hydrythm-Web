@@ -38,7 +38,7 @@ Every active alert also shows up as a small tag in the top bar, big enough to sp
 
 **Settings → Cora Max Settings → Notification history** is the inbox for your whole account. It holds every briefing, alarm and account notice for your system, including the ones this screen didn't raise and anything your phone missed. When a reading goes out of range and comes back, you see both.
 
-## Editing thresholds
+## Editing thresholds {#editing-thresholds}
 
 ![A tank's settings on Cora Max, with Alert thresholds, Units and Primary Cora Max](img/max-tank-settings.webp "Alert thresholds and Units first, then the Primary Cora Max for this tank.")
 

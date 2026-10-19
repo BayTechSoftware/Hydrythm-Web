@@ -15,7 +15,7 @@ Nowe wersje pobierają się w tle, gdy tylko się pojawią. Instalują się w **
 
 Nie musisz nic robić, żeby mieć aktualną wersję.
 
-## Sprawdzanie wersji i ustawień aktualizacji
+## Sprawdzanie wersji i ustawień aktualizacji {#checking-the-version-and-update-settings}
 
 ![Sieć i aktualizacje na Cora Max](img/max-updates.webp "Aktualizacja oprogramowania w sekcji SIEĆ I AKTUALIZACJE w Ustawieniach Cora Max.")
 

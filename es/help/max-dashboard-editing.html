@@ -185,7 +185,7 @@
 <h2 id="adding-and-arranging">Añadir y colocar tarjetas</h2>
 <ol><li>Toca una celda vacía (muestra un <strong>+</strong>) para abrir <strong>Añadir widget</strong>.</li><li>En <strong>TIPO</strong>, elige el tipo de tarjeta, y después qué muestra (una lectura, una toma, un dispositivo o una escena).</li><li>En <strong>TAMAÑO</strong>, elige lo grande que es. Una tarjeta puede ocupar una o dos celdas de ancho y una o dos de alto. Un Gráfico también tiene un <strong>RANGO DE TIEMPO</strong>. Una tarjeta de dosificadora tiene <strong>Mostrar lo restante como</strong>, en <strong>Días</strong> o <strong>Mililitros (mL)</strong>.</li><li>Toca <strong>Agregar</strong>.</li></ol>
 <p>Los gestos aparecen arriba en el editor: <strong>toca una tarjeta para editar</strong>, <strong>mantén pulsado para mover</strong> y <strong>✕ para eliminar</strong>. <strong>Vaciar todo</strong> vacía la cuadrícula para que empieces de nuevo.</p>
-<p>Los tipos de tarjeta son Valor, Medidor, Gráfico, Estado, Toma, Escena, ReefBeat, Módulo del Apex y Jecod™. Los encontrarás en la <a href="/es/help/mobile-widgets">Referencia de widgets</a>. La tarjeta <strong>Escena</strong> solo existe en Cora Max. Ejecuta una <a href="/es/help/max-automation">escena</a> con un toque.</p>
+<p>Los tipos de tarjeta son Valor, Medidor, Gráfico, Estado, Toma, Escena, ReefBeat, Módulo del Apex y Jecod™. <strong>Luz</strong>, <strong>Bomba de circulación</strong> y <strong>Bomba</strong> enumeran todas las luces, bombas de circulación y bombas del acuario, sea cual sea la marca, y cada una aparece solo cuando el acuario tiene una. Las encontrarás en la <a href="/es/help/mobile-widgets">Referencia de widgets</a>. La tarjeta <strong>Escena</strong> solo existe en Cora Max. Ejecuta una <a href="/es/help/max-automation">escena</a> con un toque.</p>
 <h2 id="outlets-feed">Tomas y alimentación</h2>
 <p><strong>Tomas y alimentación</strong> en el editor elige qué tomas y ciclos de alimentación aparecen en <strong>Controles</strong>, el cajón que abres deslizando hacia arriba desde la parte de abajo del panel. No añade tarjetas. Si no eliges ninguno, Controles los lista todos. Para poner una toma en la propia cuadrícula, añade una tarjeta <strong>Toma</strong>. Más información en <a href="/es/help/max-controls">Tomas y controles</a>.</p>
 <p>Cuando quitas un dispositivo de un acuario, sus mosaicos salen solos del panel, en tu teléfono y en cada Cora Max de ese acuario. Un mosaico cuyo dispositivo ya no está dice <strong>Este dispositivo ya no está en este acuario</strong> y no abre nada.</p>
@@ -208,7 +208,7 @@
 <h2 id="multiple-tanks">Varios acuarios</h2>
 <p>Cada acuario tiene su propio diseño. Cambia a ese acuario y abre <strong>Diseño del panel</strong> desde su menú del acuario, o usa <strong>Ajustes → [ese acuario] → Diseño del panel</strong>.</p>
       <nav class="pn" aria-label="Seguir leyendo"><a class="pn-p" href="/es/help/max-reef-room"><span>Anterior</span><b>El cuarto de los acuarios</b></a><a class="pn-n" href="/es/help/max-controls"><span>Siguiente</span><b>Tomas y controles</b></a></nav>
-      <p class="stamp">Escrito para Cora Max 0.28.217 y Cora Mobile 0.5.125. Última revisión el 2026-10-17.</p>
+      <p class="stamp">Escrito para Cora Max 0.28.219 y Cora Mobile 1.4.1. Última revisión el 2026-10-18.</p>
       <p class="ask">¿Sigues atascado? Escribe a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> y te ayudamos.</p>
     </article>
   </main>
@@ -599,7 +599,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/es/help/search.json?v=482fde868e').then(function (r) { return r.json(); })
+    fetch('/es/help/search.json?v=ddd1f17113').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "es"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La b\u00fasqueda no est\u00e1 disponible. Usa la navegaci\u00f3n." + '</li>';

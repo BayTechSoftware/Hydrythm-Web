@@ -178,7 +178,7 @@
 <p>In einem Profil steckt viel, deshalb führt dich die <strong>Geführte Einrichtung</strong> Abschnitt für Abschnitt hindurch. Sie öffnet sich über <strong>Mein Becken einrichten, geführt</strong> direkt nach dem Anlegen eines Beckens, über <strong>Einstellungen → dein Becken → Geführte Einrichtung</strong> und über den Profilhinweis auf dem Dashboard.</p>
 <p>Die Abschnitte kommen in dieser Reihenfolge: <strong>Beckenname &amp; -typ</strong>, <strong>Beckenmaße</strong>, <strong>Beleuchtung</strong>, <strong>Dosierung</strong>, <strong>Wassermanagement</strong>, <strong>Besatz</strong>, <strong>Temperaturregelung</strong>, <strong>Strömung &amp; Filterung</strong> und <strong>Schädlinge &amp; Behandlung</strong>. Oben auf dem Bildschirm steht <strong>Schritt 2 von 10</strong> und so weiter.</p>
 <ul><li><strong>Speichern &amp; weiter</strong> speichert den Abschnitt und geht weiter. <strong>Überspringen</strong> geht weiter, ohne ihn zu speichern.</li><li><strong>Später fertigstellen</strong> bringt dich zurück und behält die Antworten, die du bisher gespeichert hast. Öffnest du die geführte Einrichtung wieder, macht sie dort weiter, wo du aufgehört hast.</li><li>Verlässt du einen Abschnitt mit ungespeicherten Änderungen, fragt Cora <strong>Diesen Schritt verlassen?</strong> Tippe auf <strong>Weiter bearbeiten</strong> oder <strong>Verlassen</strong>.</li></ul>
-<p>Hast du sie noch nicht beantwortet, ist die letzte Seite <strong>Cora Assistant &amp; deine Daten</strong>. Schalte <strong>Meine Beckendaten für persönliche Empfehlungen nutzen</strong> ein, wenn die Antworten von Cora Assistant dieses Profil nutzen sollen, und tippe dann auf <strong>Speichern</strong>, oder tippe auf <strong>Später entscheiden</strong>. Du kannst es jederzeit in den Einstellungen ändern. Siehe <a href="/de/help/mobile-assistant">Cora fragen</a>.</p>
+<p>Hast du sie noch nicht beantwortet, ist die letzte Seite <strong>Cora Assistant &amp; deine Daten</strong>. Schalte <strong>Meine Beckendaten für persönliche Empfehlungen nutzen</strong> ein, wenn die Antworten von Cora Assistant dieses Profil nutzen sollen, und tippe dann auf <strong>Speichern</strong>, oder tippe auf <strong>Später entscheiden</strong>. Du kannst es jederzeit in den Einstellungen ändern. Siehe <a href="/de/help/mobile-assistant#consent">Cora fragen</a>.</p>
 <p>Am Ende siehst du <strong>Gut gemacht: Dein Beckenprofil ist eingerichtet</strong>. <strong>Geräte hinzufügen</strong> bringt dich zum Tab <strong>Geräte</strong>, um Ausrüstung für dieses Becken hinzuzufügen, und <strong>Zu meinem Dashboard</strong> bringt dich zurück.</p>
 <aside class="cal cal-note"><p class="cal-t">Jeder Abschnitt verändert, was Cora dir sagen kann</p><p>Je mehr du ausfüllst, desto mehr kann Cora tun. Dosierprodukte lassen den Dosierrechner und die Verbrauchsübersicht funktionieren. Besatz und Beckentyp verändern, woran deine Messwerte gemessen werden. Die Ausrüstung sagt Cora, was du hast. Mit einem dünnen Profil bekommst du allgemeinere Antworten.</p></aside>
 <figure class="shot phone"><button type="button" class="zoom" aria-label="Vergrößern: Der Beckenprofil-Editor"><img src="/help/img/mobile-tank-profile.webp" alt="Der Beckenprofil-Editor" width="620" height="1347" loading="lazy" decoding="async"></button><figcaption>Jeder Abschnitt zeigt, wie weit er ausgefüllt ist. Die Zahl oben zeigt, wie viel Cora über das Becken weiß.</figcaption></figure>
@@ -208,7 +208,7 @@
 <h2 id="removing-a-tank">Ein Becken entfernen</h2>
 <p><strong>Becken entfernen</strong> steht ganz unten im Profil. Es blendet das Becken aus und behält seine Daten, und du kannst es später zurückholen. Lies vorher <a href="/de/help/mobile-tanks#removing-a-tank">Ein Becken entfernen</a>, denn manches läuft weiter.</p>
       <nav class="pn" aria-label="Weiterlesen"><a class="pn-p" href="/de/help/mobile-tour"><span>Zurück</span><b>So findest du dich in Cora Mobile zurecht</b></a><a class="pn-n" href="/de/help/mobile-tanks"><span>Weiter</span><b>Deine Becken verwalten</b></a></nav>
-      <p class="stamp">Geschrieben für Cora Max 0.28.217 und Cora Mobile 0.5.125. Zuletzt geprüft am 2026-10-13.</p>
+      <p class="stamp">Geschrieben für Cora Max 0.28.219 und Cora Mobile 1.4.1. Zuletzt geprüft am 2026-10-13.</p>
       <p class="ask">Kommst du nicht weiter? Schreib eine E-Mail an <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, wir helfen dir.</p>
     </article>
   </main>
@@ -599,7 +599,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/de/help/search.json?v=eaa607bd77').then(function (r) { return r.json(); })
+    fetch('/de/help/search.json?v=2242ca5a10').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "de"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Die Suche ist nicht verf\u00fcgbar. Nutze die Navigation." + '</li>';

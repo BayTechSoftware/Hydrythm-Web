@@ -23,7 +23,7 @@ Oppure tocca l'icona di **Cora Assistant** nella barra in alto. Cora comincia su
 
 ![Cora Assistant in ascolto su Cora Max, con un pulsante Annulla, sopra la dashboard attenuata](img/max-voice-session.webp "Cora Assistant in ascolto, con Annulla sotto.")
 
-## Impostazioni di suono e parola di attivazione
+## Impostazioni di suono e parola di attivazione {#sound-and-wake-word-settings}
 
 ![Gli interruttori Suono degli avvisi, Avvisi parlati e Parola di attivazione nelle Impostazioni Cora Max, con l'interruttore del briefing di Reef Buddy sotto](img/max-voice.webp "Suono degli avvisi, Avvisi parlati e Parola di attivazione, con Reef Buddy sotto.")
 

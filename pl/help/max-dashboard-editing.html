@@ -185,7 +185,7 @@
 <h2 id="adding-and-arranging">Dodawanie i układanie kafelków</h2>
 <ol><li>Dotknij pustej komórki (pokazuje <strong>+</strong>), żeby otworzyć <strong>Dodaj widżet</strong>.</li><li>W <strong>TYP</strong> wybierz rodzaj kafelka, a potem to, co ma pokazywać (odczyt, gniazdo, urządzenie albo scenę).</li><li>W <strong>ROZMIAR</strong> wybierz, jak duży ma być. Kafelek może mieć jedną albo dwie komórki szerokości i jedną albo dwie wysokości. Wykres ma też <strong>ZAKRES CZASU</strong>. Kafelek dozownika ma <strong>Pokaż pozostałe jako</strong>, w <strong>Dni</strong> albo <strong>Mililitry (mL)</strong>.</li><li>Dotknij <strong>Dodaj</strong>.</li></ol>
 <p>Gesty są wymienione u góry edytora: <strong>Dotknij kafelek, aby edytować</strong>, <strong>przytrzymaj, aby przenieść</strong> i <strong>✕, aby usunąć</strong>. <strong>Wyczyść wszystko</strong> opróżnia siatkę, żeby zacząć od nowa.</p>
-<p>Typy kafelków to Wartość, Wskaźnik, Wykres, Stan, Gniazdo, Scena, ReefBeat, Moduł Apex i Jecod™. Znajdziesz je w <a href="/pl/help/mobile-widgets">Rodzajach widżetów</a>. Kafelek <strong>Scena</strong> istnieje tylko na Cora Max. Uruchamia <a href="/pl/help/max-automation">scenę</a> jednym dotknięciem.</p>
+<p>Typy kafelków to Wartość, Wskaźnik, Wykres, Stan, Gniazdo, Scena, ReefBeat, Moduł Apex i Jecod™. <strong>Oświetlenie</strong>, <strong>Pompa cyrkulacyjna</strong> i <strong>Pompa</strong> wymieniają wszystkie lampy, pompy cyrkulacyjne i pompy w akwarium, niezależnie od marki, a każdy wiersz pojawia się tylko wtedy, gdy akwarium ma takie urządzenie. Znajdziesz je w <a href="/pl/help/mobile-widgets">Rodzajach widżetów</a>. Kafelek <strong>Scena</strong> istnieje tylko na Cora Max. Uruchamia <a href="/pl/help/max-automation">scenę</a> jednym dotknięciem.</p>
 <h2 id="outlets-feed">Gniazda i karmienie</h2>
 <p><strong>Gniazda i karmienie</strong> w edytorze wybiera, które gniazda i cykle karmienia pojawią się w <strong>Sterowaniu</strong>, szufladzie wysuwanej z dołu panelu. Nie dodaje kafelków. Jeśli nic nie wybierzesz, Sterowanie wymienia wszystkie. Żeby umieścić gniazdo na samej siatce, dodaj kafelek <strong>Gniazdo</strong>. Więcej w <a href="/pl/help/max-controls">Gniazdach i sterowaniu</a>.</p>
 <p>Gdy usuniesz urządzenie z akwarium, jego kafelki same znikają z panelu, w telefonie i na każdym Cora Max tego akwarium. Kafelek, którego urządzenia już nie ma, pokazuje <strong>To urządzenie nie jest już w tym akwarium</strong> i niczego nie otwiera.</p>
@@ -208,7 +208,7 @@
 <h2 id="multiple-tanks">Kilka akwariów</h2>
 <p>Każde akwarium ma własny układ. Przełącz się na to akwarium i otwórz <strong>Układ panelu</strong> z jego menu akwarium albo użyj <strong>Ustawienia → [to akwarium] → Układ panelu</strong>.</p>
       <nav class="pn" aria-label="Czytaj dalej"><a class="pn-p" href="/pl/help/max-reef-room"><span>Poprzedni</span><b>Reef Room</b></a><a class="pn-n" href="/pl/help/max-controls"><span>Następny</span><b>Gniazda i sterowanie</b></a></nav>
-      <p class="stamp">Napisano dla Cora Max 0.28.217 i Cora Mobile 0.5.125. Ostatnio sprawdzono 2026-10-17.</p>
+      <p class="stamp">Napisano dla Cora Max 0.28.219 i Cora Mobile 1.4.1. Ostatnio sprawdzono 2026-10-18.</p>
       <p class="ask">Wciąż masz problem? Napisz na <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, pomożemy.</p>
     </article>
   </main>
@@ -599,7 +599,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/pl/help/search.json?v=594e6c5535').then(function (r) { return r.json(); })
+    fetch('/pl/help/search.json?v=303849d9da').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "pl"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Wyszukiwanie jest niedost\u0119pne. U\u017cyj menu." + '</li>';

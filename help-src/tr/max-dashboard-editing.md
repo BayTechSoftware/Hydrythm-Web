@@ -2,7 +2,7 @@
 title: Cora Max panosunu düzenleme
 description: Cora Max panosunda kutucuk ekleyin, taşıyın ve kaldırın, bir ızgara seçin, şablonları ya da Yapay zeka ile tasarla'yı kullanın ve düzenleri herhangi bir Cora Max'te yeniden kullanmak üzere kaydedin.
 section: Cora Max
-reviewed: 2026-10-17
+reviewed: 2026-10-18
 order: 4
 group: Your dashboard
 twin: mobile-dashboard-editing
@@ -49,7 +49,7 @@ Izgarayı değiştirdiğinizde Cora kutucukları konumlarına göre atmaz. Hâl�
 
 Hareketler düzenleyicinin üstünde listelenir: **düzenlemek için bir kutucuğa dokunun**, **taşımak için uzun basın** ve **kaldırmak için ✕**. **Tümünü temizle**, baştan başlayabilmeniz için ızgarayı boşaltır.
 
-Kutucuk türleri şunlardır: Değer, Gösterge, Grafik, Durum, Priz, Sahne, ReefBeat, Apex modülü ve Jecod. Onları [Widget rehberi](/help/mobile-widgets) sayfasında bulursunuz. **Sahne** kutucuğu yalnızca Cora Max'te vardır. Tek dokunuşla bir [sahne](/help/max-automation) çalıştırır.
+Kutucuk türleri şunlardır: Değer, Gösterge, Grafik, Durum, Priz, Sahne, ReefBeat, Apex modülü ve Jecod. **Işık**, **Dalga pompası** ve **Pompa**, markası ne olursa olsun akvaryumdaki tüm ışıkları, dalga pompalarını ve pompaları listeler; her biri yalnızca akvaryumda böyle bir cihaz varsa görünür. Kutucukları [Widget rehberi](/help/mobile-widgets) sayfasında bulursunuz. **Sahne** kutucuğu yalnızca Cora Max'te vardır. Tek dokunuşla bir [sahne](/help/max-automation) çalıştırır.
 
 
 ## Prizler ve Besleme {#outlets-feed}

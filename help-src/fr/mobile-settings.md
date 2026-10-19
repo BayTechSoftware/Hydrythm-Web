@@ -1,5 +1,5 @@
 ---
-title: Réglages de Cora Mobile
+title: Paramètres de Cora Mobile
 description: Où tout se trouve dans l’onglet Paramètres de Cora Mobile, de votre compte et votre forfait aux aquariums, à Cora Assistant, à la langue, au mode sombre, aux notifications et à l’assistance.
 section: Cora Mobile
 reviewed: 2026-10-18
@@ -8,7 +8,7 @@ group: Settings and account
 twin: max-settings
 ---
 
-Cette page parcourt l’onglet **Paramètres** (l’écran **Réglages**), dans l’ordre où vous trouvez les choses.
+Cette page parcourt l’onglet **Paramètres**, dans l’ordre où vous trouvez les choses.
 
 ![L’onglet Paramètres dans Cora Mobile](img/mobile-settings.webp "La carte de votre compte en haut, un bandeau Mode vacances quand il est actif, puis le groupe Cora.")
 
@@ -46,7 +46,7 @@ L’ajout, le retrait et la restauration d’aquariums sont expliqués pas à pa
 
 Ouvrez un aquarium : sa page de réglages a trois parties.
 
-- **Réglages** contient **Modifier l’aquarium**, **Association des paramètres**, **Seuils d’alerte**, **Unités**, **Cora Max principal** et **Mode vacances**.
+- **Paramètres** contient **Modifier l’aquarium**, **Association des paramètres**, **Seuils d’alerte**, **Unités**, **Cora Max principal** et **Mode vacances**.
 - **Registres et rapports** contient **Journal**, **Entretien**, **Population**, **Reef Buddy**, **Rapports de santé**, **Rapports ICP**, **Activité** et **Configuration guidée**.
 - **Appareils sur cet aquarium** est une liste en lecture seule.
 
@@ -54,7 +54,7 @@ Ouvrez un aquarium : sa page de réglages a trois parties.
 
 **Mode vacances** est un plan pour la personne qui s’occupe de l’aquarium pendant votre absence. Vous fixez les dates et faites une liste de tâches, avec la fréquence de chacune. Cora en fait une page simple en lecture seule que vous pouvez partager avec votre gardien. Il n’a pas besoin de compte. Plus de détails dans [Partir en vacances](/help/mobile-vacation).
 
-## Réglages de l’application
+## Paramètres de l’application
 
 - **Notifications** décide de ce qui arrive sur votre téléphone. Plus de détails dans [Notifications](/help/mobile-notifications).
 - **Heure du briefing** est l’heure à laquelle arrive votre briefing quotidien Reef Buddy, dans votre fuseau horaire. C’est un seul réglage pour le compte, partagé avec Cora Max. Plus de détails dans [Reef Buddy](/help/mobile-reef-buddy#when-it-arrives).
@@ -107,7 +107,7 @@ Si **Contribuer des données d’aquarium anonymisées** est activé (et il l’
 
 ## Aide et assistance {#getting-help}
 
-**Réglages → Aide et assistance** contient :
+**Paramètres → Aide et assistance** contient :
 
 - **Contacter l’assistance** ouvre un e-mail à notre intention. Nous répondons en général sous un jour.
 - **Signaler un bug / envoyer un retour** envoie un signalement depuis Cora Mobile. Voir [Signaler un problème](/help/mobile-support).

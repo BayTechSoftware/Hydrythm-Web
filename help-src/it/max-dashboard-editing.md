@@ -2,7 +2,7 @@
 title: Modificare la dashboard di Cora Max
 description: Aggiungi, sposta e togli riquadri sulla dashboard di Cora Max, scegli una griglia, usa i modelli o Progetta con l'IA, e salva layout da riusare su qualsiasi Cora Max.
 section: Cora Max
-reviewed: 2026-10-17
+reviewed: 2026-10-18
 order: 4
 group: Your dashboard
 twin: mobile-dashboard-editing
@@ -49,7 +49,7 @@ Quando cambi la griglia, Cora non butta via i riquadri in base alla posizione. I
 
 I gesti sono elencati in alto nell'editor: **tocca un riquadro per modificarlo**, **tieni premuto per spostarlo** e **✕ per rimuoverlo**. **Svuota tutto** svuota la griglia così puoi ricominciare.
 
-I tipi di riquadro sono Valore, Indicatore, Grafico, Stato, Presa, Scena, ReefBeat, Modulo Apex e Jecod. Li trovi nella [Guida ai widget](/help/mobile-widgets). Il riquadro **Scena** esiste solo su Cora Max. Avvia una [scena](/help/max-automation) con un tocco.
+I tipi di riquadro sono Valore, Indicatore, Grafico, Stato, Presa, Scena, ReefBeat, Modulo Apex e Jecod. **Luce**, **Pompa di movimento** e **Pompa** elencano tutte le luci, le pompe di movimento e le pompe della vasca, di qualsiasi marca, e ciascuna compare solo quando la vasca ne ha una. Li trovi nella [Guida ai widget](/help/mobile-widgets). Il riquadro **Scena** esiste solo su Cora Max. Avvia una [scena](/help/max-automation) con un tocco.
 
 
 ## Prese e alimentazione {#outlets-feed}

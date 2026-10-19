@@ -120,7 +120,7 @@
 </ul></details>
 <details class="nav-g">
 <summary>Paramètres et compte</summary><ul>
-<li><a href="/fr/help/mobile-settings">Réglages de Cora Mobile</a></li>
+<li><a href="/fr/help/mobile-settings">Paramètres de Cora Mobile</a></li>
 <li><a href="/fr/help/mobile-multi-device">Plus d’un appareil Cora</a></li>
 <li><a href="/fr/help/mobile-plans">Forfaits et abonnements</a></li>
 <li><a href="/fr/help/mobile-data-export">Exporter vos données et supprimer votre compte</a></li>
@@ -160,7 +160,7 @@
 </ul></details>
 <details class="nav-g">
 <summary>Paramètres et compte</summary><ul>
-<li><a href="/fr/help/max-settings">Réglages de Cora Max</a></li>
+<li><a href="/fr/help/max-settings">Paramètres de Cora Max</a></li>
 <li><a href="/fr/help/max-updates">Mises à jour et récupération</a></li>
 </ul></details>
     </nav>
@@ -192,7 +192,7 @@
 <h2 id="cora-max">Cora Max</h2>
 <ul><li><a href="/fr/help/max-setup">Associer un Cora Max</a></li><li><a href="/fr/help/troubleshooting#pairing-a-cora-max-fails">Réparer un Cora Max qui ne s’associe pas</a></li><li><a href="/fr/help/max-setup#changing-which-tanks-it-shows">Changer les aquariums affichés par un Cora Max</a></li><li><a href="/fr/help/max-tour#switching-tanks">Changer d’aquarium sur Cora Max</a></li><li><a href="/fr/help/max-dashboard-editing">Modifier le tableau de bord Cora Max</a></li><li><a href="/fr/help/mobile-multi-device#cora-assistant-answering-device">Choisir quel appareil répond à "Hey Cora"</a></li><li><a href="/fr/help/mobile-multi-device#primary-cora-max">Choisir quel Cora Max lit l’équipement d’un aquarium</a></li><li><a href="/fr/help/troubleshooting#i-cant-find-where-to-turn-off-the-wake-word-on-cora-max">Désactiver "Hey Cora"</a></li><li><a href="/fr/help/max-settings#child-lock">Verrouiller l’écran contre les enfants</a></li><li><a href="/fr/help/max-records#logging-readings">Noter un test devant l’aquarium</a></li><li><a href="/fr/help/max-setup#moving-it-to-a-different-network">Passer Cora Max sur un nouveau réseau Wi-Fi</a></li><li><a href="/fr/help/max-updates#checking-the-version-and-update-settings">Mettre à jour Cora Max ou vérifier sa version</a></li><li><a href="/fr/help/max-settings#pairing-re-pairing-and-factory-reset">Réinitialiser Cora Max ou l’associer à nouveau</a></li></ul>
       <nav class="pn" aria-label="Poursuivre la lecture"><a class="pn-p" href="/fr/help/troubleshooting"><span>Précédent</span><b>Résolution de problèmes</b></a><a class="pn-n" href="/fr/help/equipment-by-brand"><span>Suivant</span><b>L’équipement par marque</b></a></nav>
-      <p class="stamp">Rédigé pour Cora Max 0.28.217 et Cora Mobile 0.5.125. Vérifié pour la dernière fois le 2026-10-17.</p>
+      <p class="stamp">Rédigé pour Cora Max 0.28.219 et Cora Mobile 1.4.1. Vérifié pour la dernière fois le 2026-10-17.</p>
       <p class="ask">Toujours bloqué ? Écrivez à <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, nous vous aiderons.</p>
     </article>
   </main>
@@ -583,7 +583,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/fr/help/search.json?v=1dc5ffe8af').then(function (r) { return r.json(); })
+    fetch('/fr/help/search.json?v=f7254a1ed6').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "fr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La recherche est indisponible. Utilisez la navigation." + '</li>';

@@ -34,7 +34,7 @@ L’analyse ICP envoie le rapport à l’IA, elle nécessite donc **Autoriser Co
 
 ## Quel e-mail un laboratoire peut utiliser {#which-email-a-lab-can-use}
 
-Un laboratoire ou un résultat envoyé par e-mail retrouve votre compte grâce à l’adresse e-mail qu’il connaît. C’est votre e-mail de connexion, plus tout e-mail de laboratoire que vous ajoutez sous **Réglages → carte de votre compte (Compte et abonnement) → E-mails labo et ICP**.
+Un laboratoire ou un résultat envoyé par e-mail retrouve votre compte grâce à l’adresse e-mail qu’il connaît. C’est votre e-mail de connexion, plus tout e-mail de laboratoire que vous ajoutez sous **Paramètres → carte de votre compte (Compte et abonnement) → E-mails labo et ICP**.
 
 1. Touchez **Ajouter un e-mail de labo** et tapez l’adresse qu’utilise votre laboratoire.
 2. Touchez **Envoyer le code**. Cora envoie un code à 6 chiffres à cette adresse. Il expire au bout de 10 minutes.
@@ -66,7 +66,7 @@ Touchez **Approuver** pour le faire entrer, ou **Refuser** pour le supprimer san
 
 ### Laboratoires de confiance et ce que voient les laboratoires {#trusted-labs}
 
-**Réglages → Cora Assistant → Laboratoires de confiance** liste chaque laboratoire auquel vous avez fait confiance. La liste apparaît dès que vous avez fait confiance à au moins un laboratoire. **Révoquer** retire un laboratoire, et son prochain résultat demandera à nouveau votre approbation.
+**Paramètres → Cora Assistant → Laboratoires de confiance** liste chaque laboratoire auquel vous avez fait confiance. La liste apparaît dès que vous avez fait confiance à au moins un laboratoire. **Révoquer** retire un laboratoire, et son prochain résultat demandera à nouveau votre approbation.
 
 **Partager l’analyse de Cora avec les laboratoires**, sur le même écran, décide de ce que voit un laboratoire après vous avoir envoyé un résultat. Activé, il peut voir les scores et l’analyse écrite de Cora. Désactivé, il voit seulement que le résultat a été livré. C’est désactivé jusqu’à ce que vous l’activiez. Le même interrupteur apparaît aussi sur un rapport envoyé par un laboratoire.
 
@@ -136,4 +136,4 @@ En plus de la limite de votre forfait, Cora accepte jusqu’à 10 imports ICP pa
 
 L’écran Intelligence sépare les deux sortes. Les résultats de laboratoire sont sous **RAPPORTS ICP** et les bilans générés sous **RAPPORTS DE SANTÉ**. Chaque liste affiche les plus récents en premier, avec leur score. Touchez-en un pour le rouvrir en entier.
 
-Vous pouvez aussi y accéder depuis **Réglages** : ouvrez un aquarium, puis **Rapports ICP** ou **Rapports de santé**.
+Vous pouvez aussi y accéder depuis **Paramètres** : ouvrez un aquarium, puis **Rapports ICP** ou **Rapports de santé**.

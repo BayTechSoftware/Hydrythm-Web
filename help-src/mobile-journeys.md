@@ -23,7 +23,7 @@ The **Starting a new tank?** card only shows on a tank with no readings at all. 
 
 Once it's running, the dashboard card reads **Continue cycling · Day N**. Tap it to get back to the journey. If it says **Resume cycling**, the tank is still set up for cycling: tap it to reopen the guide.
 
-## Cycling a new tank
+## Cycling a new tank {#cycling-a-new-tank}
 
 This is for a tank that isn't ready for livestock yet. Cycling grows the bacteria that turn toxic ammonia into safe nitrate, and the journey follows that process to the end.
 

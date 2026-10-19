@@ -2,7 +2,7 @@
 title: Modifier le tableau de bord Cora Max
 description: Ajoutez, déplacez et retirez des tuiles sur le tableau de bord Cora Max, choisissez une grille, utilisez les modèles ou Concevoir avec l’IA, et enregistrez des dispositions à réutiliser sur n’importe quel Cora Max.
 section: Cora Max
-reviewed: 2026-10-17
+reviewed: 2026-10-18
 order: 4
 group: Your dashboard
 twin: mobile-dashboard-editing
@@ -10,7 +10,7 @@ twin: mobile-dashboard-editing
 
 Cette page explique comment disposer les tuiles d’un tableau de bord Cora Max. Il utilise une **grille fixe** : l’affichage ne défile pas, donc toutes les tuiles doivent tenir sur un seul écran. C’est la grande différence avec le tableau de bord du téléphone.
 
-Ouvrez l’éditeur depuis le **menu de l’aquarium** : touchez le nom de l’aquarium dans la barre du haut, puis **Disposition du tableau de bord**. Vous le trouvez aussi dans **Réglages → [votre aquarium] → Disposition du tableau de bord**.
+Ouvrez l’éditeur depuis le **menu de l’aquarium** : touchez le nom de l’aquarium dans la barre du haut, puis **Disposition du tableau de bord**. Vous le trouvez aussi dans **Paramètres → [votre aquarium] → Disposition du tableau de bord**.
 
 ![L’éditeur de tableau de bord sur Cora Max](img/max-dashboard-editor.webp "Les tailles de grille en haut, puis les tuiles. C’est un écran de mise en page, donc chaque tuile montre son type et sa source au lieu d’une mesure. Rien n’est enregistré tant que vous n’appuyez pas sur Enregistrer.")
 
@@ -49,7 +49,7 @@ Quand vous changez de grille, Cora ne jette pas les tuiles selon leur position. 
 
 Les gestes sont rappelés en haut de l’éditeur : **Touchez une tuile pour modifier**, **appui long pour déplacer** et **✕ pour retirer**. **Tout effacer** vide la grille pour repartir de zéro.
 
-Les types de tuiles sont Valeur, Jauge, Graphique, État, Prise, Scène, ReefBeat, Module Apex et Jecod. Vous les trouverez dans la [Référence des widgets](/help/mobile-widgets). La tuile **Scène** n’existe que sur Cora Max. Elle lance une [scène](/help/max-automation) d’un seul appui.
+Les types de tuiles sont Valeur, Jauge, Graphique, État, Prise, Scène, ReefBeat, Module Apex et Jecod. **Éclairage**, **Pompe de brassage** et **Pompe** listent tous les éclairages, pompes de brassage et pompes de l’aquarium, quelle que soit la marque, et chacun n’apparaît que si l’aquarium en a un. Vous trouverez les tuiles dans la [Référence des widgets](/help/mobile-widgets). La tuile **Scène** n’existe que sur Cora Max. Elle lance une [scène](/help/max-automation) d’un seul appui.
 
 
 ## Prises et nourrissage {#outlets-feed}
@@ -99,4 +99,4 @@ Par exemple, vous pouvez garder une disposition dense pour tous les jours et une
 
 ## Plusieurs aquariums {#multiple-tanks}
 
-Chaque aquarium a sa propre disposition. Passez sur cet aquarium et ouvrez **Disposition du tableau de bord** depuis son menu d’aquarium, ou utilisez **Réglages → [cet aquarium] → Disposition du tableau de bord**.
+Chaque aquarium a sa propre disposition. Passez sur cet aquarium et ouvrez **Disposition du tableau de bord** depuis son menu d’aquarium, ou utilisez **Paramètres → [cet aquarium] → Disposition du tableau de bord**.

@@ -67,6 +67,6 @@ Sobald Cora sowohl deine Dosierungen als auch deine Messwerte sieht, kann es aus
 
 ## Dosiertechnik {#dosing-equipment}
 
-Hast du einen verbundenen Dosierer, etwa einen Neptune DŌS oder einen Red Sea ReefDose, erscheinen seine Köpfe mit eigenen Messwerten, auch was jeder Kopf noch übrig hat und was er dosiert hat. Wie du sie betreibst und nachfüllst, steht unter [Deine Ausrüstung steuern](/help/mobile-device-control), und ihre Warnungen für leere Behälter und verpasste Dosierungen stehen unter [Dosierer-Warnungen](/help/mobile-device-control#doser-alerts).
+Hast du eine verbundene Dosierpumpe, etwa einen Neptune DŌS oder einen Red Sea ReefDose, erscheinen ihre Köpfe mit eigenen Messwerten, auch was jeder Kopf noch übrig hat und was er dosiert hat. Wie du sie betreibst und nachfüllst, steht unter [Deine Ausrüstung steuern](/help/mobile-device-control), und ihre Warnungen für leere Behälter und verpasste Dosierungen stehen unter [Dosierpumpen-Warnungen](/help/mobile-device-control#doser-alerts).
 
 Eine Automation kann auch aus einem DŌS-Kopf dosieren, begrenzt auf 10 ml pro Kopf und Tag. Siehe [Automationen und Szenen](/help/mobile-automation#actions).

@@ -120,7 +120,7 @@
 </ul></details>
 <details class="nav-g">
 <summary>Paramètres et compte</summary><ul>
-<li><a href="/fr/help/mobile-settings">Réglages de Cora Mobile</a></li>
+<li><a href="/fr/help/mobile-settings">Paramètres de Cora Mobile</a></li>
 <li><a href="/fr/help/mobile-multi-device">Plus d’un appareil Cora</a></li>
 <li><a href="/fr/help/mobile-plans">Forfaits et abonnements</a></li>
 <li><a href="/fr/help/mobile-data-export">Exporter vos données et supprimer votre compte</a></li>
@@ -160,7 +160,7 @@
 </ul></details>
 <details class="nav-g">
 <summary>Paramètres et compte</summary><ul>
-<li><a href="/fr/help/max-settings">Réglages de Cora Max</a></li>
+<li><a href="/fr/help/max-settings">Paramètres de Cora Max</a></li>
 <li><a href="/fr/help/max-updates">Mises à jour et récupération</a></li>
 </ul></details>
     </nav>
@@ -173,7 +173,7 @@
       <p class="twin">Sur Cora Max : <a href="/fr/help/max-records">Journal, population et entretien</a></p>
       <nav class="toc" aria-label="Sur cette page"><p>Sur cette page</p><ul><li><a href="#summary">Le résumé</a></li><li><a href="#adding-something">Ajouter un habitant</a></li><li><a href="#status">Quand quelque chose change</a></li><li><a href="#livestock-and-cora">La population et le reste de Cora</a></li></ul></nav>
 <p>Population est la liste des coraux, poissons et invertébrés de votre aquarium. Pour chacun, elle garde la date d’ajout et ce qui lui est arrivé depuis.</p>
-<p>Touchez <strong>Population</strong> dans la rangée de boutons sous le tableau de bord. Vous la trouvez aussi dans Réglages → votre aquarium → <strong>Population</strong>.</p>
+<p>Touchez <strong>Population</strong> dans la rangée de boutons sous le tableau de bord. Vous la trouvez aussi dans Paramètres → votre aquarium → <strong>Population</strong>.</p>
 <figure class="shot phone"><button type="button" class="zoom" aria-label="Agrandir : L’inventaire de population"><img src="/help/img/mobile-livestock.webp" alt="L’inventaire de population" width="620" height="1347" loading="lazy" decoding="async"></button><figcaption>Résumé de l’inventaire et pertes récentes, avec les entrées regroupées par type.</figcaption></figure>
 <h2 id="summary">Le résumé</h2>
 <p>En haut, vous voyez le <strong>Résumé de l’inventaire</strong>, avec les totaux de coraux, de poissons et d’invertébrés, et le nombre de pertes notées ces 90 derniers jours.</p>
@@ -193,7 +193,7 @@
 <p>Vous pouvez aussi poser des questions à ce sujet. Cora Assistant répond à des questions comme <em>« Quand ai-je ajouté le corail marteau ? »</em> ou <em>« Qu’ai-je perdu cette année ? »</em> à partir de cette liste.</p>
 <p>Les changements de population apparaissent aussi sur la <a href="/fr/help/mobile-activity#tank-timeline">chronologie de l’aquarium</a>. Racontez l’histoire d’une perte ou d’une nouvelle arrivée dans le <a href="/fr/help/mobile-journal">journal</a>.</p>
       <nav class="pn" aria-label="Poursuivre la lecture"><a class="pn-p" href="/fr/help/mobile-maintenance"><span>Précédent</span><b>Entretien</b></a><a class="pn-n" href="/fr/help/mobile-activity"><span>Suivant</span><b>Activité et chronologie</b></a></nav>
-      <p class="stamp">Rédigé pour Cora Max 0.28.217 et Cora Mobile 0.5.125. Vérifié pour la dernière fois le 2026-10-13.</p>
+      <p class="stamp">Rédigé pour Cora Max 0.28.219 et Cora Mobile 1.4.1. Vérifié pour la dernière fois le 2026-10-13.</p>
       <p class="ask">Toujours bloqué ? Écrivez à <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, nous vous aiderons.</p>
     </article>
   </main>
@@ -584,7 +584,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/fr/help/search.json?v=1dc5ffe8af').then(function (r) { return r.json(); })
+    fetch('/fr/help/search.json?v=f7254a1ed6').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "fr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La recherche est indisponible. Utilisez la navigation." + '</li>';

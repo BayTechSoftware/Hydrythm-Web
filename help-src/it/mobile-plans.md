@@ -32,7 +32,7 @@ Il monitoraggio della vasca è gratuito, senza limiti. I piani a pagamento ti da
 
 Quando una quota finisce, puoi comunque leggere tutto quello che Cora ha già preparato per te.
 
-## La prova
+## La prova {#the-trial}
 
 La tua **prova Advanced di 30 giorni parte quando crei il tuo account**. Non aspetta che tu usi una funzione per la prima volta, e non serve una carta. **Account e abbonamento** la mostra come **Prova Cora Advanced**, con la data in cui finisce.
 
@@ -48,7 +48,7 @@ La prova comprende Reef Buddy e **Progetta con l'IA**. Le sue quote sono più ba
 
 Quando finisce, il tuo account torna a Free. **Non viene eliminato nulla.** Puoi ancora leggere ogni lettura, voce di diario, report e briefing che hai.
 
-## I piani a pagamento
+## I piani a pagamento {#paid-tiers}
 
 Ci sono tre piani, **Essential**, **Advanced** e **Expert**, ciascuno mensile o annuale. Le Impostazioni li mostrano come Cora Essential, Cora Advanced e Cora Expert. I prezzi aggiornati li trovi in Cora Mobile e nel tuo store, perché è lì che paghi.
 
@@ -112,7 +112,7 @@ I conteggi ripartono all'inizio di ogni mese di calendario.
 
 Per salire, usa **Passa a un piano superiore** o **Passa a Expert** come sopra. Per scendere o passare tra mensile e annuale, usa **Gestisci abbonamento**. Le modifiche passano dall'App Store o da Google Play e seguono le stesse regole di qualsiasi altro abbonamento sul telefono, comprese le condizioni di rimborso e disdetta di quello store.
 
-## Annullare
+## Annullare {#cancelling}
 
 Annulli con lo store con cui hai pagato. Non puoi annullare dentro Cora. Il tuo piano resta attivo fino alla fine del periodo pagato, poi torna a Free.
 

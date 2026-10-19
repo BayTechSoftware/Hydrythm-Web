@@ -2,7 +2,7 @@
 title: Tagebuch, Besatz und Wartung
 description: Auf Cora Max einen Test eintragen, einen Tagebucheintrag hinzufügen, eine Fütterung festhalten und Wartung abhaken, und was du weiterhin auf dem Handy machst.
 section: Cora Max
-reviewed: 2026-10-17
+reviewed: 2026-10-18
 order: 10
 group: Records
 twin: mobile-journal
@@ -19,7 +19,7 @@ Cora Max zeigt dieselben Aufzeichnungen wie dein Handy, aber nicht alle kannst d
 
 Alle findest du im **Beckenmenü** (tippe in der oberen Leiste auf den Beckennamen) und unter **Einstellungen → [dein Becken]**. Was du hier hinzufügst, erscheint sofort auf deinem Handy, und umgekehrt.
 
-## Messwerte eintragen
+## Messwerte eintragen {#logging-readings}
 
 Öffne **Werte erfassen**, tippe auf einen Wasserwert, gib den Messwert über die Bildschirmtastatur ein und speichere. Er geht direkt auf das Dashboard und in den Verlauf des Beckens, du kannst einen Test also am Becken festhalten, wo du ihn gemacht hast. Du kannst auch sagen *"Hey Cora, trag Alkalinität 8,1 ein."*
 
@@ -27,7 +27,7 @@ Cora prüft jede Zahl vor dem Speichern. Sieht eine nach Tippfehler aus oder lie
 
 Wird für diesen Wasserwert schon ein neuerer Messwert angezeigt, steht bei deinem Wert **Nur im Verlauf gespeichert**. Er bleibt im Verlauf und in den Diagrammen, und das Dashboard zeigt weiter den neueren.
 
-## Tagebuch
+## Tagebuch {#journal}
 
 Öffne **Tagebuch** im Beckenmenü und tippe auf **Neuer Eintrag**. Gib ihm einen Titel und füg, wenn du willst, eine Beschreibung, Tags oder ein Foto hinzu. **Wasserwerte anhängen** speichert die aktuellen Messwerte mit. Oder sag *"Hey Cora, notier, dass ich Mysis gefüttert habe."* Mehr dazu unter [Das Tagebuch](/help/mobile-journal).
 
@@ -47,7 +47,7 @@ Das Symbol neben dem Gerätesymbol ist **Reef Buddy**, und sein Punkt bedeutet, 
 
 Oben auf dem Bildschirm steht, wie viele Aufgaben fällig sind. Darunter listet **Anstehend** jede Aufgabe mit **HEUTE**, **IN 3T** oder **ÜBERFÄLLIG 2T** auf, und **Erledigt · letzte 7 Tage** zeigt, was du zuletzt gemacht hast.
 
-- Tippe auf **Fertig**, wenn du eine Aufgabe erledigt hast. Ist sie überfällig, fragt Cora **Wann hast du es erledigt?**
+- Tippe auf **Fertig**, wenn du eine Aufgabe erledigt hast. Ist sie überfällig, fragt Cora **Wann hast du es erledigt?** Cora trägt außerdem einen kurzen Eintrag in dein [Tagebuch](/help/max-records#journal) ein und vermerkt, wenn die Aufgabe spät war.
 - Tippe auf **Früher erledigt…**, wenn du es vor heute gemacht hast. Wähle Datum und Uhrzeit, und die nächste Fälligkeit zählt ab dann. Ein Zeitpunkt in der Zukunft oder vor der letzten Erledigung wird nicht angenommen.
 - Tippe auf **Verschieben**, um sie um **1 Tag**, **3 Tage**, **1 Woche**, **2 Wochen** oder **1 Monat** zu verschieben.
 

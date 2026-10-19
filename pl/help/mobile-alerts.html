@@ -207,7 +207,7 @@
 <p>Niektóre alerty dotyczą sprzętu, a nie odczytu. Gdy urządzenie, na przykład Trident albo pompa Jecod™, zgłosi usterkę, Cora wysyła powiadomienie z nazwą akwarium i urządzenia, na przykład <em>„Akwarium główne: Pompa powrotna wymaga uwagi”</em>. Podaje też, co jest nie tak, na przykład zablokowany wirnik. Gdy usterka minie, dostaniesz drugie: <em>„Akwarium główne: Pompa powrotna znów działa poprawnie”</em>. Oba należą do <strong>Awarie sprzętu</strong> w <strong>Ustawienia → Powiadomienia</strong>.</p>
 <p>AquaWiz™ KH Controller czytany co godzinę przez Twój Cora Max wywołuje ten sam rodzaj alertu, gdy:</p>
 <ul><li>jego pompa dozująca zgłasza usterkę;</li><li>jego sonda pH uległa awarii albo kończy żywotność;</li><li>poziom w jego zbiorniku na wodę przez ponad godzinę pozostaje niski lub wysoki.</li></ul>
-<p>Potrzebny jest do tego godzinowy odczyt z Cora Max (od następnej aktualizacji Cora Max) (zobacz <a href="/pl/help/max-device-control#aquawiz-hourly">Sterowanie sprzętem z Cora Max</a>): odczyt z chmury AquaWiz co 12 godzin ich nie niesie.</p>
+<p>Potrzebny jest do tego godzinowy odczyt z Cora Max (zobacz <a href="/pl/help/max-device-control#aquawiz-hourly">Sterowanie sprzętem z Cora Max</a>): odczyt z chmury AquaWiz co 12 godzin ich nie niesie.</p>
 <h2 id="stopped-reporting">Urządzenie przestało raportować</h2>
 <p>Gdy podłączone urządzenie ucichnie, Cora wysyła <em>„[Urządzenie]: przestał raportować”</em>. Nie oznacza to, że urządzenie jest zepsute, tylko że Cora od jakiegoś czasu nic od niego nie dostała. Gdy wróci, dostaniesz drugie powiadomienie, <em>„[Urządzenie]: znów raportuje”</em>.</p>
 <p>Jak długo Cora czeka, zależy od urządzenia:</p>
@@ -235,7 +235,7 @@
 <p>Dopóki reguła jest wyłączona, Cora nie ocenia tego odczytu. Jego widżet zostaje neutralnie szary i nigdy nie wywoła alertu.</p>
 <aside class="cal cal-warning"><p class="cal-t">Wyłącz parametr bez usuwania zakresu</p><p>Usunięcie reguły nie zawsze sprawia, że Cora przestaje oceniać ten odczyt. Domyślne zakresy odniesienia nadal kolorują wartość i mogą trafiać do podsumowania. Użyj przełącznika reguły.</p></aside>
       <nav class="pn" aria-label="Czytaj dalej"><a class="pn-p" href="/pl/help/mobile-consumables"><span>Poprzedni</span><b>Materiały eksploatacyjne i alerty uzupełnienia</b></a><a class="pn-n" href="/pl/help/mobile-notifications"><span>Następny</span><b>Powiadomienia</b></a></nav>
-      <p class="stamp">Napisano dla Cora Max 0.28.217 i Cora Mobile 0.5.125. Ostatnio sprawdzono 2026-10-17.</p>
+      <p class="stamp">Napisano dla Cora Max 0.28.219 i Cora Mobile 1.4.1. Ostatnio sprawdzono 2026-10-18.</p>
       <p class="ask">Wciąż masz problem? Napisz na <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, pomożemy.</p>
     </article>
   </main>
@@ -626,7 +626,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/pl/help/search.json?v=594e6c5535').then(function (r) { return r.json(); })
+    fetch('/pl/help/search.json?v=303849d9da').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "pl"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Wyszukiwanie jest niedost\u0119pne. U\u017cyj menu." + '</li>';

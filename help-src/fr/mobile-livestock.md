@@ -10,7 +10,7 @@ twin: max-records
 
 Population est la liste des coraux, poissons et invertébrés de votre aquarium. Pour chacun, elle garde la date d’ajout et ce qui lui est arrivé depuis.
 
-Touchez **Population** dans la rangée de boutons sous le tableau de bord. Vous la trouvez aussi dans Réglages → votre aquarium → **Population**.
+Touchez **Population** dans la rangée de boutons sous le tableau de bord. Vous la trouvez aussi dans Paramètres → votre aquarium → **Population**.
 
 ![L’inventaire de population](img/mobile-livestock.webp "Résumé de l’inventaire et pertes récentes, avec les entrées regroupées par type.")
 

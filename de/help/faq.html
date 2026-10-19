@@ -193,7 +193,7 @@
 <h3 id="can-two-cora-max-screens-show-the-same-tank">Können zwei Cora Max-Bildschirme dasselbe Becken zeigen?</h3>
 <p>Ja. Füg beide demselben Becken hinzu, dann zeigen sie dieselben Live-Daten. <strong>Primäres Cora Max</strong> entscheidet nur, welches mit der Ausrüstung des Beckens spricht. Mehr dazu unter <a href="/de/help/mobile-multi-device">Mehr als ein Cora-Gerät</a>.</p>
 <h3 id="what-is-primary-cora-max">Was ist "Primäres Cora Max", und muss ich es festlegen?</h3>
-<p>Es entscheidet, welches Cora Max die Ausrüstung eines Beckens abfragt. Die meisten fassen es nie an. Mit einem Cora Max gibt es nichts zu wählen. Die Standardeinstellung <strong>Jedes aktive (automatisch)</strong> lässt alle Cora Max, die online sind, sich die Arbeit teilen. Wähl nur dann ein bestimmtes, wenn ein einziges Gerät das erledigen soll. Mehr dazu unter <a href="/de/help/mobile-multi-device">Mehr als ein Cora-Gerät</a>.</p>
+<p>Es entscheidet, welches Cora Max die Ausrüstung eines Beckens abfragt. Die meisten fassen es nie an. Mit einem Cora Max gibt es nichts zu wählen. Die Standardeinstellung <strong>Jedes aktive (automatisch)</strong> lässt alle Cora Max, die online sind, sich die Arbeit teilen. Wähl nur dann ein bestimmtes, wenn ein einziges Gerät das erledigen soll. Mehr dazu unter <a href="/de/help/mobile-multi-device#primary-cora-max">Mehr als ein Cora-Gerät</a>.</p>
 <h3 id="which-device-answers-hey-cora">Welches Gerät antwortet auf "Hey Cora", wenn ich mehr als ein Cora Max habe?</h3>
 <p>Es antwortet immer nur ein Cora-Gerät. Du wählst es in Cora Mobile unter <strong>Einstellungen → Cora Assistant</strong>. Mit Primäres Cora Max hat das nichts zu tun. Mehr dazu unter <a href="/de/help/max-voice">Mit Cora sprechen</a>.</p>
 <h3 id="why-cant-cora-mobile-find-my-cora-max">Warum findet Cora Mobile mein Cora Max beim Koppeln nicht?</h3>
@@ -279,7 +279,7 @@
 <hr>
 <p>Keine Antwort gefunden? Die <a href="/de/help/troubleshooting">Problembehebung</a> geht Lösungen Symptom für Symptom durch, oder du schreibst eine E-Mail an <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>.</p>
       <nav class="pn" aria-label="Weiterlesen"><a class="pn-p" href="/de/help/equipment-by-brand"><span>Zurück</span><b>Ausrüstung nach Marke</b></a><a class="pn-n" href="/de/help/glossary"><span>Weiter</span><b>Glossar</b></a></nav>
-      <p class="stamp">Geschrieben für Cora Max 0.28.217 und Cora Mobile 0.5.125. Zuletzt geprüft am 2026-10-18.</p>
+      <p class="stamp">Geschrieben für Cora Max 0.28.219 und Cora Mobile 1.4.1. Zuletzt geprüft am 2026-10-18.</p>
       <p class="ask">Kommst du nicht weiter? Schreib eine E-Mail an <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, wir helfen dir.</p>
     </article>
   </main>
@@ -670,7 +670,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/de/help/search.json?v=eaa607bd77').then(function (r) { return r.json(); })
+    fetch('/de/help/search.json?v=2242ca5a10').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "de"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Die Suche ist nicht verf\u00fcgbar. Nutze die Navigation." + '</li>';

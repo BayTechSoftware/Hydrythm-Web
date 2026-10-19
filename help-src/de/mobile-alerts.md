@@ -2,7 +2,7 @@
 title: Warnungen und Schwellenwerte
 description: Den gesunden Bereich für jeden Messwert festlegen, bestimmen, wie oft eine Warnung dich benachrichtigen darf, und herausfinden, warum ein Gerät "sich nicht mehr meldet".
 section: Cora Mobile
-reviewed: 2026-10-17
+reviewed: 2026-10-18
 order: 22
 group: Alerts and automation
 twin: max-alerts
@@ -20,7 +20,7 @@ Sie hat zwei Tabs. **Aktiv** listet die Warnungen auf, die gerade bestehen, mit 
 
 Jede aktive Warnung zeigt den Wasserwert und das Becken, den Messwert, der sie ausgelöst hat, eine kurze Erklärung, einen Chip für den Schweregrad, die Art der Regel, die ausgelöst hat (**Schwellenwert** oder **Änderungsrate**), und wann sie ausgelöst hat. Sie hat zwei Tasten:
 
-- **Regel ansehen** öffnet die Regel dahinter, damit du den Bereich anpassen kannst. Bei einer Dosierer-Warnung, etwa einem DŌS- oder ReefDose-Kopf, der zur Neige geht, oder einer verpassten Dosierung, heißt diese Taste stattdessen **Dosierer öffnen**. Sie öffnet die Seite dieses Dosierers mit seinen Warnungen.
+- **Regel ansehen** öffnet die Regel dahinter, damit du den Bereich anpassen kannst. Bei einer Dosierpumpen-Warnung, etwa einem DŌS- oder ReefDose-Kopf, der zur Neige geht, oder einer verpassten Dosierung, heißt diese Taste stattdessen **Dosierpumpe öffnen**. Sie öffnet die Seite dieser Dosierpumpe mit ihren Warnungen.
 - **Diese Warnung erklären** öffnet Cora Assistant mit einer fertigen Frage zur Warnung. Prüf sie, ändere sie, wenn du willst, und schick sie dann ab.
 
 ## Der Tab Regeln {#rules}
@@ -29,7 +29,7 @@ Jede aktive Warnung zeigt den Wasserwert und das Becken, den Messwert, der sie a
 
 Die Regeln sind nach Wasserwert gruppiert. Jede Regel hat in ihrer Zeile einen eigenen Schalter, du kannst sie also ausschalten, ohne sie zu öffnen. Eine Zeile zeigt außerdem **Löst gerade aus**, solange ihre Warnung besteht, oder wann sie zuletzt ausgelöst hat (oder **Nie ausgelöst**).
 
-Die Regeln eines Dosierkopfs heißen nach dem Kopf und dem, was sie überwachen, zum Beispiel *Jod · Tage übrig* oder *Jod · verbleibend*. Eine verpasste Dosierung erscheint als *Jod · Dosierung verpasst*. Jeder DŌS und jeder ReefDose hat hier eine eigene Zeile, und die Warnungen seiner Köpfe werden nicht einzeln aufgelistet. Tippe auf die Zeile, um die Seite dieses Dosierers zu öffnen. Siehe [Dosierer-Warnungen](/help/mobile-device-control#doser-alerts).
+Die Regeln eines Dosierkopfs heißen nach dem Kopf und dem, was sie überwachen, zum Beispiel *Jod · Tage übrig* oder *Jod · verbleibend*. Eine verpasste Dosierung erscheint als *Jod · Dosierung verpasst*. Jeder DŌS und jeder ReefDose hat hier eine eigene Zeile, und die Warnungen seiner Köpfe werden nicht einzeln aufgelistet. Tippe auf die Zeile, um die Seite dieser Dosierpumpe zu öffnen. Siehe [Dosierpumpen-Warnungen](/help/mobile-device-control#doser-alerts).
 
 Ganz unten:
 
@@ -91,9 +91,9 @@ Ein AquaWiz KH Controller, den dein Cora Max jede Stunde ausliest, löst dieselb
 
 - seine Dosierpumpe einen Fehler meldet;
 - seine pH-Sonde ausgefallen ist oder bald am Ende ihrer Lebensdauer ist;
-- der Füllstand seines Wasserbehälters länger als eine Stunde zu niedrig oder zu hoch bleibt.
+- der Füllstand seiner Wasserbox länger als eine Stunde zu niedrig oder zu hoch bleibt.
 
-Dafür braucht es das stündliche Auslesen durch das Cora Max (ab dem nächsten Cora-Max-Update) (siehe [Ausrüstung mit Cora Max steuern](/help/max-device-control#aquawiz-hourly)): Die 12-Stunden-Messung aus der AquaWiz-Cloud enthält sie nicht.
+Dafür braucht es das stündliche Auslesen durch das Cora Max (siehe [Ausrüstung mit Cora Max steuern](/help/max-device-control#aquawiz-hourly)): Die 12-Stunden-Messung aus der AquaWiz-Cloud enthält sie nicht.
 
 
 ## Ein Gerät meldet sich nicht mehr {#stopped-reporting}

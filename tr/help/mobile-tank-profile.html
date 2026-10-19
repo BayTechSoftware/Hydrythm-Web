@@ -178,7 +178,7 @@
 <p>Bir profilde çok şey vardır, bu yüzden <strong>Rehberli kurulum</strong> sizi her seferinde bir bölüm olmak üzere içinden geçirir. Bir akvaryum oluşturduktan hemen sonra <strong>Akvaryumumu rehberli kurayım</strong>'dan, <strong>Ayarlar → akvaryumunuz → Rehberli kurulum</strong> yolundan ve panodaki profil hatırlatmasından açılır.</p>
 <p>Bölümler şu sırayla gelir: <strong>Akvaryum Adı ve Türü</strong>, <strong>Akvaryum Boyutları</strong>, <strong>Aydınlatma</strong>, <strong>Dozaj</strong>, <strong>Su Yönetimi</strong>, <strong>Canlılar</strong>, <strong>Sıcaklık Kontrolü</strong>, <strong>Akış ve Filtrasyon</strong> ve <strong>Zararlı ve Tedavi</strong>. Ekranın üstünde <strong>Adım 2 / 10</strong> gibi bir gösterge bulunur.</p>
 <ul><li><strong>Kaydet ve devam et</strong> bölümü kaydeder ve ilerler. <strong>Atla</strong> kaydetmeden ilerler.</li><li><strong>Sonra bitir</strong> sizi geri götürür ve o ana kadar kaydettiğiniz yanıtları saklar. Rehberli kurulumu yeniden açtığınızda kaldığınız yerden devam eder.</li><li>Kaydedilmemiş değişikliklerle bir bölümden çıkarsanız Cora <strong>Bu adımdan çıkılsın mı?</strong> diye sorar. <strong>Düzenlemeye devam et</strong>'e ya da <strong>Çık</strong>'a dokunun.</li></ul>
-<p>Henüz yanıtlamadıysanız son sayfa <strong>Cora Assistant ve verileriniz</strong>'dir. Cora Assistant'ın yanıtlarında bu profili kullanmasını istiyorsanız <strong>Kişiselleştirilmiş tavsiye için akvaryum verilerimi kullan</strong>'ı açın, sonra <strong>Kaydet</strong>'e ya da <strong>Sonra karar ver</strong>'e dokunun. Bunu istediğiniz zaman Ayarlar'dan değiştirebilirsiniz. <a href="/tr/help/mobile-assistant">Cora'ya sorun</a> sayfasına bakın.</p>
+<p>Henüz yanıtlamadıysanız son sayfa <strong>Cora Assistant ve verileriniz</strong>'dir. Cora Assistant'ın yanıtlarında bu profili kullanmasını istiyorsanız <strong>Kişiselleştirilmiş tavsiye için akvaryum verilerimi kullan</strong>'ı açın, sonra <strong>Kaydet</strong>'e ya da <strong>Sonra karar ver</strong>'e dokunun. Bunu istediğiniz zaman Ayarlar'dan değiştirebilirsiniz. <a href="/tr/help/mobile-assistant#consent">Cora'ya sorun</a> sayfasına bakın.</p>
 <p>Sonunda <strong>Aferin: akvaryum profiliniz kuruldu</strong> görürsünüz. <strong>Cihaz ekle</strong> sizi bu akvaryum için ekipman eklemek üzere <strong>Cihazlar</strong> sekmesine götürür, <strong>Panoma git</strong> ise geri götürür.</p>
 <aside class="cal cal-note"><p class="cal-t">Her bölüm Cora'nın size söyleyebileceklerini değiştirir</p><p>Ne kadar çok doldurursanız Cora o kadar çok şey yapabilir. Dozaj ürünleri dozaj hesaplayıcısını ve tüketim takibini çalıştırır. Canlılar ve akvaryum türü ölçümlerinizin neye göre değerlendirileceğini değiştirir. Ekipman, Cora'ya neyiniz olduğunu söyler. Az doldurulmuş bir profille daha genel yanıtlar alırsınız.</p></aside>
 <figure class="shot phone"><button type="button" class="zoom" aria-label="Büyüt: Akvaryum profili düzenleyicisi"><img src="/help/img/mobile-tank-profile.webp" alt="Akvaryum profili düzenleyicisi" width="620" height="1347" loading="lazy" decoding="async"></button><figcaption>Her bölüm bir tamamlanma durumu gösterir. Üstteki puan, Cora'nın akvaryum hakkında ne kadar bilgi sahibi olduğunu yansıtır.</figcaption></figure>
@@ -208,7 +208,7 @@
 <h2 id="removing-a-tank">Akvaryumu kaldırma</h2>
 <p><strong>Akvaryumu Kaldır</strong> profilin en altındadır. Akvaryumu gizler ve verilerini saklar, onu daha sonra geri getirebilirsiniz. Kullanmadan önce <a href="/tr/help/mobile-tanks#removing-a-tank">Akvaryumu kaldırma</a> bölümünü okuyun, çünkü bazı şeyler çalışmaya devam eder.</p>
       <nav class="pn" aria-label="Okumaya devam edin"><a class="pn-p" href="/tr/help/mobile-tour"><span>Önceki</span><b>Cora Mobile&#x27;da yolunuzu bulma</b></a><a class="pn-n" href="/tr/help/mobile-tanks"><span>Sonraki</span><b>Akvaryumlarınızı yönetme</b></a></nav>
-      <p class="stamp">Cora Max 0.28.217 ve Cora Mobile 0.5.125 için yazılmıştır. Son kontrol: 2026-10-13.</p>
+      <p class="stamp">Cora Max 0.28.219 ve Cora Mobile 1.4.1 için yazılmıştır. Son kontrol: 2026-10-13.</p>
       <p class="ask">Sorun devam ediyor mu? <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> adresine yazın, yardımcı olalım.</p>
     </article>
   </main>
@@ -599,7 +599,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/tr/help/search.json?v=32184d0520').then(function (r) { return r.json(); })
+    fetch('/tr/help/search.json?v=f1ddfa4ac9').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "tr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Arama \u015fu anda kullan\u0131lam\u0131yor. Men\u00fcy\u00fc kullan\u0131n." + '</li>';

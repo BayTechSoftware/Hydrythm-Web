@@ -9,7 +9,7 @@ group: Records
 
 Cora ne peut faire les calculs de dosage que s’il connaît la concentration de vos produits. Cette page explique la liste des produits et le calculateur de dose qui s’en sert.
 
-Allez dans **Réglages → Produits de dosage**.
+Allez dans **Paramètres → Produits de dosage**.
 
 ![Produits de dosage](img/mobile-dosing.webp "Les produits portent la concentration que Cora utilise pour les calculs de dose et de consommation.")
 

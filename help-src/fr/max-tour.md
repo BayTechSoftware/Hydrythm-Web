@@ -21,7 +21,7 @@ De gauche à droite :
 1. **L’icône de grille** ouvre [la Pièce du récif](/help/max-reef-room), la vue d’ensemble de tous les aquariums affichés par cet écran.
 2. **Le nom de l’aquarium**, avec une petite flèche. Touchez-le pour ouvrir le **menu de l’aquarium**, qui contient tous les écrans de l’aquarium affiché. La liste complète est plus bas.
 3. **Les étiquettes d’alerte** montrent ce qui demande votre attention en ce moment : mesures hors plage, pannes d’appareils, doses manquées ou consommables bas. Touchez une étiquette pour ramener cette alerte au milieu de l’écran. S’il y en a plus que la place ne le permet, vous verrez **+2** (ou le nombre qui convient). Touchez-le pour voir toutes les alarmes actives.
-4. **L’horloge**. Vous pouvez la masquer avec **Afficher l’horloge** dans **Réglages → Réglages Cora Max**.
+4. **L’horloge**. Vous pouvez la masquer avec **Afficher l’horloge** dans **Paramètres → Paramètres Cora Max**.
 5. **L’étiquette d’état** indique ce que fait cet écran en ce moment. Vert veut dire que tout va bien, bleu qu’il est occupé, orange qu’il faut regarder, et rouge signale une panne. Tous les états sont listés plus bas.
 6. **La batterie et le Wi-Fi**.
 7. **L’icône des appareils** ouvre **Appareils**, filtré sur cet aquarium. Un aquarium sans appareil ne l’affiche pas.
@@ -45,7 +45,7 @@ Toucher l’icône Cora Assistant lance une session vocale en direct. Si vous vo
 | **Obsolète** | Les mesures n’arrivent plus. L’écran affiche les dernières reçues |
 | **Nouvelle tentative Apex dans 12 s** | Votre Apex n’a pas répondu. Cora Max réessaie à la fin du compte à rebours |
 | **Échec de la synchronisation cloud** | Votre Apex a répondu, mais ses mesures n’ont pas pu être enregistrées dans Cora Cloud, donc le tableau de bord prend du retard. Cora Max continue d’essayer |
-| **Enregistrement cloud refusé** | Cora Cloud refuse d’enregistrer une partie des données de cet écran. Rien ne va mal avec votre aquarium ni avec Cora Max, et rien n’est à changer sur cet écran. La solution est une mise à jour de Cora Cloud. Ouvrez **Réglages → Réglages Cora Max** et faites défiler jusqu’à la section **État**, où la ligne **Enregistrement cloud** indique quelles données sont concernées. Puis [contactez l’assistance](/support.html) |
+| **Enregistrement cloud refusé** | Cora Cloud refuse d’enregistrer une partie des données de cet écran. Rien ne va mal avec votre aquarium ni avec Cora Max, et rien n’est à changer sur cet écran. La solution est une mise à jour de Cora Cloud. Ouvrez **Paramètres → Paramètres Cora Max** et faites défiler jusqu’à la section **État**, où la ligne **Enregistrement cloud** indique quelles données sont concernées. Puis [contactez l’assistance](/support.html) |
 | **Hors ligne** | Pas de connexion. L’écran affiche les dernières données reçues |
 | **Hors ligne, nouvelle tentative dans 45 s** | Votre réseau fonctionne, mais Cora Cloud est injoignable depuis plus de 30 secondes. Cora Max se reconnecte tout seul, et le compte à rebours indique quand il réessaie |
 | **Cora principal hors ligne** | Cet écran est un deuxième Cora Max pour cet aquarium, et le **Cora Max principal** (celui épinglé pour lire l’équipement de cet aquarium) s’est déconnecté. Cet écran continue d’afficher les dernières données qu’il a jusqu’au retour du principal ou jusqu’à ce que vous choisissiez un autre Cora Max principal. Plus de détails dans [Plus d’un appareil Cora](/help/mobile-multi-device) |
@@ -87,7 +87,7 @@ Touchez le nom de l’aquarium pour ouvrir le menu de l’aquarium affiché.
 | **Activité** | [Chaque prise, nourrissage et dosage](/help/max-activity), et ce qui s’est passé |
 | **Disposition du tableau de bord** | [Disposer les widgets de cet écran](/help/max-dashboard-editing) |
 | **Unités** | Les unités d’affichage des mesures de cet aquarium |
-| **Réglages de l’aquarium** | L’écran complet des réglages de cet aquarium |
+| **Paramètres de l’aquarium** | L’écran complet des réglages de cet aquarium |
 
 ## Changer d’aquarium {#switching-tanks}
 

@@ -17,13 +17,13 @@ Jede Marke fügst du auf dem Handy hinzu, über **Geräte → Gerät hinzufügen
 
 ## Neptune Apex, DŌS und Trident {#neptune-apex}
 
-Cora liest die Sonden und Steckdosen deines Apex, startet seine Fütterungszyklen und arbeitet mit seinem DŌS-Dosierer und dem Trident-Tester.
+Cora liest die Sonden und Steckdosen deines Apex, startet seine Fütterungszyklen und arbeitet mit seiner DŌS-Dosierpumpe und dem Trident-Tester.
 
 - Hinzufügen: [Deine Ausrüstung verbinden](/help/mobile-connections#neptune-apex)
 - Cora sagen, was jede Sonde misst: [Parameterzuordnung und Sonden](/help/mobile-probes)
 - Auf dem Handy steuern: [Apex](/help/mobile-device-control#neptune-apex), [DŌS](/help/mobile-device-control#dos), [Trident](/help/mobile-device-control#trident)
 - Auf Cora Max: [Steckdosen und Fütterungsmodus](/help/max-controls), [Apex und Trident](/help/max-device-control#neptune-apex), [DŌS-Köpfe](/help/max-device-control#dos-heads)
-- Warnungen: [meldet keine Daten mehr](/help/mobile-alerts#stopped-reporting), [Dosierer-Warnungen](/help/mobile-device-control#doser-alerts)
+- Warnungen: [meldet keine Daten mehr](/help/mobile-alerts#stopped-reporting), [Dosierpumpen-Warnungen](/help/mobile-device-control#doser-alerts)
 - Lösungen: ["Der Apex war nicht erreichbar"](/help/troubleshooting#could-not-reach-the-apex-nothing-changed-nothing-was-dosed), ["… hat keine Apex-Zugangsdaten"](/help/troubleshooting#this-could-not-be-sent-no-device-on-this-tank-can-send-it), ["Apex-Passwort"](/help/troubleshooting#cora-max-shows-apex-password), [Fütterung startet nicht](/help/troubleshooting#feed-does-not-start), [eine Dosierung hat mittendrin aufgehört](/help/troubleshooting#a-dose-stopped-partway-through-and-a-restore-alert-appeared)
 
 ## Red Sea ReefBeat {#red-sea}
@@ -33,7 +33,7 @@ ReefDose, ReefRun, ReefMat und ReefATO+. Die eigenen Einstellungen eines Geräts
 - Hinzufügen: [Deine Ausrüstung verbinden](/help/mobile-connections#red-sea-reefbeat)
 - Auf dem Handy steuern: [Red Sea ReefBeat](/help/mobile-device-control#red-sea), [ReefDose](/help/mobile-device-control#reefdose), [ReefRun](/help/mobile-device-control#reefrun), [ReefMat](/help/mobile-device-control#reefmat), [ReefATO+](/help/mobile-device-control#reefato)
 - Auf Cora Max: [Red Sea ReefBeat](/help/max-device-control#red-sea)
-- Warnungen: [meldet keine Daten mehr](/help/mobile-alerts#stopped-reporting), [Dosierer-Warnungen](/help/mobile-device-control#doser-alerts)
+- Warnungen: [meldet keine Daten mehr](/help/mobile-alerts#stopped-reporting), [Dosierpumpen-Warnungen](/help/mobile-device-control#doser-alerts)
 - Lösungen: ["Die Red Sea-Messwerte werden nicht mehr aktualisiert"](/help/troubleshooting#red-sea-readings-have-stopped-updating), [Einstellungen ausgegraut](/help/troubleshooting#some-reefbeat-settings-are-greyed-out-or-missing)
 
 ## Jecod und Jebao {#jecod}

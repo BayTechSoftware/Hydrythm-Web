@@ -10,7 +10,7 @@ twin: max-automation
 
 Une automatisation est une règle que Cora exécute pour vous : *quand ceci arrive, vérifie cela, puis fais ceci.* Une scène regroupe plusieurs actions en une seule chose que vous lancez quand vous le voulez.
 
-Allez dans **Réglages → Automatisations**.
+Allez dans **Paramètres → Automatisations**.
 
 ![L’écran Automatisation dans Cora Mobile, avec les onglets Automatisations et Scènes](img/mobile-automation.webp "Automatisations et Scènes sont des onglets distincts. Chaque règle a son propre interrupteur.")
 

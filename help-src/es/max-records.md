@@ -2,7 +2,7 @@
 title: Diario, fauna y mantenimiento
 description: Anota una prueba, añade una entrada al diario, registra una comida y marca el mantenimiento en Cora Max, y qué sigues haciendo en el teléfono.
 section: Cora Max
-reviewed: 2026-10-17
+reviewed: 2026-10-18
 order: 10
 group: Records
 twin: mobile-journal
@@ -47,7 +47,7 @@ El icono que está junto al de dispositivos es **Reef Buddy**, y su punto indica
 
 La parte de arriba de la pantalla dice cuántas tareas están pendientes. Debajo, **Próximas** muestra cada tarea con **HOY**, **EN 3d** o **ATRASADA 2d**, y **Completadas · últimos 7 días** muestra lo que has hecho últimamente.
 
-- Toca **Listo** cuando termines una tarea. Si está atrasada, Cora pregunta **¿Cuándo lo hiciste?**
+- Toca **Listo** cuando termines una tarea. Si está atrasada, Cora pregunta **¿Cuándo lo hiciste?** Cora también añade una breve entrada a tu [diario](/help/max-records#journal), indicando si la tarea iba con retraso.
 - Toca **Hecho antes…** si la hiciste antes de hoy. Elige la fecha y la hora, y la próxima fecha se cuenta desde ahí. No se acepta una hora futura ni una anterior a la última finalización.
 - Toca **Posponer** para retrasarla **1 día**, **3 días**, **1 semana**, **2 semanas** o **1 mes**.
 

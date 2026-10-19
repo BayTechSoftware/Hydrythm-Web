@@ -8,7 +8,7 @@ group: Equipment
 twin: mobile-device-control
 ---
 
-Cette page explique ce que vous pouvez voir et faire sur la page de chaque appareil sur Cora Max, marque par marque. Cora Max joint le même équipement que votre téléphone. Ouvrez la page d’un appareil depuis l’icône des appareils dans la barre du haut, depuis **Réglages → Appareils**, ou en touchant une tuile d’appareil sur le tableau de bord.
+Cette page explique ce que vous pouvez voir et faire sur la page de chaque appareil sur Cora Max, marque par marque. Cora Max joint le même équipement que votre téléphone. Ouvrez la page d’un appareil depuis l’icône des appareils dans la barre du haut, depuis **Paramètres → Appareils**, ou en touchant une tuile d’appareil sur le tableau de bord.
 
 ![La page d’un Apex sur Cora Max avec ses boutons de nourrissage et ses prises](img/max-device-control.webp "Feed A à D et Annuler, puis les prises, disposés pour un écran mural.")
 
@@ -56,7 +56,7 @@ Un DŌS n’a pas de capteur de niveau et continue de doser depuis un réservoir
 Dans la feuille de réglages d’une tête, vous pouvez régler son **type d’usage**. Les options sont **Complément**, **Changement d’eau : entrée d’eau salée neuve**, **Changement d’eau : sortie d’eau ancienne**, **Kalkwasser**, **Réacteur à calcium**, **Nourriture** ou **Appoint**, et **Autre**. Le type d’usage change deux choses.
 
 - La taille du réservoir qu’elle peut suivre. Chaque type d’usage peut suivre un réservoir jusqu’à 1 000 litres. Au-delà du compteur de 150 litres de l’Apex, Cora suit lui-même le volume, et Cora remet le compteur de l’Apex à zéro tous les 100 litres.
-- Si elle peut faire une grosse dose à la main. Les têtes Complément et Nourriture gardent le plafond actuel, petit et prudent. Tout autre type d’usage peut avoir sa propre limite de **Dosage manuel maximal**, jusqu’à un plafond absolu de 10 litres, et sa propre **Limite quotidienne pour les automatisations et l’Assistant**. Une grosse dose à la main demande aussi d’activer **Doses importantes** dans les réglages de la tête, désactivé par défaut. Ne l’activez qu’après avoir regardé la première grosse dose se faire à l’aquarium.
+- Si elle peut faire une grosse dose à la main. Les têtes Complément et Nourriture gardent le plafond actuel, petit et prudent. Tout autre type d’usage peut avoir sa propre limite de **Dosage manuel maximal**, jusqu’à un plafond absolu de 10 litres, et sa propre **Limite quotidienne pour les automatisations et l’Assistant**. Une grosse dose à la main demande aussi d’activer **Doses importantes** dans les paramètres de la tête, désactivé par défaut. Ne l’activez qu’après avoir regardé la première grosse dose se faire à l’aquarium.
 
 Vous pouvez associer une paire de changement d’eau (entrée d’eau salée neuve, sortie d’eau ancienne) comme **Tête associée** et régler une valeur d’**Alerte d’équilibre au-dessus de**. Si les totaux du jour des deux têtes s’écartent de plus que cette valeur, Cora vous prévient. Une paire déséquilibrée veut en général dire qu’un côté ne pompe pas comme il devrait.
 
@@ -94,8 +94,6 @@ Un AquaWiz KH Controller n’a pas de page à lui sur Cora Max. Il est listé da
 
 ### Lecture horaire par Cora Max {#aquawiz-hourly}
 
-Arrive avec la prochaine mise à jour de Cora Max.
-
 AquaWiz ne laisse Cora lire son cloud que toutes les 12 heures. Pour garder l’alcalinité à jour, le Cora Max principal de l’aquarium lit aussi le contrôleur directement, une fois par heure, dix minutes avant l’heure pile :
 
 - Il se connecte quelques secondes au Wi-Fi propre du contrôleur, lit le dernier résultat et revient aussitôt sur votre Wi-Fi domestique. Le Cora Max est hors ligne environ 4 secondes pendant ce temps.
@@ -106,6 +104,10 @@ AquaWiz ne laisse Cora lire son cloud que toutes les 12 heures. Pour garder l’
 
 Une mesure issue du Cora Max affiche **Toutes les heures depuis votre Cora Max** sur la carte AquaWiz du téléphone. Elle apporte aussi les alertes de pompe, de sonde pH et de réservoir d’eau décrites dans [Alertes](/help/mobile-alerts#equipment-faults).
 
+
+## Quand le Bluetooth ne fonctionne plus {#bluetooth-stopped}
+
+Cora Max lit les éclairages, pompes et capteurs en Bluetooth. Si son Bluetooth s’arrête et que seul un redémarrage le remet en marche, une carte apparaît sur l’écran : **Le Bluetooth ne fonctionne plus**, avec **Redémarrer maintenant** et **Plus tard**. Les étapes sont dans [Cora Max affiche "Le Bluetooth ne fonctionne plus"](/help/troubleshooting#bluetooth-stopped-working).
 
 ## Consommables {#consumables}
 

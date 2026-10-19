@@ -99,7 +99,7 @@ Przytrzymanie pięciu palców w rogu to także wejście do [Odzyskiwania](/help/
 
 Blokada rodzicielska nie jest zabezpieczeniem. Każdy, kto zobaczy, jak ją odblokowujesz, może zrobić to samo.
 
-## Parowanie, ponowne parowanie i ustawienia fabryczne
+## Parowanie, ponowne parowanie i ustawienia fabryczne {#pairing-re-pairing-and-factory-reset}
 
 **Ustawienia Cora Max → RESET** ma dwie opcje.
 

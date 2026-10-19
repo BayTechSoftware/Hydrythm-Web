@@ -99,7 +99,7 @@ Köşede beş parmağınızı basılı tutmak [Kurtarma](/help/max-updates#recov
 
 Çocuk kilidi bir güvenlik kilidi değildir. Onu nasıl açtığınızı gören herkes aynısını yapabilir.
 
-## Eşleştirme, yeniden eşleştirme ve fabrika ayarlarına sıfırlama
+## Eşleştirme, yeniden eşleştirme ve fabrika ayarlarına sıfırlama {#pairing-re-pairing-and-factory-reset}
 
 **Cora Max Ayarları → SIFIRLA** içinde iki seçenek vardır.
 

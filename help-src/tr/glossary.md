@@ -119,7 +119,7 @@ Bir probu, ölçümleri bilinen bir referansla, genellikle bir kalibrasyon çöz
 
 ## Kaynak {#source}
 
-Bir ölçümün nereden geldiği: bir prob, bir kontrolcü, bir laboratuvar sonucu ya da test kitiyle siz. Her ölçümün bir kaynağı vardır, böylece Cora iki kaynak uyuşmadığında size söyleyebilir. Aynı ölçümü birden fazla kaynak bildiriyorsa hangisine güveneceğinizi [Parametre Eşlemesi](/help/mobile-probes) içinde seçersiniz ya da onu Otomatik bırakırsınız.
+Bir ölçümün nereden geldiği: bir prob, bir kontrolör, bir laboratuvar sonucu ya da test kitiyle siz. Her ölçümün bir kaynağı vardır, böylece Cora iki kaynak uyuşmadığında size söyleyebilir. Aynı ölçümü birden fazla kaynak bildiriyorsa hangisine güveneceğinizi [Parametre Eşlemesi](/help/mobile-probes) içinde seçersiniz ya da onu Otomatik bırakırsınız.
 
 ## Komut sonucu {#command-outcome}
 
@@ -135,7 +135,7 @@ Cora Max'in kurulumun sonunda gösterdiği altı haneli bir sayı. O Cora Max'te
 
 ## Neptune Apex
 
-DŌS dozaj pompası ve Trident test cihazıyla Neptune Systems kontrolcüsü. Cora onu ev ağınızda okur. [Markaya göre ekipman](/help/equipment-by-brand) sayfasına bakın.
+DŌS dozaj pompası ve Trident test cihazıyla Neptune Systems kontrolörü. Cora onu ev ağınızda okur. [Markaya göre ekipman](/help/equipment-by-brand) sayfasına bakın.
 
 ## Otomasyon {#automation}
 
@@ -147,11 +147,11 @@ Suyunuzda ölçebileceğiniz alkalinite, kalsiyum, nitrat ya da sıcaklık gibi 
 
 ## Parametre Eşlemesi {#parameter-mapping}
 
-Bir kontrolcüdeki her probun neyi ölçtüğünü ve her ölçümü hangi cihazın sağladığını Cora'ya söylediğiniz yer. [Parametre Eşlemesi ve problar](/help/mobile-probes) sayfasına bakın.
+Bir kontrolördeki her probun neyi ölçtüğünü ve her ölçümü hangi cihazın sağladığını Cora'ya söylediğiniz yer. [Parametre Eşlemesi ve problar](/help/mobile-probes) sayfasına bakın.
 
 ## Priz {#outlet}
 
-Kontrolcünüzde açılıp kapatılabilen bir priz. Cora'da üç durumu vardır: **Otomatik**, **Kapalı** ve **Açık**. [Prizler ve kontroller](/help/max-controls) sayfasına bakın.
+Kontrolörünüzde açılıp kapatılabilen bir priz. Cora'da üç durumu vardır: **Otomatik**, **Kapalı** ve **Açık**. [Prizler ve kontroller](/help/max-controls) sayfasına bakın.
 
 ## Red Sea ReefBeat
 

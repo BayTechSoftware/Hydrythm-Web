@@ -17,17 +17,17 @@ Vous n’avez rien à faire pour rester à jour.
 
 ## Vérifier la version et les réglages de mise à jour {#checking-the-version-and-update-settings}
 
-![Réseau et mises à jour sur Cora Max](img/max-updates.webp "Mise à jour du micrologiciel, dans la section RÉSEAU ET MISES À JOUR des Réglages Cora Max.")
+![Réseau et mises à jour sur Cora Max](img/max-updates.webp "Mise à jour du micrologiciel, dans la section RÉSEAU ET MISES À JOUR des Paramètres Cora Max.")
 
-Votre version figure sur la carte en haut de **Réglages → Réglages Cora Max** (*Cora Max · micrologiciel 0.28.170*), et sous **AIDE ET À PROPOS → À propos**.
+Votre version figure sur la carte en haut de **Paramètres → Paramètres Cora Max** (*Cora Max · micrologiciel 0.28.170*), et sous **AIDE ET À PROPOS → À propos**.
 
-**Réglages → Réglages Cora Max → Mise à jour du micrologiciel** (dans **RÉSEAU ET MISES À JOUR**) affiche la version que vous avez et indique si une mise à jour attend. Touchez **Rechercher des mises à jour** pour vérifier maintenant, ou **Télécharger et installer** quand il y en a une.
+**Paramètres → Paramètres Cora Max → Mise à jour du micrologiciel** (dans **RÉSEAU ET MISES À JOUR**) affiche la version que vous avez et indique si une mise à jour attend. Touchez **Rechercher des mises à jour** pour vérifier maintenant, ou **Télécharger et installer** quand il y en a une.
 
-Sous **Réglages de mise à jour**, sur le même écran :
+Sous **Paramètres de mise à jour**, sur le même écran :
 
 - **Plage d’installation** définit les heures pendant lesquelles les mises à jour peuvent s’installer, avec une heure de **Début** et de **Fin**, à l’heure locale de cet écran. Le fuseau horaire se règle dans Cora Mobile, sous **Appareils →** votre Cora Max **→ Fuseau horaire**.
 
-Pour voir si cet écran lit vos appareils et enregistre dans Cora Cloud, revenez à **Réglages Cora Max** et faites défiler jusqu’à **ÉTAT**. La section affiche pour chaque aquarium l’**État de l’interrogation**, la **Dernière interrogation**, la **Dernière écriture cloud** et l’**Enregistrement cloud**.
+Pour voir si cet écran lit vos appareils et enregistre dans Cora Cloud, revenez à **Paramètres Cora Max** et faites défiler jusqu’à **ÉTAT**. La section affiche pour chaque aquarium l’**État de l’interrogation**, la **Dernière interrogation**, la **Dernière écriture cloud** et l’**Enregistrement cloud**.
 
 Si une mise à jour se télécharge lentement, vérifiez votre connexion avec le **Test de débit réseau** sur le même écran. **Lancer le test** télécharge jusqu’à 16 Mo du fichier de mise à jour depuis Cora Cloud, pendant 20 secondes au plus, et affiche le débit en Mo/s.
 
@@ -38,7 +38,7 @@ Un message vous dit ce qui est nouveau et vous propose deux choix.
 - **Mettre à jour maintenant** installe tout de suite et redémarre. Cela prend environ une minute. Gardez Cora Max alimenté.
 - **Reporter de 24 heures** masque le message et vous redemande un jour plus tard.
 
-Tant qu’une mise à jour attend, un petit point s’affiche sur l’icône **Réglages** de la barre du haut et sur la ligne **Mise à jour du micrologiciel**. Le point reste pendant un report, vous voyez donc toujours qu’une mise à jour est là. Il disparaît pendant l’installation.
+Tant qu’une mise à jour attend, un petit point s’affiche sur l’icône **Paramètres** de la barre du haut et sur la ligne **Mise à jour du micrologiciel**. Le point reste pendant un report, vous voyez donc toujours qu’une mise à jour est là. Il disparaît pendant l’installation.
 
 Si vous ne faites rien, la mise à jour s’installe d’elle-même pendant la **Plage d’installation**.
 

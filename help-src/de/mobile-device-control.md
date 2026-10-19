@@ -14,7 +14,7 @@ Auf der eigenen Seite eines Geräts siehst du seinen Live-Zustand und änderst, 
 
 Jede Geräteseite ist gleich aufgebaut. Name und Details stehen oben, dann eine Reihe von Live-Messwerten, jeder Zustand, den das Gerät meldet, und seine Steuerungen. Die Glocke in der Titelleiste legt Warnschwellen für dieses Gerät fest, wie unter [Verbrauchsmaterial und Nachfüllwarnungen](/help/mobile-consumables) beschrieben. Wie du ein Gerät überhaupt hinzufügst, steht unter [Deine Ausrüstung verbinden](/help/mobile-connections).
 
-Spring zu deiner Ausrüstung: [Neptune Apex](#neptune-apex) · [Trident](#trident) · [DŌS](#dos) · [Red Sea](#red-sea) · [ReefDose](#reefdose) · [ReefRun](#reefrun) · [ReefMat](#reefmat) · [ReefATO+](#reefato) · [Dosierer-Warnungen](#doser-alerts) · [Jecod](#jecod) · [AquaWiz](#aquawiz)
+Spring zu deiner Ausrüstung: [Neptune Apex](#neptune-apex) · [Trident](#trident) · [DŌS](#dos) · [Red Sea](#red-sea) · [ReefDose](#reefdose) · [ReefRun](#reefrun) · [ReefMat](#reefmat) · [ReefATO+](#reefato) · [Dosierpumpen-Warnungen](#doser-alerts) · [Jecod](#jecod) · [AquaWiz](#aquawiz)
 
 :::warning Diese Steuerung wirkt auf laufende Ausrüstung
 Es gibt keine Vorschau und kein Rückgängig. Manche Steuerungen bitten dich vorher um Bestätigung.
@@ -79,7 +79,7 @@ Cora dosiert mit einem Kopf erst von Hand, wenn er gemessen wurde. **Zum Dosiere
 :::
 
 :::warning Ein DŌS dosiert weiter, wenn sein Behälter leer ist
-Das Gerät hat keinen Füllstandssensor und hört nicht von selbst auf. Leg für jeden Kopf unter **Warnungen** auf der DŌS-Seite eine Nachfüllwarnung fest, damit Cora dich warnt, bevor der Behälter leer läuft. Siehe [Dosierer-Warnungen](#doser-alerts).
+Das Gerät hat keinen Füllstandssensor und hört nicht von selbst auf. Leg für jeden Kopf unter **Warnungen** auf der DŌS-Seite eine Nachfüllwarnung fest, damit Cora dich warnt, bevor der Behälter leer läuft. Siehe [Dosierpumpen-Warnungen](#doser-alerts).
 :::
 
 ### Wofür jeder Kopf verwendet wird {#dos-head-use}
@@ -109,9 +109,9 @@ Bist du nicht im Netzwerk des Geräts, schickt Cora Mobile Red Sea-Befehle über
 
 ## ReefDose {#reefdose}
 
-![Eine ReefDose 4-Seite in Cora Mobile](img/mobile-reefdose.webp "Status, Köpfe und heutige Gesamtmenge, Dosierer für Verbrauch nutzen, dann jeder Dosierkopf.")
+![Eine ReefDose 4-Seite in Cora Mobile](img/mobile-reefdose.webp "Status, Köpfe und heutige Gesamtmenge, Dosierpumpe für Verbrauch nutzen, dann jeder Dosierkopf.")
 
-Für jeden Kopf kannst du **Dosierung pro Tag** und **Rest in der Flasche** einstellen, **Jetzt dosieren** ausführen und **Zeitplan aktivieren**. Nachfüllwarnungen legst du pro Kopf mit der Glocke fest, wie unter [Dosierer-Warnungen](#doser-alerts) beschrieben.
+Für jeden Kopf kannst du **Dosierung pro Tag** und **Rest in der Flasche** einstellen, **Jetzt dosieren** ausführen und **Zeitplan aktivieren**. Nachfüllwarnungen legst du pro Kopf mit der Glocke fest, wie unter [Dosierpumpen-Warnungen](#doser-alerts) beschrieben.
 
 Der Bereich **Dosierung** zeigt **Anstehende Dosierungen**, was jeder Kopf heute dosiert hat (**Heute bisher dosiert**) und **Dosiert pro Kopf** für die **Letzte 7 Tage** oder **Gesamt**. Cora liest das, solange ein Cora Max oder dein Handy in deinem Heimnetz ist.
 
@@ -159,9 +159,9 @@ Ein Gerät kann sich selbst stoppen. Eine ReefRun-Pumpe tut das zum Beispiel, we
 
 Manche davon bitten dich vorher um Bestätigung. Außerhalb des Netzwerks des Geräts laufen sie über ein Cora Max am Becken, wie unter [Red Sea ReefBeat](#red-sea) beschrieben.
 
-## Dosierer-Warnungen {#doser-alerts}
+## Dosierpumpen-Warnungen {#doser-alerts}
 
-Ein DŌS und ein ReefDose haben ihre Warnungen auf ihrer eigenen Seite. Der Tab **Regeln** der [Warnzentrale](/help/mobile-alerts) hat pro Dosierer eine Zeile, die sie öffnet, und die Taste **Dosierer öffnen** einer Dosierer-Warnung bringt dich ebenfalls hierher.
+Ein DŌS und ein ReefDose haben ihre Warnungen auf ihrer eigenen Seite. Der Tab **Regeln** der [Warnzentrale](/help/mobile-alerts) hat pro Dosierpumpe eine Zeile, die sie öffnet, und die Taste **Dosierpumpe öffnen** einer Dosierpumpen-Warnung bringt dich ebenfalls hierher.
 
 Tippe auf einer DŌS-Seite auf die Karte **Warnungen** (oder die Glocke in der Titelleiste). Das Fenster listet jeden Kopf auf, und für jeden kannst du festlegen:
 

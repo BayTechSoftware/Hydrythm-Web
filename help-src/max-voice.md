@@ -23,7 +23,7 @@ Or tap the **Cora Assistant** icon in the top bar. Cora starts listening right a
 
 ![Cora Assistant listening on Cora Max, with a Cancel button, over the dimmed dashboard](img/max-voice-session.webp "Cora Assistant listening, with Cancel underneath.")
 
-## Sound and wake word settings
+## Sound and wake word settings {#sound-and-wake-word-settings}
 
 ![Alert sound, Spoken alerts and Wake word switches in Cora Max Settings, with the Reef Buddy briefing switch below](img/max-voice.webp "Alert sound, Spoken alerts and Wake word, with Reef Buddy below them.")
 

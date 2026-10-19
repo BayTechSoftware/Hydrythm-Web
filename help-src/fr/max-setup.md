@@ -95,8 +95,8 @@ Si ce Cora Max était le Cora Max principal épinglé de l’aquarium retiré, c
 
 ## Mises à jour {#updates}
 
-Cora Max se met à jour tout seul. Une nouvelle version se télécharge en arrière-plan et s’installe la nuit. Votre version est affichée en haut de **Réglages → Réglages Cora Max**. Plus de détails dans [Mises à jour et récupération](/help/max-updates).
+Cora Max se met à jour tout seul. Une nouvelle version se télécharge en arrière-plan et s’installe la nuit. Votre version est affichée en haut de **Paramètres → Paramètres Cora Max**. Plus de détails dans [Mises à jour et récupération](/help/max-updates).
 
 ## Le passer sur un autre réseau Wi-Fi {#moving-it-to-a-different-network}
 
-Allez dans **Réglages → Réglages Cora Max → Wi-Fi**, choisissez le nouveau réseau et saisissez le mot de passe. Cora Max reste associé, vous n’avez donc pas à le configurer à nouveau.
+Allez dans **Paramètres → Paramètres Cora Max → Wi-Fi**, choisissez le nouveau réseau et saisissez le mot de passe. Cora Max reste associé, vous n’avez donc pas à le configurer à nouveau.

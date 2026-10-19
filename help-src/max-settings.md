@@ -99,7 +99,7 @@ Holding five fingers in the corner is also how you get into [Recovery](/help/max
 
 Child lock isn't a security lock. Anyone who sees how you unlock it can do the same.
 
-## Pairing, re-pairing and factory reset
+## Pairing, re-pairing and factory reset {#pairing-re-pairing-and-factory-reset}
 
 **Cora Max Settings → RESET** has two options.
 

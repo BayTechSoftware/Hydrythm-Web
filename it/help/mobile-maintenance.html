@@ -210,7 +210,7 @@
 <aside class="cal cal-warning"><p class="cal-t">Segna un'attività come fatta solo quando l'hai fatta</p><p>La prossima scadenza viene calcolata dall'ora in cui hai fatto l'attività. Se segni come fatta un'attività ancora aperta, tutte le scadenze successive si spostano. Se l'hai fatta prima, usa <strong>Fatto prima…</strong> e scegli l'ora reale. Se non l'hai fatta, rinviala invece.</p></aside>
 <p>Non c'è modo di mettere in pausa un'attività. Per un lavoro che in questa stagione non serve, rinvialo di <strong>1 mese</strong>, oppure eliminalo e aggiungilo di nuovo più avanti.</p>
       <nav class="pn" aria-label="Continua a leggere"><a class="pn-p" href="/it/help/mobile-dosing"><span>Precedente</span><b>Prodotti di dosaggio e calcolatore di dosaggio</b></a><a class="pn-n" href="/it/help/mobile-livestock"><span>Successivo</span><b>Popolazione</b></a></nav>
-      <p class="stamp">Scritto per Cora Max 0.28.217 e Cora Mobile 0.5.125. Ultimo controllo il 2026-10-17.</p>
+      <p class="stamp">Scritto per Cora Max 0.28.219 e Cora Mobile 1.4.1. Ultimo controllo il 2026-10-17.</p>
       <p class="ask">Ancora bloccato? Scrivi a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, ti aiutiamo.</p>
     </article>
   </main>
@@ -601,7 +601,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/it/help/search.json?v=5d2fb8db12').then(function (r) { return r.json(); })
+    fetch('/it/help/search.json?v=e9a867e72b').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "it"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La ricerca non \u00e8 disponibile. Usa la navigazione." + '</li>';

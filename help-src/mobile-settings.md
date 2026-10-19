@@ -34,7 +34,7 @@ The card at the top shows who you're signed in as and which plan you're on. Tap 
 A rule that switches a pump will switch it even when you're not watching. Build rules one at a time, and check each one does what you expect before you add the next.
 :::
 
-## Tanks
+## Tanks {#tanks}
 
 You'll see one row for each tank, then these.
 
@@ -64,13 +64,13 @@ Open a tank and its settings page has three parts.
 - **Help & Support** is where you contact support, report a bug and find the Cora website and FAQ. See below.
 - **About** is explained below.
 
-## Language
+## Language {#language}
 
 **There's one language for the whole account.** Devices don't each have their own. If you change it on your phone, it changes on every Cora Max in the household too, and the other way round. New reports, alerts and Reef Buddy briefings use the new language from then on. Older ones stay in the language they were written in. They aren't translated again.
 
 If everything suddenly shows up in a language you didn't expect, someone changed it. They may have done it here, from another device on the account, or in the **Language** setting on a Cora Max. It's the same setting everywhere.
 
-## Device access
+## Device access {#device-access}
 
 **Device access** opens your phone's own settings for Cora. That's where you allow what Cora needs to find your equipment. The row doesn't show whether anything is turned off. It just takes you to the place where you can check.
 
@@ -89,7 +89,7 @@ You open this from the **Cora Assistant** row under **Cora**, further up.
 - **Trusted labs** lists the labs that can send results to your tanks without asking each time. It shows up once you've trusted one. More in [ICP and health reports](/help/mobile-icp-health#trusted-labs).
 - **Usage & Limits** shows your monthly allowances and how much you've used.
 
-## Your data and privacy
+## Your data and privacy {#your-data-and-privacy}
 
 Three settings about your data live in different places, so they're easy to miss.
 

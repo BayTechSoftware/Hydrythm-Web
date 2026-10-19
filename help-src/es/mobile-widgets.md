@@ -2,7 +2,7 @@
 title: Referencia de widgets
 description: Todos los tipos de widget del panel de Cora Mobile, desde valor, medidor, gráfico, estado y toma hasta las tarjetas de dispositivos, y cuándo usar cada uno.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 9
 group: Your dashboard
 ---

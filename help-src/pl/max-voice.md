@@ -23,7 +23,7 @@ Albo dotknij ikony **Cora Assistant** na górnym pasku. Cora od razu zaczyna sł
 
 ![Cora Assistant słucha na Cora Max, z przyciskiem Anuluj, nad przyciemnionym panelem](img/max-voice-session.webp "Cora Assistant słucha, a pod spodem jest Anuluj.")
 
-## Ustawienia dźwięku i słowa aktywującego
+## Ustawienia dźwięku i słowa aktywującego {#sound-and-wake-word-settings}
 
 ![Przełączniki Dźwięk alertu, Alerty głosowe i Słowo aktywujące w Ustawieniach Cora Max, z przełącznikiem podsumowania Reef Buddy pod nimi](img/max-voice.webp "Dźwięk alertu, Alerty głosowe i Słowo aktywujące, a pod nimi Reef Buddy.")
 

@@ -23,7 +23,7 @@ Oder tippe in der oberen Leiste auf das Symbol **Cora Assistant**. Cora hört so
 
 ![Cora Assistant hört auf Cora Max zu, mit einer Taste Abbrechen, über dem gedimmten Dashboard](img/max-voice-session.webp "Cora Assistant hört zu, darunter Abbrechen.")
 
-## Einstellungen für Ton und Weckwort
+## Einstellungen für Ton und Weckwort {#sound-and-wake-word-settings}
 
 ![Die Schalter Warnton, Gesprochene Warnungen und Weckwort in den Cora Max-Einstellungen, darunter der Schalter für das Reef Buddy-Briefing](img/max-voice.webp "Warnton, Gesprochene Warnungen und Weckwort, darunter Reef Buddy.")
 

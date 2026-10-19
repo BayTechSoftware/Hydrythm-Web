@@ -20,7 +20,7 @@ La première fois que vous ouvrez Cora Mobile, quelques courts écrans le prése
 
 Deux d’entre eux demandent quelque chose :
 
-- **Vos appareils vivent sur votre Wi-Fi** vous prévient d’une question que votre iPhone pose plus tard. Quand vous ajoutez votre premier équipement, l’iPhone demande si Cora peut trouver des appareils sur votre réseau local. Autorisez-le, sinon Cora ne trouve rien sur votre Wi-Fi. Si vous avez refusé, **Réglages → Accès aux appareils** vous mène à l’interrupteur. Voir [Réglages](/help/mobile-settings#device-access).
+- **Vos appareils vivent sur votre Wi-Fi** vous prévient d’une question que votre iPhone pose plus tard. Quand vous ajoutez votre premier équipement, l’iPhone demande si Cora peut trouver des appareils sur votre réseau local. Autorisez-le, sinon Cora ne trouve rien sur votre Wi-Fi. Si vous avez refusé, **Paramètres → Accès aux appareils** vous mène à l’interrupteur. Voir [Paramètres](/help/mobile-settings#device-access).
 - Le dernier écran concerne les alertes. Touchez **Autoriser les notifications**, puis autorisez-les dans la demande de votre téléphone, pour que les alertes arrivent sur ce téléphone. **Plus tard** passe cette étape. Plus de détails dans [Notifications](/help/mobile-notifications).
 
 ## Faire d’abord un tour {#looking-around-first}
@@ -112,7 +112,7 @@ Un aquarium sans mesure et sans équipement associé affiche une carte sous les 
 
 Touchez la croix sur la carte pour la masquer. La carte disparaît d’elle-même dès que l’aquarium a une mesure ou une source associée. Cora Max affiche aussi **Enregistrez votre premier test** sur un aquarium sans données.
 
-Si un aquarium n’a toujours aucune mesure trois jours après sa création, Cora envoie une notification de rappel. Si aucun de vos aquariums n’a de mesure, Cora envoie aussi un court e-mail 3 jours et 10 jours après votre inscription, une fois chacun. Les deux suivent votre interrupteur **Rappels d’entretien** dans **Réglages → Notifications**, et l’e-mail contient une ligne indiquant comment l’arrêter.
+Si un aquarium n’a toujours aucune mesure trois jours après sa création, Cora envoie une notification de rappel. Si aucun de vos aquariums n’a de mesure, Cora envoie aussi un court e-mail 3 jours et 10 jours après votre inscription, une fois chacun. Les deux suivent votre interrupteur **Rappels d’entretien** dans **Paramètres → Notifications**, et l’e-mail contient une ligne indiquant comment l’arrêter.
 
 ## À quoi ressemble une bonne configuration {#what-good-looks-like}
 

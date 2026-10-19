@@ -14,7 +14,7 @@ Open it from the **Assistant** tab.
 
 ![A Cora Assistant answer about alkalinity in Cora Mobile](img/mobile-assistant.webp "An answer built from the tank's live data, with this month's message count above the box.")
 
-## Pick a tank first
+## Pick a tank first {#pick-a-tank-first}
 
 The tank selector at the top sets what Cora is talking about. The questions you type and the answers you get all belong to that tank.
 
@@ -74,7 +74,7 @@ Under the answer you may see up to two Help sections, each with up to two button
 
 The buttons only show when there's a screen or a page to open.
 
-## Consent
+## Consent {#consent}
 
 ![Assistant consent](img/mobile-assistant-consent.webp "Two separate permissions, and the memory Cora keeps.")
 

@@ -2,7 +2,7 @@
 title: Widget reference
 description: Every widget type on the Cora Mobile dashboard, from value, gauge, graph, status and outlet to the device tiles, and when to use each one.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 9
 group: Your dashboard
 ---

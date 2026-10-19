@@ -182,7 +182,7 @@
 <h3 id="bluetooth-capacity">Bluetooth kapasitesi</h3>
 <p>Bir Cora Max, okuduğu tüm ekipman arasında Bluetooth'unu paylaşır, bu yüzden ancak belli bir miktarı yetiştirebilir. Bluetooth üzerinden bağlanan bir Jecod pompası eklediğinizde Cora önce akvaryumdaki Cora Max'in ne kadar meşgul olduğunu kontrol eder. Genellikle hiçbir şey görmezsiniz. Aksi halde iki mesajdan biri çıkar:</p>
 <ul><li><strong>Bluetooth yoğunlaşıyor</strong>: <em>Bu Cora Max Bluetooth sınırına yaklaştı. Daha fazla cihaz daha seyrek güncellenebilir. Daha fazla cihaz eklemeyi planlıyorsanız ikinci bir Cora Max ekleyin.</em> Cihazı yine de eklemek için <strong>Devam et</strong>'e ya da <strong>İptal</strong>'e dokunun.</li><li><strong>Bluetooth sınırına ulaşıldı</strong>: <em>Bu Cora Max Bluetooth sınırına ulaştı. Bu cihazlar için ikinci bir Cora Max ekleyin.</em> Cihaz eklenmez. <strong>TAMAM</strong>'a dokunun.</li></ul>
-<p>Cora akvaryumun birincil Cora Max'ini, seçilmemişse en çok yeri olan Cora Max'i kontrol eder. Ayrıntılar <a href="/tr/help/mobile-multi-device">Birden fazla Cora cihazı</a> sayfasında.</p>
+<p>Cora akvaryumun birincil Cora Max'ini, seçilmemişse en çok yeri olan Cora Max'i kontrol eder. Ayrıntılar <a href="/tr/help/mobile-multi-device#primary-cora-max">Birden fazla Cora cihazı</a> sayfasında.</p>
 <h2 id="pairing-a-cora-max">Cora Max eşleştirme</h2>
 <figure class="shot phone"><button type="button" class="zoom" aria-label="Büyüt: Cora Mobile&#x27;da cihaz arayan Cora&#x27;nızı Ekleyin ekranı"><img src="/help/img/mobile-add-device.webp" alt="Cora Mobile&#x27;da cihaz arayan Cora&#x27;nızı Ekleyin ekranı" width="620" height="1323" loading="lazy" decoding="async"></button><figcaption>Cihaz Ekle, ardından Cora. Cora Mobile Wi-Fi'ınızda ve Bluetooth üzerinden arar, altta IP Adresini Elle Girin bulunur.</figcaption></figure>
 <p>Yeni bir Cora Max'i <strong>Cora</strong> ile eşleştirirsiniz. Wi-Fi'ınızda zaten bulunan üniteleri ya da yakındakileri Bluetooth üzerinden bulur. Sizinkini bulamazsa aynı ekrandaki <strong>IP Adresini Elle Girin</strong>'i kullanın. Adım adım anlatım <a href="/tr/help/max-setup">Cora Max'i kurma</a> sayfasında.</p>
@@ -208,7 +208,7 @@
 <p>Canlı bağlantıyı kaybedersiniz. Cihaz bir üretici hesabı üzerinden bağlandıysa kayıtlı giriş bilgisini de kaybedersiniz, bu yüzden onu yeniden eklerseniz tekrar giriş yapmanız gerekir.</p>
 <aside class="cal cal-tip"><p class="cal-t">Gürültülü bir cihazı kaldırmadan susturun</p><p>Bir cihaz iyi çalışıyor ama çok sık uyarı veriyorsa <a href="/tr/help/mobile-alerts">Uyarılar ve eşikler</a> içinde eşiklerini ya da bildirim ayarlarını değiştirin. Bağlantıyı ve veriyi korursunuz, gürültü de durur.</p></aside>
       <nav class="pn" aria-label="Okumaya devam edin"><a class="pn-p" href="/tr/help/mobile-sharing"><span>Önceki</span><b>Akvaryumunuzu paylaşın</b></a><a class="pn-n" href="/tr/help/mobile-connections"><span>Sonraki</span><b>Ekipmanınızı bağlama</b></a></nav>
-      <p class="stamp">Cora Max 0.28.217 ve Cora Mobile 0.5.125 için yazılmıştır. Son kontrol: 2026-10-17.</p>
+      <p class="stamp">Cora Max 0.28.219 ve Cora Mobile 1.4.1 için yazılmıştır. Son kontrol: 2026-10-17.</p>
       <p class="ask">Sorun devam ediyor mu? <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> adresine yazın, yardımcı olalım.</p>
     </article>
   </main>
@@ -599,7 +599,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/tr/help/search.json?v=32184d0520').then(function (r) { return r.json(); })
+    fetch('/tr/help/search.json?v=f1ddfa4ac9').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "tr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Arama \u015fu anda kullan\u0131lam\u0131yor. Men\u00fcy\u00fc kullan\u0131n." + '</li>';

@@ -171,7 +171,7 @@
       <nav class="crumbs" aria-label="Percorso di navigazione"><ol><li><a href="/it/help/">Aiuto</a></li><li><a href="/it/help/max-setup" lang="en">Cora Max</a></li><li><a href="/it/help/max-alerts">Avvisi e automazione</a></li></ol></nav>
       <h1>Avvisi su Cora Max</h1>
       <p class="twin">In Cora Mobile: <a href="/it/help/mobile-alerts">Avvisi e soglie</a></p>
-      <nav class="toc" aria-label="In questa pagina"><p>In questa pagina</p><ul><li><a href="#quando-compare-un-avviso">Quando compare un avviso</a></li><li><a href="#gli-avvisi-nella-barra-in-alto">Gli avvisi nella barra in alto</a></li><li><a href="#la-casella-delle-notifiche">La casella delle notifiche</a></li><li><a href="#modificare-le-soglie">Modificare le soglie</a></li><li><a href="#doser-alerts">Avvisi di dispositivi e scorte</a></li><li><a href="#suono-degli-avvisi-avvisi-parlati-e-risveglio-dello-schermo">Suono degli avvisi, avvisi parlati e risveglio dello schermo</a></li></ul></nav>
+      <nav class="toc" aria-label="In questa pagina"><p>In questa pagina</p><ul><li><a href="#quando-compare-un-avviso">Quando compare un avviso</a></li><li><a href="#gli-avvisi-nella-barra-in-alto">Gli avvisi nella barra in alto</a></li><li><a href="#la-casella-delle-notifiche">La casella delle notifiche</a></li><li><a href="#editing-thresholds">Modificare le soglie</a></li><li><a href="#doser-alerts">Avvisi di dispositivi e scorte</a></li><li><a href="#suono-degli-avvisi-avvisi-parlati-e-risveglio-dello-schermo">Suono degli avvisi, avvisi parlati e risveglio dello schermo</a></li></ul></nav>
 <p>Questa pagina spiega cosa fa Cora Max quando qualcosa richiede la tua attenzione, e cosa puoi cambiare dallo schermo a parete. Come funzionano intervalli, regole e notifiche sul telefono è spiegato in <a href="/it/help/mobile-alerts">Avvisi e soglie</a>.</p>
 <h2 id="quando-compare-un-avviso">Quando compare un avviso</h2>
 <p>Quando una lettura esce dall'intervallo, un dispositivo segnala un guasto, una dose viene saltata o una scorta sta finendo, Cora Max mostra l'avviso al centro dello schermo. Sotto ci sono tre pulsanti.</p>
@@ -184,7 +184,7 @@
 <ul><li>Tocca un'etichetta per riportare quell'avviso al centro dello schermo.</li><li>Tocca <strong>+2</strong> per aprire <strong>Allarmi attivi</strong>, l'elenco di tutto quello che è attivo. Toccane uno nell'elenco per aprirlo.</li></ul>
 <h2 id="la-casella-delle-notifiche">La casella delle notifiche</h2>
 <p><strong>Impostazioni → Impostazioni Cora Max → Cronologia notifiche</strong> è la casella di tutto il tuo account. Contiene ogni briefing, allarme e comunicazione dell'account per il tuo impianto, compresi quelli che questo schermo non ha mostrato e tutto quello che il telefono si è perso. Quando una lettura esce dall'intervallo e poi ci rientra, vedi entrambe le cose.</p>
-<h2 id="modificare-le-soglie">Modificare le soglie</h2>
+<h2 id="editing-thresholds">Modificare le soglie</h2>
 <figure class="shot"><button type="button" class="zoom" aria-label="Ingrandisci: Le impostazioni di una vasca su Cora Max, con Soglie di avviso, Unità e Cora Max principale"><img src="/help/img/max-tank-settings.webp" alt="Le impostazioni di una vasca su Cora Max, con Soglie di avviso, Unità e Cora Max principale" width="1280" height="800" loading="lazy" decoding="async"></button><figcaption>Prima Soglie di avviso e Unità, poi il Cora Max principale di questa vasca.</figcaption></figure>
 <p>Tocca il nome della vasca nella barra in alto e scegli <strong>Soglie di avviso</strong>, oppure vai in <strong>Impostazioni → [la tua vasca] → Soglie di avviso</strong>. Entrambi aprono gli stessi intervalli che vedi sul telefono, e una modifica fatta qui vale ovunque.</p>
 <p>Puoi anche cambiare una soglia tenendo premuto il suo widget sulla dashboard, oppure a voce: <em>"Hey Cora, imposta l'avviso del pH da 7,9 a 8,4."</em> Cora ti dice la modifica e aspetta il tuo OK.</p>
@@ -200,7 +200,7 @@
 <p>Per far sì che un Cora Max non mostri proprio gli avvisi sul suo schermo, apri Cora Mobile, vai in <strong>Dispositivi →</strong> il tuo Cora Max e spegni <strong>Avvisi</strong>. La cronologia delle notifiche e le notifiche del telefono non cambiano.</p>
 <aside class="cal cal-note"><p class="cal-t">Un solo avviso per tutto l'account</p><p>Ogni dispositivo non genera una sua copia dell'avviso. Cora Max, il telefono e qualsiasi altro schermo mostrano lo stesso avviso, che si chiude su tutti quando la lettura torna nell'intervallo.</p></aside>
       <nav class="pn" aria-label="Continua a leggere"><a class="pn-p" href="/it/help/max-devices"><span>Precedente</span><b>Dispositivi e salute dei dispositivi</b></a><a class="pn-n" href="/it/help/max-automation"><span>Successivo</span><b>Scene su Cora Max</b></a></nav>
-      <p class="stamp">Scritto per Cora Max 0.28.217 e Cora Mobile 0.5.125. Ultimo controllo il 2026-10-13.</p>
+      <p class="stamp">Scritto per Cora Max 0.28.219 e Cora Mobile 1.4.1. Ultimo controllo il 2026-10-13.</p>
       <p class="ask">Ancora bloccato? Scrivi a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, ti aiutiamo.</p>
     </article>
   </main>
@@ -591,7 +591,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/it/help/search.json?v=5d2fb8db12').then(function (r) { return r.json(); })
+    fetch('/it/help/search.json?v=e9a867e72b').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "it"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La ricerca non \u00e8 disponibile. Usa la navigazione." + '</li>';

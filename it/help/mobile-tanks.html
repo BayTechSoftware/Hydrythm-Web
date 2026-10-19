@@ -180,7 +180,7 @@
 <ul><li>Per aggiungere attrezzatura nuova, vai in <strong>Dispositivi → Aggiungi dispositivo</strong>, scegli la marca e scegli questa vasca. Vedi <a href="/it/help/mobile-connections">Collegare la tua attrezzatura</a>.</li><li>Per spostare attrezzatura che hai già, apri il dispositivo nella scheda <strong>Dispositivi</strong> e cambia la sua vasca. Vedi <a href="/it/help/mobile-devices">Aggiungere, modificare e rimuovere dispositivi</a>.</li><li>Per mostrare la vasca su Cora Max, vai in <strong>Dispositivi</strong>, apri il tuo Cora Max e tocca <strong>Aggiungi vasca</strong> sotto <strong>Vasche assegnate</strong>. Un Cora Max mostra fino a 4 vasche.</li></ul>
 <aside class="cal cal-tip"><p class="cal-t">La vasca nuova sta ancora facendo il ciclo?</p><p>Tocca <strong>Stai avviando una nuova vasca?</strong> sulla sua dashboard prima di registrare un test o collegare attrezzatura. La scheda compare solo su una vasca senza nessuna lettura. Di più in <a href="/it/help/mobile-journeys">Percorsi guidati</a>.</p></aside>
 <h2 id="switching-between-tanks">Passare da una vasca all'altra</h2>
-<ul><li><strong>Dashboard</strong>: scorri a sinistra o a destra. I puntini in alto mostrano in quale vasca sei.</li><li><strong>Impostazioni</strong>: ogni vasca ha la sua riga. Toccane una per aprire le impostazioni di quella vasca, come <strong>Soglie di avviso</strong>, <strong>Mappatura parametri</strong> e <strong>Unità</strong>.</li><li><strong>Assistente</strong> e <strong>Intelligence</strong>: scegli la vasca in alto nella schermata. Vedi <a href="/it/help/mobile-assistant">Fare domande a Cora</a>.</li><li>Una notifica su una vasca apre la dashboard di quella vasca.</li></ul>
+<ul><li><strong>Dashboard</strong>: scorri a sinistra o a destra. I puntini in alto mostrano in quale vasca sei.</li><li><strong>Impostazioni</strong>: ogni vasca ha la sua riga. Toccane una per aprire le impostazioni di quella vasca, come <strong>Soglie di avviso</strong>, <strong>Mappatura parametri</strong> e <strong>Unità</strong>.</li><li><strong>Assistente</strong> e <strong>Intelligence</strong>: scegli la vasca in alto nella schermata. Vedi <a href="/it/help/mobile-assistant#pick-a-tank-first">Fare domande a Cora</a>.</li><li>Una notifica su una vasca apre la dashboard di quella vasca.</li></ul>
 <p>Su Cora Max, la Reef Room mostra tutte le vasche una accanto all'altra. Vedi <a href="/it/help/max-reef-room">La Reef Room</a>.</p>
 <h2 id="changing-the-order">Cambiare l'ordine</h2>
 <p>Vai in <strong>Impostazioni</strong> e tocca <strong>Riordina vasche</strong>, poi trascina le vasche nell'ordine che vuoi. Puoi anche trascinare una vasca dalla sua maniglia nell'elenco della schermata Impostazioni. <strong>Riordina vasche</strong> funziona solo quando hai almeno due vasche.</p>
@@ -199,7 +199,7 @@
 <p>Vai in <strong>Impostazioni</strong> e tocca <strong>Vasche rimosse</strong>. La riga compare solo quando hai una vasca rimossa. Tocca <strong>Ripristina</strong> accanto alla vasca. Letture, diario e dispositivi tornano esattamente come erano.</p>
 <p>Cora Mobile non ha un modo per eliminare definitivamente una singola vasca. L'unico modo per eliminare i dati di una vasca è eliminare il tuo account. Vedi <a href="/it/help/mobile-data-export">I tuoi dati</a>.</p>
       <nav class="pn" aria-label="Continua a leggere"><a class="pn-p" href="/it/help/mobile-tank-profile"><span>Precedente</span><b>Il profilo della tua vasca</b></a><a class="pn-n" href="/it/help/mobile-account"><span>Successivo</span><b>Accesso e recupero dell&#x27;account</b></a></nav>
-      <p class="stamp">Scritto per Cora Max 0.28.217 e Cora Mobile 0.5.125. Ultimo controllo il 2026-10-18.</p>
+      <p class="stamp">Scritto per Cora Max 0.28.219 e Cora Mobile 1.4.1. Ultimo controllo il 2026-10-18.</p>
       <p class="ask">Ancora bloccato? Scrivi a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, ti aiutiamo.</p>
     </article>
   </main>
@@ -590,7 +590,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/it/help/search.json?v=5d2fb8db12').then(function (r) { return r.json(); })
+    fetch('/it/help/search.json?v=e9a867e72b').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "it"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La ricerca non \u00e8 disponibile. Usa la navigazione." + '</li>';

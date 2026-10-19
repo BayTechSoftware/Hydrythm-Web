@@ -2,7 +2,7 @@
 title: Guida ai widget
 description: Tutti i tipi di widget della dashboard di Cora Mobile, da valore, indicatore, grafico, stato e presa ai riquadri dei dispositivi, e quando usare ognuno.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-18
 order: 9
 group: Your dashboard
 ---

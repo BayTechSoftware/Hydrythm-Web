@@ -129,7 +129,7 @@ In questo momento niente su questa vasca sta leggendo la tua attrezzatura Red Se
 
 Può essere normale. AquaWiz lascia che Cora legga il suo cloud solo ogni 12 ore, quindi senza un Cora Max una lettura può avere fino a mezza giornata. Apri la pagina del dispositivo in Cora Mobile: mostra quando è stata misurata la lettura e da dove viene, e **Leggi ora** ne chiede una fresca (al massimo una volta ogni 15 minuti).
 
-Se hai un Cora Max (dal prossimo aggiornamento di Cora Max) e la scheda dice ancora **Dal cloud AquaWiz, ogni 12 ore**:
+Se hai un Cora Max e la scheda dice ancora **Dal cloud AquaWiz, ogni 12 ore**:
 
 - Controlla che il controller sia nel raggio Wi-Fi del Cora Max principale della vasca.
 - Controlla nell'app AquaWiz che il firmware del controller sia aggiornato; il firmware più vecchio non ha accesso locale.
@@ -243,6 +243,14 @@ Dopo aver perso la connessione, Cora Max aspetta un po' di più prima di ogni nu
 
 1. Dagli circa un minuto dopo che la rete è tornata.
 2. Se ancora non si è ricollegato, controlla **Impostazioni → Impostazioni Cora Max → Wi-Fi**.
+
+### Cora Max dice "Il Bluetooth ha smesso di funzionare" {#bluetooth-stopped-working}
+
+Una scheda con questo titolo copre lo schermo: *Cora Max non riesce a raggiungere i tuoi dispositivi Bluetooth (luci, pompe, sensori). Riavviare Cora Max risolve il problema.* Compare quando il Bluetooth di Cora Max si è fermato e solo un riavvio lo riporta.
+
+1. Tocca **Riavvia ora**. Cora Max si riavvia.
+2. Se non è il momento, tocca **Più tardi**. La scheda sparisce per 30 minuti e torna finché il problema dura.
+3. Se non si riavvia nulla quando tocchi **Riavvia ora**, riavvia Cora Max spegnendo e riaccendendo l'alimentazione.
 
 ### Rinominare un Cora Max dal telefono non cambia quello che mostra {#renaming-a-cora-max-on-the-phone-doesnt-change-what-the-tabl}
 

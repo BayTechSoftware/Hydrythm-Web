@@ -32,7 +32,7 @@ Monitorowanie akwarium jest bezpłatne i bez limitu. Płatne plany dają większ
 
 Gdy limit się wyczerpie, nadal możesz czytać wszystko, co Cora już dla Ciebie przygotowała.
 
-## Okres próbny
+## Okres próbny {#the-trial}
 
 Twój **30-dniowy okres próbny Advanced zaczyna się w chwili założenia konta**. Nie czeka na pierwsze użycie funkcji i nie wymaga karty. **Konto i subskrypcja** pokazuje go jako **Okres próbny Cora Advanced**, z datą zakończenia.
 
@@ -48,7 +48,7 @@ Okres próbny obejmuje Reef Buddy i **Zaprojektuj z AI**. Jego limity są mniejs
 
 Gdy się skończy, konto wraca do planu Free. **Nic nie zostaje usunięte.** Nadal możesz czytać każdy odczyt, wpis w dzienniku, raport i podsumowanie, które masz.
 
-## Płatne plany
+## Płatne plany {#paid-tiers}
 
 Są trzy plany, **Essential**, **Advanced** i **Expert**, każdy z płatnością miesięczną albo roczną. Ustawienia pokazują je jako Cora Essential, Cora Advanced i Cora Expert. Aktualne ceny znajdziesz w Cora Mobile i w sklepie z aplikacjami, bo tam płacisz.
 
@@ -112,7 +112,7 @@ Liczniki zaczynają się od nowa na początku każdego miesiąca kalendarzowego.
 
 Żeby przejść wyżej, użyj **Ulepsz plan** albo **Ulepsz do Expert** jak wyżej. Żeby przejść niżej albo zmienić płatność miesięczną na roczną lub odwrotnie, użyj **Zarządzaj subskrypcją**. Zmiany przechodzą przez App Store albo Google Play i podlegają tym samym zasadom co każda inna subskrypcja w telefonie, w tym zasadom zwrotów i anulowania danego sklepu.
 
-## Anulowanie
+## Anulowanie {#cancelling}
 
 Anulujesz w sklepie, w którym płacisz. Nie da się anulować w Corze. Plan działa do końca opłaconego okresu, a potem wraca do Free.
 

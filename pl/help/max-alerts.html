@@ -171,7 +171,7 @@
       <nav class="crumbs" aria-label="Ścieżka nawigacji"><ol><li><a href="/pl/help/">Pomoc</a></li><li><a href="/pl/help/max-setup" lang="en">Cora Max</a></li><li><a href="/pl/help/max-alerts">Alerty i automatyzacja</a></li></ol></nav>
       <h1>Alerty na Cora Max</h1>
       <p class="twin">W Cora Mobile: <a href="/pl/help/mobile-alerts">Alerty i progi</a></p>
-      <nav class="toc" aria-label="Na tej stronie"><p>Na tej stronie</p><ul><li><a href="#gdy-pojawia-sie-alert">Gdy pojawia się alert</a></li><li><a href="#alerty-na-gornym-pasku">Alerty na górnym pasku</a></li><li><a href="#skrzynka-powiadomien">Skrzynka powiadomień</a></li><li><a href="#edytowanie-progow">Edytowanie progów</a></li><li><a href="#doser-alerts">Alerty urządzeń i zasobów</a></li><li><a href="#dzwiek-alertu-alerty-glosowe-i-wybudzanie-ekranu">Dźwięk alertu, alerty głosowe i wybudzanie ekranu</a></li></ul></nav>
+      <nav class="toc" aria-label="Na tej stronie"><p>Na tej stronie</p><ul><li><a href="#gdy-pojawia-sie-alert">Gdy pojawia się alert</a></li><li><a href="#alerty-na-gornym-pasku">Alerty na górnym pasku</a></li><li><a href="#skrzynka-powiadomien">Skrzynka powiadomień</a></li><li><a href="#editing-thresholds">Edytowanie progów</a></li><li><a href="#doser-alerts">Alerty urządzeń i zasobów</a></li><li><a href="#dzwiek-alertu-alerty-glosowe-i-wybudzanie-ekranu">Dźwięk alertu, alerty głosowe i wybudzanie ekranu</a></li></ul></nav>
 <p>Ta strona opisuje, co robi Cora Max, gdy coś wymaga Twojej uwagi, i co możesz zmienić przy ścianie. Jak działają zakresy, reguły i powiadomienia w telefonie, opisują <a href="/pl/help/mobile-alerts">Alerty i progi</a>.</p>
 <h2 id="gdy-pojawia-sie-alert">Gdy pojawia się alert</h2>
 <p>Gdy odczyt wyjdzie poza zakres, urządzenie zgłosi usterkę, dawka zostanie pominięta albo kończy się zasób, Cora Max pokazuje alert na środku ekranu. Pod nim są trzy przyciski.</p>
@@ -184,7 +184,7 @@
 <ul><li>Dotknij etykiety, żeby przywrócić ten alert na środek ekranu.</li><li>Dotknij <strong>+2</strong>, żeby otworzyć <strong>Aktywne alarmy</strong>, listę wszystkiego, co jest aktywne. Dotknij pozycji na liście, żeby ją otworzyć.</li></ul>
 <h2 id="skrzynka-powiadomien">Skrzynka powiadomień</h2>
 <p><strong>Ustawienia → Ustawienia Cora Max → Historia powiadomień</strong> to skrzynka całego Twojego konta. Zawiera każde podsumowanie, alarm i komunikat konta dla Twojego systemu, także te, których nie zgłosił ten ekran, i wszystko, co ominęło telefon. Gdy odczyt wyjdzie poza zakres i wróci, zobaczysz oba zdarzenia.</p>
-<h2 id="edytowanie-progow">Edytowanie progów</h2>
+<h2 id="editing-thresholds">Edytowanie progów</h2>
 <figure class="shot"><button type="button" class="zoom" aria-label="Powiększ: Ustawienia akwarium na Cora Max, z Progami alertów, Jednostkami i Głównym Cora Max"><img src="/help/img/max-tank-settings.webp" alt="Ustawienia akwarium na Cora Max, z Progami alertów, Jednostkami i Głównym Cora Max" width="1280" height="800" loading="lazy" decoding="async"></button><figcaption>Najpierw Progi alertów i Jednostki, potem Główny Cora Max dla tego akwarium.</figcaption></figure>
 <p>Dotknij nazwy akwarium na górnym pasku i wybierz <strong>Progi alertów</strong> albo przejdź do <strong>Ustawienia → [Twoje akwarium] → Progi alertów</strong>. Oba otwierają te same zakresy, które widzisz w telefonie, a zmiana wprowadzona tutaj działa wszędzie.</p>
 <p>Próg możesz też zmienić, przytrzymując jego widżet na panelu, albo głosem: <em>„Hey Cora, ustaw alert pH na 7,9 do 8,4.”</em> Cora powie, jaka to zmiana, i poczeka na Twoje OK.</p>
@@ -200,7 +200,7 @@
 <p>Żeby Cora Max w ogóle nie pokazywał alertów na ekranie, otwórz Cora Mobile, przejdź do <strong>Urządzenia →</strong> Twój Cora Max i wyłącz <strong>Alerty</strong>. Historia powiadomień i powiadomienia w telefonie się nie zmieniają.</p>
 <aside class="cal cal-note"><p class="cal-t">Jeden alert dla całego konta</p><p>Urządzenia nie wywołują osobnych kopii alertu. Cora Max, telefon i każdy inny ekran pokazują ten sam alert, który znika na wszystkich, gdy odczyt wróci do zakresu.</p></aside>
       <nav class="pn" aria-label="Czytaj dalej"><a class="pn-p" href="/pl/help/max-devices"><span>Poprzedni</span><b>Urządzenia i ich stan</b></a><a class="pn-n" href="/pl/help/max-automation"><span>Następny</span><b>Sceny na Cora Max</b></a></nav>
-      <p class="stamp">Napisano dla Cora Max 0.28.217 i Cora Mobile 0.5.125. Ostatnio sprawdzono 2026-10-13.</p>
+      <p class="stamp">Napisano dla Cora Max 0.28.219 i Cora Mobile 1.4.1. Ostatnio sprawdzono 2026-10-13.</p>
       <p class="ask">Wciąż masz problem? Napisz na <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, pomożemy.</p>
     </article>
   </main>
@@ -591,7 +591,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/pl/help/search.json?v=594e6c5535').then(function (r) { return r.json(); })
+    fetch('/pl/help/search.json?v=303849d9da').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "pl"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Wyszukiwanie jest niedost\u0119pne. U\u017cyj menu." + '</li>';

@@ -202,7 +202,7 @@
 <h2 id="dose">Dosierung</h2>
 <p>Eine Gabe Flüssigkeit aus einem DŌS-Kopf oder einer anderen Dosierpumpe, mit dem Produkt und der Menge, die du festlegst. Cora protokolliert jede Dosierung, damit Verbrauch und Verlauf zusammenpassen.</p>
 <h2 id="dos-head">DŌS-Kopf</h2>
-<p>Eine Pumpe eines Neptune™ DŌS-Dosierers. Du kannst jedem Kopf eine Aufgabe geben (Wasserwechsel, Kalkwasser, Reaktor, Fütterung und mehr), ihn in Litern oder mit großen Behältern verfolgen und eigene Grenzen setzen. Verliert ein Kopf mitten in einer Dosierung die Verbindung, löst Cora eine Wiederherstellungswarnung aus. Siehe <a href="/de/help/mobile-device-control">Deine Ausrüstung steuern</a>.</p>
+<p>Eine Pumpe einer Neptune™ DŌS-Dosierpumpe. Du kannst jedem Kopf eine Aufgabe geben (Wasserwechsel, Kalkwasser, Reaktor, Fütterung und mehr), ihn in Litern oder mit großen Behältern verfolgen und eigene Grenzen setzen. Verliert ein Kopf mitten in einer Dosierung die Verbindung, löst Cora eine Wiederherstellungswarnung aus. Siehe <a href="/de/help/mobile-device-control">Deine Ausrüstung steuern</a>.</p>
 <h2 id="removed-tank">Entferntes Becken</h2>
 <p>Ein Becken, das du entfernt hast. Seine Daten bleiben erhalten, und du kannst es unter <strong>Einstellungen → Entfernte Becken</strong> zurückholen. Siehe <a href="/de/help/mobile-tanks">Deine Becken verwalten</a>. Es wird nie angezeigt, sendet keine Warnungen oder Erinnerungen, und seine Automationen stoppen.</p>
 <h2 id="feed-mode">Fütterungsmodus</h2>
@@ -232,7 +232,7 @@
 <h2 id="design-with-ai">Mit KI gestalten</h2>
 <p>Eine Taste im Dashboard-Editor. Cora schlägt ein ganzes Layout vor, ausgehend von dem, was das Becken meldet und verknüpft hat. Das funktioniert mit einem kostenpflichtigen Abo und während der Testphase und braucht eingeschaltetes Teilen von Daten mit der KI. <strong>Vorlagen</strong> sind fertige Layouts zum Starten. Siehe <a href="/de/help/max-dashboard-editing">Das Cora Max-Dashboard bearbeiten</a>.</p>
 <h2 id="neptune-apex">Neptune Apex</h2>
-<p>Der Controller von Neptune Systems, mit seinem DŌS-Dosierer und dem Trident-Tester. Cora liest ihn in deinem Heimnetz. Siehe <a href="/de/help/equipment-by-brand">Ausrüstung nach Marke</a>.</p>
+<p>Der Controller von Neptune Systems, mit seiner DŌS-Dosierpumpe und dem Trident-Tester. Cora liest ihn in deinem Heimnetz. Siehe <a href="/de/help/equipment-by-brand">Ausrüstung nach Marke</a>.</p>
 <h2 id="parameter-mapping">Parameterzuordnung</h2>
 <p>Hier sagst du Cora, was jede Sonde an einem Controller misst und welches Gerät welchen Messwert liefert. Siehe <a href="/de/help/mobile-probes">Parameterzuordnung und Sonden</a>.</p>
 <h2 id="primary-cora-max">Primäres Cora Max</h2>
@@ -274,7 +274,7 @@
 <h2 id="recovery-pin">Wiederherstellungs-PIN</h2>
 <p>Eine sechsstellige Zahl, die Cora Max am Ende der Einrichtung zeigt. Nur mit ihr kommst du auf diesem Cora Max in die Wiederherstellung. Du findest sie auch bei den Details des Cora Max in Cora Mobile. Siehe <a href="/de/help/max-updates">Updates und Wiederherstellung</a>.</p>
       <nav class="pn" aria-label="Weiterlesen"><a class="pn-p" href="/de/help/faq"><span>Zurück</span><b>Häufige Fragen</b></a></nav>
-      <p class="stamp">Geschrieben für Cora Max 0.28.217 und Cora Mobile 0.5.125. Zuletzt geprüft am 2026-10-18.</p>
+      <p class="stamp">Geschrieben für Cora Max 0.28.219 und Cora Mobile 1.4.1. Zuletzt geprüft am 2026-10-18.</p>
       <p class="ask">Kommst du nicht weiter? Schreib eine E-Mail an <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, wir helfen dir.</p>
     </article>
   </main>
@@ -665,7 +665,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/de/help/search.json?v=eaa607bd77').then(function (r) { return r.json(); })
+    fetch('/de/help/search.json?v=2242ca5a10').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "de"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Die Suche ist nicht verf\u00fcgbar. Nutze die Navigation." + '</li>';

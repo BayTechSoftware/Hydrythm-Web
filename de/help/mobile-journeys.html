@@ -171,14 +171,14 @@
       <nav class="crumbs" aria-label="Navigationspfad"><ol><li><a href="/de/help/">Hilfe</a></li><li><a href="/de/help/mobile-setup" lang="en">Cora Mobile</a></li><li><a href="/de/help/mobile-reef-buddy">Intelligenz</a></li></ol></nav>
       <h1>Geführte Journeys</h1>
       
-      <nav class="toc" aria-label="Auf dieser Seite"><p>Auf dieser Seite</p><ul><li><a href="#die-einfahr-journey-starten">Die Einfahr-Journey starten</a></li><li><a href="#ein-neues-becken-einfahren">Ein neues Becken einfahren</a></li><li><a href="#wenn-der-zyklus-fertig-ist">Wenn der Zyklus fertig ist</a></li><li><a href="#ein-problem-durcharbeiten">Ein Problem durcharbeiten</a></li><li><a href="#eine-journey-verwerfen">Eine Journey verwerfen</a></li></ul></nav>
+      <nav class="toc" aria-label="Auf dieser Seite"><p>Auf dieser Seite</p><ul><li><a href="#die-einfahr-journey-starten">Die Einfahr-Journey starten</a></li><li><a href="#cycling-a-new-tank">Ein neues Becken einfahren</a></li><li><a href="#wenn-der-zyklus-fertig-ist">Wenn der Zyklus fertig ist</a></li><li><a href="#ein-problem-durcharbeiten">Ein Problem durcharbeiten</a></li><li><a href="#eine-journey-verwerfen">Eine Journey verwerfen</a></li></ul></nav>
 <p>In einer Journey führt dich Cora über Tage oder Wochen durch etwas. Es gibt zwei Arten, und sie funktionieren unterschiedlich: das <strong>Einfahren</strong> eines neuen Beckens und das Durcharbeiten eines <strong>Problems</strong>.</p>
 <h2 id="die-einfahr-journey-starten">Die Einfahr-Journey starten</h2>
 <p>Geführtes Einfahren ist in jedem Abo kostenlos. Du startest es auf dem Dashboard des Beckens.</p>
 <ol><li>Öffne das neue Becken im Tab <strong>Dashboard</strong>. Eine Karte fragt <strong>Startest du ein neues Becken?</strong></li><li>Tippe darauf. Beim ersten Mal erklärt Cora <strong>Geführtes Einfahren</strong>: Während das Becken einfährt, konzentriert sich dein Dashboard auf Ammoniak, Nitrit und Nitrat und pausiert die üblichen Riff-Prüfungen, die noch nicht gelten.</li><li>Tippe auf <strong>Verstanden: Einfahren starten</strong>. Die Journey öffnet sich.</li></ol>
 <aside class="cal cal-warning"><p class="cal-t">Starte sie, bevor du etwas einträgst oder Ausrüstung verknüpfst</p><p>Die Karte <strong>Startest du ein neues Becken?</strong> erscheint nur bei einem Becken ganz ohne Messwerte. Sobald du einen Test einträgst oder ein Gerät verknüpfst, das Messwerte schickt, verschwindet die Karte, und es gibt keinen anderen Weg, die Einfahr-Journey zu starten. Fährt dein Becken noch ein, starte zuerst die Journey und trag dann deinen ersten Test von dort aus ein.</p></aside>
 <p>Läuft sie, zeigt die Karte auf dem Dashboard <strong>Einfahren fortsetzen · Tag N</strong>. Tippe darauf, um zur Journey zurückzukehren. Steht dort <strong>Einfahren wieder aufnehmen</strong>, ist das Becken noch fürs Einfahren eingerichtet: Tippe darauf, um die Anleitung wieder zu öffnen.</p>
-<h2 id="ein-neues-becken-einfahren">Ein neues Becken einfahren</h2>
+<h2 id="cycling-a-new-tank">Ein neues Becken einfahren</h2>
 <p>Das ist für ein Becken, das noch nicht bereit für Besatz ist. Beim Einfahren wachsen die Bakterien heran, die giftiges Ammoniak in unbedenkliches Nitrat umwandeln, und die Journey begleitet diesen Prozess bis zum Ende.</p>
 <figure class="shot phone"><button type="button" class="zoom" aria-label="Vergrößern: Eine laufende Einfahr-Journey"><img src="/help/img/mobile-journeys.webp" alt="Eine laufende Einfahr-Journey" width="620" height="1347" loading="lazy" decoding="async"></button><figcaption>Die Phase, die drei Zahlen, die sie bestimmen, und wie lange dein letzter Test her ist.</figcaption></figure>
 <p>Der Journey-Bildschirm, <strong>Neues Becken: Einfahren</strong>, hat <strong>Deine Einrichtungs-Checkliste</strong>, mit den Schritten, um das Becken vorzubereiten und zu impfen, und einem kurzen Warum und Wie zu jedem. Hak sie ab, während du vorankommst.</p>
@@ -206,7 +206,7 @@
 <h2 id="eine-journey-verwerfen">Eine Journey verwerfen</h2>
 <p>Ist eine Problem-Journey nicht hilfreich, verwirf sie. Sie erscheint dann nicht mehr, und Cora hält das Verwerfen fest, damit es ähnliche Journeys seltener anbietet.</p>
       <nav class="pn" aria-label="Weiterlesen"><a class="pn-p" href="/de/help/mobile-icp-health"><span>Zurück</span><b>ICP und Gesundheitsberichte</b></a><a class="pn-n" href="/de/help/mobile-settings"><span>Weiter</span><b>Cora Mobile-Einstellungen</b></a></nav>
-      <p class="stamp">Geschrieben für Cora Max 0.28.217 und Cora Mobile 0.5.125. Zuletzt geprüft am 2026-10-13.</p>
+      <p class="stamp">Geschrieben für Cora Max 0.28.219 und Cora Mobile 1.4.1. Zuletzt geprüft am 2026-10-13.</p>
       <p class="ask">Kommst du nicht weiter? Schreib eine E-Mail an <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, wir helfen dir.</p>
     </article>
   </main>
@@ -597,7 +597,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/de/help/search.json?v=eaa607bd77').then(function (r) { return r.json(); })
+    fetch('/de/help/search.json?v=2242ca5a10').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "de"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Die Suche ist nicht verf\u00fcgbar. Nutze die Navigation." + '</li>';

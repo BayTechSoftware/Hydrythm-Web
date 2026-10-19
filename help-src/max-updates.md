@@ -15,7 +15,7 @@ New versions download in the background as soon as they're out. They install ins
 
 You don't need to do anything to stay current.
 
-## Checking the version and update settings
+## Checking the version and update settings {#checking-the-version-and-update-settings}
 
 ![Network and updates on Cora Max](img/max-updates.webp "Firmware Update, in the NETWORK & UPDATES section of Cora Max Settings.")
 

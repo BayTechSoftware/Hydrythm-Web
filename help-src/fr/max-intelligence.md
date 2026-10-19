@@ -16,7 +16,7 @@ Chaque jour à votre **Heure du briefing**, une fois le briefing du jour prêt, 
 
 Pour le relire, touchez l’icône **Reef Buddy** dans la barre du haut. Un point sur l’icône veut dire que vous n’avez pas encore ouvert le briefing du jour. L’écran Reef Buddy complet se trouve dans le menu de l’aquarium.
 
-Réglez l’heure et l’interrupteur de lecture à voix haute dans **Réglages → Réglages Cora Max → REEF BUDDY**. L’**Heure du briefing** est la même sur tous les appareils de votre compte.
+Réglez l’heure et l’interrupteur de lecture à voix haute dans **Paramètres → Paramètres Cora Max → REEF BUDDY**. L’**Heure du briefing** est la même sur tous les appareils de votre compte.
 
 ## Reef Buddy
 
@@ -57,7 +57,7 @@ Vous importez les résultats depuis votre téléphone. Plus de détails dans [Ra
 
 Vous pouvez lancer et lire un rapport de santé au mur. Ouvrez **Rapports de santé** et touchez **Générer**. C’est la même évaluation que celle que fait votre téléphone à partir de vos paramètres, de vos résultats ICP et de votre journal, et son score fonctionne comme un score ICP.
 
-- Les rapports de santé nécessitent le partage de données avec l’IA. S’il est désactivé, Cora Max affiche **Partage des données requis**. Activez-le dans Cora Mobile sous **Réglages → Cora Assistant**.
+- Les rapports de santé nécessitent le partage de données avec l’IA. S’il est désactivé, Cora Max affiche **Partage des données requis**. Activez-le dans Cora Mobile sous **Paramètres → Cora Assistant**.
 - Chaque forfait comprend un nombre de rapports de santé par mois. Quand ils sont épuisés, vous voyez **Limite mensuelle atteinte** jusqu’au mois suivant. Plus de détails dans [Forfaits](/help/mobile-plans).
 
 ## Graphiques d’historique

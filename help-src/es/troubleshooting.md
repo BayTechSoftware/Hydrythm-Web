@@ -129,7 +129,7 @@ Es normal. Los ajustes propios de un dispositivo Red Sea solo se abren cuando tu
 
 Puede ser normal. AquaWiz solo deja que Cora lea su nube cada 12 horas, así que sin un Cora Max una lectura puede tener hasta medio día. Abre la página del dispositivo en Cora Mobile: muestra cuándo se midió la lectura y de dónde viene, y **Leer ahora** pide una nueva (como máximo cada 15 minutos).
 
-Si tienes un Cora Max (a partir de la próxima actualización de Cora Max) y la tarjeta sigue diciendo **Desde la nube de AquaWiz, cada 12 horas**:
+Si tienes un Cora Max y la tarjeta sigue diciendo **Desde la nube de AquaWiz, cada 12 horas**:
 
 - Comprueba que el controlador esté al alcance del Wi-Fi del Cora Max principal del acuario.
 - Comprueba en la app de AquaWiz que el firmware del controlador esté al día; el firmware más antiguo no tiene acceso local.
@@ -243,6 +243,14 @@ Después de perder la conexión, Cora Max espera un poco más antes de cada rein
 
 1. Dale más o menos un minuto después de que vuelva tu red.
 2. Si sigue sin conectarse, revisa **Ajustes → Ajustes de Cora Max → Wi-Fi**.
+
+### Cora Max dice "El Bluetooth dejó de funcionar" {#bluetooth-stopped-working}
+
+Una tarjeta con este título cubre la pantalla: *Cora Max no puede comunicarse con tus dispositivos Bluetooth (luces, bombas, sensores). Reiniciar Cora Max lo soluciona.* Aparece cuando el Bluetooth de Cora Max se ha detenido y solo un reinicio lo recupera.
+
+1. Toca **Reiniciar ahora**. Cora Max se reinicia.
+2. Si no es buen momento, toca **Más tarde**. La tarjeta desaparece durante 30 minutos y vuelve mientras dure el problema.
+3. Si no se reinicia nada al tocar **Reiniciar ahora**, reinicia Cora Max apagando y volviendo a encender su alimentación.
 
 ### Cambiar el nombre de un Cora Max en el teléfono no cambia lo que muestra {#renaming-a-cora-max-on-the-phone-doesnt-change-what-the-tabl}
 

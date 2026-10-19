@@ -185,7 +185,7 @@
 <h2 id="adding-and-arranging">Kutucuk ekleme ve yerleştirme</h2>
 <ol><li><strong>Bileşen ekle</strong>'yi açmak için boş bir hücreye (<strong>+</strong> gösterir) dokunun.</li><li><strong>TÜR</strong> altında kutucuğun türünü, ardından ne göstereceğini (bir ölçüm, bir priz, bir cihaz ya da bir sahne) seçin.</li><li><strong>BOYUT</strong> altında ne kadar büyük olacağını seçin. Bir kutucuk bir ya da iki hücre genişliğinde ve bir ya da iki hücre yüksekliğinde olabilir. Bir Grafik'in ayrıca bir <strong>ZAMAN ARALIĞI</strong> vardır. Bir dozaj pompası kutucuğunda <strong>Gün</strong> ya da <strong>Mililitre (mL)</strong> olarak <strong>Kalanı şu şekilde göster</strong> bulunur.</li><li><strong>Ekle</strong>'ye dokunun.</li></ol>
 <p>Hareketler düzenleyicinin üstünde listelenir: <strong>düzenlemek için bir kutucuğa dokunun</strong>, <strong>taşımak için uzun basın</strong> ve <strong>kaldırmak için ✕</strong>. <strong>Tümünü temizle</strong>, baştan başlayabilmeniz için ızgarayı boşaltır.</p>
-<p>Kutucuk türleri şunlardır: Değer, Gösterge, Grafik, Durum, Priz, Sahne, ReefBeat, Apex modülü ve Jecod™. Onları <a href="/tr/help/mobile-widgets">Widget rehberi</a> sayfasında bulursunuz. <strong>Sahne</strong> kutucuğu yalnızca Cora Max'te vardır. Tek dokunuşla bir <a href="/tr/help/max-automation">sahne</a> çalıştırır.</p>
+<p>Kutucuk türleri şunlardır: Değer, Gösterge, Grafik, Durum, Priz, Sahne, ReefBeat, Apex modülü ve Jecod™. <strong>Işık</strong>, <strong>Dalga pompası</strong> ve <strong>Pompa</strong>, markası ne olursa olsun akvaryumdaki tüm ışıkları, dalga pompalarını ve pompaları listeler; her biri yalnızca akvaryumda böyle bir cihaz varsa görünür. Kutucukları <a href="/tr/help/mobile-widgets">Widget rehberi</a> sayfasında bulursunuz. <strong>Sahne</strong> kutucuğu yalnızca Cora Max'te vardır. Tek dokunuşla bir <a href="/tr/help/max-automation">sahne</a> çalıştırır.</p>
 <h2 id="outlets-feed">Prizler ve Besleme</h2>
 <p>Düzenleyicideki <strong>Prizler ve Besleme</strong>, panonun altından yukarı kaydırdığınız çekmece olan <strong>Kontroller</strong>'de hangi prizlerin ve besleme döngülerinin görüneceğini seçer. Kutucuk eklemez. Hiçbirini seçmezseniz Kontroller hepsini listeler. Bir prizi ızgaranın kendisine koymak için bir <strong>Priz</strong> kutucuğu ekleyin. Ayrıntılar <a href="/tr/help/max-controls">Prizler ve kontroller</a> sayfasında.</p>
 <p>Bir cihazı akvaryumdan çıkardığınızda kutucukları panodan kendiliğinden kalkar, telefonunuzda ve o akvaryumdaki her Cora Max'te. Cihazı gitmiş bir kutucuk <strong>Bu cihaz artık bu akvaryumda değil</strong> yazar ve hiçbir şey açmaz.</p>
@@ -208,7 +208,7 @@
 <h2 id="multiple-tanks">Birden fazla akvaryum</h2>
 <p>Her akvaryumun kendi düzeni vardır. O akvaryuma geçin ve akvaryum menüsünden <strong>Pano düzeni</strong>'ni açın ya da <strong>Ayarlar → [o akvaryum] → Pano düzeni</strong> yolunu kullanın.</p>
       <nav class="pn" aria-label="Okumaya devam edin"><a class="pn-p" href="/tr/help/max-reef-room"><span>Önceki</span><b>Reef Room</b></a><a class="pn-n" href="/tr/help/max-controls"><span>Sonraki</span><b>Prizler ve kontroller</b></a></nav>
-      <p class="stamp">Cora Max 0.28.217 ve Cora Mobile 0.5.125 için yazılmıştır. Son kontrol: 2026-10-17.</p>
+      <p class="stamp">Cora Max 0.28.219 ve Cora Mobile 1.4.1 için yazılmıştır. Son kontrol: 2026-10-18.</p>
       <p class="ask">Sorun devam ediyor mu? <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> adresine yazın, yardımcı olalım.</p>
     </article>
   </main>
@@ -599,7 +599,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/tr/help/search.json?v=32184d0520').then(function (r) { return r.json(); })
+    fetch('/tr/help/search.json?v=f1ddfa4ac9').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "tr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Arama \u015fu anda kullan\u0131lam\u0131yor. Men\u00fcy\u00fc kullan\u0131n." + '</li>';
