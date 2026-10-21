@@ -14,7 +14,7 @@ Cora Max shows the same insights as your phone, on a screen big enough to read f
 
 Each day at your **Briefing time**, once today's briefing is ready, Reef Buddy appears over the dashboard. If **Reef Buddy briefing** is on, Cora reads it out loud. It closes by itself after ten minutes if nobody touches it, or close it yourself.
 
-To read it again, tap the **Reef Buddy** icon in the top bar. A dot on the icon means you haven't opened today's briefing yet. The full Reef Buddy screen is in the tank menu.
+To read it again, tap the **Reef Buddy** icon in the top bar. A dot on the icon means you haven't opened today's briefing yet. The full Reef Buddy screen is in the tank menu. On the overlay, **See all details** opens the full Reef Buddy page.
 
 Set the time and the read-aloud switch in **Settings → Cora Max Settings → REEF BUDDY**. The **Briefing time** is the same on every device on your account.
 
@@ -22,16 +22,16 @@ Set the time and the read-aloud switch in **Settings → Cora Max Settings → R
 
 ![The Reef Buddy screen on Cora Max, with today's daily health score, the insights and Since your last ICP](img/max-intelligence.webp "Today's score and summary, the insights, and what moved since your last ICP.")
 
-The Reef Buddy screen shows the Stability and Data scores, the summary and the insights behind them. What the scores mean is explained in [Reef Buddy](/help/mobile-reef-buddy).
+The Reef Buddy page is the same as on your phone: a headline and summary, **Today at a glance**, then every finding (insights, readings that moved and the daily observation) as one card with what Cora saw, the numbers and a small chart. The list is on the left and the chosen card on the right. What the scores mean is explained in [Reef Buddy](/help/mobile-reef-buddy).
 
 After you log a test or add an ICP result, the screen shows **New readings since this briefing** and an **Update briefing** button. Tap it to redo the briefing with the new numbers. It works once a day. After that the screen says *You can update the briefing once a day. Next update: tomorrow.*
 
 ### Acting on an insight
 
-Tap an insight to open it.
+Tap a card in the list to open it on the right.
 
 - **Why am I seeing this?** shows the readings, target and journal entries it's based on.
-- **Does this match what you see?** Answer **Confirmed**, **Already knew**, **Doesn't match** or **Not sure**, then say whether it was **Valuable** or **Not really**. Cora uses your answers to learn your tank.
+- The feedback row under every card: **Valuable**, **Not useful**, **Already knew** or **Doesn't match**. **Not useful** and **Doesn't match** hide that finding for 14 days, **Already knew** for 7. Warnings and critical findings are never hidden. On a reading that moved, **Doesn't match** offers to exclude the wrong readings. Cora uses your answers to learn your tank.
 
 When Cora doubts a reading, it shows it under **Worth a check**, for example a probe that may be drifting. There you can:
 

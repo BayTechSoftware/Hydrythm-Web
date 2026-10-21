@@ -27,18 +27,18 @@ Ein niedriger Daten-Wert heißt, dass Cora weniger Messwerte zur Verfügung hatt
 
 Danach kommt eine Zusammenfassung, ein kurzer Absatz, der die Schlagzeile mit deinen echten Werten und Bereichen erklärt.
 
-Dann kommen die Insights, eins für jeden Befund. Jedes hat eine Kategorie (etwa *Wasserchemie*) und einen Rhythmus (etwa *Täglich*), und du kannst es für Details aufklappen. Ein Chip oben im Abschnitt zeigt den Beckentyp und wie vollständig sein Profil ist. Beides beeinflusst, was Cora schließen kann.
+Danach kommt **Heute im Überblick** und darunter jeder Befund als eine Karte: ein Insight, ein Messwert, der sich bewegt hat, oder die tägliche Beobachtung. Jede Karte sagt, was Cora gesehen hat, zeigt die Zahlen und ein kleines Diagramm. Ein Befund, der sich wiederholt, zeigt *Weiterhin: ..., seit 12. Okt.* Ein Chip oben auf der Seite zeigt die Beckenart und wie vollständig ihr Profil ist. Beides beeinflusst, was Cora schlussfolgern kann.
 
 
 Cora filtert Insights, bevor sie dich erreichen. Ein Insight muss sich über mehrere Messwerte halten. Einer reicht nicht. Es muss dir außerdem etwas sagen, das ein einzelnes Diagramm nicht schon zeigen würde.
 
-Tippe auf die Karte auf dem Dashboard, um das ganze Briefing zu öffnen.
+Tippe auf die Karte auf dem Dashboard oder auf die tägliche Benachrichtigung, um die Reef Buddy-Seite für dieses Becken zu öffnen.
 
 ## Das Briefing wieder öffnen {#dismissing-the-card}
 
 Tippe auf **×**, um die heutige Karte vom Dashboard zu entfernen. Die von morgen kommt trotzdem.
 
-Um das heutige Briefing zu öffnen, nachdem du die Karte entfernt hast, tippe oben auf dem Dashboard auf die Zeitungstaste (**Reef Buddy tägliche Gesundheit**). Ein älteres Briefing öffnest du über seine Benachrichtigung.
+Um das heutige Briefing zu öffnen, nachdem du die Karte entfernt hast, tippe oben auf dem Dashboard auf die Zeitungstaste. Ein älteres Briefing öffnest du über seine Benachrichtigung.
 
 ## Das Briefing mit einem neuen Test aktualisieren {#updating-the-briefing-with-a-new-test}
 
@@ -100,17 +100,17 @@ Hast du **Cora Assistant erlauben, gespeicherte Beckendaten zu nutzen** ausgesch
 
 ## Ein Insight korrigieren {#correcting-an-insight}
 
-Du kannst auf jedes Insight auf eine von vier Arten reagieren.
+Unter jeder Karte gibt es eine Rückmeldezeile. Deine Antwort bestimmt, was in späteren Briefings zuerst erscheint.
 
 | Antwort | Bedeutung |
 |---|---|
-| **Bestätigt** | Es war richtig und nützlich |
-| **Stimmt nicht überein** | Es passt nicht zu dem, was du siehst |
-| **Schon gewusst** | Richtig, aber du wusstest es schon |
-| **Nicht sicher** | Du kannst es noch nicht beurteilen |
+| **Wertvoll** | Richtig und nützlich |
+| **Nicht nützlich** | Richtig, aber nicht für dich. Blendet diesen Befund 14 Tage aus |
+| **Schon gewusst** | Richtig, aber du wusstest es schon. Blendet ihn 7 Tage aus |
+| **Stimmt nicht überein** | Es passt nicht zu dem, was du siehst. Blendet ihn 14 Tage aus |
 
-Meldet Reef Buddy eine Drift, fragt es außerdem *War dieser Hinweis nützlich?* Du kannst mit **Hilfreich**, **Nicht hilfreich**, **Diese Änderung ist erwartet** oder **Messwert sieht falsch aus** antworten. Deine Rückmeldung bestimmt, was in späteren Briefings zuerst erscheint. Ein Insight auszublenden, gilt nur eine Weile. Besteht das Problem noch, kommt das Insight zurück.
+Bei einem Messwert, der sich bewegt hat, bietet **Stimmt nicht überein** außerdem an, die falschen Messwerte auszuschließen, damit Cora sie nicht mehr zählt. Das Ausblenden gilt nur eine Weile. Besteht das Problem danach noch, kommt der Befund zurück.
 
 :::note Ernste Befunde werden nie ausgeblendet
-Rückmeldungen beruhigen nur weniger ernste Insights. Warnungen und kritische Insights erscheinen weiter, egal was du vorher geantwortet hast.
+Warnungen und kritische Befunde erscheinen weiter, egal was du vorher geantwortet hast.
 :::

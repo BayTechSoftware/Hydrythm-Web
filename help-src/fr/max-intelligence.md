@@ -14,7 +14,7 @@ Cora Max affiche les mêmes analyses que votre téléphone, sur un écran assez 
 
 Chaque jour à votre **Heure du briefing**, une fois le briefing du jour prêt, Reef Buddy apparaît par-dessus le tableau de bord. Si **Briefing Reef Buddy** est activé, Cora le lit à voix haute. Il se ferme tout seul au bout de dix minutes si personne n’y touche, ou fermez-le vous-même.
 
-Pour le relire, touchez l’icône **Reef Buddy** dans la barre du haut. Un point sur l’icône veut dire que vous n’avez pas encore ouvert le briefing du jour. L’écran Reef Buddy complet se trouve dans le menu de l’aquarium.
+Pour le relire, touchez l’icône **Reef Buddy** dans la barre du haut. Un point sur l’icône veut dire que vous n’avez pas encore ouvert le briefing du jour. L’écran Reef Buddy complet se trouve dans le menu de l’aquarium. Sur la superposition, **Voir tous les détails** ouvre la page Reef Buddy complète.
 
 Réglez l’heure et l’interrupteur de lecture à voix haute dans **Paramètres → Paramètres Cora Max → REEF BUDDY**. L’**Heure du briefing** est la même sur tous les appareils de votre compte.
 
@@ -22,16 +22,16 @@ Réglez l’heure et l’interrupteur de lecture à voix haute dans **Paramètre
 
 ![L’écran Reef Buddy sur Cora Max, avec le score de santé du jour, les analyses et Depuis votre dernier ICP](img/max-intelligence.webp "Le score et le résumé du jour, les analyses, et ce qui a bougé depuis votre dernier ICP.")
 
-L’écran Reef Buddy affiche les scores de stabilité et de données, le résumé et les analyses qui les expliquent. La signification des scores est expliquée dans [Reef Buddy](/help/mobile-reef-buddy).
+La page Reef Buddy est la même que sur votre téléphone : un titre et un résumé, **Aujourd’hui en un coup d’œil**, puis chaque constat (analyses, mesures qui ont bougé et observation du jour) sous forme d’une carte avec ce que Cora a vu, les chiffres et un petit graphique. La liste est à gauche et la carte choisie à droite. Le sens des scores est expliqué dans [Reef Buddy](/help/mobile-reef-buddy).
 
 Après avoir noté un test ou ajouté un résultat ICP, l’écran affiche **Nouvelles mesures depuis ce briefing** et un bouton **Mettre à jour le briefing**. Touchez-le pour refaire le briefing avec les nouveaux chiffres. Cela fonctionne une fois par jour. Ensuite, l’écran indique *Vous pouvez mettre à jour le briefing une fois par jour. Prochaine mise à jour : demain.*
 
 ### Agir sur une analyse
 
-Touchez une analyse pour l’ouvrir.
+Touchez une carte de la liste pour l’ouvrir à droite.
 
-- **Pourquoi je vois ça ?** affiche les mesures, la cible et les entrées de journal sur lesquelles elle repose.
-- **Cela correspond-il à ce que vous observez ?** Répondez **Confirmé**, **Le savais déjà**, **Ne correspond pas** ou **Pas sûr**, puis dites si elle était **Utile** ou **Pas vraiment**. Cora utilise vos réponses pour apprendre à connaître votre aquarium.
+- **Pourquoi je vois ça ?** montre les mesures, la cible et les entrées de journal sur lesquelles elle repose.
+- La ligne de retour sous chaque carte : **Utile**, **Pas utile**, **Je le savais déjà** ou **Ne correspond pas**. **Pas utile** et **Ne correspond pas** masquent le constat pendant 14 jours, **Je le savais déjà** pendant 7. Les avertissements et constats critiques ne sont jamais masqués. Sur une mesure qui a bougé, **Ne correspond pas** propose d’exclure les mauvaises mesures. Cora utilise vos réponses pour apprendre à connaître votre aquarium.
 
 Quand Cora doute d’une mesure, il l’affiche sous **À vérifier**, par exemple une sonde qui dérive peut-être. Là, vous pouvez :
 

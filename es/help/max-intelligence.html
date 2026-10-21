@@ -175,15 +175,15 @@
 <p>Cora Max muestra los mismos análisis que tu teléfono, en una pantalla lo bastante grande para leerla desde el otro lado de la habitación. Reef Buddy, <strong>Informes ICP</strong>, <strong>Informes de salud</strong> e <strong>Historial de parámetros</strong> están todos en el <strong>menú del acuario</strong> (toca el nombre del acuario en la barra superior).</p>
 <h2 id="el-resumen-de-la-manana">El resumen de la mañana</h2>
 <p>Cada día a tu <strong>Hora del resumen</strong>, cuando el resumen de hoy está listo, Reef Buddy aparece sobre el panel. Si <strong>Resumen de Reef Buddy</strong> está activado, Cora lo lee en voz alta. Se cierra solo a los diez minutos si nadie lo toca, o ciérralo tú.</p>
-<p>Para volver a leerlo, toca el icono de <strong>Reef Buddy</strong> de la barra superior. Un punto en el icono significa que todavía no has abierto el resumen de hoy. La pantalla completa de Reef Buddy está en el menú del acuario.</p>
+<p>Para volver a leerlo, toca el icono de <strong>Reef Buddy</strong> de la barra superior. Un punto en el icono significa que todavía no has abierto el resumen de hoy. La pantalla completa de Reef Buddy está en el menú del acuario. En la superposición, <strong>Ver todos los detalles</strong> abre la página completa de Reef Buddy.</p>
 <p>La hora y el interruptor de lectura en voz alta se configuran en <strong>Ajustes → Ajustes de Cora Max → REEF BUDDY</strong>. La <strong>Hora del resumen</strong> es la misma en todos los dispositivos de tu cuenta.</p>
 <h2 id="reef-buddy">Reef Buddy</h2>
 <figure class="shot"><button type="button" class="zoom" aria-label="Ampliar: La pantalla de Reef Buddy en Cora Max, con la puntuación de salud diaria de hoy, los análisis y Desde tu último ICP"><img src="/help/img/max-intelligence.webp" alt="La pantalla de Reef Buddy en Cora Max, con la puntuación de salud diaria de hoy, los análisis y Desde tu último ICP" width="1280" height="800" loading="lazy" decoding="async"></button><figcaption>La puntuación y el resumen de hoy, los análisis y lo que cambió desde tu último ICP.</figcaption></figure>
-<p>La pantalla de Reef Buddy muestra las puntuaciones de Estabilidad y Datos, el resumen y los análisis en los que se basan. Qué significan las puntuaciones se explica en <a href="/es/help/mobile-reef-buddy">Reef Buddy</a>.</p>
+<p>La página de Reef Buddy es la misma que en tu teléfono: un titular y un resumen, <strong>Hoy de un vistazo</strong>, y luego cada hallazgo (análisis, lecturas que se movieron y la observación diaria) como una tarjeta con lo que Cora vio, los números y un pequeño gráfico. La lista está a la izquierda y la tarjeta elegida a la derecha. Qué significan las puntuaciones se explica en <a href="/es/help/mobile-reef-buddy">Reef Buddy</a>.</p>
 <p>Después de registrar una prueba o añadir un resultado de ICP, la pantalla muestra <strong>Hay lecturas nuevas desde este resumen</strong> y un botón <strong>Actualizar el resumen</strong>. Tócalo para rehacer el resumen con los números nuevos. Funciona una vez al día. Después la pantalla dice <em>Puedes actualizar el resumen una vez al día. Próxima actualización: mañana.</em></p>
 <h3 id="actuar-ante-un-analisis">Actuar ante un análisis</h3>
-<p>Toca un análisis para abrirlo.</p>
-<ul><li><strong>¿Por qué veo esto?</strong> muestra las lecturas, el objetivo y las entradas del diario en las que se basa.</li><li><strong>¿Esto coincide con lo que ves?</strong> Responde <strong>Confirmado</strong>, <strong>Ya lo sabía</strong>, <strong>No coincide</strong> o <strong>No estoy seguro</strong>, y después di si fue <strong>Valioso</strong> o <strong>No realmente</strong>. Cora usa tus respuestas para conocer tu acuario.</li></ul>
+<p>Toca una tarjeta de la lista para abrirla a la derecha.</p>
+<ul><li><strong>¿Por qué veo esto?</strong> muestra las lecturas, el objetivo y las entradas del diario en las que se basa.</li><li>La fila de opinión debajo de cada tarjeta: <strong>Valioso</strong>, <strong>No útil</strong>, <strong>Ya lo sabía</strong> o <strong>No coincide</strong>. <strong>No útil</strong> y <strong>No coincide</strong> ocultan el hallazgo durante 14 días, <strong>Ya lo sabía</strong> durante 7. Las advertencias y los hallazgos críticos nunca se ocultan. En una lectura que se movió, <strong>No coincide</strong> ofrece excluir las lecturas erróneas. Cora usa tus respuestas para conocer tu acuario.</li></ul>
 <p>Cuando Cora duda de una lectura, la muestra en <strong>Vale la pena revisar</strong>, por ejemplo una sonda que puede estar desviándose. Ahí puedes:</p>
 <ul><li>tocar <strong>Ya lo revisé</strong> para registrar lo que le hiciste a la sonda,</li><li>tocar <strong>Agregar a Mantenimiento</strong> para convertirlo en una tarea (<strong>Revisar la sonda de pH</strong> o <strong>Verificar la configuración de dosificación</strong>), o</li><li>tocar <strong>Descartar</strong>. No vuelve a decir nada salvo que el problema continúe.</li></ul>
 <h3 id="registrar-el-cuidado-de-las-sondas">Registrar el cuidado de las sondas</h3>
@@ -597,7 +597,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/es/help/search.json?v=ddd1f17113').then(function (r) { return r.json(); })
+    fetch('/es/help/search.json?v=29255fbb97').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "es"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La b\u00fasqueda no est\u00e1 disponible. Usa la navegaci\u00f3n." + '</li>';

@@ -27,18 +27,18 @@ Una puntuación de Datos baja significa que Cora tenía menos lecturas de las qu
 
 Después viene el resumen, un párrafo corto que explica el titular con tus valores y rangos reales.
 
-Luego vienen los análisis, uno por cada hallazgo. Cada uno tiene una categoría (como *Química del agua*) y una frecuencia (como *Diaria*), y puedes desplegarlo para ver más. Una etiqueta arriba de la sección muestra el tipo de acuario y lo completo que está su perfil. Las dos cosas influyen en lo que Cora puede concluir.
+Después viene **Hoy de un vistazo** y debajo cada hallazgo como una tarjeta: un análisis, una lectura que se movió o la observación diaria. Cada tarjeta dice qué vio Cora, muestra los números y un pequeño gráfico. Un hallazgo que se repite muestra *Sigue: ..., desde el 12 oct*. Un chip arriba de la página muestra el tipo de acuario y lo completo que está su perfil. Ambos afectan lo que Cora puede concluir.
 
 
 Cora filtra los análisis antes de que te lleguen. Un análisis tiene que mantenerse a lo largo de varias lecturas. Con una no basta. También tiene que contarte algo que un solo gráfico no te mostraría ya.
 
-Toca la tarjeta del panel para abrir el resumen completo.
+Toca la tarjeta del panel, o la notificación diaria, para abrir la página de Reef Buddy de ese acuario.
 
 ## Volver a abrir el resumen {#dismissing-the-card}
 
 Toca **×** para quitar del panel la tarjeta de hoy. La de mañana llegará igual.
 
-Para abrir el resumen de hoy después de quitar la tarjeta, toca el botón del periódico de arriba del panel (**Salud diaria de Reef Buddy**). Un resumen anterior se abre desde su notificación.
+Para abrir el resumen de hoy después de quitar la tarjeta, toca el botón del periódico de arriba del panel. Un resumen anterior se abre desde su notificación.
 
 ## Actualizar el resumen con una prueba nueva {#updating-the-briefing-with-a-new-test}
 
@@ -100,17 +100,17 @@ Si desactivaste **Permitir que el Cora Assistant use los datos guardados del acu
 
 ## Corregir un análisis {#correcting-an-insight}
 
-Puedes responder a cada análisis de una de cuatro formas.
+Cada tarjeta tiene debajo una fila de opinión. Tu respuesta influye en qué aparece primero en los resúmenes siguientes.
 
 | Respuesta | Significa |
 |---|---|
-| **Confirmado** | Era correcto y útil |
-| **No coincide** | No coincide con lo que estás viendo |
-| **Ya lo sabía** | Correcto, pero ya lo sabías |
-| **No estoy seguro** | Todavía no puedes valorarlo |
+| **Valioso** | Era correcto y útil |
+| **No útil** | Correcto, pero no para ti. Oculta ese hallazgo durante 14 días |
+| **Ya lo sabía** | Correcto, pero ya lo sabías. Lo oculta durante 7 días |
+| **No coincide** | No coincide con lo que ves. Lo oculta durante 14 días |
 
-Cuando Reef Buddy señala una desviación, también pregunta *¿Te sirvió este aviso?* Puedes responder **Útil**, **No me sirvió**, **Este cambio es esperado** o **La lectura parece incorrecta**. Tus respuestas influyen en lo que aparece primero en los resúmenes siguientes. Ocultar un análisis solo dura un tiempo. Si el problema sigue ahí, el análisis vuelve.
+En una lectura que se movió, **No coincide** también ofrece excluir las lecturas erróneas, para que Cora deje de contarlas. Ocultar solo dura un tiempo. Si el problema sigue ahí después, el hallazgo vuelve.
 
-:::note Los hallazgos graves no se ocultan nunca
-Las respuestas solo silencian los análisis menos graves. Los de advertencia y los críticos siguen apareciendo, respondieras lo que respondieras antes.
+:::note Los hallazgos graves nunca se ocultan
+Las advertencias y los hallazgos críticos siguen apareciendo, hayas respondido lo que hayas respondido antes.
 :::

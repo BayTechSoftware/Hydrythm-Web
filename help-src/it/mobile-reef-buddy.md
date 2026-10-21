@@ -27,18 +27,18 @@ Un punteggio Dati basso vuol dire che Cora aveva meno letture di quante ne voles
 
 Poi c'è un riassunto, un breve paragrafo che spiega il titolo usando i tuoi valori e intervalli reali.
 
-Poi vengono le osservazioni, una per ogni risultato. Ognuna ha una categoria (per esempio *Chimica dell'acqua*) e una frequenza (per esempio *Giornaliero*), e puoi aprirla per i dettagli. Un'etichetta in cima alla sezione mostra il tipo di vasca e quanto è completo il suo profilo. Tutti e due influiscono su cosa Cora può concludere.
+Poi viene **Oggi in breve** e sotto ogni riscontro come una scheda: un'osservazione, una lettura che si è mossa o l'osservazione del giorno. Ogni scheda dice che cosa ha visto Cora, mostra i numeri e un piccolo grafico. Un riscontro che si ripete mostra *Ancora: ..., dal 12 ott*. Un chip in cima alla pagina mostra il tipo di vasca e quanto è completo il suo profilo. Entrambi influenzano ciò che Cora può concludere.
 
 
 Cora filtra le osservazioni prima che arrivino a te. Un'osservazione deve reggere su più letture. Una sola non basta. Deve anche dirti qualcosa che un singolo grafico non mostrerebbe già.
 
-Tocca la scheda sulla dashboard per aprire il briefing completo.
+Tocca la scheda sulla dashboard, o la notifica giornaliera, per aprire la pagina Reef Buddy di quella vasca.
 
 ## Riaprire il briefing {#dismissing-the-card}
 
 Tocca **×** per togliere la scheda di oggi dalla dashboard. Quella di domani arriva comunque.
 
-Per aprire il briefing di oggi dopo aver tolto la scheda, tocca il pulsante del giornale in alto sulla dashboard (**Salute quotidiana di Reef Buddy**). Un briefing più vecchio si apre dalla sua notifica.
+Per aprire il briefing di oggi dopo aver tolto la scheda, tocca il pulsante del giornale in alto sulla dashboard. Un briefing più vecchio si apre dalla sua notifica.
 
 ## Aggiornare il briefing con un nuovo test {#updating-the-briefing-with-a-new-test}
 
@@ -100,17 +100,17 @@ Se hai spento **Consenti al Cora Assistant di usare i dati salvati della vasca**
 
 ## Correggere un'osservazione {#correcting-an-insight}
 
-Puoi rispondere a ogni osservazione in uno di quattro modi.
+Ogni scheda ha sotto una riga di feedback. La tua risposta influenza cosa compare per primo nei briefing successivi.
 
-| Risposta | Significato |
+| Risposta | Significa |
 |---|---|
-| **Confermato** | Era giusta, e utile |
-| **Non corrisponde** | Non corrisponde a quello che vedi |
-| **Lo sapevo già** | Giusta, ma lo sapevi già |
-| **Non sicuro** | Per ora non sai giudicarla |
+| **Utile** | Era giusta e utile |
+| **Non utile** | Giusta, ma non per te. Nasconde quel riscontro per 14 giorni |
+| **Lo sapevo già** | Giusta, ma lo sapevi. Lo nasconde per 7 giorni |
+| **Non corrisponde** | Non corrisponde a ciò che vedi. Lo nasconde per 14 giorni |
 
-Quando Reef Buddy segnala una deriva, chiede anche *Questo avviso è stato utile?* Puoi rispondere **Utile**, **Non utile**, **Questo cambiamento è previsto** o **La misurazione sembra errata**. Le tue risposte influenzano cosa compare per primo nei briefing successivi. Nascondere un'osservazione vale solo per un po'. Se il problema c'è ancora, l'osservazione torna.
+Su una lettura che si è mossa, **Non corrisponde** propone anche di escludere le letture sbagliate, così Cora smette di contarle. Nascondere dura solo un po'. Se il problema c'è ancora dopo, il riscontro torna.
 
-:::note I risultati seri non vengono mai nascosti
-Le risposte attenuano solo le osservazioni meno gravi. Le osservazioni di livello avviso e critico continuano a comparire, qualunque cosa tu abbia risposto prima.
+:::note I riscontri seri non vengono mai nascosti
+Gli avvisi e i riscontri critici continuano a comparire, qualunque cosa tu abbia risposto prima.
 :::

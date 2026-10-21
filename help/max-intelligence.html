@@ -175,15 +175,15 @@
 <p>Cora Max shows the same insights as your phone, on a screen big enough to read from across the room. Reef Buddy, <strong>ICP Reports</strong>, <strong>Health Reports</strong> and <strong>Parameter History</strong> are all in the <strong>tank menu</strong> (tap the tank name in the top bar).</p>
 <h2 id="the-morning-briefing">The morning briefing</h2>
 <p>Each day at your <strong>Briefing time</strong>, once today's briefing is ready, Reef Buddy appears over the dashboard. If <strong>Reef Buddy briefing</strong> is on, Cora reads it out loud. It closes by itself after ten minutes if nobody touches it, or close it yourself.</p>
-<p>To read it again, tap the <strong>Reef Buddy</strong> icon in the top bar. A dot on the icon means you haven't opened today's briefing yet. The full Reef Buddy screen is in the tank menu.</p>
+<p>To read it again, tap the <strong>Reef Buddy</strong> icon in the top bar. A dot on the icon means you haven't opened today's briefing yet. The full Reef Buddy screen is in the tank menu. On the overlay, <strong>See all details</strong> opens the full Reef Buddy page.</p>
 <p>Set the time and the read-aloud switch in <strong>Settings → Cora Max Settings → REEF BUDDY</strong>. The <strong>Briefing time</strong> is the same on every device on your account.</p>
 <h2 id="reef-buddy">Reef Buddy</h2>
 <figure class="shot"><button type="button" class="zoom" aria-label="Enlarge: The Reef Buddy screen on Cora Max, with today&#x27;s daily health score, the insights and Since your last ICP"><img src="/help/img/max-intelligence.webp" alt="The Reef Buddy screen on Cora Max, with today&#x27;s daily health score, the insights and Since your last ICP" width="1280" height="800" loading="lazy" decoding="async"></button><figcaption>Today's score and summary, the insights, and what moved since your last ICP.</figcaption></figure>
-<p>The Reef Buddy screen shows the Stability and Data scores, the summary and the insights behind them. What the scores mean is explained in <a href="/help/mobile-reef-buddy">Reef Buddy</a>.</p>
+<p>The Reef Buddy page is the same as on your phone: a headline and summary, <strong>Today at a glance</strong>, then every finding (insights, readings that moved and the daily observation) as one card with what Cora saw, the numbers and a small chart. The list is on the left and the chosen card on the right. What the scores mean is explained in <a href="/help/mobile-reef-buddy">Reef Buddy</a>.</p>
 <p>After you log a test or add an ICP result, the screen shows <strong>New readings since this briefing</strong> and an <strong>Update briefing</strong> button. Tap it to redo the briefing with the new numbers. It works once a day. After that the screen says <em>You can update the briefing once a day. Next update: tomorrow.</em></p>
 <h3 id="acting-on-an-insight">Acting on an insight</h3>
-<p>Tap an insight to open it.</p>
-<ul><li><strong>Why am I seeing this?</strong> shows the readings, target and journal entries it's based on.</li><li><strong>Does this match what you see?</strong> Answer <strong>Confirmed</strong>, <strong>Already knew</strong>, <strong>Doesn't match</strong> or <strong>Not sure</strong>, then say whether it was <strong>Valuable</strong> or <strong>Not really</strong>. Cora uses your answers to learn your tank.</li></ul>
+<p>Tap a card in the list to open it on the right.</p>
+<ul><li><strong>Why am I seeing this?</strong> shows the readings, target and journal entries it's based on.</li><li>The feedback row under every card: <strong>Valuable</strong>, <strong>Not useful</strong>, <strong>Already knew</strong> or <strong>Doesn't match</strong>. <strong>Not useful</strong> and <strong>Doesn't match</strong> hide that finding for 14 days, <strong>Already knew</strong> for 7. Warnings and critical findings are never hidden. On a reading that moved, <strong>Doesn't match</strong> offers to exclude the wrong readings. Cora uses your answers to learn your tank.</li></ul>
 <p>When Cora doubts a reading, it shows it under <strong>Worth a check</strong>, for example a probe that may be drifting. There you can:</p>
 <ul><li>tap <strong>I checked it</strong> to record what you did to the probe,</li><li>tap <strong>Add to Maintenance</strong> to make it a task (<strong>Check pH probe</strong> or <strong>Verify dosing configuration</strong>), or</li><li>tap <strong>Dismiss</strong>. It stays quiet unless the problem persists.</li></ul>
 <h3 id="recording-probe-care">Recording probe care</h3>
@@ -597,7 +597,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/help/search.json?v=7c71dd0350').then(function (r) { return r.json(); })
+    fetch('/help/search.json?v=d421e82e60').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "en"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';

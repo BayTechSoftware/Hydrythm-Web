@@ -14,7 +14,7 @@ Cora Max telefonunuzla aynı içgörüleri, odanın öbür ucundan okunacak kada
 
 Her gün **Özet saati**'nizde, bugünün özeti hazır olduğunda Reef Buddy panonun üstünde açılır. **Reef Buddy özeti** açıksa Cora onu yüksek sesle okur. Kimse dokunmazsa on dakika sonra kendiliğinden kapanır ya da onu kendiniz kapatabilirsiniz.
 
-Yeniden okumak için üst çubuktaki **Reef Buddy** simgesine dokunun. Simgedeki nokta, bugünün özetini henüz açmadığınızı gösterir. Tam Reef Buddy ekranı akvaryum menüsündedir.
+Yeniden okumak için üst çubuktaki **Reef Buddy** simgesine dokunun. Simgedeki nokta, bugünün özetini henüz açmadığınızı gösterir. Tam Reef Buddy ekranı akvaryum menüsündedir. Kaplamada **Tüm ayrıntıları gör** tam Reef Buddy sayfasını açar.
 
 Saati ve sesli okuma anahtarını **Ayarlar → Cora Max Ayarları → REEF BUDDY** içinde ayarlayın. **Özet saati** hesabınızdaki her cihazda aynıdır.
 
@@ -22,16 +22,16 @@ Saati ve sesli okuma anahtarını **Ayarlar → Cora Max Ayarları → REEF BUDD
 
 ![Cora Max'te Reef Buddy ekranı: bugünün günlük sağlık puanı, içgörüler ve Son ICP'nizden beri](img/max-intelligence.webp "Bugünün puanı ve özeti, içgörüler ve son ICP'nizden beri değişenler.")
 
-Reef Buddy ekranı Kararlılık ve Veri puanlarını, özeti ve arkasındaki içgörüleri gösterir. Puanların ne anlama geldiği [Reef Buddy](/help/mobile-reef-buddy) sayfasında anlatılır.
+Reef Buddy sayfası telefonunuzdakiyle aynıdır: bir başlık ve özet, **Bugün bir bakışta**, sonra her bulgu (içgörüler, değişen ölçümler ve günlük gözlem) Cora'nın ne gördüğünü, sayıları ve küçük bir grafiği içeren bir kart olarak gelir. Liste solda, seçilen kart sağdadır. Puanların ne anlama geldiği [Reef Buddy](/help/mobile-reef-buddy) sayfasında anlatılır.
 
 Bir test kaydettikten ya da bir ICP sonucu ekledikten sonra ekranda **Bu özetten sonra yeni ölçümler var.** yazısı ve bir **Özeti güncelle** düğmesi görünür. Özeti yeni sayılarla yeniden hazırlamak için ona dokunun. Günde bir kez çalışır. Sonrasında ekranda *Özeti günde bir kez güncelleyebilirsiniz. Sonraki güncelleme: yarın.* yazar.
 
 ### Bir içgörüye göre hareket etme
 
-Açmak için bir içgörüye dokunun.
+Sağda açmak için listedeki bir karta dokunun.
 
-- **Bunu neden görüyorum?**, dayandığı ölçümleri, hedefi ve günlük kayıtlarını gösterir.
-- **Bu gördüğünüzle uyuşuyor mu?** sorusuna **Onaylandı**, **Zaten biliyordum**, **Uyuşmuyor** ya da **Emin değilim** ile yanıt verin, sonra **Değerli** mi yoksa **Pek değil** mi olduğunu söyleyin. Cora yanıtlarınızı akvaryumunuzu öğrenmek için kullanır.
+- **Bunu neden görüyorum?** dayandığı ölçümleri, hedefi ve günlük kayıtlarını gösterir.
+- Her kartın altındaki geri bildirim satırı: **Değerli**, **Faydalı değil**, **Zaten biliyordum** veya **Uyuşmuyor**. **Faydalı değil** ve **Uyuşmuyor** bulguyu 14 gün, **Zaten biliyordum** 7 gün gizler. Uyarı ve kritik bulgular asla gizlenmez. Değişen bir ölçümde **Uyuşmuyor**, yanlış ölçümleri hariç tutmayı önerir. Cora, akvaryumunuzu tanımak için yanıtlarınızı kullanır.
 
 Cora bir ölçümden şüphelendiğinde onu **Kontrol etmeye değer** altında gösterir, örneğin kayıyor olabilecek bir prob. Orada şunları yapabilirsiniz:
 

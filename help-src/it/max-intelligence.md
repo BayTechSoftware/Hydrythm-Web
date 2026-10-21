@@ -14,7 +14,7 @@ Cora Max mostra le stesse osservazioni del telefono, su uno schermo abbastanza g
 
 Ogni giorno al tuo **Orario del riepilogo**, appena il briefing di oggi è pronto, Reef Buddy compare sopra la dashboard. Se **Riepilogo Reef Buddy** è attivo, Cora lo legge ad alta voce. Si chiude da solo dopo dieci minuti se nessuno lo tocca, oppure chiudilo tu.
 
-Per rileggerlo, tocca l'icona di **Reef Buddy** nella barra in alto. Un puntino sull'icona vuol dire che non hai ancora aperto il briefing di oggi. La schermata completa di Reef Buddy è nel menu della vasca.
+Per rileggerlo, tocca l'icona di **Reef Buddy** nella barra in alto. Un puntino sull'icona vuol dire che non hai ancora aperto il briefing di oggi. La schermata completa di Reef Buddy è nel menu della vasca. Sulla sovrapposizione, **Vedi tutti i dettagli** apre la pagina Reef Buddy completa.
 
 Imposta l'orario e l'interruttore della lettura ad alta voce in **Impostazioni → Impostazioni Cora Max → REEF BUDDY**. L'**Orario del riepilogo** è lo stesso su ogni dispositivo del tuo account.
 
@@ -22,16 +22,16 @@ Imposta l'orario e l'interruttore della lettura ad alta voce in **Impostazioni �
 
 ![La schermata di Reef Buddy su Cora Max, con il punteggio di salute di oggi, le osservazioni e Dal tuo ultimo ICP](img/max-intelligence.webp "Il punteggio e il riassunto di oggi, le osservazioni e cosa è cambiato dall'ultimo ICP.")
 
-La schermata di Reef Buddy mostra i punteggi Stabilità e Dati, il riassunto e le osservazioni che ci stanno dietro. Cosa significano i punteggi è spiegato in [Reef Buddy](/help/mobile-reef-buddy).
+La pagina Reef Buddy è la stessa del telefono: un titolo e un riepilogo, **Oggi in breve**, poi ogni riscontro (osservazioni, letture che si sono mosse e osservazione del giorno) come una scheda con ciò che Cora ha visto, i numeri e un piccolo grafico. L'elenco è a sinistra e la scheda scelta a destra. Il significato dei punteggi è spiegato in [Reef Buddy](/help/mobile-reef-buddy).
 
 Dopo che registri un test o aggiungi un risultato ICP, la schermata mostra **Nuove misurazioni dopo questo briefing** e un pulsante **Aggiorna il briefing**. Toccalo per rifare il briefing con i numeri nuovi. Funziona una volta al giorno. Dopo, la schermata dice *Puoi aggiornare il briefing una volta al giorno. Prossimo aggiornamento: domani.*
 
 ### Agire su un'osservazione
 
-Tocca un'osservazione per aprirla.
+Tocca una scheda nell'elenco per aprirla a destra.
 
-- **Perché vedo questo?** mostra le letture, l'obiettivo e le voci di diario su cui si basa.
-- **Corrisponde a quello che vedi?** Rispondi **Confermato**, **Lo sapevo già**, **Non corrisponde** o **Non sicuro**, poi di' se è stata **Utile** o **Non proprio**. Cora usa le tue risposte per imparare a conoscere la tua vasca.
+- **Perché lo vedo?** mostra le letture, l'obiettivo e le voci del diario su cui si basa.
+- La riga di feedback sotto ogni scheda: **Utile**, **Non utile**, **Lo sapevo già** o **Non corrisponde**. **Non utile** e **Non corrisponde** nascondono il riscontro per 14 giorni, **Lo sapevo già** per 7. Gli avvisi e i riscontri critici non vengono mai nascosti. Su una lettura che si è mossa, **Non corrisponde** propone di escludere le letture sbagliate. Cora usa le tue risposte per conoscere la tua vasca.
 
 Quando Cora ha dubbi su una lettura, la mostra in **Vale un controllo**, per esempio una sonda che potrebbe derivare. Lì puoi:
 

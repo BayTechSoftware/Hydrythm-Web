@@ -175,15 +175,15 @@
 <p>Cora Max pokazuje te same spostrzeżenia co telefon, na ekranie na tyle dużym, że przeczytasz je z drugiego końca pokoju. Reef Buddy, <strong>Raporty ICP</strong>, <strong>Raporty zdrowia</strong> i <strong>Historia parametrów</strong> są w <strong>menu akwarium</strong> (dotknij nazwy akwarium na górnym pasku).</p>
 <h2 id="poranne-podsumowanie">Poranne podsumowanie</h2>
 <p>Codziennie o Twojej <strong>Godzinie podsumowania</strong>, gdy dzisiejsze podsumowanie jest gotowe, Reef Buddy pojawia się nad panelem. Jeśli <strong>Podsumowanie Reef Buddy</strong> jest włączone, Cora odczytuje je na głos. Zamyka się samo po dziesięciu minutach, jeśli nikt go nie dotknie, albo możesz je zamknąć wcześniej.</p>
-<p>Żeby przeczytać je ponownie, dotknij ikony <strong>Reef Buddy</strong> na górnym pasku. Kropka na ikonie oznacza, że dzisiejszego podsumowania jeszcze nie otwarto. Pełny ekran Reef Buddy jest w menu akwarium.</p>
+<p>Żeby przeczytać je ponownie, dotknij ikony <strong>Reef Buddy</strong> na górnym pasku. Kropka na ikonie oznacza, że dzisiejszego podsumowania jeszcze nie otwarto. Pełny ekran Reef Buddy jest w menu akwarium. Na nakładce <strong>Zobacz wszystkie szczegóły</strong> otwiera pełną stronę Reef Buddy.</p>
 <p>Godzinę i przełącznik czytania na głos ustawisz w <strong>Ustawienia → Ustawienia Cora Max → REEF BUDDY</strong>. <strong>Godzina podsumowania</strong> jest taka sama na każdym urządzeniu na Twoim koncie.</p>
 <h2 id="reef-buddy">Reef Buddy</h2>
 <figure class="shot"><button type="button" class="zoom" aria-label="Powiększ: Ekran Reef Buddy na Cora Max, z dzisiejszą oceną zdrowia, spostrzeżeniami i sekcją Od ostatniego ICP"><img src="/help/img/max-intelligence.webp" alt="Ekran Reef Buddy na Cora Max, z dzisiejszą oceną zdrowia, spostrzeżeniami i sekcją Od ostatniego ICP" width="1280" height="800" loading="lazy" decoding="async"></button><figcaption>Dzisiejsza ocena i podsumowanie, spostrzeżenia i to, co się zmieniło od ostatniego ICP.</figcaption></figure>
-<p>Ekran Reef Buddy pokazuje oceny Stabilność i Dane, podsumowanie i spostrzeżenia, na których się opierają. Co oznaczają oceny, wyjaśnia <a href="/pl/help/mobile-reef-buddy">Reef Buddy</a>.</p>
+<p>Strona Reef Buddy jest taka sama jak w telefonie: nagłówek i podsumowanie, <strong>Dziś w skrócie</strong>, a potem każde ustalenie (spostrzeżenia, odczyty, które się zmieniły, i codzienna obserwacja) jako karta z tym, co zobaczyła Cora, liczbami i małym wykresem. Lista jest po lewej, wybrana karta po prawej. Co oznaczają oceny, wyjaśnia <a href="/pl/help/mobile-reef-buddy">Reef Buddy</a>.</p>
 <p>Po zapisaniu testu albo dodaniu wyniku ICP ekran pokazuje <strong>Są nowe pomiary od tego podsumowania</strong> i przycisk <strong>Zaktualizuj podsumowanie</strong>. Dotknij go, żeby przygotować podsumowanie od nowa z nowymi liczbami. Działa to raz dziennie. Potem ekran mówi <em>Podsumowanie możesz aktualizować raz dziennie. Następna aktualizacja: jutro.</em></p>
 <h3 id="reagowanie-na-spostrzezenie">Reagowanie na spostrzeżenie</h3>
-<p>Dotknij spostrzeżenia, żeby je otworzyć.</p>
-<ul><li><strong>Dlaczego to widzę?</strong> pokazuje odczyty, wartość docelową i wpisy w dzienniku, na których się opiera.</li><li><strong>Czy to zgadza się z tym, co widzisz?</strong> Odpowiedz <strong>Potwierdzono</strong>, <strong>To już wiem</strong>, <strong>Nie zgadza się</strong> albo <strong>Nie mam pewności</strong>, a potem powiedz, czy było <strong>Wartościowe</strong>, czy <strong>Nie bardzo</strong>. Cora uczy się na Twoich odpowiedziach Twojego akwarium.</li></ul>
+<p>Dotknij karty na liście, aby otworzyć ją po prawej.</p>
+<ul><li><strong>Dlaczego to widzę?</strong> pokazuje odczyty, cel i wpisy dziennika, na których się opiera.</li><li>Wiersz opinii pod każdą kartą: <strong>Wartościowe</strong>, <strong>Nieprzydatne</strong>, <strong>To już wiem</strong> albo <strong>Nie zgadza się</strong>. <strong>Nieprzydatne</strong> i <strong>Nie zgadza się</strong> ukrywają ustalenie na 14 dni, <strong>To już wiem</strong> na 7. Ostrzeżenia i ustalenia krytyczne nigdy nie są ukrywane. Przy odczycie, który się zmienił, <strong>Nie zgadza się</strong> proponuje wykluczenie błędnych odczytów. Cora używa twoich odpowiedzi, by poznać twoje akwarium.</li></ul>
 <p>Gdy Cora wątpi w odczyt, pokazuje go w <strong>Warto sprawdzić</strong>, na przykład sondę, która może dryfować. Możesz tam:</p>
 <ul><li>dotknąć <strong>Sprawdzone</strong>, żeby zapisać, co zrobiono z sondą,</li><li>dotknąć <strong>Dodaj do Konserwacji</strong>, żeby utworzyć z tego zadanie (<strong>Sprawdź sondę pH</strong> albo <strong>Zweryfikuj konfigurację dozowania</strong>), albo</li><li>dotknąć <strong>Odrzuć</strong>. Spostrzeżenie zamilknie, chyba że problem nie ustąpi.</li></ul>
 <h3 id="zapisywanie-konserwacji-sond">Zapisywanie konserwacji sond</h3>
@@ -597,7 +597,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/pl/help/search.json?v=303849d9da').then(function (r) { return r.json(); })
+    fetch('/pl/help/search.json?v=541e6f5556').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "pl"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Wyszukiwanie jest niedost\u0119pne. U\u017cyj menu." + '</li>';

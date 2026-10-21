@@ -14,7 +14,7 @@ Cora Max pokazuje te same spostrzeżenia co telefon, na ekranie na tyle dużym, 
 
 Codziennie o Twojej **Godzinie podsumowania**, gdy dzisiejsze podsumowanie jest gotowe, Reef Buddy pojawia się nad panelem. Jeśli **Podsumowanie Reef Buddy** jest włączone, Cora odczytuje je na głos. Zamyka się samo po dziesięciu minutach, jeśli nikt go nie dotknie, albo możesz je zamknąć wcześniej.
 
-Żeby przeczytać je ponownie, dotknij ikony **Reef Buddy** na górnym pasku. Kropka na ikonie oznacza, że dzisiejszego podsumowania jeszcze nie otwarto. Pełny ekran Reef Buddy jest w menu akwarium.
+Żeby przeczytać je ponownie, dotknij ikony **Reef Buddy** na górnym pasku. Kropka na ikonie oznacza, że dzisiejszego podsumowania jeszcze nie otwarto. Pełny ekran Reef Buddy jest w menu akwarium. Na nakładce **Zobacz wszystkie szczegóły** otwiera pełną stronę Reef Buddy.
 
 Godzinę i przełącznik czytania na głos ustawisz w **Ustawienia → Ustawienia Cora Max → REEF BUDDY**. **Godzina podsumowania** jest taka sama na każdym urządzeniu na Twoim koncie.
 
@@ -22,16 +22,16 @@ Godzinę i przełącznik czytania na głos ustawisz w **Ustawienia → Ustawieni
 
 ![Ekran Reef Buddy na Cora Max, z dzisiejszą oceną zdrowia, spostrzeżeniami i sekcją Od ostatniego ICP](img/max-intelligence.webp "Dzisiejsza ocena i podsumowanie, spostrzeżenia i to, co się zmieniło od ostatniego ICP.")
 
-Ekran Reef Buddy pokazuje oceny Stabilność i Dane, podsumowanie i spostrzeżenia, na których się opierają. Co oznaczają oceny, wyjaśnia [Reef Buddy](/help/mobile-reef-buddy).
+Strona Reef Buddy jest taka sama jak w telefonie: nagłówek i podsumowanie, **Dziś w skrócie**, a potem każde ustalenie (spostrzeżenia, odczyty, które się zmieniły, i codzienna obserwacja) jako karta z tym, co zobaczyła Cora, liczbami i małym wykresem. Lista jest po lewej, wybrana karta po prawej. Co oznaczają oceny, wyjaśnia [Reef Buddy](/help/mobile-reef-buddy).
 
 Po zapisaniu testu albo dodaniu wyniku ICP ekran pokazuje **Są nowe pomiary od tego podsumowania** i przycisk **Zaktualizuj podsumowanie**. Dotknij go, żeby przygotować podsumowanie od nowa z nowymi liczbami. Działa to raz dziennie. Potem ekran mówi *Podsumowanie możesz aktualizować raz dziennie. Następna aktualizacja: jutro.*
 
 ### Reagowanie na spostrzeżenie
 
-Dotknij spostrzeżenia, żeby je otworzyć.
+Dotknij karty na liście, aby otworzyć ją po prawej.
 
-- **Dlaczego to widzę?** pokazuje odczyty, wartość docelową i wpisy w dzienniku, na których się opiera.
-- **Czy to zgadza się z tym, co widzisz?** Odpowiedz **Potwierdzono**, **To już wiem**, **Nie zgadza się** albo **Nie mam pewności**, a potem powiedz, czy było **Wartościowe**, czy **Nie bardzo**. Cora uczy się na Twoich odpowiedziach Twojego akwarium.
+- **Dlaczego to widzę?** pokazuje odczyty, cel i wpisy dziennika, na których się opiera.
+- Wiersz opinii pod każdą kartą: **Wartościowe**, **Nieprzydatne**, **To już wiem** albo **Nie zgadza się**. **Nieprzydatne** i **Nie zgadza się** ukrywają ustalenie na 14 dni, **To już wiem** na 7. Ostrzeżenia i ustalenia krytyczne nigdy nie są ukrywane. Przy odczycie, który się zmienił, **Nie zgadza się** proponuje wykluczenie błędnych odczytów. Cora używa twoich odpowiedzi, by poznać twoje akwarium.
 
 Gdy Cora wątpi w odczyt, pokazuje go w **Warto sprawdzić**, na przykład sondę, która może dryfować. Możesz tam:
 

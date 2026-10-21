@@ -175,15 +175,15 @@
 <p>Cora Max telefonunuzla aynı içgörüleri, odanın öbür ucundan okunacak kadar büyük bir ekranda gösterir. Reef Buddy, <strong>ICP Raporları</strong>, <strong>Sağlık Raporları</strong> ve <strong>Parametre geçmişi</strong> hepsi <strong>akvaryum menüsündedir</strong> (üst çubukta akvaryum adına dokunun).</p>
 <h2 id="sabah-ozeti">Sabah özeti</h2>
 <p>Her gün <strong>Özet saati</strong>'nizde, bugünün özeti hazır olduğunda Reef Buddy panonun üstünde açılır. <strong>Reef Buddy özeti</strong> açıksa Cora onu yüksek sesle okur. Kimse dokunmazsa on dakika sonra kendiliğinden kapanır ya da onu kendiniz kapatabilirsiniz.</p>
-<p>Yeniden okumak için üst çubuktaki <strong>Reef Buddy</strong> simgesine dokunun. Simgedeki nokta, bugünün özetini henüz açmadığınızı gösterir. Tam Reef Buddy ekranı akvaryum menüsündedir.</p>
+<p>Yeniden okumak için üst çubuktaki <strong>Reef Buddy</strong> simgesine dokunun. Simgedeki nokta, bugünün özetini henüz açmadığınızı gösterir. Tam Reef Buddy ekranı akvaryum menüsündedir. Kaplamada <strong>Tüm ayrıntıları gör</strong> tam Reef Buddy sayfasını açar.</p>
 <p>Saati ve sesli okuma anahtarını <strong>Ayarlar → Cora Max Ayarları → REEF BUDDY</strong> içinde ayarlayın. <strong>Özet saati</strong> hesabınızdaki her cihazda aynıdır.</p>
 <h2 id="reef-buddy">Reef Buddy</h2>
 <figure class="shot"><button type="button" class="zoom" aria-label="Büyüt: Cora Max&#x27;te Reef Buddy ekranı: bugünün günlük sağlık puanı, içgörüler ve Son ICP&#x27;nizden beri"><img src="/help/img/max-intelligence.webp" alt="Cora Max&#x27;te Reef Buddy ekranı: bugünün günlük sağlık puanı, içgörüler ve Son ICP&#x27;nizden beri" width="1280" height="800" loading="lazy" decoding="async"></button><figcaption>Bugünün puanı ve özeti, içgörüler ve son ICP'nizden beri değişenler.</figcaption></figure>
-<p>Reef Buddy ekranı Kararlılık ve Veri puanlarını, özeti ve arkasındaki içgörüleri gösterir. Puanların ne anlama geldiği <a href="/tr/help/mobile-reef-buddy">Reef Buddy</a> sayfasında anlatılır.</p>
+<p>Reef Buddy sayfası telefonunuzdakiyle aynıdır: bir başlık ve özet, <strong>Bugün bir bakışta</strong>, sonra her bulgu (içgörüler, değişen ölçümler ve günlük gözlem) Cora'nın ne gördüğünü, sayıları ve küçük bir grafiği içeren bir kart olarak gelir. Liste solda, seçilen kart sağdadır. Puanların ne anlama geldiği <a href="/tr/help/mobile-reef-buddy">Reef Buddy</a> sayfasında anlatılır.</p>
 <p>Bir test kaydettikten ya da bir ICP sonucu ekledikten sonra ekranda <strong>Bu özetten sonra yeni ölçümler var.</strong> yazısı ve bir <strong>Özeti güncelle</strong> düğmesi görünür. Özeti yeni sayılarla yeniden hazırlamak için ona dokunun. Günde bir kez çalışır. Sonrasında ekranda <em>Özeti günde bir kez güncelleyebilirsiniz. Sonraki güncelleme: yarın.</em> yazar.</p>
 <h3 id="bir-icgoruye-gore-hareket-etme">Bir içgörüye göre hareket etme</h3>
-<p>Açmak için bir içgörüye dokunun.</p>
-<ul><li><strong>Bunu neden görüyorum?</strong>, dayandığı ölçümleri, hedefi ve günlük kayıtlarını gösterir.</li><li><strong>Bu gördüğünüzle uyuşuyor mu?</strong> sorusuna <strong>Onaylandı</strong>, <strong>Zaten biliyordum</strong>, <strong>Uyuşmuyor</strong> ya da <strong>Emin değilim</strong> ile yanıt verin, sonra <strong>Değerli</strong> mi yoksa <strong>Pek değil</strong> mi olduğunu söyleyin. Cora yanıtlarınızı akvaryumunuzu öğrenmek için kullanır.</li></ul>
+<p>Sağda açmak için listedeki bir karta dokunun.</p>
+<ul><li><strong>Bunu neden görüyorum?</strong> dayandığı ölçümleri, hedefi ve günlük kayıtlarını gösterir.</li><li>Her kartın altındaki geri bildirim satırı: <strong>Değerli</strong>, <strong>Faydalı değil</strong>, <strong>Zaten biliyordum</strong> veya <strong>Uyuşmuyor</strong>. <strong>Faydalı değil</strong> ve <strong>Uyuşmuyor</strong> bulguyu 14 gün, <strong>Zaten biliyordum</strong> 7 gün gizler. Uyarı ve kritik bulgular asla gizlenmez. Değişen bir ölçümde <strong>Uyuşmuyor</strong>, yanlış ölçümleri hariç tutmayı önerir. Cora, akvaryumunuzu tanımak için yanıtlarınızı kullanır.</li></ul>
 <p>Cora bir ölçümden şüphelendiğinde onu <strong>Kontrol etmeye değer</strong> altında gösterir, örneğin kayıyor olabilecek bir prob. Orada şunları yapabilirsiniz:</p>
 <ul><li>proba ne yaptığınızı kaydetmek için <strong>Kontrol ettim</strong>'e dokunun,</li><li>onu bir göreve dönüştürmek için <strong>Bakıma Ekle</strong>'ye dokunun (<strong>pH probunu kontrol et</strong> ya da <strong>Dozaj yapılandırmasını doğrula</strong>), ya da</li><li><strong>Kapat</strong>'a dokunun. Sorun sürmedikçe sessiz kalır.</li></ul>
 <h3 id="prob-bakimini-kaydetme">Prob bakımını kaydetme</h3>
@@ -597,7 +597,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/tr/help/search.json?v=f1ddfa4ac9').then(function (r) { return r.json(); })
+    fetch('/tr/help/search.json?v=45885825c2').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "tr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Arama \u015fu anda kullan\u0131lam\u0131yor. Men\u00fcy\u00fc kullan\u0131n." + '</li>';

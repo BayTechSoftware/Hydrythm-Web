@@ -27,18 +27,18 @@ Niska ocena Dane oznacza, że Cora miała mniej odczytów, niż potrzebowała. S
 
 Dalej jest podsumowanie, krótki akapit, który wyjaśnia nagłówek na podstawie Twoich prawdziwych wartości i zakresów.
 
-Potem są spostrzeżenia, po jednym na każde ustalenie. Każde ma kategorię (na przykład *Chemia wody*) i częstotliwość (na przykład *Codziennie*) i możesz je rozwinąć, żeby zobaczyć szczegóły. Chip na górze sekcji pokazuje typ akwarium i to, na ile uzupełniony jest jego profil. Oba wpływają na to, jakie wnioski może wyciągnąć Cora.
+Dalej jest **Dziś w skrócie**, a pod spodem każde ustalenie jako jedna karta: spostrzeżenie, odczyt, który się zmienił, albo codzienna obserwacja. Każda karta mówi, co zobaczyła Cora, pokazuje liczby i mały wykres. Ustalenie, które się powtarza, pokazuje *Nadal: ..., od 12 paź*. Chip u góry strony pokazuje typ akwarium i kompletność jego profilu. Oba wpływają na to, co Cora może wywnioskować.
 
 
 Cora filtruje spostrzeżenia, zanim do Ciebie trafią. Spostrzeżenie musi się utrzymać przez kilka odczytów. Jeden nie wystarczy. Musi też mówić coś, czego nie pokazałby już sam wykres.
 
-Dotknij karty na panelu, żeby otworzyć całe podsumowanie.
+Dotknij karty na pulpicie albo codziennego powiadomienia, aby otworzyć stronę Reef Buddy tego akwarium.
 
 ## Ponowne otwieranie podsumowania {#dismissing-the-card}
 
 Dotknij **×**, żeby usunąć dzisiejszą kartę z panelu. Jutrzejsza i tak przyjdzie.
 
-Żeby otworzyć dzisiejsze podsumowanie po usunięciu karty, dotknij przycisku z gazetą na górze panelu (**Codzienne zdrowie Reef Buddy**). Starsze podsumowanie otworzysz z jego powiadomienia.
+Żeby otworzyć dzisiejsze podsumowanie po usunięciu karty, dotknij przycisku z gazetą na górze panelu. Starsze podsumowanie otworzysz z jego powiadomienia.
 
 ## Aktualizacja podsumowania po nowym teście {#updating-the-briefing-with-a-new-test}
 
@@ -100,17 +100,17 @@ Jeśli wyłączono **Pozwól Cora Assistant korzystać z zapisanych danych akwar
 
 ## Ocena spostrzeżenia {#correcting-an-insight}
 
-Na każde spostrzeżenie możesz odpowiedzieć na jeden z czterech sposobów.
+Pod każdą kartą jest jeden wiersz opinii. Twoja odpowiedź wpływa na to, co pojawia się najpierw w kolejnych podsumowaniach.
 
-| Odpowiedź | Znaczenie |
+| Odpowiedź | Znaczy |
 |---|---|
-| **Potwierdzono** | Było trafne i przydatne |
-| **Nie zgadza się** | Nie pasuje do tego, co widzisz |
-| **To już wiem** | Trafne, ale już o tym wiadomo |
-| **Nie mam pewności** | Na razie trudno to ocenić |
+| **Wartościowe** | Trafne i przydatne |
+| **Nieprzydatne** | Trafne, ale nie dla ciebie. Ukrywa to ustalenie na 14 dni |
+| **To już wiem** | Trafne, ale już o tym wiedziałeś. Ukrywa je na 7 dni |
+| **Nie zgadza się** | Nie zgadza się z tym, co widzisz. Ukrywa je na 14 dni |
 
-Gdy Reef Buddy wskaże dryf, zapyta też *Czy to ostrzeżenie było przydatne?* Możesz odpowiedzieć **Przydatne**, **Nieprzydatne**, **Ta zmiana jest oczekiwana** albo **Odczyt wygląda błędnie**. Twoje odpowiedzi wpływają na to, co pojawia się na początku kolejnych podsumowań. Ukrycie spostrzeżenia działa tylko przez jakiś czas. Jeśli problem trwa, spostrzeżenie wróci.
+Przy odczycie, który się zmienił, **Nie zgadza się** proponuje też wykluczenie błędnych odczytów, żeby Cora przestała je liczyć. Ukrycie trwa tylko jakiś czas. Jeśli problem nadal istnieje, ustalenie wraca.
 
 :::note Poważne ustalenia nigdy nie są ukrywane
-Odpowiedzi wyciszają tylko spostrzeżenia o niższej ważności. Ostrzeżenia i spostrzeżenia krytyczne pojawiają się dalej, niezależnie od wcześniejszych odpowiedzi.
+Ostrzeżenia i ustalenia krytyczne nadal się pojawiają, niezależnie od tego, co odpowiedziałeś wcześniej.
 :::

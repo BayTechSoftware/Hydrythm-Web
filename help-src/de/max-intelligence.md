@@ -14,7 +14,7 @@ Cora Max zeigt dieselben Insights wie dein Handy, auf einem Bildschirm, der gro�
 
 Jeden Tag zu deiner **Briefing-Zeit** erscheint Reef Buddy über dem Dashboard, sobald das heutige Briefing fertig ist. Ist **Reef Buddy Briefing** eingeschaltet, liest Cora es laut vor. Es schließt sich von selbst nach zehn Minuten, wenn niemand es berührt, oder du schließt es selbst.
 
-Um es noch einmal zu lesen, tippe in der oberen Leiste auf das Symbol **Reef Buddy**. Ein Punkt am Symbol heißt, dass du das heutige Briefing noch nicht geöffnet hast. Den vollständigen Reef Buddy-Bildschirm findest du im Beckenmenü.
+Um es noch einmal zu lesen, tippe in der oberen Leiste auf das Symbol **Reef Buddy**. Ein Punkt am Symbol heißt, dass du das heutige Briefing noch nicht geöffnet hast. Den vollständigen Reef Buddy-Bildschirm findest du im Beckenmenü. Auf dem Overlay öffnet **Alle Details ansehen** die vollständige Reef Buddy-Seite.
 
 Uhrzeit und Vorleseschalter stellst du unter **Einstellungen → Cora Max-Einstellungen → REEF BUDDY** ein. Die **Briefing-Zeit** ist auf jedem Gerät in deinem Konto dieselbe.
 
@@ -22,16 +22,16 @@ Uhrzeit und Vorleseschalter stellst du unter **Einstellungen → Cora Max-Einste
 
 ![Der Reef Buddy-Bildschirm auf Cora Max, mit der heutigen Gesundheitsbewertung, den Insights und Seit deinem letzten ICP](img/max-intelligence.webp "Die heutige Bewertung und Zusammenfassung, die Insights und was sich seit deinem letzten ICP bewegt hat.")
 
-Der Reef Buddy-Bildschirm zeigt die Bewertungen für Stabilität und Daten, die Zusammenfassung und die Insights dahinter. Was die Bewertungen bedeuten, steht unter [Reef Buddy](/help/mobile-reef-buddy).
+Die Reef Buddy-Seite ist dieselbe wie auf deinem Handy: eine Schlagzeile mit Zusammenfassung, **Heute im Überblick**, dann jeder Befund (Insights, Messwerte, die sich bewegt haben, und die tägliche Beobachtung) als eine Karte mit dem, was Cora gesehen hat, den Zahlen und einem kleinen Diagramm. Links steht die Liste, rechts die gewählte Karte. Was die Bewertungen bedeuten, steht unter [Reef Buddy](/help/mobile-reef-buddy).
 
 Nachdem du einen Test eingetragen oder ein ICP-Ergebnis hinzugefügt hast, zeigt der Bildschirm **Neue Messwerte seit diesem Briefing** und eine Taste **Briefing aktualisieren**. Tippe darauf, um das Briefing mit den neuen Zahlen neu zu erstellen. Das geht einmal am Tag. Danach steht auf dem Bildschirm *Du kannst das Briefing einmal pro Tag aktualisieren. Nächste Aktualisierung: morgen.*
 
 ### Auf ein Insight reagieren
 
-Tippe auf ein Insight, um es zu öffnen.
+Tippe in der Liste auf eine Karte, um sie rechts zu öffnen.
 
 - **Warum sehe ich das?** zeigt die Messwerte, das Ziel und die Tagebucheinträge, auf denen es beruht.
-- **Stimmt das mit dem überein, was du siehst?** Antworte mit **Bestätigt**, **Schon gewusst**, **Stimmt nicht überein** oder **Nicht sicher** und sag dann, ob es **Wertvoll** oder **Nicht wirklich** war. Cora nutzt deine Antworten, um dein Becken kennenzulernen.
+- Die Rückmeldezeile unter jeder Karte: **Wertvoll**, **Nicht nützlich**, **Schon gewusst** oder **Stimmt nicht überein**. **Nicht nützlich** und **Stimmt nicht überein** blenden den Befund 14 Tage aus, **Schon gewusst** 7 Tage. Warnungen und kritische Befunde werden nie ausgeblendet. Bei einem Messwert, der sich bewegt hat, bietet **Stimmt nicht überein** an, die falschen Messwerte auszuschließen. Cora nutzt deine Antworten, um dein Becken kennenzulernen.
 
 Zweifelt Cora an einem Messwert, zeigt es ihn unter **Einen Blick wert**, zum Beispiel eine Sonde, die vielleicht driftet. Dort kannst du:
 

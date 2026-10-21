@@ -14,7 +14,7 @@ Cora Max muestra los mismos análisis que tu teléfono, en una pantalla lo basta
 
 Cada día a tu **Hora del resumen**, cuando el resumen de hoy está listo, Reef Buddy aparece sobre el panel. Si **Resumen de Reef Buddy** está activado, Cora lo lee en voz alta. Se cierra solo a los diez minutos si nadie lo toca, o ciérralo tú.
 
-Para volver a leerlo, toca el icono de **Reef Buddy** de la barra superior. Un punto en el icono significa que todavía no has abierto el resumen de hoy. La pantalla completa de Reef Buddy está en el menú del acuario.
+Para volver a leerlo, toca el icono de **Reef Buddy** de la barra superior. Un punto en el icono significa que todavía no has abierto el resumen de hoy. La pantalla completa de Reef Buddy está en el menú del acuario. En la superposición, **Ver todos los detalles** abre la página completa de Reef Buddy.
 
 La hora y el interruptor de lectura en voz alta se configuran en **Ajustes → Ajustes de Cora Max → REEF BUDDY**. La **Hora del resumen** es la misma en todos los dispositivos de tu cuenta.
 
@@ -22,16 +22,16 @@ La hora y el interruptor de lectura en voz alta se configuran en **Ajustes → A
 
 ![La pantalla de Reef Buddy en Cora Max, con la puntuación de salud diaria de hoy, los análisis y Desde tu último ICP](img/max-intelligence.webp "La puntuación y el resumen de hoy, los análisis y lo que cambió desde tu último ICP.")
 
-La pantalla de Reef Buddy muestra las puntuaciones de Estabilidad y Datos, el resumen y los análisis en los que se basan. Qué significan las puntuaciones se explica en [Reef Buddy](/help/mobile-reef-buddy).
+La página de Reef Buddy es la misma que en tu teléfono: un titular y un resumen, **Hoy de un vistazo**, y luego cada hallazgo (análisis, lecturas que se movieron y la observación diaria) como una tarjeta con lo que Cora vio, los números y un pequeño gráfico. La lista está a la izquierda y la tarjeta elegida a la derecha. Qué significan las puntuaciones se explica en [Reef Buddy](/help/mobile-reef-buddy).
 
 Después de registrar una prueba o añadir un resultado de ICP, la pantalla muestra **Hay lecturas nuevas desde este resumen** y un botón **Actualizar el resumen**. Tócalo para rehacer el resumen con los números nuevos. Funciona una vez al día. Después la pantalla dice *Puedes actualizar el resumen una vez al día. Próxima actualización: mañana.*
 
 ### Actuar ante un análisis
 
-Toca un análisis para abrirlo.
+Toca una tarjeta de la lista para abrirla a la derecha.
 
 - **¿Por qué veo esto?** muestra las lecturas, el objetivo y las entradas del diario en las que se basa.
-- **¿Esto coincide con lo que ves?** Responde **Confirmado**, **Ya lo sabía**, **No coincide** o **No estoy seguro**, y después di si fue **Valioso** o **No realmente**. Cora usa tus respuestas para conocer tu acuario.
+- La fila de opinión debajo de cada tarjeta: **Valioso**, **No útil**, **Ya lo sabía** o **No coincide**. **No útil** y **No coincide** ocultan el hallazgo durante 14 días, **Ya lo sabía** durante 7. Las advertencias y los hallazgos críticos nunca se ocultan. En una lectura que se movió, **No coincide** ofrece excluir las lecturas erróneas. Cora usa tus respuestas para conocer tu acuario.
 
 Cuando Cora duda de una lectura, la muestra en **Vale la pena revisar**, por ejemplo una sonda que puede estar desviándose. Ahí puedes:
 

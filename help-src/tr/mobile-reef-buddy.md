@@ -27,18 +27,18 @@ Düşük bir Veri puanı, Cora'nın istediğinden daha az ölçümle çalıştı
 
 Sonra bir özet gelir: başlığı gerçek değerlerinizi ve aralıklarınızı kullanarak açıklayan kısa bir paragraf.
 
-Ardından her tespit için bir tane olmak üzere içgörüler gelir. Her birinin bir kategorisi (*Su Kimyası* gibi) ve bir sıklığı (*Günlük* gibi) vardır ve ayrıntı için genişletebilirsiniz. Bölümün üstündeki bir çip akvaryum türünü ve profilinin ne kadar dolu olduğunu gösterir. İkisi de Cora'nın varabileceği sonuçları etkiler.
+Sonra **Bugün bir bakışta** gelir, altında da her bulgu tek bir kart olarak yer alır: bir içgörü, değişen bir ölçüm ya da günlük gözlem. Her kart Cora'nın ne gördüğünü söyler, sayıları ve küçük bir grafik gösterir. Tekrar eden bir bulgu *Hâlâ: ..., 12 Eki tarihinden beri* şeklinde görünür. Sayfanın üstündeki bir çip akvaryum türünü ve profilinin ne kadar tamamlandığını gösterir. İkisi de Cora'nın ne sonuç çıkarabileceğini etkiler.
 
 
 Cora içgörüleri size ulaşmadan önce süzer. Bir içgörünün birkaç ölçüm boyunca geçerli kalması gerekir. Tek bir ölçüm yetmez. Ayrıca tek bir grafiğin zaten göstermeyeceği bir şey söylemesi gerekir.
 
-Tam özeti açmak için panodaki karta dokunun.
+O akvaryumun Reef Buddy sayfasını açmak için panodaki karta ya da günlük bildirime dokunun.
 
 ## Özeti yeniden açma {#dismissing-the-card}
 
 Bugünün kartını panodan kaldırmak için **×**'e dokunun. Yarınki yine gelir.
 
-Kartı kaldırdıktan sonra bugünün özetini açmak için panonun üstündeki gazete düğmesine (**Reef Buddy günlük sağlık**) dokunun. Daha eski bir özet kendi bildiriminden açılır.
+Kartı kaldırdıktan sonra bugünün özetini açmak için panonun üstündeki gazete düğmesine dokunun. Daha eski bir özet kendi bildiriminden açılır.
 
 ## Özeti yeni bir testle güncelleme {#updating-the-briefing-with-a-new-test}
 
@@ -100,17 +100,17 @@ Deneme bittikten sonra ücretsiz bir hesap, özetin olduğu yerde **Planları g�
 
 ## Bir içgörüyü düzeltme {#correcting-an-insight}
 
-Her içgörüye dört yoldan biriyle yanıt verebilirsiniz.
+Her kartın altında tek bir geri bildirim satırı vardır. Yanıtınız, sonraki özetlerde önce neyin görüneceğini belirler.
 
 | Yanıt | Anlamı |
 |---|---|
-| **Onaylandı** | Doğruydu ve işe yaradı |
-| **Uyuşmuyor** | Gördüğünüzle uyuşmuyor |
-| **Zaten biliyordum** | Doğru, ama zaten farkındaydınız |
-| **Emin değilim** | Henüz değerlendiremiyorsunuz |
+| **Değerli** | Doğruydu ve işe yaradı |
+| **Faydalı değil** | Doğru, ama sizin için değil. Bu bulguyu 14 gün gizler |
+| **Zaten biliyordum** | Doğru, ama zaten biliyordunuz. 7 gün gizler |
+| **Uyuşmuyor** | Gördüğünüzle uyuşmuyor. 14 gün gizler |
 
-Reef Buddy bir kayma bildirdiğinde ayrıca *Bu uyarı işinize yaradı mı?* diye sorar. **Faydalı**, **Faydalı değil**, **Bu değişiklik beklenen bir şey** ya da **Ölçüm yanlış görünüyor** diye yanıtlayabilirsiniz. Geri bildiriminiz, sonraki özetlerde neyin önce görüneceğini şekillendirir. Bir içgörüyü gizlemek yalnızca bir süre için geçerlidir. Sorun hâlâ varsa içgörü geri gelir.
+Değişen bir ölçümde **Uyuşmuyor**, yanlış ölçümleri hariç tutmayı da önerir; böylece Cora onları saymayı bırakır. Gizleme yalnızca bir süre sürer. Sorun hâlâ varsa bulgu geri gelir.
 
-:::note Ciddi tespitler hiçbir zaman gizlenmez
-Geri bildirim yalnızca önemi düşük içgörüleri sessizleştirir. Uyarı ve kritik düzeydeki içgörüler, daha önce ne yanıt vermiş olursanız olun görünmeye devam eder.
+:::note Ciddi bulgular asla gizlenmez
+Uyarı ve kritik bulgular, daha önce ne yanıtlamış olursanız olun görünmeye devam eder.
 :::

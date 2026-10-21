@@ -27,18 +27,18 @@ A low Data score means Cora had fewer readings to work with than it wanted. Look
 
 Next is a summary, a short paragraph that explains the headline using your real values and ranges.
 
-Then come the insights, one for each finding. Each has a category (such as *Water Chemistry*) and a cadence (such as *Daily*), and you can expand it for detail. A chip at the top of the section shows the tank type and how complete its profile is. Both affect what Cora can conclude.
+Then comes **Today at a glance**, and below it every finding as one card: an insight, a reading that moved, or the daily observation. Each card says what Cora saw, shows the numbers and a small chart. A finding that repeats shows *Still: ..., since 12 Oct*. A chip at the top of the page shows the tank type and how complete its profile is. Both affect what Cora can conclude.
 
 
 Cora filters insights before they reach you. An insight has to hold up over several readings. One isn't enough. It also has to tell you something a single chart wouldn't already show.
 
-Tap the card on the dashboard to open the full briefing.
+Tap the card on the dashboard, or the daily notification, to open the Reef Buddy page for that tank.
 
 ## Opening the briefing again {#dismissing-the-card}
 
 Tap **×** to clear today's card from the dashboard. Tomorrow's still comes.
 
-To open today's briefing after you've cleared the card, tap the newspaper button at the top of the dashboard (**Reef Buddy daily health**). An older briefing opens from its notification.
+To open today's briefing after you've cleared the card, tap the newspaper button at the top of the dashboard. An older briefing opens from its notification.
 
 ## Updating the briefing with a new test {#updating-the-briefing-with-a-new-test}
 
@@ -100,17 +100,17 @@ If you turned off **Allow Cora Assistant to use saved tank data**, the briefing 
 
 ## Correcting an insight {#correcting-an-insight}
 
-You can respond to each insight in one of four ways.
+Every card has one feedback row under it. Your answer shapes what shows up first in later briefings.
 
 | Response | Means |
 |---|---|
-| **Confirmed** | It was right, and useful |
-| **Doesn't match** | It doesn't match what you're seeing |
-| **Already knew** | Right, but you were aware |
-| **Not sure** | You can't judge it yet |
+| **Valuable** | Right, and useful |
+| **Not useful** | Right, but not for you. Hides that finding for 14 days |
+| **Already knew** | Right, but you were aware. Hides it for 7 days |
+| **Doesn't match** | It doesn't match what you're seeing. Hides it for 14 days |
 
-When Reef Buddy flags a drift, it also asks *Was this heads-up useful?* You can answer **Helpful**, **Not helpful**, **This change is expected** or **Reading looks wrong**. Your feedback shapes what shows up first in later briefings. Hiding an insight only lasts for a while. If the problem is still there, the insight comes back.
+On a reading that moved, **Doesn't match** also offers to exclude the wrong readings, so Cora stops counting them. Hiding only lasts for a while. If the problem is still there afterwards, the finding comes back.
 
 :::note Serious findings are never hidden
-Feedback only quiets lower-severity insights. Warning and critical insights keep showing up, whatever you've answered before.
+Warning and critical findings keep showing up, whatever you've answered before.
 :::

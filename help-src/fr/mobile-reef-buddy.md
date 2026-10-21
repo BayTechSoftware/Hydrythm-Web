@@ -27,18 +27,18 @@ Un score Données faible veut dire que Cora avait moins de mesures qu’il n’e
 
 Vient ensuite un résumé, un court paragraphe qui explique le titre avec vos vraies valeurs et vos plages.
 
-Puis viennent les analyses, une par constat. Chacune a une catégorie (comme *Chimie de l’eau*) et une fréquence (comme *Quotidien*), et vous pouvez la déplier pour plus de détails. Une puce en haut de la section indique le type d’aquarium et à quel point son profil est complet. Les deux influencent ce que Cora peut conclure.
+Vient ensuite **Aujourd’hui en un coup d’œil**, puis chaque constat sous forme d’une carte : une analyse, une mesure qui a bougé ou l’observation du jour. Chaque carte dit ce que Cora a vu, montre les chiffres et un petit graphique. Un constat qui se répète affiche *Toujours : ..., depuis le 12 oct.* Une pastille en haut de la page indique le type d’aquarium et la complétude de son profil. Les deux influencent ce que Cora peut conclure.
 
 
 Cora filtre les analyses avant qu’elles ne vous parviennent. Une analyse doit tenir sur plusieurs mesures. Une seule ne suffit pas. Elle doit aussi vous apprendre quelque chose qu’un simple graphique ne montrerait pas déjà.
 
-Touchez la carte du tableau de bord pour ouvrir le briefing complet.
+Touchez la carte du tableau de bord, ou la notification quotidienne, pour ouvrir la page Reef Buddy de cet aquarium.
 
 ## Rouvrir le briefing {#dismissing-the-card}
 
 Touchez **×** pour retirer la carte du jour du tableau de bord. Celle de demain arrivera quand même.
 
-Pour ouvrir le briefing du jour après avoir retiré la carte, touchez le bouton journal en haut du tableau de bord (**Bilan de santé quotidien Reef Buddy**). Un briefing plus ancien s’ouvre depuis sa notification.
+Pour ouvrir le briefing du jour après avoir retiré la carte, touchez le bouton journal en haut du tableau de bord. Un briefing plus ancien s’ouvre depuis sa notification.
 
 ## Mettre à jour le briefing avec un nouveau test {#updating-the-briefing-with-a-new-test}
 
@@ -100,17 +100,17 @@ Si vous avez désactivé **Autoriser Cora Assistant à utiliser les données d�
 
 ## Corriger une analyse {#correcting-an-insight}
 
-Vous pouvez répondre à chaque analyse de l’une de ces quatre façons.
+Chaque carte a une ligne de retour en dessous. Votre réponse influence ce qui apparaît en premier dans les briefings suivants.
 
-| Réponse | Signification |
+| Réponse | Signifie |
 |---|---|
-| **Confirmé** | Elle était juste, et utile |
-| **Ne correspond pas** | Elle ne correspond pas à ce que vous observez |
-| **Le savais déjà** | Juste, mais vous le saviez |
-| **Pas sûr** | Vous ne pouvez pas encore en juger |
+| **Utile** | C’était juste, et utile |
+| **Pas utile** | Juste, mais pas pour vous. Masque ce constat pendant 14 jours |
+| **Je le savais déjà** | Juste, mais vous le saviez. Le masque pendant 7 jours |
+| **Ne correspond pas** | Cela ne correspond pas à ce que vous voyez. Le masque pendant 14 jours |
 
-Quand Reef Buddy signale une dérive, il demande aussi *Cet avertissement était-il utile ?* Vous pouvez répondre **Utile**, **Pas utile**, **Ce changement est prévu** ou **La mesure semble erronée**. Vos retours influencent ce qui apparaît en premier dans les briefings suivants. Masquer une analyse ne dure qu’un temps. Si le problème est toujours là, l’analyse revient.
+Sur une mesure qui a bougé, **Ne correspond pas** propose aussi d’exclure les mauvaises mesures, pour que Cora arrête de les compter. Le masquage ne dure qu’un temps. Si le problème est toujours là ensuite, le constat revient.
 
 :::note Les constats sérieux ne sont jamais masqués
-Les retours ne font taire que les analyses de faible gravité. Les analyses d’avertissement et critiques continuent d’apparaître, quoi que vous ayez répondu avant.
+Les constats d’avertissement et critiques continuent d’apparaître, quelles que soient vos réponses précédentes.
 :::

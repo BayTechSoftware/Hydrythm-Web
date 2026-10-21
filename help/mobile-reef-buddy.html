@@ -180,12 +180,12 @@
 <div class="tw"><table class="stack"><thead><tr><th>Score</th><th>Means</th></tr></thead><tbody><tr><td data-th="Score"><strong>Stability</strong></td><td data-th="Means">Out of 100. How steady your readings have been over the last 30 days</td></tr><tr><td data-th="Score"><strong>Data</strong></td><td data-th="Means">A percentage. How complete the data behind the assessment is</td></tr></tbody></table></div>
 <p>A low Data score means Cora had fewer readings to work with than it wanted. Look at it first. When Data is low, take the Stability number next to it as a first guess.</p>
 <p>Next is a summary, a short paragraph that explains the headline using your real values and ranges.</p>
-<p>Then come the insights, one for each finding. Each has a category (such as <em>Water Chemistry</em>) and a cadence (such as <em>Daily</em>), and you can expand it for detail. A chip at the top of the section shows the tank type and how complete its profile is. Both affect what Cora can conclude.</p>
+<p>Then comes <strong>Today at a glance</strong>, and below it every finding as one card: an insight, a reading that moved, or the daily observation. Each card says what Cora saw, shows the numbers and a small chart. A finding that repeats shows <em>Still: ..., since 12 Oct</em>. A chip at the top of the page shows the tank type and how complete its profile is. Both affect what Cora can conclude.</p>
 <p>Cora filters insights before they reach you. An insight has to hold up over several readings. One isn't enough. It also has to tell you something a single chart wouldn't already show.</p>
-<p>Tap the card on the dashboard to open the full briefing.</p>
+<p>Tap the card on the dashboard, or the daily notification, to open the Reef Buddy page for that tank.</p>
 <h2 id="dismissing-the-card">Opening the briefing again</h2>
 <p>Tap <strong>×</strong> to clear today's card from the dashboard. Tomorrow's still comes.</p>
-<p>To open today's briefing after you've cleared the card, tap the newspaper button at the top of the dashboard (<strong>Reef Buddy daily health</strong>). An older briefing opens from its notification.</p>
+<p>To open today's briefing after you've cleared the card, tap the newspaper button at the top of the dashboard. An older briefing opens from its notification.</p>
 <h2 id="updating-the-briefing-with-a-new-test">Updating the briefing with a new test</h2>
 <p>If you log a test by hand or add an ICP result after the briefing came out, the full briefing shows <strong>New readings since this briefing</strong> with an <strong>Update briefing</strong> button. Tap it and Cora redoes the briefing with the new numbers. It uses one message from your Assistant allowance.</p>
 <p>You can do this once a day for your account. After that the button is greyed out and says <em>You can update the briefing once a day. Next update: tomorrow.</em></p>
@@ -211,10 +211,10 @@
 <ul><li><strong>Nothing needed your attention.</strong> Reef Buddy stays quiet on a good day. The card is still on the dashboard.</li><li><strong>Your trial ended.</strong> A free account gets the locked card and no notification.</li><li><strong>The tank is past your plan's limit.</strong> Move it up in <strong>Settings → Reorder tanks</strong>.</li><li><strong>Notifications are off.</strong> Check <a href="/help/mobile-notifications">Notifications</a>.</li></ul>
 <p>If you turned off <strong>Allow Cora Assistant to use saved tank data</strong>, the briefing still comes, but its summary is a plain fixed text and the AI-written observation is left out. See <a href="/help/mobile-assistant#consent">Asking Cora</a>.</p>
 <h2 id="correcting-an-insight">Correcting an insight</h2>
-<p>You can respond to each insight in one of four ways.</p>
-<div class="tw"><table class="stack"><thead><tr><th>Response</th><th>Means</th></tr></thead><tbody><tr><td data-th="Response"><strong>Confirmed</strong></td><td data-th="Means">It was right, and useful</td></tr><tr><td data-th="Response"><strong>Doesn't match</strong></td><td data-th="Means">It doesn't match what you're seeing</td></tr><tr><td data-th="Response"><strong>Already knew</strong></td><td data-th="Means">Right, but you were aware</td></tr><tr><td data-th="Response"><strong>Not sure</strong></td><td data-th="Means">You can't judge it yet</td></tr></tbody></table></div>
-<p>When Reef Buddy flags a drift, it also asks <em>Was this heads-up useful?</em> You can answer <strong>Helpful</strong>, <strong>Not helpful</strong>, <strong>This change is expected</strong> or <strong>Reading looks wrong</strong>. Your feedback shapes what shows up first in later briefings. Hiding an insight only lasts for a while. If the problem is still there, the insight comes back.</p>
-<aside class="cal cal-note"><p class="cal-t">Serious findings are never hidden</p><p>Feedback only quiets lower-severity insights. Warning and critical insights keep showing up, whatever you've answered before.</p></aside>
+<p>Every card has one feedback row under it. Your answer shapes what shows up first in later briefings.</p>
+<div class="tw"><table class="stack"><thead><tr><th>Response</th><th>Means</th></tr></thead><tbody><tr><td data-th="Response"><strong>Valuable</strong></td><td data-th="Means">Right, and useful</td></tr><tr><td data-th="Response"><strong>Not useful</strong></td><td data-th="Means">Right, but not for you. Hides that finding for 14 days</td></tr><tr><td data-th="Response"><strong>Already knew</strong></td><td data-th="Means">Right, but you were aware. Hides it for 7 days</td></tr><tr><td data-th="Response"><strong>Doesn't match</strong></td><td data-th="Means">It doesn't match what you're seeing. Hides it for 14 days</td></tr></tbody></table></div>
+<p>On a reading that moved, <strong>Doesn't match</strong> also offers to exclude the wrong readings, so Cora stops counting them. Hiding only lasts for a while. If the problem is still there afterwards, the finding comes back.</p>
+<aside class="cal cal-note"><p class="cal-t">Serious findings are never hidden</p><p>Warning and critical findings keep showing up, whatever you've answered before.</p></aside>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-activity"><span>Previous</span><b>Activity and timeline</b></a><a class="pn-n" href="/help/mobile-assistant"><span>Next</span><b>Asking Cora</b></a></nav>
       <p class="stamp">Written for Cora Max 0.28.219 and Cora Mobile 1.4.1. Last checked 2026-10-18.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
@@ -607,7 +607,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/help/search.json?v=7c71dd0350').then(function (r) { return r.json(); })
+    fetch('/help/search.json?v=d421e82e60').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "en"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';
