@@ -220,7 +220,7 @@
 <p>Wszystko jest gotowe, gdy Panel pokazuje na górze nazwę akwarium i kilka widżetów z liczbami. Karta <strong>Reef Buddy</strong> pojawi się, gdy w nocy powstanie pierwsze podsumowanie.</p>
 <p>Dalej zajrzyj do <a href="/pl/help/mobile-tour">Jak poruszać się po Cora Mobile</a>. Żeby dodać drugie akwarium, zobacz <a href="/pl/help/mobile-tanks">Zarządzanie akwariami</a>.</p>
       <nav class="pn" aria-label="Czytaj dalej"><a class="pn-n" href="/pl/help/mobile-tour"><span>Następny</span><b>Jak poruszać się po Cora Mobile</b></a></nav>
-      <p class="stamp">Napisano dla Cora Max 0.28.219 i Cora Mobile 1.4.1. Ostatnio sprawdzono 2026-10-18.</p>
+      <p class="stamp">Napisano dla Cora Max 0.28.220 i Cora Mobile 1.4.2. Ostatnio sprawdzono 2026-10-18.</p>
       <p class="ask">Wciąż masz problem? Napisz na <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, pomożemy.</p>
     </article>
   </main>
@@ -611,7 +611,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/pl/help/search.json?v=541e6f5556').then(function (r) { return r.json(); })
+    fetch('/pl/help/search.json?v=acbbc18621').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "pl"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Wyszukiwanie jest niedost\u0119pne. U\u017cyj menu." + '</li>';

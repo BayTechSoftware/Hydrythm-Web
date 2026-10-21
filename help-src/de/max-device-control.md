@@ -102,7 +102,7 @@ AquaWiz lässt Cora seine Cloud nur alle 12 Stunden auslesen. Damit die Alkalini
 - Es wartet, solange das Cora Max mit dir spricht, aktualisiert, koppelt oder das WLAN wechselt, und versucht es in der nächsten Stunde wieder.
 - Der Controller muss in WLAN-Reichweite des Cora Max sein, und seine Firmware muss lokalen Zugriff bieten. Schlagen zwei Messungen hintereinander fehl, versucht das Cora Max es für den Rest des Tages nicht mehr, und die 12-Stunden-Messung aus der Cloud läuft weiter.
 
-Ein Messwert vom Cora Max zeigt auf der AquaWiz-Karte im Handy **Stündlich von deinem Cora Max**. Er bringt außerdem die Warnungen zu Pumpe, pH-Sonde und Wasserbehälter mit, die unter [Warnungen](/help/mobile-alerts#equipment-faults) beschrieben sind.
+Ein Messwert vom Cora Max zeigt auf der AquaWiz-Karte im Handy **Stündlich von deinem Cora Max**. Er bringt außerdem die Warnungen zum Wasserbox-Füllstand mit, die unter [Warnungen](/help/mobile-alerts#equipment-faults) beschrieben sind. Warnungen zu Pumpe und pH-Sonde brauchen kein Cora Max.
 
 
 ## Wenn Bluetooth nicht mehr funktioniert {#bluetooth-stopped}

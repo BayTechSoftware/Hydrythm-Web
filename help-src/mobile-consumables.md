@@ -36,7 +36,7 @@ Most thresholds are in days, not volume. Cora works out how long what's left wil
 | ReefDose head | Days of supplement left | 7 days |
 | ReefATO+ | **Reservoir runway**, estimated from recent top-off use | 2 days |
 | ReefMat | **Roll remaining**, estimated from how fast the roller advances | 3 days |
-| AquaWiz | Alkalinity supplement left | 100 mL |
+| AquaWiz | Alkalinity supplement left | The warning level set on the controller (100 mL if it reports none) |
 
 
 A consumable alert works like any other alert. It shows in the [Alert Center](/help/mobile-alerts) and can push to your phone. You get **one** notification when a level is crossed, and it clears when the level is back above the threshold.

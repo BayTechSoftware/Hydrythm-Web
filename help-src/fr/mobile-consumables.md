@@ -36,7 +36,7 @@ La plupart des seuils se règlent en jours, pas en volume. Cora calcule combien 
 | Tête ReefDose | Jours de produit restants | 7 jours |
 | ReefATO+ | **Autonomie du réservoir**, estimée d’après la consommation récente de l’osmolateur | 2 jours |
 | ReefMat | **Rouleau restant**, estimé d’après la vitesse d’avancement du rouleau | 3 jours |
-| AquaWiz | Produit d’alcalinité restant | 100 mL |
+| AquaWiz | Produit d’alcalinité restant | Le seuil d’alerte réglé sur le contrôleur (100 mL s’il n’en signale pas) |
 
 
 Une alerte de consommable fonctionne comme les autres alertes. Elle apparaît dans le [Centre d’alertes](/help/mobile-alerts) et peut arriver sur votre téléphone. Vous recevez **une seule** notification quand un niveau passe le seuil, et l’alerte se ferme quand le niveau repasse au-dessus du seuil.

@@ -83,17 +83,17 @@ Ihre Seite zeigt die letzten Einstellungen, die Cora gelesen hat, und wie lange 
 Cora liest die Alkalinität eines AquaWiz KH Controllers über die Cloud von AquaWiz, das funktioniert also auch unterwegs und braucht kein Cora Max. Ein Cora Max bringt stündliche Messwerte dazu: siehe [Wie Cora deinen AquaWiz liest](#how-cora-reads-aquawiz).
 
 1. Geh zu **Geräte → Gerät hinzufügen → AquaWiz**.
-2. Gib deinen AquaWiz-Benutzernamen und dein Passwort ein und tippe auf **Verbinden**.
+2. Melde dich mit dem AquaWiz-Konto an, das du auch in der AquaWiz-App nutzt, und tippe auf **Verbinden**.
 3. Wähl das Becken, prüf **Auch pH-Wert lesen** (es ist bei einem Gerät, das den pH-Wert meldet, zuerst eingeschaltet), und tippe auf **Mit Cora verknüpfen**.
 
-Mit eingeschaltetem **Automatisch verbunden bleiben** behält Cora dein AquaWiz-Passwort und erneuert die Verbindung von selbst. Ist es aus, behält Cora nur ein Anmelde-Token, das AquaWiz etwa alle 30 Tage ablaufen lässt, und schickt dir eine Benachrichtigung, wenn du dich wieder anmelden musst.
+Du meldest dich nur einmal an, damit Cora deine Controller findet. Danach behält Cora nur deinen AquaWiz-Benutzernamen: kein Passwort und kein Anmelde-Token. Es gibt nichts zu erneuern, deshalb bittet dich Cora nie, dich erneut anzumelden, und es gibt keinen Schalter **Automatisch verbunden bleiben**. Meldet AquaWiz später, dass der Benutzername den Controller nicht mehr besitzt, wird seine Karte orange und sagt dir, dass du ihn erneut verknüpfen sollst: Öffne **AquaWiz hinzufügen** und melde dich noch einmal an.
 
-Du bekommst die Alkalinität als Quelle, und auch den pH-Wert, wenn dein Gerät ihn meldet und **Auch pH-Wert lesen** an ist. Dein erster Messwert kommt, sobald du verknüpfst. Danach erlaubt AquaWiz Cora nur alle 12 Stunden, seine Cloud automatisch abzufragen. Ein Messwert von dort kann also bis zu etwa einen halben Tag alt sein. Ein Cora Max am Becken kann den Controller auch selbst jede Stunde auslesen, wenn er ihn erreicht. Öffne die Seite des Geräts, um zu sehen, wann jeder Messwert gemessen wurde und woher er kam, und tippe auf **Jetzt auslesen** für einen frischen (höchstens alle 15 Minuten). Was die AquaWiz-Karte zeigt und welche Warnungen es gibt, steht unter [Deine Ausrüstung steuern](/help/mobile-device-control#aquawiz).
+Du bekommst die Alkalinität als Quelle, und auch den pH-Wert, wenn dein Gerät ihn meldet und **Auch pH-Wert lesen** an ist. Dein erster Messwert kommt, sobald du verknüpfst, zusammen mit den letzten 6 Stunden Verlauf. Danach schickt der Cora-Dienst von AquaWiz alle 12 Stunden einen Messwert, das ist das Limit von AquaWiz. Ein Messwert von dort kann also bis zu etwa einen halben Tag alt sein. Ein Cora Max am Becken kann den Controller auch selbst jede Stunde auslesen, wenn er ihn erreicht. Öffne die Seite des Geräts, um zu sehen, wann jeder Messwert gemessen wurde und woher er kam, und tippe auf **Jetzt auslesen** für einen frischen (höchstens alle 15 Minuten). Was die AquaWiz-Karte zeigt und welche Warnungen es gibt, steht unter [Deine Ausrüstung steuern](/help/mobile-device-control#aquawiz).
 
 Um den Controller einem anderen Becken zuzuordnen, öffne seine Seite unter **Geräte** und tippe unter **Becken** auf **Ändern**. Du musst dich dafür nicht erneut bei AquaWiz anmelden.
 
-:::warning Cora teilt deine AquaWiz-Anmeldung
-AquaWiz vergibt pro Konto eine Anmeldung, deshalb nutzt Cora dieselbe wie die AquaWiz-App. Änderst du dein AquaWiz-Passwort, trennt sich Cora. Verbinde es danach über die Gerätezeile neu. Um Cora den Zugriff ganz zu entziehen, entferne das Gerät in Cora und ändere dein AquaWiz-Passwort.
+:::note Cora behält nur deinen Benutzernamen
+Cora braucht dein Passwort nur einmal beim Verknüpfen und speichert es nicht. Ein geändertes AquaWiz-Passwort trennt Cora nicht. Das Trennen der Verknüpfung beendet das Lesen des Controllers, und Cora vergisst deinen Benutzernamen; du wirst dadurch nicht in der AquaWiz-App abgemeldet. Deine bisherigen Messwerte bleiben erhalten.
 :::
 
 ### Wie Cora deinen AquaWiz liest {#how-cora-reads-aquawiz}
@@ -102,13 +102,15 @@ Cora erreicht einen AquaWiz auf bis zu drei Wegen, und sie arbeiten zusammen.
 
 | Weg | Was Cora bekommt | Wie oft |
 | --- | --- | --- |
-| Deine AquaWiz-Anmeldung | Findet deine Controller, liest ihre Einstellungen (Ziel-KH, Dosierstärke, Behälter) und holt einen täglichen Verlauf. | Einmal am Tag und wenn Einstellungen gebraucht werden |
-| Der Cora-Dienst von AquaWiz | Der neueste KH- und pH-Messwert. | Beim Verknüpfen, danach alle 12 Stunden (AquaWiz-Limit) und wenn du die Geräteseite öffnest oder auf **Jetzt auslesen** tippst (höchstens alle 15 Minuten) |
-| Ein Cora Max am Becken | Liest den Controller direkt über dessen eigenes WLAN und bringt Warnungen zu Pumpe, pH-Sonde und Wasserbox. | Jede Stunde |
+| Deine AquaWiz-Anmeldung | Wird nur einmal beim Verknüpfen genutzt, um deine Controller zu finden. Danach behält Cora nur deinen Benutzernamen. | Einmal |
+| Der Cora-Dienst von AquaWiz | Der neueste KH- und pH-Messwert, die letzten 6 Stunden Verlauf und die Einstellungen des Controllers (Ziel-KH, Dosierstärke, Zusatz-Rest, Status von Pumpe und pH-Sonde, Firmware). | Beim Verknüpfen, danach alle 12 Stunden (AquaWiz-Limit) und wenn du die Geräteseite öffnest oder auf **Jetzt auslesen** tippst (höchstens alle 15 Minuten) |
+| Ein Cora Max am Becken | Liest den Controller direkt über dessen eigenes WLAN und bringt Warnungen zum Wasserbox-Füllstand. | Jede Stunde |
 
 Ohne Cora Max kommen die Messwerte alle 12 Stunden, das ist das Limit von AquaWiz, ein Messwert kann also bis zu etwa einen halben Tag alt sein. **Stündliche Messwerte gewünscht? Stell ein Cora Max an dein Becken.** [Cora Max ansehen](https://coraiq.tech/de/#max) und [einrichten](/help/max-setup). Es braucht den Controller in WLAN-Reichweite des Cora Max und eine Controller-Firmware mit lokalem Zugriff. Die Einzelheiten stehen unter [Stündliches Auslesen durch Cora Max](/help/max-device-control#aquawiz-hourly).
 
 Die Gerätekarte zeigt, woher jeder Messwert kam: **Stündlich von deinem Cora Max** oder **Aus der AquaWiz-Cloud, alle 12 Stunden**.
+
+Cora behält den vollständigen stündlichen Verlauf deines Controllers. Beim Verknüpfen füllt Cora bis zu 30 Tage rückwirkend auf, deine Diagramme beginnen also nicht leer.
 
 
 ## Von Hand eintragen {#logging-by-hand}

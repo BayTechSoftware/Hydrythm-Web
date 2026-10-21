@@ -220,7 +220,7 @@
 <div class="tw"><table class="stack"><thead><tr><th>Mensaje</th><th>Qué hacer</th></tr></thead><tbody><tr><td data-th="Mensaje"><strong>La voz necesita tu autorización</strong></td><td data-th="Qué hacer">Activa el uso compartido de datos con la IA en Cora Mobile (<strong>Ajustes → Cora Assistant</strong>) y vuelve a intentarlo</td></tr><tr><td data-th="Mensaje"><strong>Límite gratuito de voz alcanzado</strong></td><td data-th="Qué hacer">Se ha acabado la cuota de este mes. Mejora tu plan en Cora Mobile, o espera al mes siguiente</td></tr><tr><td data-th="Mensaje"><strong>Demasiadas solicitudes</strong></td><td data-th="Qué hacer">Espera un momento y vuelve a intentarlo</td></tr><tr><td data-th="Mensaje"><strong>Problema de conexión</strong></td><td data-th="Qué hacer">Revisa el Wi-Fi de este Cora Max y vuelve a tocar el icono de <strong>Cora Assistant</strong></td></tr></tbody></table></div>
 <p>Si eso no ayuda, echa un vistazo a <a href="/es/help/troubleshooting">Solución de problemas</a>.</p>
       <nav class="pn" aria-label="Seguir leyendo"><a class="pn-p" href="/es/help/max-intelligence"><span>Anterior</span><b>Reef Buddy e informes</b></a><a class="pn-n" href="/es/help/max-settings"><span>Siguiente</span><b>Ajustes de Cora Max</b></a></nav>
-      <p class="stamp">Escrito para Cora Max 0.28.219 y Cora Mobile 1.4.1. Última revisión el 2026-10-18.</p>
+      <p class="stamp">Escrito para Cora Max 0.28.220 y Cora Mobile 1.4.2. Última revisión el 2026-10-18.</p>
       <p class="ask">¿Sigues atascado? Escribe a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> y te ayudamos.</p>
     </article>
   </main>
@@ -611,7 +611,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/es/help/search.json?v=29255fbb97').then(function (r) { return r.json(); })
+    fetch('/es/help/search.json?v=69a6ff4d0e').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "es"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La b\u00fasqueda no est\u00e1 disponible. Usa la navegaci\u00f3n." + '</li>';

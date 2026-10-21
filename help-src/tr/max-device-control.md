@@ -102,7 +102,7 @@ AquaWiz, Cora'nın bulutunu yalnızca 12 saatte bir okumasına izin verir. Alkal
 - Cora Max sizinle konuşurken, güncellenirken, eşleşirken ya da Wi-Fi değiştirirken bekler ve bir sonraki saatte yeniden dener.
 - Kontrolör Cora Max'in Wi-Fi menzilinde olmalı ve ürün yazılımı yerel erişim sunmalıdır. Üst üste iki okuma başarısız olursa Cora Max günün geri kalanında denemeyi bırakır ve 12 saatlik bulut okuması devam eder.
 
-Cora Max'ten gelen bir ölçüm, telefondaki AquaWiz kartında **Cora Max cihazınızdan saatlik** olarak görünür. Ayrıca [Uyarılar](/help/mobile-alerts#equipment-faults) sayfasında anlatılan pompa, pH probu ve su haznesi uyarılarını da getirir.
+Cora Max'ten gelen bir ölçüm, telefondaki AquaWiz kartında **Cora Max cihazınızdan saatlik** olarak görünür. Ayrıca [Uyarılar](/help/mobile-alerts#equipment-faults) sayfasında anlatılan su kutusu seviyesi uyarılarını da getirir. Pompa ve pH probu uyarıları için Cora Max gerekmez.
 
 
 ## Bluetooth çalışmayı durdurursa {#bluetooth-stopped}

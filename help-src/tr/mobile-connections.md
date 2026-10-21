@@ -83,17 +83,17 @@ Sayfası Cora'nın okuduğu son ayarları ve ne kadar önce okuduğunu gösterir
 Cora bir AquaWiz KH kontrolöründen alkaliniteyi AquaWiz'in bulutu üzerinden okur, bu yüzden evden uzaktayken çalışır ve Cora Max gerektirmez. Cora Max saatlik ölçüm ekler: bkz. [Cora AquaWiz'inizi nasıl okur](#how-cora-reads-aquawiz).
 
 1. **Cihazlar → Cihaz Ekle → AquaWiz** yoluna gidin.
-2. AquaWiz kullanıcı adınızı ve şifrenizi girin ve **Bağlan**'a dokunun.
+2. AquaWiz uygulamasında kullandığınız AquaWiz hesabıyla giriş yapın ve **Bağlan**'a dokunun.
 3. Akvaryumu seçin, **pH'ını da oku**'yu kontrol edin (pH bildiren bir ünitede başta açıktır) ve **Cora'ya Bağla**'ya dokunun.
 
-**Otomatik olarak bağlı kal** açıkken Cora AquaWiz şifrenizi saklar ve bağlantıyı kendisi yeniler. Kapalıyken Cora yalnızca AquaWiz'in yaklaşık 30 günde bir sona erdirdiği bir giriş belirteci saklar ve yeniden giriş yapma zamanı geldiğinde size bir bildirim gönderir.
+Cora kontrolörlerinizi bulabilsin diye yalnızca bir kez giriş yaparsınız. Sonrasında Cora yalnızca AquaWiz kullanıcı adınızı saklar: şifre yok, giriş belirteci yok. Yenilenecek bir şey olmadığı için Cora sizden asla yeniden giriş yapmanızı istemez ve **Otomatik olarak bağlı kal** düğmesi de yoktur. AquaWiz daha sonra bu kullanıcı adının artık kontrolöre sahip olmadığını bildirirse kartı turuncuya döner ve yeniden bağlamanızı söyler: **AquaWiz Ekle**'yi açın ve bir kez daha giriş yapın.
 
-Kaynak olarak alkaliniteyi alırsınız. Üniteniz bildiriyorsa ve **pH'ını da oku** açıksa pH da gelir. İlk ölçümünüz bağlar bağlamaz gelir. Sonrasında AquaWiz, Cora'nın bulutunu otomatik olarak yalnızca 12 saatte bir okumasına izin verir; yani oradan gelen bir ölçüm yarım güne kadar eski olabilir. Akvaryumdaki bir Cora Max, ulaşabildiğinde kontrolörü her saat kendisi de okuyabilir. Her ölçümün ne zaman yapıldığını ve nereden geldiğini görmek için cihazın sayfasını açın, yenisi için **Şimdi oku**'ya dokunun (en fazla 15 dakikada bir). AquaWiz kartının ne gösterdiği ve uyarıları [Ekipmanınızı kontrol etme](/help/mobile-device-control#aquawiz) sayfasında.
+Kaynak olarak alkaliniteyi alırsınız. Üniteniz bildiriyorsa ve **pH'ını da oku** açıksa pH da gelir. İlk ölçümünüz bağlar bağlamaz, son 6 saatlik geçmişle birlikte gelir. Sonrasında AquaWiz'in Cora hizmeti 12 saatte bir ölçüm gönderir; bu AquaWiz'in sınırıdır, yani oradan gelen bir ölçüm yarım güne kadar eski olabilir. Akvaryumdaki bir Cora Max, ulaşabildiğinde kontrolörü her saat kendisi de okuyabilir. Her ölçümün ne zaman yapıldığını ve nereden geldiğini görmek için cihazın sayfasını açın, yenisi için **Şimdi oku**'ya dokunun (en fazla 15 dakikada bir). AquaWiz kartının ne gösterdiği ve uyarıları [Ekipmanınızı kontrol etme](/help/mobile-device-control#aquawiz) sayfasında.
 
 Kontrolörü başka bir akvaryuma taşımak için **Cihazlar** içinde sayfasını açın ve **Akvaryumlar** altında **Değiştir**'e dokunun. AquaWiz'e yeniden giriş yapmanız gerekmez.
 
-:::warning Cora AquaWiz girişinizi paylaşır
-AquaWiz her hesaba tek bir giriş verir, bu yüzden Cora AquaWiz uygulamasıyla aynı girişi kullanır. AquaWiz şifrenizi değiştirirseniz Cora'nın bağlantısı kesilir. Sonrasında cihaz satırından yeniden bağlayın. Cora'nın erişimini tamamen kaldırmak için cihazı Cora'dan kaldırın ve AquaWiz şifrenizi değiştirin.
+:::note Cora yalnızca kullanıcı adınızı saklar
+Cora şifrenizi yalnızca bağlama sırasında bir kez kullanır ve saklamaz. AquaWiz şifrenizi değiştirmek Cora'nın bağlantısını kesmez. Bağlantıyı kaldırmak Cora'nın kontrolörü okumasını durdurur ve kullanıcı adınızı unutturur; sizi AquaWiz uygulamasından çıkarmaz. Mevcut ölçümleriniz korunur.
 :::
 
 ### Cora AquaWiz'inizi nasıl okur {#how-cora-reads-aquawiz}
@@ -102,13 +102,15 @@ Cora bir AquaWiz'e en fazla üç yolla ulaşır ve bu yollar birlikte çalışı
 
 | Yol | Cora'ya ne verir | Ne sıklıkla |
 | --- | --- | --- |
-| AquaWiz girişiniz | Kontrolörlerinizi bulur, ayarlarını (hedef KH, dozaj gücü, kap) okur ve günlük bir geçmiş alır. | Günde bir kez ve ayarlar gerektiğinde |
-| AquaWiz'in Cora hizmeti | En son KH ve pH ölçümü. | Bağladığınızda, sonra 12 saatte bir (AquaWiz sınırı) ve cihaz sayfasını açtığınızda ya da **Şimdi oku**'ya dokunduğunuzda (en fazla 15 dakikada bir) |
-| Akvaryumdaki bir Cora Max | Kontrolörü kendi Wi-Fi'si üzerinden doğrudan okur ve pompa, pH probu ve su kutusu uyarıları ekler. | Her saat |
+| AquaWiz girişiniz | Bağlarken bir kez, kontrolörlerinizi bulmak için kullanılır. Sonrasında Cora yalnızca kullanıcı adınızı saklar. | Bir kez |
+| AquaWiz'in Cora hizmeti | En son KH ve pH ölçümü, son 6 saatlik geçmiş ve kontrolörün ayarları (hedef KH, dozaj gücü, kalan takviye, pompa ve pH probu durumu, yazılım sürümü). | Bağladığınızda, sonra 12 saatte bir (AquaWiz sınırı) ve cihaz sayfasını açtığınızda ya da **Şimdi oku**'ya dokunduğunuzda (en fazla 15 dakikada bir) |
+| Akvaryumdaki bir Cora Max | Kontrolörü kendi Wi-Fi'si üzerinden doğrudan okur ve su kutusu seviyesi uyarıları ekler. | Her saat |
 
 Cora Max olmadan ölçümler 12 saatte bir gelir, bu AquaWiz'in sınırıdır; yani bir ölçüm yarım güne kadar eski olabilir. **Saatlik ölçüm mü istiyorsunuz? Akvaryumunuza bir Cora Max ekleyin.** [Cora Max'e göz atın](https://coraiq.tech/tr/#max) ve [kurun](/help/max-setup). Kontrolörün Cora Max'in Wi-Fi menzilinde olmasını ve yerel erişimli kontrolör yazılımını gerektirir. Ayrıntılar [Cora Max ile saatlik okuma](/help/max-device-control#aquawiz-hourly) sayfasında.
 
 Cihaz kartı her ölçümün nereden geldiğini gösterir: **Cora Max cihazınızdan saatlik** ya da **AquaWiz bulutundan, 12 saatte bir**.
+
+Cora kontrolörünüzün saatlik geçmişinin tamamını saklar. Bağladığınızda 30 güne kadar geriye dönük doldurur, böylece grafikleriniz boş başlamaz.
 
 
 ## Elle kaydetme {#logging-by-hand}

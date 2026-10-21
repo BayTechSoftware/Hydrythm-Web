@@ -192,7 +192,7 @@
 <h2 id="yardim">Yardım</h2>
 <p><a href="/tr/help/troubleshooting">Sorun giderme</a> · <a href="/tr/help/how-do-i">Nasıl yaparım...?</a> · <a href="/tr/help/equipment-by-brand">Markaya göre ekipman</a> · <a href="/tr/help/faq">Sıkça sorulan sorular</a> · <a href="/tr/help/glossary">Sözlük</a> · Hâlâ takıldınız mı? <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> adresine e-posta gönderin.</p>
       
-      <p class="stamp">Cora Max 0.28.219 ve Cora Mobile 1.4.1 için yazılmıştır. Son kontrol: 2026-10-13.</p>
+      <p class="stamp">Cora Max 0.28.220 ve Cora Mobile 1.4.2 için yazılmıştır. Son kontrol: 2026-10-13.</p>
       <p class="ask">Sorun devam ediyor mu? <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> adresine yazın, yardımcı olalım.</p>
     </article>
   </main>
@@ -583,7 +583,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/tr/help/search.json?v=45885825c2').then(function (r) { return r.json(); })
+    fetch('/tr/help/search.json?v=2a85bb0b50').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "tr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Arama \u015fu anda kullan\u0131lam\u0131yor. Men\u00fcy\u00fc kullan\u0131n." + '</li>';

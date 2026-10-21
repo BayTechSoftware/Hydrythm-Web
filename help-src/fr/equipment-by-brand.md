@@ -48,7 +48,7 @@ Des pompes qui rejoignent Cora par votre réseau ou en Bluetooth. Le mode de con
 
 ## AquaWiz KH Controller {#aquawiz}
 
-Cora le lit toutes les 12 heures par le cloud d’AquaWiz, il continue donc de se mettre à jour sans Cora Max. Un Cora Max à l’aquarium le lit toutes les heures à la place et ajoute les alertes de pompe, de sonde pH et de boîte à eau. Voir [Comment Cora lit votre AquaWiz](/help/mobile-connections#how-cora-reads-aquawiz).
+Cora le lit par le cloud d’AquaWiz toutes les 12 heures, et chaque fois que vous ouvrez sa page, il continue donc de se mettre à jour sans Cora Max. Vous vous connectez une seule fois pour le lier, et Cora ne garde que votre nom d’utilisateur. Les alertes de pompe et de sonde pH valent pour tout AquaWiz ; un Cora Max à l’aquarium le lit à la place toutes les heures et ajoute les alertes de boîte à eau. Voir [Comment Cora lit votre AquaWiz](/help/mobile-connections#how-cora-reads-aquawiz).
 
 - L’ajouter : [Connecter votre équipement](/help/mobile-connections#aquawiz-kh-controller)
 - Sur votre téléphone : [AquaWiz](/help/mobile-device-control#aquawiz)

@@ -202,7 +202,7 @@
 <p>Every request is logged, with what asked for it and how it went, whether it came from Cora Mobile, a Cora Max, voice, the Assistant or an automation. On Cora Max, tap the tank name in the top bar and choose <strong>Activity</strong>. On your phone, it's under <strong>Settings → Activity</strong>. More in <a href="/help/max-activity">Activity on Cora Max</a>.</p>
 <p>When something changed and you don't know why, look there first.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/max-dashboard-editing"><span>Previous</span><b>Editing the Cora Max dashboard</b></a><a class="pn-n" href="/help/max-device-control"><span>Next</span><b>Controlling equipment from Cora Max</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.219 and Cora Mobile 1.4.1. Last checked 2026-10-13.</p>
+      <p class="stamp">Written for Cora Max 0.28.220 and Cora Mobile 1.4.2. Last checked 2026-10-13.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>
@@ -593,7 +593,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/help/search.json?v=d421e82e60').then(function (r) { return r.json(); })
+    fetch('/help/search.json?v=ff598fbd00').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "en"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';

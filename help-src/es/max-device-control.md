@@ -102,7 +102,7 @@ AquaWiz solo deja que Cora lea su nube cada 12 horas. Para mantener la alcalinid
 - Espera mientras el Cora Max habla contigo, se actualiza, se empareja o cambia de Wi-Fi, y lo intenta de nuevo a la hora siguiente.
 - El controlador debe estar al alcance del Wi-Fi del Cora Max, y su firmware debe ofrecer acceso local. Si fallan dos lecturas seguidas, el Cora Max deja de intentarlo el resto del día y la lectura de la nube cada 12 horas continúa.
 
-Una lectura desde Cora Max muestra **Cada hora desde tu Cora Max** en la tarjeta de AquaWiz del teléfono. También trae las alertas de bomba, sonda de pH y depósito de agua descritas en [Alertas](/help/mobile-alerts#equipment-faults).
+Una lectura de Cora Max muestra **Cada hora desde tu Cora Max** en la tarjeta de AquaWiz del teléfono. También trae los avisos del nivel de la caja de agua descritos en [Alertas](/help/mobile-alerts#equipment-faults). Los avisos de bomba y sonda de pH no necesitan un Cora Max.
 
 
 ## Si el Bluetooth deja de funcionar {#bluetooth-stopped}

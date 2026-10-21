@@ -211,17 +211,19 @@
 <ol><li>Ist die Ausrüstung eingeschaltet und funktioniert sie in ihrer eigenen App?</li><li>Ist sie im selben Netzwerk, in dem du sie hinzugefügt hast?</li><li>Hat sich an deinem Router etwas geändert (neue Hardware, neuer Netzwerkname, Isolierung im Gastnetz)?</li></ol>
 <p>Ausrüstung in deinem lokalen Netzwerk muss in diesem Netzwerk erreichbar sein. Ausrüstung, die sich über ein Konto beim Hersteller verbindet, muss das nicht, aber dieses Konto muss gültig sein. Hat sich die Adresse des Geräts geändert, öffne es im Tab <strong>Geräte</strong> und tippe unter <strong>Verbindung</strong> auf <strong>Verbindung bearbeiten</strong>.</p>
 <h3 id="a-device-says-the-sign-in-was-refused">Ein Gerät sagt, die Anmeldung wurde abgelehnt</h3>
-<p>Der Hersteller hat die gespeicherte Anmeldung abgelehnt. Fast immer liegt es daran, dass du dort dein Passwort geändert hast. Öffne die Zeile des Geräts und melde dich erneut an.</p>
+<p>Der Hersteller hat die gespeicherte Anmeldung abgelehnt. Fast immer liegt es daran, dass du dort dein Passwort geändert hast. Öffne die Zeile des Geräts und melde dich erneut an. AquaWiz™ ist die Ausnahme: Cora speichert dafür kein Passwort, ein geändertes AquaWiz-Passwort ändert also nichts.</p>
 <h3 id="red-sea-readings-have-stopped-updating">"Die Red Sea-Messwerte werden nicht mehr aktualisiert"</h3>
 <p>Gerade fragt nichts an diesem Becken deine Red Sea-Ausrüstung ab, die Messwerte auf dem Bildschirm werden also nicht aufgefrischt.</p>
 <ol><li>Öffne <strong>Einstellungen</strong>, öffne das Becken und dann <strong>Primäres Cora Max</strong>. Prüf, ob ein Cora Max festgelegt oder <strong>Jedes aktive (automatisch)</strong> gewählt ist.</li><li>Hast du kein Cora Max, öffne das Becken in Cora Mobile, während dein Handy im selben WLAN ist wie die Red Sea-Ausrüstung.</li><li>Prüf, ob die Red Sea-Ausrüstung eingeschaltet und in ihrer eigenen App online ist.</li></ol>
 <h3 id="some-reefbeat-settings-are-greyed-out-or-missing">Manche ReefBeat-Einstellungen sind ausgegraut oder fehlen</h3>
 <p>Das ist normal. Die eigenen Einstellungen eines Red Sea-Geräts öffnen sich nur, wenn dein Handy im selben Netzwerk ist wie das Gerät. Außerhalb dieses Netzwerks siehst du nur Messwerte.</p>
 <ol><li>Verbinde dich mit dem WLAN des Beckens, um diese Einstellungen zu ändern.</li><li>Messwerte und Verlauf funktionieren weiter, wenn du unterwegs bist.</li></ol>
-<h3 id="an-aquawiz-reading-is-hours-old">Ein AquaWiz™-Messwert ist Stunden alt</h3>
+<h3 id="an-aquawiz-reading-is-hours-old">Ein AquaWiz-Messwert ist Stunden alt</h3>
 <p>Das kann normal sein. AquaWiz lässt Cora seine Cloud nur alle 12 Stunden auslesen, ohne Cora Max kann ein Messwert also bis zu einem halben Tag alt sein. Öffne die Seite des Geräts in Cora Mobile: Sie zeigt, wann der Messwert gemessen wurde und woher er kam, und <strong>Jetzt auslesen</strong> fragt einen frischen an (höchstens alle 15 Minuten).</p>
 <p>Wenn du ein Cora Max hast und auf der Karte trotzdem <strong>Aus der AquaWiz-Cloud, alle 12 Stunden</strong> steht:</p>
 <ul><li>Prüfe, ob der Controller in WLAN-Reichweite des Haupt-Cora-Max des Beckens ist.</li><li>Prüfe in der AquaWiz-App, ob die Firmware des Controllers aktuell ist; ältere Firmware bietet keinen lokalen Zugriff.</li><li>Nach zwei fehlgeschlagenen Messungen hintereinander wartet das Cora Max bis zum nächsten Tag. Klappt es weiterhin nicht, wende dich an den Support.</li></ul>
+<h3 id="an-aquawiz-says-to-link-it-again">Ein AquaWiz sagt, du sollst ihn erneut verknüpfen</h3>
+<p>AquaWiz hat gemeldet, dass der in Cora gespeicherte Benutzername diesen Controller nicht mehr besitzt, zum Beispiel weil der Controller in ein anderes AquaWiz-Konto gewechselt ist. Das Gerät erscheint orange. Öffne <strong>Geräte → Gerät hinzufügen → AquaWiz</strong>, melde dich mit dem Konto an, dem der Controller gehört, und verknüpfe ihn erneut. Cora speichert kein AquaWiz-Passwort und kein Anmelde-Token, es läuft also nichts anderes ab.</p>
 <h2 id="command-did-not-go-through">Ein Befehl ist nicht durchgekommen</h2>
 <p>Jeder Befehl endet als <strong>Bestätigt</strong>, <strong>Unbestätigt</strong>, <strong>Abgelehnt</strong> oder <strong>Keine Änderung</strong>. Was jedes davon bedeutet, steht unter <a href="/de/help/mobile-device-control">Deine Ausrüstung steuern</a>.</p>
 <h3 id="could-not-reach-this-pump-nothing-was-sent">"Diese Pumpe konnte nicht erreicht werden: Es wurde nichts gesendet"</h3>
@@ -328,7 +330,7 @@
 <h2 id="still-stuck">Immer noch nicht gelöst</h2>
 <p>Schreib eine E-Mail an <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> oder melde es aus Cora Mobile heraus, wie unter <a href="/de/help/mobile-support">Ein Problem melden</a> beschrieben. Sag uns, welches Becken, welches Gerät, welcher Bildschirm und was du erwartet hast.</p>
       <nav class="pn" aria-label="Weiterlesen"><a class="pn-n" href="/de/help/how-do-i"><span>Weiter</span><b>Wie mache ich...?</b></a></nav>
-      <p class="stamp">Geschrieben für Cora Max 0.28.219 und Cora Mobile 1.4.1. Zuletzt geprüft am 2026-10-18.</p>
+      <p class="stamp">Geschrieben für Cora Max 0.28.220 und Cora Mobile 1.4.2. Zuletzt geprüft am 2026-10-18.</p>
       <p class="ask">Kommst du nicht weiter? Schreib eine E-Mail an <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, wir helfen dir.</p>
     </article>
   </main>
@@ -719,7 +721,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/de/help/search.json?v=a932d14dd0').then(function (r) { return r.json(); })
+    fetch('/de/help/search.json?v=bc775bf15b').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "de"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Die Suche ist nicht verf\u00fcgbar. Nutze die Navigation." + '</li>';

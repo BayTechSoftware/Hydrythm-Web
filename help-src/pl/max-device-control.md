@@ -102,7 +102,7 @@ AquaWiz pozwala Corze czytać swoją chmurę tylko co 12 godzin. Żeby alkaliczn
 - Czeka, gdy Cora Max rozmawia z Tobą, się aktualizuje, paruje albo zmienia Wi-Fi, i próbuje ponownie w następnej godzinie.
 - Kontroler musi być w zasięgu Wi-Fi Cora Max, a jego oprogramowanie musi umożliwiać dostęp lokalny. Jeśli dwa odczyty z rzędu się nie uda, Cora Max przestaje próbować do końca dnia, a odczyt z chmury co 12 godzin działa dalej.
 
-Odczyt z Cora Max pokazuje **Co godzinę z Twojego Cora Max** na karcie AquaWiz w telefonie. Wnosi też alerty pompy, sondy pH i zbiornika na wodę opisane w [Alerty](/help/mobile-alerts#equipment-faults).
+Odczyt z Cora Max pokazuje **Co godzinę z Twojego Cora Max** na karcie AquaWiz w telefonie. Przynosi też alerty poziomu w pojemniku z wodą opisane w [Alerty](/help/mobile-alerts#equipment-faults). Alerty pompy i sondy pH nie wymagają Cora Max.
 
 
 ## Gdy Bluetooth przestaje działać {#bluetooth-stopped}

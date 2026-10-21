@@ -202,7 +202,7 @@
 <p>Chaque demande est enregistrée, avec ce qui l’a demandée et comment elle s’est passée, qu’elle vienne de Cora Mobile, d’un Cora Max, de la voix, de l’Assistant ou d’une automatisation. Sur Cora Max, touchez le nom de l’aquarium dans la barre du haut et choisissez <strong>Activité</strong>. Sur votre téléphone, c’est dans <strong>Paramètres → Activité</strong>. Plus de détails dans <a href="/fr/help/max-activity">Activité sur Cora Max</a>.</p>
 <p>Quand quelque chose a changé sans que vous sachiez pourquoi, regardez là en premier.</p>
       <nav class="pn" aria-label="Poursuivre la lecture"><a class="pn-p" href="/fr/help/max-dashboard-editing"><span>Précédent</span><b>Modifier le tableau de bord Cora Max</b></a><a class="pn-n" href="/fr/help/max-device-control"><span>Suivant</span><b>Contrôler l’équipement depuis Cora Max</b></a></nav>
-      <p class="stamp">Rédigé pour Cora Max 0.28.219 et Cora Mobile 1.4.1. Vérifié pour la dernière fois le 2026-10-13.</p>
+      <p class="stamp">Rédigé pour Cora Max 0.28.220 et Cora Mobile 1.4.2. Vérifié pour la dernière fois le 2026-10-13.</p>
       <p class="ask">Toujours bloqué ? Écrivez à <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, nous vous aiderons.</p>
     </article>
   </main>
@@ -593,7 +593,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/fr/help/search.json?v=a0a8e8a923').then(function (r) { return r.json(); })
+    fetch('/fr/help/search.json?v=756719cc89').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "fr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La recherche est indisponible. Utilisez la navigation." + '</li>';

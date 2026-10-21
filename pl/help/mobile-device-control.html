@@ -248,14 +248,16 @@
 <h3 id="jecod-fault-checks">Sprawdzanie awarii</h3>
 <p><strong>Sprawdzanie awarii</strong> ustala, jak często Cora ponownie odczytuje pompę, żeby ostrzec Cię o awarii, na przykład zablokowanej pompie albo pracy na sucho. Jeśli to wyłączysz, te ostrzeżenia dla tej pompy przestaną przychodzić. Sprawdzanie awarii wymaga Cora Max przy akwarium. Twój wybór zostaje zapisany, a sprawdzanie zaczyna się, gdy taki Cora Max zostanie dodany. <strong>Użyj tego dla każdej pompy w tym akwarium</strong> kopiuje to ustawienie do wszystkich.</p>
 <h2 id="aquawiz">AquaWiz</h2>
-<p>Karta AquaWiz pokazuje odczyty alkaliczności, a także pH, jeśli Twoje urządzenie je zgłasza. Pokazuje też docelowe KH, siłę dawki, a dla urządzenia z ustawionym dozowaniem także maksymalną dawkę na godzinę i to, ile suplementu alkaliczności zostało w pojemniku. Te wartości pochodzą prosto z Twoich ustawień AquaWiz, więc zmieniasz je w aplikacji AquaWiz. Cora nie może sterować AquaWiz.</p>
+<p>Karta AquaWiz pokazuje odczyty alkaliczności, a także pH, jeśli Twoje urządzenie je zgłasza. Cora nie może sterować AquaWiz, więc zmieniaj jego ustawienia w aplikacji AquaWiz.</p>
+<p>W sekcji <strong>Kontroler</strong> na stronie urządzenia Cora pokazuje to, co zgłasza kontroler, każdy wiersz tylko wtedy, gdy kontroler go zgłasza:</p>
+<ul><li>docelowe KH;</li><li>ile suplementu alkaliczności zostało, wraz z poziomem ostrzegawczym ustawionym na kontrolerze (na przykład <em>niski poziom od 100 mL</em>);</li><li>ile mL potrzeba na 1 dKH (<em>mL na 1 dKH</em>);</li><li>maksymalną dawkę na pomiar (<em>Do 20 mL na pomiar</em>);</li><li>wersję oprogramowania.</li></ul>
 <p>Pod odczytami karta mówi, kiedy zrobiono ostatni pomiar (na przykład <em>Pomiar: 14:00</em>) i skąd pochodzi: <strong>Co godzinę z Twojego Cora Max</strong> albo <strong>Z chmury AquaWiz, co 12 godzin</strong>. Pokazuje też <strong>zmianę pH</strong>. Otwarcie strony prosi o świeży odczyt, a <strong>Odczytaj teraz</strong> prosi o niego jeszcze raz, najwyżej raz na 15 minut. Jeśli odczyt się nie zmienił, to normalne: urządzenie mierzy tylko od czasu do czasu.</p>
-<p>Gdy Cora Max czyta urządzenie co godzinę, karta pokazuje też pompę, sondę pH i poziom zbiornika wody, a Cora ostrzega Cię, gdy pompa zgłasza usterkę, sonda pH uległa awarii lub kończy się jej żywotność, albo poziom zbiornika wody jest niski lub wysoki dłużej niż godzinę.</p>
-<p>Jeśli Twoje urządzenie śledzi pojemnik, Cora ostrzega Cię, gdy kończy się suplement, domyślnie przy 100 mL. Zmienisz to w jego regule w <a href="/pl/help/mobile-alerts">Centrum alertów</a>.</p>
+<p>Karta pokazuje też pompę i sondę pH, a Cora ostrzega Cię, gdy pompa zgłasza usterkę albo sonda pH uległa awarii lub kończy się jej żywotność. Działa to dla każdego AquaWiz, z Cora Max lub bez. Gdy Cora Max czyta urządzenie co godzinę, karta pokazuje także poziom w pojemniku z wodą, a Cora ostrzega Cię, gdy jest niski lub wysoki dłużej niż godzinę.</p>
+<p>Jeśli Twoje urządzenie śledzi pojemnik, Cora ostrzega Cię, gdy kończy się suplement, przy poziomie ostrzegawczym ustawionym na kontrolerze. Nadal możesz go zmienić w jego regule w <a href="/pl/help/mobile-alerts">Centrum alertów</a>, a Twoja zmiana zostaje.</p>
 <h2 id="what-happens-after-you-change-something">Co się dzieje po zmianie</h2>
 <p>Każda zmiana jest zapisywana w <a href="/pl/help/mobile-activity">Aktywności</a>, razem z miejscem, z którego przyszła. Jeśli urządzenie nie przyjmie zmiany, to też jest tam zapisane.</p>
       <nav class="pn" aria-label="Czytaj dalej"><a class="pn-p" href="/pl/help/mobile-connections"><span>Poprzedni</span><b>Podłączanie sprzętu</b></a><a class="pn-n" href="/pl/help/mobile-schedules"><span>Następny</span><b>Harmonogramy sprzętu</b></a></nav>
-      <p class="stamp">Napisano dla Cora Max 0.28.219 i Cora Mobile 1.4.1. Ostatnio sprawdzono 2026-10-18.</p>
+      <p class="stamp">Napisano dla Cora Max 0.28.220 i Cora Mobile 1.4.2. Ostatnio sprawdzono 2026-10-18.</p>
       <p class="ask">Wciąż masz problem? Napisz na <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, pomożemy.</p>
     </article>
   </main>
@@ -646,7 +648,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/pl/help/search.json?v=541e6f5556').then(function (r) { return r.json(); })
+    fetch('/pl/help/search.json?v=acbbc18621').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "pl"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Wyszukiwanie jest niedost\u0119pne. U\u017cyj menu." + '</li>';

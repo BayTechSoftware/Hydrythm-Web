@@ -202,7 +202,7 @@
 <h2 id="prufen-ob-es-angekommen-ist">Prüfen, ob es angekommen ist</h2>
 <p>Nach dem Speichern zeigt die Geräteseite das Programm, das die Pumpe ausführt. Passt es nicht zu dem, was du gespeichert hast, ist die Änderung nicht durchgekommen. Prüf, ob das Gerät erreichbar ist, und versuch es noch einmal.</p>
       <nav class="pn" aria-label="Weiterlesen"><a class="pn-p" href="/de/help/mobile-device-control"><span>Zurück</span><b>Deine Ausrüstung steuern</b></a><a class="pn-n" href="/de/help/mobile-probes"><span>Weiter</span><b>Parameterzuordnung und Sonden</b></a></nav>
-      <p class="stamp">Geschrieben für Cora Max 0.28.219 und Cora Mobile 1.4.1. Zuletzt geprüft am 2026-10-17.</p>
+      <p class="stamp">Geschrieben für Cora Max 0.28.220 und Cora Mobile 1.4.2. Zuletzt geprüft am 2026-10-17.</p>
       <p class="ask">Kommst du nicht weiter? Schreib eine E-Mail an <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, wir helfen dir.</p>
     </article>
   </main>
@@ -593,7 +593,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/de/help/search.json?v=a932d14dd0').then(function (r) { return r.json(); })
+    fetch('/de/help/search.json?v=bc775bf15b').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "de"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Die Suche ist nicht verf\u00fcgbar. Nutze die Navigation." + '</li>';

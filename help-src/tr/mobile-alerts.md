@@ -87,13 +87,12 @@ Bir uyarı açıldığında aynı şey hakkında sizi bilgilendirmeye devam etme
 
 Bazı uyarılar bir ölçümle değil ekipmanla ilgilidir. Bir Trident ya da Jecod pompası gibi bir cihaz arıza bildirdiğinde Cora akvaryumu ve cihazı adlandıran bir bildirim gönderir, örneğin *"Salon: Ana pompa dikkat gerektiriyor"*. Ayrıca sıkışmış bir rotor gibi neyin yanlış olduğunu da söyler. Arıza giderildiğinde ikinci bir bildirim alırsınız: *"Salon: Ana pompa tekrar normal"*. İkisi de **Ayarlar → Bildirimler** içinde **Ekipman Arızaları** altına girer.
 
-Cora Max'inizin her saat okuduğu bir AquaWiz KH Controller şu durumlarda aynı türden bir uyarı verir:
+Bir AquaWiz KH Controller, her AquaWiz için ve Cora Max olmadan da, şu durumlarda aynı türde uyarı verir:
 
 - dozaj pompası arıza bildirdiğinde;
-- pH probu bozulduğunda ya da ömrünün sonuna yaklaştığında;
-- su haznesinin seviyesi bir saatten uzun süre düşük ya da yüksek kaldığında.
+- pH probu bozulduğunda ya da ömrünün sonuna yaklaştığında.
 
-Bunlar için Cora Max'ten saatlik okuma gerekir ([Cora Max'ten ekipman kontrolü](/help/max-device-control#aquawiz-hourly) sayfasına bakın): AquaWiz'in 12 saatlik bulut okuması bunları taşımaz.
+Alkalinite takviyesi azaldığında uyarı, kontrolörde belirlediğiniz uyarı seviyesini kullanır. Bunu yine Uyarı Merkezi'nden değiştirebilirsiniz. Su kutusu seviyesi bir saatten uzun süre düşük ya da yüksek kalırsa da uyarı gelir, ancak bunun için Cora Max'in saatlik okuması gerekir (bkz. [Cora Max'ten ekipman kontrolü](/help/max-device-control#aquawiz-hourly)): AquaWiz'in 12 saatlik bulut okuması bunu taşımaz.
 
 
 ## Bir cihaz bildirmeyi bıraktı {#stopped-reporting}

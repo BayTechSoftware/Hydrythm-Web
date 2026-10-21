@@ -205,9 +205,9 @@
 <ul><li>Ana sekmelerin sağ üstündeki zil geçmişinizi tutar. Sayı kaç tanesini okumadığınızı gösterir. Ayrıntılar <a href="/tr/help/mobile-notifications">Bildirimler</a> sayfasında.</li><li>O kategori açıksa telefonunuza bir anlık bildirim ulaşır.</li><li>Panodaki widget turuncuya ya da kırmızıya döner.</li><li>Cora Max aynı uyarıları ekranında gösterir.</li></ul>
 <h2 id="equipment-faults">Ekipman ilgi gerektirdiğinde</h2>
 <p>Bazı uyarılar bir ölçümle değil ekipmanla ilgilidir. Bir Trident ya da Jecod™ pompası gibi bir cihaz arıza bildirdiğinde Cora akvaryumu ve cihazı adlandıran bir bildirim gönderir, örneğin <em>"Salon: Ana pompa dikkat gerektiriyor"</em>. Ayrıca sıkışmış bir rotor gibi neyin yanlış olduğunu da söyler. Arıza giderildiğinde ikinci bir bildirim alırsınız: <em>"Salon: Ana pompa tekrar normal"</em>. İkisi de <strong>Ayarlar → Bildirimler</strong> içinde <strong>Ekipman Arızaları</strong> altına girer.</p>
-<p>Cora Max'inizin her saat okuduğu bir AquaWiz™ KH Controller şu durumlarda aynı türden bir uyarı verir:</p>
-<ul><li>dozaj pompası arıza bildirdiğinde;</li><li>pH probu bozulduğunda ya da ömrünün sonuna yaklaştığında;</li><li>su haznesinin seviyesi bir saatten uzun süre düşük ya da yüksek kaldığında.</li></ul>
-<p>Bunlar için Cora Max'ten saatlik okuma gerekir (<a href="/tr/help/max-device-control#aquawiz-hourly">Cora Max'ten ekipman kontrolü</a> sayfasına bakın): AquaWiz'in 12 saatlik bulut okuması bunları taşımaz.</p>
+<p>Bir AquaWiz™ KH Controller, her AquaWiz için ve Cora Max olmadan da, şu durumlarda aynı türde uyarı verir:</p>
+<ul><li>dozaj pompası arıza bildirdiğinde;</li><li>pH probu bozulduğunda ya da ömrünün sonuna yaklaştığında.</li></ul>
+<p>Alkalinite takviyesi azaldığında uyarı, kontrolörde belirlediğiniz uyarı seviyesini kullanır. Bunu yine Uyarı Merkezi'nden değiştirebilirsiniz. Su kutusu seviyesi bir saatten uzun süre düşük ya da yüksek kalırsa da uyarı gelir, ancak bunun için Cora Max'in saatlik okuması gerekir (bkz. <a href="/tr/help/max-device-control#aquawiz-hourly">Cora Max'ten ekipman kontrolü</a>): AquaWiz'in 12 saatlik bulut okuması bunu taşımaz.</p>
 <h2 id="stopped-reporting">Bir cihaz bildirmeyi bıraktı</h2>
 <p>Bağlı bir cihaz sessizleştiğinde Cora <em>"[Cihaz]: bildirim yapmıyor"</em> gönderir. Bu cihazın bozuk olduğu anlamına gelmez, yalnızca Cora'nın bir süredir ondan haber almadığı anlamına gelir. Geri geldiğinde ikinci bir bildirim alırsınız: <em>"[Cihaz]: tekrar bildiriyor"</em>.</p>
 <p>Cora'nın ne kadar beklediği cihaza bağlıdır:</p>
@@ -235,7 +235,7 @@
 <p>Bir kural kapalıyken Cora o ölçümü değerlendirmez. Widget'ı nötr gri kalır ve asla uyarı vermez.</p>
 <aside class="cal cal-warning"><p class="cal-t">Bir parametreyi aralığını silmeden kapatın</p><p>Bir kuralı silmek Cora'nın o ölçümü değerlendirmesini her zaman durdurmaz. Varsayılan referans bantları değeri yine renklendirir ve özeti yine besleyebilir. Kuralın anahtarını kullanın.</p></aside>
       <nav class="pn" aria-label="Okumaya devam edin"><a class="pn-p" href="/tr/help/mobile-consumables"><span>Önceki</span><b>Sarf malzemeleri ve dolum uyarıları</b></a><a class="pn-n" href="/tr/help/mobile-notifications"><span>Sonraki</span><b>Bildirimler</b></a></nav>
-      <p class="stamp">Cora Max 0.28.219 ve Cora Mobile 1.4.1 için yazılmıştır. Son kontrol: 2026-10-18.</p>
+      <p class="stamp">Cora Max 0.28.220 ve Cora Mobile 1.4.2 için yazılmıştır. Son kontrol: 2026-10-18.</p>
       <p class="ask">Sorun devam ediyor mu? <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> adresine yazın, yardımcı olalım.</p>
     </article>
   </main>
@@ -626,7 +626,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/tr/help/search.json?v=45885825c2').then(function (r) { return r.json(); })
+    fetch('/tr/help/search.json?v=2a85bb0b50').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "tr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Arama \u015fu anda kullan\u0131lam\u0131yor. Men\u00fcy\u00fc kullan\u0131n." + '</li>';

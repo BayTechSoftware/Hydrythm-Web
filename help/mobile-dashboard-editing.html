@@ -201,7 +201,7 @@
 <ul><li><strong>My dashboards</strong> keeps up to 30 saved designs on your account. Any Cora Max on the account can load one. Tiles the target can't fill are listed under <strong>Left behind:</strong> before you load.</li><li><strong>Templates</strong> opens <strong>Dashboard templates</strong>: <strong>Overview</strong>, <strong>Equipment</strong> and <strong>Parameters</strong>. It's open on every plan and doesn't use AI.</li><li><strong>Design with AI</strong>, on a paid plan or during the trial, proposes a whole layout from what the tank reports and has linked. You can make 5 designs per tank per day.</li></ul>
 <p>How each one works is in <a href="/help/max-dashboard-editing">Editing the Cora Max dashboard</a>.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-metric-detail"><span>Previous</span><b>Looking into a parameter</b></a><a class="pn-n" href="/help/mobile-widgets"><span>Next</span><b>Widget reference</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.219 and Cora Mobile 1.4.1. Last checked 2026-10-18.</p>
+      <p class="stamp">Written for Cora Max 0.28.220 and Cora Mobile 1.4.2. Last checked 2026-10-18.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>
@@ -592,7 +592,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/help/search.json?v=d421e82e60').then(function (r) { return r.json(); })
+    fetch('/help/search.json?v=ff598fbd00').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "en"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';

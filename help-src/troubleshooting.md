@@ -107,7 +107,7 @@ Equipment on your local network has to be reachable on that network. Equipment t
 
 ### A device says the sign-in was refused {#a-device-says-the-sign-in-was-refused}
 
-The manufacturer rejected the saved sign-in. Almost always, that's because you changed your password with them. Open the device's row and sign in again.
+The manufacturer rejected the saved sign-in. Almost always, that's because you changed your password with them. Open the device's row and sign in again. AquaWiz is the exception: Cora keeps no password for it, so changing your AquaWiz password changes nothing.
 
 ### "Red Sea readings have stopped updating" {#red-sea-readings-have-stopped-updating}
 
@@ -134,6 +134,10 @@ If you have a Cora Max and the card still says **From AquaWiz cloud, every 12 ho
 - Check the controller is within Wi-Fi range of the tank's main Cora Max.
 - Check the controller's firmware is up to date in the AquaWiz app; older firmware has no local access.
 - After two failed reads in a row Cora Max waits until the next day. If it keeps failing, contact support.
+
+### An AquaWiz says to link it again {#an-aquawiz-says-to-link-it-again}
+
+AquaWiz reported that the username Cora has saved no longer owns this controller, for example because the controller moved to another AquaWiz account. The device shows orange. Open **Devices → Add Device → AquaWiz**, sign in with the account that owns the controller and link it again. Cora keeps no AquaWiz password or sign-in token, so nothing else expires.
 
 ## A command didn't go through {#command-did-not-go-through}
 

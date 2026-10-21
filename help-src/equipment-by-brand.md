@@ -48,7 +48,7 @@ Pumps that reach Cora over your network or over Bluetooth. Which one decides wha
 
 ## AquaWiz KH Controller {#aquawiz}
 
-Cora reads it through AquaWiz's own cloud every 12 hours, so it keeps updating without a Cora Max. A Cora Max at the tank reads it every hour instead and adds pump, pH probe and water box alerts. See [How Cora reads your AquaWiz](/help/mobile-connections#how-cora-reads-aquawiz).
+Cora reads it through AquaWiz's own cloud every 12 hours, and whenever you open its page, so it keeps updating without a Cora Max. You sign in once to link it and Cora keeps only your username. Pump and pH probe alerts work for every AquaWiz; a Cora Max at the tank reads it every hour instead and adds water box alerts. See [How Cora reads your AquaWiz](/help/mobile-connections#how-cora-reads-aquawiz).
 
 - Add it: [Connecting your equipment](/help/mobile-connections#aquawiz-kh-controller)
 - On your phone: [AquaWiz](/help/mobile-device-control#aquawiz)

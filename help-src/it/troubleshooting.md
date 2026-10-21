@@ -107,7 +107,7 @@ L'attrezzatura sulla rete locale deve essere raggiungibile su quella rete. L'att
 
 ### Un dispositivo dice che l'accesso è stato rifiutato {#a-device-says-the-sign-in-was-refused}
 
-Il produttore ha respinto l'accesso salvato. Quasi sempre succede perché hai cambiato la password presso di loro. Apri la riga del dispositivo e accedi di nuovo.
+Il produttore ha respinto l'accesso salvato. Quasi sempre succede perché hai cambiato la password presso di loro. Apri la riga del dispositivo e accedi di nuovo. AquaWiz è l'eccezione: Cora non ne conserva la password, quindi cambiare la password AquaWiz non cambia nulla.
 
 ### "I valori Red Sea non si aggiornano più" {#red-sea-readings-have-stopped-updating}
 
@@ -134,6 +134,10 @@ Se hai un Cora Max e la scheda dice ancora **Dal cloud AquaWiz, ogni 12 ore**:
 - Controlla che il controller sia nel raggio Wi-Fi del Cora Max principale della vasca.
 - Controlla nell'app AquaWiz che il firmware del controller sia aggiornato; il firmware più vecchio non ha accesso locale.
 - Dopo due letture fallite di fila il Cora Max aspetta fino al giorno dopo. Se continua a fallire, contatta l'assistenza.
+
+### Un AquaWiz chiede di collegarlo di nuovo {#an-aquawiz-says-to-link-it-again}
+
+AquaWiz ha segnalato che il nome utente salvato in Cora non possiede più questo controller, per esempio perché il controller è passato a un altro account AquaWiz. Il dispositivo appare arancione. Apri **Dispositivi → Aggiungi dispositivo → AquaWiz**, accedi con l'account che possiede il controller e collegalo di nuovo. Cora non conserva password né token di accesso AquaWiz, quindi nient'altro scade.
 
 ## Un comando non è arrivato {#command-did-not-go-through}
 

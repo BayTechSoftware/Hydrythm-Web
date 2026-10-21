@@ -193,7 +193,7 @@
 <p>Du kannst auch danach fragen. Cora Assistant beantwortet Fragen wie <em>"Wann habe ich die Hammerkoralle eingesetzt?"</em> oder <em>"Was habe ich dieses Jahr verloren?"</em> aus dieser Liste.</p>
 <p>Änderungen am Besatz erscheinen auch auf der <a href="/de/help/mobile-activity#tank-timeline">Zeitleiste des Beckens</a>. Schreib die Geschichte hinter einem Verlust oder einem Neuzugang ins <a href="/de/help/mobile-journal">Tagebuch</a>.</p>
       <nav class="pn" aria-label="Weiterlesen"><a class="pn-p" href="/de/help/mobile-maintenance"><span>Zurück</span><b>Wartung</b></a><a class="pn-n" href="/de/help/mobile-activity"><span>Weiter</span><b>Aktivität und Zeitleiste</b></a></nav>
-      <p class="stamp">Geschrieben für Cora Max 0.28.219 und Cora Mobile 1.4.1. Zuletzt geprüft am 2026-10-13.</p>
+      <p class="stamp">Geschrieben für Cora Max 0.28.220 und Cora Mobile 1.4.2. Zuletzt geprüft am 2026-10-13.</p>
       <p class="ask">Kommst du nicht weiter? Schreib eine E-Mail an <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, wir helfen dir.</p>
     </article>
   </main>
@@ -584,7 +584,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/de/help/search.json?v=a932d14dd0').then(function (r) { return r.json(); })
+    fetch('/de/help/search.json?v=bc775bf15b').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "de"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Die Suche ist nicht verf\u00fcgbar. Nutze die Navigation." + '</li>';

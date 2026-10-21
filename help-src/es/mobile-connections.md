@@ -83,17 +83,17 @@ Con cualquiera de las dos conexiones tienes el estado en directo, el modo y la i
 Cora lee la alcalinidad de un controlador de KH AquaWiz a través de la nube de AquaWiz, así que funciona fuera de casa y no necesita un Cora Max. Un Cora Max añade lecturas cada hora: mira [Cómo lee Cora tu AquaWiz](#how-cora-reads-aquawiz).
 
 1. Ve a **Dispositivos → Agregar dispositivo → AquaWiz**.
-2. Escribe tu usuario y tu contraseña de AquaWiz y toca **Conectar**.
+2. Inicia sesión con la cuenta de AquaWiz que usas en la app de AquaWiz y toca **Conectar**.
 3. Elige el acuario, revisa **Leer también su pH** (empieza activado en una unidad que informa del pH) y toca **Vincular a Cora**.
 
-Con **Mantenerse conectado automáticamente** activado, Cora guarda tu contraseña de AquaWiz y renueva la conexión por su cuenta. Desactivado, Cora guarda solo un token de inicio de sesión, que AquaWiz hace caducar más o menos cada 30 días, y te envía una notificación cuando toca volver a iniciar sesión.
+Inicias sesión una sola vez, para que Cora encuentre tus controladores. Después, Cora guarda solo tu nombre de usuario de AquaWiz: ni contraseña ni token de inicio de sesión. No hay nada que renovar, así que Cora nunca te pide volver a iniciar sesión y ya no existe el interruptor **Mantenerse conectado automáticamente**. Si AquaWiz informa más tarde de que ese usuario ya no es propietario del controlador, su tarjeta se pone naranja y te dice que lo vincules de nuevo: abre **Agregar AquaWiz** e inicia sesión otra vez.
 
-Tienes la alcalinidad como fuente, y también el pH si tu unidad lo informa y **Leer también su pH** está activado. Tu primera lectura llega en cuanto la vinculas. Después, AquaWiz solo deja que Cora lea su nube automáticamente cada 12 horas, así que una lectura de ahí puede tener hasta medio día. Un Cora Max en el acuario también puede leer el controlador él mismo cada hora cuando llega hasta él. Abre la página del dispositivo para ver cuándo se midió cada lectura y de dónde viene, y toca **Leer ahora** para una nueva (como máximo cada 15 minutos). Lo que muestra la tarjeta de AquaWiz, y sus alertas, están en [Controlar tus equipos](/help/mobile-device-control#aquawiz).
+Tienes la alcalinidad como fuente, y también el pH si tu unidad lo informa y **Leer también su pH** está activado. Tu primera lectura llega en cuanto la vinculas, junto con las últimas 6 horas de historial. Después, el servicio Cora de AquaWiz envía una lectura cada 12 horas, que es el límite de AquaWiz, así que una lectura de ahí puede tener hasta medio día. Un Cora Max en el acuario también puede leer el controlador él mismo cada hora cuando llega hasta él. Abre la página del dispositivo para ver cuándo se midió cada lectura y de dónde viene, y toca **Leer ahora** para una nueva (como máximo cada 15 minutos). Lo que muestra la tarjeta de AquaWiz, y sus alertas, están en [Controlar tus equipos](/help/mobile-device-control#aquawiz).
 
 Para mover el controlador a otro acuario, abre su página en **Dispositivos** y toca **Cambiar** en **Acuarios**. No tienes que volver a iniciar sesión en AquaWiz.
 
-:::warning Cora comparte tu inicio de sesión de AquaWiz
-AquaWiz da a cada cuenta un solo inicio de sesión, así que Cora usa el mismo que la app de AquaWiz. Si cambias tu contraseña de AquaWiz, Cora se desconecta. Vuelve a conectarlo después desde la fila del dispositivo. Para quitarle a Cora el acceso por completo, quita el dispositivo en Cora y cambia tu contraseña de AquaWiz.
+:::note Cora guarda solo tu nombre de usuario
+Cora usa tu contraseña una sola vez, mientras vinculas, y no la guarda. Cambiar tu contraseña de AquaWiz no desconecta a Cora. Desvincular detiene la lectura del controlador y Cora olvida tu nombre de usuario; no cierra tu sesión en la app de AquaWiz. Tus lecturas existentes se conservan.
 :::
 
 ### Cómo lee Cora tu AquaWiz {#how-cora-reads-aquawiz}
@@ -102,13 +102,15 @@ Cora llega a un AquaWiz por hasta tres vías, que trabajan juntas.
 
 | Vía | Qué le da a Cora | Con qué frecuencia |
 | --- | --- | --- |
-| Tu inicio de sesión de AquaWiz | Encuentra tus controladores, lee sus ajustes (KH objetivo, intensidad de dosificación, recipiente) y obtiene un historial diario. | Una vez al día y cuando hacen falta los ajustes |
-| El servicio Cora de AquaWiz | La última lectura de KH y pH. | Al vincular, después cada 12 horas (el límite de AquaWiz) y cuando abres la página del dispositivo o tocas **Leer ahora** (como máximo cada 15 minutos) |
-| Un Cora Max en el acuario | Lee el controlador directamente por su propio Wi-Fi y suma avisos de bomba, sonda de pH y caja de agua. | Cada hora |
+| Tu inicio de sesión de AquaWiz | Se usa una sola vez, al vincular, para encontrar tus controladores. Después, Cora guarda solo tu nombre de usuario. | Una vez |
+| El servicio Cora de AquaWiz | La última lectura de KH y pH, las últimas 6 horas de historial y los ajustes del controlador (KH objetivo, intensidad de dosificación, suplemento restante, estado de bomba y sonda de pH, firmware). | Al vincular, después cada 12 horas (el límite de AquaWiz) y cuando abres la página del dispositivo o tocas **Leer ahora** (como máximo cada 15 minutos) |
+| Un Cora Max en el acuario | Lee el controlador directamente por su propio Wi-Fi y suma avisos del nivel de la caja de agua. | Cada hora |
 
 Sin un Cora Max, las lecturas llegan cada 12 horas, que es el límite de AquaWiz, así que una lectura puede tener hasta medio día. **¿Quieres lecturas cada hora? Añade un Cora Max a tu acuario.** [Conoce Cora Max](https://coraiq.tech/es/#max) y [configúralo](/help/max-setup). Necesita el controlador al alcance del Wi-Fi de Cora Max y un firmware del controlador con acceso local. Los detalles están en [Lectura cada hora desde Cora Max](/help/max-device-control#aquawiz-hourly).
 
 La tarjeta del dispositivo muestra de dónde viene cada lectura: **Cada hora desde tu Cora Max** o **Desde la nube de AquaWiz, cada 12 horas**.
+
+Cora guarda todo el historial por horas de tu controlador. Al vincular, rellena hasta 30 días atrás, así que tus gráficas no empiezan vacías.
 
 
 ## Registrar a mano {#logging-by-hand}

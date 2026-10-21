@@ -200,13 +200,21 @@ Una bomba Bluetooth tiene que estar al alcance de tu teléfono para empezar una 
 
 ## AquaWiz {#aquawiz}
 
-La tarjeta de AquaWiz muestra tus lecturas de alcalinidad, y el pH si tu unidad lo informa. También muestra tu KH objetivo, la concentración de tu dosis y, en una unidad con dosificación configurada, su dosis máxima por hora y cuánto suplemento de alcalinidad queda en el recipiente. Estos datos vienen directamente de tus ajustes de AquaWiz, así que cámbialos en la app de AquaWiz. Cora no puede controlar un AquaWiz.
+La tarjeta de AquaWiz muestra tus lecturas de alcalinidad, y el pH si tu unidad lo informa. Cora no puede controlar un AquaWiz, así que cambia sus ajustes en la app de AquaWiz.
+
+En **Controlador**, en la página del dispositivo, Cora muestra lo que informa el controlador, cada línea solo si la informa:
+
+- el KH objetivo;
+- cuánto suplemento de alcalinidad queda, con el nivel de aviso que fijaste en el controlador (por ejemplo *bajo a 100 mL*);
+- cuántos mL hacen falta para 1 dKH (*mL por 1 dKH*);
+- la dosis máxima por medición (*Hasta 20 mL por medición*);
+- la versión del firmware.
 
 Debajo de las lecturas, la tarjeta dice cuándo se midió la última (por ejemplo *Medido 14:00*) y de dónde viene: **Cada hora desde tu Cora Max** o **Desde la nube de AquaWiz, cada 12 horas**. También muestra el **cambio de pH**. Al abrir la página se pide una lectura nueva, y **Leer ahora** la pide otra vez, como máximo cada 15 minutos. Si una lectura no ha cambiado, es normal: la unidad solo mide de vez en cuando.
 
-Cuando un Cora Max lee la unidad cada hora, la tarjeta muestra también la bomba, la sonda de pH y el nivel del depósito de agua, y Cora te avisa cuando la bomba informa de un fallo, la sonda de pH ha fallado o está cerca del final de su vida, o el nivel del depósito de agua se queda bajo o alto más de una hora.
+La tarjeta también muestra la bomba y la sonda de pH, y Cora te avisa cuando la bomba informa de un fallo, o la sonda de pH ha fallado o está cerca del final de su vida. Esto vale para cualquier AquaWiz, con o sin Cora Max. Cuando un Cora Max lee la unidad cada hora, la tarjeta muestra además el nivel de la caja de agua, y Cora te avisa cuando se queda bajo o alto más de una hora.
 
-Si tu unidad sigue su recipiente, Cora te avisa cuando el suplemento se está acabando, a 100 mL por defecto. Cámbialo desde su regla en el [Centro de alertas](/help/mobile-alerts).
+Si tu unidad sigue su recipiente, Cora te avisa cuando el suplemento se está acabando, en el nivel de aviso que fijaste en el controlador. Aún puedes cambiarlo desde su regla en el [Centro de alertas](/help/mobile-alerts), y tu cambio se conserva.
 
 
 ## Qué pasa después de cambiar algo {#what-happens-after-you-change-something}

@@ -205,9 +205,9 @@
 <ul><li>Die Glocke oben rechts in den Haupt-Tabs bewahrt deinen Verlauf auf. Die Zahl zeigt, wie viele du noch nicht gelesen hast. Mehr dazu unter <a href="/de/help/mobile-notifications">Benachrichtigungen</a>.</li><li>Eine Push-Benachrichtigung erreicht dein Handy, wenn diese Kategorie eingeschaltet ist.</li><li>Das Widget auf dem Dashboard wird bernsteinfarben oder rot.</li><li>Cora Max zeigt dieselben Warnungen auf seinem Bildschirm.</li></ul>
 <h2 id="equipment-faults">Wenn Ausrüstung Aufmerksamkeit braucht</h2>
 <p>Manche Warnungen betreffen Ausrüstung, keinen Messwert. Meldet ein Gerät wie ein Trident oder eine Jecod™-Pumpe einen Fehler, schickt Cora eine Benachrichtigung mit dem Becken und dem Gerät, zum Beispiel <em>"Hauptbecken: Rückförderpumpe braucht Aufmerksamkeit"</em>. Sie sagt auch, was los ist, etwa ein blockierter Rotor. Ist der Fehler behoben, bekommst du eine zweite: <em>"Hauptbecken: Rückförderpumpe ist wieder in Ordnung"</em>. Beide fallen unter <strong>Gerätefehler</strong> in <strong>Einstellungen → Benachrichtigungen</strong>.</p>
-<p>Ein AquaWiz™ KH Controller, den dein Cora Max jede Stunde ausliest, löst dieselbe Art Warnung aus, wenn:</p>
-<ul><li>seine Dosierpumpe einen Fehler meldet;</li><li>seine pH-Sonde ausgefallen ist oder bald am Ende ihrer Lebensdauer ist;</li><li>der Füllstand seiner Wasserbox länger als eine Stunde zu niedrig oder zu hoch bleibt.</li></ul>
-<p>Dafür braucht es das stündliche Auslesen durch das Cora Max (siehe <a href="/de/help/max-device-control#aquawiz-hourly">Ausrüstung mit Cora Max steuern</a>): Die 12-Stunden-Messung aus der AquaWiz-Cloud enthält sie nicht.</p>
+<p>Ein AquaWiz™ KH Controller löst dieselbe Art Warnung aus, bei jedem AquaWiz und ohne Cora Max, wenn:</p>
+<ul><li>seine Dosierpumpe einen Fehler meldet;</li><li>seine pH-Sonde ausgefallen ist oder bald am Ende ihrer Lebensdauer ist.</li></ul>
+<p>Geht der Alkalinitäts-Zusatz zur Neige, nutzt die Warnung die Warnstufe, die du am Controller eingestellt hast. Du kannst sie weiterhin in der Warnzentrale ändern. Bleibt der Füllstand der Wasserbox länger als eine Stunde zu niedrig oder zu hoch, gibt es ebenfalls eine Warnung, dafür braucht es aber das stündliche Auslesen durch das Cora Max (siehe <a href="/de/help/max-device-control#aquawiz-hourly">Ausrüstung mit Cora Max steuern</a>): Die 12-Stunden-Messung aus der AquaWiz-Cloud enthält ihn nicht.</p>
 <h2 id="stopped-reporting">Ein Gerät meldet sich nicht mehr</h2>
 <p>Wird ein verbundenes Gerät still, schickt Cora <em>"[Gerät]: meldet sich nicht mehr"</em>. Das heißt nicht, dass das Gerät kaputt ist, nur, dass Cora eine Weile nichts von ihm gehört hat. Du bekommst eine zweite Benachrichtigung, <em>"[Gerät]: meldet sich wieder"</em>, wenn es zurückkommt.</p>
 <p>Wie lange Cora wartet, hängt vom Gerät ab:</p>
@@ -235,7 +235,7 @@
 <p>Solange eine Regel aus ist, bewertet Cora diesen Messwert nicht. Sein Widget bleibt neutral grau und löst nie eine Warnung aus.</p>
 <aside class="cal cal-warning"><p class="cal-t">Schalte einen Wasserwert aus, ohne seinen Bereich zu löschen</p><p>Eine Regel zu löschen, hält Cora nicht immer davon ab, diesen Messwert zu bewerten. Standard-Referenzbereiche färben den Wert weiter ein und können weiter ins Briefing einfließen. Nimm den Schalter der Regel.</p></aside>
       <nav class="pn" aria-label="Weiterlesen"><a class="pn-p" href="/de/help/mobile-consumables"><span>Zurück</span><b>Verbrauchsmaterial und Nachfüllwarnungen</b></a><a class="pn-n" href="/de/help/mobile-notifications"><span>Weiter</span><b>Benachrichtigungen</b></a></nav>
-      <p class="stamp">Geschrieben für Cora Max 0.28.219 und Cora Mobile 1.4.1. Zuletzt geprüft am 2026-10-18.</p>
+      <p class="stamp">Geschrieben für Cora Max 0.28.220 und Cora Mobile 1.4.2. Zuletzt geprüft am 2026-10-18.</p>
       <p class="ask">Kommst du nicht weiter? Schreib eine E-Mail an <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, wir helfen dir.</p>
     </article>
   </main>
@@ -626,7 +626,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/de/help/search.json?v=a932d14dd0').then(function (r) { return r.json(); })
+    fetch('/de/help/search.json?v=bc775bf15b').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "de"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Die Suche ist nicht verf\u00fcgbar. Nutze die Navigation." + '</li>';

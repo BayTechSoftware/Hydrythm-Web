@@ -87,13 +87,12 @@ Una volta attivo, un avviso non continua a notificarti per la stessa cosa. L'[at
 
 Alcuni avvisi riguardano l'attrezzatura, non una lettura. Quando un dispositivo come un Trident o una pompa Jecod segnala un guasto, Cora invia una notifica con il nome della vasca e del dispositivo, per esempio *"Vasca Display: la pompa di risalita richiede attenzione"*. Dice anche cosa non va, come un rotore bloccato. Quando il guasto si risolve, ne ricevi una seconda: *"Vasca Display: la pompa di risalita è di nuovo a posto"*. Entrambe rientrano in **Guasti dell'apparecchiatura** in **Impostazioni → Notifiche**.
 
-Un controller KH AquaWiz letto ogni ora dal tuo Cora Max dà lo stesso tipo di avviso quando:
+Un controller KH AquaWiz genera lo stesso tipo di avviso, per ogni AquaWiz e senza Cora Max, quando:
 
-- la sua pompa dosometrica segnala un guasto;
-- la sua sonda pH si è guastata o è vicina a fine vita;
-- il livello del suo contenitore dell'acqua resta basso o alto per più di un'ora.
+- la sua pompa di dosaggio segnala un guasto;
+- la sua sonda del pH si è guastata o sta per finire la sua vita.
 
-Servono la lettura oraria da Cora Max (vedi [Controllare l'attrezzatura da Cora Max](/help/max-device-control#aquawiz-hourly)): la lettura dal cloud AquaWiz ogni 12 ore non li porta.
+Quando l'integratore di alcalinità sta finendo, l'avviso usa il livello impostato sul controller. Puoi comunque cambiarlo nel Centro avvisi. Anche un livello del water box che resta basso o alto per oltre un'ora genera un avviso, ma serve la lettura oraria del Cora Max (vedi [Controllare l'attrezzatura da Cora Max](/help/max-device-control#aquawiz-hourly)): la lettura cloud di AquaWiz ogni 12 ore non lo trasporta.
 
 
 ## Un dispositivo ha smesso di inviare dati {#stopped-reporting}

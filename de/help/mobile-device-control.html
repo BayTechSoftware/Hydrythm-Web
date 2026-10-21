@@ -248,14 +248,16 @@
 <h3 id="jecod-fault-checks">Fehlerprüfungen</h3>
 <p><strong>Fehlerprüfungen</strong> legt fest, wie oft Cora die Pumpe erneut liest, damit es dich vor einem Fehler warnen kann, etwa einer blockierten oder trocken laufenden Pumpe. Stellst du es auf aus, hören diese Warnungen für diese Pumpe auf. Fehlerprüfungen brauchen ein Cora Max am Becken. Deine Wahl wird gespeichert, und die Prüfungen beginnen, sobald eins hinzugefügt wird. <strong>Für jede Pumpe an diesem Becken verwenden</strong> kopiert die Einstellung auf alle.</p>
 <h2 id="aquawiz">AquaWiz</h2>
-<p>Die AquaWiz-Karte zeigt deine Alkalinitäts-Messwerte und den pH-Wert, wenn dein Gerät ihn meldet. Außerdem zeigt sie deinen KH-Zielwert, deine Dosierstärke und, bei einem Gerät mit eingerichteter Dosierung, seine maximale Dosis pro Stunde und wie viel Alkalinitäts-Zusatz noch im Behälter ist. Diese Werte kommen direkt aus deinen AquaWiz-Einstellungen, ändere sie also in der AquaWiz-App. Cora kann einen AquaWiz nicht steuern.</p>
+<p>Die AquaWiz-Karte zeigt deine Alkalinitäts-Messwerte und den pH-Wert, wenn dein Gerät ihn meldet. Cora kann einen AquaWiz nicht steuern, ändere seine Einstellungen also in der AquaWiz-App.</p>
+<p>Unter <strong>Controller</strong> auf der Geräteseite zeigt Cora, was der Controller meldet, jede Zeile nur, wenn er sie meldet:</p>
+<ul><li>den KH-Zielwert;</li><li>wie viel Alkalinitäts-Zusatz noch übrig ist, mit der Warnstufe, die du am Controller eingestellt hast (zum Beispiel <em>niedrig ab 100 mL</em>);</li><li>wie viele mL für 1 dKH nötig sind (<em>mL pro 1 dKH</em>);</li><li>die maximale Dosis pro Messung (<em>Bis zu 20 mL pro Messung</em>);</li><li>die Firmware-Version.</li></ul>
 <p>Unter den Messwerten zeigt die Karte, wann der letzte gemessen wurde (zum Beispiel <em>Gemessen 14:00</em>) und woher er kam: <strong>Stündlich von deinem Cora Max</strong> oder <strong>Aus der AquaWiz-Cloud, alle 12 Stunden</strong>. Außerdem zeigt sie die <strong>pH-Änderung</strong>. Beim Öffnen der Seite fragt Cora einen frischen Messwert an, und <strong>Jetzt auslesen</strong> fragt noch einmal an, höchstens alle 15 Minuten. Ändert sich ein Messwert nicht, ist das normal: Das Gerät misst nur von Zeit zu Zeit.</p>
-<p>Liest ein Cora Max das Gerät jede Stunde aus, zeigt die Karte auch Pumpe, pH-Sonde und Wasserbox-Füllstand. Cora warnt dich, wenn die Pumpe einen Fehler meldet, die pH-Sonde ausgefallen oder fast am Ende ihrer Lebensdauer ist oder der Füllstand der Wasserbox länger als eine Stunde niedrig oder hoch bleibt.</p>
-<p>Erfasst dein Gerät seinen Behälter, warnt dich Cora, wenn der Zusatz zur Neige geht, standardmäßig bei 100 ml. Ändere das an seiner Regel in der <a href="/de/help/mobile-alerts">Warnzentrale</a>.</p>
+<p>Die Karte zeigt auch Pumpe und pH-Sonde, und Cora warnt dich, wenn die Pumpe einen Fehler meldet oder die pH-Sonde ausgefallen oder fast am Ende ihrer Lebensdauer ist. Das gilt für jeden AquaWiz, mit oder ohne Cora Max. Liest ein Cora Max das Gerät jede Stunde aus, zeigt die Karte auch den Wasserbox-Füllstand, und Cora warnt dich, wenn er länger als eine Stunde niedrig oder hoch bleibt.</p>
+<p>Erfasst dein Gerät seinen Behälter, warnt dich Cora, wenn der Zusatz zur Neige geht, bei der Warnstufe, die du am Controller eingestellt hast. Du kannst sie weiterhin an ihrer Regel in der <a href="/de/help/mobile-alerts">Warnzentrale</a> ändern, und deine Änderung bleibt erhalten.</p>
 <h2 id="what-happens-after-you-change-something">Was passiert, nachdem du etwas geändert hast</h2>
 <p>Jede Änderung wird unter <a href="/de/help/mobile-activity">Aktivität</a> festgehalten, mit der Oberfläche, von der sie kam. Nimmt ein Gerät eine Änderung nicht an, wird auch das dort festgehalten.</p>
       <nav class="pn" aria-label="Weiterlesen"><a class="pn-p" href="/de/help/mobile-connections"><span>Zurück</span><b>Deine Ausrüstung verbinden</b></a><a class="pn-n" href="/de/help/mobile-schedules"><span>Weiter</span><b>Ausrüstung planen</b></a></nav>
-      <p class="stamp">Geschrieben für Cora Max 0.28.219 und Cora Mobile 1.4.1. Zuletzt geprüft am 2026-10-18.</p>
+      <p class="stamp">Geschrieben für Cora Max 0.28.220 und Cora Mobile 1.4.2. Zuletzt geprüft am 2026-10-18.</p>
       <p class="ask">Kommst du nicht weiter? Schreib eine E-Mail an <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, wir helfen dir.</p>
     </article>
   </main>
@@ -646,7 +648,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/de/help/search.json?v=a932d14dd0').then(function (r) { return r.json(); })
+    fetch('/de/help/search.json?v=bc775bf15b').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "de"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Die Suche ist nicht verf\u00fcgbar. Nutze die Navigation." + '</li>';

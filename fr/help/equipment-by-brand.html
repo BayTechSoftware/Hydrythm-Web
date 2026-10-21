@@ -185,12 +185,12 @@
 <p>Des pompes qui rejoignent Cora par votre réseau ou en Bluetooth. Le mode de connexion décide de ce que vous pouvez faire à distance.</p>
 <ul><li>L’ajouter : <a href="/fr/help/mobile-connections#jecod">Connecter votre équipement</a></li><li>La commander sur votre téléphone : <a href="/fr/help/mobile-device-control#jecod">Pompes Jecod</a>, <a href="/fr/help/mobile-schedules">programmes journaliers</a></li><li>Sur Cora Max : <a href="/fr/help/max-device-control#jecod">Jecod</a></li><li>Alertes : <a href="/fr/help/mobile-alerts#stopped-reporting">ne remonte plus de mesures</a></li><li>Solutions : <a href="/fr/help/troubleshooting#could-not-reach-this-pump-nothing-was-sent">"Impossible de joindre cette pompe"</a>, <a href="/fr/help/troubleshooting#could-not-reach-this-pump-over-bluetooth-stand-near-it-and-t">hors de portée Bluetooth</a></li></ul>
 <h2 id="aquawiz">AquaWiz KH Controller</h2>
-<p>Cora le lit toutes les 12 heures par le cloud d’AquaWiz, il continue donc de se mettre à jour sans Cora Max. Un Cora Max à l’aquarium le lit toutes les heures à la place et ajoute les alertes de pompe, de sonde pH et de boîte à eau. Voir <a href="/fr/help/mobile-connections#how-cora-reads-aquawiz">Comment Cora lit votre AquaWiz</a>.</p>
+<p>Cora le lit par le cloud d’AquaWiz toutes les 12 heures, et chaque fois que vous ouvrez sa page, il continue donc de se mettre à jour sans Cora Max. Vous vous connectez une seule fois pour le lier, et Cora ne garde que votre nom d’utilisateur. Les alertes de pompe et de sonde pH valent pour tout AquaWiz ; un Cora Max à l’aquarium le lit à la place toutes les heures et ajoute les alertes de boîte à eau. Voir <a href="/fr/help/mobile-connections#how-cora-reads-aquawiz">Comment Cora lit votre AquaWiz</a>.</p>
 <ul><li>L’ajouter : <a href="/fr/help/mobile-connections#aquawiz-kh-controller">Connecter votre équipement</a></li><li>Sur votre téléphone : <a href="/fr/help/mobile-device-control#aquawiz">AquaWiz</a></li><li>Sur Cora Max : <a href="/fr/help/max-device-control#aquawiz">AquaWiz</a></li><li>Alertes : <a href="/fr/help/mobile-alerts#stopped-reporting">ne remonte plus de mesures</a></li><li>Solutions : <a href="/fr/help/troubleshooting#a-reading-is-stale">une mesure est périmée</a>, <a href="/fr/help/troubleshooting#a-device-says-the-sign-in-was-refused">connexion refusée</a></li></ul>
 <h2 id="anything-else">Tout le reste</h2>
 <p>Pour l’équipement auquel Cora ne se connecte pas, notez les mesures à la main. Voir <a href="/fr/help/mobile-connections#logging-by-hand">Saisie manuelle</a>.</p>
       <nav class="pn" aria-label="Poursuivre la lecture"><a class="pn-p" href="/fr/help/how-do-i"><span>Précédent</span><b>Comment faire...?</b></a><a class="pn-n" href="/fr/help/faq"><span>Suivant</span><b>Questions fréquentes</b></a></nav>
-      <p class="stamp">Rédigé pour Cora Max 0.28.219 et Cora Mobile 1.4.1. Vérifié pour la dernière fois le 2026-10-17.</p>
+      <p class="stamp">Rédigé pour Cora Max 0.28.220 et Cora Mobile 1.4.2. Vérifié pour la dernière fois le 2026-10-17.</p>
       <p class="ask">Toujours bloqué ? Écrivez à <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, nous vous aiderons.</p>
     </article>
   </main>
@@ -581,7 +581,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/fr/help/search.json?v=a0a8e8a923').then(function (r) { return r.json(); })
+    fetch('/fr/help/search.json?v=756719cc89').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "fr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La recherche est indisponible. Utilisez la navigation." + '</li>';

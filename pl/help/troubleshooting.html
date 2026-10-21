@@ -211,17 +211,19 @@
 <ol><li>Czy sprzęt jest włączony i działa we własnej aplikacji?</li><li>Czy jest w tej samej sieci, w której go dodano?</li><li>Czy coś zmieniło się w routerze (nowy sprzęt, nowa nazwa sieci, izolacja sieci gościnnej)?</li></ol>
 <p>Sprzęt w sieci lokalnej musi być osiągalny w tej sieci. Sprzęt, który łączy się przez konto producenta, nie musi, ale to konto nadal musi być ważne. Jeśli zmienił się adres urządzenia, otwórz je w zakładce <strong>Urządzenia</strong> i dotknij <strong>Edytuj połączenie</strong> w <strong>Połączenie</strong>.</p>
 <h3 id="a-device-says-the-sign-in-was-refused">Urządzenie mówi, że logowanie zostało odrzucone</h3>
-<p>Producent odrzucił zapisane logowanie. Prawie zawsze dlatego, że zmieniono hasło u producenta. Otwórz wiersz urządzenia i zaloguj się ponownie.</p>
+<p>Producent odrzucił zapisane logowanie. Prawie zawsze dlatego, że zmieniono hasło u producenta. Otwórz wiersz urządzenia i zaloguj się ponownie. AquaWiz™ jest wyjątkiem: Cora nie przechowuje dla niego hasła, więc zmiana hasła AquaWiz niczego nie zmienia.</p>
 <h3 id="red-sea-readings-have-stopped-updating">„Odczyty Red Sea przestały się aktualizować”</h3>
 <p>Nic w tym akwarium nie odczytuje teraz Twojego sprzętu Red Sea, więc odczyty na ekranie się nie odświeżają.</p>
 <ol><li>Otwórz <strong>Ustawienia</strong>, otwórz akwarium, a potem <strong>Główne Cora Max</strong>. Sprawdź, czy ustawiono Cora Max albo wybrano <strong>Każde aktywne (automatycznie)</strong>.</li><li>Jeśli nie masz Cora Max, otwórz akwarium w Cora Mobile, gdy telefon jest w tej samej sieci Wi-Fi co sprzęt Red Sea.</li><li>Sprawdź, czy sprzęt Red Sea jest włączony i online we własnej aplikacji.</li></ol>
 <h3 id="some-reefbeat-settings-are-greyed-out-or-missing">Część ustawień ReefBeat jest wyszarzona albo ich brakuje</h3>
 <p>To normalne. Własne ustawienia urządzenia Red Sea otwierają się tylko wtedy, gdy telefon jest w tej samej sieci co urządzenie. Poza tą siecią widzisz tylko odczyty.</p>
 <ol><li>Dołącz do sieci Wi-Fi akwarium, żeby zmienić te ustawienia.</li><li>Odczyty i historia działają, gdy jesteś poza domem.</li></ol>
-<h3 id="an-aquawiz-reading-is-hours-old">Odczyt AquaWiz™ ma kilka godzin</h3>
+<h3 id="an-aquawiz-reading-is-hours-old">Odczyt AquaWiz ma kilka godzin</h3>
 <p>To może być normalne. AquaWiz pozwala Corze czytać swoją chmurę tylko co 12 godzin, więc bez Cora Max odczyt może mieć nawet pół doby. Otwórz stronę urządzenia w Cora Mobile: pokazuje, kiedy odczyt zmierzono i skąd pochodzi, a <strong>Odczytaj teraz</strong> prosi o świeży (najwyżej raz na 15 minut).</p>
 <p>Jeśli masz Cora Max, a karta nadal pokazuje <strong>Z chmury AquaWiz, co 12 godzin</strong>:</p>
 <ul><li>Sprawdź, czy kontroler jest w zasięgu Wi-Fi głównego Cora Max akwarium.</li><li>Sprawdź w aplikacji AquaWiz, czy oprogramowanie kontrolera jest aktualne; starsze nie ma dostępu lokalnego.</li><li>Po dwóch nieudanych odczytach z rzędu Cora Max czeka do następnego dnia. Jeśli nadal się nie udaje, skontaktuj się z pomocą.</li></ul>
+<h3 id="an-aquawiz-says-to-link-it-again">AquaWiz prosi o ponowne połączenie</h3>
+<p>AquaWiz zgłosił, że nazwa użytkownika zapisana w Corze nie jest już właścicielem tego kontrolera, na przykład dlatego, że kontroler przeszedł na inne konto AquaWiz. Urządzenie jest pomarańczowe. Otwórz <strong>Urządzenia → Dodaj urządzenie → AquaWiz</strong>, zaloguj się kontem, które jest właścicielem kontrolera, i połącz go ponownie. Cora nie przechowuje hasła ani tokenu AquaWiz, więc nic innego nie wygasa.</p>
 <h2 id="command-did-not-go-through">Polecenie nie przeszło</h2>
 <p>Każde polecenie kończy się jako <strong>Potwierdzono</strong>, <strong>Niepotwierdzone</strong>, <strong>Odmówiono</strong> albo <strong>Bez zmian</strong>. Co oznacza każdy wynik, opisuje <a href="/pl/help/mobile-device-control">Sterowanie sprzętem</a>.</p>
 <h3 id="could-not-reach-this-pump-nothing-was-sent">„Nie udało się połączyć z tą pompą: nic nie wysłano”</h3>
@@ -328,7 +330,7 @@
 <h2 id="still-stuck">Nadal problem</h2>
 <p>Napisz na <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> albo zgłoś problem z Cora Mobile, jak opisuje <a href="/pl/help/mobile-support">Zgłaszanie problemu</a>. Podaj, które akwarium, które urządzenie, który ekran i czego się spodziewano.</p>
       <nav class="pn" aria-label="Czytaj dalej"><a class="pn-n" href="/pl/help/how-do-i"><span>Następny</span><b>Jak to zrobić?</b></a></nav>
-      <p class="stamp">Napisano dla Cora Max 0.28.219 i Cora Mobile 1.4.1. Ostatnio sprawdzono 2026-10-18.</p>
+      <p class="stamp">Napisano dla Cora Max 0.28.220 i Cora Mobile 1.4.2. Ostatnio sprawdzono 2026-10-18.</p>
       <p class="ask">Wciąż masz problem? Napisz na <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, pomożemy.</p>
     </article>
   </main>
@@ -719,7 +721,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/pl/help/search.json?v=541e6f5556').then(function (r) { return r.json(); })
+    fetch('/pl/help/search.json?v=acbbc18621').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "pl"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Wyszukiwanie jest niedost\u0119pne. U\u017cyj menu." + '</li>';

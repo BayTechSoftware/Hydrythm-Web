@@ -36,7 +36,7 @@ Eşiklerin çoğu hacim olarak değil gün olarak girilir. Cora, kalan miktarın
 | ReefDose kafası | Takviyenin kaç gün yeteceği | 7 gün |
 | ReefATO+ | Son su tamamlama kullanımından tahmin edilen **Depo süresi** | 2 gün |
 | ReefMat | Rulonun ilerleme hızından tahmin edilen **Kalan rulo** | 3 gün |
-| AquaWiz | Kalan alkalinite takviyesi | 100 mL |
+| AquaWiz | Kalan alkalinite takviyesi | Kontrolörde belirlenen uyarı seviyesi (kontrolör bildirmiyorsa 100 mL) |
 
 
 Sarf malzemesi uyarısı diğer uyarılar gibi çalışır. [Uyarı Merkezi](/help/mobile-alerts)'nde görünür ve telefonunuza bildirim gönderebilir. Bir seviye aşıldığında **tek** bildirim alırsınız. Seviye yeniden eşiğin üstüne çıkınca uyarı kapanır.

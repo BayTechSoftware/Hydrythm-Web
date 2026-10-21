@@ -200,13 +200,21 @@ Pompa Bluetooth musi być w zasięgu telefonu, żeby uruchomić karmienie, a pom
 
 ## AquaWiz {#aquawiz}
 
-Karta AquaWiz pokazuje odczyty alkaliczności, a także pH, jeśli Twoje urządzenie je zgłasza. Pokazuje też docelowe KH, siłę dawki, a dla urządzenia z ustawionym dozowaniem także maksymalną dawkę na godzinę i to, ile suplementu alkaliczności zostało w pojemniku. Te wartości pochodzą prosto z Twoich ustawień AquaWiz, więc zmieniasz je w aplikacji AquaWiz. Cora nie może sterować AquaWiz.
+Karta AquaWiz pokazuje odczyty alkaliczności, a także pH, jeśli Twoje urządzenie je zgłasza. Cora nie może sterować AquaWiz, więc zmieniaj jego ustawienia w aplikacji AquaWiz.
+
+W sekcji **Kontroler** na stronie urządzenia Cora pokazuje to, co zgłasza kontroler, każdy wiersz tylko wtedy, gdy kontroler go zgłasza:
+
+- docelowe KH;
+- ile suplementu alkaliczności zostało, wraz z poziomem ostrzegawczym ustawionym na kontrolerze (na przykład *niski poziom od 100 mL*);
+- ile mL potrzeba na 1 dKH (*mL na 1 dKH*);
+- maksymalną dawkę na pomiar (*Do 20 mL na pomiar*);
+- wersję oprogramowania.
 
 Pod odczytami karta mówi, kiedy zrobiono ostatni pomiar (na przykład *Pomiar: 14:00*) i skąd pochodzi: **Co godzinę z Twojego Cora Max** albo **Z chmury AquaWiz, co 12 godzin**. Pokazuje też **zmianę pH**. Otwarcie strony prosi o świeży odczyt, a **Odczytaj teraz** prosi o niego jeszcze raz, najwyżej raz na 15 minut. Jeśli odczyt się nie zmienił, to normalne: urządzenie mierzy tylko od czasu do czasu.
 
-Gdy Cora Max czyta urządzenie co godzinę, karta pokazuje też pompę, sondę pH i poziom zbiornika wody, a Cora ostrzega Cię, gdy pompa zgłasza usterkę, sonda pH uległa awarii lub kończy się jej żywotność, albo poziom zbiornika wody jest niski lub wysoki dłużej niż godzinę.
+Karta pokazuje też pompę i sondę pH, a Cora ostrzega Cię, gdy pompa zgłasza usterkę albo sonda pH uległa awarii lub kończy się jej żywotność. Działa to dla każdego AquaWiz, z Cora Max lub bez. Gdy Cora Max czyta urządzenie co godzinę, karta pokazuje także poziom w pojemniku z wodą, a Cora ostrzega Cię, gdy jest niski lub wysoki dłużej niż godzinę.
 
-Jeśli Twoje urządzenie śledzi pojemnik, Cora ostrzega Cię, gdy kończy się suplement, domyślnie przy 100 mL. Zmienisz to w jego regule w [Centrum alertów](/help/mobile-alerts).
+Jeśli Twoje urządzenie śledzi pojemnik, Cora ostrzega Cię, gdy kończy się suplement, przy poziomie ostrzegawczym ustawionym na kontrolerze. Nadal możesz go zmienić w jego regule w [Centrum alertów](/help/mobile-alerts), a Twoja zmiana zostaje.
 
 
 ## Co się dzieje po zmianie {#what-happens-after-you-change-something}

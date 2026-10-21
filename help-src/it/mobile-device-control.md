@@ -200,13 +200,21 @@ Una pompa Bluetooth deve essere a portata del telefono per avviare un'alimentazi
 
 ## AquaWiz {#aquawiz}
 
-La scheda AquaWiz mostra le tue letture di alcalinità, e il pH se la tua unità lo riporta. Mostra anche il tuo KH obiettivo, la concentrazione della dose e, per un'unità con il dosaggio configurato, la dose massima oraria e quanto integratore di alcalinità resta nel contenitore. Questi valori arrivano direttamente dalle tue impostazioni AquaWiz, quindi cambiali nell'app AquaWiz. Cora non può comandare un AquaWiz.
+La scheda AquaWiz mostra le tue letture di alcalinità, e il pH se la tua unità lo riporta. Cora non può comandare un AquaWiz, quindi cambia le sue impostazioni nell'app AquaWiz.
+
+Sotto **Controller** nella pagina del dispositivo, Cora mostra ciò che il controller riporta, ogni riga solo se la riporta:
+
+- il KH obiettivo;
+- quanto integratore di alcalinità resta, con il livello di avviso impostato sul controller (per esempio *basso a 100 mL*);
+- quanti mL servono per 1 dKH (*mL per 1 dKH*);
+- la dose massima per misurazione (*Fino a 20 mL per misurazione*);
+- la versione del firmware.
 
 Sotto le letture la scheda dice quando è stata misurata l'ultima (per esempio *Misurato 14:00*) e da dove viene: **Ogni ora dal tuo Cora Max** oppure **Dal cloud AquaWiz, ogni 12 ore**. Mostra anche la **variazione del pH**. Aprire la pagina chiede una lettura fresca, e **Leggi ora** la chiede di nuovo, al massimo una volta ogni 15 minuti. Se una lettura non è cambiata è normale: l'unità misura solo ogni tanto.
 
-Quando un Cora Max legge l'unità ogni ora, la scheda mostra anche pompa, sonda del pH e livello della vaschetta, e Cora ti avvisa quando la pompa segnala un guasto, la sonda del pH si è guastata o sta per finire la sua vita, oppure il livello della vaschetta resta basso o alto per oltre un'ora.
+La scheda mostra anche pompa e sonda del pH, e Cora ti avvisa quando la pompa segnala un guasto, oppure la sonda del pH si è guastata o sta per finire la sua vita. Vale per ogni AquaWiz, con o senza Cora Max. Quando un Cora Max legge l'unità ogni ora, la scheda mostra anche il livello del water box, e Cora ti avvisa quando resta basso o alto per oltre un'ora.
 
-Se la tua unità segue il suo contenitore, Cora ti avvisa quando l'integratore sta finendo, a 100 mL di default. Cambialo dalla sua regola nel [Centro avvisi](/help/mobile-alerts).
+Se la tua unità segue il suo contenitore, Cora ti avvisa quando l'integratore sta finendo, al livello di avviso impostato sul controller. Puoi comunque cambiarlo dalla sua regola nel [Centro avvisi](/help/mobile-alerts), e la tua modifica resta.
 
 
 ## Cosa succede dopo che hai cambiato qualcosa {#what-happens-after-you-change-something}

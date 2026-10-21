@@ -36,7 +36,7 @@ Większość progów ustawia się w dniach, a nie w objętości. Cora liczy, na 
 | Głowica ReefDose | Na ile dni wystarczy suplementu | 7 dni |
 | ReefATO+ | **Zapas w zbiorniku**, szacowany na podstawie ostatniego zużycia na dolewkę | 2 dni |
 | ReefMat | **Pozostała rolka**, szacowana na podstawie tego, jak szybko przesuwa się rolka | 3 dni |
-| AquaWiz | Ile zostało suplementu alkaliczności | 100 mL |
+| AquaWiz | Ile zostało suplementu alkaliczności | Poziom ostrzegawczy ustawiony na kontrolerze (100 mL, jeśli kontroler go nie zgłasza) |
 
 
 Alert materiału eksploatacyjnego działa jak każdy inny alert. Pojawia się w [Centrum alertów](/help/mobile-alerts) i może wysłać powiadomienie na telefon. Po przekroczeniu poziomu dostajesz **jedno** powiadomienie, a alert znika, gdy poziom znów będzie powyżej progu.

@@ -211,17 +211,19 @@
 <ol><li>L'attrezzatura è accesa e funziona nella sua app?</li><li>È sulla stessa rete su cui l'hai aggiunta?</li><li>È cambiato qualcosa con il router (hardware nuovo, nuovo nome della rete, isolamento della rete ospiti)?</li></ol>
 <p>L'attrezzatura sulla rete locale deve essere raggiungibile su quella rete. L'attrezzatura che si collega tramite un account del produttore no, ma quell'account deve comunque essere valido. Se l'indirizzo del dispositivo è cambiato, aprilo nella scheda <strong>Dispositivi</strong> e tocca <strong>Modifica connessione</strong> in <strong>Connessione</strong>.</p>
 <h3 id="a-device-says-the-sign-in-was-refused">Un dispositivo dice che l'accesso è stato rifiutato</h3>
-<p>Il produttore ha respinto l'accesso salvato. Quasi sempre succede perché hai cambiato la password presso di loro. Apri la riga del dispositivo e accedi di nuovo.</p>
+<p>Il produttore ha respinto l'accesso salvato. Quasi sempre succede perché hai cambiato la password presso di loro. Apri la riga del dispositivo e accedi di nuovo. AquaWiz™ è l'eccezione: Cora non ne conserva la password, quindi cambiare la password AquaWiz non cambia nulla.</p>
 <h3 id="red-sea-readings-have-stopped-updating">"I valori Red Sea non si aggiornano più"</h3>
 <p>In questo momento niente su questa vasca sta leggendo la tua attrezzatura Red Sea, quindi le letture sullo schermo non vengono aggiornate.</p>
 <ol><li>Apri <strong>Impostazioni</strong>, apri la vasca, poi <strong>Cora Max principale</strong>. Controlla che sia impostato un Cora Max, oppure che sia scelto <strong>Qualsiasi attivo (automatico)</strong>.</li><li>Se non hai un Cora Max, apri la vasca in Cora Mobile mentre il telefono è sullo stesso Wi-Fi dell'attrezzatura Red Sea.</li><li>Controlla che l'attrezzatura Red Sea sia accesa e online nella sua app.</li></ol>
 <h3 id="some-reefbeat-settings-are-greyed-out-or-missing">Alcune impostazioni ReefBeat sono disattivate o mancano</h3>
 <p>È normale. Le impostazioni proprie di un dispositivo Red Sea si aprono solo quando il telefono è sulla stessa rete del dispositivo. Lontano da quella rete vedi solo le letture.</p>
 <ol><li>Collegati al Wi-Fi della vasca per cambiare quelle impostazioni.</li><li>Letture e storico continuano a funzionare quando sei via.</li></ol>
-<h3 id="an-aquawiz-reading-is-hours-old">Una lettura AquaWiz™ ha ore di ritardo</h3>
+<h3 id="an-aquawiz-reading-is-hours-old">Una lettura AquaWiz ha ore di ritardo</h3>
 <p>Può essere normale. AquaWiz lascia che Cora legga il suo cloud solo ogni 12 ore, quindi senza un Cora Max una lettura può avere fino a mezza giornata. Apri la pagina del dispositivo in Cora Mobile: mostra quando è stata misurata la lettura e da dove viene, e <strong>Leggi ora</strong> ne chiede una fresca (al massimo una volta ogni 15 minuti).</p>
 <p>Se hai un Cora Max e la scheda dice ancora <strong>Dal cloud AquaWiz, ogni 12 ore</strong>:</p>
 <ul><li>Controlla che il controller sia nel raggio Wi-Fi del Cora Max principale della vasca.</li><li>Controlla nell'app AquaWiz che il firmware del controller sia aggiornato; il firmware più vecchio non ha accesso locale.</li><li>Dopo due letture fallite di fila il Cora Max aspetta fino al giorno dopo. Se continua a fallire, contatta l'assistenza.</li></ul>
+<h3 id="an-aquawiz-says-to-link-it-again">Un AquaWiz chiede di collegarlo di nuovo</h3>
+<p>AquaWiz ha segnalato che il nome utente salvato in Cora non possiede più questo controller, per esempio perché il controller è passato a un altro account AquaWiz. Il dispositivo appare arancione. Apri <strong>Dispositivi → Aggiungi dispositivo → AquaWiz</strong>, accedi con l'account che possiede il controller e collegalo di nuovo. Cora non conserva password né token di accesso AquaWiz, quindi nient'altro scade.</p>
 <h2 id="command-did-not-go-through">Un comando non è arrivato</h2>
 <p>Ogni comando finisce come <strong>Confermato</strong>, <strong>Non confermato</strong>, <strong>Rifiutato</strong> o <strong>Nessun cambiamento</strong>. Cosa significa ognuno è spiegato in <a href="/it/help/mobile-device-control">Controllare la tua attrezzatura</a>.</p>
 <h3 id="could-not-reach-this-pump-nothing-was-sent">"Impossibile raggiungere questa pompa: nulla è stato inviato."</h3>
@@ -328,7 +330,7 @@
 <h2 id="still-stuck">Ancora bloccato</h2>
 <p>Scrivi a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>, oppure segnalalo da Cora Mobile come descritto in <a href="/it/help/mobile-support">Segnalare un problema</a>. Dicci quale vasca, quale dispositivo, quale schermata e cosa ti aspettavi di vedere.</p>
       <nav class="pn" aria-label="Continua a leggere"><a class="pn-n" href="/it/help/how-do-i"><span>Successivo</span><b>Come faccio a...?</b></a></nav>
-      <p class="stamp">Scritto per Cora Max 0.28.219 e Cora Mobile 1.4.1. Ultimo controllo il 2026-10-18.</p>
+      <p class="stamp">Scritto per Cora Max 0.28.220 e Cora Mobile 1.4.2. Ultimo controllo il 2026-10-18.</p>
       <p class="ask">Ancora bloccato? Scrivi a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, ti aiutiamo.</p>
     </article>
   </main>
@@ -719,7 +721,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/it/help/search.json?v=c7d1db19f7').then(function (r) { return r.json(); })
+    fetch('/it/help/search.json?v=d8c1fc9e37').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "it"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La ricerca non \u00e8 disponibile. Usa la navigazione." + '</li>';

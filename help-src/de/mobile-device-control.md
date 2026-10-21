@@ -200,13 +200,21 @@ Eine Bluetooth-Pumpe muss in Reichweite deines Handys sein, um eine Fütterung z
 
 ## AquaWiz {#aquawiz}
 
-Die AquaWiz-Karte zeigt deine Alkalinitäts-Messwerte und den pH-Wert, wenn dein Gerät ihn meldet. Außerdem zeigt sie deinen KH-Zielwert, deine Dosierstärke und, bei einem Gerät mit eingerichteter Dosierung, seine maximale Dosis pro Stunde und wie viel Alkalinitäts-Zusatz noch im Behälter ist. Diese Werte kommen direkt aus deinen AquaWiz-Einstellungen, ändere sie also in der AquaWiz-App. Cora kann einen AquaWiz nicht steuern.
+Die AquaWiz-Karte zeigt deine Alkalinitäts-Messwerte und den pH-Wert, wenn dein Gerät ihn meldet. Cora kann einen AquaWiz nicht steuern, ändere seine Einstellungen also in der AquaWiz-App.
+
+Unter **Controller** auf der Geräteseite zeigt Cora, was der Controller meldet, jede Zeile nur, wenn er sie meldet:
+
+- den KH-Zielwert;
+- wie viel Alkalinitäts-Zusatz noch übrig ist, mit der Warnstufe, die du am Controller eingestellt hast (zum Beispiel *niedrig ab 100 mL*);
+- wie viele mL für 1 dKH nötig sind (*mL pro 1 dKH*);
+- die maximale Dosis pro Messung (*Bis zu 20 mL pro Messung*);
+- die Firmware-Version.
 
 Unter den Messwerten zeigt die Karte, wann der letzte gemessen wurde (zum Beispiel *Gemessen 14:00*) und woher er kam: **Stündlich von deinem Cora Max** oder **Aus der AquaWiz-Cloud, alle 12 Stunden**. Außerdem zeigt sie die **pH-Änderung**. Beim Öffnen der Seite fragt Cora einen frischen Messwert an, und **Jetzt auslesen** fragt noch einmal an, höchstens alle 15 Minuten. Ändert sich ein Messwert nicht, ist das normal: Das Gerät misst nur von Zeit zu Zeit.
 
-Liest ein Cora Max das Gerät jede Stunde aus, zeigt die Karte auch Pumpe, pH-Sonde und Wasserbox-Füllstand. Cora warnt dich, wenn die Pumpe einen Fehler meldet, die pH-Sonde ausgefallen oder fast am Ende ihrer Lebensdauer ist oder der Füllstand der Wasserbox länger als eine Stunde niedrig oder hoch bleibt.
+Die Karte zeigt auch Pumpe und pH-Sonde, und Cora warnt dich, wenn die Pumpe einen Fehler meldet oder die pH-Sonde ausgefallen oder fast am Ende ihrer Lebensdauer ist. Das gilt für jeden AquaWiz, mit oder ohne Cora Max. Liest ein Cora Max das Gerät jede Stunde aus, zeigt die Karte auch den Wasserbox-Füllstand, und Cora warnt dich, wenn er länger als eine Stunde niedrig oder hoch bleibt.
 
-Erfasst dein Gerät seinen Behälter, warnt dich Cora, wenn der Zusatz zur Neige geht, standardmäßig bei 100 ml. Ändere das an seiner Regel in der [Warnzentrale](/help/mobile-alerts).
+Erfasst dein Gerät seinen Behälter, warnt dich Cora, wenn der Zusatz zur Neige geht, bei der Warnstufe, die du am Controller eingestellt hast. Du kannst sie weiterhin an ihrer Regel in der [Warnzentrale](/help/mobile-alerts) ändern, und deine Änderung bleibt erhalten.
 
 
 ## Was passiert, nachdem du etwas geändert hast {#what-happens-after-you-change-something}

@@ -102,7 +102,7 @@ AquaWiz lets Cora read its cloud only every 12 hours. To keep alkalinity current
 - It waits while Cora Max is talking to you, updating, pairing or changing Wi-Fi, and tries again the next hour.
 - The controller must be within Wi-Fi range of the Cora Max, and its firmware must offer local access. If two reads in a row fail, Cora Max stops trying for the rest of the day and the 12-hour cloud reading carries on.
 
-A reading from Cora Max shows **Hourly from your Cora Max** on the phone's AquaWiz card. It also brings the pump, pH probe and water box alerts described in [Alerts](/help/mobile-alerts#equipment-faults).
+A reading from Cora Max shows **Hourly from your Cora Max** on the phone's AquaWiz card. It also brings the water box level alerts described in [Alerts](/help/mobile-alerts#equipment-faults). Pump and pH probe alerts don't need a Cora Max.
 
 
 ## If Bluetooth stops working {#bluetooth-stopped}

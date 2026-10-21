@@ -83,17 +83,17 @@ With either connection you get live state, mode and intensity, a feeding pause a
 Cora reads alkalinity from an AquaWiz KH controller through AquaWiz's cloud, so it works away from home and doesn't need a Cora Max. A Cora Max adds hourly readings: see [How Cora reads your AquaWiz](#how-cora-reads-aquawiz).
 
 1. Go to **Devices → Add Device → AquaWiz**.
-2. Enter your AquaWiz username and password and tap **Connect**.
+2. Sign in with the AquaWiz account you use in the AquaWiz app and tap **Connect**.
 3. Pick the tank, check **Also read its pH** (it starts on for a unit that reports pH), and tap **Link to Cora**.
 
-With **Stay connected automatically** on, Cora keeps your AquaWiz password and renews the connection on its own. With it off, Cora keeps only a sign-in token, which AquaWiz expires about every 30 days, and sends you a notification when it's time to sign in again.
+You sign in once, so Cora can find your controllers. After that Cora keeps only your AquaWiz username: no password and no sign-in token. There is nothing to renew, so Cora never asks you to sign in again, and there is no **Stay connected automatically** switch. If AquaWiz later reports that the username no longer owns the controller, its card turns orange and tells you to link it again: open **Add AquaWiz** and sign in once more.
 
-You get alkalinity as a source, and pH too if your unit reports it and **Also read its pH** is on. Your first reading arrives as soon as you link. After that AquaWiz lets Cora read its cloud automatically only every 12 hours, so a reading from there can be up to about half a day old. A Cora Max at the tank can also read the controller itself every hour when it can reach it. Open the device's page to see when each reading was measured and where it came from, and tap **Read now** for a fresh one (at most once every 15 minutes). What the AquaWiz card shows, and its alerts, are in [Controlling your equipment](/help/mobile-device-control#aquawiz).
+You get alkalinity as a source, and pH too if your unit reports it and **Also read its pH** is on. Your first reading arrives as soon as you link, together with the last 6 hours of history. After that AquaWiz's Cora service sends a reading every 12 hours, which is AquaWiz's limit, so a reading from there can be up to about half a day old. A Cora Max at the tank can also read the controller itself every hour when it can reach it. Open the device's page to see when each reading was measured and where it came from, and tap **Read now** for a fresh one (at most once every 15 minutes). What the AquaWiz card shows, and its alerts, are in [Controlling your equipment](/help/mobile-device-control#aquawiz).
 
 To move the controller to another tank, open its page in **Devices** and tap **Change** under **Tanks**. You don't have to sign in to AquaWiz again.
 
-:::warning Cora shares your AquaWiz sign-in
-AquaWiz gives each account one sign-in, so Cora uses the same one as the AquaWiz app. If you change your AquaWiz password, Cora disconnects. Reconnect it from the device row afterwards. To take away Cora's access completely, remove the device in Cora and change your AquaWiz password.
+:::note Cora keeps only your username
+Cora uses your password once, while you link, and does not store it. Changing your AquaWiz password doesn't disconnect Cora. Unlinking stops Cora reading the controller and makes it forget your username; it doesn't sign you out of the AquaWiz app. Your existing readings are kept.
 :::
 
 ### How Cora reads your AquaWiz {#how-cora-reads-aquawiz}
@@ -102,13 +102,15 @@ Cora reaches an AquaWiz in up to three ways, and they work together.
 
 | Route | What it gives Cora | How often |
 | --- | --- | --- |
-| Your AquaWiz sign-in | Finds your controllers, reads their settings (target KH, dose strength, container) and fetches a daily history. | Once a day, and when settings are needed |
-| AquaWiz's Cora service | The latest KH and pH reading. | When you link, then every 12 hours (the AquaWiz limit), and when you open the device page or tap **Read now** (at most every 15 minutes) |
-| A Cora Max at the tank | Reads the controller directly over the controller's own Wi-Fi, and adds pump, pH probe and water box alerts. | Every hour |
+| Your AquaWiz sign-in | Used once, when you link, to find your controllers. Afterwards Cora keeps only your username. | Once |
+| AquaWiz's Cora service | The latest KH and pH reading, the last 6 hours of history, and the controller's settings (target KH, dose strength, supplement left, pump and pH probe status, firmware). | When you link, then every 12 hours (the AquaWiz limit), and when you open the device page or tap **Read now** (at most every 15 minutes) |
+| A Cora Max at the tank | Reads the controller directly over the controller's own Wi-Fi and adds water box level alerts. | Every hour |
 
 Without a Cora Max, readings come every 12 hours, which is AquaWiz's limit, so one can be up to about half a day old. **Want hourly readings? Add a Cora Max at your tank.** [See Cora Max](https://coraiq.tech/#max) and [set it up](/help/max-setup). It needs the controller within Cora Max's Wi-Fi range and controller firmware with local access. The details are in [Hourly reading from Cora Max](/help/max-device-control#aquawiz-hourly).
 
 The device card shows where each reading came from: **Hourly from your Cora Max** or **From AquaWiz cloud, every 12 hours**.
+
+Cora keeps the full hourly history of your controller. When you link, it back-fills up to 30 days, so your charts don't start empty.
 
 
 ## Logging by hand {#logging-by-hand}

@@ -97,7 +97,6 @@ MAP = {
     "icp_trends": "mobile-icp-health", "icp": "max-intelligence",
     "health_report": "mobile-icp-health", "health_reports": "max-intelligence",
     "daily_health": "mobile-reef-buddy", "reef_buddy": "mobile-reef-buddy",
-    "reef_buddy_details": "mobile-reef-buddy",
     "cycling_journey": "mobile-journeys", "issue_journey": "mobile-journeys",
     "cycling_guide": "mobile-journeys", "cycling_log": "mobile-journeys",
     # ── settings, plans, data ──

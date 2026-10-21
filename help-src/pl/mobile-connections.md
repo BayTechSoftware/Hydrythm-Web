@@ -83,17 +83,17 @@ Przy obu połączeniach dostajesz stan na żywo, tryb i intensywność, przerwę
 Cora odczytuje alkaliczność z kontrolera AquaWiz KH przez chmurę AquaWiz, więc działa to poza domem i nie wymaga Cora Max. Cora Max dodaje odczyty co godzinę: zobacz [Jak Cora odczytuje Twój AquaWiz](#how-cora-reads-aquawiz).
 
 1. Przejdź do **Urządzenia → Dodaj urządzenie → AquaWiz**.
-2. Wpisz nazwę użytkownika i hasło AquaWiz i dotknij **Połącz**.
+2. Zaloguj się kontem AquaWiz, którego używasz w aplikacji AquaWiz, i dotknij **Połącz**.
 3. Wybierz akwarium, sprawdź **Odczytuj też jego pH** (dla urządzenia, które zgłasza pH, na początku jest włączone) i dotknij **Połącz z Cora**.
 
-Gdy **Automatycznie utrzymuj połączenie** jest włączone, Cora przechowuje Twoje hasło AquaWiz i sama odnawia połączenie. Gdy jest wyłączone, Cora przechowuje tylko token logowania, który AquaWiz unieważnia mniej więcej co 30 dni, i wysyła Ci powiadomienie, gdy trzeba zalogować się ponownie.
+Logujesz się tylko raz, żeby Cora znalazła Twoje kontrolery. Potem Cora zachowuje wyłącznie Twoją nazwę użytkownika AquaWiz: bez hasła i bez tokenu logowania. Nie ma niczego do odnawiania, więc Cora nigdy nie prosi o ponowne logowanie i nie ma już przełącznika **Automatycznie utrzymuj połączenie**. Jeśli AquaWiz zgłosi później, że ta nazwa użytkownika nie jest już właścicielem kontrolera, jego karta robi się pomarańczowa i prosi o ponowne połączenie: otwórz **Dodaj AquaWiz** i zaloguj się jeszcze raz.
 
-Dostajesz alkaliczność jako źródło, a także pH, jeśli Twoje urządzenie je zgłasza i **Odczytuj też jego pH** jest włączone. Pierwszy odczyt przychodzi zaraz po połączeniu. Potem AquaWiz pozwala Corze automatycznie czytać swoją chmurę tylko co 12 godzin, więc odczyt stamtąd może mieć nawet pół doby. Cora Max przy akwarium może też sam czytać kontroler co godzinę, gdy może go osiągnąć. Otwórz stronę urządzenia, żeby zobaczyć, kiedy zmierzono każdy odczyt i skąd pochodzi, i dotknij **Odczytaj teraz**, żeby dostać świeży (najwyżej raz na 15 minut). Co pokazuje karta AquaWiz i jej alerty, opisuje [Sterowanie sprzętem](/help/mobile-device-control#aquawiz).
+Dostajesz alkaliczność jako źródło, a także pH, jeśli Twoje urządzenie je zgłasza i **Odczytuj też jego pH** jest włączone. Pierwszy odczyt przychodzi zaraz po połączeniu, razem z historią z ostatnich 6 godzin. Potem usługa Cora od AquaWiz wysyła odczyt co 12 godzin, taki jest limit AquaWiz, więc odczyt stamtąd może mieć nawet pół doby. Cora Max przy akwarium może też sam czytać kontroler co godzinę, gdy może go osiągnąć. Otwórz stronę urządzenia, żeby zobaczyć, kiedy zmierzono każdy odczyt i skąd pochodzi, i dotknij **Odczytaj teraz**, żeby dostać świeży (najwyżej raz na 15 minut). Co pokazuje karta AquaWiz i jej alerty, opisuje [Sterowanie sprzętem](/help/mobile-device-control#aquawiz).
 
 Aby przenieść kontroler do innego akwarium, otwórz jego stronę w **Urządzenia** i dotknij **Zmień** w sekcji **Akwaria**. Nie musisz ponownie logować się do AquaWiz.
 
-:::warning Cora używa tego samego logowania AquaWiz
-AquaWiz daje każdemu kontu jedno logowanie, więc Cora używa tego samego co aplikacja AquaWiz. Jeśli zmienisz hasło AquaWiz, Cora się rozłączy. Połącz ją potem ponownie z wiersza urządzenia. Żeby całkowicie odebrać Corze dostęp, usuń urządzenie w Corze i zmień hasło AquaWiz.
+:::note Cora zachowuje tylko Twoją nazwę użytkownika
+Cora używa Twojego hasła tylko raz, podczas łączenia, i go nie przechowuje. Zmiana hasła AquaWiz nie rozłącza Cora. Odłączenie zatrzymuje odczyt kontrolera, a Cora zapomina Twoją nazwę użytkownika; nie wylogowuje Cię z aplikacji AquaWiz. Dotychczasowe odczyty zostają.
 :::
 
 ### Jak Cora odczytuje Twój AquaWiz {#how-cora-reads-aquawiz}
@@ -102,13 +102,15 @@ Cora dociera do AquaWiz maksymalnie trzema drogami, które działają razem.
 
 | Droga | Co daje Corze | Jak często |
 | --- | --- | --- |
-| Twoje logowanie do AquaWiz | Znajduje Twoje kontrolery, odczytuje ich ustawienia (docelowe KH, siłę dozowania, pojemnik) i pobiera dzienną historię. | Raz na dobę i gdy potrzebne są ustawienia |
-| Usługa Cora od AquaWiz | Najnowszy odczyt KH i pH. | Po połączeniu, potem co 12 godzin (limit AquaWiz) oraz gdy otworzysz stronę urządzenia lub dotkniesz **Odczytaj teraz** (najwyżej co 15 minut) |
-| Cora Max przy akwarium | Odczytuje kontroler bezpośrednio przez jego własne Wi-Fi i dodaje alerty pompy, sondy pH i pojemnika z wodą. | Co godzinę |
+| Twoje logowanie do AquaWiz | Używane raz, przy łączeniu, żeby znaleźć Twoje kontrolery. Potem Cora zachowuje tylko Twoją nazwę użytkownika. | Raz |
+| Usługa Cora od AquaWiz | Najnowszy odczyt KH i pH, historia z ostatnich 6 godzin i ustawienia kontrolera (docelowe KH, siła dozowania, pozostały suplement, stan pompy i sondy pH, oprogramowanie). | Po połączeniu, potem co 12 godzin (limit AquaWiz) oraz gdy otworzysz stronę urządzenia lub dotkniesz **Odczytaj teraz** (najwyżej co 15 minut) |
+| Cora Max przy akwarium | Odczytuje kontroler bezpośrednio przez jego własne Wi-Fi i dodaje alerty poziomu w pojemniku z wodą. | Co godzinę |
 
 Bez Cora Max odczyty przychodzą co 12 godzin, taki jest limit AquaWiz, więc odczyt może mieć nawet pół doby. **Chcesz odczyty co godzinę? Dodaj Cora Max przy akwarium.** [Zobacz Cora Max](https://coraiq.tech/pl/#max) i [skonfiguruj go](/help/max-setup). Wymaga kontrolera w zasięgu Wi-Fi Cora Max oraz oprogramowania kontrolera z dostępem lokalnym. Szczegóły są w [Odczyt co godzinę z Cora Max](/help/max-device-control#aquawiz-hourly).
 
 Karta urządzenia pokazuje, skąd pochodzi każdy odczyt: **Co godzinę z Twojego Cora Max** albo **Z chmury AquaWiz, co 12 godzin**.
+
+Cora zachowuje pełną godzinową historię Twojego kontrolera. Po połączeniu uzupełnia ją wstecz nawet do 30 dni, więc wykresy nie zaczynają się puste.
 
 
 ## Ręczne zapisywanie {#logging-by-hand}

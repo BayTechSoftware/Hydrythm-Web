@@ -200,13 +200,21 @@ Bir besleme başlatmak için Bluetooth bir pompanın telefonunuzun menzilinde, b
 
 ## AquaWiz {#aquawiz}
 
-AquaWiz kartı alkalinite ölçümlerinizi ve üniteniz bildiriyorsa pH'ı gösterir. Ayrıca hedef KH'nizi, dozaj yoğunluğunuzu ve dozaj kurulu bir ünite için saatlik en yüksek dozunu ve kapta ne kadar alkalinite takviyesi kaldığını gösterir. Bunlar doğrudan AquaWiz ayarlarınızdan gelir, bu yüzden onları AquaWiz uygulamasında değiştirin. Cora bir AquaWiz'i kontrol edemez.
+AquaWiz kartı alkalinite ölçümlerinizi ve üniteniz bildiriyorsa pH'ı gösterir. Cora bir AquaWiz'i kontrol edemez, bu yüzden ayarlarını AquaWiz uygulamasında değiştirin.
+
+Cihaz sayfasındaki **Denetleyici** bölümünde Cora, kontrolörün bildirdiklerini gösterir; her satır yalnızca kontrolör bildiriyorsa görünür:
+
+- hedef KH;
+- ne kadar alkalinite takviyesi kaldığı ve kontrolörde belirlediğiniz uyarı seviyesi (örneğin *100 mL altında düşük*);
+- 1 dKH için kaç mL gerektiği (*1 dKH için mL*);
+- ölçüm başına en yüksek doz (*Ölçüm başına en fazla 20 mL*);
+- yazılım sürümü.
 
 Ölçümlerin altında kart, sonuncusunun ne zaman ölçüldüğünü (örneğin *Ölçüm: 14:00*) ve nereden geldiğini söyler: **Cora Max cihazınızdan saatlik** ya da **AquaWiz bulutundan, 12 saatte bir**. Ayrıca **pH değişimi**ni de gösterir. Sayfayı açmak yeni bir ölçüm ister, **Şimdi oku** da yeniden ister; en fazla 15 dakikada bir. Bir ölçüm değişmediyse bu normaldir: ünite ölçümü yalnızca ara sıra yapar.
 
-Bir Cora Max üniteyi her saat okuyorsa kart ayrıca pompayı, pH probunu ve su haznesi seviyesini de gösterir. Pompa arıza bildirdiğinde, pH probu bozulduğunda ya da ömrünün sonuna yaklaştığında veya su haznesi seviyesi bir saatten uzun süre düşük ya da yüksek kaldığında Cora sizi uyarır.
+Kart ayrıca pompayı ve pH probunu gösterir. Pompa arıza bildirdiğinde, pH probu bozulduğunda ya da ömrünün sonuna yaklaştığında Cora sizi uyarır. Bu, Cora Max olsun olmasın her AquaWiz için geçerlidir. Bir Cora Max üniteyi her saat okuyorsa kart su kutusu seviyesini de gösterir ve seviye bir saatten uzun süre düşük ya da yüksek kalırsa Cora sizi uyarır.
 
-Üniteniz kabını izliyorsa Cora takviye azaldığında, varsayılan olarak 100 mL'de, sizi uyarır. Bunu [Uyarı Merkezi](/help/mobile-alerts)'ndeki kuralından değiştirin.
+Üniteniz kabını izliyorsa Cora takviye azaldığında, kontrolörde belirlediğiniz uyarı seviyesinde sizi uyarır. Bunu yine [Uyarı Merkezi](/help/mobile-alerts)'ndeki kuralından değiştirebilirsiniz ve değişikliğiniz korunur.
 
 
 ## Bir şeyi değiştirdikten sonra ne olur {#what-happens-after-you-change-something}

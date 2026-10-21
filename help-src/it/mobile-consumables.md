@@ -36,7 +36,7 @@ Quasi tutte le soglie sono in giorni, non in volume. Cora calcola quanto durerà
 | Testa ReefDose | Giorni di integratore rimasti | 7 giorni |
 | ReefATO+ | **Autonomia del serbatoio**, stimata dal consumo recente di rabbocco | 2 giorni |
 | ReefMat | **Rotolo rimanente**, stimato dalla velocità con cui avanza il rotolo | 3 giorni |
-| AquaWiz | Integratore di alcalinità rimasto | 100 mL |
+| AquaWiz | Integratore di alcalinità rimasto | Il livello di avviso impostato sul controller (100 mL se non ne riporta uno) |
 
 
 Un avviso sui materiali di consumo funziona come tutti gli altri avvisi. Compare nel [Centro avvisi](/help/mobile-alerts) e può arrivarti come notifica sul telefono. Ricevi **una** notifica quando il livello supera la soglia, e l'avviso si chiude quando il livello torna sopra la soglia.

@@ -210,7 +210,7 @@
 <p>Eine Kachel für eine Dosierpumpe (ein Apex DŌS oder ein ReefDose) zeigt eine Zeile pro Kopf. Ein Kopfname wird nie unter eine lesbare Größe verkleinert. Auf einer hohen Kachel nimmt die Zeile zwei Zeilen ein, mit dem Namen in der ersten und dem, was übrig ist, in der zweiten, zum Beispiel <em>40d</em> und <em>2.8 L</em>. Auf einer niedrigen Kachel fällt die Detailzeile weg, und der Name bleibt lesbar.</p>
 <p>Leg mit <strong>Restmenge anzeigen als</strong> fest, was zuerst kommt: <strong>Tage</strong> oder <strong>Milliliter (mL)</strong>. Ein ReefDose-Kopf ohne eigenen Namen wird als Gerätename, gefolgt von "Kopf" und seiner Nummer, angezeigt. Eine Jecod-Dosierpumpen-Kachel ist nur zum Lesen und zeigt den Tagesplan, weil Jecod nicht meldet, wie viel noch in der Flasche ist.</p>
       <nav class="pn" aria-label="Weiterlesen"><a class="pn-p" href="/de/help/mobile-dashboard-editing"><span>Zurück</span><b>Dein Dashboard bearbeiten</b></a><a class="pn-n" href="/de/help/mobile-sharing"><span>Weiter</span><b>Dein Becken teilen</b></a></nav>
-      <p class="stamp">Geschrieben für Cora Max 0.28.219 und Cora Mobile 1.4.1. Zuletzt geprüft am 2026-10-18.</p>
+      <p class="stamp">Geschrieben für Cora Max 0.28.220 und Cora Mobile 1.4.2. Zuletzt geprüft am 2026-10-18.</p>
       <p class="ask">Kommst du nicht weiter? Schreib eine E-Mail an <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, wir helfen dir.</p>
     </article>
   </main>
@@ -601,7 +601,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/de/help/search.json?v=a932d14dd0').then(function (r) { return r.json(); })
+    fetch('/de/help/search.json?v=bc775bf15b').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "de"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Die Suche ist nicht verf\u00fcgbar. Nutze die Navigation." + '</li>';

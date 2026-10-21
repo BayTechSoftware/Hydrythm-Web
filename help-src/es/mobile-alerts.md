@@ -87,13 +87,12 @@ Cuando una alerta está activa, no te sigue avisando de lo mismo. El [tiempo de 
 
 Algunas alertas tratan de un equipo, no de una lectura. Cuando un dispositivo como un Trident o una bomba Jecod informa de un fallo, Cora envía una notificación con el nombre del acuario y del dispositivo, por ejemplo *"Acuario principal: la bomba de retorno necesita atención"*. También dice qué pasa, como un rotor atascado. Cuando el fallo se resuelve, recibes una segunda: *"Acuario principal: la bomba de retorno vuelve a estar bien"*. Las dos pertenecen a **Fallas de equipos** en **Ajustes → Notificaciones**.
 
-Un AquaWiz KH Controller que tu Cora Max lee cada hora genera el mismo tipo de alerta cuando:
+Un AquaWiz KH Controller genera el mismo tipo de aviso, con cualquier AquaWiz y sin Cora Max, cuando:
 
 - su bomba dosificadora informa de un fallo;
-- su sonda de pH ha fallado o está cerca del final de su vida útil;
-- el nivel de su depósito de agua se queda bajo o alto durante más de una hora.
+- su sonda de pH ha fallado o está cerca del final de su vida.
 
-Para esto hace falta la lectura cada hora desde Cora Max (consulta [Controlar equipos desde Cora Max](/help/max-device-control#aquawiz-hourly)): la lectura de la nube de AquaWiz cada 12 horas no las incluye.
+Cuando el suplemento de alcalinidad se acaba, el aviso usa el nivel que fijaste en el controlador. Aún puedes cambiarlo en el Centro de alertas. Un nivel de la caja de agua que se queda bajo o alto más de una hora también genera un aviso, pero para eso hace falta la lectura cada hora de Cora Max (mira [Controlar equipos desde Cora Max](/help/max-device-control#aquawiz-hourly)): la lectura de la nube de AquaWiz cada 12 horas no lo incluye.
 
 
 ## Un dispositivo ha dejado de informar {#stopped-reporting}

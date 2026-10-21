@@ -107,7 +107,7 @@ Sprzęt w sieci lokalnej musi być osiągalny w tej sieci. Sprzęt, który łąc
 
 ### Urządzenie mówi, że logowanie zostało odrzucone {#a-device-says-the-sign-in-was-refused}
 
-Producent odrzucił zapisane logowanie. Prawie zawsze dlatego, że zmieniono hasło u producenta. Otwórz wiersz urządzenia i zaloguj się ponownie.
+Producent odrzucił zapisane logowanie. Prawie zawsze dlatego, że zmieniono hasło u producenta. Otwórz wiersz urządzenia i zaloguj się ponownie. AquaWiz jest wyjątkiem: Cora nie przechowuje dla niego hasła, więc zmiana hasła AquaWiz niczego nie zmienia.
 
 ### „Odczyty Red Sea przestały się aktualizować” {#red-sea-readings-have-stopped-updating}
 
@@ -134,6 +134,10 @@ Jeśli masz Cora Max, a karta nadal pokazuje **Z chmury AquaWiz, co 12 godzin**:
 - Sprawdź, czy kontroler jest w zasięgu Wi-Fi głównego Cora Max akwarium.
 - Sprawdź w aplikacji AquaWiz, czy oprogramowanie kontrolera jest aktualne; starsze nie ma dostępu lokalnego.
 - Po dwóch nieudanych odczytach z rzędu Cora Max czeka do następnego dnia. Jeśli nadal się nie udaje, skontaktuj się z pomocą.
+
+### AquaWiz prosi o ponowne połączenie {#an-aquawiz-says-to-link-it-again}
+
+AquaWiz zgłosił, że nazwa użytkownika zapisana w Corze nie jest już właścicielem tego kontrolera, na przykład dlatego, że kontroler przeszedł na inne konto AquaWiz. Urządzenie jest pomarańczowe. Otwórz **Urządzenia → Dodaj urządzenie → AquaWiz**, zaloguj się kontem, które jest właścicielem kontrolera, i połącz go ponownie. Cora nie przechowuje hasła ani tokenu AquaWiz, więc nic innego nie wygasa.
 
 ## Polecenie nie przeszło {#command-did-not-go-through}
 

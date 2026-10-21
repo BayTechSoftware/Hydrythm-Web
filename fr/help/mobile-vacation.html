@@ -191,7 +191,7 @@
 <h2 id="coming-back">Au retour</h2>
 <p>Touchez <strong>Mettre fin au mode vacances</strong> et confirmez avec <strong>Y mettre fin</strong>. Le lien du gardien cesse de fonctionner immédiatement. Votre liste reste enregistrée pour la prochaine fois.</p>
       <nav class="pn" aria-label="Poursuivre la lecture"><a class="pn-p" href="/fr/help/mobile-automation"><span>Précédent</span><b>Automatisations et scènes</b></a><a class="pn-n" href="/fr/help/mobile-journal"><span>Suivant</span><b>Le journal</b></a></nav>
-      <p class="stamp">Rédigé pour Cora Max 0.28.219 et Cora Mobile 1.4.1. Vérifié pour la dernière fois le 2026-10-13.</p>
+      <p class="stamp">Rédigé pour Cora Max 0.28.220 et Cora Mobile 1.4.2. Vérifié pour la dernière fois le 2026-10-13.</p>
       <p class="ask">Toujours bloqué ? Écrivez à <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, nous vous aiderons.</p>
     </article>
   </main>
@@ -582,7 +582,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/fr/help/search.json?v=a0a8e8a923').then(function (r) { return r.json(); })
+    fetch('/fr/help/search.json?v=756719cc89').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "fr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La recherche est indisponible. Utilisez la navigation." + '</li>';

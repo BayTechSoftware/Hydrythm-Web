@@ -48,7 +48,7 @@ Pompy, które łączą się z Corą przez Twoją sieć albo przez Bluetooth. Od 
 
 ## AquaWiz KH Controller {#aquawiz}
 
-Cora odczytuje go co 12 godzin przez własną chmurę AquaWiz, więc aktualizuje się także bez Cora Max. Cora Max przy akwarium odczytuje go zamiast tego co godzinę i dodaje alerty pompy, sondy pH i pojemnika z wodą. Zobacz [Jak Cora odczytuje Twój AquaWiz](/help/mobile-connections#how-cora-reads-aquawiz).
+Cora odczytuje go przez chmurę AquaWiz co 12 godzin i za każdym razem, gdy otworzysz jego stronę, więc aktualizuje się też bez Cora Max. Logujesz się tylko raz, żeby go połączyć, a Cora zachowuje wyłącznie Twoją nazwę użytkownika. Alerty pompy i sondy pH działają dla każdego AquaWiz; Cora Max przy akwarium czyta go zamiast tego co godzinę i dodaje alerty pojemnika z wodą. Zobacz [Jak Cora odczytuje Twój AquaWiz](/help/mobile-connections#how-cora-reads-aquawiz).
 
 - Dodawanie: [Podłączanie sprzętu](/help/mobile-connections#aquawiz-kh-controller)
 - W telefonie: [AquaWiz](/help/mobile-device-control#aquawiz)

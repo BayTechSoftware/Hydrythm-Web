@@ -107,7 +107,7 @@ Ausrüstung in deinem lokalen Netzwerk muss in diesem Netzwerk erreichbar sein. 
 
 ### Ein Gerät sagt, die Anmeldung wurde abgelehnt {#a-device-says-the-sign-in-was-refused}
 
-Der Hersteller hat die gespeicherte Anmeldung abgelehnt. Fast immer liegt es daran, dass du dort dein Passwort geändert hast. Öffne die Zeile des Geräts und melde dich erneut an.
+Der Hersteller hat die gespeicherte Anmeldung abgelehnt. Fast immer liegt es daran, dass du dort dein Passwort geändert hast. Öffne die Zeile des Geräts und melde dich erneut an. AquaWiz ist die Ausnahme: Cora speichert dafür kein Passwort, ein geändertes AquaWiz-Passwort ändert also nichts.
 
 ### "Die Red Sea-Messwerte werden nicht mehr aktualisiert" {#red-sea-readings-have-stopped-updating}
 
@@ -134,6 +134,10 @@ Wenn du ein Cora Max hast und auf der Karte trotzdem **Aus der AquaWiz-Cloud, al
 - Prüfe, ob der Controller in WLAN-Reichweite des Haupt-Cora-Max des Beckens ist.
 - Prüfe in der AquaWiz-App, ob die Firmware des Controllers aktuell ist; ältere Firmware bietet keinen lokalen Zugriff.
 - Nach zwei fehlgeschlagenen Messungen hintereinander wartet das Cora Max bis zum nächsten Tag. Klappt es weiterhin nicht, wende dich an den Support.
+
+### Ein AquaWiz sagt, du sollst ihn erneut verknüpfen {#an-aquawiz-says-to-link-it-again}
+
+AquaWiz hat gemeldet, dass der in Cora gespeicherte Benutzername diesen Controller nicht mehr besitzt, zum Beispiel weil der Controller in ein anderes AquaWiz-Konto gewechselt ist. Das Gerät erscheint orange. Öffne **Geräte → Gerät hinzufügen → AquaWiz**, melde dich mit dem Konto an, dem der Controller gehört, und verknüpfe ihn erneut. Cora speichert kein AquaWiz-Passwort und kein Anmelde-Token, es läuft also nichts anderes ab.
 
 ## Ein Befehl ist nicht durchgekommen {#command-did-not-go-through}
 

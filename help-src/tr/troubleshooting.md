@@ -107,7 +107,7 @@ Yerel ağınızdaki ekipmana o ağda ulaşılabilmelidir. Bir üretici hesabı �
 
 ### Bir cihaz girişin reddedildiğini söylüyor {#a-device-says-the-sign-in-was-refused}
 
-Üretici kayıtlı girişi reddetti. Neredeyse her zaman bunun nedeni onlarla olan şifrenizi değiştirmiş olmanızdır. Cihazın satırını açın ve yeniden giriş yapın.
+Üretici kayıtlı girişi reddetti. Neredeyse her zaman bunun nedeni onlarla olan şifrenizi değiştirmiş olmanızdır. Cihazın satırını açın ve yeniden giriş yapın. AquaWiz bunun istisnasıdır: Cora onun için şifre saklamaz, bu yüzden AquaWiz şifrenizi değiştirmek hiçbir şeyi değiştirmez.
 
 ### "Red Sea değerleri güncellenmiyor" {#red-sea-readings-have-stopped-updating}
 
@@ -134,6 +134,10 @@ Bir Cora Max'iniz varsa ve kart hâlâ **AquaWiz bulutundan, 12 saatte bir** diy
 - Kontrolörün akvaryumun ana Cora Max'inin Wi-Fi menzilinde olduğunu kontrol edin.
 - AquaWiz uygulamasında kontrolörün ürün yazılımının güncel olduğunu kontrol edin; eski ürün yazılımında yerel erişim yoktur.
 - Üst üste iki başarısız okumadan sonra Cora Max ertesi güne kadar bekler. Başarısız olmaya devam ederse destekle iletişime geçin.
+
+### Bir AquaWiz yeniden bağlamanızı istiyor {#an-aquawiz-says-to-link-it-again}
+
+AquaWiz, Cora'da kayıtlı kullanıcı adının artık bu kontrolöre sahip olmadığını bildirdi; örneğin kontrolör başka bir AquaWiz hesabına geçmiş olabilir. Cihaz turuncu görünür. **Cihazlar → Cihaz Ekle → AquaWiz** yolunu açın, kontrolörün sahibi olan hesapla giriş yapın ve yeniden bağlayın. Cora AquaWiz için şifre ya da giriş belirteci saklamaz, bu yüzden başka bir şeyin süresi dolmaz.
 
 ## Bir komut ulaşmadı {#command-did-not-go-through}
 

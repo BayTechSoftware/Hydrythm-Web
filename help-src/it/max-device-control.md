@@ -102,7 +102,7 @@ AquaWiz lascia che Cora legga il suo cloud solo ogni 12 ore. Per tenere aggiorna
 - Aspetta mentre il Cora Max sta parlando con te, si aggiorna, si associa o cambia Wi-Fi, e riprova l'ora dopo.
 - Il controller deve essere nel raggio Wi-Fi del Cora Max e il suo firmware deve offrire l'accesso locale. Se due letture di fila falliscono, il Cora Max smette di provare per il resto della giornata e la lettura dal cloud ogni 12 ore continua.
 
-Una lettura da Cora Max mostra **Ogni ora dal tuo Cora Max** sulla scheda AquaWiz del telefono. Porta anche gli avvisi di pompa, sonda pH e contenitore dell'acqua descritti in [Avvisi](/help/mobile-alerts#equipment-faults).
+Una lettura da Cora Max mostra **Ogni ora dal tuo Cora Max** sulla scheda AquaWiz del telefono. Porta anche gli avvisi sul livello del water box descritti in [Avvisi](/help/mobile-alerts#equipment-faults). Gli avvisi di pompa e sonda pH non richiedono un Cora Max.
 
 
 ## Se il Bluetooth smette di funzionare {#bluetooth-stopped}

@@ -107,7 +107,7 @@ Un équipement sur votre réseau local doit être joignable sur ce réseau. Un �
 
 ### Un appareil indique que la connexion a été refusée {#a-device-says-the-sign-in-was-refused}
 
-Le fabricant a rejeté les identifiants enregistrés. Presque toujours, c’est parce que vous avez changé votre mot de passe chez lui. Ouvrez la ligne de l’appareil et reconnectez-vous.
+Le fabricant a rejeté les identifiants enregistrés. Presque toujours, c’est parce que vous avez changé votre mot de passe chez lui. Ouvrez la ligne de l’appareil et reconnectez-vous. AquaWiz fait exception : Cora n’y garde aucun mot de passe, changer votre mot de passe AquaWiz ne change donc rien.
 
 ### "Les relevés Red Sea ne se mettent plus à jour" {#red-sea-readings-have-stopped-updating}
 
@@ -134,6 +134,10 @@ Si vous avez un Cora Max et que la carte indique toujours **Depuis le cloud Aqua
 - Vérifiez que le contrôleur est à portée Wi-Fi du Cora Max principal de l’aquarium.
 - Vérifiez dans l’application AquaWiz que le firmware du contrôleur est à jour ; un firmware plus ancien n’a pas d’accès local.
 - Après deux lectures ratées de suite, le Cora Max attend le lendemain. Si cela continue d’échouer, contactez le support.
+
+### Un AquaWiz demande de le lier à nouveau {#an-aquawiz-says-to-link-it-again}
+
+AquaWiz a signalé que le nom d’utilisateur enregistré dans Cora ne possède plus ce contrôleur, par exemple parce que le contrôleur est passé sur un autre compte AquaWiz. L’appareil s’affiche en orange. Ouvrez **Appareils → Ajouter un appareil → AquaWiz**, connectez-vous avec le compte qui possède le contrôleur et liez-le à nouveau. Cora ne garde ni mot de passe AquaWiz ni jeton de connexion : rien d’autre n’expire.
 
 ## Une commande n’est pas passée {#command-did-not-go-through}
 

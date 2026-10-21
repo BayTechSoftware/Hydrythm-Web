@@ -192,7 +192,7 @@
 <h2 id="cora-max">Cora Max</h2>
 <ul><li><a href="/de/help/max-setup">Ein Cora Max koppeln</a></li><li><a href="/de/help/troubleshooting#pairing-a-cora-max-fails">Ein Cora Max reparieren, das sich nicht koppeln lässt</a></li><li><a href="/de/help/max-setup#changing-which-tanks-it-shows">Ändern, welche Becken ein Cora Max zeigt</a></li><li><a href="/de/help/max-tour#switching-tanks">Auf Cora Max das Becken wechseln</a></li><li><a href="/de/help/max-dashboard-editing">Das Cora Max-Dashboard bearbeiten</a></li><li><a href="/de/help/mobile-multi-device#cora-assistant-answering-device">Festlegen, welches Gerät auf "Hey Cora" antwortet</a></li><li><a href="/de/help/mobile-multi-device#primary-cora-max">Festlegen, welches Cora Max die Ausrüstung eines Beckens abfragt</a></li><li><a href="/de/help/troubleshooting#i-cant-find-where-to-turn-off-the-wake-word-on-cora-max">"Hey Cora" ausschalten</a></li><li><a href="/de/help/max-settings#child-lock">Den Bildschirm gegen Kinder sperren</a></li><li><a href="/de/help/max-records#logging-readings">Am Becken einen Test eintragen</a></li><li><a href="/de/help/max-setup#moving-it-to-a-different-network">Cora Max in ein neues WLAN umziehen</a></li><li><a href="/de/help/max-updates#checking-the-version-and-update-settings">Cora Max aktualisieren oder seine Version prüfen</a></li><li><a href="/de/help/max-settings#pairing-re-pairing-and-factory-reset">Cora Max auf Werkseinstellungen zurücksetzen oder neu koppeln</a></li></ul>
       <nav class="pn" aria-label="Weiterlesen"><a class="pn-p" href="/de/help/troubleshooting"><span>Zurück</span><b>Problembehebung</b></a><a class="pn-n" href="/de/help/equipment-by-brand"><span>Weiter</span><b>Ausrüstung nach Marke</b></a></nav>
-      <p class="stamp">Geschrieben für Cora Max 0.28.219 und Cora Mobile 1.4.1. Zuletzt geprüft am 2026-10-17.</p>
+      <p class="stamp">Geschrieben für Cora Max 0.28.220 und Cora Mobile 1.4.2. Zuletzt geprüft am 2026-10-17.</p>
       <p class="ask">Kommst du nicht weiter? Schreib eine E-Mail an <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, wir helfen dir.</p>
     </article>
   </main>
@@ -583,7 +583,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/de/help/search.json?v=a932d14dd0').then(function (r) { return r.json(); })
+    fetch('/de/help/search.json?v=bc775bf15b').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "de"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Die Suche ist nicht verf\u00fcgbar. Nutze die Navigation." + '</li>';

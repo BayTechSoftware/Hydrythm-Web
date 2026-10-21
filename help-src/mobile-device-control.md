@@ -200,13 +200,21 @@ A Bluetooth pump has to be in range of your phone to start a feed, and a network
 
 ## AquaWiz {#aquawiz}
 
-The AquaWiz card shows your alkalinity readings, and pH if your unit reports it. It also shows your target KH, your dose strength and, for a unit with dosing set up, its maximum dose per hour and how much alkalinity supplement is left in the container. These come straight from your AquaWiz settings, so change them in the AquaWiz app. Cora can't control an AquaWiz.
+The AquaWiz card shows your alkalinity readings, and pH if your unit reports it. Cora can't control an AquaWiz, so change its settings in the AquaWiz app.
+
+Under **Controller** on the device page, Cora shows what the controller reports, each line only when it reports it:
+
+- the target KH;
+- how much alkalinity supplement is left, with the warning level you set on the controller (*low at 100 mL*, for example);
+- how many mL one dKH needs (*mL per 1 dKH*);
+- the maximum dose per measurement (*Up to 20 mL per measurement*);
+- the firmware version.
 
 Under the readings the card shows when the last one was measured (*Measured 2:00 PM*, for example) and where it came from: **Hourly from your Cora Max** or **From AquaWiz cloud, every 12 hours**. It also shows the **pH change**. Opening the page asks for a fresh reading, and **Read now** asks again, at most once every 15 minutes. If a reading hasn't changed, that's normal: the unit only measures now and then.
 
-When a Cora Max reads the unit every hour, the card also shows its pump, pH probe and water box level, and Cora alerts you when the pump reports a fault, the pH probe has failed or is near the end of its life, or the water box level stays low or high for over an hour.
+The card also shows the pump and the pH probe, and Cora alerts you when the pump reports a fault, or the pH probe has failed or is near the end of its life. This works for every AquaWiz, with or without a Cora Max. When a Cora Max reads the unit every hour, the card also shows the water box level, and Cora alerts you when it stays low or high for over an hour.
 
-If your unit tracks its container, Cora warns you when the supplement is running low, at 100 mL by default. Change it from its rule in the [Alert Center](/help/mobile-alerts).
+If your unit tracks its container, Cora warns you when the supplement is running low, at the warning level you set on the controller. You can still change it from its rule in the [Alert Center](/help/mobile-alerts), and your change is kept.
 
 
 ## What happens after you change something {#what-happens-after-you-change-something}

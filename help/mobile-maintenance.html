@@ -210,7 +210,7 @@
 <aside class="cal cal-warning"><p class="cal-t">Only mark a task done when you've done it</p><p>The next due date is counted from the time you did the task. If you mark an open task as done, every later due date shifts. If you did it earlier, use <strong>Done earlier…</strong> and pick the real time. If you haven't done it, snooze it instead.</p></aside>
 <p>There's no way to pause a task. For a job that doesn't apply this season, snooze it for <strong>1 Month</strong>, or delete it and add it again later.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-dosing"><span>Previous</span><b>Dosing products and the dose calculator</b></a><a class="pn-n" href="/help/mobile-livestock"><span>Next</span><b>Livestock</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.219 and Cora Mobile 1.4.1. Last checked 2026-10-17.</p>
+      <p class="stamp">Written for Cora Max 0.28.220 and Cora Mobile 1.4.2. Last checked 2026-10-17.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>
@@ -601,7 +601,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/help/search.json?v=d421e82e60').then(function (r) { return r.json(); })
+    fetch('/help/search.json?v=ff598fbd00').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "en"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';

@@ -36,7 +36,7 @@ La mayoría de los umbrales van en días, no en volumen. Cora calcula cuánto te
 | Cabezal ReefDose | Días de suplemento que quedan | 7 días |
 | ReefATO+ | **Autonomía del depósito**, calculada según el uso reciente de la reposición | 2 días |
 | ReefMat | **Rollo restante**, calculado según lo rápido que avanza el rodillo | 3 días |
-| AquaWiz | Suplemento de alcalinidad que queda | 100 mL |
+| AquaWiz | Suplemento de alcalinidad que queda | El nivel de aviso fijado en el controlador (100 mL si no informa de ninguno) |
 
 
 Una alerta de consumible funciona como cualquier otra alerta. Aparece en el [Centro de alertas](/help/mobile-alerts) y puede llegarte como notificación al teléfono. Recibes **una** sola notificación cuando se cruza un nivel, y la alerta desaparece cuando el nivel vuelve a estar por encima del umbral.

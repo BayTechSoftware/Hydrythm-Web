@@ -36,7 +36,7 @@ Die meisten Schwellenwerte sind in Tagen, nicht in Volumen. Cora rechnet aus, wi
 | ReefDose-Kopf | Tage, die das Supplement noch reicht | 7 Tage |
 | ReefATO+ | **Restlaufzeit des Behälters**, geschätzt aus dem jüngsten Nachfüllverbrauch | 2 Tage |
 | ReefMat | **Verbleibende Rolle**, geschätzt daraus, wie schnell die Rolle vorrückt | 3 Tage |
-| AquaWiz | Verbleibender Alkalinitäts-Zusatz | 100 ml |
+| AquaWiz | Verbleibender Alkalinitäts-Zusatz | Die am Controller eingestellte Warnstufe (100 ml, wenn er keine meldet) |
 
 
 Eine Verbrauchsmaterial-Warnung funktioniert wie jede andere Warnung. Sie erscheint in der [Warnzentrale](/help/mobile-alerts) und kann eine Push-Nachricht an dein Handy schicken. Du bekommst **eine** Benachrichtigung, wenn ein Stand unterschritten wird, und sie verschwindet, wenn der Stand wieder über dem Schwellenwert liegt.

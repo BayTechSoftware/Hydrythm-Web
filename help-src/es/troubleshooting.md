@@ -107,7 +107,7 @@ Un equipo de tu red local tiene que ser accesible en esa red. Un equipo que se c
 
 ### Un dispositivo dice que se rechazó el inicio de sesión {#a-device-says-the-sign-in-was-refused}
 
-El fabricante rechazó el inicio de sesión guardado. Casi siempre es porque cambiaste tu contraseña con él. Abre la fila del dispositivo y vuelve a iniciar sesión.
+El fabricante rechazó el inicio de sesión guardado. Casi siempre es porque cambiaste tu contraseña con él. Abre la fila del dispositivo y vuelve a iniciar sesión. AquaWiz es la excepción: Cora no guarda su contraseña, así que cambiar tu contraseña de AquaWiz no cambia nada.
 
 ### "Las lecturas de Red Sea han dejado de actualizarse" {#red-sea-readings-have-stopped-updating}
 
@@ -134,6 +134,10 @@ Si tienes un Cora Max y la tarjeta sigue diciendo **Desde la nube de AquaWiz, ca
 - Comprueba que el controlador esté al alcance del Wi-Fi del Cora Max principal del acuario.
 - Comprueba en la app de AquaWiz que el firmware del controlador esté al día; el firmware más antiguo no tiene acceso local.
 - Tras dos lecturas fallidas seguidas, el Cora Max espera hasta el día siguiente. Si sigue fallando, contacta con el soporte.
+
+### Un AquaWiz pide vincularlo de nuevo {#an-aquawiz-says-to-link-it-again}
+
+AquaWiz informó de que el nombre de usuario guardado en Cora ya no es propietario de este controlador, por ejemplo porque el controlador pasó a otra cuenta de AquaWiz. El dispositivo aparece en naranja. Abre **Dispositivos → Agregar dispositivo → AquaWiz**, inicia sesión con la cuenta propietaria del controlador y vincúlalo de nuevo. Cora no guarda contraseña ni token de AquaWiz, así que nada más caduca.
 
 ## Una orden no llegó {#command-did-not-go-through}
 
