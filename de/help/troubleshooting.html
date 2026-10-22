@@ -330,7 +330,7 @@
 <h2 id="still-stuck">Immer noch nicht gelöst</h2>
 <p>Schreib eine E-Mail an <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> oder melde es aus Cora Mobile heraus, wie unter <a href="/de/help/mobile-support">Ein Problem melden</a> beschrieben. Sag uns, welches Becken, welches Gerät, welcher Bildschirm und was du erwartet hast.</p>
       <nav class="pn" aria-label="Weiterlesen"><a class="pn-n" href="/de/help/how-do-i"><span>Weiter</span><b>Wie mache ich...?</b></a></nav>
-      <p class="stamp">Geschrieben für Cora Max 0.28.220 und Cora Mobile 1.4.2. Zuletzt geprüft am 2026-10-18.</p>
+      <p class="stamp">Geschrieben für Cora Max 0.28.222 und Cora Mobile 1.4.3. Zuletzt geprüft am 2026-10-18.</p>
       <p class="ask">Kommst du nicht weiter? Schreib eine E-Mail an <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, wir helfen dir.</p>
     </article>
   </main>
@@ -721,7 +721,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/de/help/search.json?v=bc775bf15b').then(function (r) { return r.json(); })
+    fetch('/de/help/search.json?v=8435023843').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "de"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Die Suche ist nicht verf\u00fcgbar. Nutze die Navigation." + '</li>';

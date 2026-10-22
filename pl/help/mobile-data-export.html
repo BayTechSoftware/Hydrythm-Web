@@ -201,7 +201,7 @@
 <ul><li>zanonimizowana kopia do badań, jeśli przełącznik został włączony</li><li>subskrypcja w sklepie, którą może anulować tylko sklep</li><li>Twój zapis klienta u naszego dostawcy zarządzania subskrypcjami, usuwany 120 dni po koncie, żeby nadal dało się obsłużyć zwrot w sklepie albo spór o płatność</li></ul>
 <p>Ponowne logowanie na innym telefonie albo zmianę sposobu logowania opisuje <a href="/pl/help/mobile-account">Logowanie i odzyskiwanie konta</a>. Plany i płatności są w <a href="/pl/help/mobile-plans">Planach i subskrypcjach</a>.</p>
       <nav class="pn" aria-label="Czytaj dalej"><a class="pn-p" href="/pl/help/mobile-plans"><span>Poprzedni</span><b>Plany i subskrypcje</b></a><a class="pn-n" href="/pl/help/mobile-support"><span>Następny</span><b>Zgłaszanie problemu</b></a></nav>
-      <p class="stamp">Napisano dla Cora Max 0.28.220 i Cora Mobile 1.4.2. Ostatnio sprawdzono 2026-10-13.</p>
+      <p class="stamp">Napisano dla Cora Max 0.28.222 i Cora Mobile 1.4.3. Ostatnio sprawdzono 2026-10-13.</p>
       <p class="ask">Wciąż masz problem? Napisz na <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, pomożemy.</p>
     </article>
   </main>
@@ -592,7 +592,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/pl/help/search.json?v=acbbc18621').then(function (r) { return r.json(); })
+    fetch('/pl/help/search.json?v=c5b79dad05').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "pl"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Wyszukiwanie jest niedost\u0119pne. U\u017cyj menu." + '</li>';

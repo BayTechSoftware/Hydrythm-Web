@@ -188,7 +188,7 @@
 <ul><li><strong>Dotknij kafelka</strong> albo <strong>Otwórz panel</strong>, żeby przejść do tego akwarium.</li><li><strong>Przesuń palcem w bok</strong> na panelu, żeby przechodzić między akwariami i wrócić do Reef Room.</li><li><strong>Ikona siatki</strong> wraca do Reef Room z każdej strony akwarium. W samym Reef Room jej nie zobaczysz.</li></ul>
 <p>Każde akwarium ma własny układ panelu, więc ekran zmienia się całkowicie, gdy przechodzisz między nimi. Więcej w <a href="/pl/help/max-dashboard-editing">Edytowaniu panelu Cora Max</a>.</p>
       <nav class="pn" aria-label="Czytaj dalej"><a class="pn-p" href="/pl/help/max-tour"><span>Poprzedni</span><b>Ekran główny Cora Max</b></a><a class="pn-n" href="/pl/help/max-dashboard-editing"><span>Następny</span><b>Edytowanie panelu Cora Max</b></a></nav>
-      <p class="stamp">Napisano dla Cora Max 0.28.220 i Cora Mobile 1.4.2. Ostatnio sprawdzono 2026-10-13.</p>
+      <p class="stamp">Napisano dla Cora Max 0.28.222 i Cora Mobile 1.4.3. Ostatnio sprawdzono 2026-10-13.</p>
       <p class="ask">Wciąż masz problem? Napisz na <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, pomożemy.</p>
     </article>
   </main>
@@ -579,7 +579,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/pl/help/search.json?v=acbbc18621').then(function (r) { return r.json(); })
+    fetch('/pl/help/search.json?v=c5b79dad05').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "pl"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Wyszukiwanie jest niedost\u0119pne. U\u017cyj menu." + '</li>';

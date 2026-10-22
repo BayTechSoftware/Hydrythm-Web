@@ -188,7 +188,7 @@
 <p><strong>Share</strong> opens your phone's usual share sheet, so you can send the card anywhere your phone can send a picture. Nothing leaves your account until you pick where it goes.</p>
 <aside class="cal cal-note"><p class="cal-t">A snapshot doesn't give access</p><p>A snapshot is only a picture. It doesn't let anyone into your account, your history or your equipment. If someone's looking after the tank while you're away, use <a href="/help/mobile-vacation">Going away</a>. It makes a read-only page for them.</p></aside>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-widgets"><span>Previous</span><b>Widget reference</b></a><a class="pn-n" href="/help/mobile-devices"><span>Next</span><b>Adding, editing and removing devices</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.220 and Cora Mobile 1.4.2. Last checked 2026-10-13.</p>
+      <p class="stamp">Written for Cora Max 0.28.222 and Cora Mobile 1.4.3. Last checked 2026-10-13.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>
@@ -579,7 +579,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/help/search.json?v=ff598fbd00').then(function (r) { return r.json(); })
+    fetch('/help/search.json?v=b75054a183').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "en"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';

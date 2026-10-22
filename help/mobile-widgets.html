@@ -210,7 +210,7 @@
 <p>A tile for a doser (an Apex DŌS or a ReefDose) shows one row per head. A head name is never shrunk below a readable size. On a tall tile the row takes two lines, with the name on the first and what's left on the second, for example <em>40d</em> and <em>2.8 L</em>. On a short tile the detail line is dropped and the name stays readable.</p>
 <p>Set what comes first with <strong>Show remaining as</strong>: <strong>Days</strong> or <strong>Milliliters (mL)</strong>. A ReefDose head with no name of its own is shown as the device name followed by "head" and its number. A Jecod doser tile is read only and shows the daily plan, because Jecod doesn't report how much is left in the bottle.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-dashboard-editing"><span>Previous</span><b>Editing your dashboard</b></a><a class="pn-n" href="/help/mobile-sharing"><span>Next</span><b>Sharing your tank</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.220 and Cora Mobile 1.4.2. Last checked 2026-10-18.</p>
+      <p class="stamp">Written for Cora Max 0.28.222 and Cora Mobile 1.4.3. Last checked 2026-10-18.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>
@@ -601,7 +601,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/help/search.json?v=ff598fbd00').then(function (r) { return r.json(); })
+    fetch('/help/search.json?v=b75054a183').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "en"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';

@@ -201,7 +201,7 @@
 <p>La vista del parámetro muestra entonces cuánto hace que se calibró esa sonda. El cuidado de las sondas también funciona bien como <a href="/es/help/mobile-maintenance">tarea de mantenimiento</a> periódica.</p>
 <aside class="cal cal-note"><p class="cal-t">Las fechas de calibración explican las diferencias</p><p>Cuando una sonda y un kit de pruebas no coinciden, mira cuándo calibraste la sonda por última vez. Casi siempre esa es la respuesta.</p></aside>
       <nav class="pn" aria-label="Seguir leyendo"><a class="pn-p" href="/es/help/mobile-schedules"><span>Anterior</span><b>Programar equipos</b></a><a class="pn-n" href="/es/help/mobile-consumables"><span>Siguiente</span><b>Consumibles y alertas de reposición</b></a></nav>
-      <p class="stamp">Escrito para Cora Max 0.28.220 y Cora Mobile 1.4.2. Última revisión el 2026-10-13.</p>
+      <p class="stamp">Escrito para Cora Max 0.28.222 y Cora Mobile 1.4.3. Última revisión el 2026-10-13.</p>
       <p class="ask">¿Sigues atascado? Escribe a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> y te ayudamos.</p>
     </article>
   </main>
@@ -592,7 +592,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/es/help/search.json?v=69a6ff4d0e').then(function (r) { return r.json(); })
+    fetch('/es/help/search.json?v=76cf023804').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "es"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La b\u00fasqueda no est\u00e1 disponible. Usa la navegaci\u00f3n." + '</li>';

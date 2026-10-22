@@ -193,7 +193,7 @@
 <p>También puedes preguntar por ella. Cora Assistant responde a preguntas como <em>"¿Cuándo añadí el coral martillo?"</em> o <em>"¿Qué he perdido este año?"</em> con esta lista.</p>
 <p>Los cambios en tu fauna también aparecen en la <a href="/es/help/mobile-activity#tank-timeline">línea de tiempo del acuario</a>. Escribe la historia de una pérdida o de una nueva llegada en el <a href="/es/help/mobile-journal">diario</a>.</p>
       <nav class="pn" aria-label="Seguir leyendo"><a class="pn-p" href="/es/help/mobile-maintenance"><span>Anterior</span><b>Mantenimiento</b></a><a class="pn-n" href="/es/help/mobile-activity"><span>Siguiente</span><b>Actividad y línea de tiempo</b></a></nav>
-      <p class="stamp">Escrito para Cora Max 0.28.220 y Cora Mobile 1.4.2. Última revisión el 2026-10-13.</p>
+      <p class="stamp">Escrito para Cora Max 0.28.222 y Cora Mobile 1.4.3. Última revisión el 2026-10-13.</p>
       <p class="ask">¿Sigues atascado? Escribe a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> y te ayudamos.</p>
     </article>
   </main>
@@ -584,7 +584,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/es/help/search.json?v=69a6ff4d0e').then(function (r) { return r.json(); })
+    fetch('/es/help/search.json?v=76cf023804').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "es"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La b\u00fasqueda no est\u00e1 disponible. Usa la navegaci\u00f3n." + '</li>';

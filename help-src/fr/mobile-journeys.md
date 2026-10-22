@@ -2,7 +2,7 @@
 title: Parcours guidés
 description: Lancez le parcours de cyclage guidé d’un nouvel aquarium, suivez-le jusqu’au bout, et réglez un problème de dinoflagellés étape par étape.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-22
 order: 34
 group: Intelligence
 ---
@@ -11,17 +11,15 @@ Dans un parcours, Cora vous accompagne pendant des jours ou des semaines. Il en 
 
 ## Lancer le parcours de cyclage
 
-Le cyclage guidé est gratuit avec tous les forfaits. Vous le lancez depuis le tableau de bord de l’aquarium.
+Le cyclage guidé est gratuit avec tous les forfaits. Il y a trois façons de le lancer :
 
-1. Ouvrez le nouvel aquarium dans l’onglet **Tableau de bord**. Une carte demande **Vous démarrez un nouvel aquarium ?**
-2. Touchez-la. La première fois, Cora explique le **Cyclage guidé** : pendant le cyclage de l’aquarium, votre tableau de bord se concentre sur l’ammoniac, le nitrite et le nitrate, et met en pause les vérifications récifales habituelles, qui ne s’appliquent pas encore.
-3. Touchez **Compris : commencer le cyclage**. Le parcours s’ouvre.
+- **À la création de l’aquarium.** Activez **C’est un tout nouvel aquarium que je cycle** en bas du formulaire de nouvel aquarium.
+- **Depuis le tableau de bord.** Sur un aquarium sans aucune mesure, une carte demande **Vous démarrez un nouvel aquarium ?** Touchez-la.
+- **Depuis le profil de l’aquarium.** Ouvrez le profil de l’aquarium et touchez la même carte en haut. Cela marche à tout moment, même après avoir noté des mesures.
 
-:::warning Lancez-le avant de noter quoi que ce soit ou d’associer un équipement
-La carte **Vous démarrez un nouvel aquarium ?** n’apparaît que sur un aquarium sans aucune mesure. Dès que vous notez un test ou associez un appareil qui envoie des mesures, la carte disparaît, et il n’y a aucun autre moyen de lancer le parcours de cyclage. Si votre aquarium est encore en cyclage, lancez d’abord le parcours, puis notez votre premier test depuis l’intérieur du parcours.
-:::
+La première fois, Cora explique le **Cyclage guidé** : pendant le cyclage de l’aquarium, votre tableau de bord se concentre sur l’ammoniac, le nitrite et le nitrate, et met en pause les vérifications récifales habituelles, qui ne s’appliquent pas encore. Les conseils sont généraux : chaque aquarium est différent, suivez donc les instructions de vos produits et fiez-vous à votre propre jugement. Touchez **Compris : commencer le cyclage** et le parcours s’ouvre.
 
-Une fois lancé, la carte du tableau de bord indique **Continuer le cyclage · Jour N**. Touchez-la pour revenir au parcours. Si elle indique **Reprendre le cyclage**, l’aquarium est toujours configuré pour le cyclage : touchez-la pour rouvrir le guide.
+Une fois lancé, la carte du tableau de bord indique **Continuer le cyclage · Jour N**. Touchez-la pour revenir au parcours. Si elle indique **Reprendre le cyclage**, l’aquarium est toujours configuré pour le cyclage : touchez-la pour rouvrir le guide. Pour quitter sans terminer, touchez **Arrêter le cyclage guidé** en bas du parcours. L’aquarium repasse en surveillance normale, et vous pouvez réactiver le cyclage guidé depuis le profil de l’aquarium.
 
 ## Cycler un nouvel aquarium {#cycling-a-new-tank}
 
@@ -41,12 +39,14 @@ Touchez **Enregistrer un test** pour ajouter un test d’ammoniac, de nitrite et
 | **Étape nitrite : environ à mi-parcours** | La deuxième colonie élimine le nitrite. C’est en général la phase la plus longue, et celle où l’on croit que quelque chose ne va pas parce que les chiffres ne bougent plus |
 | **Semble cyclé** | L’ammoniac et le nitrite ont tous deux disparu et le nitrate est présent. Faites la vérification finale à l’écran avant de marquer l’aquarium comme cyclé |
 
-**Votre cycle jusqu’à présent** trace les trois courbes ensemble. Elles sont mises à l’échelle les unes par rapport aux autres plutôt qu’à leurs vraies valeurs, pour que vous voyiez une colonie passer le relais à la suivante. Touchez un nom pour voir les vrais chiffres.
+Une rangée de points en haut (**Installer**, **Ensemencer**, **Tester**, **Confirmer**) montre où vous en êtes. Chaque étape de la liste a un court pourquoi et comment, des **À savoir** sur lesquels la plupart des récifalistes s’accordent, et un rappel qu’il s’agit de conseils généraux. Cora ne donne ici aucune dose de produit : suivez l’étiquette du produit bactérien que vous utilisez.
+
+**Votre cycle jusqu’à présent** trace les trois courbes sur deux échelles. L’ammoniac et le nitrite utilisent l’axe de gauche, qui va de 0 à au moins 5 ppm. Le nitrate utilise l’axe de droite, qui va de 0 à au moins 40 ppm. Ainsi, de petites valeurs d’ammoniac et de nitrite restent visibles à côté d’un gros chiffre de nitrate. Touchez un nom pour voir tout son historique.
 
 Pour un deuxième avis, touchez **Demander à Cora à propos du cyclage**. Cela ouvre [Cora Assistant](/help/mobile-assistant) avec une question sur vos dernières mesures.
 
-:::warning Deux choses bloquent un cyclage
-**Un ammoniac ou un nitrite au-dessus de 5 ppm** bloque les bactéries que vous essayez de faire croître. Si vous dépassez, un changement d’eau partiel les fait redescendre. **Un pH sous 7** le bloque aussi. Le parcours vous prévient si l’un ou l’autre se produit, car attendre plus longtemps n’aidera pas.
+:::warning Trois choses peuvent bloquer un cyclage
+**Un ammoniac ou un nitrite au-dessus de 5 ppm** bloque les bactéries que vous essayez de faire croître. Si vous dépassez, un changement d’eau partiel les fait redescendre. **Un pH sous 7** le bloque aussi. Il en va de même pour une **température de l’eau hors de 25 à 30 °C (77 à 86 °F)**, qui peut aussi stresser les animaux. Le parcours vous prévient si l’un d’eux se produit, et Cora envoie une notification quand une valeur sort de la plage et une autre quand elle y revient. Ces alertes de sécurité sont gratuites avec tous les forfaits, et ce sont des conseils, pas des ordres.
 :::
 
 :::note Notez les trois tests
@@ -56,6 +56,10 @@ Cora n’affiche **Semble cyclé** que si l’ammoniac et le nitrite ont chacun 
 :::note L’état de préparation vient de vos mesures
 Le parcours juge l’état de préparation d’après ce que vous avez noté. Le nombre de semaines écoulées ne compte pas. Si vous n’avez pas testé depuis quinze jours, l’aquarium reste là où il en était. C’est pour cela qu’il affiche le temps écoulé depuis votre dernier test.
 :::
+
+## Votre lecture personnalisée {#your-personal-read}
+
+L’étape, le graphique, les points à savoir, les alertes de sécurité et la célébration sont gratuits avec tous les forfaits. Avec un forfait payant (Essential, Advanced ou Expert, et pendant l’essai gratuit), le parcours affiche aussi **Votre cycle, interprété pour vous** : une lecture en langage clair de vos propres valeurs, par exemple depuis combien de temps le nitrite stagne et ce qui l’explique souvent. Avec le forfait gratuit, cet emplacement affiche **Lecture personnalisée de vos tests**, et le toucher ouvre les forfaits. C’est une estimation à partir de vos valeurs, pas une promesse. Une carte **Bravo, le cycle semble terminé** apparaît aussi en haut dès que les valeurs semblent cyclées. Après avoir marqué l’aquarium, le parcours suggère la suite : noter vos animaux au fur et à mesure, définir des plages d’alerte et associer un contrôleur ou une sonde.
 
 ## Quand le cyclage est terminé
 

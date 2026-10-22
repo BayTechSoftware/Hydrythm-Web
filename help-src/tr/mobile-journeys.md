@@ -2,7 +2,7 @@
 title: Rehberli yolculuklar
 description: Yeni bir akvaryum için rehberli döngü yolculuğunu başlatın, sonuna kadar izleyin ve bir dinoflagellat sorununu adım adım çözün.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-22
 order: 34
 group: Intelligence
 ---
@@ -11,17 +11,15 @@ Bir yolculukta Cora, günler ya da haftalar süren bir süreçte size adım adı
 
 ## Döngü yolculuğunu başlatma
 
-Rehberli döngü her planda ücretsizdir. Onu akvaryumun panosundan başlatırsınız.
+Rehberli döngü her planda ücretsizdir. Başlatmanın üç yolu var:
 
-1. Yeni akvaryumu **Pano** sekmesinde açın. Bir kart **Yeni bir akvaryum mu kuruyorsunuz?** diye sorar.
-2. Ona dokunun. İlk seferde Cora **Rehberli döngü**'yü açıklar: akvaryum döngüdeyken panonuz amonyak, nitrit ve nitrata odaklanır ve henüz geçerli olmayan olağan reef kontrollerini duraklatır.
-3. **Anladım: döngüyü başlat**'a dokunun. Yolculuk açılır.
+- **Akvaryumu oluştururken.** Yeni akvaryum formunun altında **Bu, döngüsünü yaptığım yepyeni bir akvaryum** seçeneğini açın.
+- **Panodan.** Hiç ölçümü olmayan bir akvaryumda bir kart **Yeni bir akvaryum mu kuruyorsunuz?** diye sorar. Ona dokunun.
+- **Akvaryumun profilinden.** Akvaryumun profilini açın ve en üstteki aynı karta dokunun. Ölçüm kaydettikten sonra bile her zaman çalışır.
 
-:::warning Bir şey kaydetmeden ya da ekipman bağlamadan önce başlatın
-**Yeni bir akvaryum mu kuruyorsunuz?** kartı yalnızca hiç ölçümü olmayan bir akvaryumda görünür. Bir test kaydettiğiniz ya da ölçüm gönderen bir cihaz bağladığınız anda kart kaybolur ve döngü yolculuğunu başlatmanın başka bir yolu yoktur. Akvaryumunuz hâlâ döngüdeyse önce yolculuğu başlatın, sonra ilk testinizi onun içinden kaydedin.
-:::
+İlk seferde Cora **Rehberli döngü**'yü açıklar: akvaryum döngüdeyken panonuz amonyak, nitrit ve nitrata odaklanır ve henüz geçerli olmayan olağan reef kontrollerini duraklatır. Yönlendirme geneldir: her akvaryum farklıdır, bu yüzden ürünlerinizin talimatlarına uyun ve kendi kararınızı verin. **Anladım: döngüyü başlat**'a dokunun, yolculuk açılır.
 
-Yolculuk çalışmaya başladığında panodaki kartta **Döngüye devam et · N. Gün** yazar. Yolculuğa dönmek için ona dokunun. **Döngüyü sürdür** yazıyorsa akvaryum hâlâ döngü için ayarlıdır: rehberi yeniden açmak için ona dokunun.
+Yolculuk çalışmaya başladığında panodaki kartta **Döngüye devam et · N. Gün** yazar. Yolculuğa dönmek için ona dokunun. **Döngüyü sürdür** yazıyorsa akvaryum hâlâ döngü için ayarlıdır: rehberi yeniden açmak için ona dokunun. Bitirmeden çıkmak için yolculuğun altındaki **Rehberli döngüyü durdur**'a dokunun. Akvaryum normal izlemeye döner ve rehberli döngüyü akvaryumun profilinden tekrar açabilirsiniz.
 
 ## Yeni bir akvaryumun döngüsü {#cycling-a-new-tank}
 
@@ -41,12 +39,14 @@ Amonyak, nitrit ve nitrat testi eklemek için **Bir test kaydet**'e dokunun. Kit
 | **Nitrit aşaması: yaklaşık yarı yolda** | İkinci koloni nitriti temizliyor. Genellikle en uzun süren dönem budur ve sayılar kıpırdamadığı için insanların bir şeylerin ters gittiğini düşündüğü dönemdir |
 | **Döngü tamamlanmış görünüyor** | Amonyak ve nitrit tükendi, nitrat var. Akvaryumu döngüsü tamamlanmış olarak işaretlemeden önce ekrandaki son kontrolü yapın |
 
-**Şu ana kadarki döngünüz** üç eğriyi birlikte çizer. Eğriler gerçek değerlerine göre değil birbirlerine göre ölçeklenir, böylece bir koloninin işi diğerine devrettiğini görebilirsiniz. Gerçek sayıları görmek için bir ada dokunun.
+Üstteki bir nokta sırası (**Kurulum**, **Aşılama**, **Test**, **Onayla**) ne kadar ilerlediğinizi gösterir. Kontrol listesindeki her aşamanın kısa bir neden ve nasıl bölümü, çoğu resif sahibinin hemfikir olduğu **Bilinen bilgiler** ve bunun genel bir yönlendirme olduğunu belirten bir hatırlatma vardır. Cora burada ürün dozu vermez: kullandığınız bakteri ürününün etiketine uyun.
+
+**Şimdiye kadarki döngünüz** üç eğriyi iki ölçekte çizer. Amonyak ve nitrit, 0'dan en az 5 ppm'e uzanan sol ekseni kullanır. Nitrat, 0'dan en az 40 ppm'e uzanan sağ ekseni kullanır. Böylece küçük amonyak ve nitrit değerleri büyük bir nitrat sayısının yanında da görünür kalır. Tüm geçmişi görmek için bir ada dokunun.
 
 İkinci bir görüş için **Döngü hakkında Cora'ya sor**'a dokunun. En son ölçümlerinizle ilgili bir soruyla [Cora Assistant](/help/mobile-assistant)'ı açar.
 
-:::warning Döngüyü iki şey durdurur
-**5 ppm'in üstünde amonyak ya da nitrit**, çoğaltmaya çalıştığınız bakterileri durdurur. Aşarsanız kısmi bir su değişimi değeri geri düşürür. **7'nin altında pH** da döngüyü durdurur. İkisinden biri olursa yolculuk sizi uyarır, çünkü daha uzun beklemek işe yaramaz.
+:::warning Üç şey döngüyü durdurabilir
+**5 ppm üzerinde amonyak veya nitrit**, yetiştirmeye çalıştığınız bakterileri durdurur. Aşarsanız kısmi su değişimi onu tekrar düşürür. **7'nin altındaki pH** da durdurur. **25 ile 30 °C (77 ile 86 °F) dışındaki su sıcaklığı** da öyledir ve ayrıca canlıları strese sokabilir. Bunlardan biri olursa yolculuk sizi uyarır; Cora bir değer aralığın dışına çıktığında bir bildirim, aralığa döndüğünde bir bildirim daha gönderir. Bu güvenlik uyarıları her planda ücretsizdir ve emir değil, tavsiyedir.
 :::
 
 :::note Üç testi de kaydedin
@@ -56,6 +56,10 @@ Cora **Döngü tamamlanmış görünüyor**'u ancak amonyak ve nitritin her biri
 :::note Hazır olma durumu ölçümlerinizden gelir
 Yolculuk hazır olup olmadığını kaydettiklerinize göre değerlendirir. Kaç hafta geçtiği sayılmaz. İki haftadır test etmediyseniz akvaryum olduğu yerde kalır. Bu yüzden son testinizden bu yana ne kadar zaman geçtiğini gösterir.
 :::
+
+## Kişisel yorumunuz {#your-personal-read}
+
+Aşama, grafik, bilinen bilgiler, güvenlik uyarıları ve kutlama her planda ücretsizdir. Ücretli bir planda (Essential, Advanced veya Expert, ve ücretsiz deneme sırasında) yolculuk ayrıca **Döngünüz, sizin için yorumlandı** bölümünü gösterir: kendi değerlerinizin sade bir dille yorumu, örneğin nitritin ne kadardır takılı kaldığı ve bunun arkasında sık görülen nedenler. Ücretsiz planda bu yerde **Testlerinizin kişisel yorumu** görünür ve ona dokunmak planları açar. Değerlerinize dayalı bir tahmindir, söz değildir. Değerler döngüsü tamamlanmış gibi göründüğü anda üstte **Tebrikler, döngü tamamlanmış görünüyor** yazan bir kart da çıkar. Akvaryumu işaretledikten sonra yolculuk sıradakini önerir: canlıları eklerken kaydetmek, uyarı aralıkları belirlemek ve bir kontrolcü veya prob bağlamak.
 
 ## Döngü bittiğinde
 

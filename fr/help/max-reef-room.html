@@ -188,7 +188,7 @@
 <ul><li><strong>Touchez une tuile</strong>, ou <strong>Ouvrir le tableau de bord</strong>, pour aller sur cet aquarium.</li><li><strong>Balayez vers la gauche ou la droite</strong> sur le tableau de bord pour passer d’un aquarium à l’autre et revenir à la Pièce du récif.</li><li><strong>L’icône de grille</strong> vous ramène à la Pièce du récif depuis n’importe quelle page d’aquarium. Elle n’apparaît pas sur la Pièce du récif elle-même.</li></ul>
 <p>Chaque aquarium a sa propre disposition de tableau de bord. L’écran change donc complètement quand vous passez de l’un à l’autre. Plus de détails dans <a href="/fr/help/max-dashboard-editing">Modifier le tableau de bord Cora Max</a>.</p>
       <nav class="pn" aria-label="Poursuivre la lecture"><a class="pn-p" href="/fr/help/max-tour"><span>Précédent</span><b>L’écran d’accueil de Cora Max</b></a><a class="pn-n" href="/fr/help/max-dashboard-editing"><span>Suivant</span><b>Modifier le tableau de bord Cora Max</b></a></nav>
-      <p class="stamp">Rédigé pour Cora Max 0.28.220 et Cora Mobile 1.4.2. Vérifié pour la dernière fois le 2026-10-13.</p>
+      <p class="stamp">Rédigé pour Cora Max 0.28.222 et Cora Mobile 1.4.3. Vérifié pour la dernière fois le 2026-10-13.</p>
       <p class="ask">Toujours bloqué ? Écrivez à <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, nous vous aiderons.</p>
     </article>
   </main>
@@ -579,7 +579,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/fr/help/search.json?v=756719cc89').then(function (r) { return r.json(); })
+    fetch('/fr/help/search.json?v=f05beee199').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "fr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La recherche est indisponible. Utilisez la navigation." + '</li>';

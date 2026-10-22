@@ -2,7 +2,7 @@
 title: Guided journeys
 description: Start the guided cycling journey for a new tank, follow it to the end, and work through a dinoflagellate problem step by step.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-22
 order: 34
 group: Intelligence
 ---
@@ -11,17 +11,15 @@ In a journey, Cora walks you through something over days or weeks. There are two
 
 ## Starting the cycling journey
 
-Guided cycling is free on every plan. You start it from the tank's dashboard.
+Guided cycling is free on every plan. There are three ways to start it:
 
-1. Open the new tank on the **Dashboard** tab. A card asks **Starting a new tank?**
-2. Tap it. The first time, Cora explains **Guided cycling**: while the tank cycles, your dashboard focuses on ammonia, nitrite and nitrate and pauses the usual reef checks, which don't apply yet.
-3. Tap **Got it: start cycling**. The journey opens.
+- **When you create the tank.** Turn on **This is a brand-new tank I'm cycling** at the bottom of the new-tank form.
+- **From the dashboard.** On a tank with no readings yet, a card asks **Starting a new tank?** Tap it.
+- **From the tank's profile.** Open the tank's profile and tap the same card at the top. This works at any time, even after you have logged readings.
 
-:::warning Start it before you log anything or link equipment
-The **Starting a new tank?** card only shows on a tank with no readings at all. As soon as you log a test or link a device that sends readings, the card goes away, and there's no other way to start the cycling journey. If your tank is still cycling, start the journey first, then log your first test from inside it.
-:::
+The first time, Cora explains **Guided cycling**: while the tank cycles, your dashboard focuses on ammonia, nitrite and nitrate and pauses the usual reef checks, which don't apply yet. The guidance is educational: every tank is different, so follow your products' instructions and use your own judgment. Tap **Got it: start cycling** and the journey opens.
 
-Once it's running, the dashboard card reads **Continue cycling · Day N**. Tap it to get back to the journey. If it says **Resume cycling**, the tank is still set up for cycling: tap it to reopen the guide.
+Once it's running, the dashboard card reads **Continue cycling · Day N**. Tap it to get back to the journey. If it says **Resume cycling**, the tank is still set up for cycling: tap it to reopen the guide. To leave without finishing, tap **Stop guided cycling** at the bottom of the journey. The tank goes back to normal monitoring, and you can turn guided cycling on again from the tank's profile.
 
 ## Cycling a new tank {#cycling-a-new-tank}
 
@@ -41,12 +39,14 @@ Tap **Log a test** to add an ammonia, nitrite and nitrate test. Enter what your 
 | **Nitrite stage: about halfway** | The second colony is clearing nitrite. This is usually the longest stretch, and the one where people think something's gone wrong because the numbers stop moving |
 | **Looks cycled** | Ammonia and nitrite are both gone and nitrate is present. Do the final check on screen before you mark the tank as cycled |
 
-**Your cycle so far** plots the three curves together. They're scaled against each other instead of to their real values, so you can see one colony hand over to the next. Tap a name to see the real numbers.
+A row of dots at the top (**Set up**, **Seed**, **Test**, **Confirm**) shows how far along you are. Each stage in the checklist has a short why and how, **Known facts** that most reefers agree on, and a reminder that this is general guidance. Cora gives no product doses here: follow the label of the bacteria product you use.
+
+**Your cycle so far** plots the three curves on two scales. Ammonia and nitrite use the left axis, which runs from 0 to at least 5 ppm. Nitrate uses the right axis, which runs from 0 to at least 40 ppm. That keeps small ammonia and nitrite readings visible next to a large nitrate number. Tap a name to see its full history.
 
 For a second opinion, tap **Ask Cora about cycling**. It opens [Cora Assistant](/help/mobile-assistant) with a question about your latest readings.
 
-:::warning Two things stall a cycle
-**Ammonia or nitrite above 5 ppm** stalls the bacteria you're trying to grow. If you overshoot, a partial water change brings it back down. **pH under 7** stalls it too. The journey warns you if either happens, because waiting longer won't help.
+:::warning Three things can stall a cycle
+**Ammonia or nitrite above 5 ppm** stalls the bacteria you're trying to grow. If you overshoot, a partial water change brings it back down. **pH under 7** stalls it too. So can **water temperature outside 25 to 30 °C (77 to 86 °F)**, which can also stress animals. The journey warns you if any of these happens, and Cora sends a notification when one trips and another when it is back in range. These safety alerts are free on every plan, and they are advice, not commands.
 :::
 
 :::note Log all three tests
@@ -56,6 +56,10 @@ Cora only shows **Looks cycled** when ammonia and nitrite have each been *measur
 :::note Readiness comes from your readings
 The journey judges readiness on what you've logged. How many weeks have gone by doesn't count. If you haven't tested for a fortnight, the tank stays where it was. That's why it shows how long it's been since your last test.
 :::
+
+## Your personal read {#your-personal-read}
+
+The stage, the chart, the known facts, the safety alerts and the celebration are free on every plan. On a paid plan (Essential, Advanced or Expert, and during the free trial) the journey also shows **Your cycle, read for you**: a plain-language read of your own readings, such as how long nitrite has been stuck and what is commonly behind it. On the free plan that spot shows **Personal read of your tests**, and tapping it opens the plans. It is an estimate from your readings, not a promise. A card saying **Nice work, the cycle looks complete** also appears at the top as soon as the readings look cycled. After you mark the tank, the journey suggests what to do next: log your livestock as you add it, set alert ranges and link a controller or probe.
 
 ## When the cycle is done
 

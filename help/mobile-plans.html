@@ -219,7 +219,7 @@
 <p>If it still isn't there, tap <strong>Restore Purchases</strong>. If Settings says <em>Couldn't verify your plan</em>, check your connection and tap <strong>Retry</strong>. Your access doesn't change while Cora checks. If none of that works, email <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> with the date you bought it.</p>
 <p>Your data stays yours whatever plan you're on. More in <a href="/help/mobile-data-export">Exporting your data and deleting your account</a>. To report a billing problem from inside Cora Mobile, see <a href="/help/mobile-support">Reporting a problem</a>.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-multi-device"><span>Previous</span><b>More than one Cora device</b></a><a class="pn-n" href="/help/mobile-data-export"><span>Next</span><b>Exporting your data and deleting your account</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.220 and Cora Mobile 1.4.2. Last checked 2026-10-18.</p>
+      <p class="stamp">Written for Cora Max 0.28.222 and Cora Mobile 1.4.3. Last checked 2026-10-18.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>
@@ -610,7 +610,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/help/search.json?v=ff598fbd00').then(function (r) { return r.json(); })
+    fetch('/help/search.json?v=b75054a183').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "en"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';

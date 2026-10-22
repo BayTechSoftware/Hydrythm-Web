@@ -2,7 +2,7 @@
 title: Percorsi guidati
 description: Avvia il percorso guidato di maturazione per una nuova vasca, seguilo fino alla fine e affronta un problema di dinoflagellati passo dopo passo.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-22
 order: 34
 group: Intelligence
 ---
@@ -11,17 +11,15 @@ In un percorso Cora ti accompagna in qualcosa che dura giorni o settimane. Ci so
 
 ## Avviare il percorso di maturazione
 
-La maturazione guidata è gratuito con tutti i piani. Lo avvii dalla dashboard della vasca.
+La maturazione guidata è gratuita con tutti i piani. Ci sono tre modi per avviarla:
 
-1. Apri la nuova vasca nella scheda **Dashboard**. Una scheda chiede **Stai avviando una nuova vasca?**
-2. Toccala. La prima volta Cora spiega la **Maturazione guidata**: mentre la vasca fa il ciclo, la dashboard si concentra su ammoniaca, nitriti e nitrati e mette in pausa i normali controlli da reef, che non servono ancora.
-3. Tocca **Capito: avvia la maturazione**. Si apre il percorso.
+- **Quando crei la vasca.** Attiva **È una vasca nuovissima che sto ciclando** in fondo al modulo della nuova vasca.
+- **Dalla dashboard.** Su una vasca senza letture, una scheda chiede **Stai avviando una nuova vasca?** Toccala.
+- **Dal profilo della vasca.** Apri il profilo della vasca e tocca la stessa scheda in alto. Funziona in qualsiasi momento, anche dopo aver registrato letture.
 
-:::warning Avvialo prima di registrare qualcosa o collegare attrezzatura
-La scheda **Stai avviando una nuova vasca?** compare solo su una vasca senza nessuna lettura. Appena registri un test o colleghi un dispositivo che invia letture, la scheda sparisce, e non c'è un altro modo per avviare il percorso di maturazione. Se la vasca sta ancora facendo il ciclo, avvia prima il percorso, poi registra il primo test dall'interno del percorso.
-:::
+La prima volta Cora spiega la **Maturazione guidata**: mentre la vasca fa il ciclo, la dashboard si concentra su ammoniaca, nitriti e nitrati e mette in pausa i normali controlli da reef, che non servono ancora. Le indicazioni sono generali: ogni vasca è diversa, quindi segui le istruzioni dei tuoi prodotti e usa il tuo giudizio. Tocca **Ho capito: avvia la maturazione** e il percorso si apre.
 
-Quando è in corso, la scheda sulla dashboard dice **Continua la maturazione · Giorno N**. Toccala per tornare al percorso. Se dice **Riprendi la maturazione**, la vasca è ancora impostata per la maturazione: toccala per riaprire la guida.
+Quando è in corso, la scheda sulla dashboard dice **Continua la maturazione · Giorno N**. Toccala per tornare al percorso. Se dice **Riprendi la maturazione**, la vasca è ancora impostata per la maturazione: toccala per riaprire la guida. Per uscire senza finire, tocca **Interrompi la maturazione guidata** in fondo al percorso. La vasca torna al monitoraggio normale e puoi riattivare la maturazione guidata dal profilo della vasca.
 
 ## La maturazione di una nuova vasca {#cycling-a-new-tank}
 
@@ -41,12 +39,14 @@ Tocca **Registra un test** per aggiungere un test di ammoniaca, nitriti e nitrat
 | **Fase del nitrito: circa a metà** | La seconda colonia sta eliminando i nitriti. Di solito è il tratto più lungo, quello in cui si pensa che qualcosa sia andato storto perché i numeri smettono di muoversi |
 | **Sembra ciclata** | Ammoniaca e nitriti sono spariti e ci sono nitrati. Fai il controllo finale indicato sullo schermo prima di segnare la vasca come ciclata |
 
-**Il tuo ciclo finora** mostra le tre curve insieme. Sono in scala l'una rispetto all'altra invece che sui valori reali, così vedi una colonia che passa il testimone alla successiva. Tocca un nome per vedere i numeri reali.
+Una fila di punti in alto (**Allestire**, **Inoculare**, **Testare**, **Confermare**) mostra a che punto sei. Ogni fase della lista ha un breve perché e come, **Cosa si sa** su cui concorda la maggior parte dei reefer, e un promemoria che si tratta di indicazioni generali. Cora qui non dà dosi di prodotti: segui l'etichetta del prodotto con i batteri che usi.
+
+**Il tuo ciclo finora** disegna le tre curve su due scale. Ammoniaca e nitriti usano l'asse a sinistra, che va da 0 ad almeno 5 ppm. I nitrati usano l'asse a destra, che va da 0 ad almeno 40 ppm. Così i valori piccoli di ammoniaca e nitriti restano visibili accanto a un nitrato alto. Tocca un nome per vedere il suo storico completo.
 
 Per un secondo parere, tocca **Chiedi a Cora della maturazione**. Apre [Cora Assistant](/help/mobile-assistant) con una domanda sulle tue ultime letture.
 
-:::warning Due cose bloccano un ciclo
-**Ammoniaca o nitriti sopra 5 ppm** bloccano i batteri che stai cercando di far crescere. Se hai esagerato, un cambio d'acqua parziale li riporta giù. Anche un **pH sotto 7** blocca il ciclo. Il percorso ti avvisa in tutti e due i casi, perché aspettare di più non serve.
+:::warning Tre cose possono bloccare un ciclo
+**Ammoniaca o nitriti sopra 5 ppm** bloccano i batteri che stai cercando di far crescere. Se esageri, un cambio parziale d'acqua li riporta giù. Anche un **pH sotto 7** li blocca. Lo stesso vale per una **temperatura dell'acqua fuori da 25 a 30 °C (77 a 86 °F)**, che può anche stressare gli animali. Il percorso ti avvisa se succede una di queste cose e Cora invia una notifica quando un valore esce dall'intervallo e un'altra quando rientra. Questi avvisi di sicurezza sono gratuiti con tutti i piani e sono consigli, non ordini.
 :::
 
 :::note Registra tutti e tre i test
@@ -56,6 +56,10 @@ Cora mostra **Sembra ciclata** solo quando ammoniaca e nitriti sono stati entram
 :::note La prontezza dipende dalle tue letture
 Il percorso giudica se la vasca è pronta in base a quello che hai registrato. Le settimane passate non contano. Se non fai test per due settimane, la vasca resta dov'era. Per questo il percorso mostra da quanto tempo non fai un test.
 :::
+
+## La tua lettura personale {#your-personal-read}
+
+La fase, il grafico, le cose note, gli avvisi di sicurezza e la festa sono gratuiti con tutti i piani. Con un piano a pagamento (Essential, Advanced o Expert, e durante la prova gratuita) il percorso mostra anche **Il tuo ciclo, letto per te**: una lettura in parole semplici dei tuoi valori, ad esempio da quanto tempo il nitrito è fermo e cosa c'è spesso dietro. Con il piano gratuito quel punto mostra **Lettura personale dei tuoi test**, e toccandolo si aprono i piani. È una stima basata sui tuoi valori, non una promessa. Una scheda **Ottimo lavoro, il ciclo sembra completo** compare anche in alto non appena i valori sembrano ciclati. Dopo aver segnato la vasca, il percorso suggerisce cosa fare dopo: registrare gli animali man mano che li inserisci, impostare gli intervalli di avviso e collegare un controller o una sonda.
 
 ## Quando il ciclo è finito
 

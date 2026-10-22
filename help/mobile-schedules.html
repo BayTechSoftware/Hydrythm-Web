@@ -202,7 +202,7 @@
 <h2 id="checking-it-took">Checking it took</h2>
 <p>After you save, the device page shows the program the pump is running. If it doesn't match what you saved, the change didn't get through. Check that the device is reachable and try again.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-device-control"><span>Previous</span><b>Controlling your equipment</b></a><a class="pn-n" href="/help/mobile-probes"><span>Next</span><b>Parameter Mapping and probes</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.220 and Cora Mobile 1.4.2. Last checked 2026-10-17.</p>
+      <p class="stamp">Written for Cora Max 0.28.222 and Cora Mobile 1.4.3. Last checked 2026-10-17.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>
@@ -593,7 +593,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/help/search.json?v=ff598fbd00').then(function (r) { return r.json(); })
+    fetch('/help/search.json?v=b75054a183').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "en"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';

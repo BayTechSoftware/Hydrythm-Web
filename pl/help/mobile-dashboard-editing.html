@@ -201,7 +201,7 @@
 <ul><li><strong>Moje panele</strong> przechowuje na Twoim koncie do 30 zapisanych projektów. Każdy Cora Max na koncie może wczytać dowolny z nich. Kafelki, których docelowy panel nie wypełni, są wymienione pod <strong>Pozostawione:</strong> przed wczytaniem.</li><li><strong>Szablony</strong> otwiera <strong>Szablony panelu</strong>: <strong>Przegląd</strong>, <strong>Sprzęt</strong> i <strong>Parametry</strong>. Działają w każdym planie i nie używają AI.</li><li><strong>Zaprojektuj z AI</strong>, w płatnym planie albo w okresie próbnym, proponuje cały układ na podstawie tego, co akwarium zgłasza i co ma podłączone. Możesz zrobić 5 projektów na akwarium dziennie.</li></ul>
 <p>Jak działa każdy z nich, opisuje <a href="/pl/help/max-dashboard-editing">Edytowanie panelu Cora Max</a>.</p>
       <nav class="pn" aria-label="Czytaj dalej"><a class="pn-p" href="/pl/help/mobile-metric-detail"><span>Poprzedni</span><b>Szczegóły parametru</b></a><a class="pn-n" href="/pl/help/mobile-widgets"><span>Następny</span><b>Rodzaje widżetów</b></a></nav>
-      <p class="stamp">Napisano dla Cora Max 0.28.220 i Cora Mobile 1.4.2. Ostatnio sprawdzono 2026-10-18.</p>
+      <p class="stamp">Napisano dla Cora Max 0.28.222 i Cora Mobile 1.4.3. Ostatnio sprawdzono 2026-10-18.</p>
       <p class="ask">Wciąż masz problem? Napisz na <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, pomożemy.</p>
     </article>
   </main>
@@ -592,7 +592,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/pl/help/search.json?v=acbbc18621').then(function (r) { return r.json(); })
+    fetch('/pl/help/search.json?v=c5b79dad05').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "pl"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Wyszukiwanie jest niedost\u0119pne. U\u017cyj menu." + '</li>';

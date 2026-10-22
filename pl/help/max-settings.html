@@ -218,7 +218,7 @@
 <h2 id="aktualizacje">Aktualizacje</h2>
 <p>Cora Max sam dba o aktualne oprogramowanie. Aktualizacje pobierają się w tle i instalują w oknie aktualizacji. Więcej w <a href="/pl/help/max-updates">Aktualizacjach i odzyskiwaniu</a>.</p>
       <nav class="pn" aria-label="Czytaj dalej"><a class="pn-p" href="/pl/help/max-voice"><span>Poprzedni</span><b>Rozmowa z Corą</b></a><a class="pn-n" href="/pl/help/max-updates"><span>Następny</span><b>Aktualizacje i odzyskiwanie</b></a></nav>
-      <p class="stamp">Napisano dla Cora Max 0.28.220 i Cora Mobile 1.4.2. Ostatnio sprawdzono 2026-10-18.</p>
+      <p class="stamp">Napisano dla Cora Max 0.28.222 i Cora Mobile 1.4.3. Ostatnio sprawdzono 2026-10-18.</p>
       <p class="ask">Wciąż masz problem? Napisz na <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, pomożemy.</p>
     </article>
   </main>
@@ -609,7 +609,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/pl/help/search.json?v=acbbc18621').then(function (r) { return r.json(); })
+    fetch('/pl/help/search.json?v=c5b79dad05').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "pl"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Wyszukiwanie jest niedost\u0119pne. U\u017cyj menu." + '</li>';

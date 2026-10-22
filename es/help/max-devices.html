@@ -202,7 +202,7 @@
 <p>En <strong>Acuarios</strong>, cada acuario que muestra este Cora Max tiene una tarjeta con <strong>Diseño del panel</strong>, <strong>Editar acuario</strong> y su dispositivo de consulta. <strong>Agregar acuario</strong> y el icono de quitar cambian qué acuarios muestra, y esos cambios se aplican a toda la cuenta. Solo puedes hacerlos en tu teléfono. Los pasos están en <a href="/es/help/max-setup#changing-which-tanks-it-shows">Configurar Cora Max</a>. Qué dispositivo es el Cora Max principal de un acuario se puede cambiar desde tu teléfono o desde Cora Max.</p>
 <p>En <strong>Restablecer</strong>, <strong>Restablecer pantalla</strong> devuelve la pantalla a su pantalla de emparejamiento. Se queda en tu Wi-Fi, así que puedes volver a emparejarla por Bluetooth, y los datos de tu acuario se conservan. <strong>Quitar dispositivo</strong> la quita de tu cuenta. Las lecturas de tu acuario se conservan, y puedes volver a emparejarla más adelante.</p>
       <nav class="pn" aria-label="Seguir leyendo"><a class="pn-p" href="/es/help/max-device-control"><span>Anterior</span><b>Controlar equipos desde Cora Max</b></a><a class="pn-n" href="/es/help/max-alerts"><span>Siguiente</span><b>Alertas en Cora Max</b></a></nav>
-      <p class="stamp">Escrito para Cora Max 0.28.220 y Cora Mobile 1.4.2. Última revisión el 2026-10-17.</p>
+      <p class="stamp">Escrito para Cora Max 0.28.222 y Cora Mobile 1.4.3. Última revisión el 2026-10-17.</p>
       <p class="ask">¿Sigues atascado? Escribe a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> y te ayudamos.</p>
     </article>
   </main>
@@ -593,7 +593,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/es/help/search.json?v=69a6ff4d0e').then(function (r) { return r.json(); })
+    fetch('/es/help/search.json?v=76cf023804').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "es"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La b\u00fasqueda no est\u00e1 disponible. Usa la navegaci\u00f3n." + '</li>';

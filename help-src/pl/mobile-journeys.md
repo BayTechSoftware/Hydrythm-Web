@@ -2,7 +2,7 @@
 title: Ścieżki z przewodnikiem
 description: Rozpocznij ścieżkę cyklowania nowego akwarium, przejdź ją do końca i krok po kroku uporaj się z problemem dinoflagellatów.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-22
 order: 34
 group: Intelligence
 ---
@@ -11,17 +11,15 @@ W ścieżce Cora prowadzi Cię przez coś, co trwa dni albo tygodnie. Są dwa ro
 
 ## Rozpoczynanie ścieżki cyklowania
 
-Prowadzone cyklowanie jest bezpłatne w każdym planie. Uruchamiasz je z panelu akwarium.
+Prowadzone cyklowanie jest bezpłatne w każdym planie. Są trzy sposoby, by je uruchomić:
 
-1. Otwórz nowe akwarium w zakładce **Panel**. Karta zapyta **Zaczynasz nowe akwarium?**
-2. Dotknij jej. Za pierwszym razem Cora wyjaśni **Prowadzone cyklowanie**: gdy akwarium się cykluje, panel skupia się na amoniaku, azotynach i azotanach i wstrzymuje zwykłe kontrole rafowe, które jeszcze nie mają zastosowania.
-3. Dotknij **Rozumiem: zacznij cyklowanie**. Ścieżka się otworzy.
+- **Przy tworzeniu akwarium.** Włącz **To zupełnie nowe akwarium, które cykluję** na dole formularza nowego akwarium.
+- **Z panelu.** Przy akwarium bez odczytów karta zapyta **Zaczynasz nowe akwarium?** Dotknij jej.
+- **Z profilu akwarium.** Otwórz profil akwarium i dotknij tej samej karty u góry. Działa o każdej porze, także po zapisaniu odczytów.
 
-:::warning Uruchom ją, zanim cokolwiek zapiszesz albo podłączysz sprzęt
-Karta **Zaczynasz nowe akwarium?** pokazuje się tylko przy akwarium bez żadnych odczytów. Gdy tylko zapiszesz test albo podłączysz urządzenie, które wysyła odczyty, karta znika i nie ma innego sposobu na uruchomienie ścieżki cyklowania. Jeśli akwarium wciąż się cykluje, najpierw uruchom ścieżkę, a potem zapisz pierwszy test z jej wnętrza.
-:::
+Za pierwszym razem Cora wyjaśni **Prowadzone cyklowanie**: gdy akwarium się cykluje, panel skupia się na amoniaku, azotynach i azotanach i wstrzymuje zwykłe kontrole rafowe, które jeszcze nie mają zastosowania. Wskazówki są ogólne: każde akwarium jest inne, więc stosuj się do instrukcji swoich produktów i kieruj się własnym osądem. Dotknij **Rozumiem: zacznij cyklowanie**, a ścieżka się otworzy.
 
-Gdy ścieżka działa, karta na panelu pokazuje **Kontynuuj cyklowanie · Dzień N**. Dotknij jej, żeby wrócić do ścieżki. Jeśli widać **Wznów cyklowanie**, akwarium jest nadal ustawione na cyklowanie: dotknij, żeby ponownie otworzyć przewodnik.
+Gdy ścieżka działa, karta na panelu pokazuje **Kontynuuj cyklowanie · Dzień N**. Dotknij jej, żeby wrócić do ścieżki. Jeśli widać **Wznów cyklowanie**, akwarium jest nadal ustawione na cyklowanie: dotknij, żeby ponownie otworzyć przewodnik. Aby wyjść bez kończenia, dotknij **Zakończ prowadzone cyklowanie** na dole ścieżki. Akwarium wraca do zwykłego monitorowania, a prowadzone cyklowanie możesz włączyć ponownie w profilu akwarium.
 
 ## Cyklowanie nowego akwarium {#cycling-a-new-tank}
 
@@ -41,12 +39,14 @@ Dotknij **Zapisz test**, żeby dodać test na amoniak, azotyny i azotany. Wpisz 
 | **Etap azotynu: w połowie drogi** | Druga kolonia usuwa azotyny. To zwykle najdłuższy odcinek i ten, przy którym ludzie myślą, że coś poszło nie tak, bo liczby przestają się zmieniać |
 | **Wygląda na zacyklowane** | Amoniaku i azotynów już nie ma, a azotany są obecne. Zanim oznaczysz akwarium jako zacyklowane, zrób końcowe sprawdzenie z ekranu |
 
-**Twój cykl do tej pory** rysuje trzy krzywe razem. Są przeskalowane względem siebie, a nie do prawdziwych wartości, żeby było widać, jak jedna kolonia przekazuje pracę następnej. Dotknij nazwy, żeby zobaczyć prawdziwe liczby.
+Rząd kropek u góry (**Start**, **Zaszczepić**, **Testuj**, **Potwierdź**) pokazuje, jak daleko jesteś. Każdy etap listy ma krótkie dlaczego i jak, **Znane fakty**, co do których zgadza się większość akwarystów morskich, oraz przypomnienie, że to ogólne wskazówki. Cora nie podaje tu dawek produktów: kieruj się etykietą używanego preparatu z bakteriami.
+
+**Twój dotychczasowy cykl** rysuje trzy krzywe na dwóch skalach. Amoniak i azotyny używają osi po lewej, od 0 do co najmniej 5 ppm. Azotany używają osi po prawej, od 0 do co najmniej 40 ppm. Dzięki temu małe odczyty amoniaku i azotynów są widoczne obok dużej wartości azotanów. Dotknij nazwy, aby zobaczyć całą historię.
 
 Żeby poznać drugą opinię, dotknij **Zapytaj Cora o cyklowanie**. Otworzy się [Cora Assistant](/help/mobile-assistant) z pytaniem o Twoje ostatnie odczyty.
 
-:::warning Dwie rzeczy zatrzymują cyklowanie
-**Amoniak albo azotyny powyżej 5 ppm** zatrzymują bakterie, które próbujesz wyhodować. Jeśli przesadzisz, częściowa podmiana wody obniży poziom. **pH poniżej 7** też zatrzymuje cyklowanie. Ścieżka ostrzeże Cię w obu przypadkach, bo dłuższe czekanie nie pomoże.
+:::warning Trzy rzeczy mogą zatrzymać cykl
+**Amoniak lub azotyny powyżej 5 ppm** hamują bakterie, które próbujesz wyhodować. Jeśli przesadzisz, częściowa podmiana wody je obniży. **pH poniżej 7** też je hamuje. Podobnie **temperatura wody poza zakresem 25 do 30 °C (77 do 86 °F)**, która może też stresować zwierzęta. Ścieżka ostrzega, gdy któraś z tych rzeczy się zdarzy, a Cora wysyła powiadomienie, gdy wartość wychodzi poza zakres, i kolejne, gdy do niego wraca. Te alerty bezpieczeństwa są bezpłatne w każdym planie i są radą, nie poleceniem.
 :::
 
 :::note Zapisuj wszystkie trzy testy
@@ -56,6 +56,10 @@ Cora pokazuje **Wygląda na zacyklowane** dopiero wtedy, gdy amoniak i azotyny z
 :::note O gotowości decydują odczyty
 Ścieżka ocenia gotowość na podstawie tego, co zapisano. Liczba tygodni się nie liczy. Jeśli nie testujesz przez dwa tygodnie, akwarium zostaje tam, gdzie było. Dlatego ścieżka pokazuje, ile czasu minęło od ostatniego testu.
 :::
+
+## Twoja osobista interpretacja {#your-personal-read}
+
+Etap, wykres, znane fakty, alerty bezpieczeństwa i świętowanie są bezpłatne w każdym planie. W płatnym planie (Essential, Advanced lub Expert, oraz w bezpłatnym okresie próbnym) ścieżka pokazuje też **Twój cykl, odczytany dla ciebie**: opis twoich odczytów prostym językiem, na przykład jak długo azotyny stoją w miejscu i co często za tym stoi. W planie bezpłatnym w tym miejscu jest **Osobista interpretacja twoich testów**, a dotknięcie jej otwiera plany. To szacunek na podstawie twoich odczytów, nie obietnica. Karta **Dobra robota, cykl wygląda na zakończony** pojawia się też u góry, gdy tylko odczyty wyglądają na zacyklowane. Po oznaczeniu akwarium ścieżka podpowiada, co dalej: zapisuj obsadę, gdy ją dodajesz, ustaw zakresy alertów i połącz kontroler lub sondę.
 
 ## Gdy cykl się zakończy
 
