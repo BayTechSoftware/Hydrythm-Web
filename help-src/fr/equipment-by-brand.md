@@ -2,7 +2,7 @@
 title: L’équipement par marque
 description: Tout sur votre Neptune Apex, votre Red Sea ReefBeat, votre Jecod ou votre AquaWiz au même endroit, de l’ajout à la commande, en passant par ses alertes et ses solutions.
 section: Help
-reviewed: 2026-10-17
+reviewed: 2026-10-24
 order: 3
 ---
 
@@ -24,7 +24,7 @@ Cora lit les sondes et les prises de votre Apex, lance ses cycles de nourrissage
 - Le commander sur votre téléphone : [Apex](/help/mobile-device-control#neptune-apex), [DŌS](/help/mobile-device-control#dos), [Trident](/help/mobile-device-control#trident)
 - Sur Cora Max : [prises et mode nourrissage](/help/max-controls), [Apex et Trident](/help/max-device-control#neptune-apex), [têtes DŌS](/help/max-device-control#dos-heads)
 - Alertes : [ne remonte plus de mesures](/help/mobile-alerts#stopped-reporting), [alertes des doseurs](/help/mobile-device-control#doser-alerts)
-- Solutions : ["Impossible de joindre l’Apex"](/help/troubleshooting#could-not-reach-the-apex-nothing-changed-nothing-was-dosed), ["… n’a pas les identifiants Apex"](/help/troubleshooting#this-could-not-be-sent-no-device-on-this-tank-can-send-it), ["Mot de passe Apex"](/help/troubleshooting#cora-max-shows-apex-password), [Le nourrissage ne démarre pas](/help/troubleshooting#feed-does-not-start), [un dosage s’est arrêté en cours de route](/help/troubleshooting#a-dose-stopped-partway-through-and-a-restore-alert-appeared)
+- Solutions : ["Impossible de joindre l’Apex"](/help/troubleshooting#could-not-reach-the-apex-nothing-changed-nothing-was-dosed), ["… n’a pas les identifiants Apex"](/help/troubleshooting#this-could-not-be-sent-no-device-on-this-tank-can-send-it), ["Mot de passe Apex"](/help/troubleshooting#cora-max-shows-apex-password), ["L’Apex a refusé cet identifiant"](/help/troubleshooting#the-apex-refused-this-login), [Le nourrissage ne démarre pas](/help/troubleshooting#feed-does-not-start), [un dosage s’est arrêté en cours de route](/help/troubleshooting#a-dose-stopped-partway-through-and-a-restore-alert-appeared)
 
 ## Red Sea ReefBeat {#red-sea}
 

@@ -3,7 +3,7 @@ title: Bakım
 description: Skimmer temizliği ya da filtre çorabı değişimi gibi tekrarlanan işler ekleyin, zamanı geldiğinde hatırlatma alın ve onları tamamlandı olarak işaretleyin ya da erteleyin.
 section: Cora Mobile
 reviewed: 2026-10-17
-order: 28
+order: 29
 group: Records
 twin: max-records
 ---

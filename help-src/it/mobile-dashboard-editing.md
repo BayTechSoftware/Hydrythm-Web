@@ -41,6 +41,7 @@ Vedi solo i parametri che la vasca ha. Un parametro senza fonte compare quando c
 
 La griglia contiene fino a 20 righe. Quando è piena, Cora dice **La dashboard è piena: rimuovi prima un riquadro.** Un grafico ha bisogno di due celle libere affiancate.
 
+
 Quando togli un dispositivo da una vasca, i suoi riquadri lasciano la dashboard da soli, sul telefono e su ogni Cora Max di quella vasca. Un riquadro il cui dispositivo non c'è più dice **Questo dispositivo non è più in questa vasca** e non apre nulla.
 
 ## Disporre i widget {#arranging-widgets}

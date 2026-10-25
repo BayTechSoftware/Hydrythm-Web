@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Cora Help</title>
-  <meta name="description" content="Configura e usa Cora Mobile e Cora Max: aggiungi la tua vasca, collega l&#x27;attrezzatura, imposta gli avvisi, leggi Reef Buddy e i risultati ICP, associa Cora Max e risolvi i problemi.">
+  <title>Aiuto Cora</title>
+  <meta name="description" content="Configura e usa Cora Mobile e Cora Max: aggiungi la tua vasca, collega l&#x27;attrezzatura, imposta gli avvisi, leggi Reef Buddy e i risultati ICP e risolvi i problemi.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/it/help/">
   <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/">
@@ -16,8 +16,8 @@
   <link rel="alternate" hreflang="pl" href="https://coraiq.tech/pl/help/">
   <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/">
   <meta property="og:site_name" content="Cora">
-  <meta property="og:title" content="Cora Help">
-  <meta property="og:description" content="Configura e usa Cora Mobile e Cora Max: aggiungi la tua vasca, collega l&#x27;attrezzatura, imposta gli avvisi, leggi Reef Buddy e i risultati ICP, associa Cora Max e risolvi i problemi.">
+  <meta property="og:title" content="Aiuto Cora">
+  <meta property="og:description" content="Configura e usa Cora Mobile e Cora Max: aggiungi la tua vasca, collega l&#x27;attrezzatura, imposta gli avvisi, leggi Reef Buddy e i risultati ICP e risolvi i problemi.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/it/help/">
   <meta property="og:image" content="https://coraiq.tech/og-image.png">
@@ -192,7 +192,7 @@
 <h2 id="aiuto">Aiuto</h2>
 <p><a href="/it/help/troubleshooting">Risoluzione dei problemi</a> · <a href="/it/help/how-do-i">Come faccio a...?</a> · <a href="/it/help/equipment-by-brand">Attrezzatura per marca</a> · <a href="/it/help/faq">Domande frequenti</a> · <a href="/it/help/glossary">Glossario</a> · Ancora bloccato? Scrivi a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>.</p>
       
-      <p class="stamp">Scritto per Cora Max 0.28.222 e Cora Mobile 1.4.3. Ultimo controllo il 2026-10-13.</p>
+      <p class="stamp">Scritto per Cora Max 0.28.238 e Cora Mobile 1.4.14. Ultimo controllo il 2026-10-13.</p>
       <p class="ask">Ancora bloccato? Scrivi a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, ti aiutiamo.</p>
     </article>
   </main>
@@ -583,7 +583,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/it/help/search.json?v=c9e910d07b').then(function (r) { return r.json(); })
+    fetch('/it/help/search.json?v=251de7c448').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "it"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La ricerca non \u00e8 disponibile. Usa la navigazione." + '</li>';

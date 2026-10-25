@@ -28,6 +28,7 @@ The Cora device that answers when you say "Hey Cora". You pick it in **Settings 
 
 The AquaWiz KH Controller, an alkalinity tester. Cora reads it through AquaWiz's own cloud. See [Equipment by brand](/help/equipment-by-brand).
 
+
 ## Automation
 
 A rule that runs by itself, like "if temperature goes above 27, turn on the fan". Each rule has a [trigger](#trigger), optional [conditions](#condition) and one or more actions. Find them in Cora Mobile under **Settings → Automations**. See [Automations and scenes](/help/mobile-automation).

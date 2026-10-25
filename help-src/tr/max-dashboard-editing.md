@@ -1,6 +1,6 @@
 ---
 title: Cora Max panosunu düzenleme
-description: Cora Max panosunda kutucuk ekleyin, taşıyın ve kaldırın, bir ızgara seçin, şablonları ya da Yapay zeka ile tasarla'yı kullanın ve düzenleri herhangi bir Cora Max'te yeniden kullanmak üzere kaydedin.
+description: Cora Max panosunda kutucuk ekleyin, taşıyın ve kaldırın, bir ızgara seçin, şablonları ya da Yapay zeka ile tasarla'yı kullanın ve düzenleri kaydedin.
 section: Cora Max
 reviewed: 2026-10-18
 order: 4

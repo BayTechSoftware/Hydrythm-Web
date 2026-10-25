@@ -2,7 +2,7 @@
 title: Zarządzanie akwariami
 description: Dodaj kolejne akwarium, przełączaj się między akwariami, zmieniaj ich kolejność i to, które dostają Reef Buddy, oraz usuwaj i przywracaj akwaria.
 section: Cora Mobile
-reviewed: 2026-10-18
+reviewed: 2026-10-24
 order: 4
 group: Getting started
 ---
@@ -15,7 +15,7 @@ W każdym planie możesz mieć tyle akwariów, ile chcesz. Plan decyduje tylko o
 
 1. Przejdź do **Ustawień** i dotknij **Dodaj akwarium** pod listą akwariów.
 2. **Dodaj akwarium** otwiera pełny profil akwarium. Nadaj akwarium nazwę w **Nazwa i typ akwarium** i wpisz to, co jeszcze wiesz, na przykład typ i objętość wody w **Wymiary akwarium**. Resztę możesz uzupełnić później. Zobacz [Profil akwarium](/help/mobile-tank-profile).
-3. Dotknij **Zapisz akwarium**.
+3. Dotknij **Zapisz akwarium**. Jeśli akwarium jest zupełnie nowe i dopiero się cykluje, najpierw włącz **To zupełnie nowe akwarium, które cykluję** na dole formularza.
 4. Cora proponuje krok pierwszego testu. Zapisz test, ustaw cotygodniowe przypomnienie albo dotknij **Później**. Zobacz [Karta pierwszego testu](/help/mobile-setup#the-first-test-card).
 
 Potem daj akwarium jego sprzęt:
@@ -25,7 +25,7 @@ Potem daj akwarium jego sprzęt:
 - Żeby pokazać akwarium na Cora Max, przejdź do **Urządzenia**, otwórz swój Cora Max i dotknij **Dodaj akwarium** w **Przypisane akwaria**. Cora Max pokazuje do 4 akwariów.
 
 :::tip Nowe akwarium jeszcze się cykluje?
-Dotknij **Zaczynasz nowe akwarium?** na jego panelu, zanim zapiszesz test albo podłączysz sprzęt. Karta pokazuje się tylko przy akwarium bez żadnych odczytów. Więcej w [Ścieżkach z przewodnikiem](/help/mobile-journeys).
+Prowadzone cyklowanie możesz też uruchomić później: dotknij **Zaczynasz nowe akwarium?** na panelu akwarium (karta pokazuje się, dopóki akwarium nie ma odczytów) albo użyj tej samej karty u góry profilu akwarium, która działa o każdej porze. Więcej w [Ścieżkach z przewodnikiem](/help/mobile-journeys).
 :::
 
 ## Przełączanie między akwariami {#switching-between-tanks}

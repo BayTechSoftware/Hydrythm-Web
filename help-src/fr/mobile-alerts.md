@@ -2,8 +2,8 @@
 title: Alertes et seuils
 description: Réglez la plage saine de chaque mesure, choisissez à quelle fréquence une alerte peut vous prévenir, et découvrez pourquoi un appareil "ne remonte plus de mesures".
 section: Cora Mobile
-reviewed: 2026-10-18
-order: 22
+reviewed: 2026-10-24
+order: 23
 group: Alerts and automation
 twin: max-alerts
 ---

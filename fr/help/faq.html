@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Questions fréquentes | Cora Help</title>
-  <meta name="description" content="Des réponses courtes sur ce qu’il vous faut, Cora Max, l’utilisation de Cora loin de chez vous, l’équipement, les alertes, Reef Buddy, les langues, les forfaits et vos données.">
+  <title>Questions fréquentes | Aide Cora</title>
+  <meta name="description" content="Des réponses courtes sur ce qu’il vous faut, Cora Max, l’accès à distance, l’équipement, les alertes, Reef Buddy, les langues, les forfaits et vos données.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/fr/help/faq">
   <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/faq">
@@ -16,8 +16,8 @@
   <link rel="alternate" hreflang="pl" href="https://coraiq.tech/pl/help/faq">
   <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/faq">
   <meta property="og:site_name" content="Cora">
-  <meta property="og:title" content="Questions fréquentes | Cora Help">
-  <meta property="og:description" content="Des réponses courtes sur ce qu’il vous faut, Cora Max, l’utilisation de Cora loin de chez vous, l’équipement, les alertes, Reef Buddy, les langues, les forfaits et vos données.">
+  <meta property="og:title" content="Questions fréquentes | Aide Cora">
+  <meta property="og:description" content="Des réponses courtes sur ce qu’il vous faut, Cora Max, l’accès à distance, l’équipement, les alertes, Reef Buddy, les langues, les forfaits et vos données.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/fr/help/faq">
   <meta property="og:image" content="https://coraiq.tech/og-image.png">
@@ -182,7 +182,7 @@
 <h3 id="can-i-try-cora-before-i-sign-up">Puis-je essayer Cora avant de m’inscrire ?</h3>
 <p>Oui. Sur l’écran de connexion, touchez <strong>Explorer un récif de démonstration</strong>. C’est un aquarium d’exemple, et vous n’avez pas besoin de compte. Plus de détails dans <a href="/fr/help/mobile-setup">Configurer Cora Mobile</a>.</p>
 <h3 id="my-tank-is-still-cycling">Mon aquarium est encore en cyclage. Cora peut-il aider ?</h3>
-<p>Oui. Touchez <strong>Vous démarrez un nouvel aquarium ?</strong> sur le tableau de bord pour lancer le parcours de cyclage. La carte n’apparaît que sur un aquarium sans encore aucune mesure, faites-le donc avant de noter un test ou d’associer un équipement. Plus de détails dans <a href="/fr/help/mobile-journeys">Parcours guidés</a>.</p>
+<p>Oui. Touchez <strong>Vous démarrez un nouvel aquarium ?</strong> sur le tableau de bord pour lancer le parcours de cyclage. La carte apparaît tant que l’aquarium n’a aucune mesure. Ensuite, utilisez la même carte en haut du profil de l’aquarium. Vous pouvez aussi activer <strong>C’est un tout nouvel aquarium que je cycle</strong> en ajoutant l’aquarium. Plus de détails dans <a href="/fr/help/mobile-journeys">Parcours guidés</a>.</p>
 <h3 id="what-does-tank-profile-mean">Que veut dire "profil de l’aquarium", et pourquoi pose-t-il autant de questions ?</h3>
 <p>Le profil de l’aquarium décrit votre système : taille, population, éclairage, et votre façon de doser et de tester. Cora utilise vos réponses pour régler des plages de départ raisonnables, et pour que Reef Buddy et Cora Assistant parlent de votre aquarium plutôt que des récifs en général. Vous pouvez passer n’importe quelle section. Plus de détails dans <a href="/fr/help/mobile-tank-profile">Le profil de votre aquarium</a>.</p>
 <h3 id="how-long-does-setup-take">Combien de temps prend la configuration ?</h3>
@@ -279,7 +279,7 @@
 <hr>
 <p>Vous ne trouvez toujours pas votre réponse ? <a href="/fr/help/troubleshooting">Résolution de problèmes</a> passe en revue les solutions symptôme par symptôme, ou écrivez à <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>.</p>
       <nav class="pn" aria-label="Poursuivre la lecture"><a class="pn-p" href="/fr/help/equipment-by-brand"><span>Précédent</span><b>L’équipement par marque</b></a><a class="pn-n" href="/fr/help/glossary"><span>Suivant</span><b>Glossaire</b></a></nav>
-      <p class="stamp">Rédigé pour Cora Max 0.28.222 et Cora Mobile 1.4.3. Vérifié pour la dernière fois le 2026-10-18.</p>
+      <p class="stamp">Rédigé pour Cora Max 0.28.238 et Cora Mobile 1.4.14. Vérifié pour la dernière fois le 2026-10-24.</p>
       <p class="ask">Toujours bloqué ? Écrivez à <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, nous vous aiderons.</p>
     </article>
   </main>
@@ -670,7 +670,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/fr/help/search.json?v=f05beee199').then(function (r) { return r.json(); })
+    fetch('/fr/help/search.json?v=fac77358f2').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "fr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La recherche est indisponible. Utilisez la navigation." + '</li>';

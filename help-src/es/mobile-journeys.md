@@ -3,7 +3,7 @@ title: Itinerarios guiados
 description: Empieza el itinerario guiado de ciclado de un acuario nuevo, síguelo hasta el final y resuelve un problema de dinoflagelados paso a paso.
 section: Cora Mobile
 reviewed: 2026-10-22
-order: 34
+order: 35
 group: Intelligence
 ---
 

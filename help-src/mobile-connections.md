@@ -1,8 +1,8 @@
 ---
 title: Connecting your equipment
-description: How to connect a Neptune Apex, Red Sea ReefBeat, Jecod or AquaWiz unit to Cora.
+description: Connect a Neptune Apex, Red Sea ReefBeat, Jecod or AquaWiz unit to Cora, use it without a Cora Max, and fix a connection that stops working.
 section: Cora Mobile
-reviewed: 2026-10-18
+reviewed: 2026-10-24
 order: 12
 group: Equipment
 ---
@@ -38,7 +38,7 @@ Cora reads your Apex over your local network, including probes, outlets and any 
 3. Fill in **Apex login (only if you set one on the Apex):**. Leave the password blank if you haven't set one.
 4. Tap **Load metrics from APEX** and tick the ones you want under **Metrics to track**.
 5. Set **Poll Frequency**. Don't leave it off: with polling off, nothing reads the Apex and its readings go stale.
-6. Tap **Continue**, tick every tank under **Which tanks does this Apex serve?**, then tap **Save**. An Apex can serve more than one tank.
+6. Tap **Continue**. Cora tests the login first. If the Apex answers and turns it down, a message says **The Apex refused this login**: tap **Cancel** to fix the username or password, or **Save anyway** to go on. If Cora can't reach the Apex (for example you are away from home), it skips the test. Then tick every tank under **Which tanks does this Apex serve?** and tap **Save**. An Apex can serve more than one tank.
 
 If the scan finds nothing, check that your phone is on the same Wi-Fi as the Apex, or enter the IP address yourself.
 

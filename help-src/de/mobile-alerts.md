@@ -2,8 +2,8 @@
 title: Warnungen und Schwellenwerte
 description: Den gesunden Bereich für jeden Messwert festlegen, bestimmen, wie oft eine Warnung dich benachrichtigen darf, und herausfinden, warum ein Gerät "sich nicht mehr meldet".
 section: Cora Mobile
-reviewed: 2026-10-18
-order: 22
+reviewed: 2026-10-24
+order: 23
 group: Alerts and automation
 twin: max-alerts
 ---

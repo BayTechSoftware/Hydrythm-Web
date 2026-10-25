@@ -3,7 +3,7 @@ title: ICP e report di salute
 description: Carica il PDF di un test ICP o fallo inviare dal tuo laboratorio, leggi il punteggio, segui ogni elemento nel tempo e avvia un Report di salute di tutto l'impianto.
 section: Cora Mobile
 reviewed: 2026-10-17
-order: 33
+order: 34
 group: Intelligence
 twin: max-intelligence
 ---

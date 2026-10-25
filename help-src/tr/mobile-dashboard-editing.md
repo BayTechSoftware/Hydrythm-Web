@@ -41,6 +41,7 @@ Yalnızca akvaryumda bulunan parametreleri görürsünüz. Kaynağı olmayan bir
 
 Izgara en fazla 20 satır alır. Dolduğunda Cora **Pano dolu: önce bir kutucuk kaldırın.** der. Bir grafik yan yana iki boş hücre ister.
 
+
 Bir cihazı akvaryumdan çıkardığınızda kutucukları panodan kendiliğinden kalkar, telefonunuzda ve o akvaryumdaki her Cora Max'te. Cihazı gitmiş bir kutucuk **Bu cihaz artık bu akvaryumda değil** yazar ve hiçbir şey açmaz.
 
 ## Widget'ları yerleştirme {#arranging-widgets}

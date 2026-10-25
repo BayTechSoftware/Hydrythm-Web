@@ -175,10 +175,10 @@
 <p>This page covers having more than one tank: adding one, moving between them, putting them in order, and removing one you no longer keep. Each tank has its own dashboard, devices, alerts and records.</p>
 <p>You can have as many tanks as you like on any plan. Your plan only decides how many of them get Reef Buddy (see <a href="/help/mobile-tanks#reef-buddy-and-tank-order">The order decides which tanks get Reef Buddy</a>).</p>
 <h2 id="adding-another-tank">Adding another tank</h2>
-<ol><li>Go to <strong>Settings</strong> and tap <strong>Add tank</strong>, under your list of tanks.</li><li><strong>Add Tank</strong> opens the full tank profile. Give the tank a name under <strong>Tank Name &amp; Type</strong>, and fill in whatever else you know, like the type and the water volume under <strong>Tank Dimensions</strong>. You can finish the rest later. See <a href="/help/mobile-tank-profile">Your tank profile</a>.</li><li>Tap <strong>Save Tank</strong>.</li><li>Cora offers the first-test step. Log a test, set a weekly reminder, or tap <strong>Later</strong>. See <a href="/help/mobile-setup#the-first-test-card">The first-test card</a>.</li></ol>
+<ol><li>Go to <strong>Settings</strong> and tap <strong>Add tank</strong>, under your list of tanks.</li><li><strong>Add Tank</strong> opens the full tank profile. Give the tank a name under <strong>Tank Name &amp; Type</strong>, and fill in whatever else you know, like the type and the water volume under <strong>Tank Dimensions</strong>. You can finish the rest later. See <a href="/help/mobile-tank-profile">Your tank profile</a>.</li><li>Tap <strong>Save Tank</strong>. If this tank is brand new and still cycling, first turn on <strong>This is a brand-new tank I'm cycling</strong> at the bottom of the form.</li><li>Cora offers the first-test step. Log a test, set a weekly reminder, or tap <strong>Later</strong>. See <a href="/help/mobile-setup#the-first-test-card">The first-test card</a>.</li></ol>
 <p>Then give the tank its equipment:</p>
 <ul><li>To add new equipment for it, go to <strong>Devices → Add Device</strong>, pick the brand and choose this tank. See <a href="/help/mobile-connections">Connecting your equipment</a>.</li><li>To move equipment you already have, open the device on the <strong>Devices</strong> tab and change its tank. See <a href="/help/mobile-devices">Adding, editing and removing devices</a>.</li><li>To show the tank on Cora Max, go to <strong>Devices</strong>, open your Cora Max and tap <strong>Add Tank</strong> under <strong>Assigned Tanks</strong>. A Cora Max shows up to 4 tanks.</li></ul>
-<aside class="cal cal-tip"><p class="cal-t">Is the new tank still cycling?</p><p>Tap <strong>Starting a new tank?</strong> on its dashboard before you log a test or link equipment. The card only shows on a tank with no readings at all. More in <a href="/help/mobile-journeys">Guided journeys</a>.</p></aside>
+<aside class="cal cal-tip"><p class="cal-t">Is the new tank still cycling?</p><p>You can also start guided cycling later: tap <strong>Starting a new tank?</strong> on the tank's dashboard (the card shows while the tank has no readings), or use the same card at the top of the tank's profile, which works at any time. More in <a href="/help/mobile-journeys">Guided journeys</a>.</p></aside>
 <h2 id="switching-between-tanks">Switching between tanks</h2>
 <ul><li><strong>Dashboard</strong>: swipe left or right. The dots at the top show which tank you're on.</li><li><strong>Settings</strong>: every tank has its own row. Tap one to open that tank's settings, like <strong>Alert thresholds</strong>, <strong>Parameter Mapping</strong> and <strong>Units</strong>.</li><li><strong>Assistant</strong> and <strong>Intelligence</strong>: pick the tank at the top of the screen. See <a href="/help/mobile-assistant#pick-a-tank-first">Asking Cora</a>.</li><li>A notification about one tank opens that tank's dashboard.</li></ul>
 <p>On Cora Max, the Reef Room shows every tank side by side. See <a href="/help/max-reef-room">The Reef Room</a>.</p>
@@ -199,7 +199,7 @@
 <p>Go to <strong>Settings</strong> and tap <strong>Removed tanks</strong>. The row only shows when you have a removed tank. Tap <strong>Restore</strong> next to the tank. Its readings, journal and devices come back exactly as they were.</p>
 <p>Cora Mobile has no way to delete a single tank for good. The only way to delete a tank's data is to delete your account. See <a href="/help/mobile-data-export">Your data</a>.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-tank-profile"><span>Previous</span><b>Your tank profile</b></a><a class="pn-n" href="/help/mobile-account"><span>Next</span><b>Signing in and account recovery</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.222 and Cora Mobile 1.4.3. Last checked 2026-10-18.</p>
+      <p class="stamp">Written for Cora Max 0.28.238 and Cora Mobile 1.4.14. Last checked 2026-10-24.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>
@@ -590,7 +590,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/help/search.json?v=b75054a183').then(function (r) { return r.json(); })
+    fetch('/help/search.json?v=5ca35b2a08').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "en"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';

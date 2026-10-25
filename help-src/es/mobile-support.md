@@ -3,7 +3,7 @@ title: Informar de un problema
 description: Informa de un error o envía comentarios desde Cora Mobile, mira qué se envía con ellos, activa los informes de errores o escribe al soporte.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 39
+order: 40
 group: Settings and account
 ---
 

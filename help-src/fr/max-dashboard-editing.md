@@ -1,6 +1,6 @@
 ---
 title: Modifier le tableau de bord Cora Max
-description: Ajoutez, déplacez et retirez des tuiles sur le tableau de bord Cora Max, choisissez une grille, utilisez les modèles ou Concevoir avec l’IA, et enregistrez des dispositions à réutiliser sur n’importe quel Cora Max.
+description: Ajoutez, déplacez et retirez des tuiles du tableau de bord Cora Max, choisissez une grille, utilisez les modèles ou Concevoir avec l’IA, et enregistrez vos dispositions.
 section: Cora Max
 reviewed: 2026-10-18
 order: 4

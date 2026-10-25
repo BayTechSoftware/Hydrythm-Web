@@ -28,6 +28,7 @@ L’appareil Cora qui répond quand vous dites "Hey Cora". Vous le choisissez da
 
 L’AquaWiz KH Controller, un testeur d’alcalinité. Cora le lit par le cloud d’AquaWiz. Voir [L’équipement par marque](/help/equipment-by-brand).
 
+
 ## Automatisation {#automation}
 
 Une règle qui s’exécute toute seule, comme « si la température dépasse 27, allume le ventilateur ». Chaque règle a un [déclencheur](#trigger), des [conditions](#condition) facultatives et une ou plusieurs actions. Vous les trouvez dans Cora Mobile sous **Paramètres → Automatisations**. Voir [Automatisations et scènes](/help/mobile-automation).

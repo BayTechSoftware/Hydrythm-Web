@@ -1,6 +1,6 @@
 ---
 title: Cora Hilfe
-description: Cora Mobile und Cora Max einrichten und nutzen: Becken hinzufügen, Ausrüstung verbinden, Warnungen festlegen, Reef Buddy und ICP-Ergebnisse lesen, Cora Max koppeln und Probleme lösen.
+description: Cora Mobile und Cora Max einrichten und nutzen: Becken hinzufügen, Ausrüstung verbinden, Warnungen festlegen, Reef Buddy und ICP-Ergebnisse lesen, Probleme lösen.
 section: -
 reviewed: 2026-10-13
 order: 0

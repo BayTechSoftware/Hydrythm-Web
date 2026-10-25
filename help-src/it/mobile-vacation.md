@@ -1,9 +1,9 @@
 ---
 title: Andare in vacanza: un piano per chi si occupa della vasca
-description: Attiva la modalità vacanza, prepara una lista di controllo per chi si occupa della vasca e condividila come pagina in sola lettura con letture in tempo reale, che si apre senza account.
+description: Attiva la modalità vacanza, prepara una lista di controllo per chi cura la vasca e condividila come pagina in sola lettura con letture in tempo reale.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 25
+order: 26
 group: Alerts and automation
 ---
 

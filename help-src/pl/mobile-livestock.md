@@ -3,7 +3,7 @@ title: Obsada
 description: Dodaj korale, ryby i bezkręgowce z akwarium i zapisuj straty, fragi, sprzedaże i przeniesienia, żeby później zauważyć wzorce.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 29
+order: 30
 group: Records
 twin: max-records
 ---

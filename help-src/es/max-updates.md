@@ -1,6 +1,6 @@
 ---
 title: Actualizaciones y recuperación
-description: Cómo se actualiza solo Cora Max, la ventana de instalación y el canal de actualización, cómo ver la versión, el PIN de recuperación y qué hacer si Cora Max no arranca o muestra un código de soporte.
+description: Cómo se actualiza solo Cora Max, ventana de instalación y canal de actualización, cómo ver la versión, el PIN de recuperación y qué hacer si Cora Max no arranca.
 section: Cora Max
 reviewed: 2026-10-17
 order: 15

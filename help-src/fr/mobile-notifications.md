@@ -1,9 +1,9 @@
 ---
 title: Notifications
-description: Choisissez quelles notifications arrivent sur votre téléphone, gardez des nuits calmes, relisez ce que vous avez manqué sous la cloche, et réparez des notifications qui n’arrivent pas.
+description: Choisissez les notifications reçues sur votre téléphone, gardez des nuits calmes, relisez ce que vous avez manqué sous la cloche et réparez celles qui n’arrivent pas.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 23
+order: 24
 group: Alerts and automation
 ---
 

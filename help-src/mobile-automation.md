@@ -2,8 +2,8 @@
 title: Automations and scenes
 description: Make Cora act on its own when a reading, an alert, a time or a device goes offline, and group actions into scenes you run with one tap.
 section: Cora Mobile
-reviewed: 2026-10-18
-order: 24
+reviewed: 2026-10-24
+order: 25
 group: Alerts and automation
 twin: max-automation
 ---

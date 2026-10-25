@@ -2,7 +2,7 @@
 title: Preguntas frecuentes
 description: Respuestas breves sobre lo que necesitas, Cora Max, usar Cora fuera de casa, los equipos, las alertas, Reef Buddy, los idiomas, los planes y tus datos.
 section: Help
-reviewed: 2026-10-18
+reviewed: 2026-10-24
 order: 4
 ---
 
@@ -26,7 +26,7 @@ Sí. En la pantalla de inicio de sesión, toca **Explora un arrecife de demostra
 
 ### Mi acuario todavía está haciendo el ciclo. ¿Me puede ayudar Cora? {#my-tank-is-still-cycling}
 
-Sí. Toca **¿Estás empezando un acuario nuevo?** en el panel para empezar el itinerario de ciclado. La tarjeta solo aparece en un acuario que todavía no tiene lecturas, así que hazlo antes de registrar una prueba o vincular equipos. Más información en [Itinerarios guiados](/help/mobile-journeys).
+Sí. Toca **¿Estás empezando un acuario nuevo?** en el panel para empezar el itinerario de ciclado. La tarjeta aparece mientras el acuario no tiene lecturas. Después, usa la misma tarjeta arriba en el perfil del acuario. También puedes activar **Es un acuario nuevo que estoy ciclando** al agregar el acuario. Más información en [Itinerarios guiados](/help/mobile-journeys).
 
 ### ¿Qué significa "perfil del acuario", y por qué hace tantas preguntas? {#what-does-tank-profile-mean}
 

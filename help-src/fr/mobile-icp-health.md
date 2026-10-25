@@ -1,9 +1,9 @@
 ---
 title: Rapports ICP et de santé
-description: Importez le PDF d’un test ICP ou faites-le envoyer par votre laboratoire, lisez le score, suivez chaque élément dans le temps et lancez un rapport de santé de tout votre système.
+description: Importez le PDF d’un test ICP ou faites-le envoyer par votre laboratoire, lisez le score, suivez chaque élément dans le temps et lancez un rapport de santé.
 section: Cora Mobile
 reviewed: 2026-10-17
-order: 33
+order: 34
 group: Intelligence
 twin: max-intelligence
 ---

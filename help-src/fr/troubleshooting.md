@@ -2,7 +2,7 @@
 title: Résolution de problèmes
 description: Réparez une mesure périmée, un appareil hors ligne, une commande qui n’est pas passée, un Cora Max qui ne s’associe pas ou une alerte qui ne disparaît pas.
 section: Help
-reviewed: 2026-10-18
+reviewed: 2026-10-24
 order: 1
 ---
 
@@ -224,6 +224,16 @@ Regardez l’étiquette d’état dans la barre du haut. **En ligne** et **Cloud
 ### Cora Max affiche "Mot de passe Apex" {#cora-max-shows-apex-password}
 
 Votre Apex a refusé les identifiants que Cora a enregistrés, en général parce que le mot de passe de l’Apex a été changé. Sur votre téléphone, ouvrez **Appareils**, puis votre Apex, et touchez **Modifier la connexion** sous **Connexion** pour saisir le nouveau.
+
+### "L’Apex a refusé cet identifiant" {#the-apex-refused-this-login}
+
+Vous voyez ce message en touchant **Continuer** pendant l’ajout ou la modification d’un Neptune Apex. Cora a essayé l’identifiant que vous avez saisi (si vous avez saisi un mot de passe), puis l’identifiant d’usine de l’Apex, puis aucun identifiant, et l’Apex les a tous refusés.
+
+1. Touchez **Annuler**.
+2. Vérifiez le nom d’utilisateur et le mot de passe définis sur l’Apex, sous **Network Setup**, **Login**. Si votre Apex n’a pas d’identifiant, laissez les deux champs vides.
+3. Saisissez-les de nouveau et touchez **Continuer**.
+
+**Enregistrer quand même** garde ce que vous avez saisi sans que le test soit réussi. N’y recourez que si vous êtes sûr de l’identifiant. Si vous changez plus tard l’identifiant sur l’Apex, saisissez le nouveau comme décrit dans [Cora Max affiche "Mot de passe Apex"](#cora-max-shows-apex-password).
 
 ### Cora Max affiche "Enregistrement cloud refusé" {#cora-max-shows-cloud-save-refused}
 

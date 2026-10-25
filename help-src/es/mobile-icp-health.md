@@ -3,7 +3,7 @@ title: ICP e informes de salud
 description: Sube el PDF de una prueba ICP o haz que tu laboratorio lo envíe, lee la puntuación, sigue cada elemento a lo largo del tiempo y genera un informe de salud de todo tu sistema.
 section: Cora Mobile
 reviewed: 2026-10-17
-order: 33
+order: 34
 group: Intelligence
 twin: max-intelligence
 ---

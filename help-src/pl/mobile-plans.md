@@ -1,9 +1,9 @@
 ---
 title: Plany i subskrypcje
-description: Co obejmują plany Free, okres próbny, Essential, Advanced i Expert, jak wykupić subskrypcję albo przejść na wyższy plan, gdzie sprawdzić wykorzystanie i jak anulować na iPhonie albo Androidzie.
+description: Co obejmują plany Free, okres próbny, Essential, Advanced i Expert, jak wykupić subskrypcję albo przejść na wyższy plan, gdzie sprawdzić wykorzystanie i jak anulować.
 section: Cora Mobile
 reviewed: 2026-10-18
-order: 37
+order: 38
 group: Settings and account
 ---
 

@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Automationen und Szenen | Cora Help</title>
-  <meta name="description" content="Cora von selbst handeln lassen, wenn ein Messwert, eine Warnung, eine Uhrzeit oder ein Gerät offline geht, und Aktionen zu Szenen zusammenfassen, die du mit einem Tippen startest.">
+  <title>Automationen und Szenen | Cora Hilfe</title>
+  <meta name="description" content="Cora von selbst handeln lassen, wenn ein Messwert, eine Warnung, eine Uhrzeit oder ein Gerät offline geht, und Aktionen zu Ein-Tipp-Szenen bündeln.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/de/help/mobile-automation">
   <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/mobile-automation">
@@ -16,8 +16,8 @@
   <link rel="alternate" hreflang="pl" href="https://coraiq.tech/pl/help/mobile-automation">
   <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/mobile-automation">
   <meta property="og:site_name" content="Cora">
-  <meta property="og:title" content="Automationen und Szenen | Cora Help">
-  <meta property="og:description" content="Cora von selbst handeln lassen, wenn ein Messwert, eine Warnung, eine Uhrzeit oder ein Gerät offline geht, und Aktionen zu Szenen zusammenfassen, die du mit einem Tippen startest.">
+  <meta property="og:title" content="Automationen und Szenen | Cora Hilfe">
+  <meta property="og:description" content="Cora von selbst handeln lassen, wenn ein Messwert, eine Warnung, eine Uhrzeit oder ein Gerät offline geht, und Aktionen zu Ein-Tipp-Szenen bündeln.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/de/help/mobile-automation">
   <meta property="og:image" content="https://coraiq.tech/og-image.png">
@@ -214,7 +214,7 @@
 <p>Jede Aktion, die eine Regel ausführt, wird mit <strong>Automationsregel</strong> als Auslöser festgehalten. Du findest sie unter <a href="/de/help/mobile-activity">Aktivität</a>.</p>
 <p>Ein Schritt, der fehlschlägt oder warten müsste, bleibt nicht offen. Er verfällt sofort, der Lauf wird als fehlgeschlagen festgehalten, und du bekommst eine Benachrichtigung, die die Automation, den Schritt und den Grund nennt. Ein Schritt scheitert zum Beispiel, wenn sein Gerät offline ist, kein Cora Max ihn ausführen kann, das Gerät ihn ablehnt oder nicht antwortet oder ein Heizer oder Kühler gerade erst geschaltet wurde. Für einen Schritt in einem entfernten Becken bekommst du keine Benachrichtigung.</p>
       <nav class="pn" aria-label="Weiterlesen"><a class="pn-p" href="/de/help/mobile-notifications"><span>Zurück</span><b>Benachrichtigungen</b></a><a class="pn-n" href="/de/help/mobile-vacation"><span>Weiter</span><b>Verreisen: ein Plan für deine Urlaubsvertretung</b></a></nav>
-      <p class="stamp">Geschrieben für Cora Max 0.28.222 und Cora Mobile 1.4.3. Zuletzt geprüft am 2026-10-18.</p>
+      <p class="stamp">Geschrieben für Cora Max 0.28.238 und Cora Mobile 1.4.14. Zuletzt geprüft am 2026-10-24.</p>
       <p class="ask">Kommst du nicht weiter? Schreib eine E-Mail an <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, wir helfen dir.</p>
     </article>
   </main>
@@ -605,7 +605,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/de/help/search.json?v=8435023843').then(function (r) { return r.json(); })
+    fetch('/de/help/search.json?v=f36c594b9d').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "de"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Die Suche ist nicht verf\u00fcgbar. Nutze die Navigation." + '</li>';

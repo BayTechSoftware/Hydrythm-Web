@@ -3,7 +3,7 @@ title: Aktivität und Zeitleiste
 description: Jede Änderung sehen, die an deine Ausrüstung geschickt wurde, wer oder was sie ausgelöst hat und ob sie geklappt hat, und die Zeitleiste des Beckens rund um ein Datum lesen.
 section: Cora Mobile
 reviewed: 2026-10-18
-order: 30
+order: 31
 group: Records
 twin: max-activity
 ---

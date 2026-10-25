@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Najczęstsze pytania | Cora Help</title>
+  <title>Najczęstsze pytania | Pomoc Cora</title>
   <meta name="description" content="Krótkie odpowiedzi o tym, czego potrzebujesz, o Cora Max, korzystaniu z Cory poza domem, sprzęcie, alertach, Reef Buddy, językach, planach i Twoich danych.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/pl/help/faq">
@@ -16,7 +16,7 @@
   <link rel="alternate" hreflang="pl" href="https://coraiq.tech/pl/help/faq">
   <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/faq">
   <meta property="og:site_name" content="Cora">
-  <meta property="og:title" content="Najczęstsze pytania | Cora Help">
+  <meta property="og:title" content="Najczęstsze pytania | Pomoc Cora">
   <meta property="og:description" content="Krótkie odpowiedzi o tym, czego potrzebujesz, o Cora Max, korzystaniu z Cory poza domem, sprzęcie, alertach, Reef Buddy, językach, planach i Twoich danych.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/pl/help/faq">
@@ -182,7 +182,7 @@
 <h3 id="can-i-try-cora-before-i-sign-up">Czy mogę wypróbować Corę przed rejestracją?</h3>
 <p>Tak. Na ekranie logowania dotknij <strong>Zobacz przykładową rafę</strong>. To przykładowe akwarium i nie potrzebujesz do niego konta. Więcej w <a href="/pl/help/mobile-setup">Konfiguracji Cora Mobile</a>.</p>
 <h3 id="my-tank-is-still-cycling">Moje akwarium wciąż się cykluje. Czy Cora może pomóc?</h3>
-<p>Tak. Dotknij <strong>Zaczynasz nowe akwarium?</strong> na panelu, żeby rozpocząć ścieżkę cyklowania. Karta pokazuje się tylko przy akwarium bez odczytów, więc zrób to, zanim zapiszesz test albo podłączysz sprzęt. Więcej w <a href="/pl/help/mobile-journeys">Ścieżkach z przewodnikiem</a>.</p>
+<p>Tak. Dotknij <strong>Zaczynasz nowe akwarium?</strong> na panelu, żeby rozpocząć ścieżkę cyklowania. Karta pokazuje się, dopóki akwarium nie ma odczytów. Potem użyj tej samej karty u góry profilu akwarium. Możesz też włączyć <strong>To zupełnie nowe akwarium, które cykluję</strong> przy dodawaniu akwarium. Więcej w <a href="/pl/help/mobile-journeys">Ścieżkach z przewodnikiem</a>.</p>
 <h3 id="what-does-tank-profile-mean">Co oznacza „profil akwarium” i dlaczego zadaje tyle pytań?</h3>
 <p>Profil akwarium opisuje Twój system: rozmiar, obsadę, oświetlenie i to, jak dozujesz i testujesz. Cora używa Twoich odpowiedzi, żeby ustawić rozsądne zakresy początkowe i żeby Reef Buddy i Cora Assistant mówili o Twoim akwarium, a nie o rafach w ogóle. Każdą sekcję możesz pominąć. Więcej w <a href="/pl/help/mobile-tank-profile">Profilu akwarium</a>.</p>
 <h3 id="how-long-does-setup-take">Ile trwa konfiguracja?</h3>
@@ -279,7 +279,7 @@
 <hr>
 <p>Nadal nie ma odpowiedzi? <a href="/pl/help/troubleshooting">Rozwiązywanie problemów</a> przechodzi przez rozwiązania objaw po objawie. Możesz też napisać na <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>.</p>
       <nav class="pn" aria-label="Czytaj dalej"><a class="pn-p" href="/pl/help/equipment-by-brand"><span>Poprzedni</span><b>Sprzęt według marki</b></a><a class="pn-n" href="/pl/help/glossary"><span>Następny</span><b>Słownik</b></a></nav>
-      <p class="stamp">Napisano dla Cora Max 0.28.222 i Cora Mobile 1.4.3. Ostatnio sprawdzono 2026-10-18.</p>
+      <p class="stamp">Napisano dla Cora Max 0.28.238 i Cora Mobile 1.4.14. Ostatnio sprawdzono 2026-10-24.</p>
       <p class="ask">Wciąż masz problem? Napisz na <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, pomożemy.</p>
     </article>
   </main>
@@ -670,7 +670,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/pl/help/search.json?v=c5b79dad05').then(function (r) { return r.json(); })
+    fetch('/pl/help/search.json?v=aede854401').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "pl"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Wyszukiwanie jest niedost\u0119pne. U\u017cyj menu." + '</li>';

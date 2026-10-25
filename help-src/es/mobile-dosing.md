@@ -3,7 +3,7 @@ title: Productos de dosificación y la calculadora de dosis
 description: Comprueba la concentración de tus productos de alcalinidad, calcio y magnesio, añade los tuyos y usa la calculadora de dosis para saber cuánto añadir.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 27
+order: 28
 group: Records
 ---
 

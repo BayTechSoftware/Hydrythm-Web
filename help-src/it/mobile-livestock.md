@@ -3,7 +3,7 @@ title: Popolazione
 description: Aggiungi i coralli, i pesci e gli invertebrati della tua vasca e registra perdite, frag, vendite e trasferimenti, così in seguito puoi notare degli schemi.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 29
+order: 30
 group: Records
 twin: max-records
 ---

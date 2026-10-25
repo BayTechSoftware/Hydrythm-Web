@@ -12,6 +12,7 @@ Le parole che incontri in Cora Mobile e su Cora Max, in ordine alfabetico. Ognun
 
 Il controller KH AquaWiz, un tester di alcalinità. Cora lo legge attraverso il cloud di AquaWiz. Vedi [Attrezzatura per marca](/help/equipment-by-brand).
 
+
 ## Attesa {#cooldown}
 
 Il tempo minimo che Cora aspetta prima di inviare di nuovo lo stesso avviso, da 15 minuti a una settimana. Evita che un unico problema in corso ti mandi notifiche ogni pochi minuti. La imposti per ogni regola di avviso come **Attesa tra gli avvisi**. Vedi [Avvisi e soglie](/help/mobile-alerts).

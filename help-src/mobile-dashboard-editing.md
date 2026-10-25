@@ -41,6 +41,7 @@ You only see parameters the tank has. A parameter with no source shows up once y
 
 The grid holds up to 20 rows. When it's full, Cora says **Dashboard is full: remove a tile first.** A graph needs two free cells side by side.
 
+
 When you remove a device from a tank, its tiles leave the dashboard by themselves, on your phone and on every Cora Max of that tank. A tile whose device has gone says **This device is no longer on this tank** and opens nothing.
 
 ## Arranging widgets {#arranging-widgets}

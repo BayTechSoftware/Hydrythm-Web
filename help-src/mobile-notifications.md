@@ -3,7 +3,7 @@ title: Notifications
 description: Choose which notifications reach your phone, keep nights quiet, read what you missed under the bell, and fix notifications that don't arrive.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 23
+order: 24
 group: Alerts and automation
 ---
 

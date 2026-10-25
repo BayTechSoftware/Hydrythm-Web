@@ -2,8 +2,8 @@
 title: Avvisi e soglie
 description: Imposta l'intervallo ideale di ogni lettura, scegli ogni quanto un avviso può notificarti e scopri perché un dispositivo "ha smesso di inviare dati".
 section: Cora Mobile
-reviewed: 2026-10-18
-order: 22
+reviewed: 2026-10-24
+order: 23
 group: Alerts and automation
 twin: max-alerts
 ---

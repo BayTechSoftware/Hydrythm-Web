@@ -16,6 +16,7 @@ Takip ettiğiniz bir su sistemi. Bir frag sistemi ya da karantina akvaryumu ayr�
 
 Bir alkalinite test cihazı olan AquaWiz KH Controller. Cora onu AquaWiz'in kendi bulutu üzerinden okur. [Markaya göre ekipman](/help/equipment-by-brand) sayfasına bakın.
 
+
 ## Bekleme süresi {#cooldown}
 
 Cora'nın aynı uyarıyı yeniden göndermeden önce beklediği en kısa süre, 15 dakikadan bir haftaya kadar. Süren tek bir sorunun sizi birkaç dakikada bir rahatsız etmesini önler. Onu her uyarı kuralı için **Uyarılar arası bekleme süresi** olarak ayarlarsınız. [Uyarılar ve eşikler](/help/mobile-alerts) sayfasına bakın.

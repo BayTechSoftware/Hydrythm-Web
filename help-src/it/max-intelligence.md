@@ -1,8 +1,8 @@
 ---
 title: Reef Buddy e report
-description: Il briefing mattutino di Reef Buddy su Cora Max, il riscontro sulle osservazioni, la registrazione della cura delle sonde, i risultati ICP, i report di salute e i grafici dello storico.
+description: Il briefing mattutino di Reef Buddy su Cora Max, il riscontro sulle osservazioni, la cura delle sonde, i risultati ICP, i report di salute e i grafici dello storico.
 section: Cora Max
-reviewed: 2026-10-13
+reviewed: 2026-10-24
 order: 12
 group: Intelligence
 twin: mobile-reef-buddy
@@ -31,7 +31,7 @@ Dopo che registri un test o aggiungi un risultato ICP, la schermata mostra **Nuo
 Tocca una scheda nell'elenco per aprirla a destra.
 
 - **Perché lo vedo?** mostra le letture, l'obiettivo e le voci del diario su cui si basa.
-- La riga di feedback sotto ogni scheda: **Utile**, **Non utile**, **Lo sapevo già** o **Non corrisponde**. **Non utile** e **Non corrisponde** nascondono il riscontro per 14 giorni, **Lo sapevo già** per 7. Gli avvisi e i riscontri critici non vengono mai nascosti. Su una lettura che si è mossa, **Non corrisponde** propone di escludere le letture sbagliate. Cora usa le tue risposte per conoscere la tua vasca.
+- La riga di feedback sotto ogni scheda: **Utile**, **Non utile**, **Lo sapevo già** o **Non corrisponde**. Su un'osservazione, **Non utile** e **Non corrisponde** nascondono il riscontro per 14 giorni, **Lo sapevo già** per 7. Su una lettura che si è mossa, solo **Non utile** la nasconde (14 giorni), e **Non corrisponde** propone di escludere le letture sbagliate. Gli avvisi e i riscontri critici non vengono mai nascosti. Cora usa le tue risposte per conoscere la tua vasca.
 
 Quando Cora ha dubbi su una lettura, la mostra in **Vale un controllo**, per esempio una sonda che potrebbe derivare. Lì puoi:
 

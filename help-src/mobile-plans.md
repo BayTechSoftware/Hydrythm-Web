@@ -3,7 +3,7 @@ title: Plans and subscriptions
 description: What the Free, trial, Essential, Advanced and Expert plans include, how to subscribe or upgrade, where to see your usage, and how to cancel on iPhone or Android.
 section: Cora Mobile
 reviewed: 2026-10-18
-order: 37
+order: 38
 group: Settings and account
 ---
 

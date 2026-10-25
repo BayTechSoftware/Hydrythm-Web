@@ -1,6 +1,6 @@
 ---
 title: Programmare l'attrezzatura
-description: Crea una programmazione giornaliera per una pompa Jecod e copiala tra le pompe.
+description: Crea una programmazione giornaliera per una pompa Jecod, copiala tra le pompe, salvala e condividila e controlla che la pompa l'abbia ricevuta.
 section: Cora Mobile
 reviewed: 2026-10-17
 order: 14

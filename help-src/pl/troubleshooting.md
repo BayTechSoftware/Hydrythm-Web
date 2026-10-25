@@ -2,7 +2,7 @@
 title: Rozwiązywanie problemów
 description: Napraw nieaktualny odczyt, urządzenie w trybie offline, polecenie, które nie przeszło, Cora Max, którego nie da się sparować, albo alert, który nie znika.
 section: Help
-reviewed: 2026-10-18
+reviewed: 2026-10-24
 order: 1
 ---
 
@@ -224,6 +224,16 @@ Spójrz na etykietę stanu na górnym pasku. **Online** i **Chmura** są w porz�
 ### Cora Max pokazuje „Hasło Apex” {#cora-max-shows-apex-password}
 
 Twój Apex odrzucił logowanie zapisane w Corze, zwykle dlatego, że zmieniono hasło Apex. W telefonie otwórz **Urządzenia**, potem swój Apex, i dotknij **Edytuj połączenie** w **Połączenie**, żeby wpisać nowe.
+
+### „Apex odrzucił ten login” {#the-apex-refused-this-login}
+
+Ten komunikat zobaczysz po dotknięciu **Dalej** przy dodawaniu albo edycji Neptune Apex. Cora wypróbowała login, który wpisano (jeśli wpisano hasło), potem fabryczny login Apex, a na końcu brak loginu, i Apex odrzucił wszystkie.
+
+1. Dotknij **Anuluj**.
+2. Sprawdź nazwę użytkownika i hasło ustawione w Apex, w **Network Setup**, **Login**. Jeśli Twój Apex nie ma logowania, zostaw oba pola puste.
+3. Wpisz je ponownie i dotknij **Dalej**.
+
+**Zapisz mimo to** zachowuje wpisane dane bez zaliczonego testu. Użyj tego tylko wtedy, gdy masz pewność, że login jest poprawny. Jeśli później zmienisz login w Apex, wpisz nowy tak, jak opisano w [Cora Max pokazuje „Hasło Apex”](#cora-max-shows-apex-password).
 
 ### Cora Max pokazuje „Zapis w chmurze odrzucony” {#cora-max-shows-cloud-save-refused}
 

@@ -2,8 +2,8 @@
 title: Automatisations et scènes
 description: Faites agir Cora tout seul selon une mesure, une alerte, une heure ou un appareil qui se déconnecte, et regroupez des actions en scènes que vous lancez d’un seul appui.
 section: Cora Mobile
-reviewed: 2026-10-18
-order: 24
+reviewed: 2026-10-24
+order: 25
 group: Alerts and automation
 twin: max-automation
 ---

@@ -1,9 +1,9 @@
 ---
 title: ICP ve sağlık raporları
-description: Bir ICP testi PDF'i yükleyin ya da laboratuvarınızın göndermesini sağlayın, puanı okuyun, her elementi zaman içinde izleyin ve tüm sisteminiz için bir Sağlık Raporu çalıştırın.
+description: ICP testi PDF'i yükleyin ya da laboratuvarınızın göndermesini sağlayın, puanı okuyun, her elementi zaman içinde izleyin ve Sağlık Raporu çalıştırın.
 section: Cora Mobile
 reviewed: 2026-10-17
-order: 33
+order: 34
 group: Intelligence
 twin: max-intelligence
 ---

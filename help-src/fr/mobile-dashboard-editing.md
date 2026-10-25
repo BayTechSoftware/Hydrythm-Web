@@ -1,6 +1,6 @@
 ---
 title: Modifier votre tableau de bord
-description: Ajoutez, déplacez, redimensionnez et retirez des widgets sur le tableau de bord de votre téléphone, réglez le nombre de colonnes et modifiez un tableau de bord Cora Max depuis votre téléphone.
+description: Ajoutez, déplacez, redimensionnez et retirez des widgets sur le tableau de bord du téléphone, réglez les colonnes et modifiez un tableau de bord Cora Max à distance.
 section: Cora Mobile
 reviewed: 2026-10-18
 order: 8
@@ -40,6 +40,7 @@ Choisissez **2**, **3** ou **4** à côté de **COLONNES** en haut de l’édite
 Vous ne voyez que les paramètres de l’aquarium. Un paramètre sans source apparaît dès que vous connectez un équipement qui le mesure, ou que vous notez une mesure à la main.
 
 La grille contient jusqu’à 20 lignes. Quand elle est pleine, Cora indique **Le tableau de bord est plein : retirez une tuile d’abord.** Un graphique a besoin de deux cases libres côte à côte.
+
 
 Quand vous retirez un appareil d’un aquarium, ses tuiles quittent le tableau de bord toutes seules, sur votre téléphone et sur chaque Cora Max de cet aquarium. Une tuile dont l’appareil a disparu affiche **Cet appareil n'est plus dans cet aquarium** et n’ouvre rien.
 

@@ -2,7 +2,7 @@
 title: Setting up Cora Mobile
 description: Install Cora Mobile, create your account, add your first tank and get your first readings on screen, step by step.
 section: Cora Mobile
-reviewed: 2026-10-18
+reviewed: 2026-10-24
 order: 1
 group: Getting started
 twin: max-setup
@@ -59,7 +59,7 @@ After you sign in, **Let's meet your tank** asks three things. Only the name is 
 Tap **Create my tank**.
 
 :::note Is your tank still cycling?
-Tap **Starting a new tank?** on the dashboard **before** you log a test or link equipment. That card only shows on a tank with no readings at all, and it's how you turn on guided cycling. More in [Guided journeys](/help/mobile-journeys).
+Tap **Starting a new tank?** on the dashboard. That card shows while the tank has no readings. If you have already logged a test, open the tank's profile and tap the same card at the top: it works at any time. More in [Guided journeys](/help/mobile-journeys).
 
 Cora also judges readings against what's normal for a tank of that age. The wizard doesn't ask for it, so set **Tank start date** in your tank profile, under **Tank Dimensions**.
 :::

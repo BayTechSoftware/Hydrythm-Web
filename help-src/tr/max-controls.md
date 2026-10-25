@@ -1,6 +1,6 @@
 ---
 title: Prizler ve kontroller
-description: Cora Max'ten Apex prizlerini açıp kapatın, besleme modunu başlatın ya da iptal edin, Prizler ve Besleme çekmecesini kullanın; Otomatik, Kapalı ve Açık'ın ne anlama geldiğini öğrenin.
+description: Cora Max'ten Apex prizlerini açıp kapatın, besleme modunu başlatın ya da iptal edin ve Otomatik, Kapalı ve Açık'ın ne anlama geldiğini öğrenin.
 section: Cora Max
 reviewed: 2026-10-13
 order: 5

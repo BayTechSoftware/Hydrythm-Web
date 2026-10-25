@@ -2,7 +2,7 @@
 title: Controlling your equipment
 description: Open a device's page to see its live state and switch outlets, pumps, dosing heads and testers, brand by brand.
 section: Cora Mobile
-reviewed: 2026-10-18
+reviewed: 2026-10-24
 order: 13
 group: Equipment
 twin: max-device-control
@@ -206,7 +206,7 @@ Under **Controller** on the device page, Cora shows what the controller reports,
 
 - the target KH;
 - how much alkalinity supplement is left, with the warning level you set on the controller (*low at 100 mL*, for example);
-- how many mL one dKH needs (*mL per 1 dKH*);
+- how many mL one dKH needs (*48 mL per dKH dose*, for example);
 - the maximum dose per measurement (*Up to 20 mL per measurement*);
 - the firmware version.
 

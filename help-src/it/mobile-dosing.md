@@ -3,7 +3,7 @@ title: Prodotti di dosaggio e calcolatore di dosaggio
 description: Controlla la concentrazione dei tuoi prodotti per alcalinità, calcio e magnesio, aggiungi i tuoi e usa il calcolatore di dosaggio per sapere quanto aggiungere.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 27
+order: 28
 group: Records
 ---
 

@@ -2,8 +2,8 @@
 title: Automatizaciones y escenas
 description: Haz que Cora actúe sola ante una lectura, una alerta, una hora o un dispositivo que se desconecta, y agrupa acciones en escenas que ejecutas con un toque.
 section: Cora Mobile
-reviewed: 2026-10-18
-order: 24
+reviewed: 2026-10-24
+order: 25
 group: Alerts and automation
 twin: max-automation
 ---

@@ -1,6 +1,6 @@
 ---
 title: Ustawienia Cora Max
-description: Wszystkie ustawienia Cora Max, od zmiany nazwy, jasności, nocnego przygaszania, głośnika i słowa aktywującego po blokadę rodzicielską, język, Wi-Fi, ponowne parowanie i ustawienia fabryczne.
+description: Wszystkie ustawienia Cora Max, od nazwy, jasności i nocnego przygaszania po blokadę rodzicielską, język, Wi-Fi, ponowne parowanie i ustawienia fabryczne.
 section: Cora Max
 reviewed: 2026-10-18
 order: 14

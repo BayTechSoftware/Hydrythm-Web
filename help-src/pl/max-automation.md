@@ -2,7 +2,7 @@
 title: Sceny na Cora Max
 description: Twórz, uruchamiaj, edytuj i usuwaj sceny na Cora Max, z Ustawienia → Automatyzacje albo z kafelka sceny na panelu.
 section: Cora Max
-reviewed: 2026-10-18
+reviewed: 2026-10-24
 order: 9
 group: Alerts and automation
 twin: mobile-automation

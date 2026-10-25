@@ -3,7 +3,7 @@ title: Canlılar
 description: Akvaryumunuzdaki mercanları, balıkları ve omurgasızları ekleyin; kayıpları, fragları, satışları ve taşımaları kaydedin, böylece ileride örüntüleri fark edin.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 29
+order: 30
 group: Records
 twin: max-records
 ---

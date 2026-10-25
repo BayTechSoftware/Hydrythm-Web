@@ -2,7 +2,7 @@
 title: Troubleshooting
 description: Fix a stale reading, a device that went offline, a command that didn't go through, a Cora Max that won't pair, or an alert that won't clear.
 section: Help
-reviewed: 2026-10-18
+reviewed: 2026-10-24
 order: 1
 ---
 
@@ -224,6 +224,16 @@ Look at the status tag in the top bar. **Online** and **Cloud** are both fine. I
 ### Cora Max shows "Apex password" {#cora-max-shows-apex-password}
 
 Your Apex turned down the sign-in Cora has saved, usually because the Apex password was changed. On your phone, open **Devices**, then your Apex, and tap **Edit connection** under **Connection** to enter the new one.
+
+### "The Apex refused this login" {#the-apex-refused-this-login}
+
+You see this when you tap **Continue** while adding or editing a Neptune Apex. Cora tried the login you typed (if you entered a password), then the Apex's factory login, then no login, and the Apex turned all of them down.
+
+1. Tap **Cancel**.
+2. Check the username and password set on the Apex, under **Network Setup**, **Login**. If your Apex has no login, leave both fields empty.
+3. Type them again and tap **Continue**.
+
+**Save anyway** keeps what you typed without the test passing. Use it only if you know the login is right. If you change the login on the Apex later, enter the new one as described in [Cora Max shows "Apex password"](#cora-max-shows-apex-password).
 
 ### Cora Max shows "Cloud save refused" {#cora-max-shows-cloud-save-refused}
 

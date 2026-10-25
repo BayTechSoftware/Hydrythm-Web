@@ -3,7 +3,7 @@ title: Etkinlik ve zaman çizelgesi
 description: Ekipmanınıza gönderilen her değişikliği, onu kimin ya da neyin istediğini ve çalışıp çalışmadığını görün, bir tarihin çevresinde akvaryumun zaman çizelgesini okuyun.
 section: Cora Mobile
 reviewed: 2026-10-18
-order: 30
+order: 31
 group: Records
 twin: max-activity
 ---

@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Dein Beckenprofil | Cora Help</title>
+  <title>Dein Beckenprofil | Cora Hilfe</title>
   <meta name="description" content="Volumen, Typ, Besatz, Beleuchtung, Dosierung und Ausrüstung deines Beckens eintragen oder ändern, die Cora nutzt, um Messwerte zu beurteilen und Dosierungen zu berechnen.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/de/help/mobile-tank-profile">
@@ -16,7 +16,7 @@
   <link rel="alternate" hreflang="pl" href="https://coraiq.tech/pl/help/mobile-tank-profile">
   <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/mobile-tank-profile">
   <meta property="og:site_name" content="Cora">
-  <meta property="og:title" content="Dein Beckenprofil | Cora Help">
+  <meta property="og:title" content="Dein Beckenprofil | Cora Hilfe">
   <meta property="og:description" content="Volumen, Typ, Besatz, Beleuchtung, Dosierung und Ausrüstung deines Beckens eintragen oder ändern, die Cora nutzt, um Messwerte zu beurteilen und Dosierungen zu berechnen.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/de/help/mobile-tank-profile">
@@ -200,7 +200,7 @@
 <aside class="cal cal-warning"><p class="cal-t">Dosierungen hängen direkt am Volumen</p><p>Ist das Volumen 20 % zu hoch, sind auch die Dosiervorschläge 20 % zu hoch. Bist du nicht sicher, miss es. Rate nicht.</p></aside>
 <h2 id="tank-age">Beckenalter</h2>
 <p>Stell unter <strong>Beckenmaße</strong> das <strong>Startdatum des Beckens</strong> ein. Cora beurteilt Messwerte danach, was für ein Becken dieses Alters normal ist, ein drei Monate altes System und ein fünf Jahre altes werden also unterschiedlich beurteilt.</p>
-<p>Fährt das Becken noch ein, tippe auf dem Dashboard auf die Karte <strong>Startest du ein neues Becken?</strong>, um das geführte Einfahren zu starten. Mach das, bevor du den ersten Test einträgst oder Ausrüstung verknüpfst, denn die Karte erscheint nur bei einem Becken ganz ohne Messwerte. Mehr dazu unter <a href="/de/help/mobile-journeys">Geführte Journeys</a>.</p>
+<p>Fährt das Becken noch ein, tippe oben in diesem Profil auf die Karte <strong>Startest du ein neues Becken?</strong>, um das geführte Einfahren zu starten. Das geht jederzeit, auch nachdem du Messwerte eingetragen hast. Mehr dazu unter <a href="/de/help/mobile-journeys">Geführte Journeys</a>.</p>
 <h2 id="keeping-the-profile-current">Das Profil aktuell halten</h2>
 <p>Aktualisiere das Profil, wenn sich dein System ändert, etwa bei neuer Ausrüstung, anderem Besatz oder einem neuen Dosierschema. Cora arbeitet mit dem Profil, ist es veraltet, sind es die Empfehlungen also auch.</p>
 <h2 id="adding-another-tank">Ein weiteres Becken hinzufügen</h2>
@@ -208,7 +208,7 @@
 <h2 id="removing-a-tank">Ein Becken entfernen</h2>
 <p><strong>Becken entfernen</strong> steht ganz unten im Profil. Es blendet das Becken aus und behält seine Daten, und du kannst es später zurückholen. Lies vorher <a href="/de/help/mobile-tanks#removing-a-tank">Ein Becken entfernen</a>, denn manches läuft weiter.</p>
       <nav class="pn" aria-label="Weiterlesen"><a class="pn-p" href="/de/help/mobile-tour"><span>Zurück</span><b>So findest du dich in Cora Mobile zurecht</b></a><a class="pn-n" href="/de/help/mobile-tanks"><span>Weiter</span><b>Deine Becken verwalten</b></a></nav>
-      <p class="stamp">Geschrieben für Cora Max 0.28.222 und Cora Mobile 1.4.3. Zuletzt geprüft am 2026-10-13.</p>
+      <p class="stamp">Geschrieben für Cora Max 0.28.238 und Cora Mobile 1.4.14. Zuletzt geprüft am 2026-10-24.</p>
       <p class="ask">Kommst du nicht weiter? Schreib eine E-Mail an <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, wir helfen dir.</p>
     </article>
   </main>
@@ -599,7 +599,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/de/help/search.json?v=8435023843').then(function (r) { return r.json(); })
+    fetch('/de/help/search.json?v=f36c594b9d').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "de"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Die Suche ist nicht verf\u00fcgbar. Nutze die Navigation." + '</li>';

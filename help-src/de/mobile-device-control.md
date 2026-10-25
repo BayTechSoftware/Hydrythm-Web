@@ -2,7 +2,7 @@
 title: Deine Ausrüstung steuern
 description: Die Seite eines Geräts öffnen, um seinen Live-Zustand zu sehen und Steckdosen, Pumpen, Dosierköpfe und Tester zu schalten, Marke für Marke.
 section: Cora Mobile
-reviewed: 2026-10-18
+reviewed: 2026-10-24
 order: 13
 group: Equipment
 twin: max-device-control
@@ -206,7 +206,7 @@ Unter **Controller** auf der Geräteseite zeigt Cora, was der Controller meldet,
 
 - den KH-Zielwert;
 - wie viel Alkalinitäts-Zusatz noch übrig ist, mit der Warnstufe, die du am Controller eingestellt hast (zum Beispiel *niedrig ab 100 mL*);
-- wie viele mL für 1 dKH nötig sind (*mL pro 1 dKH*);
+- wie viele mL für 1 dKH nötig sind (zum Beispiel *48 mL pro dKH-Dosis*);
 - die maximale Dosis pro Messung (*Bis zu 20 mL pro Messung*);
 - die Firmware-Version.
 

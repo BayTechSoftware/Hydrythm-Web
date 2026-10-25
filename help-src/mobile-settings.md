@@ -3,7 +3,7 @@ title: Cora Mobile settings
 description: Where everything is in Cora Mobile's Settings tab, from your account and plan to tanks, Cora Assistant, language, dark mode, notifications and support.
 section: Cora Mobile
 reviewed: 2026-10-18
-order: 35
+order: 36
 group: Settings and account
 twin: max-settings
 ---

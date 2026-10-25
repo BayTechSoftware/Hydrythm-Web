@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Preguntas frecuentes | Cora Help</title>
+  <title>Preguntas frecuentes | Ayuda de Cora</title>
   <meta name="description" content="Respuestas breves sobre lo que necesitas, Cora Max, usar Cora fuera de casa, los equipos, las alertas, Reef Buddy, los idiomas, los planes y tus datos.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/es/help/faq">
@@ -16,7 +16,7 @@
   <link rel="alternate" hreflang="pl" href="https://coraiq.tech/pl/help/faq">
   <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/faq">
   <meta property="og:site_name" content="Cora">
-  <meta property="og:title" content="Preguntas frecuentes | Cora Help">
+  <meta property="og:title" content="Preguntas frecuentes | Ayuda de Cora">
   <meta property="og:description" content="Respuestas breves sobre lo que necesitas, Cora Max, usar Cora fuera de casa, los equipos, las alertas, Reef Buddy, los idiomas, los planes y tus datos.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/es/help/faq">
@@ -182,7 +182,7 @@
 <h3 id="can-i-try-cora-before-i-sign-up">¿Puedo probar Cora antes de registrarme?</h3>
 <p>Sí. En la pantalla de inicio de sesión, toca <strong>Explora un arrecife de demostración</strong>. Es un acuario de ejemplo, y no necesitas cuenta. Más información en <a href="/es/help/mobile-setup">Configurar Cora Mobile</a>.</p>
 <h3 id="my-tank-is-still-cycling">Mi acuario todavía está haciendo el ciclo. ¿Me puede ayudar Cora?</h3>
-<p>Sí. Toca <strong>¿Estás empezando un acuario nuevo?</strong> en el panel para empezar el itinerario de ciclado. La tarjeta solo aparece en un acuario que todavía no tiene lecturas, así que hazlo antes de registrar una prueba o vincular equipos. Más información en <a href="/es/help/mobile-journeys">Itinerarios guiados</a>.</p>
+<p>Sí. Toca <strong>¿Estás empezando un acuario nuevo?</strong> en el panel para empezar el itinerario de ciclado. La tarjeta aparece mientras el acuario no tiene lecturas. Después, usa la misma tarjeta arriba en el perfil del acuario. También puedes activar <strong>Es un acuario nuevo que estoy ciclando</strong> al agregar el acuario. Más información en <a href="/es/help/mobile-journeys">Itinerarios guiados</a>.</p>
 <h3 id="what-does-tank-profile-mean">¿Qué significa "perfil del acuario", y por qué hace tantas preguntas?</h3>
 <p>El perfil del acuario describe tu sistema: el tamaño, la fauna, la iluminación y cómo dosificas y haces pruebas. Cora usa tus respuestas para fijar rangos iniciales sensatos y para que Reef Buddy y Cora Assistant hablen de tu acuario y no de los arrecifes en general. Puedes saltarte cualquier sección. Más información en <a href="/es/help/mobile-tank-profile">El perfil de tu acuario</a>.</p>
 <h3 id="how-long-does-setup-take">¿Cuánto tarda la configuración?</h3>
@@ -279,7 +279,7 @@
 <hr>
 <p>¿Sigues sin encontrar la respuesta? <a href="/es/help/troubleshooting">Solución de problemas</a> recorre las soluciones síntoma a síntoma, o escribe a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>.</p>
       <nav class="pn" aria-label="Seguir leyendo"><a class="pn-p" href="/es/help/equipment-by-brand"><span>Anterior</span><b>Equipos por marca</b></a><a class="pn-n" href="/es/help/glossary"><span>Siguiente</span><b>Glosario</b></a></nav>
-      <p class="stamp">Escrito para Cora Max 0.28.222 y Cora Mobile 1.4.3. Última revisión el 2026-10-18.</p>
+      <p class="stamp">Escrito para Cora Max 0.28.238 y Cora Mobile 1.4.14. Última revisión el 2026-10-24.</p>
       <p class="ask">¿Sigues atascado? Escribe a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> y te ayudamos.</p>
     </article>
   </main>
@@ -670,7 +670,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/es/help/search.json?v=76cf023804').then(function (r) { return r.json(); })
+    fetch('/es/help/search.json?v=9384433ffe').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "es"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La b\u00fasqueda no est\u00e1 disponible. Usa la navegaci\u00f3n." + '</li>';

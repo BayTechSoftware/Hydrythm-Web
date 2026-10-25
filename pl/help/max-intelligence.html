@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Reef Buddy i raporty | Cora Help</title>
+  <title>Reef Buddy i raporty | Pomoc Cora</title>
   <meta name="description" content="Poranne podsumowanie Reef Buddy na Cora Max, ocenianie spostrzeżeń, zapisywanie konserwacji sond, wyniki ICP, raporty zdrowia i wykresy historii.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/pl/help/max-intelligence">
@@ -16,7 +16,7 @@
   <link rel="alternate" hreflang="pl" href="https://coraiq.tech/pl/help/max-intelligence">
   <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/max-intelligence">
   <meta property="og:site_name" content="Cora">
-  <meta property="og:title" content="Reef Buddy i raporty | Cora Help">
+  <meta property="og:title" content="Reef Buddy i raporty | Pomoc Cora">
   <meta property="og:description" content="Poranne podsumowanie Reef Buddy na Cora Max, ocenianie spostrzeżeń, zapisywanie konserwacji sond, wyniki ICP, raporty zdrowia i wykresy historii.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/pl/help/max-intelligence">
@@ -183,7 +183,7 @@
 <p>Po zapisaniu testu albo dodaniu wyniku ICP ekran pokazuje <strong>Są nowe pomiary od tego podsumowania</strong> i przycisk <strong>Zaktualizuj podsumowanie</strong>. Dotknij go, żeby przygotować podsumowanie od nowa z nowymi liczbami. Działa to raz dziennie. Potem ekran mówi <em>Podsumowanie możesz aktualizować raz dziennie. Następna aktualizacja: jutro.</em></p>
 <h3 id="reagowanie-na-spostrzezenie">Reagowanie na spostrzeżenie</h3>
 <p>Dotknij karty na liście, aby otworzyć ją po prawej.</p>
-<ul><li><strong>Dlaczego to widzę?</strong> pokazuje odczyty, cel i wpisy dziennika, na których się opiera.</li><li>Wiersz opinii pod każdą kartą: <strong>Wartościowe</strong>, <strong>Nieprzydatne</strong>, <strong>To już wiem</strong> albo <strong>Nie zgadza się</strong>. <strong>Nieprzydatne</strong> i <strong>Nie zgadza się</strong> ukrywają ustalenie na 14 dni, <strong>To już wiem</strong> na 7. Ostrzeżenia i ustalenia krytyczne nigdy nie są ukrywane. Przy odczycie, który się zmienił, <strong>Nie zgadza się</strong> proponuje wykluczenie błędnych odczytów. Cora używa twoich odpowiedzi, by poznać twoje akwarium.</li></ul>
+<ul><li><strong>Dlaczego to widzę?</strong> pokazuje odczyty, cel i wpisy dziennika, na których się opiera.</li><li>Wiersz opinii pod każdą kartą: <strong>Wartościowe</strong>, <strong>Nieprzydatne</strong>, <strong>To już wiem</strong> albo <strong>Nie zgadza się</strong>. Przy spostrzeżeniu <strong>Nieprzydatne</strong> i <strong>Nie zgadza się</strong> ukrywają ustalenie na 14 dni, a <strong>To już wiem</strong> na 7. Przy odczycie, który się zmienił, ukrywa go tylko <strong>Nieprzydatne</strong> (na 14 dni), a <strong>Nie zgadza się</strong> proponuje wykluczenie błędnych odczytów. Ostrzeżenia i ustalenia krytyczne nigdy nie są ukrywane. Cora używa twoich odpowiedzi, by poznać twoje akwarium.</li></ul>
 <p>Gdy Cora wątpi w odczyt, pokazuje go w <strong>Warto sprawdzić</strong>, na przykład sondę, która może dryfować. Możesz tam:</p>
 <ul><li>dotknąć <strong>Sprawdzone</strong>, żeby zapisać, co zrobiono z sondą,</li><li>dotknąć <strong>Dodaj do Konserwacji</strong>, żeby utworzyć z tego zadanie (<strong>Sprawdź sondę pH</strong> albo <strong>Zweryfikuj konfigurację dozowania</strong>), albo</li><li>dotknąć <strong>Odrzuć</strong>. Spostrzeżenie zamilknie, chyba że problem nie ustąpi.</li></ul>
 <h3 id="zapisywanie-konserwacji-sond">Zapisywanie konserwacji sond</h3>
@@ -206,7 +206,7 @@
 <p>Przy nowym akwarium, które się cykluje, możesz tu zapisywać odczyty. <strong>Zapisz test</strong> na ekranie cyklowania zapisuje amoniak, azotyny i azotany bez sięgania po telefon.</p>
 <p>Ścieżkę <strong>problemu</strong> możesz przy ścianie tylko przeglądać. Rozpoczęcie jej, zakończenie kroku, zapisanie wyniku oraz rozwiązanie albo zamknięcie odbywają się w telefonie. Więcej w <a href="/pl/help/mobile-journeys">Ścieżkach z przewodnikiem</a>.</p>
       <nav class="pn" aria-label="Czytaj dalej"><a class="pn-p" href="/pl/help/max-activity"><span>Poprzedni</span><b>Aktywność na Cora Max</b></a><a class="pn-n" href="/pl/help/max-voice"><span>Następny</span><b>Rozmowa z Corą</b></a></nav>
-      <p class="stamp">Napisano dla Cora Max 0.28.222 i Cora Mobile 1.4.3. Ostatnio sprawdzono 2026-10-13.</p>
+      <p class="stamp">Napisano dla Cora Max 0.28.238 i Cora Mobile 1.4.14. Ostatnio sprawdzono 2026-10-24.</p>
       <p class="ask">Wciąż masz problem? Napisz na <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, pomożemy.</p>
     </article>
   </main>
@@ -597,7 +597,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/pl/help/search.json?v=c5b79dad05').then(function (r) { return r.json(); })
+    fetch('/pl/help/search.json?v=aede854401').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "pl"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Wyszukiwanie jest niedost\u0119pne. U\u017cyj menu." + '</li>';

@@ -2,7 +2,7 @@
 title: Ekipmanınızı kontrol etme
 description: Canlı durumunu görmek ve prizleri, pompaları, dozaj kafalarını ve test cihazlarını marka marka değiştirmek için bir cihazın sayfasını açın.
 section: Cora Mobile
-reviewed: 2026-10-18
+reviewed: 2026-10-24
 order: 13
 group: Equipment
 twin: max-device-control
@@ -206,7 +206,7 @@ Cihaz sayfasındaki **Denetleyici** bölümünde Cora, kontrolörün bildirdikle
 
 - hedef KH;
 - ne kadar alkalinite takviyesi kaldığı ve kontrolörde belirlediğiniz uyarı seviyesi (örneğin *100 mL altında düşük*);
-- 1 dKH için kaç mL gerektiği (*1 dKH için mL*);
+- 1 dKH için kaç mL gerektiği (örneğin *dKH başına 48 mL doz*);
 - ölçüm başına en yüksek doz (*Ölçüm başına en fazla 20 mL*);
 - yazılım sürümü.
 

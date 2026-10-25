@@ -3,7 +3,7 @@ title: Dosing products and the dose calculator
 description: Check the strength of your alkalinity, calcium and magnesium products, add your own, and use the dose calculator to work out how much to add.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 27
+order: 28
 group: Records
 ---
 

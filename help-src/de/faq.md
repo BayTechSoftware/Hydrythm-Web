@@ -2,7 +2,7 @@
 title: Häufige Fragen
 description: Kurze Antworten dazu, was du brauchst, zu Cora Max, Cora unterwegs, Ausrüstung, Warnungen, Reef Buddy, Sprachen, Abos und deinen Daten.
 section: Help
-reviewed: 2026-10-18
+reviewed: 2026-10-24
 order: 4
 ---
 
@@ -26,7 +26,7 @@ Ja. Tippe auf dem Anmeldebildschirm auf **Ein Demo-Riff erkunden**. Das ist ein 
 
 ### Mein Becken fährt noch ein. Kann Cora helfen? {#my-tank-is-still-cycling}
 
-Ja. Tippe auf dem Dashboard auf **Startest du ein neues Becken?**, um die Einfahr-Journey zu starten. Die Karte erscheint nur bei einem Becken, das noch keine Messwerte hat. Mach es also, bevor du einen Test einträgst oder Ausrüstung verknüpfst. Mehr dazu unter [Geführte Journeys](/help/mobile-journeys).
+Ja. Tippe auf dem Dashboard auf **Startest du ein neues Becken?**, um die Einfahr-Journey zu starten. Die Karte erscheint, solange das Becken keine Messwerte hat. Danach nutzt du dieselbe Karte oben im Profil des Beckens. Beim Hinzufügen eines Beckens kannst du auch **Das ist ein brandneues Becken, das ich einfahre** einschalten. Mehr dazu unter [Geführte Journeys](/help/mobile-journeys).
 
 ### Was bedeutet "Beckenprofil", und warum fragt es so viel? {#what-does-tank-profile-mean}
 

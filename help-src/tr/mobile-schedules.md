@@ -1,6 +1,6 @@
 ---
 title: Ekipman zamanlamaları
-description: Bir Jecod pompası için günlük program hazırlayın ve pompalar arasında kopyalayın.
+description: Bir Jecod pompası için günlük program hazırlayın, pompalar arasında kopyalayın, kaydedip paylaşın ve pompanın programı aldığını kontrol edin.
 section: Cora Mobile
 reviewed: 2026-10-17
 order: 14

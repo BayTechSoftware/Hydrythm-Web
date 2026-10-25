@@ -1,6 +1,6 @@
 ---
 title: Paramètres de Cora Max
-description: Tous les réglages de Cora Max, du nom, de la luminosité, de l’atténuation nocturne, du haut-parleur et du mot d’activation au verrouillage enfant, à la langue, au Wi-Fi, à la nouvelle association et à la réinitialisation d’usine.
+description: Tous les réglages de Cora Max, du nom et de la luminosité au verrouillage enfant, à la langue, au Wi-Fi et à la réinitialisation d’usine.
 section: Cora Max
 reviewed: 2026-10-18
 order: 14

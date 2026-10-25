@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Ver un parámetro a fondo | Cora Help</title>
+  <title>Ver un parámetro a fondo | Ayuda de Cora</title>
   <meta name="description" content="Toca un widget para ver todo el historial de un parámetro, comparar fuentes y parámetros, excluir una lectura errónea y registrar el cuidado de una sonda.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/es/help/mobile-metric-detail">
@@ -16,7 +16,7 @@
   <link rel="alternate" hreflang="pl" href="https://coraiq.tech/pl/help/mobile-metric-detail">
   <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/mobile-metric-detail">
   <meta property="og:site_name" content="Cora">
-  <meta property="og:title" content="Ver un parámetro a fondo | Cora Help">
+  <meta property="og:title" content="Ver un parámetro a fondo | Ayuda de Cora">
   <meta property="og:description" content="Toca un widget para ver todo el historial de un parámetro, comparar fuentes y parámetros, excluir una lectura errónea y registrar el cuidado de una sonda.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/es/help/mobile-metric-detail">
@@ -204,7 +204,7 @@
 <p>Las lecturas se registran desde el panel, no desde esta pantalla. Toca <strong>Registrar parámetros</strong> debajo de los widgets e introduce lo que marca tu kit de pruebas. La lista está agrupada, y el grupo <strong>Oligoelementos</strong> incluye yodo, hierro y cobre en µg/L, y potasio en mg/L. Las lecturas a mano cuentan igual que las demás. Tienen su propia fuente y su hora, aparecen en el gráfico y Reef Buddy las usa. También son con lo que Cora compara tus equipos.</p>
 <aside class="cal cal-note"><p class="cal-t">Cora revisa los valores que parecen raros</p><p>Si un valor está muy lejos de lo que viene marcando el acuario, Cora te pide que lo confirmes antes de guardarlo. Así se detecta una coma decimal fuera de sitio o una lectura puesta en el parámetro equivocado. Cuando la confirmas, la lectura se guarda con normalidad.</p></aside>
       <nav class="pn" aria-label="Seguir leyendo"><a class="pn-p" href="/es/help/mobile-dashboard"><span>Anterior</span><b>Leer tu panel</b></a><a class="pn-n" href="/es/help/mobile-dashboard-editing"><span>Siguiente</span><b>Editar tu panel</b></a></nav>
-      <p class="stamp">Escrito para Cora Max 0.28.222 y Cora Mobile 1.4.3. Última revisión el 2026-10-17.</p>
+      <p class="stamp">Escrito para Cora Max 0.28.238 y Cora Mobile 1.4.14. Última revisión el 2026-10-17.</p>
       <p class="ask">¿Sigues atascado? Escribe a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> y te ayudamos.</p>
     </article>
   </main>
@@ -595,7 +595,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/es/help/search.json?v=76cf023804').then(function (r) { return r.json(); })
+    fetch('/es/help/search.json?v=9384433ffe').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "es"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La b\u00fasqueda no est\u00e1 disponible. Usa la navegaci\u00f3n." + '</li>';

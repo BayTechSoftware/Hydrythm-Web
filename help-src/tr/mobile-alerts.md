@@ -2,8 +2,8 @@
 title: Uyarılar ve eşikler
 description: Her ölçüm için sağlıklı aralığı ayarlayın, bir uyarının sizi ne sıklıkla bilgilendirebileceğini seçin ve bir cihazın neden "bildirim yapmıyor" olduğunu öğrenin.
 section: Cora Mobile
-reviewed: 2026-10-18
-order: 22
+reviewed: 2026-10-24
+order: 23
 group: Alerts and automation
 twin: max-alerts
 ---

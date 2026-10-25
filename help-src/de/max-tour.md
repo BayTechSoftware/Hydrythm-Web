@@ -1,6 +1,6 @@
 ---
 title: Der Cora Max-Startbildschirm
-description: Was die obere Leiste, die Statusanzeige, die Warnhinweise, das Beckenmenü und das Dashboard auf Cora Max bedeuten und wie du das Becken wechselst und Steckdosen & Füttern öffnest.
+description: Was die obere Leiste, die Statusanzeige, die Warnhinweise, das Beckenmenü und das Dashboard auf Cora Max bedeuten und wie du das Becken wechselst.
 section: Cora Max
 reviewed: 2026-10-13
 order: 2

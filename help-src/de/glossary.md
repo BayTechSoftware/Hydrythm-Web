@@ -24,6 +24,7 @@ Das Cora-Gerät, das antwortet, wenn du "Hey Cora" sagst. Du wählst es unter **
 
 Der AquaWiz KH Controller, ein Alkalinitätstester. Cora liest ihn über die eigene Cloud von AquaWiz. Siehe [Ausrüstung nach Marke](/help/equipment-by-brand).
 
+
 ## Auslöser {#trigger}
 
 Was eine [Automation](#automation) startet: ein Wasserwert, der einen Wert überschreitet, eine Warnung, eine Uhrzeit oder ein Gerät, das offline geht oder zurückkommt. Siehe [Automationen und Szenen](/help/mobile-automation).

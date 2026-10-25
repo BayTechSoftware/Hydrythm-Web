@@ -2,7 +2,7 @@
 title: Akvaryum profiliniz
 description: Cora'nın ölçümleri değerlendirmek ve dozları hesaplamak için kullandığı akvaryum hacmini, türünü, canlıları, aydınlatmayı, dozajı ve ekipmanı doldurun ya da değiştirin.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-24
 order: 3
 group: Getting started
 ---
@@ -83,7 +83,7 @@ Hacim %20 fazlaysa dozaj önerileri de %20 fazla olur. Emin değilseniz ölçün
 
 **Akvaryum Boyutları** altında **Akvaryum başlangıç tarihi**'ni ayarlayın. Cora ölçümleri o yaştaki bir akvaryum için normal olana göre değerlendirir, bu yüzden üç aylık bir sistemle beş yıllık bir sistem farklı değerlendirilir.
 
-Akvaryum hâlâ döngüdeyse rehberli döngüyü başlatmak için panodaki **Yeni bir akvaryum mu kuruyorsunuz?** kartına dokunun. Bunu ilk testi kaydetmeden ya da ekipman bağlamadan önce yapın, çünkü kart yalnızca hiç ölçümü olmayan bir akvaryumda görünür. Ayrıntılar [Rehberli yolculuklar](/help/mobile-journeys) sayfasında.
+Akvaryum hâlâ döngüdeyse rehberli döngüyü başlatmak için bu profilin en üstündeki **Yeni bir akvaryum mu kuruyorsunuz?** kartına dokunun. Ölçüm kaydettikten sonra bile her zaman çalışır. Ayrıntılar [Rehberli yolculuklar](/help/mobile-journeys) sayfasında.
 
 ## Profili güncel tutma {#keeping-the-profile-current}
 

@@ -2,7 +2,7 @@
 title: Frequently asked questions
 description: Short answers about what you need, Cora Max, using Cora away from home, equipment, alerts, Reef Buddy, languages, plans and your data.
 section: Help
-reviewed: 2026-10-18
+reviewed: 2026-10-24
 order: 4
 ---
 
@@ -26,7 +26,7 @@ Yes. On the sign-in screen, tap **Explore a demo reef**. It's a sample tank, and
 
 ### My tank is still cycling. Can Cora help? {#my-tank-is-still-cycling}
 
-Yes. Tap **Starting a new tank?** on the dashboard to start the cycling journey. The card only shows on a tank with no readings yet, so do it before you log a test or link equipment. More in [Guided journeys](/help/mobile-journeys).
+Yes. Tap **Starting a new tank?** on the dashboard to start the cycling journey. The card shows while the tank has no readings. After that, use the same card at the top of the tank's profile. You can also turn on **This is a brand-new tank I'm cycling** when you add the tank. More in [Guided journeys](/help/mobile-journeys).
 
 ### What does "tank profile" mean, and why does it ask so many questions? {#what-does-tank-profile-mean}
 

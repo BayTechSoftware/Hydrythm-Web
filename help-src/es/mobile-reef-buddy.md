@@ -2,8 +2,8 @@
 title: Reef Buddy
 description: Tu resumen diario de Reef Buddy: qué incluye, cuándo llega, cómo leer las puntuaciones y por qué puede no llegar un resumen.
 section: Cora Mobile
-reviewed: 2026-10-18
-order: 31
+reviewed: 2026-10-24
+order: 32
 group: Intelligence
 twin: max-intelligence
 ---
@@ -27,7 +27,7 @@ Una puntuación de Datos baja significa que Cora tenía menos lecturas de las qu
 
 Después viene el resumen, un párrafo corto que explica el titular con tus valores y rangos reales.
 
-Después viene **Hoy de un vistazo** y debajo cada hallazgo como una tarjeta: un análisis, una lectura que se movió o la observación diaria. Cada tarjeta dice qué vio Cora, muestra los números y un pequeño gráfico. Un hallazgo que se repite muestra *Sigue: ..., desde el 12 oct*. Un chip arriba de la página muestra el tipo de acuario y lo completo que está su perfil. Ambos afectan lo que Cora puede concluir.
+Después viene **Hoy de un vistazo** y debajo cada hallazgo como una tarjeta: un análisis, una lectura que se movió o la observación diaria. Cada tarjeta dice qué vio Cora, muestra los números y un pequeño gráfico. Un hallazgo que se repite muestra *Sigue: ..., desde el 12 oct*. Un chip junto al encabezado **Hallazgos de hoy** muestra el tipo de acuario y lo completo que está su perfil. Ambos afectan lo que Cora puede concluir.
 
 
 Cora filtra los análisis antes de que te lleguen. Un análisis tiene que mantenerse a lo largo de varias lecturas. Con una no basta. También tiene que contarte algo que un solo gráfico no te mostraría ya.
@@ -106,10 +106,10 @@ Cada tarjeta tiene debajo una fila de opinión. Tu respuesta influye en qué apa
 |---|---|
 | **Valioso** | Era correcto y útil |
 | **No útil** | Correcto, pero no para ti. Oculta ese hallazgo durante 14 días |
-| **Ya lo sabía** | Correcto, pero ya lo sabías. Lo oculta durante 7 días |
-| **No coincide** | No coincide con lo que ves. Lo oculta durante 14 días |
+| **Ya lo sabía** | Correcto, pero ya lo sabías. Lo oculta durante 7 días, salvo en una lectura que se movió |
+| **No coincide** | No coincide con lo que ves. Lo oculta durante 14 días, salvo en una lectura que se movió |
 
-En una lectura que se movió, **No coincide** también ofrece excluir las lecturas erróneas, para que Cora deje de contarlas. Ocultar solo dura un tiempo. Si el problema sigue ahí después, el hallazgo vuelve.
+En una lectura que se movió, solo **No útil** oculta la tarjeta (durante 14 días). **Ya lo sabía** solo se anota, y **No coincide** no oculta nada: ofrece excluir las lecturas erróneas, para que Cora deje de contarlas. Ocultar solo dura un tiempo. Si el problema sigue ahí después, el hallazgo vuelve.
 
 :::note Los hallazgos graves nunca se ocultan
 Las advertencias y los hallazgos críticos siguen apareciendo, hayas respondido lo que hayas respondido antes.

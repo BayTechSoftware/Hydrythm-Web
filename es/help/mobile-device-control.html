@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Controlar tus equipos | Cora Help</title>
+  <title>Controlar tus equipos | Ayuda de Cora</title>
   <meta name="description" content="Abre la página de un dispositivo para ver su estado en directo y manejar tomas, bombas, cabezales de dosificación y analizadores, marca a marca.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/es/help/mobile-device-control">
@@ -16,7 +16,7 @@
   <link rel="alternate" hreflang="pl" href="https://coraiq.tech/pl/help/mobile-device-control">
   <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/mobile-device-control">
   <meta property="og:site_name" content="Cora">
-  <meta property="og:title" content="Controlar tus equipos | Cora Help">
+  <meta property="og:title" content="Controlar tus equipos | Ayuda de Cora">
   <meta property="og:description" content="Abre la página de un dispositivo para ver su estado en directo y manejar tomas, bombas, cabezales de dosificación y analizadores, marca a marca.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/es/help/mobile-device-control">
@@ -250,14 +250,14 @@
 <h2 id="aquawiz">AquaWiz</h2>
 <p>La tarjeta de AquaWiz muestra tus lecturas de alcalinidad, y el pH si tu unidad lo informa. Cora no puede controlar un AquaWiz, así que cambia sus ajustes en la app de AquaWiz.</p>
 <p>En <strong>Controlador</strong>, en la página del dispositivo, Cora muestra lo que informa el controlador, cada línea solo si la informa:</p>
-<ul><li>el KH objetivo;</li><li>cuánto suplemento de alcalinidad queda, con el nivel de aviso que fijaste en el controlador (por ejemplo <em>bajo a 100 mL</em>);</li><li>cuántos mL hacen falta para 1 dKH (<em>mL por 1 dKH</em>);</li><li>la dosis máxima por medición (<em>Hasta 20 mL por medición</em>);</li><li>la versión del firmware.</li></ul>
+<ul><li>el KH objetivo;</li><li>cuánto suplemento de alcalinidad queda, con el nivel de aviso que fijaste en el controlador (por ejemplo <em>bajo a 100 mL</em>);</li><li>cuántos mL hacen falta para 1 dKH (por ejemplo <em>48 mL por dosis de dKH</em>);</li><li>la dosis máxima por medición (<em>Hasta 20 mL por medición</em>);</li><li>la versión del firmware.</li></ul>
 <p>Debajo de las lecturas, la tarjeta dice cuándo se midió la última (por ejemplo <em>Medido 14:00</em>) y de dónde viene: <strong>Cada hora desde tu Cora Max</strong> o <strong>Desde la nube de AquaWiz, cada 12 horas</strong>. También muestra el <strong>cambio de pH</strong>. Al abrir la página se pide una lectura nueva, y <strong>Leer ahora</strong> la pide otra vez, como máximo cada 15 minutos. Si una lectura no ha cambiado, es normal: la unidad solo mide de vez en cuando.</p>
 <p>La tarjeta también muestra la bomba y la sonda de pH, y Cora te avisa cuando la bomba informa de un fallo, o la sonda de pH ha fallado o está cerca del final de su vida. Esto vale para cualquier AquaWiz, con o sin Cora Max. Cuando un Cora Max lee la unidad cada hora, la tarjeta muestra además el nivel de la caja de agua, y Cora te avisa cuando se queda bajo o alto más de una hora.</p>
 <p>Si tu unidad sigue su recipiente, Cora te avisa cuando el suplemento se está acabando, en el nivel de aviso que fijaste en el controlador. Aún puedes cambiarlo desde su regla en el <a href="/es/help/mobile-alerts">Centro de alertas</a>, y tu cambio se conserva.</p>
 <h2 id="what-happens-after-you-change-something">Qué pasa después de cambiar algo</h2>
 <p>Cada cambio queda registrado en <a href="/es/help/mobile-activity">Actividad</a>, con la superficie desde la que se hizo. Si un dispositivo no acepta un cambio, también queda registrado ahí.</p>
       <nav class="pn" aria-label="Seguir leyendo"><a class="pn-p" href="/es/help/mobile-connections"><span>Anterior</span><b>Conectar tus equipos</b></a><a class="pn-n" href="/es/help/mobile-schedules"><span>Siguiente</span><b>Programar equipos</b></a></nav>
-      <p class="stamp">Escrito para Cora Max 0.28.222 y Cora Mobile 1.4.3. Última revisión el 2026-10-18.</p>
+      <p class="stamp">Escrito para Cora Max 0.28.238 y Cora Mobile 1.4.14. Última revisión el 2026-10-24.</p>
       <p class="ask">¿Sigues atascado? Escribe a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> y te ayudamos.</p>
     </article>
   </main>
@@ -648,7 +648,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/es/help/search.json?v=76cf023804').then(function (r) { return r.json(); })
+    fetch('/es/help/search.json?v=9384433ffe').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "es"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La b\u00fasqueda no est\u00e1 disponible. Usa la navegaci\u00f3n." + '</li>';

@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Solución de problemas | Cora Help</title>
+  <title>Solución de problemas | Ayuda de Cora</title>
   <meta name="description" content="Arregla una lectura desactualizada, un dispositivo que se ha desconectado, una orden que no llegó, un Cora Max que no se empareja o una alerta que no desaparece.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/es/help/troubleshooting">
@@ -16,7 +16,7 @@
   <link rel="alternate" hreflang="pl" href="https://coraiq.tech/pl/help/troubleshooting">
   <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/troubleshooting">
   <meta property="og:site_name" content="Cora">
-  <meta property="og:title" content="Solución de problemas | Cora Help">
+  <meta property="og:title" content="Solución de problemas | Ayuda de Cora">
   <meta property="og:description" content="Arregla una lectura desactualizada, un dispositivo que se ha desconectado, una orden que no llegó, un Cora Max que no se empareja o una alerta que no desaparece.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/es/help/troubleshooting">
@@ -257,6 +257,10 @@
 <ul><li>Revisa el Wi-Fi en <strong>Ajustes → Ajustes de Cora Max → Wi-Fi</strong>.</li><li>Comprueba que tu propia red funciona.</li><li>Si la etiqueta dice <strong>En línea</strong> o <strong>Nube</strong> y los datos siguen siendo antiguos, el problema está antes de Cora Max. Revisa el mismo acuario en tu teléfono.</li></ul>
 <h3 id="cora-max-shows-apex-password">Cora Max muestra "Contraseña de Apex"</h3>
 <p>Tu Apex rechazó el inicio de sesión que tiene guardado Cora, normalmente porque se cambió la contraseña del Apex. En tu teléfono, abre <strong>Dispositivos</strong>, luego tu Apex, y toca <strong>Editar conexión</strong> en <strong>Conexión</strong> para escribir la nueva.</p>
+<h3 id="the-apex-refused-this-login">"El Apex rechazó este inicio de sesión"</h3>
+<p>Ves este mensaje cuando tocas <strong>Continuar</strong> al agregar o editar un Neptune Apex. Cora probó el inicio de sesión que escribiste (si escribiste una contraseña), después el inicio de sesión de fábrica del Apex y por último ninguno, y el Apex los rechazó todos.</p>
+<ol><li>Toca <strong>Cancelar</strong>.</li><li>Comprueba el nombre de usuario y la contraseña configurados en el Apex, en <strong>Network Setup</strong>, <strong>Login</strong>. Si tu Apex no tiene inicio de sesión, deja ambos campos vacíos.</li><li>Vuelve a escribirlos y toca <strong>Continuar</strong>.</li></ol>
+<p><strong>Guardar de todos modos</strong> conserva lo que escribiste sin que la prueba haya pasado. Úsalo solo si sabes que el inicio de sesión es correcto. Si más adelante cambias el inicio de sesión en el Apex, introduce el nuevo como se explica en <a href="#cora-max-shows-apex-password">Cora Max muestra "Contraseña de Apex"</a>.</p>
 <h3 id="cora-max-shows-cloud-save-refused">Cora Max muestra "Guardado en la nube rechazado"</h3>
 <p>Cora Cloud se niega a guardar algunos datos de esta pantalla. No pasa nada con tu acuario ni con Cora Max, y no hay que cambiar nada en la pantalla. La solución es una actualización de Cora Cloud.</p>
 <ol><li>Abre <strong>Ajustes → Ajustes de Cora Max</strong> y baja hasta <strong>ESTADO</strong>. La línea <strong>Guardado en la nube</strong> dice qué datos se están rechazando, por ejemplo las lecturas o las tomas de un dispositivo.</li><li><a href="/support.html">Contacta con soporte</a> y dinos lo que dice esa línea.</li></ol>
@@ -330,7 +334,7 @@
 <h2 id="still-stuck">¿Sigues atascado?</h2>
 <p>Escribe a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>, o infórmanos desde Cora Mobile como se explica en <a href="/es/help/mobile-support">Informar de un problema</a>. Dinos qué acuario, qué dispositivo, qué pantalla y qué esperabas ver.</p>
       <nav class="pn" aria-label="Seguir leyendo"><a class="pn-n" href="/es/help/how-do-i"><span>Siguiente</span><b>¿Cómo hago...?</b></a></nav>
-      <p class="stamp">Escrito para Cora Max 0.28.222 y Cora Mobile 1.4.3. Última revisión el 2026-10-18.</p>
+      <p class="stamp">Escrito para Cora Max 0.28.238 y Cora Mobile 1.4.14. Última revisión el 2026-10-24.</p>
       <p class="ask">¿Sigues atascado? Escribe a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> y te ayudamos.</p>
     </article>
   </main>
@@ -721,7 +725,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/es/help/search.json?v=76cf023804').then(function (r) { return r.json(); })
+    fetch('/es/help/search.json?v=9384433ffe').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "es"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La b\u00fasqueda no est\u00e1 disponible. Usa la navegaci\u00f3n." + '</li>';

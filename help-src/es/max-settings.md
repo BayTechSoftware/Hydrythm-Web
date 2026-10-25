@@ -1,6 +1,6 @@
 ---
 title: Ajustes de Cora Max
-description: Todos los ajustes de Cora Max, desde el nombre, el brillo, la atenuación nocturna, el altavoz y la palabra de activación hasta el bloqueo infantil, el idioma, el Wi-Fi, volver a emparejar y el restablecimiento de fábrica.
+description: Todos los ajustes de Cora Max, desde el nombre y el brillo hasta el bloqueo infantil, el idioma, el Wi-Fi, volver a emparejar y el restablecimiento de fábrica.
 section: Cora Max
 reviewed: 2026-10-18
 order: 14

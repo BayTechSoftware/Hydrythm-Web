@@ -1,9 +1,9 @@
 ---
 title: Ajustes de Cora Mobile
-description: Dónde está cada cosa en la pestaña Ajustes de Cora Mobile, desde tu cuenta y tu plan hasta los acuarios, Cora Assistant, el idioma, el modo oscuro, las notificaciones y el soporte.
+description: Dónde está cada cosa en la pestaña Ajustes de Cora Mobile: tu cuenta y tu plan, los acuarios, Cora Assistant, el idioma, el modo oscuro, las notificaciones y el soporte.
 section: Cora Mobile
 reviewed: 2026-10-18
-order: 35
+order: 36
 group: Settings and account
 twin: max-settings
 ---

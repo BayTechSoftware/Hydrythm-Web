@@ -2,8 +2,8 @@
 title: Alertas y umbrales
 description: Fija el rango saludable de cada lectura, elige cada cuánto puede avisarte una alerta y descubre por qué un dispositivo "dejó de informar".
 section: Cora Mobile
-reviewed: 2026-10-18
-order: 22
+reviewed: 2026-10-24
+order: 23
 group: Alerts and automation
 twin: max-alerts
 ---

@@ -2,8 +2,8 @@
 title: Alerty i progi
 description: Ustaw prawidłowy zakres dla każdego odczytu, wybierz, jak często alert może Cię powiadamiać, i sprawdź, dlaczego urządzenie „przestało raportować”.
 section: Cora Mobile
-reviewed: 2026-10-18
-order: 22
+reviewed: 2026-10-24
+order: 23
 group: Alerts and automation
 twin: max-alerts
 ---

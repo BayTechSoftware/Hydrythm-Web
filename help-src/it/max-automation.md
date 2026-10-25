@@ -2,7 +2,7 @@
 title: Scene su Cora Max
 description: Crea, avvia, modifica ed elimina scene su Cora Max, da Impostazioni → Automazioni o da un riquadro scena sulla dashboard.
 section: Cora Max
-reviewed: 2026-10-18
+reviewed: 2026-10-24
 order: 9
 group: Alerts and automation
 twin: mobile-automation

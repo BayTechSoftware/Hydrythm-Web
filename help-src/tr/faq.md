@@ -2,7 +2,7 @@
 title: Sıkça sorulan sorular
 description: Neye ihtiyacınız olduğu, Cora Max, Cora'yı evden uzaktayken kullanma, ekipman, uyarılar, Reef Buddy, diller, planlar ve verileriniz hakkında kısa yanıtlar.
 section: Help
-reviewed: 2026-10-18
+reviewed: 2026-10-24
 order: 4
 ---
 
@@ -26,7 +26,7 @@ Evet. Giriş ekranında **Bir demo resifi keşfedin**'e dokunun. Örnek bir akva
 
 ### Akvaryumum hâlâ döngüde. Cora yardım edebilir mi? {#my-tank-is-still-cycling}
 
-Evet. Döngü yolculuğunu başlatmak için panodaki **Yeni bir akvaryum mu kuruyorsunuz?**'a dokunun. Kart yalnızca henüz ölçümü olmayan bir akvaryumda görünür, bu yüzden bunu bir test kaydetmeden ya da ekipman bağlamadan önce yapın. Ayrıntılar [Rehberli yolculuklar](/help/mobile-journeys) sayfasında.
+Evet. Döngü yolculuğunu başlatmak için panodaki **Yeni bir akvaryum mu kuruyorsunuz?** kartına dokunun. Kart, akvaryumda hiç ölçüm yokken görünür. Sonrasında akvaryum profilinin en üstündeki aynı kartı kullanın. Akvaryumu eklerken **Bu, döngüsünü yaptığım yepyeni bir akvaryum** seçeneğini de açabilirsiniz. Ayrıntılar [Rehberli yolculuklar](/help/mobile-journeys) sayfasında.
 
 ### "Akvaryum profili" ne demek ve neden bu kadar çok soru soruyor? {#what-does-tank-profile-mean}
 

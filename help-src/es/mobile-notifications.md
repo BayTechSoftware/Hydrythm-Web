@@ -3,7 +3,7 @@ title: Notificaciones
 description: Elige qué notificaciones llegan a tu teléfono, ten noches tranquilas, lee lo que te perdiste en la campana y arregla las notificaciones que no llegan.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 23
+order: 24
 group: Alerts and automation
 ---
 

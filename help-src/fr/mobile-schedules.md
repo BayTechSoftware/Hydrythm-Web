@@ -1,6 +1,6 @@
 ---
 title: Programmer l’équipement
-description: Créez un programme journalier pour une pompe Jecod et copiez-le d’une pompe à l’autre.
+description: Créez un programme journalier pour une pompe Jecod, copiez-le d’une pompe à l’autre, enregistrez-le et partagez-le, et vérifiez que la pompe l’a pris en compte.
 section: Cora Mobile
 reviewed: 2026-10-17
 order: 14

@@ -3,7 +3,7 @@ title: Geführte Journeys
 description: Die geführte Einfahr-Journey für ein neues Becken starten, ihr bis zum Ende folgen und ein Dinoflagellaten-Problem Schritt für Schritt angehen.
 section: Cora Mobile
 reviewed: 2026-10-22
-order: 34
+order: 35
 group: Intelligence
 ---
 

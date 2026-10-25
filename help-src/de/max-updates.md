@@ -1,6 +1,6 @@
 ---
 title: Updates und Wiederherstellung
-description: Wie sich Cora Max selbst aktualisiert, Installationsfenster und Update-Kanal, die Version prüfen, die Wiederherstellungs-PIN und was du tust, wenn Cora Max nicht startet oder einen Support-Code zeigt.
+description: Wie sich Cora Max selbst aktualisiert, Installationsfenster und Update-Kanal, Version prüfen, Wiederherstellungs-PIN und was du tust, wenn Cora Max nicht startet.
 section: Cora Max
 reviewed: 2026-10-17
 order: 15

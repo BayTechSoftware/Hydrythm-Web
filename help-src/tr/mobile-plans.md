@@ -1,9 +1,9 @@
 ---
 title: Planlar ve abonelikler
-description: Free, deneme, Essential, Advanced ve Expert planlarında neler var, nasıl abone olunur ya da yükseltilir, kullanımınızı nerede görürsünüz ve iPhone'da ya da Android'de nasıl iptal edersiniz.
+description: Free, deneme, Essential, Advanced ve Expert planlarında neler var, nasıl abone olunur ya da yükseltilir ve iPhone'da ya da Android'de nasıl iptal edilir.
 section: Cora Mobile
 reviewed: 2026-10-18
-order: 37
+order: 38
 group: Settings and account
 ---
 

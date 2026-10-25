@@ -3,7 +3,7 @@ title: Livestock
 description: Add the corals, fish and invertebrates in your tank, and record losses, frags, sales and moves so you can spot patterns later.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 29
+order: 30
 group: Records
 twin: max-records
 ---

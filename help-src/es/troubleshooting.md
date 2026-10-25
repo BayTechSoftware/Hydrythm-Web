@@ -2,7 +2,7 @@
 title: Solución de problemas
 description: Arregla una lectura desactualizada, un dispositivo que se ha desconectado, una orden que no llegó, un Cora Max que no se empareja o una alerta que no desaparece.
 section: Help
-reviewed: 2026-10-18
+reviewed: 2026-10-24
 order: 1
 ---
 
@@ -224,6 +224,16 @@ Mira la etiqueta de estado de la barra superior. **En línea** y **Nube** están
 ### Cora Max muestra "Contraseña de Apex" {#cora-max-shows-apex-password}
 
 Tu Apex rechazó el inicio de sesión que tiene guardado Cora, normalmente porque se cambió la contraseña del Apex. En tu teléfono, abre **Dispositivos**, luego tu Apex, y toca **Editar conexión** en **Conexión** para escribir la nueva.
+
+### "El Apex rechazó este inicio de sesión" {#the-apex-refused-this-login}
+
+Ves este mensaje cuando tocas **Continuar** al agregar o editar un Neptune Apex. Cora probó el inicio de sesión que escribiste (si escribiste una contraseña), después el inicio de sesión de fábrica del Apex y por último ninguno, y el Apex los rechazó todos.
+
+1. Toca **Cancelar**.
+2. Comprueba el nombre de usuario y la contraseña configurados en el Apex, en **Network Setup**, **Login**. Si tu Apex no tiene inicio de sesión, deja ambos campos vacíos.
+3. Vuelve a escribirlos y toca **Continuar**.
+
+**Guardar de todos modos** conserva lo que escribiste sin que la prueba haya pasado. Úsalo solo si sabes que el inicio de sesión es correcto. Si más adelante cambias el inicio de sesión en el Apex, introduce el nuevo como se explica en [Cora Max muestra "Contraseña de Apex"](#cora-max-shows-apex-password).
 
 ### Cora Max muestra "Guardado en la nube rechazado" {#cora-max-shows-cloud-save-refused}
 

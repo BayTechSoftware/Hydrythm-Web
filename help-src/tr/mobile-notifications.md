@@ -3,7 +3,7 @@ title: Bildirimler
 description: Telefonunuza hangi bildirimlerin geleceğini seçin, geceleri sessiz tutun, kaçırdıklarınızı zilin altında okuyun ve gelmeyen bildirimleri düzeltin.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 23
+order: 24
 group: Alerts and automation
 ---
 

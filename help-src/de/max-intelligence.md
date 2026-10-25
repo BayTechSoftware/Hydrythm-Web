@@ -2,7 +2,7 @@
 title: Reef Buddy und Berichte
 description: Das morgendliche Reef Buddy-Briefing auf Cora Max, Rückmeldung zu Insights, Sondenpflege erfassen, ICP-Ergebnisse, Gesundheitsberichte und Verlaufsdiagramme.
 section: Cora Max
-reviewed: 2026-10-13
+reviewed: 2026-10-24
 order: 12
 group: Intelligence
 twin: mobile-reef-buddy
@@ -31,7 +31,7 @@ Nachdem du einen Test eingetragen oder ein ICP-Ergebnis hinzugefügt hast, zeigt
 Tippe in der Liste auf eine Karte, um sie rechts zu öffnen.
 
 - **Warum sehe ich das?** zeigt die Messwerte, das Ziel und die Tagebucheinträge, auf denen es beruht.
-- Die Rückmeldezeile unter jeder Karte: **Wertvoll**, **Nicht nützlich**, **Schon gewusst** oder **Stimmt nicht überein**. **Nicht nützlich** und **Stimmt nicht überein** blenden den Befund 14 Tage aus, **Schon gewusst** 7 Tage. Warnungen und kritische Befunde werden nie ausgeblendet. Bei einem Messwert, der sich bewegt hat, bietet **Stimmt nicht überein** an, die falschen Messwerte auszuschließen. Cora nutzt deine Antworten, um dein Becken kennenzulernen.
+- Die Rückmeldezeile unter jeder Karte: **Wertvoll**, **Nicht nützlich**, **Schon gewusst** oder **Stimmt nicht überein**. Bei einem Insight blenden **Nicht nützlich** und **Stimmt nicht überein** den Befund 14 Tage aus, **Schon gewusst** 7 Tage. Bei einem Messwert, der sich bewegt hat, blendet ihn nur **Nicht nützlich** aus (14 Tage), und **Stimmt nicht überein** bietet an, die falschen Messwerte auszuschließen. Warnungen und kritische Befunde werden nie ausgeblendet. Cora nutzt deine Antworten, um dein Becken kennenzulernen.
 
 Zweifelt Cora an einem Messwert, zeigt es ihn unter **Einen Blick wert**, zum Beispiel eine Sonde, die vielleicht driftet. Dort kannst du:
 

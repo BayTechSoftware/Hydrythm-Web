@@ -1,8 +1,8 @@
 ---
 title: Reef Buddy e informes
-description: El resumen matutino de Reef Buddy en Cora Max, cómo responder a los análisis, registrar el cuidado de las sondas, los resultados de ICP, los informes de salud y los gráficos del historial.
+description: El resumen matutino de Reef Buddy en Cora Max, tu opinión sobre los análisis, el cuidado de las sondas, los resultados de ICP, los informes de salud y el historial.
 section: Cora Max
-reviewed: 2026-10-13
+reviewed: 2026-10-24
 order: 12
 group: Intelligence
 twin: mobile-reef-buddy
@@ -31,7 +31,7 @@ Después de registrar una prueba o añadir un resultado de ICP, la pantalla mues
 Toca una tarjeta de la lista para abrirla a la derecha.
 
 - **¿Por qué veo esto?** muestra las lecturas, el objetivo y las entradas del diario en las que se basa.
-- La fila de opinión debajo de cada tarjeta: **Valioso**, **No útil**, **Ya lo sabía** o **No coincide**. **No útil** y **No coincide** ocultan el hallazgo durante 14 días, **Ya lo sabía** durante 7. Las advertencias y los hallazgos críticos nunca se ocultan. En una lectura que se movió, **No coincide** ofrece excluir las lecturas erróneas. Cora usa tus respuestas para conocer tu acuario.
+- La fila de opinión debajo de cada tarjeta: **Valioso**, **No útil**, **Ya lo sabía** o **No coincide**. En un análisis, **No útil** y **No coincide** ocultan el hallazgo durante 14 días, y **Ya lo sabía** durante 7. En una lectura que se movió, solo **No útil** la oculta (14 días), y **No coincide** ofrece excluir las lecturas erróneas. Las advertencias y los hallazgos críticos nunca se ocultan. Cora usa tus respuestas para conocer tu acuario.
 
 Cuando Cora duda de una lectura, la muestra en **Vale la pena revisar**, por ejemplo una sonda que puede estar desviándose. Ahí puedes:
 

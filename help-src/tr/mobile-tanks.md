@@ -2,7 +2,7 @@
 title: Akvaryumlarınızı yönetme
 description: Başka bir akvaryum ekleyin, akvaryumlar arasında geçin, sıralarını ve hangi akvaryumların Reef Buddy alacağını değiştirin, bir akvaryumu kaldırın ya da geri getirin.
 section: Cora Mobile
-reviewed: 2026-10-18
+reviewed: 2026-10-24
 order: 4
 group: Getting started
 ---
@@ -15,7 +15,7 @@ Her planda istediğiniz kadar akvaryumunuz olabilir. Planınız yalnızca bunlar
 
 1. **Ayarlar**'a gidin ve akvaryum listenizin altındaki **Akvaryum ekle**'ye dokunun.
 2. **Akvaryum Ekle**, akvaryum profilinin tamamını açar. **Akvaryum Adı ve Türü** altında akvaryuma bir ad verin ve bildiğiniz diğer bilgileri doldurun, örneğin türü ve **Akvaryum Boyutları** altında su hacmini. Geri kalanını sonra tamamlayabilirsiniz. [Akvaryum profiliniz](/help/mobile-tank-profile) sayfasına bakın.
-3. **Akvaryumu Kaydet**'e dokunun.
+3. **Akvaryumu Kaydet**'e dokunun. Akvaryum yepyeniyse ve hâlâ döngüdeyse, önce formun altındaki **Bu, döngüsünü yaptığım yepyeni bir akvaryum** seçeneğini açın.
 4. Cora ilk test adımını önerir. Bir test kaydedin, haftalık bir hatırlatıcı kurun ya da **Sonra**'ya dokunun. [İlk test kartı](/help/mobile-setup#the-first-test-card) bölümüne bakın.
 
 Sonra akvaryuma ekipmanını verin:
@@ -25,7 +25,7 @@ Sonra akvaryuma ekipmanını verin:
 - Akvaryumu Cora Max'te göstermek için **Cihazlar**'a gidin, Cora Max'inizi açın ve **Atanmış Akvaryumlar** altında **Akvaryum Ekle**'ye dokunun. Bir Cora Max en fazla 4 akvaryum gösterir.
 
 :::tip Yeni akvaryum hâlâ döngüde mi?
-Bir test kaydetmeden ya da ekipman bağlamadan önce panosundaki **Yeni bir akvaryum mu kuruyorsunuz?** kartına dokunun. Kart yalnızca hiç ölçümü olmayan bir akvaryumda görünür. Ayrıntılar [Rehberli yolculuklar](/help/mobile-journeys) sayfasında.
+Rehberli döngüyü sonradan da başlatabilirsiniz: akvaryumun panosundaki **Yeni bir akvaryum mu kuruyorsunuz?** kartına dokunun (kart, akvaryumda hiç ölçüm yokken görünür) ya da akvaryum profilinin en üstündeki aynı kartı kullanın; bu her zaman çalışır. Ayrıntılar [Rehberli yolculuklar](/help/mobile-journeys) sayfasında.
 :::
 
 ## Akvaryumlar arasında geçiş {#switching-between-tanks}

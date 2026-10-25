@@ -2,7 +2,7 @@
 title: Equipment by brand
 description: Everything about your Neptune Apex, Red Sea ReefBeat, Jecod or AquaWiz equipment in one place, from adding it to controlling it, its alerts and its fixes.
 section: Help
-reviewed: 2026-10-17
+reviewed: 2026-10-24
 order: 3
 ---
 
@@ -24,7 +24,7 @@ Cora reads your Apex's probes and outlets, runs its feed cycles, and works with 
 - Control it on your phone: [Apex](/help/mobile-device-control#neptune-apex), [DŌS](/help/mobile-device-control#dos), [Trident](/help/mobile-device-control#trident)
 - On Cora Max: [outlets and feed mode](/help/max-controls), [Apex and Trident](/help/max-device-control#neptune-apex), [DŌS heads](/help/max-device-control#dos-heads)
 - Alerts: [stopped reporting](/help/mobile-alerts#stopped-reporting), [doser alerts](/help/mobile-device-control#doser-alerts)
-- Fixes: ["Could not reach the Apex"](/help/troubleshooting#could-not-reach-the-apex-nothing-changed-nothing-was-dosed), ["… has no Apex details"](/help/troubleshooting#this-could-not-be-sent-no-device-on-this-tank-can-send-it), ["Apex password"](/help/troubleshooting#cora-max-shows-apex-password), [Feed doesn't start](/help/troubleshooting#feed-does-not-start), [a dose stopped partway](/help/troubleshooting#a-dose-stopped-partway-through-and-a-restore-alert-appeared)
+- Fixes: ["Could not reach the Apex"](/help/troubleshooting#could-not-reach-the-apex-nothing-changed-nothing-was-dosed), ["… has no Apex details"](/help/troubleshooting#this-could-not-be-sent-no-device-on-this-tank-can-send-it), ["Apex password"](/help/troubleshooting#cora-max-shows-apex-password), ["The Apex refused this login"](/help/troubleshooting#the-apex-refused-this-login), [Feed doesn't start](/help/troubleshooting#feed-does-not-start), [a dose stopped partway](/help/troubleshooting#a-dose-stopped-partway-through-and-a-restore-alert-appeared)
 
 ## Red Sea ReefBeat {#red-sea}
 

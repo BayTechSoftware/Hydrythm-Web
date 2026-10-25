@@ -2,7 +2,7 @@
 title: Your tank profile
 description: Fill in or change your tank's volume, type, livestock, lighting, dosing and equipment, which Cora uses to judge readings and work out doses.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-24
 order: 3
 group: Getting started
 ---
@@ -83,7 +83,7 @@ If the volume is 20% too high, dose suggestions are 20% too high as well. If you
 
 Set **Tank start date** under **Tank Dimensions**. Cora judges readings against what's normal for a tank that age, so a three-month-old system and a five-year-old one are judged differently.
 
-If the tank is still cycling, tap the **Starting a new tank?** card on the dashboard to start guided cycling. Do it before you log the first test or link equipment, because the card only shows on a tank with no readings at all. More in [Guided journeys](/help/mobile-journeys).
+If the tank is still cycling, tap the **Starting a new tank?** card at the top of this profile to start guided cycling. It works at any time, even after you have logged readings. More in [Guided journeys](/help/mobile-journeys).
 
 ## Keeping the profile current {#keeping-the-profile-current}
 

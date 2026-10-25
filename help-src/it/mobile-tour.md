@@ -1,6 +1,6 @@
 ---
 title: Orientarsi in Cora Mobile
-description: Un giro delle cinque schede di Cora Mobile, Dashboard, Dispositivi, Assistente, Intelligence e Impostazioni, più l'intestazione della vasca, la campanella e il pulsante Diario.
+description: Un giro delle cinque schede di Cora Mobile (Dashboard, Dispositivi, Assistente, Intelligence e Impostazioni), più l'intestazione della vasca, la campanella e il Diario.
 section: Cora Mobile
 reviewed: 2026-10-13
 order: 2

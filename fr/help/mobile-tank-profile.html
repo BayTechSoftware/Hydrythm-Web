@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Le profil de votre aquarium | Cora Help</title>
-  <meta name="description" content="Remplissez ou modifiez le volume, le type, la population, l’éclairage, le dosage et l’équipement de votre aquarium, que Cora utilise pour juger les mesures et calculer les doses.">
+  <title>Le profil de votre aquarium | Aide Cora</title>
+  <meta name="description" content="Renseignez le volume, le type, la population, l’éclairage, le dosage et l’équipement de votre aquarium, que Cora utilise pour juger les mesures et calculer les doses.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/fr/help/mobile-tank-profile">
   <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/mobile-tank-profile">
@@ -16,8 +16,8 @@
   <link rel="alternate" hreflang="pl" href="https://coraiq.tech/pl/help/mobile-tank-profile">
   <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/mobile-tank-profile">
   <meta property="og:site_name" content="Cora">
-  <meta property="og:title" content="Le profil de votre aquarium | Cora Help">
-  <meta property="og:description" content="Remplissez ou modifiez le volume, le type, la population, l’éclairage, le dosage et l’équipement de votre aquarium, que Cora utilise pour juger les mesures et calculer les doses.">
+  <meta property="og:title" content="Le profil de votre aquarium | Aide Cora">
+  <meta property="og:description" content="Renseignez le volume, le type, la population, l’éclairage, le dosage et l’équipement de votre aquarium, que Cora utilise pour juger les mesures et calculer les doses.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/fr/help/mobile-tank-profile">
   <meta property="og:image" content="https://coraiq.tech/og-image.png">
@@ -200,7 +200,7 @@
 <aside class="cal cal-warning"><p class="cal-t">Les doses suivent directement le volume</p><p>Si le volume est trop élevé de 20 %, les doses proposées le sont aussi de 20 %. Si vous n’êtes pas sûr, mesurez-le. Ne le devinez pas.</p></aside>
 <h2 id="tank-age">Âge de l’aquarium</h2>
 <p>Réglez la <strong>Date de démarrage de l’aquarium</strong> sous <strong>Dimensions de l’aquarium</strong>. Cora juge les mesures par rapport à ce qui est normal pour un aquarium de cet âge : un système de trois mois et un système de cinq ans ne sont donc pas jugés de la même façon.</p>
-<p>Si l’aquarium est encore en cyclage, touchez la carte <strong>Vous démarrez un nouvel aquarium ?</strong> sur le tableau de bord pour lancer le cyclage guidé. Faites-le avant de noter le premier test ou d’associer un équipement, car la carte n’apparaît que sur un aquarium sans aucune mesure. Plus de détails dans <a href="/fr/help/mobile-journeys">Parcours guidés</a>.</p>
+<p>Si l’aquarium est encore en cyclage, touchez la carte <strong>Vous démarrez un nouvel aquarium ?</strong> en haut de ce profil pour lancer le cyclage guidé. Cela marche à tout moment, même après avoir noté des mesures. Plus de détails dans <a href="/fr/help/mobile-journeys">Parcours guidés</a>.</p>
 <h2 id="keeping-the-profile-current">Garder le profil à jour</h2>
 <p>Mettez le profil à jour quand votre système change, par exemple un nouvel équipement, une population différente ou une nouvelle routine de dosage. Cora travaille à partir du profil : s’il est dépassé, les conseils le seront aussi.</p>
 <h2 id="adding-another-tank">Ajouter un autre aquarium</h2>
@@ -208,7 +208,7 @@
 <h2 id="removing-a-tank">Retirer un aquarium</h2>
 <p><strong>Retirer l’aquarium</strong> se trouve en bas du profil. Il masque l’aquarium et garde ses données, et vous pouvez le faire revenir plus tard. Avant de l’utiliser, lisez <a href="/fr/help/mobile-tanks#removing-a-tank">Supprimer un aquarium</a>, car certaines choses continuent de fonctionner.</p>
       <nav class="pn" aria-label="Poursuivre la lecture"><a class="pn-p" href="/fr/help/mobile-tour"><span>Précédent</span><b>Se repérer dans Cora Mobile</b></a><a class="pn-n" href="/fr/help/mobile-tanks"><span>Suivant</span><b>Gérer vos aquariums</b></a></nav>
-      <p class="stamp">Rédigé pour Cora Max 0.28.222 et Cora Mobile 1.4.3. Vérifié pour la dernière fois le 2026-10-13.</p>
+      <p class="stamp">Rédigé pour Cora Max 0.28.238 et Cora Mobile 1.4.14. Vérifié pour la dernière fois le 2026-10-24.</p>
       <p class="ask">Toujours bloqué ? Écrivez à <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, nous vous aiderons.</p>
     </article>
   </main>
@@ -599,7 +599,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/fr/help/search.json?v=f05beee199').then(function (r) { return r.json(); })
+    fetch('/fr/help/search.json?v=fac77358f2').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "fr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La recherche est indisponible. Utilisez la navigation." + '</li>';

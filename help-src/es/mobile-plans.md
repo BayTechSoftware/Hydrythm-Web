@@ -3,7 +3,7 @@ title: Planes y suscripciones
 description: Qué incluyen los planes Free, prueba gratuita, Essential, Advanced y Expert, cómo suscribirte o mejorar tu plan, dónde ver tu uso y cómo cancelar en iPhone o Android.
 section: Cora Mobile
 reviewed: 2026-10-18
-order: 37
+order: 38
 group: Settings and account
 ---
 

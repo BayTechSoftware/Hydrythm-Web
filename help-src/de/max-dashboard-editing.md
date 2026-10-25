@@ -1,6 +1,6 @@
 ---
 title: Das Cora Max-Dashboard bearbeiten
-description: Kacheln auf dem Cora Max-Dashboard hinzufügen, verschieben und entfernen, ein Raster wählen, Vorlagen oder Mit KI gestalten nutzen und Layouts speichern, um sie auf jedem Cora Max wiederzuverwenden.
+description: Kacheln auf dem Cora Max-Dashboard hinzufügen, verschieben und entfernen, ein Raster wählen, Vorlagen oder Mit KI gestalten nutzen und Layouts speichern.
 section: Cora Max
 reviewed: 2026-10-18
 order: 4

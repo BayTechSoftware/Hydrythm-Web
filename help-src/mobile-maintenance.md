@@ -3,7 +3,7 @@ title: Maintenance
 description: Add recurring jobs like cleaning the skimmer or changing filter socks, get reminded when they're due, and mark them done or snooze them.
 section: Cora Mobile
 reviewed: 2026-10-17
-order: 28
+order: 29
 group: Records
 twin: max-records
 ---

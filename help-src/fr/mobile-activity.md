@@ -3,7 +3,7 @@ title: Activité et chronologie
 description: Voyez chaque changement envoyé à votre équipement, qui ou quoi l’a demandé et s’il a marché, et lisez la chronologie de l’aquarium autour d’une date.
 section: Cora Mobile
 reviewed: 2026-10-18
-order: 30
+order: 31
 group: Records
 twin: max-activity
 ---

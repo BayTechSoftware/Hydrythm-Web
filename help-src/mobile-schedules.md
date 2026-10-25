@@ -1,6 +1,6 @@
 ---
 title: Scheduling equipment
-description: Build a schedule for a Jecod pump and copy it between pumps.
+description: Build a daily schedule for a Jecod pump, copy a program between pumps, save and share it, and check that the pump took it.
 section: Cora Mobile
 reviewed: 2026-10-17
 order: 14

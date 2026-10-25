@@ -1,8 +1,8 @@
 ---
 title: Le profil de votre aquarium
-description: Remplissez ou modifiez le volume, le type, la population, l’éclairage, le dosage et l’équipement de votre aquarium, que Cora utilise pour juger les mesures et calculer les doses.
+description: Renseignez le volume, le type, la population, l’éclairage, le dosage et l’équipement de votre aquarium, que Cora utilise pour juger les mesures et calculer les doses.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-24
 order: 3
 group: Getting started
 ---
@@ -83,7 +83,7 @@ Si le volume est trop élevé de 20 %, les doses proposées le sont aussi de 20 
 
 Réglez la **Date de démarrage de l’aquarium** sous **Dimensions de l’aquarium**. Cora juge les mesures par rapport à ce qui est normal pour un aquarium de cet âge : un système de trois mois et un système de cinq ans ne sont donc pas jugés de la même façon.
 
-Si l’aquarium est encore en cyclage, touchez la carte **Vous démarrez un nouvel aquarium ?** sur le tableau de bord pour lancer le cyclage guidé. Faites-le avant de noter le premier test ou d’associer un équipement, car la carte n’apparaît que sur un aquarium sans aucune mesure. Plus de détails dans [Parcours guidés](/help/mobile-journeys).
+Si l’aquarium est encore en cyclage, touchez la carte **Vous démarrez un nouvel aquarium ?** en haut de ce profil pour lancer le cyclage guidé. Cela marche à tout moment, même après avoir noté des mesures. Plus de détails dans [Parcours guidés](/help/mobile-journeys).
 
 ## Garder le profil à jour {#keeping-the-profile-current}
 

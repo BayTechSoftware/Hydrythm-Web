@@ -192,7 +192,7 @@
 <h2 id="help">Help</h2>
 <p><a href="/help/troubleshooting">Troubleshooting</a> · <a href="/help/how-do-i">How do I...?</a> · <a href="/help/equipment-by-brand">Equipment by brand</a> · <a href="/help/faq">Frequently asked questions</a> · <a href="/help/glossary">Glossary</a> · Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>.</p>
       
-      <p class="stamp">Written for Cora Max 0.28.222 and Cora Mobile 1.4.3. Last checked 2026-10-13.</p>
+      <p class="stamp">Written for Cora Max 0.28.238 and Cora Mobile 1.4.14. Last checked 2026-10-13.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>
@@ -583,7 +583,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/help/search.json?v=b75054a183').then(function (r) { return r.json(); })
+    fetch('/help/search.json?v=5ca35b2a08').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "en"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';

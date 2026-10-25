@@ -1,8 +1,8 @@
 ---
 title: Problembehebung
-description: Einen veralteten Messwert, ein Gerät, das offline gegangen ist, einen Befehl, der nicht durchkam, ein Cora Max, das sich nicht koppeln lässt, oder eine Warnung, die nicht verschwindet, beheben.
+description: Einen veralteten Messwert, ein Offline-Gerät, einen Befehl, der nicht durchkam, ein Cora Max, das sich nicht koppeln lässt, oder eine hartnäckige Warnung beheben.
 section: Help
-reviewed: 2026-10-18
+reviewed: 2026-10-24
 order: 1
 ---
 
@@ -224,6 +224,16 @@ Sieh dir die Statusanzeige in der oberen Leiste an. **Online** und **Cloud** sin
 ### Cora Max zeigt "Apex-Passwort" {#cora-max-shows-apex-password}
 
 Dein Apex hat die Anmeldung abgelehnt, die Cora gespeichert hat, meist weil das Apex-Passwort geändert wurde. Öffne auf dem Handy **Geräte**, dann deinen Apex, und tippe unter **Verbindung** auf **Verbindung bearbeiten**, um das neue einzugeben.
+
+### "Der Apex hat diese Anmeldung abgelehnt" {#the-apex-refused-this-login}
+
+Diese Meldung siehst du, wenn du beim Hinzufügen oder Bearbeiten eines Neptune Apex auf **Weiter** tippst. Cora hat die Anmeldung probiert, die du eingegeben hast (falls du ein Passwort eingetragen hast), danach die Werksanmeldung des Apex und zuletzt keine Anmeldung, und der Apex hat alle abgelehnt.
+
+1. Tippe auf **Abbrechen**.
+2. Prüfe Benutzernamen und Passwort, die am Apex eingerichtet sind, unter **Network Setup**, **Login**. Wenn dein Apex keine Anmeldung hat, lass beide Felder leer.
+3. Gib sie erneut ein und tippe auf **Weiter**.
+
+**Trotzdem speichern** übernimmt deine Eingabe, ohne dass der Test bestanden ist. Nutze es nur, wenn du sicher bist, dass die Anmeldung stimmt. Änderst du die Anmeldung am Apex später, trage die neue ein, wie unter [Cora Max zeigt "Apex-Passwort"](#cora-max-shows-apex-password) beschrieben.
 
 ### Cora Max zeigt "Cloud-Speichern abgelehnt" {#cora-max-shows-cloud-save-refused}
 

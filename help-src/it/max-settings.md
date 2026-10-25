@@ -1,6 +1,6 @@
 ---
 title: Impostazioni di Cora Max
-description: Ogni impostazione di Cora Max, da nome, luminosità, attenuazione notturna, altoparlante e parola di attivazione a blocco bambini, lingua, Wi-Fi, nuova associazione e ripristino di fabbrica.
+description: Ogni impostazione di Cora Max, da nome, luminosità e attenuazione notturna a blocco bambini, lingua, Wi-Fi e ripristino di fabbrica.
 section: Cora Max
 reviewed: 2026-10-18
 order: 14

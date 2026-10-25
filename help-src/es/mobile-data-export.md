@@ -3,7 +3,7 @@ title: Exportar tus datos y eliminar tu cuenta
 description: Exporta tus lecturas, tu diario y tus alertas como hojas de cálculo, cierra sesión o elimina tu cuenta de Cora y mira qué se borra.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 38
+order: 39
 group: Settings and account
 ---
 

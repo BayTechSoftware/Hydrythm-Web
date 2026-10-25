@@ -3,7 +3,7 @@ title: Plus d’un appareil Cora
 description: Avec plusieurs appareils Cora, choisissez lequel répond à votre voix et lequel interroge chaque aquarium, et voyez ce qui fonctionne loin de chez vous.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 36
+order: 37
 group: Settings and account
 twin: max-reef-room
 ---

@@ -2,7 +2,7 @@
 title: Configurer Cora Mobile
 description: Installez Cora Mobile, créez votre compte, ajoutez votre premier aquarium et affichez vos premières mesures à l’écran, étape par étape.
 section: Cora Mobile
-reviewed: 2026-10-18
+reviewed: 2026-10-24
 order: 1
 group: Getting started
 twin: max-setup
@@ -59,7 +59,7 @@ Après la connexion, **Faisons connaissance avec votre aquarium** vous pose troi
 Touchez **Créer mon aquarium**.
 
 :::note Votre aquarium est-il encore en cyclage ?
-Touchez **Vous démarrez un nouvel aquarium ?** sur le tableau de bord **avant** de noter un test ou d’associer un équipement. Cette carte n’apparaît que sur un aquarium sans aucune mesure, et c’est ainsi que vous activez le cyclage guidé. Plus de détails dans [Parcours guidés](/help/mobile-journeys).
+Touchez **Vous démarrez un nouvel aquarium ?** sur le tableau de bord. Cette carte apparaît tant que l’aquarium n’a aucune mesure. Si vous avez déjà noté un test, ouvrez le profil de l’aquarium et touchez la même carte en haut : elle marche à tout moment. Plus de détails dans [Parcours guidés](/help/mobile-journeys).
 
 Cora juge aussi les mesures par rapport à ce qui est normal pour un aquarium de cet âge. L’assistant de création ne le demande pas, réglez donc la **Date de démarrage de l’aquarium** dans le profil de votre aquarium, sous **Dimensions de l’aquarium**.
 :::

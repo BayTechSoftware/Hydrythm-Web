@@ -1,6 +1,6 @@
 ---
 title: Cora Yardım
-description: Cora Mobile ve Cora Max'i kurun ve kullanın: akvaryumunuzu ekleyin, ekipmanınızı bağlayın, uyarıları ayarlayın, Reef Buddy ve ICP sonuçlarını okuyun, Cora Max'i eşleştirin ve sorunları çözün.
+description: Cora Mobile ve Cora Max'i kurun ve kullanın: akvaryumunuzu ekleyin, ekipmanınızı bağlayın, uyarıları ayarlayın, Reef Buddy ve ICP sonuçlarını okuyun, sorunları çözün.
 section: -
 reviewed: 2026-10-13
 order: 0

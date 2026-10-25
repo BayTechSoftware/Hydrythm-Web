@@ -2,7 +2,7 @@
 title: Reef Buddy i raporty
 description: Poranne podsumowanie Reef Buddy na Cora Max, ocenianie spostrzeżeń, zapisywanie konserwacji sond, wyniki ICP, raporty zdrowia i wykresy historii.
 section: Cora Max
-reviewed: 2026-10-13
+reviewed: 2026-10-24
 order: 12
 group: Intelligence
 twin: mobile-reef-buddy
@@ -31,7 +31,7 @@ Po zapisaniu testu albo dodaniu wyniku ICP ekran pokazuje **Są nowe pomiary od 
 Dotknij karty na liście, aby otworzyć ją po prawej.
 
 - **Dlaczego to widzę?** pokazuje odczyty, cel i wpisy dziennika, na których się opiera.
-- Wiersz opinii pod każdą kartą: **Wartościowe**, **Nieprzydatne**, **To już wiem** albo **Nie zgadza się**. **Nieprzydatne** i **Nie zgadza się** ukrywają ustalenie na 14 dni, **To już wiem** na 7. Ostrzeżenia i ustalenia krytyczne nigdy nie są ukrywane. Przy odczycie, który się zmienił, **Nie zgadza się** proponuje wykluczenie błędnych odczytów. Cora używa twoich odpowiedzi, by poznać twoje akwarium.
+- Wiersz opinii pod każdą kartą: **Wartościowe**, **Nieprzydatne**, **To już wiem** albo **Nie zgadza się**. Przy spostrzeżeniu **Nieprzydatne** i **Nie zgadza się** ukrywają ustalenie na 14 dni, a **To już wiem** na 7. Przy odczycie, który się zmienił, ukrywa go tylko **Nieprzydatne** (na 14 dni), a **Nie zgadza się** proponuje wykluczenie błędnych odczytów. Ostrzeżenia i ustalenia krytyczne nigdy nie są ukrywane. Cora używa twoich odpowiedzi, by poznać twoje akwarium.
 
 Gdy Cora wątpi w odczyt, pokazuje go w **Warto sprawdzić**, na przykład sondę, która może dryfować. Możesz tam:
 

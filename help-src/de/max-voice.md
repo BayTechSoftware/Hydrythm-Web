@@ -1,6 +1,6 @@
 ---
 title: Mit Cora sprechen
-description: Sprache und "Hey Cora" auf Cora Max nutzen, was per Sprache geht und was nicht, Teilen von Daten mit der KI und dein monatliches Kontingent, und was du tust, wenn Cora nicht antwortet.
+description: Sprache und "Hey Cora" auf Cora Max nutzen, was per Sprache geht, Teilen von Daten mit der KI, dein Monatskontingent und was du tust, wenn Cora nicht antwortet.
 section: Cora Max
 reviewed: 2026-10-18
 order: 13

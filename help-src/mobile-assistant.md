@@ -3,7 +3,7 @@ title: Asking Cora
 description: Use Cora Assistant by typing or talking, what it can see, what it can do for you, the data sharing switch, and memory.
 section: Cora Mobile
 reviewed: 2026-10-17
-order: 32
+order: 33
 group: Intelligence
 twin: max-voice
 ---

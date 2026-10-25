@@ -2,8 +2,8 @@
 title: Automazioni e scene
 description: Fai agire Cora da sola quando cambia una lettura, scatta un avviso, arriva un'ora o un dispositivo va offline, e raggruppa le azioni in scene che avvii con un tocco.
 section: Cora Mobile
-reviewed: 2026-10-18
-order: 24
+reviewed: 2026-10-24
+order: 25
 group: Alerts and automation
 twin: max-automation
 ---

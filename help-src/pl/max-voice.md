@@ -1,6 +1,6 @@
 ---
 title: Rozmowa z Corą
-description: Korzystaj z głosu i „Hey Cora” na Cora Max, sprawdź, co Cora może, a czego nie może zrobić głosem, jak działa udostępnianie danych AI i miesięczny limit oraz co zrobić, gdy Cora nie odpowiada.
+description: Korzystaj z głosu i „Hey Cora” na Cora Max, sprawdź, co można zrobić głosem, jak działa udostępnianie danych AI i limit miesięczny oraz co robić, gdy Cora nie odpowiada.
 section: Cora Max
 reviewed: 2026-10-18
 order: 13

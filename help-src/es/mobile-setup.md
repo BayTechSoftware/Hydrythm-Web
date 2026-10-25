@@ -2,7 +2,7 @@
 title: Configurar Cora Mobile
 description: Instala Cora Mobile, crea tu cuenta, añade tu primer acuario y consigue tus primeras lecturas en pantalla, paso a paso.
 section: Cora Mobile
-reviewed: 2026-10-18
+reviewed: 2026-10-24
 order: 1
 group: Getting started
 twin: max-setup
@@ -59,7 +59,7 @@ Después de iniciar sesión, **Conozcamos tu acuario** te pregunta tres cosas. S
 Toca **Crear mi acuario**.
 
 :::note ¿Tu acuario todavía está haciendo el ciclo?
-Toca **¿Estás empezando un acuario nuevo?** en el panel **antes** de registrar una prueba o vincular equipos. Esa tarjeta solo aparece en un acuario sin ninguna lectura, y es la forma de activar el ciclado guiado. Más información en [Itinerarios guiados](/help/mobile-journeys).
+Toca **¿Estás empezando un acuario nuevo?** en el panel. Esa tarjeta aparece mientras el acuario no tiene lecturas. Si ya registraste una prueba, abre el perfil del acuario y toca la misma tarjeta de arriba, que funciona en cualquier momento. Más información en [Itinerarios guiados](/help/mobile-journeys).
 
 Cora también valora las lecturas según lo normal para un acuario de esa edad. El asistente no lo pregunta, así que indica la **Fecha de inicio del acuario** en tu perfil del acuario, en **Dimensiones del acuario**.
 :::

@@ -2,7 +2,7 @@
 title: Sterowanie sprzętem
 description: Otwórz stronę urządzenia, żeby zobaczyć jego stan na żywo i przełączać gniazda, pompy, głowice dozujące i testery, marka po marce.
 section: Cora Mobile
-reviewed: 2026-10-18
+reviewed: 2026-10-24
 order: 13
 group: Equipment
 twin: max-device-control
@@ -206,7 +206,7 @@ W sekcji **Kontroler** na stronie urządzenia Cora pokazuje to, co zgłasza kont
 
 - docelowe KH;
 - ile suplementu alkaliczności zostało, wraz z poziomem ostrzegawczym ustawionym na kontrolerze (na przykład *niski poziom od 100 mL*);
-- ile mL potrzeba na 1 dKH (*mL na 1 dKH*);
+- ile mL potrzeba na 1 dKH (na przykład *48 mL na dawkę dKH*);
 - maksymalną dawkę na pomiar (*Do 20 mL na pomiar*);
 - wersję oprogramowania.
 

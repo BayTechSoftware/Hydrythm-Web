@@ -3,7 +3,7 @@ title: Cora Mobile ayarları
 description: Hesabınız ve planınızdan akvaryumlara, Cora Assistant'a, dile, koyu moda, bildirimlere ve desteğe kadar Cora Mobile'ın Ayarlar sekmesinde her şeyin nerede olduğu.
 section: Cora Mobile
 reviewed: 2026-10-18
-order: 35
+order: 36
 group: Settings and account
 twin: max-settings
 ---

@@ -1,9 +1,9 @@
 ---
 title: Benachrichtigungen
-description: Wählen, welche Benachrichtigungen dein Handy erreichen, die Nächte ruhig halten, unter der Glocke nachlesen, was du verpasst hast, und Benachrichtigungen reparieren, die nicht ankommen.
+description: Wähle, welche Benachrichtigungen dein Handy erreichen, halte die Nächte ruhig, lies unter der Glocke nach, was du verpasst hast, und behebe Zustellprobleme.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 23
+order: 24
 group: Alerts and automation
 ---
 

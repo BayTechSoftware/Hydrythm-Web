@@ -3,7 +3,7 @@ title: Cora fragen
 description: Cora Assistant per Tippen oder Sprechen nutzen, was Cora sehen kann, was Cora für dich tun kann, der Schalter für das Teilen von Daten und das Gedächtnis.
 section: Cora Mobile
 reviewed: 2026-10-17
-order: 32
+order: 33
 group: Intelligence
 twin: max-voice
 ---

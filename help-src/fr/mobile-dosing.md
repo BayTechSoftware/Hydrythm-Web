@@ -3,7 +3,7 @@ title: Produits de dosage et calculateur de dose
 description: Vérifiez la concentration de vos produits d’alcalinité, de calcium et de magnésium, ajoutez les vôtres et utilisez le calculateur de dose pour savoir combien ajouter.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 27
+order: 28
 group: Records
 ---
 

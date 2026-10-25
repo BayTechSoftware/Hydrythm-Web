@@ -2,7 +2,7 @@
 title: Cora Max'ten ekipman kontrolü
 description: Cora Max'te Neptune Apex, Trident ve DŌS, Red Sea ReefBeat, Jecod ve AquaWiz için cihaz sayfaları, markaya göre.
 section: Cora Max
-reviewed: 2026-10-18
+reviewed: 2026-10-24
 order: 6
 group: Equipment
 twin: mobile-device-control

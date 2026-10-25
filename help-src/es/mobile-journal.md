@@ -3,7 +3,7 @@ title: El diario
 description: Escribe o dicta lo que hiciste en tu acuario, anota la alimentación y pregúntale a Cora por una entrada, para ver más adelante qué causó qué.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 26
+order: 27
 group: Records
 twin: max-records
 ---

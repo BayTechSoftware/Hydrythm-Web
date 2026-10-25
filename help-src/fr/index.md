@@ -1,6 +1,6 @@
 ---
 title: Aide Cora
-description: Configurez et utilisez Cora Mobile et Cora Max : ajoutez votre aquarium, connectez votre équipement, réglez les alertes, lisez Reef Buddy et les résultats ICP, associez Cora Max et résolvez les problèmes.
+description: Configurez et utilisez Cora Mobile et Cora Max : ajoutez votre aquarium, connectez votre équipement, réglez les alertes, lisez Reef Buddy et vos résultats ICP.
 section: -
 reviewed: 2026-10-13
 order: 0

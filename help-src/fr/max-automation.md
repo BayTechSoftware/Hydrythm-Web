@@ -2,7 +2,7 @@
 title: Scènes sur Cora Max
 description: Créez, lancez, modifiez et supprimez des scènes sur Cora Max, depuis Paramètres → Automatisations ou une tuile de scène sur le tableau de bord.
 section: Cora Max
-reviewed: 2026-10-18
+reviewed: 2026-10-24
 order: 9
 group: Alerts and automation
 twin: mobile-automation

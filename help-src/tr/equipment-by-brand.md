@@ -2,7 +2,7 @@
 title: Markaya göre ekipman
 description: Neptune Apex, Red Sea ReefBeat, Jecod ya da AquaWiz ekipmanınızla ilgili her şey tek yerde: eklemekten kontrol etmeye, uyarılarından çözümlerine kadar.
 section: Help
-reviewed: 2026-10-17
+reviewed: 2026-10-24
 order: 3
 ---
 
@@ -24,7 +24,7 @@ Cora, Apex'inizin problarını ve prizlerini okur, besleme döngülerini çalı�
 - Telefonunuzda kontrol: [Apex](/help/mobile-device-control#neptune-apex), [DŌS](/help/mobile-device-control#dos), [Trident](/help/mobile-device-control#trident)
 - Cora Max'te: [prizler ve besleme modu](/help/max-controls), [Apex ve Trident](/help/max-device-control#neptune-apex), [DŌS kafaları](/help/max-device-control#dos-heads)
 - Uyarılar: [bildirmeyi bıraktı](/help/mobile-alerts#stopped-reporting), [dozaj pompası uyarıları](/help/mobile-device-control#doser-alerts)
-- Çözümler: ["Apex'e ulaşılamadı"](/help/troubleshooting#could-not-reach-the-apex-nothing-changed-nothing-was-dosed), ["… Apex bilgileri yok"](/help/troubleshooting#this-could-not-be-sent-no-device-on-this-tank-can-send-it), ["Apex şifresi"](/help/troubleshooting#cora-max-shows-apex-password), [Besleme başlamıyor](/help/troubleshooting#feed-does-not-start), [bir doz yarıda durdu](/help/troubleshooting#a-dose-stopped-partway-through-and-a-restore-alert-appeared)
+- Çözümler: ["Apex'e ulaşılamadı"](/help/troubleshooting#could-not-reach-the-apex-nothing-changed-nothing-was-dosed), ["… Apex bilgileri yok"](/help/troubleshooting#this-could-not-be-sent-no-device-on-this-tank-can-send-it), ["Apex şifresi"](/help/troubleshooting#cora-max-shows-apex-password), ["Apex bu girişi reddetti"](/help/troubleshooting#the-apex-refused-this-login), [Besleme başlamıyor](/help/troubleshooting#feed-does-not-start), [bir doz yarıda durdu](/help/troubleshooting#a-dose-stopped-partway-through-and-a-restore-alert-appeared)
 
 ## Red Sea ReefBeat {#red-sea}
 

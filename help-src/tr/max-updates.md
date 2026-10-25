@@ -1,6 +1,6 @@
 ---
 title: Güncellemeler ve kurtarma
-description: Cora Max kendini nasıl günceller, yükleme penceresi ve güncelleme kanalı, sürümü kontrol etme, Kurtarma PIN'i ve Cora Max açılmazsa ya da bir destek kodu gösterirse ne yapılacağı.
+description: Cora Max kendini nasıl günceller, yükleme penceresi ve güncelleme kanalı, sürümü kontrol etme, Kurtarma PIN'i ve Cora Max açılmazsa ne yapılacağı.
 section: Cora Max
 reviewed: 2026-10-17
 order: 15

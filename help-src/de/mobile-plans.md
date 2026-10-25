@@ -1,9 +1,9 @@
 ---
 title: Pläne und Abos
-description: Was die Pläne Free, Testphase, Essential, Advanced und Expert enthalten, wie du ein Abo abschließt oder upgradest, wo du deine Nutzung siehst und wie du auf iPhone oder Android kündigst.
+description: Was die Pläne Free, Testphase, Essential, Advanced und Expert enthalten, wie du ein Abo abschließt oder upgradest, wo du deine Nutzung siehst und wie du kündigst.
 section: Cora Mobile
 reviewed: 2026-10-18
-order: 37
+order: 38
 group: Settings and account
 ---
 

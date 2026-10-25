@@ -2,7 +2,7 @@
 title: Domande frequenti
 description: Risposte brevi su cosa ti serve, Cora Max, usare Cora fuori casa, attrezzatura, avvisi, Reef Buddy, lingue, piani e i tuoi dati.
 section: Help
-reviewed: 2026-10-18
+reviewed: 2026-10-24
 order: 4
 ---
 
@@ -26,7 +26,7 @@ Sì. Nella schermata di accesso, tocca **Esplora un reef demo**. È una vasca di
 
 ### La mia vasca sta ancora facendo il ciclo. Cora può aiutarmi? {#my-tank-is-still-cycling}
 
-Sì. Tocca **Stai avviando una nuova vasca?** sulla dashboard per avviare il percorso di maturazione. La scheda compare solo su una vasca ancora senza letture, quindi fallo prima di registrare un test o collegare attrezzatura. Di più in [Percorsi guidati](/help/mobile-journeys).
+Sì. Tocca **Stai avviando una nuova vasca?** sulla dashboard per avviare il percorso di maturazione. La scheda compare finché la vasca non ha letture. Dopo, usa la stessa scheda in cima al profilo della vasca. Puoi anche attivare **È una vasca nuovissima che sto facendo maturare** quando aggiungi la vasca. Di più in [Percorsi guidati](/help/mobile-journeys).
 
 ### Cosa vuol dire "profilo della vasca", e perché fa così tante domande? {#what-does-tank-profile-mean}
 

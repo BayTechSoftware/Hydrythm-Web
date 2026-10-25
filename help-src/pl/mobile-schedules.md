@@ -1,6 +1,6 @@
 ---
 title: Harmonogramy sprzętu
-description: Ułóż program dnia dla pompy Jecod i skopiuj go na inne pompy.
+description: Ułóż program dnia dla pompy Jecod, skopiuj go na inne pompy, zapisz i udostępnij oraz sprawdź, czy pompa go przyjęła.
 section: Cora Mobile
 reviewed: 2026-10-17
 order: 14

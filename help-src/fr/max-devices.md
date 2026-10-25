@@ -1,6 +1,6 @@
 ---
 title: Appareils et état des appareils
-description: Voyez et renommez l’équipement que lit Cora Max, choisissez quel Cora Max lit chaque aquarium, réparez un aquarium dont les mesures se sont arrêtées et gérez un Cora Max depuis votre téléphone.
+description: Voyez et renommez l’équipement que lit Cora Max, choisissez quel Cora Max lit chaque aquarium et réparez un aquarium dont les mesures se sont arrêtées.
 section: Cora Max
 reviewed: 2026-10-17
 order: 7

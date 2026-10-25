@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Referencia de widgets | Cora Help</title>
+  <title>Referencia de widgets | Ayuda de Cora</title>
   <meta name="description" content="Todos los tipos de widget del panel de Cora Mobile, desde valor, medidor, gráfico, estado y toma hasta las tarjetas de dispositivos, y cuándo usar cada uno.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/es/help/mobile-widgets">
@@ -16,7 +16,7 @@
   <link rel="alternate" hreflang="pl" href="https://coraiq.tech/pl/help/mobile-widgets">
   <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/mobile-widgets">
   <meta property="og:site_name" content="Cora">
-  <meta property="og:title" content="Referencia de widgets | Cora Help">
+  <meta property="og:title" content="Referencia de widgets | Ayuda de Cora">
   <meta property="og:description" content="Todos los tipos de widget del panel de Cora Mobile, desde valor, medidor, gráfico, estado y toma hasta las tarjetas de dispositivos, y cuándo usar cada uno.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/es/help/mobile-widgets">
@@ -210,7 +210,7 @@
 <p>La tarjeta de una dosificadora (un DŌS de Apex o una ReefDose) muestra una fila por cabezal. El nombre de un cabezal nunca se reduce por debajo de un tamaño legible. En una tarjeta alta, la fila ocupa dos líneas, con el nombre en la primera y lo que queda en la segunda, por ejemplo <em>40d</em> y <em>2,8 L</em>. En una tarjeta baja se quita la línea de detalle y el nombre se mantiene legible.</p>
 <p>Elige qué va primero con <strong>Mostrar lo restante como</strong>: <strong>Días</strong> o <strong>Mililitros (mL)</strong>. Un cabezal ReefDose sin nombre propio se muestra como el nombre del dispositivo seguido de "head" y su número. La tarjeta de una dosificadora Jecod es de solo lectura y muestra el plan diario, porque Jecod no informa de cuánto queda en la botella.</p>
       <nav class="pn" aria-label="Seguir leyendo"><a class="pn-p" href="/es/help/mobile-dashboard-editing"><span>Anterior</span><b>Editar tu panel</b></a><a class="pn-n" href="/es/help/mobile-sharing"><span>Siguiente</span><b>Compartir tu acuario</b></a></nav>
-      <p class="stamp">Escrito para Cora Max 0.28.222 y Cora Mobile 1.4.3. Última revisión el 2026-10-18.</p>
+      <p class="stamp">Escrito para Cora Max 0.28.238 y Cora Mobile 1.4.14. Última revisión el 2026-10-18.</p>
       <p class="ask">¿Sigues atascado? Escribe a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> y te ayudamos.</p>
     </article>
   </main>
@@ -601,7 +601,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/es/help/search.json?v=76cf023804').then(function (r) { return r.json(); })
+    fetch('/es/help/search.json?v=9384433ffe').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "es"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La b\u00fasqueda no est\u00e1 disponible. Usa la navegaci\u00f3n." + '</li>';

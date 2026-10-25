@@ -1,9 +1,9 @@
 ---
 title: Automationen und Szenen
-description: Cora von selbst handeln lassen, wenn ein Messwert, eine Warnung, eine Uhrzeit oder ein Gerät offline geht, und Aktionen zu Szenen zusammenfassen, die du mit einem Tippen startest.
+description: Cora von selbst handeln lassen, wenn ein Messwert, eine Warnung, eine Uhrzeit oder ein Gerät offline geht, und Aktionen zu Ein-Tipp-Szenen bündeln.
 section: Cora Mobile
-reviewed: 2026-10-18
-order: 24
+reviewed: 2026-10-24
+order: 25
 group: Alerts and automation
 twin: max-automation
 ---

@@ -3,7 +3,7 @@ title: Mantenimiento
 description: Añade tareas periódicas como limpiar el skimmer o cambiar las mangas filtrantes, recibe un recordatorio cuando toquen y márcalas como hechas o posponlas.
 section: Cora Mobile
 reviewed: 2026-10-17
-order: 28
+order: 29
 group: Records
 twin: max-records
 ---

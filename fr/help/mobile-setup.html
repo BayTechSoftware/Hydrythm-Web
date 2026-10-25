@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Configurer Cora Mobile | Cora Help</title>
+  <title>Configurer Cora Mobile | Aide Cora</title>
   <meta name="description" content="Installez Cora Mobile, créez votre compte, ajoutez votre premier aquarium et affichez vos premières mesures à l’écran, étape par étape.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/fr/help/mobile-setup">
@@ -16,7 +16,7 @@
   <link rel="alternate" hreflang="pl" href="https://coraiq.tech/pl/help/mobile-setup">
   <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/mobile-setup">
   <meta property="og:site_name" content="Cora">
-  <meta property="og:title" content="Configurer Cora Mobile | Cora Help">
+  <meta property="og:title" content="Configurer Cora Mobile | Aide Cora">
   <meta property="og:description" content="Installez Cora Mobile, créez votre compte, ajoutez votre premier aquarium et affichez vos premières mesures à l’écran, étape par étape.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/fr/help/mobile-setup">
@@ -193,7 +193,7 @@
 <p>Après la connexion, <strong>Faisons connaissance avec votre aquarium</strong> vous pose trois questions. Seul le nom est obligatoire, et vous pourrez tout changer plus tard dans le <a href="/fr/help/mobile-tank-profile">profil de votre aquarium</a>.</p>
 <ol><li><strong>Comment l’appelez-vous ?</strong> est le nom que vous utilisez au quotidien, comme « Principal », « Boutures » ou « Quarantaine ».</li><li><strong>Quel type d’aquarium est-ce ?</strong> est <strong>Récif SPS</strong>, <strong>Récif LPS</strong>, <strong>Récif mixte</strong>, <strong>Récif de coraux mous</strong>, <strong>FOWLR</strong> ou <strong>Poissons uniquement</strong>. Le type définit vos plages d’alerte de départ. Dans le doute, choisissez <strong>Récif mixte</strong>.</li><li><strong>Combien d’eau ?</strong> est le vrai volume d’eau, décantation comprise. Les calculs de dosage utilisent ce chiffre, essayez donc qu’il soit à peu près juste. Si vous ne connaissez que la taille de l’aquarium, touchez <strong>Vous ne connaissez pas le volume ? Saisissez les dimensions</strong> et Cora le calcule.</li></ol>
 <p>Touchez <strong>Créer mon aquarium</strong>.</p>
-<aside class="cal cal-note"><p class="cal-t">Votre aquarium est-il encore en cyclage ?</p><p>Touchez <strong>Vous démarrez un nouvel aquarium ?</strong> sur le tableau de bord <strong>avant</strong> de noter un test ou d’associer un équipement. Cette carte n’apparaît que sur un aquarium sans aucune mesure, et c’est ainsi que vous activez le cyclage guidé. Plus de détails dans <a href="/fr/help/mobile-journeys">Parcours guidés</a>.</p>
+<aside class="cal cal-note"><p class="cal-t">Votre aquarium est-il encore en cyclage ?</p><p>Touchez <strong>Vous démarrez un nouvel aquarium ?</strong> sur le tableau de bord. Cette carte apparaît tant que l’aquarium n’a aucune mesure. Si vous avez déjà noté un test, ouvrez le profil de l’aquarium et touchez la même carte en haut : elle marche à tout moment. Plus de détails dans <a href="/fr/help/mobile-journeys">Parcours guidés</a>.</p>
 <p>Cora juge aussi les mesures par rapport à ce qui est normal pour un aquarium de cet âge. L’assistant de création ne le demande pas, réglez donc la <strong>Date de démarrage de l’aquarium</strong> dans le profil de votre aquarium, sous <strong>Dimensions de l’aquarium</strong>.</p></aside>
 <h2 id="your-tank-is-live">"Votre aquarium est en ligne"</h2>
 <p>Vous voyez ensuite le nom de votre aquarium suivi de <strong>est en ligne</strong>, par exemple <strong>« Principal » est en ligne</strong>. L’écran propose quatre étapes suivantes. Choisissez celle que vous voulez, ou aucune.</p>
@@ -220,7 +220,7 @@
 <p>Vous êtes prêt quand le tableau de bord affiche le nom de votre aquarium en haut et quelques widgets avec des chiffres. Une carte <strong>Reef Buddy</strong> suit une fois que le premier briefing a tourné pendant la nuit.</p>
 <p>Ensuite, consultez <a href="/fr/help/mobile-tour">Se repérer dans Cora Mobile</a>. Pour ajouter un deuxième aquarium, voir <a href="/fr/help/mobile-tanks">Gérer vos aquariums</a>.</p>
       <nav class="pn" aria-label="Poursuivre la lecture"><a class="pn-n" href="/fr/help/mobile-tour"><span>Suivant</span><b>Se repérer dans Cora Mobile</b></a></nav>
-      <p class="stamp">Rédigé pour Cora Max 0.28.222 et Cora Mobile 1.4.3. Vérifié pour la dernière fois le 2026-10-18.</p>
+      <p class="stamp">Rédigé pour Cora Max 0.28.238 et Cora Mobile 1.4.14. Vérifié pour la dernière fois le 2026-10-24.</p>
       <p class="ask">Toujours bloqué ? Écrivez à <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, nous vous aiderons.</p>
     </article>
   </main>
@@ -611,7 +611,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/fr/help/search.json?v=f05beee199').then(function (r) { return r.json(); })
+    fetch('/fr/help/search.json?v=fac77358f2').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "fr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La recherche est indisponible. Utilisez la navigation." + '</li>';

@@ -3,7 +3,7 @@ title: Signaler un problème
 description: Signalez un bug ou envoyez un retour depuis Cora Mobile, voyez ce qui est envoyé avec, activez les rapports de plantage ou écrivez à l’assistance.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 39
+order: 40
 group: Settings and account
 ---
 

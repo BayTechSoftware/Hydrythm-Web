@@ -3,7 +3,7 @@ title: Manutenzione
 description: Aggiungi lavori ricorrenti come pulire lo schiumatoio o cambiare le calze filtranti, ricevi un promemoria quando scadono e segnali come fatti o rinviali.
 section: Cora Mobile
 reviewed: 2026-10-17
-order: 28
+order: 29
 group: Records
 twin: max-records
 ---

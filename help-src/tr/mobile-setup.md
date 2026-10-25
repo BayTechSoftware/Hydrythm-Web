@@ -2,7 +2,7 @@
 title: Cora Mobile'ı kurma
 description: Cora Mobile'ı yükleyin, hesabınızı açın, ilk akvaryumunuzu ekleyin ve ilk ölçümlerinizi adım adım ekrana getirin.
 section: Cora Mobile
-reviewed: 2026-10-18
+reviewed: 2026-10-24
 order: 1
 group: Getting started
 twin: max-setup
@@ -59,7 +59,7 @@ Giriş yaptıktan sonra **Akvaryumunuzla tanışalım** üç şey sorar. Yalnız
 **Akvaryumumu oluştur**'a dokunun.
 
 :::note Akvaryumunuz hâlâ döngüde mi?
-Bir test kaydetmeden ya da ekipman bağlamadan **önce** panodaki **Yeni bir akvaryum mu kuruyorsunuz?** kartına dokunun. Bu kart yalnızca hiç ölçümü olmayan bir akvaryumda görünür ve rehberli döngüyü bununla açarsınız. Ayrıntılar [Rehberli yolculuklar](/help/mobile-journeys) sayfasında.
+Panodaki **Yeni bir akvaryum mu kuruyorsunuz?** kartına dokunun. Bu kart, akvaryumda hiç ölçüm yokken görünür. Daha önce bir test kaydettiyseniz akvaryumun profilini açın ve en üstteki aynı karta dokunun: her zaman çalışır. Ayrıntılar [Rehberli yolculuklar](/help/mobile-journeys) sayfasında.
 
 Cora ayrıca ölçümleri o yaştaki bir akvaryum için normal olana göre değerlendirir. Sihirbaz bunu sormaz, bu yüzden akvaryum profilinizde **Akvaryum Boyutları** altında **Akvaryum başlangıç tarihi**'ni ayarlayın.
 :::

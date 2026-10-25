@@ -41,6 +41,7 @@ Du siehst nur Wasserwerte, die das Becken hat. Ein Wasserwert ohne Quelle ersche
 
 Das Raster fasst bis zu 20 Zeilen. Ist es voll, sagt Cora **Dashboard ist voll: Entferne zuerst eine Kachel.** Ein Diagramm braucht zwei freie Zellen nebeneinander.
 
+
 Entfernst du ein Gerät aus einem Becken, verschwinden seine Kacheln von selbst vom Dashboard, auf deinem Handy und auf jedem Cora Max dieses Beckens. Eine Kachel, deren Gerät weg ist, sagt **Dieses Gerät ist nicht mehr in diesem Becken** und öffnet nichts.
 
 ## Widgets anordnen {#arranging-widgets}

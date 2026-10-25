@@ -2,8 +2,8 @@
 title: Reef Buddy
 description: Günlük Reef Buddy özetiniz, neleri kapsadığı, ne zaman geldiği, puanların nasıl okunduğu ve bir özetin neden gelmeyebileceği.
 section: Cora Mobile
-reviewed: 2026-10-18
-order: 31
+reviewed: 2026-10-24
+order: 32
 group: Intelligence
 twin: max-intelligence
 ---
@@ -27,7 +27,7 @@ Düşük bir Veri puanı, Cora'nın istediğinden daha az ölçümle çalıştı
 
 Sonra bir özet gelir: başlığı gerçek değerlerinizi ve aralıklarınızı kullanarak açıklayan kısa bir paragraf.
 
-Sonra **Bugün bir bakışta** gelir, altında da her bulgu tek bir kart olarak yer alır: bir içgörü, değişen bir ölçüm ya da günlük gözlem. Her kart Cora'nın ne gördüğünü söyler, sayıları ve küçük bir grafik gösterir. Tekrar eden bir bulgu *Hâlâ: ..., 12 Eki tarihinden beri* şeklinde görünür. Sayfanın üstündeki bir çip akvaryum türünü ve profilinin ne kadar tamamlandığını gösterir. İkisi de Cora'nın ne sonuç çıkarabileceğini etkiler.
+Sonra **Bugün bir bakışta** gelir, altında da her bulgu tek bir kart olarak yer alır: bir içgörü, değişen bir ölçüm ya da günlük gözlem. Her kart Cora'nın ne gördüğünü söyler, sayıları ve küçük bir grafik gösterir. Tekrar eden bir bulgu *Hâlâ: ..., 12 Eki tarihinden beri* şeklinde görünür. **Bugünün bulguları** başlığının yanındaki bir çip akvaryum türünü ve profilinin ne kadar tamamlandığını gösterir. İkisi de Cora'nın ne sonuç çıkarabileceğini etkiler.
 
 
 Cora içgörüleri size ulaşmadan önce süzer. Bir içgörünün birkaç ölçüm boyunca geçerli kalması gerekir. Tek bir ölçüm yetmez. Ayrıca tek bir grafiğin zaten göstermeyeceği bir şey söylemesi gerekir.
@@ -106,10 +106,10 @@ Her kartın altında tek bir geri bildirim satırı vardır. Yanıtınız, sonra
 |---|---|
 | **Değerli** | Doğruydu ve işe yaradı |
 | **Faydalı değil** | Doğru, ama sizin için değil. Bu bulguyu 14 gün gizler |
-| **Zaten biliyordum** | Doğru, ama zaten biliyordunuz. 7 gün gizler |
-| **Uyuşmuyor** | Gördüğünüzle uyuşmuyor. 14 gün gizler |
+| **Zaten biliyordum** | Doğru, ama zaten biliyordunuz. 7 gün gizler, değişen bir ölçüm hariç |
+| **Uyuşmuyor** | Gördüğünüzle uyuşmuyor. 14 gün gizler, değişen bir ölçüm hariç |
 
-Değişen bir ölçümde **Uyuşmuyor**, yanlış ölçümleri hariç tutmayı da önerir; böylece Cora onları saymayı bırakır. Gizleme yalnızca bir süre sürer. Sorun hâlâ varsa bulgu geri gelir.
+Değişen bir ölçümde yalnızca **Faydalı değil** kartı gizler (14 gün). **Zaten biliyordum** yalnızca not edilir, **Uyuşmuyor** ise hiçbir şeyi gizlemez: yanlış ölçümleri hariç tutmayı önerir; böylece Cora onları saymayı bırakır. Gizleme yalnızca bir süre sürer. Sorun hâlâ varsa bulgu geri gelir.
 
 :::note Ciddi bulgular asla gizlenmez
 Uyarı ve kritik bulgular, daha önce ne yanıtlamış olursanız olun görünmeye devam eder.

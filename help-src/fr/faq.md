@@ -1,8 +1,8 @@
 ---
 title: Questions fréquentes
-description: Des réponses courtes sur ce qu’il vous faut, Cora Max, l’utilisation de Cora loin de chez vous, l’équipement, les alertes, Reef Buddy, les langues, les forfaits et vos données.
+description: Des réponses courtes sur ce qu’il vous faut, Cora Max, l’accès à distance, l’équipement, les alertes, Reef Buddy, les langues, les forfaits et vos données.
 section: Help
-reviewed: 2026-10-18
+reviewed: 2026-10-24
 order: 4
 ---
 
@@ -26,7 +26,7 @@ Oui. Sur l’écran de connexion, touchez **Explorer un récif de démonstration
 
 ### Mon aquarium est encore en cyclage. Cora peut-il aider ? {#my-tank-is-still-cycling}
 
-Oui. Touchez **Vous démarrez un nouvel aquarium ?** sur le tableau de bord pour lancer le parcours de cyclage. La carte n’apparaît que sur un aquarium sans encore aucune mesure, faites-le donc avant de noter un test ou d’associer un équipement. Plus de détails dans [Parcours guidés](/help/mobile-journeys).
+Oui. Touchez **Vous démarrez un nouvel aquarium ?** sur le tableau de bord pour lancer le parcours de cyclage. La carte apparaît tant que l’aquarium n’a aucune mesure. Ensuite, utilisez la même carte en haut du profil de l’aquarium. Vous pouvez aussi activer **C’est un tout nouvel aquarium que je cycle** en ajoutant l’aquarium. Plus de détails dans [Parcours guidés](/help/mobile-journeys).
 
 ### Que veut dire "profil de l’aquarium", et pourquoi pose-t-il autant de questions ? {#what-does-tank-profile-mean}
 

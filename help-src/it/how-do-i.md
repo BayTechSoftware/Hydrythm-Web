@@ -1,6 +1,6 @@
 ---
 title: Come faccio a...?
-description: Un elenco di attività comuni in Cora Mobile e su Cora Max, ognuna collegata ai passaggi esatti, dalla creazione dell'account all'associazione di Cora Max e all'annullamento di un piano.
+description: Un elenco di attività comuni in Cora Mobile e su Cora Max, ognuna con i passaggi esatti, dalla creazione dell'account all'annullamento di un piano.
 section: Help
 reviewed: 2026-10-17
 order: 2

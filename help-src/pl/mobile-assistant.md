@@ -3,7 +3,7 @@ title: Pytania do Cory
 description: Korzystaj z Cora Assistant, pisząc albo mówiąc, i sprawdź, co widzi, co może dla Ciebie zrobić, jak działa przełącznik udostępniania danych i pamięć.
 section: Cora Mobile
 reviewed: 2026-10-17
-order: 32
+order: 33
 group: Intelligence
 twin: max-voice
 ---

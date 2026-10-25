@@ -1,6 +1,6 @@
 ---
 title: Ausrüstung planen
-description: Ein Tagesprogramm für eine Jecod-Pumpe bauen und zwischen Pumpen kopieren.
+description: Ein Tagesprogramm für eine Jecod-Pumpe bauen, zwischen Pumpen kopieren, speichern und teilen und prüfen, ob die Pumpe es übernommen hat.
 section: Cora Mobile
 reviewed: 2026-10-17
 order: 14

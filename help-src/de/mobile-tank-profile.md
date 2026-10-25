@@ -2,7 +2,7 @@
 title: Dein Beckenprofil
 description: Volumen, Typ, Besatz, Beleuchtung, Dosierung und Ausrüstung deines Beckens eintragen oder ändern, die Cora nutzt, um Messwerte zu beurteilen und Dosierungen zu berechnen.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-24
 order: 3
 group: Getting started
 ---
@@ -83,7 +83,7 @@ Ist das Volumen 20 % zu hoch, sind auch die Dosiervorschläge 20 % zu hoch. Bist
 
 Stell unter **Beckenmaße** das **Startdatum des Beckens** ein. Cora beurteilt Messwerte danach, was für ein Becken dieses Alters normal ist, ein drei Monate altes System und ein fünf Jahre altes werden also unterschiedlich beurteilt.
 
-Fährt das Becken noch ein, tippe auf dem Dashboard auf die Karte **Startest du ein neues Becken?**, um das geführte Einfahren zu starten. Mach das, bevor du den ersten Test einträgst oder Ausrüstung verknüpfst, denn die Karte erscheint nur bei einem Becken ganz ohne Messwerte. Mehr dazu unter [Geführte Journeys](/help/mobile-journeys).
+Fährt das Becken noch ein, tippe oben in diesem Profil auf die Karte **Startest du ein neues Becken?**, um das geführte Einfahren zu starten. Das geht jederzeit, auch nachdem du Messwerte eingetragen hast. Mehr dazu unter [Geführte Journeys](/help/mobile-journeys).
 
 ## Das Profil aktuell halten {#keeping-the-profile-current}
 

@@ -1,6 +1,6 @@
 ---
 title: L’écran d’accueil de Cora Max
-description: Ce que veulent dire la barre du haut, l’étiquette d’état, les étiquettes d’alerte, le menu de l’aquarium et le tableau de bord sur Cora Max, et comment changer d’aquarium et ouvrir Prises et nourrissage.
+description: Ce que signifient la barre du haut, l’étiquette d’état, les alertes, le menu de l’aquarium et le tableau de bord de Cora Max, et comment changer d’aquarium.
 section: Cora Max
 reviewed: 2026-10-13
 order: 2

@@ -3,7 +3,7 @@ title: Dziennik
 description: Zapisuj albo dyktuj, co robisz przy akwarium, zapisuj karmienie i pytaj Corę o wpis, żeby później zobaczyć, co było przyczyną czego.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 26
+order: 27
 group: Records
 twin: max-records
 ---

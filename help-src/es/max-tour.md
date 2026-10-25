@@ -1,6 +1,6 @@
 ---
 title: La pantalla de inicio de Cora Max
-description: Qué significan la barra superior, la etiqueta de estado, las etiquetas de alerta, el menú del acuario y el panel en Cora Max, y cómo cambiar de acuario y abrir Tomas y alimentación.
+description: Qué significan la barra superior, la etiqueta de estado, las alertas, el menú del acuario y el panel en Cora Max, y cómo cambiar de acuario.
 section: Cora Max
 reviewed: 2026-10-13
 order: 2

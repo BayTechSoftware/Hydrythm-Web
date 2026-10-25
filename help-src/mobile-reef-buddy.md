@@ -2,8 +2,8 @@
 title: Reef Buddy
 description: Your daily Reef Buddy briefing, what it covers, when it arrives, how to read the scores, and why a briefing might not come.
 section: Cora Mobile
-reviewed: 2026-10-18
-order: 31
+reviewed: 2026-10-24
+order: 32
 group: Intelligence
 twin: max-intelligence
 ---
@@ -27,7 +27,7 @@ A low Data score means Cora had fewer readings to work with than it wanted. Look
 
 Next is a summary, a short paragraph that explains the headline using your real values and ranges.
 
-Then comes **Today at a glance**, and below it every finding as one card: an insight, a reading that moved, or the daily observation. Each card says what Cora saw, shows the numbers and a small chart. A finding that repeats shows *Still: ..., since 12 Oct*. A chip at the top of the page shows the tank type and how complete its profile is. Both affect what Cora can conclude.
+Then comes **Today at a glance**, and below it every finding as one card: an insight, a reading that moved, or the daily observation. Each card says what Cora saw, shows the numbers and a small chart. A finding that repeats shows *Still: ..., since 12 Oct*. A chip next to the **Today's findings** heading shows the tank type and how complete its profile is. Both affect what Cora can conclude.
 
 
 Cora filters insights before they reach you. An insight has to hold up over several readings. One isn't enough. It also has to tell you something a single chart wouldn't already show.
@@ -106,10 +106,10 @@ Every card has one feedback row under it. Your answer shapes what shows up first
 |---|---|
 | **Valuable** | Right, and useful |
 | **Not useful** | Right, but not for you. Hides that finding for 14 days |
-| **Already knew** | Right, but you were aware. Hides it for 7 days |
-| **Doesn't match** | It doesn't match what you're seeing. Hides it for 14 days |
+| **Already knew** | Right, but you were aware. Hides it for 7 days, except on a reading that moved |
+| **Doesn't match** | It doesn't match what you're seeing. Hides it for 14 days, except on a reading that moved |
 
-On a reading that moved, **Doesn't match** also offers to exclude the wrong readings, so Cora stops counting them. Hiding only lasts for a while. If the problem is still there afterwards, the finding comes back.
+On a reading that moved, only **Not useful** hides the card (for 14 days). **Already knew** is only noted, and **Doesn't match** hides nothing: it offers to exclude the wrong readings, so Cora stops counting them. Hiding only lasts for a while. If the problem is still there afterwards, the finding comes back.
 
 :::note Serious findings are never hidden
 Warning and critical findings keep showing up, whatever you've answered before.

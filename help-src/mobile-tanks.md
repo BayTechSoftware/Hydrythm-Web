@@ -2,7 +2,7 @@
 title: Managing your tanks
 description: Add another tank, switch between tanks, change their order and which tanks get Reef Buddy, and remove or restore a tank.
 section: Cora Mobile
-reviewed: 2026-10-18
+reviewed: 2026-10-24
 order: 4
 group: Getting started
 ---
@@ -15,7 +15,7 @@ You can have as many tanks as you like on any plan. Your plan only decides how m
 
 1. Go to **Settings** and tap **Add tank**, under your list of tanks.
 2. **Add Tank** opens the full tank profile. Give the tank a name under **Tank Name & Type**, and fill in whatever else you know, like the type and the water volume under **Tank Dimensions**. You can finish the rest later. See [Your tank profile](/help/mobile-tank-profile).
-3. Tap **Save Tank**.
+3. Tap **Save Tank**. If this tank is brand new and still cycling, first turn on **This is a brand-new tank I'm cycling** at the bottom of the form.
 4. Cora offers the first-test step. Log a test, set a weekly reminder, or tap **Later**. See [The first-test card](/help/mobile-setup#the-first-test-card).
 
 Then give the tank its equipment:
@@ -25,7 +25,7 @@ Then give the tank its equipment:
 - To show the tank on Cora Max, go to **Devices**, open your Cora Max and tap **Add Tank** under **Assigned Tanks**. A Cora Max shows up to 4 tanks.
 
 :::tip Is the new tank still cycling?
-Tap **Starting a new tank?** on its dashboard before you log a test or link equipment. The card only shows on a tank with no readings at all. More in [Guided journeys](/help/mobile-journeys).
+You can also start guided cycling later: tap **Starting a new tank?** on the tank's dashboard (the card shows while the tank has no readings), or use the same card at the top of the tank's profile, which works at any time. More in [Guided journeys](/help/mobile-journeys).
 :::
 
 ## Switching between tanks {#switching-between-tanks}

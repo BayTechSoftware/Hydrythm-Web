@@ -1,6 +1,6 @@
 ---
 title: Dispositivos y estado de los dispositivos
-description: Ve y cambia el nombre de los equipos que lee Cora Max, elige qué Cora Max lee cada acuario, arregla un acuario cuyas lecturas se han detenido y gestiona un Cora Max desde tu teléfono.
+description: Ve y cambia el nombre de los equipos que lee Cora Max, elige qué Cora Max lee cada acuario y arregla un acuario cuyas lecturas se han detenido.
 section: Cora Max
 reviewed: 2026-10-17
 order: 7

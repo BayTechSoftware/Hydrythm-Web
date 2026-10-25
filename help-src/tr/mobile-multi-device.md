@@ -3,7 +3,7 @@ title: Birden fazla Cora cihazı
 description: Birden fazla Cora cihazınız olduğunda sesinize hangisinin yanıt vereceğini ve her akvaryumu hangisinin yoklayacağını seçin, evden uzaktayken neyin çalıştığını görün.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 36
+order: 37
 group: Settings and account
 twin: max-reef-room
 ---

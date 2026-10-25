@@ -1,6 +1,6 @@
 ---
 title: Aggiornamenti e ripristino
-description: Come si aggiorna da solo Cora Max, la finestra di installazione e il canale di aggiornamento, come controllare la versione, il PIN di ripristino e cosa fare se Cora Max non si avvia o mostra un codice di assistenza.
+description: Come si aggiorna da solo Cora Max, finestra di installazione e canale di aggiornamento, controllo della versione, PIN di ripristino e cosa fare se Cora Max non si avvia.
 section: Cora Max
 reviewed: 2026-10-17
 order: 15

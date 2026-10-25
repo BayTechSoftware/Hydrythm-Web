@@ -1,6 +1,6 @@
 ---
 title: Guida di Cora
-description: Configura e usa Cora Mobile e Cora Max: aggiungi la tua vasca, collega l'attrezzatura, imposta gli avvisi, leggi Reef Buddy e i risultati ICP, associa Cora Max e risolvi i problemi.
+description: Configura e usa Cora Mobile e Cora Max: aggiungi la tua vasca, collega l'attrezzatura, imposta gli avvisi, leggi Reef Buddy e i risultati ICP e risolvi i problemi.
 section: -
 reviewed: 2026-10-13
 order: 0

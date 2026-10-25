@@ -1,9 +1,9 @@
 ---
 title: Piani e abbonamenti
-description: Cosa comprendono i piani Free, prova, Essential, Advanced e Expert, come abbonarti o passare a un piano superiore, dove vedere quanto hai usato e come annullare su iPhone o Android.
+description: Cosa comprendono i piani Free, prova, Essential, Advanced ed Expert, come abbonarti o passare a un piano superiore, dove vedere i consumi e come annullare.
 section: Cora Mobile
 reviewed: 2026-10-18
-order: 37
+order: 38
 group: Settings and account
 ---
 

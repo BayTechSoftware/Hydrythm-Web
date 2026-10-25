@@ -1,6 +1,6 @@
 ---
 title: Programar equipos
-description: Crea un programa diario para una bomba Jecod y cópialo a otras bombas.
+description: Crea un programa diario para una bomba Jecod, cópialo a otras bombas, guárdalo y compártelo, y comprueba que la bomba lo ha recibido.
 section: Cora Mobile
 reviewed: 2026-10-17
 order: 14

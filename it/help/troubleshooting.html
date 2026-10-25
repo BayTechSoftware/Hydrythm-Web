@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Risoluzione dei problemi | Cora Help</title>
+  <title>Risoluzione dei problemi | Aiuto Cora</title>
   <meta name="description" content="Sistema una lettura vecchia, un dispositivo andato offline, un comando che non è arrivato, un Cora Max che non si associa o un avviso che non si chiude.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/it/help/troubleshooting">
@@ -16,7 +16,7 @@
   <link rel="alternate" hreflang="pl" href="https://coraiq.tech/pl/help/troubleshooting">
   <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/troubleshooting">
   <meta property="og:site_name" content="Cora">
-  <meta property="og:title" content="Risoluzione dei problemi | Cora Help">
+  <meta property="og:title" content="Risoluzione dei problemi | Aiuto Cora">
   <meta property="og:description" content="Sistema una lettura vecchia, un dispositivo andato offline, un comando che non è arrivato, un Cora Max che non si associa o un avviso che non si chiude.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/it/help/troubleshooting">
@@ -257,6 +257,10 @@
 <ul><li>Controlla il Wi-Fi in <strong>Impostazioni → Impostazioni Cora Max → Wi-Fi</strong>.</li><li>Controlla che la rete stessa funzioni.</li><li>Se l'etichetta dice <strong>Online</strong> o <strong>Cloud</strong> e i dati sono comunque vecchi, il problema è prima di Cora Max. Controlla la stessa vasca sul telefono.</li></ul>
 <h3 id="cora-max-shows-apex-password">Cora Max mostra "Password Apex"</h3>
 <p>Il tuo Apex ha rifiutato l'accesso salvato da Cora, di solito perché la password dell'Apex è stata cambiata. Sul telefono, apri <strong>Dispositivi</strong>, poi il tuo Apex, e tocca <strong>Modifica connessione</strong> in <strong>Connessione</strong> per inserire quella nuova.</p>
+<h3 id="the-apex-refused-this-login">"L’Apex ha rifiutato queste credenziali"</h3>
+<p>Vedi questo messaggio quando tocchi <strong>Continua</strong> mentre aggiungi o modifichi un Neptune Apex. Cora ha provato l'accesso che hai scritto (se hai scritto una password), poi quello di fabbrica dell'Apex e infine nessun accesso, e l'Apex li ha rifiutati tutti.</p>
+<ol><li>Tocca <strong>Annulla</strong>.</li><li>Controlla nome utente e password impostati sull'Apex, in <strong>Network Setup</strong>, <strong>Login</strong>. Se il tuo Apex non ha un accesso, lascia vuoti entrambi i campi.</li><li>Scrivili di nuovo e tocca <strong>Continua</strong>.</li></ol>
+<p><strong>Salva comunque</strong> conserva ciò che hai scritto senza che la prova sia riuscita. Usalo solo se sei sicuro che l'accesso sia giusto. Se più avanti cambi l'accesso sull'Apex, inserisci quello nuovo come descritto in <a href="#cora-max-shows-apex-password">Cora Max mostra "Password Apex"</a>.</p>
 <h3 id="cora-max-shows-cloud-save-refused">Cora Max mostra "Salvataggio cloud rifiutato"</h3>
 <p>Cora Cloud rifiuta di salvare alcuni dati di questo schermo. Non c'è niente che non va nella tua vasca o in Cora Max, e non c'è niente da cambiare sullo schermo. La soluzione è un aggiornamento di Cora Cloud.</p>
 <ol><li>Apri <strong>Impostazioni → Impostazioni Cora Max</strong> e scorri fino a <strong>STATO</strong>. La riga <strong>Salvataggio cloud</strong> dice quali dati vengono rifiutati, per esempio le letture o le prese di un dispositivo.</li><li><a href="/support.html">Contatta l'assistenza</a> e dicci cosa dice quella riga.</li></ol>
@@ -330,7 +334,7 @@
 <h2 id="still-stuck">Ancora bloccato</h2>
 <p>Scrivi a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>, oppure segnalalo da Cora Mobile come descritto in <a href="/it/help/mobile-support">Segnalare un problema</a>. Dicci quale vasca, quale dispositivo, quale schermata e cosa ti aspettavi di vedere.</p>
       <nav class="pn" aria-label="Continua a leggere"><a class="pn-n" href="/it/help/how-do-i"><span>Successivo</span><b>Come faccio a...?</b></a></nav>
-      <p class="stamp">Scritto per Cora Max 0.28.222 e Cora Mobile 1.4.3. Ultimo controllo il 2026-10-18.</p>
+      <p class="stamp">Scritto per Cora Max 0.28.238 e Cora Mobile 1.4.14. Ultimo controllo il 2026-10-24.</p>
       <p class="ask">Ancora bloccato? Scrivi a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, ti aiutiamo.</p>
     </article>
   </main>
@@ -721,7 +725,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/it/help/search.json?v=c9e910d07b').then(function (r) { return r.json(); })
+    fetch('/it/help/search.json?v=251de7c448').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "it"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La ricerca non \u00e8 disponibile. Usa la navigazione." + '</li>';

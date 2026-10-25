@@ -1,6 +1,6 @@
 ---
 title: Parler à Cora
-description: Utilisez la voix et "Hey Cora" sur Cora Max, ce qu’il peut faire ou non à la voix, le partage de données avec l’IA et votre quota mensuel, et que faire quand Cora ne répond pas.
+description: Utilisez la voix et "Hey Cora" sur Cora Max : ce qu’elle permet, le partage de données avec l’IA, votre quota mensuel et que faire si Cora ne répond pas.
 section: Cora Max
 reviewed: 2026-10-18
 order: 13

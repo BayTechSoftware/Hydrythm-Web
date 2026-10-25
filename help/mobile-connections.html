@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Connecting your equipment | Cora Help</title>
-  <meta name="description" content="How to connect a Neptune Apex, Red Sea ReefBeat, Jecod or AquaWiz unit to Cora.">
+  <meta name="description" content="Connect a Neptune Apex, Red Sea ReefBeat, Jecod or AquaWiz unit to Cora, use it without a Cora Max, and fix a connection that stops working.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/help/mobile-connections">
   <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/mobile-connections">
@@ -17,7 +17,7 @@
   <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/mobile-connections">
   <meta property="og:site_name" content="Cora">
   <meta property="og:title" content="Connecting your equipment | Cora Help">
-  <meta property="og:description" content="How to connect a Neptune Apex, Red Sea ReefBeat, Jecod or AquaWiz unit to Cora.">
+  <meta property="og:description" content="Connect a Neptune Apex, Red Sea ReefBeat, Jecod or AquaWiz unit to Cora, use it without a Cora Max, and fix a connection that stops working.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/help/mobile-connections">
   <meta property="og:image" content="https://coraiq.tech/og-image.png">
@@ -181,7 +181,7 @@
 <p>A Cora Max at the tank reads this equipment around the clock and passes on your commands when you're away. AquaWiz is reached through the maker's own service, so it works from anywhere without a Cora Max. More in <a href="/help/mobile-multi-device">More than one Cora device</a>.</p>
 <h2 id="neptune-apex">Neptune Apex</h2>
 <p>Cora reads your Apex over your local network, including probes, outlets and any expansion modules you've fitted.</p>
-<ol><li>Go to <strong>Devices → Add Device → Neptune Apex</strong>.</li><li>Tap <strong>Scan Network for APEX</strong> and pick your Apex, or type its address under <strong>Or enter IP manually:</strong>.</li><li>Fill in <strong>Apex login (only if you set one on the Apex):</strong>. Leave the password blank if you haven't set one.</li><li>Tap <strong>Load metrics from APEX</strong> and tick the ones you want under <strong>Metrics to track</strong>.</li><li>Set <strong>Poll Frequency</strong>. Don't leave it off: with polling off, nothing reads the Apex and its readings go stale.</li><li>Tap <strong>Continue</strong>, tick every tank under <strong>Which tanks does this Apex serve?</strong>, then tap <strong>Save</strong>. An Apex can serve more than one tank.</li></ol>
+<ol><li>Go to <strong>Devices → Add Device → Neptune Apex</strong>.</li><li>Tap <strong>Scan Network for APEX</strong> and pick your Apex, or type its address under <strong>Or enter IP manually:</strong>.</li><li>Fill in <strong>Apex login (only if you set one on the Apex):</strong>. Leave the password blank if you haven't set one.</li><li>Tap <strong>Load metrics from APEX</strong> and tick the ones you want under <strong>Metrics to track</strong>.</li><li>Set <strong>Poll Frequency</strong>. Don't leave it off: with polling off, nothing reads the Apex and its readings go stale.</li><li>Tap <strong>Continue</strong>. Cora tests the login first. If the Apex answers and turns it down, a message says <strong>The Apex refused this login</strong>: tap <strong>Cancel</strong> to fix the username or password, or <strong>Save anyway</strong> to go on. If Cora can't reach the Apex (for example you are away from home), it skips the test. Then tick every tank under <strong>Which tanks does this Apex serve?</strong> and tap <strong>Save</strong>. An Apex can serve more than one tank.</li></ol>
 <p>If the scan finds nothing, check that your phone is on the same Wi-Fi as the Apex, or enter the IP address yourself.</p>
 <p>Once it's connected, every probe your Apex reports becomes a source you can put on a dashboard. Outlets show up as controls, and each fitted expansion module gets its own device tile. Your own Apex programming keeps running exactly as you set it up. What you can control is in <a href="/help/mobile-device-control#neptune-apex">Controlling your equipment</a>.</p>
 <h2 id="red-sea-reefbeat">Red Sea ReefBeat</h2>
@@ -217,7 +217,7 @@
 <h2 id="if-a-connection-stops-working">If a connection stops working</h2>
 <p>The device row tells you what kind of problem it is. Look it up in the table in <a href="/help/mobile-devices#health">Adding, editing and removing devices</a>. For anything that doesn't cover, see <a href="/help/troubleshooting">Troubleshooting</a>.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-devices"><span>Previous</span><b>Adding, editing and removing devices</b></a><a class="pn-n" href="/help/mobile-device-control"><span>Next</span><b>Controlling your equipment</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.222 and Cora Mobile 1.4.3. Last checked 2026-10-18.</p>
+      <p class="stamp">Written for Cora Max 0.28.238 and Cora Mobile 1.4.14. Last checked 2026-10-24.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>
@@ -608,7 +608,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/help/search.json?v=b75054a183').then(function (r) { return r.json(); })
+    fetch('/help/search.json?v=5ca35b2a08').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "en"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';

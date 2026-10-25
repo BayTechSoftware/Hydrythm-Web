@@ -1,6 +1,6 @@
 ---
 title: La schermata principale di Cora Max
-description: Cosa vogliono dire su Cora Max la barra in alto, l'etichetta di stato, le etichette degli avvisi, il menu della vasca e la dashboard, e come cambiare vasca e aprire Prese e alimentazione.
+description: Cosa vogliono dire su Cora Max la barra in alto, l'etichetta di stato, gli avvisi, il menu della vasca e la dashboard, e come cambiare vasca.
 section: Cora Max
 reviewed: 2026-10-13
 order: 2

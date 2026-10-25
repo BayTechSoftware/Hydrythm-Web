@@ -1,6 +1,6 @@
 ---
 title: Urządzenia i ich stan
-description: Zobacz sprzęt, który odczytuje Cora Max, i zmień jego nazwę, wybierz, który Cora Max odczytuje każde akwarium, napraw akwarium, którego odczyty przestały napływać, i zarządzaj Cora Max z telefonu.
+description: Zobacz sprzęt odczytywany przez Cora Max i zmień jego nazwę, wybierz, który Cora Max odczytuje każde akwarium, i napraw akwarium, którego odczyty przestały napływać.
 section: Cora Max
 reviewed: 2026-10-17
 order: 7

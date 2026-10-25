@@ -2,8 +2,8 @@
 title: Alerts and thresholds
 description: Set the healthy range for each reading, choose how often an alert can notify you, and find out why a device "stopped reporting".
 section: Cora Mobile
-reviewed: 2026-10-18
-order: 22
+reviewed: 2026-10-24
+order: 23
 group: Alerts and automation
 twin: max-alerts
 ---

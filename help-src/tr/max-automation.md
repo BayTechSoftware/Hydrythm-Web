@@ -2,7 +2,7 @@
 title: Cora Max'te sahneler
 description: Ayarlar → Otomasyonlar yolundan ya da panodaki bir sahne kutucuğundan Cora Max'te sahne oluşturun, çalıştırın, düzenleyin ve silin.
 section: Cora Max
-reviewed: 2026-10-18
+reviewed: 2026-10-24
 order: 9
 group: Alerts and automation
 twin: mobile-automation

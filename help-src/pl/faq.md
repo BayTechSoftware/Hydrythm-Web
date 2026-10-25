@@ -2,7 +2,7 @@
 title: Najczęstsze pytania
 description: Krótkie odpowiedzi o tym, czego potrzebujesz, o Cora Max, korzystaniu z Cory poza domem, sprzęcie, alertach, Reef Buddy, językach, planach i Twoich danych.
 section: Help
-reviewed: 2026-10-18
+reviewed: 2026-10-24
 order: 4
 ---
 
@@ -26,7 +26,7 @@ Tak. Na ekranie logowania dotknij **Zobacz przykładową rafę**. To przykładow
 
 ### Moje akwarium wciąż się cykluje. Czy Cora może pomóc? {#my-tank-is-still-cycling}
 
-Tak. Dotknij **Zaczynasz nowe akwarium?** na panelu, żeby rozpocząć ścieżkę cyklowania. Karta pokazuje się tylko przy akwarium bez odczytów, więc zrób to, zanim zapiszesz test albo podłączysz sprzęt. Więcej w [Ścieżkach z przewodnikiem](/help/mobile-journeys).
+Tak. Dotknij **Zaczynasz nowe akwarium?** na panelu, żeby rozpocząć ścieżkę cyklowania. Karta pokazuje się, dopóki akwarium nie ma odczytów. Potem użyj tej samej karty u góry profilu akwarium. Możesz też włączyć **To zupełnie nowe akwarium, które cykluję** przy dodawaniu akwarium. Więcej w [Ścieżkach z przewodnikiem](/help/mobile-journeys).
 
 ### Co oznacza „profil akwarium” i dlaczego zadaje tyle pytań? {#what-does-tank-profile-mean}
 

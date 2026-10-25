@@ -1,6 +1,6 @@
 ---
 title: Moverte por Cora Mobile
-description: Un recorrido por las cinco pestañas de Cora Mobile (Panel, Dispositivos, Asistente, Inteligencia y Ajustes), además de la cabecera del acuario, la campana y el botón del diario.
+description: Un recorrido por las cinco pestañas de Cora Mobile (Panel, Dispositivos, Asistente, Inteligencia y Ajustes), la cabecera del acuario, la campana y el botón del diario.
 section: Cora Mobile
 reviewed: 2026-10-13
 order: 2

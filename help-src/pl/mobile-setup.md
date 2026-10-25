@@ -2,7 +2,7 @@
 title: Konfiguracja Cora Mobile
 description: Zainstaluj Cora Mobile, załóż konto, dodaj pierwsze akwarium i krok po kroku zobacz pierwsze odczyty na ekranie.
 section: Cora Mobile
-reviewed: 2026-10-18
+reviewed: 2026-10-24
 order: 1
 group: Getting started
 twin: max-setup
@@ -59,7 +59,7 @@ Po zalogowaniu **Poznajmy Twoje akwarium** pyta o trzy rzeczy. Wymagana jest tyl
 Dotknij **Utwórz moje akwarium**.
 
 :::note Akwarium wciąż się cykluje?
-Dotknij **Zaczynasz nowe akwarium?** na panelu, **zanim** zapiszesz test albo podłączysz sprzęt. Ta karta pokazuje się tylko przy akwarium bez żadnych odczytów i to nią włączasz prowadzone cyklowanie. Więcej w [Ścieżkach z przewodnikiem](/help/mobile-journeys).
+Dotknij **Zaczynasz nowe akwarium?** na panelu. Ta karta pokazuje się, dopóki akwarium nie ma odczytów. Jeśli masz już zapisany test, otwórz profil akwarium i dotknij tej samej karty u góry: działa o każdej porze. Więcej w [Ścieżkach z przewodnikiem](/help/mobile-journeys).
 
 Cora ocenia też odczyty względem tego, co jest normalne dla akwarium w danym wieku. Kreator o to nie pyta, więc ustaw **Data uruchomienia akwarium** w profilu akwarium, w **Wymiary akwarium**.
 :::

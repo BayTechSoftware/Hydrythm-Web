@@ -2,7 +2,7 @@
 title: Gestionar tus acuarios
 description: Añade otro acuario, pasa de un acuario a otro, cambia su orden y qué acuarios reciben Reef Buddy, y quita o restaura un acuario.
 section: Cora Mobile
-reviewed: 2026-10-18
+reviewed: 2026-10-24
 order: 4
 group: Getting started
 ---
@@ -15,7 +15,7 @@ Puedes tener tantos acuarios como quieras en cualquier plan. Tu plan solo decide
 
 1. Ve a **Ajustes** y toca **Agregar acuario**, debajo de tu lista de acuarios.
 2. **Agregar acuario** abre el perfil completo del acuario. Ponle un nombre en **Nombre y tipo de acuario** y rellena lo que sepas, como el tipo y el volumen de agua en **Dimensiones del acuario**. El resto puedes completarlo más tarde. Consulta [El perfil de tu acuario](/help/mobile-tank-profile).
-3. Toca **Guardar acuario**.
+3. Toca **Guardar acuario**. Si el acuario es nuevo y está haciendo el ciclo, activa antes **Es un acuario nuevo que estoy ciclando** al final del formulario.
 4. Cora te ofrece el paso de la primera prueba. Registra una prueba, configura un recordatorio semanal o toca **Más tarde**. Consulta [La tarjeta de la primera prueba](/help/mobile-setup#the-first-test-card).
 
 Después, dale al acuario sus equipos:
@@ -25,7 +25,7 @@ Después, dale al acuario sus equipos:
 - Para mostrar el acuario en Cora Max, ve a **Dispositivos**, abre tu Cora Max y toca **Agregar acuario** en **Acuarios asignados**. Un Cora Max muestra hasta 4 acuarios.
 
 :::tip ¿El acuario nuevo todavía está haciendo el ciclo?
-Toca **¿Estás empezando un acuario nuevo?** en su panel antes de registrar una prueba o vincular equipos. La tarjeta solo aparece en un acuario sin ninguna lectura. Más información en [Itinerarios guiados](/help/mobile-journeys).
+También puedes empezar el ciclado guiado más tarde: toca **¿Estás empezando un acuario nuevo?** en el panel del acuario (la tarjeta aparece mientras el acuario no tiene lecturas) o usa la misma tarjeta arriba en el perfil del acuario, que funciona en cualquier momento. Más información en [Itinerarios guiados](/help/mobile-journeys).
 :::
 
 ## Pasar de un acuario a otro {#switching-between-tanks}

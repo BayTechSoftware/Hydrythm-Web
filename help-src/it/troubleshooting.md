@@ -2,7 +2,7 @@
 title: Risoluzione dei problemi
 description: Sistema una lettura vecchia, un dispositivo andato offline, un comando che non è arrivato, un Cora Max che non si associa o un avviso che non si chiude.
 section: Help
-reviewed: 2026-10-18
+reviewed: 2026-10-24
 order: 1
 ---
 
@@ -224,6 +224,16 @@ Guarda l'etichetta di stato nella barra in alto. **Online** e **Cloud** vanno en
 ### Cora Max mostra "Password Apex" {#cora-max-shows-apex-password}
 
 Il tuo Apex ha rifiutato l'accesso salvato da Cora, di solito perché la password dell'Apex è stata cambiata. Sul telefono, apri **Dispositivi**, poi il tuo Apex, e tocca **Modifica connessione** in **Connessione** per inserire quella nuova.
+
+### "L’Apex ha rifiutato queste credenziali" {#the-apex-refused-this-login}
+
+Vedi questo messaggio quando tocchi **Continua** mentre aggiungi o modifichi un Neptune Apex. Cora ha provato l'accesso che hai scritto (se hai scritto una password), poi quello di fabbrica dell'Apex e infine nessun accesso, e l'Apex li ha rifiutati tutti.
+
+1. Tocca **Annulla**.
+2. Controlla nome utente e password impostati sull'Apex, in **Network Setup**, **Login**. Se il tuo Apex non ha un accesso, lascia vuoti entrambi i campi.
+3. Scrivili di nuovo e tocca **Continua**.
+
+**Salva comunque** conserva ciò che hai scritto senza che la prova sia riuscita. Usalo solo se sei sicuro che l'accesso sia giusto. Se più avanti cambi l'accesso sull'Apex, inserisci quello nuovo come descritto in [Cora Max mostra "Password Apex"](#cora-max-shows-apex-password).
 
 ### Cora Max mostra "Salvataggio cloud rifiutato" {#cora-max-shows-cloud-save-refused}
 

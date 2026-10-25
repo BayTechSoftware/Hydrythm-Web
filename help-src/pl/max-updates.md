@@ -1,6 +1,6 @@
 ---
 title: Aktualizacje i odzyskiwanie
-description: Jak Cora Max sam się aktualizuje, okno instalacji i kanał aktualizacji, sprawdzanie wersji, PIN odzyskiwania i co zrobić, gdy Cora Max się nie uruchamia albo pokazuje kod pomocy.
+description: Jak Cora Max sam się aktualizuje, okno instalacji i kanał aktualizacji, sprawdzanie wersji, PIN odzyskiwania i co zrobić, gdy Cora Max się nie uruchamia.
 section: Cora Max
 reviewed: 2026-10-17
 order: 15

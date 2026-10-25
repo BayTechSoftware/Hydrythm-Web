@@ -41,6 +41,7 @@ Solo ves los parámetros que tiene el acuario. Un parámetro sin fuente aparece 
 
 La cuadrícula admite hasta 20 filas. Cuando está llena, Cora dice **El panel está lleno: quita una tarjeta primero.** Un gráfico necesita dos celdas libres una al lado de la otra.
 
+
 Cuando quitas un dispositivo de un acuario, sus mosaicos salen solos del panel, en tu teléfono y en cada Cora Max de ese acuario. Un mosaico cuyo dispositivo ya no está dice **Este dispositivo ya no está en este acuario** y no abre nada.
 
 ## Ordenar widgets {#arranging-widgets}

@@ -2,7 +2,7 @@
 title: Configurare Cora Mobile
 description: Installa Cora Mobile, crea il tuo account, aggiungi la prima vasca e porta sullo schermo le prime letture, passo dopo passo.
 section: Cora Mobile
-reviewed: 2026-10-18
+reviewed: 2026-10-24
 order: 1
 group: Getting started
 twin: max-setup
@@ -59,7 +59,7 @@ Dopo l'accesso, **Facciamo conoscenza con la tua vasca** ti chiede tre cose. Sol
 Tocca **Crea la mia vasca**.
 
 :::note La vasca sta ancora facendo il ciclo?
-Tocca **Stai avviando una nuova vasca?** sulla dashboard **prima** di registrare un test o collegare attrezzatura. Quella scheda compare solo su una vasca senza nessuna lettura, ed è il modo per attivare la maturazione guidata. Di più in [Percorsi guidati](/help/mobile-journeys).
+Tocca **Stai avviando una nuova vasca?** sulla dashboard. Quella scheda compare finché la vasca non ha letture. Se hai già registrato un test, apri il profilo della vasca e tocca la stessa scheda in alto: funziona in qualsiasi momento. Di più in [Percorsi guidati](/help/mobile-journeys).
 
 Cora valuta anche le letture rispetto a quello che è normale per una vasca di quell'età. La procedura guidata non la chiede, quindi imposta la **Data di avvio della vasca** nel profilo della vasca, in **Dimensioni vasca**.
 :::

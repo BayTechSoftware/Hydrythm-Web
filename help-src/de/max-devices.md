@@ -1,6 +1,6 @@
 ---
 title: Geräte und Gerätezustand
-description: Die Ausrüstung sehen und umbenennen, die Cora Max abfragt, festlegen, welches Cora Max jedes Becken abfragt, ein Becken reparieren, dessen Messwerte stehen geblieben sind, und ein Cora Max vom Handy aus verwalten.
+description: Die Ausrüstung sehen und umbenennen, die Cora Max abfragt, wählen, welches Cora Max welches Becken abfragt, und ein Becken mit stehen gebliebenen Messwerten reparieren.
 section: Cora Max
 reviewed: 2026-10-17
 order: 7

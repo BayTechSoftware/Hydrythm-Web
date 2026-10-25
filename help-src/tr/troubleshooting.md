@@ -2,7 +2,7 @@
 title: Sorun giderme
 description: Eski bir ölçümü, çevrimdışı olan bir cihazı, ulaşmayan bir komutu, eşleşmeyen bir Cora Max'i ya da kapanmayan bir uyarıyı düzeltin.
 section: Help
-reviewed: 2026-10-18
+reviewed: 2026-10-24
 order: 1
 ---
 
@@ -224,6 +224,16 @@ Diğer her mesaj için **Tekrar dene**'ye dokunun. Kurulumun tamamı [Cora Max'i
 ### Cora Max "Apex şifresi" gösteriyor {#cora-max-shows-apex-password}
 
 Apex'iniz Cora'nın kaydettiği girişi reddetti, genellikle Apex şifresi değiştirildiği için. Telefonunuzda **Cihazlar**'ı, ardından Apex'inizi açın ve yenisini girmek için **Bağlantı** altında **Bağlantıyı düzenle**'ye dokunun.
+
+### "Apex bu girişi reddetti" {#the-apex-refused-this-login}
+
+Bu mesajı, bir Neptune Apex eklerken ya da düzenlerken **Devam et**'e dokunduğunuzda görürsünüz. Cora önce yazdığınız girişi (bir şifre yazdıysanız), sonra Apex'in fabrika girişini, en son da girişsiz denedi ve Apex hepsini reddetti.
+
+1. **İptal**'e dokunun.
+2. Apex üzerinde ayarlı kullanıcı adını ve şifreyi **Network Setup**, **Login** altında kontrol edin. Apex'inizde giriş yoksa iki alanı da boş bırakın.
+3. Bunları yeniden yazın ve **Devam et**'e dokunun.
+
+**Yine de kaydet**, yazdığınızı test geçmeden kaydeder. Bunu yalnızca girişin doğru olduğundan eminseniz kullanın. Sonradan Apex'teki girişi değiştirirseniz yenisini [Cora Max "Apex şifresi" gösteriyor](#cora-max-shows-apex-password) bölümünde anlatıldığı gibi girin.
 
 ### Cora Max "Bulut kaydı reddedildi" gösteriyor {#cora-max-shows-cloud-save-refused}
 

@@ -2,8 +2,8 @@
 title: Reef Buddy
 description: Twoje codzienne podsumowanie Reef Buddy: co obejmuje, kiedy przychodzi, jak czytać oceny i dlaczego podsumowanie może nie przyjść.
 section: Cora Mobile
-reviewed: 2026-10-18
-order: 31
+reviewed: 2026-10-24
+order: 32
 group: Intelligence
 twin: max-intelligence
 ---
@@ -27,7 +27,7 @@ Niska ocena Dane oznacza, że Cora miała mniej odczytów, niż potrzebowała. S
 
 Dalej jest podsumowanie, krótki akapit, który wyjaśnia nagłówek na podstawie Twoich prawdziwych wartości i zakresów.
 
-Dalej jest **Dziś w skrócie**, a pod spodem każde ustalenie jako jedna karta: spostrzeżenie, odczyt, który się zmienił, albo codzienna obserwacja. Każda karta mówi, co zobaczyła Cora, pokazuje liczby i mały wykres. Ustalenie, które się powtarza, pokazuje *Nadal: ..., od 12 paź*. Chip u góry strony pokazuje typ akwarium i kompletność jego profilu. Oba wpływają na to, co Cora może wywnioskować.
+Dalej jest **Dziś w skrócie**, a pod spodem każde ustalenie jako jedna karta: spostrzeżenie, odczyt, który się zmienił, albo codzienna obserwacja. Każda karta mówi, co zobaczyła Cora, pokazuje liczby i mały wykres. Ustalenie, które się powtarza, pokazuje *Nadal: ..., od 12 paź*. Chip obok nagłówka **Dzisiejsze ustalenia** pokazuje typ akwarium i kompletność jego profilu. Oba wpływają na to, co Cora może wywnioskować.
 
 
 Cora filtruje spostrzeżenia, zanim do Ciebie trafią. Spostrzeżenie musi się utrzymać przez kilka odczytów. Jeden nie wystarczy. Musi też mówić coś, czego nie pokazałby już sam wykres.
@@ -106,10 +106,10 @@ Pod każdą kartą jest jeden wiersz opinii. Twoja odpowiedź wpływa na to, co 
 |---|---|
 | **Wartościowe** | Trafne i przydatne |
 | **Nieprzydatne** | Trafne, ale nie dla ciebie. Ukrywa to ustalenie na 14 dni |
-| **To już wiem** | Trafne, ale już o tym wiedziałeś. Ukrywa je na 7 dni |
-| **Nie zgadza się** | Nie zgadza się z tym, co widzisz. Ukrywa je na 14 dni |
+| **To już wiem** | Trafne, ale już o tym wiedziałeś. Ukrywa je na 7 dni, z wyjątkiem odczytu, który się zmienił |
+| **Nie zgadza się** | Nie zgadza się z tym, co widzisz. Ukrywa je na 14 dni, z wyjątkiem odczytu, który się zmienił |
 
-Przy odczycie, który się zmienił, **Nie zgadza się** proponuje też wykluczenie błędnych odczytów, żeby Cora przestała je liczyć. Ukrycie trwa tylko jakiś czas. Jeśli problem nadal istnieje, ustalenie wraca.
+Przy odczycie, który się zmienił, tylko **Nieprzydatne** ukrywa kartę (na 14 dni). **To już wiem** jest tylko zapisywane, a **Nie zgadza się** niczego nie ukrywa: proponuje wykluczenie błędnych odczytów, żeby Cora przestała je liczyć. Ukrycie trwa tylko jakiś czas. Jeśli problem nadal istnieje, ustalenie wraca.
 
 :::note Poważne ustalenia nigdy nie są ukrywane
 Ostrzeżenia i ustalenia krytyczne nadal się pojawiają, niezależnie od tego, co odpowiedziałeś wcześniej.

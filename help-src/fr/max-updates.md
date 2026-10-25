@@ -1,6 +1,6 @@
 ---
 title: Mises à jour et récupération
-description: Comment Cora Max se met à jour tout seul, la plage d’installation et le canal de mise à jour, comment vérifier la version, le code PIN de récupération, et que faire si Cora Max ne démarre pas ou affiche un code d’assistance.
+description: Comment Cora Max se met à jour tout seul, la plage d’installation, le canal de mise à jour, la version, le PIN de récupération, et que faire s’il ne démarre pas.
 section: Cora Max
 reviewed: 2026-10-17
 order: 15

@@ -1,6 +1,6 @@
 ---
 title: Einen Wasserwert genauer ansehen
-description: Tippe auf ein Widget, um den ganzen Verlauf eines Wasserwerts zu sehen, Quellen und Wasserwerte zu vergleichen, einen falschen Messwert auszuschließen und Sondenpflege festzuhalten.
+description: Tippe auf ein Widget, um den ganzen Verlauf eines Wasserwerts zu sehen, Quellen zu vergleichen, einen falschen Messwert auszuschließen und Sondenpflege festzuhalten.
 section: Cora Mobile
 reviewed: 2026-10-17
 order: 7

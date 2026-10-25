@@ -3,7 +3,7 @@ title: Interroger Cora
 description: Utilisez Cora Assistant à l’écrit ou à la voix, ce qu’il voit, ce qu’il peut faire pour vous, l’interrupteur de partage de données et la mémoire.
 section: Cora Mobile
 reviewed: 2026-10-17
-order: 32
+order: 33
 group: Intelligence
 twin: max-voice
 ---

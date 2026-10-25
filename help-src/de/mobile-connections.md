@@ -2,7 +2,7 @@
 title: Deine Ausrüstung verbinden
 description: So verbindest du ein Neptune Apex-, Red Sea ReefBeat-, Jecod- oder AquaWiz-Gerät mit Cora.
 section: Cora Mobile
-reviewed: 2026-10-18
+reviewed: 2026-10-24
 order: 12
 group: Equipment
 ---
@@ -38,7 +38,7 @@ Cora liest deinen Apex über dein lokales Netzwerk, mit Sonden, Steckdosen und a
 3. Füll **Apex-Anmeldung (nur wenn du eine am Apex eingerichtet hast):** aus. Lass das Passwort leer, wenn du keins festgelegt hast.
 4. Tippe auf **Wasserwerte von APEX laden** und hak unter **Zu verfolgende Wasserwerte** die an, die du willst.
 5. Stell die **Abfragehäufigkeit** ein. Lass sie nicht auf aus: Ohne Abfrage liest niemand den Apex, und seine Messwerte veralten.
-6. Tippe auf **Weiter**, hak unter **Welche Becken versorgt dieser Apex?** jedes Becken an und tippe dann auf **Speichern**. Ein Apex kann mehr als ein Becken versorgen.
+6. Tippe auf **Weiter**. Cora testet zuerst die Anmeldung. Antwortet der Apex und lehnt sie ab, steht in einer Meldung **Der Apex hat diese Anmeldung abgelehnt**: Tippe auf **Abbrechen**, um Benutzernamen oder Passwort zu korrigieren, oder auf **Trotzdem speichern**, um weiterzumachen. Erreicht Cora den Apex nicht (etwa weil du nicht zu Hause bist), überspringt sie den Test. Hak dann unter **Welche Becken versorgt dieser Apex?** jedes Becken an und tippe auf **Speichern**. Ein Apex kann mehr als ein Becken versorgen.
 
 Findet der Scan nichts, prüf, ob dein Handy im selben WLAN ist wie der Apex, oder gib die IP-Adresse selbst ein.
 

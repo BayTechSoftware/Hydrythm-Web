@@ -3,7 +3,7 @@ title: Going away: a plan for your tank sitter
 description: Turn on vacation mode, build a checklist for your tank sitter, and share it as a read-only page with live readings that they open without an account.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 25
+order: 26
 group: Alerts and automation
 ---
 

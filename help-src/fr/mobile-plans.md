@@ -1,9 +1,9 @@
 ---
 title: Forfaits et abonnements
-description: Ce que comprennent les forfaits Free, essai, Essential, Advanced et Expert, comment s’abonner ou passer à un forfait supérieur, où voir votre consommation et comment résilier sur iPhone ou Android.
+description: Ce que comprennent les forfaits Free, essai, Essential, Advanced et Expert, comment s’abonner ou changer de forfait, où voir votre consommation et comment résilier.
 section: Cora Mobile
 reviewed: 2026-10-18
-order: 37
+order: 38
 group: Settings and account
 ---
 

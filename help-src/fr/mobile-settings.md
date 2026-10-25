@@ -1,9 +1,9 @@
 ---
 title: Paramètres de Cora Mobile
-description: Où tout se trouve dans l’onglet Paramètres de Cora Mobile, de votre compte et votre forfait aux aquariums, à Cora Assistant, à la langue, au mode sombre, aux notifications et à l’assistance.
+description: Où tout se trouve dans l’onglet Paramètres de Cora Mobile : compte et forfait, aquariums, Cora Assistant, langue, mode sombre, notifications et assistance.
 section: Cora Mobile
 reviewed: 2026-10-18
-order: 35
+order: 36
 group: Settings and account
 twin: max-settings
 ---

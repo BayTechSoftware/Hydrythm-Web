@@ -41,6 +41,7 @@ Widzisz tylko parametry, które ma akwarium. Parametr bez źródła pojawi się,
 
 Siatka mieści do 20 rzędów. Gdy jest pełna, Cora pokaże **Panel jest pełny: najpierw usuń jakiś kafelek.** Wykres potrzebuje dwóch wolnych komórek obok siebie.
 
+
 Gdy usuniesz urządzenie z akwarium, jego kafelki same znikają z panelu, w telefonie i na każdym Cora Max tego akwarium. Kafelek, którego urządzenia już nie ma, pokazuje **To urządzenie nie jest już w tym akwarium** i niczego nie otwiera.
 
 ## Układanie widżetów {#arranging-widgets}

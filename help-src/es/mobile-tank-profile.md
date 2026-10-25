@@ -2,7 +2,7 @@
 title: El perfil de tu acuario
 description: Rellena o cambia el volumen, el tipo, la fauna, la iluminación, la dosificación y el equipo de tu acuario, que Cora usa para valorar las lecturas y calcular dosis.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-24
 order: 3
 group: Getting started
 ---
@@ -83,7 +83,7 @@ Si el volumen es un 20 % demasiado alto, las dosis sugeridas también salen un 2
 
 Indica la **Fecha de inicio del acuario** en **Dimensiones del acuario**. Cora valora las lecturas según lo normal para un acuario de esa edad, así que un sistema de tres meses y otro de cinco años se valoran de forma distinta.
 
-Si el acuario todavía está haciendo el ciclo, toca la tarjeta **¿Estás empezando un acuario nuevo?** del panel para empezar el ciclado guiado. Hazlo antes de registrar la primera prueba o vincular equipos, porque la tarjeta solo aparece en un acuario sin ninguna lectura. Más información en [Itinerarios guiados](/help/mobile-journeys).
+Si el acuario todavía está haciendo el ciclo, toca la tarjeta **¿Estás empezando un acuario nuevo?** de arriba en este perfil para empezar el ciclado guiado. Funciona en cualquier momento, incluso después de registrar lecturas. Más información en [Itinerarios guiados](/help/mobile-journeys).
 
 ## Mantén el perfil al día {#keeping-the-profile-current}
 

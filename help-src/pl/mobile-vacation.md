@@ -3,7 +3,7 @@ title: Wyjazd: plan dla opiekuna akwarium
 description: Włącz tryb wakacyjny, przygotuj listę zadań dla opiekuna akwarium i udostępnij ją jako stronę tylko do odczytu z bieżącymi odczytami, którą otworzy bez konta.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 25
+order: 26
 group: Alerts and automation
 ---
 

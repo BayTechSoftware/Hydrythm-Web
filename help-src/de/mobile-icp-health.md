@@ -1,9 +1,9 @@
 ---
 title: ICP und Gesundheitsberichte
-description: Ein ICP-Test-PDF hochladen oder von deinem Labor schicken lassen, die Bewertung lesen, jedes Element über die Zeit verfolgen und einen Gesundheitsbericht über dein ganzes System erstellen.
+description: Ein ICP-Test-PDF hochladen oder vom Labor schicken lassen, die Bewertung lesen, jedes Element über die Zeit verfolgen und einen Gesundheitsbericht erstellen.
 section: Cora Mobile
 reviewed: 2026-10-17
-order: 33
+order: 34
 group: Intelligence
 twin: max-intelligence
 ---

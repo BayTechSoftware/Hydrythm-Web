@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Automatyzacje i sceny | Cora Help</title>
-  <meta name="description" content="Spraw, żeby Cora działała sama, gdy zmieni się odczyt, pojawi się alert, nadejdzie godzina albo urządzenie przejdzie w tryb offline, i łącz akcje w sceny uruchamiane jednym dotknięciem.">
+  <title>Automatyzacje i sceny | Pomoc Cora</title>
+  <meta name="description" content="Spraw, żeby Cora działała sama po zmianie odczytu, alercie, o ustalonej godzinie albo gdy urządzenie przejdzie offline, i łącz akcje w sceny na jedno dotknięcie.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/pl/help/mobile-automation">
   <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/mobile-automation">
@@ -16,8 +16,8 @@
   <link rel="alternate" hreflang="pl" href="https://coraiq.tech/pl/help/mobile-automation">
   <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/mobile-automation">
   <meta property="og:site_name" content="Cora">
-  <meta property="og:title" content="Automatyzacje i sceny | Cora Help">
-  <meta property="og:description" content="Spraw, żeby Cora działała sama, gdy zmieni się odczyt, pojawi się alert, nadejdzie godzina albo urządzenie przejdzie w tryb offline, i łącz akcje w sceny uruchamiane jednym dotknięciem.">
+  <meta property="og:title" content="Automatyzacje i sceny | Pomoc Cora">
+  <meta property="og:description" content="Spraw, żeby Cora działała sama po zmianie odczytu, alercie, o ustalonej godzinie albo gdy urządzenie przejdzie offline, i łącz akcje w sceny na jedno dotknięcie.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/pl/help/mobile-automation">
   <meta property="og:image" content="https://coraiq.tech/og-image.png">
@@ -214,7 +214,7 @@
 <p>Każda akcja wykonana przez regułę jest zapisywana z przyczyną <strong>Reguła automatyzacji</strong>. Znajdziesz ją w <a href="/pl/help/mobile-activity">Aktywności</a>.</p>
 <p>Krok, który się nie powiódł albo musiałby czekać, nie zostaje w zawieszeniu. Wygasa od razu, przebieg jest zapisany jako nieudany, a Ty dostajesz powiadomienie z nazwą automatyzacji, krokiem i przyczyną. Krok nie udaje się na przykład wtedy, gdy jego urządzenie jest offline, żaden Cora Max nie może go wykonać, urządzenie go odrzuca albo nie odpowiada, albo grzałka lub chłodziarka została przełączona chwilę temu. Dla kroku na usuniętym akwarium nie dostajesz powiadomienia.</p>
       <nav class="pn" aria-label="Czytaj dalej"><a class="pn-p" href="/pl/help/mobile-notifications"><span>Poprzedni</span><b>Powiadomienia</b></a><a class="pn-n" href="/pl/help/mobile-vacation"><span>Następny</span><b>Wyjazd: plan dla opiekuna akwarium</b></a></nav>
-      <p class="stamp">Napisano dla Cora Max 0.28.222 i Cora Mobile 1.4.3. Ostatnio sprawdzono 2026-10-18.</p>
+      <p class="stamp">Napisano dla Cora Max 0.28.238 i Cora Mobile 1.4.14. Ostatnio sprawdzono 2026-10-24.</p>
       <p class="ask">Wciąż masz problem? Napisz na <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, pomożemy.</p>
     </article>
   </main>
@@ -605,7 +605,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/pl/help/search.json?v=c5b79dad05').then(function (r) { return r.json(); })
+    fetch('/pl/help/search.json?v=aede854401').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "pl"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Wyszukiwanie jest niedost\u0119pne. U\u017cyj menu." + '</li>';

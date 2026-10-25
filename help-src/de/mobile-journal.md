@@ -3,7 +3,7 @@ title: Das Tagebuch
 description: Aufschreiben oder diktieren, was du an deinem Becken gemacht hast, Fütterungen eintragen und Cora zu einem Eintrag fragen, damit du später siehst, was wozu geführt hat.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 26
+order: 27
 group: Records
 twin: max-records
 ---

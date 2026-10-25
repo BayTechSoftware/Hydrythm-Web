@@ -2,7 +2,7 @@
 title: Attrezzatura per marca
 description: Tutto sulla tua attrezzatura Neptune Apex, Red Sea ReefBeat, Jecod o AquaWiz in un unico posto, da come aggiungerla a come comandarla, ai suoi avvisi e alle soluzioni.
 section: Help
-reviewed: 2026-10-17
+reviewed: 2026-10-24
 order: 3
 ---
 
@@ -24,7 +24,7 @@ Cora legge sonde e prese del tuo Apex, avvia i suoi cicli di alimentazione e lav
 - Comandarlo dal telefono: [Apex](/help/mobile-device-control#neptune-apex), [DŌS](/help/mobile-device-control#dos), [Trident](/help/mobile-device-control#trident)
 - Su Cora Max: [prese e modalità alimentazione](/help/max-controls), [Apex e Trident](/help/max-device-control#neptune-apex), [teste DŌS](/help/max-device-control#dos-heads)
 - Avvisi: [ha smesso di inviare dati](/help/mobile-alerts#stopped-reporting), [avvisi della pompa dosometrica](/help/mobile-device-control#doser-alerts)
-- Soluzioni: ["Impossibile raggiungere l'Apex"](/help/troubleshooting#could-not-reach-the-apex-nothing-changed-nothing-was-dosed), ["… non ha i dati dell'Apex"](/help/troubleshooting#this-could-not-be-sent-no-device-on-this-tank-can-send-it), ["Password Apex"](/help/troubleshooting#cora-max-shows-apex-password), [l'alimentazione non parte](/help/troubleshooting#feed-does-not-start), [una dose si è fermata a metà](/help/troubleshooting#a-dose-stopped-partway-through-and-a-restore-alert-appeared)
+- Soluzioni: ["Impossibile raggiungere l'Apex"](/help/troubleshooting#could-not-reach-the-apex-nothing-changed-nothing-was-dosed), ["… non ha i dati dell'Apex"](/help/troubleshooting#this-could-not-be-sent-no-device-on-this-tank-can-send-it), ["Password Apex"](/help/troubleshooting#cora-max-shows-apex-password), ["L’Apex ha rifiutato queste credenziali"](/help/troubleshooting#the-apex-refused-this-login), [l'alimentazione non parte](/help/troubleshooting#feed-does-not-start), [una dose si è fermata a metà](/help/troubleshooting#a-dose-stopped-partway-through-and-a-restore-alert-appeared)
 
 ## Red Sea ReefBeat {#red-sea}
 

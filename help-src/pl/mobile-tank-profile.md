@@ -2,7 +2,7 @@
 title: Profil akwarium
 description: Uzupełnij albo zmień objętość, typ, obsadę, oświetlenie, dozowanie i sprzęt akwarium, na podstawie których Cora ocenia odczyty i liczy dawki.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-10-24
 order: 3
 group: Getting started
 ---
@@ -83,7 +83,7 @@ Jeśli objętość jest o 20% za duża, sugerowane dawki też są o 20% za duże
 
 Ustaw **Data uruchomienia akwarium** w **Wymiary akwarium**. Cora ocenia odczyty względem tego, co jest normalne dla akwarium w tym wieku, więc trzymiesięczny system i pięcioletni są oceniane inaczej.
 
-Jeśli akwarium wciąż się cykluje, dotknij karty **Zaczynasz nowe akwarium?** na panelu, żeby uruchomić prowadzone cyklowanie. Zrób to przed zapisaniem pierwszego testu albo podłączeniem sprzętu, bo karta pokazuje się tylko przy akwarium bez żadnych odczytów. Więcej w [Ścieżkach z przewodnikiem](/help/mobile-journeys).
+Jeśli akwarium wciąż się cykluje, dotknij karty **Zaczynasz nowe akwarium?** u góry tego profilu, żeby uruchomić prowadzone cyklowanie. Działa o każdej porze, także po zapisaniu odczytów. Więcej w [Ścieżkach z przewodnikiem](/help/mobile-journeys).
 
 ## Aktualny profil {#keeping-the-profile-current}
 

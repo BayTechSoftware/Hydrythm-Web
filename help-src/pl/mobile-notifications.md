@@ -3,7 +3,7 @@ title: Powiadomienia
 description: Wybierz, które powiadomienia docierają na telefon, zachowaj ciszę w nocy, przeczytaj pod dzwonkiem to, co Cię ominęło, i napraw powiadomienia, które nie przychodzą.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 23
+order: 24
 group: Alerts and automation
 ---
 

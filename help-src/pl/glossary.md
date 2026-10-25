@@ -20,6 +20,7 @@ Cora mówi Ci, że coś wymaga uwagi. Zwykle to odczyt poza ustawionym zakresem.
 
 AquaWiz KH Controller, tester alkaliczności. Cora odczytuje go przez własną chmurę AquaWiz. Zobacz [Sprzęt według marki](/help/equipment-by-brand).
 
+
 ## Automatyzacja {#automation}
 
 Reguła, która działa sama, na przykład „jeśli temperatura przekroczy 27, włącz wentylator”. Każda reguła ma [wyzwalacz](#trigger), opcjonalne [warunki](#condition) i jedną albo więcej akcji. Znajdziesz je w Cora Mobile w **Ustawienia → Automatyzacje**. Zobacz [Automatyzacje i sceny](/help/mobile-automation).

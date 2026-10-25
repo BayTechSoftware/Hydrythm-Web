@@ -2,7 +2,7 @@
 title: Reef Buddy ve raporlar
 description: Cora Max'te sabah Reef Buddy özeti, içgörülere geri bildirim verme, prob bakımını kaydetme, ICP sonuçları, sağlık raporları ve geçmiş grafikleri.
 section: Cora Max
-reviewed: 2026-10-13
+reviewed: 2026-10-24
 order: 12
 group: Intelligence
 twin: mobile-reef-buddy
@@ -31,7 +31,7 @@ Bir test kaydettikten ya da bir ICP sonucu ekledikten sonra ekranda **Bu özette
 Sağda açmak için listedeki bir karta dokunun.
 
 - **Bunu neden görüyorum?** dayandığı ölçümleri, hedefi ve günlük kayıtlarını gösterir.
-- Her kartın altındaki geri bildirim satırı: **Değerli**, **Faydalı değil**, **Zaten biliyordum** veya **Uyuşmuyor**. **Faydalı değil** ve **Uyuşmuyor** bulguyu 14 gün, **Zaten biliyordum** 7 gün gizler. Uyarı ve kritik bulgular asla gizlenmez. Değişen bir ölçümde **Uyuşmuyor**, yanlış ölçümleri hariç tutmayı önerir. Cora, akvaryumunuzu tanımak için yanıtlarınızı kullanır.
+- Her kartın altındaki geri bildirim satırı: **Değerli**, **Faydalı değil**, **Zaten biliyordum** veya **Uyuşmuyor**. Bir içgörüde **Faydalı değil** ve **Uyuşmuyor** bulguyu 14 gün, **Zaten biliyordum** 7 gün gizler. Değişen bir ölçümde yalnızca **Faydalı değil** onu gizler (14 gün), **Uyuşmuyor** ise yanlış ölçümleri hariç tutmayı önerir. Uyarı ve kritik bulgular asla gizlenmez. Cora, akvaryumunuzu tanımak için yanıtlarınızı kullanır.
 
 Cora bir ölçümden şüphelendiğinde onu **Kontrol etmeye değer** altında gösterir, örneğin kayıyor olabilecek bir prob. Orada şunları yapabilirsiniz:
 

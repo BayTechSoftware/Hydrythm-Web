@@ -1,9 +1,9 @@
 ---
 title: Otomasyonlar ve sahneler
-description: Bir ölçüm, bir uyarı, bir saat ya da çevrimdışı olan bir cihaz için Cora'nın kendi başına harekete geçmesini sağlayın ve eylemleri tek dokunuşla çalıştırdığınız sahnelerde toplayın.
+description: Cora'nın bir ölçüm, uyarı, saat ya da çevrimdışı kalan cihaz karşısında kendi başına harekete geçmesini sağlayın ve eylemleri tek dokunuşluk sahnelerde toplayın.
 section: Cora Mobile
-reviewed: 2026-10-18
-order: 24
+reviewed: 2026-10-24
+order: 25
 group: Alerts and automation
 twin: max-automation
 ---

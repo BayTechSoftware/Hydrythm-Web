@@ -3,7 +3,7 @@ title: Actividad y línea de tiempo
 description: Ve cada cambio enviado a tus equipos, quién o qué lo pidió y si funcionó, y lee la línea de tiempo del acuario alrededor de una fecha.
 section: Cora Mobile
 reviewed: 2026-10-18
-order: 30
+order: 31
 group: Records
 twin: max-activity
 ---

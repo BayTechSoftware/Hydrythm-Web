@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Rozwiązywanie problemów | Cora Help</title>
+  <title>Rozwiązywanie problemów | Pomoc Cora</title>
   <meta name="description" content="Napraw nieaktualny odczyt, urządzenie w trybie offline, polecenie, które nie przeszło, Cora Max, którego nie da się sparować, albo alert, który nie znika.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/pl/help/troubleshooting">
@@ -16,7 +16,7 @@
   <link rel="alternate" hreflang="pl" href="https://coraiq.tech/pl/help/troubleshooting">
   <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/troubleshooting">
   <meta property="og:site_name" content="Cora">
-  <meta property="og:title" content="Rozwiązywanie problemów | Cora Help">
+  <meta property="og:title" content="Rozwiązywanie problemów | Pomoc Cora">
   <meta property="og:description" content="Napraw nieaktualny odczyt, urządzenie w trybie offline, polecenie, które nie przeszło, Cora Max, którego nie da się sparować, albo alert, który nie znika.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/pl/help/troubleshooting">
@@ -257,6 +257,10 @@
 <ul><li>Sprawdź Wi-Fi w <strong>Ustawienia → Ustawienia Cora Max → Wi-Fi</strong>.</li><li>Sprawdź, czy sama sieć działa.</li><li>Jeśli etykieta pokazuje <strong>Online</strong> albo <strong>Chmura</strong>, a dane nadal są stare, problem jest przed Cora Max. Sprawdź to samo akwarium w telefonie.</li></ul>
 <h3 id="cora-max-shows-apex-password">Cora Max pokazuje „Hasło Apex”</h3>
 <p>Twój Apex odrzucił logowanie zapisane w Corze, zwykle dlatego, że zmieniono hasło Apex. W telefonie otwórz <strong>Urządzenia</strong>, potem swój Apex, i dotknij <strong>Edytuj połączenie</strong> w <strong>Połączenie</strong>, żeby wpisać nowe.</p>
+<h3 id="the-apex-refused-this-login">„Apex odrzucił ten login”</h3>
+<p>Ten komunikat zobaczysz po dotknięciu <strong>Dalej</strong> przy dodawaniu albo edycji Neptune Apex. Cora wypróbowała login, który wpisano (jeśli wpisano hasło), potem fabryczny login Apex, a na końcu brak loginu, i Apex odrzucił wszystkie.</p>
+<ol><li>Dotknij <strong>Anuluj</strong>.</li><li>Sprawdź nazwę użytkownika i hasło ustawione w Apex, w <strong>Network Setup</strong>, <strong>Login</strong>. Jeśli Twój Apex nie ma logowania, zostaw oba pola puste.</li><li>Wpisz je ponownie i dotknij <strong>Dalej</strong>.</li></ol>
+<p><strong>Zapisz mimo to</strong> zachowuje wpisane dane bez zaliczonego testu. Użyj tego tylko wtedy, gdy masz pewność, że login jest poprawny. Jeśli później zmienisz login w Apex, wpisz nowy tak, jak opisano w <a href="#cora-max-shows-apex-password">Cora Max pokazuje „Hasło Apex”</a>.</p>
 <h3 id="cora-max-shows-cloud-save-refused">Cora Max pokazuje „Zapis w chmurze odrzucony”</h3>
 <p>Cora Cloud odmawia zapisania części danych z tego ekranu. Z Twoim akwarium ani z Cora Max nic złego się nie dzieje i nic nie trzeba zmieniać na ekranie. Rozwiązaniem jest aktualizacja Cora Cloud.</p>
 <ol><li>Otwórz <strong>Ustawienia → Ustawienia Cora Max</strong> i przewiń do <strong>STAN</strong>. Linia <strong>Zapis w chmurze</strong> mówi, które dane są odrzucane, na przykład odczyty albo gniazda urządzenia.</li><li><a href="/support.html">Skontaktuj się z pomocą techniczną</a> i powiedz nam, co mówi ta linia.</li></ol>
@@ -330,7 +334,7 @@
 <h2 id="still-stuck">Nadal problem</h2>
 <p>Napisz na <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> albo zgłoś problem z Cora Mobile, jak opisuje <a href="/pl/help/mobile-support">Zgłaszanie problemu</a>. Podaj, które akwarium, które urządzenie, który ekran i czego się spodziewano.</p>
       <nav class="pn" aria-label="Czytaj dalej"><a class="pn-n" href="/pl/help/how-do-i"><span>Następny</span><b>Jak to zrobić?</b></a></nav>
-      <p class="stamp">Napisano dla Cora Max 0.28.222 i Cora Mobile 1.4.3. Ostatnio sprawdzono 2026-10-18.</p>
+      <p class="stamp">Napisano dla Cora Max 0.28.238 i Cora Mobile 1.4.14. Ostatnio sprawdzono 2026-10-24.</p>
       <p class="ask">Wciąż masz problem? Napisz na <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, pomożemy.</p>
     </article>
   </main>
@@ -721,7 +725,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/pl/help/search.json?v=c5b79dad05').then(function (r) { return r.json(); })
+    fetch('/pl/help/search.json?v=aede854401').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "pl"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Wyszukiwanie jest niedost\u0119pne. U\u017cyj menu." + '</li>';

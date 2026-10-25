@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Automatisations et scènes | Cora Help</title>
+  <title>Automatisations et scènes | Aide Cora</title>
   <meta name="description" content="Faites agir Cora tout seul selon une mesure, une alerte, une heure ou un appareil qui se déconnecte, et regroupez des actions en scènes que vous lancez d’un seul appui.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/fr/help/mobile-automation">
@@ -16,7 +16,7 @@
   <link rel="alternate" hreflang="pl" href="https://coraiq.tech/pl/help/mobile-automation">
   <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/mobile-automation">
   <meta property="og:site_name" content="Cora">
-  <meta property="og:title" content="Automatisations et scènes | Cora Help">
+  <meta property="og:title" content="Automatisations et scènes | Aide Cora">
   <meta property="og:description" content="Faites agir Cora tout seul selon une mesure, une alerte, une heure ou un appareil qui se déconnecte, et regroupez des actions en scènes que vous lancez d’un seul appui.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/fr/help/mobile-automation">
@@ -214,7 +214,7 @@
 <p>Chaque action d’une règle est enregistrée avec <strong>Règle d’automatisation</strong> comme cause. Vous la trouverez dans <a href="/fr/help/mobile-activity">Activité</a>.</p>
 <p>Une étape qui échoue ou doit attendre ne reste pas en attente. Elle expire aussitôt, l’exécution est enregistrée comme échouée, et vous recevez une notification qui nomme l’automatisation, l’étape et la raison. Une étape échoue par exemple quand son appareil est hors ligne, qu’aucun Cora Max ne peut l’exécuter, que l’appareil la refuse ou ne répond pas, ou qu’un chauffage ou un refroidisseur vient d’être commuté. Une étape sur un aquarium retiré ne vous envoie aucune notification.</p>
       <nav class="pn" aria-label="Poursuivre la lecture"><a class="pn-p" href="/fr/help/mobile-notifications"><span>Précédent</span><b>Notifications</b></a><a class="pn-n" href="/fr/help/mobile-vacation"><span>Suivant</span><b>Partir en vacances : un plan pour la personne qui garde votre aquarium</b></a></nav>
-      <p class="stamp">Rédigé pour Cora Max 0.28.222 et Cora Mobile 1.4.3. Vérifié pour la dernière fois le 2026-10-18.</p>
+      <p class="stamp">Rédigé pour Cora Max 0.28.238 et Cora Mobile 1.4.14. Vérifié pour la dernière fois le 2026-10-24.</p>
       <p class="ask">Toujours bloqué ? Écrivez à <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, nous vous aiderons.</p>
     </article>
   </main>
@@ -605,7 +605,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/fr/help/search.json?v=f05beee199').then(function (r) { return r.json(); })
+    fetch('/fr/help/search.json?v=fac77358f2').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "fr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La recherche est indisponible. Utilisez la navigation." + '</li>';

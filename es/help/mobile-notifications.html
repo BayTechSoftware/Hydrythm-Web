@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Notificaciones | Cora Help</title>
+  <title>Notificaciones | Ayuda de Cora</title>
   <meta name="description" content="Elige qué notificaciones llegan a tu teléfono, ten noches tranquilas, lee lo que te perdiste en la campana y arregla las notificaciones que no llegan.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/es/help/mobile-notifications">
@@ -16,7 +16,7 @@
   <link rel="alternate" hreflang="pl" href="https://coraiq.tech/pl/help/mobile-notifications">
   <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/mobile-notifications">
   <meta property="og:site_name" content="Cora">
-  <meta property="og:title" content="Notificaciones | Cora Help">
+  <meta property="og:title" content="Notificaciones | Ayuda de Cora">
   <meta property="og:description" content="Elige qué notificaciones llegan a tu teléfono, ten noches tranquilas, lee lo que te perdiste en la campana y arregla las notificaciones que no llegan.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/es/help/mobile-notifications">
@@ -201,7 +201,7 @@
 <p>Revisa tus umbrales antes de desactivar notificaciones. Demasiadas alertas suelen significar que un rango es más estrecho de lo que el acuario mantiene en realidad, o que una fuente necesita calibración. Más información en <a href="/es/help/mobile-alerts">Alertas y umbrales</a>.</p>
 <p>Desactivar una categoría la silencia entera. Si es una sola alerta la que llega demasiado a menudo, cambia su <strong>Tiempo de espera entre alertas</strong> en esa regla. Va desde 15 minutos hasta 1 semana. Las opciones de tiempo de espera, y lo que hace Posponer en Cora Max, están en <a href="/es/help/mobile-alerts#cooldowns">Tiempos de espera</a>.</p>
       <nav class="pn" aria-label="Seguir leyendo"><a class="pn-p" href="/es/help/mobile-alerts"><span>Anterior</span><b>Alertas y umbrales</b></a><a class="pn-n" href="/es/help/mobile-automation"><span>Siguiente</span><b>Automatizaciones y escenas</b></a></nav>
-      <p class="stamp">Escrito para Cora Max 0.28.222 y Cora Mobile 1.4.3. Última revisión el 2026-10-13.</p>
+      <p class="stamp">Escrito para Cora Max 0.28.238 y Cora Mobile 1.4.14. Última revisión el 2026-10-13.</p>
       <p class="ask">¿Sigues atascado? Escribe a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> y te ayudamos.</p>
     </article>
   </main>
@@ -592,7 +592,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/es/help/search.json?v=76cf023804').then(function (r) { return r.json(); })
+    fetch('/es/help/search.json?v=9384433ffe').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "es"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La b\u00fasqueda no est\u00e1 disponible. Usa la navegaci\u00f3n." + '</li>';

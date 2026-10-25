@@ -3,7 +3,7 @@ title: Attività e cronologia
 description: Guarda ogni modifica inviata alla tua attrezzatura, chi o cosa l'ha chiesta e se ha funzionato, e leggi la cronologia della vasca intorno a una data.
 section: Cora Mobile
 reviewed: 2026-10-18
-order: 30
+order: 31
 group: Records
 twin: max-activity
 ---

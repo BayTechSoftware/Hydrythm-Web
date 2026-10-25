@@ -3,7 +3,7 @@ title: Eksport danych i usuwanie konta
 description: Wyeksportuj odczyty, dziennik i alerty do plików arkusza kalkulacyjnego, wyloguj się albo usuń konto Cora i zobacz, co to usuwa.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 38
+order: 39
 group: Settings and account
 ---
 

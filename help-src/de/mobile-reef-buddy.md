@@ -2,8 +2,8 @@
 title: Reef Buddy
 description: Dein tägliches Reef Buddy-Briefing, was es abdeckt, wann es kommt, wie du die Bewertungen liest und warum ein Briefing vielleicht nicht kommt.
 section: Cora Mobile
-reviewed: 2026-10-18
-order: 31
+reviewed: 2026-10-24
+order: 32
 group: Intelligence
 twin: max-intelligence
 ---
@@ -27,7 +27,7 @@ Ein niedriger Daten-Wert heißt, dass Cora weniger Messwerte zur Verfügung hatt
 
 Danach kommt eine Zusammenfassung, ein kurzer Absatz, der die Schlagzeile mit deinen echten Werten und Bereichen erklärt.
 
-Danach kommt **Heute im Überblick** und darunter jeder Befund als eine Karte: ein Insight, ein Messwert, der sich bewegt hat, oder die tägliche Beobachtung. Jede Karte sagt, was Cora gesehen hat, zeigt die Zahlen und ein kleines Diagramm. Ein Befund, der sich wiederholt, zeigt *Weiterhin: ..., seit 12. Okt.* Ein Chip oben auf der Seite zeigt die Beckenart und wie vollständig ihr Profil ist. Beides beeinflusst, was Cora schlussfolgern kann.
+Danach kommt **Heute im Überblick** und darunter jeder Befund als eine Karte: ein Insight, ein Messwert, der sich bewegt hat, oder die tägliche Beobachtung. Jede Karte sagt, was Cora gesehen hat, zeigt die Zahlen und ein kleines Diagramm. Ein Befund, der sich wiederholt, zeigt *Weiterhin: ..., seit 12. Okt.* Ein Chip neben der Überschrift **Heutige Erkenntnisse** zeigt die Beckenart und wie vollständig ihr Profil ist. Beides beeinflusst, was Cora schlussfolgern kann.
 
 
 Cora filtert Insights, bevor sie dich erreichen. Ein Insight muss sich über mehrere Messwerte halten. Einer reicht nicht. Es muss dir außerdem etwas sagen, das ein einzelnes Diagramm nicht schon zeigen würde.
@@ -106,10 +106,10 @@ Unter jeder Karte gibt es eine Rückmeldezeile. Deine Antwort bestimmt, was in s
 |---|---|
 | **Wertvoll** | Richtig und nützlich |
 | **Nicht nützlich** | Richtig, aber nicht für dich. Blendet diesen Befund 14 Tage aus |
-| **Schon gewusst** | Richtig, aber du wusstest es schon. Blendet ihn 7 Tage aus |
-| **Stimmt nicht überein** | Es passt nicht zu dem, was du siehst. Blendet ihn 14 Tage aus |
+| **Schon gewusst** | Richtig, aber du wusstest es schon. Blendet ihn 7 Tage aus, außer bei einem Messwert, der sich bewegt hat |
+| **Stimmt nicht überein** | Es passt nicht zu dem, was du siehst. Blendet ihn 14 Tage aus, außer bei einem Messwert, der sich bewegt hat |
 
-Bei einem Messwert, der sich bewegt hat, bietet **Stimmt nicht überein** außerdem an, die falschen Messwerte auszuschließen, damit Cora sie nicht mehr zählt. Das Ausblenden gilt nur eine Weile. Besteht das Problem danach noch, kommt der Befund zurück.
+Bei einem Messwert, der sich bewegt hat, blendet nur **Nicht nützlich** die Karte aus (14 Tage). **Schon gewusst** wird nur vermerkt, und **Stimmt nicht überein** blendet nichts aus: Es bietet an, die falschen Messwerte auszuschließen, damit Cora sie nicht mehr zählt. Das Ausblenden gilt nur eine Weile. Besteht das Problem danach noch, kommt der Befund zurück.
 
 :::note Ernste Befunde werden nie ausgeblendet
 Warnungen und kritische Befunde erscheinen weiter, egal was du vorher geantwortet hast.

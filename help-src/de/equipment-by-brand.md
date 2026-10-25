@@ -2,7 +2,7 @@
 title: Ausrüstung nach Marke
 description: Alles zu deiner Neptune Apex-, Red Sea ReefBeat-, Jecod- oder AquaWiz-Ausrüstung an einem Ort, vom Hinzufügen über das Steuern bis zu Warnungen und Lösungen.
 section: Help
-reviewed: 2026-10-17
+reviewed: 2026-10-24
 order: 3
 ---
 
@@ -24,7 +24,7 @@ Cora liest die Sonden und Steckdosen deines Apex, startet seine Fütterungszykle
 - Auf dem Handy steuern: [Apex](/help/mobile-device-control#neptune-apex), [DŌS](/help/mobile-device-control#dos), [Trident](/help/mobile-device-control#trident)
 - Auf Cora Max: [Steckdosen und Fütterungsmodus](/help/max-controls), [Apex und Trident](/help/max-device-control#neptune-apex), [DŌS-Köpfe](/help/max-device-control#dos-heads)
 - Warnungen: [meldet keine Daten mehr](/help/mobile-alerts#stopped-reporting), [Dosierpumpen-Warnungen](/help/mobile-device-control#doser-alerts)
-- Lösungen: ["Der Apex war nicht erreichbar"](/help/troubleshooting#could-not-reach-the-apex-nothing-changed-nothing-was-dosed), ["… hat keine Apex-Zugangsdaten"](/help/troubleshooting#this-could-not-be-sent-no-device-on-this-tank-can-send-it), ["Apex-Passwort"](/help/troubleshooting#cora-max-shows-apex-password), [Fütterung startet nicht](/help/troubleshooting#feed-does-not-start), [eine Dosierung hat mittendrin aufgehört](/help/troubleshooting#a-dose-stopped-partway-through-and-a-restore-alert-appeared)
+- Lösungen: ["Der Apex war nicht erreichbar"](/help/troubleshooting#could-not-reach-the-apex-nothing-changed-nothing-was-dosed), ["… hat keine Apex-Zugangsdaten"](/help/troubleshooting#this-could-not-be-sent-no-device-on-this-tank-can-send-it), ["Apex-Passwort"](/help/troubleshooting#cora-max-shows-apex-password), ["Der Apex hat diese Anmeldung abgelehnt"](/help/troubleshooting#the-apex-refused-this-login), [Fütterung startet nicht](/help/troubleshooting#feed-does-not-start), [eine Dosierung hat mittendrin aufgehört](/help/troubleshooting#a-dose-stopped-partway-through-and-a-restore-alert-appeared)
 
 ## Red Sea ReefBeat {#red-sea}
 

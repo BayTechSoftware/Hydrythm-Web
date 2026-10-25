@@ -3,7 +3,7 @@ title: Reporting a problem
 description: Report a bug or send feedback from inside Cora Mobile, see what gets sent with it, turn on crash reports, or email support.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 39
+order: 40
 group: Settings and account
 ---
 

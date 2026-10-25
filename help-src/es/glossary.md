@@ -32,6 +32,7 @@ Cuánto hace que se tomó una lectura, que se muestra en cada widget de parámet
 
 El AquaWiz KH Controller, un analizador de alcalinidad. Cora lo lee a través de la nube propia de AquaWiz. Consulta [Equipos por marca](/help/equipment-by-brand).
 
+
 ## Asignación de parámetros {#parameter-mapping}
 
 Donde le dices a Cora qué mide cada sonda de un controlador, y qué dispositivo alimenta cada lectura. Consulta [Asignación de parámetros y sondas](/help/mobile-probes).

@@ -2,7 +2,7 @@
 title: Szenen auf Cora Max
 description: Szenen auf Cora Max anlegen, starten, bearbeiten und löschen, über Einstellungen → Automationen oder eine Szenen-Kachel auf dem Dashboard.
 section: Cora Max
-reviewed: 2026-10-18
+reviewed: 2026-10-24
 order: 9
 group: Alerts and automation
 twin: mobile-automation

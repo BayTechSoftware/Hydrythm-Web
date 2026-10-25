@@ -1,8 +1,8 @@
 ---
 title: Reef Buddy et rapports
-description: Le briefing Reef Buddy du matin sur Cora Max, donner votre avis sur les analyses, noter l’entretien des sondes, les résultats ICP, les rapports de santé et les graphiques d’historique.
+description: Le briefing Reef Buddy du matin sur Cora Max, votre avis sur les analyses, l’entretien des sondes, les résultats ICP et les rapports de santé.
 section: Cora Max
-reviewed: 2026-10-13
+reviewed: 2026-10-24
 order: 12
 group: Intelligence
 twin: mobile-reef-buddy
@@ -31,7 +31,7 @@ Après avoir noté un test ou ajouté un résultat ICP, l’écran affiche **Nou
 Touchez une carte de la liste pour l’ouvrir à droite.
 
 - **Pourquoi je vois ça ?** montre les mesures, la cible et les entrées de journal sur lesquelles elle repose.
-- La ligne de retour sous chaque carte : **Utile**, **Pas utile**, **Je le savais déjà** ou **Ne correspond pas**. **Pas utile** et **Ne correspond pas** masquent le constat pendant 14 jours, **Je le savais déjà** pendant 7. Les avertissements et constats critiques ne sont jamais masqués. Sur une mesure qui a bougé, **Ne correspond pas** propose d’exclure les mauvaises mesures. Cora utilise vos réponses pour apprendre à connaître votre aquarium.
+- La ligne de retour sous chaque carte : **Utile**, **Pas utile**, **Je le savais déjà** ou **Ne correspond pas**. Sur une analyse, **Pas utile** et **Ne correspond pas** masquent le constat pendant 14 jours, **Je le savais déjà** pendant 7. Sur une mesure qui a bougé, seul **Pas utile** la masque (14 jours), et **Ne correspond pas** propose d’exclure les mauvaises mesures. Les avertissements et constats critiques ne sont jamais masqués. Cora utilise vos réponses pour apprendre à connaître votre aquarium.
 
 Quand Cora doute d’une mesure, il l’affiche sous **À vérifier**, par exemple une sonde qui dérive peut-être. Là, vous pouvez :
 

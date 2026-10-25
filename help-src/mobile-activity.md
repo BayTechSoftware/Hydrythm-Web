@@ -3,7 +3,7 @@ title: Activity and timeline
 description: See every change sent to your equipment, who or what asked for it and whether it worked, and read the tank's timeline around a date.
 section: Cora Mobile
 reviewed: 2026-10-18
-order: 30
+order: 31
 group: Records
 twin: max-activity
 ---

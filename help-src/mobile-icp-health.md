@@ -3,7 +3,7 @@ title: ICP and health reports
 description: Upload an ICP test PDF or have your lab send it, read the score, track each element over time, and run a Health Report of your whole system.
 section: Cora Mobile
 reviewed: 2026-10-17
-order: 33
+order: 34
 group: Intelligence
 twin: max-intelligence
 ---

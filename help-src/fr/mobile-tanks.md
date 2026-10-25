@@ -2,7 +2,7 @@
 title: Gérer vos aquariums
 description: Ajoutez un autre aquarium, passez d’un aquarium à l’autre, changez leur ordre et les aquariums qui ont Reef Buddy, et supprimez ou restaurez un aquarium.
 section: Cora Mobile
-reviewed: 2026-10-18
+reviewed: 2026-10-24
 order: 4
 group: Getting started
 ---
@@ -15,7 +15,7 @@ Vous pouvez avoir autant d’aquariums que vous voulez, quel que soit votre forf
 
 1. Allez dans **Paramètres** et touchez **Ajouter un aquarium**, sous votre liste d’aquariums.
 2. **Ajouter un aquarium** ouvre le profil complet de l’aquarium. Donnez un nom à l’aquarium sous **Nom et type de l’aquarium**, et remplissez ce que vous savez d’autre, comme le type et le volume d’eau sous **Dimensions de l’aquarium**. Vous pourrez compléter le reste plus tard. Voir [Le profil de votre aquarium](/help/mobile-tank-profile).
-3. Touchez **Enregistrer l’aquarium**.
+3. Touchez **Enregistrer l’aquarium**. Si l’aquarium est tout neuf et en cyclage, activez d’abord **C’est un tout nouvel aquarium que je cycle** en bas du formulaire.
 4. Cora propose l’étape du premier test. Notez un test, réglez un rappel hebdomadaire, ou touchez **Plus tard**. Voir [La carte du premier test](/help/mobile-setup#the-first-test-card).
 
 Donnez ensuite son équipement à l’aquarium :
@@ -25,7 +25,7 @@ Donnez ensuite son équipement à l’aquarium :
 - Pour afficher l’aquarium sur Cora Max, allez dans **Appareils**, ouvrez votre Cora Max et touchez **Ajouter un aquarium** sous **Aquariums attribués**. Un Cora Max affiche jusqu’à 4 aquariums.
 
 :::tip Le nouvel aquarium est encore en cyclage ?
-Touchez **Vous démarrez un nouvel aquarium ?** sur son tableau de bord avant de noter un test ou d’associer un équipement. La carte n’apparaît que sur un aquarium sans aucune mesure. Plus de détails dans [Parcours guidés](/help/mobile-journeys).
+Vous pouvez aussi lancer le cyclage guidé plus tard : touchez **Vous démarrez un nouvel aquarium ?** sur le tableau de bord de l’aquarium (la carte apparaît tant que l’aquarium n’a aucune mesure) ou utilisez la même carte en haut du profil de l’aquarium, qui marche à tout moment. Plus de détails dans [Parcours guidés](/help/mobile-journeys).
 :::
 
 ## Passer d’un aquarium à l’autre {#switching-between-tanks}

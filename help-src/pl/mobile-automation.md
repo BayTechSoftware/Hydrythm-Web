@@ -1,9 +1,9 @@
 ---
 title: Automatyzacje i sceny
-description: Spraw, żeby Cora działała sama, gdy zmieni się odczyt, pojawi się alert, nadejdzie godzina albo urządzenie przejdzie w tryb offline, i łącz akcje w sceny uruchamiane jednym dotknięciem.
+description: Spraw, żeby Cora działała sama po zmianie odczytu, alercie, o ustalonej godzinie albo gdy urządzenie przejdzie offline, i łącz akcje w sceny na jedno dotknięcie.
 section: Cora Mobile
-reviewed: 2026-10-18
-order: 24
+reviewed: 2026-10-24
+order: 25
 group: Alerts and automation
 twin: max-automation
 ---

@@ -1,6 +1,6 @@
 ---
 title: Cora ile konuşma
-description: Cora Max'te sesi ve "Hey Cora"yı kullanın, sesle neler yapıp neler yapamayacağını, yapay zeka veri paylaşımını ve aylık hakkınızı öğrenin, Cora yanıt vermediğinde ne yapacağınızı görün.
+description: Cora Max'te sesi ve "Hey Cora"yı kullanın; sesle neler yapılabildiğini, yapay zeka veri paylaşımını, aylık hakkınızı ve Cora yanıt vermezse ne yapacağınızı öğrenin.
 section: Cora Max
 reviewed: 2026-10-18
 order: 13

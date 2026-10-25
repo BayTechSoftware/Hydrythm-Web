@@ -3,7 +3,7 @@ title: More than one Cora device
 description: With more than one Cora device, choose which one answers your voice and which one polls each tank, and see what works away from home.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 36
+order: 37
 group: Settings and account
 twin: max-reef-room
 ---

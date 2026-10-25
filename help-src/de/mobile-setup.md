@@ -2,7 +2,7 @@
 title: Cora Mobile einrichten
 description: Cora Mobile installieren, dein Konto anlegen, dein erstes Becken hinzufügen und die ersten Messwerte auf den Bildschirm bringen, Schritt für Schritt.
 section: Cora Mobile
-reviewed: 2026-10-18
+reviewed: 2026-10-24
 order: 1
 group: Getting started
 twin: max-setup
@@ -59,7 +59,7 @@ Nach der Anmeldung fragt **Lerne dein Becken kennen** drei Dinge. Nur der Name i
 Tippe auf **Mein Becken erstellen**.
 
 :::note Fährt dein Becken noch ein?
-Tippe auf dem Dashboard auf **Startest du ein neues Becken?**, **bevor** du einen Test einträgst oder Ausrüstung verknüpfst. Diese Karte erscheint nur bei einem Becken ganz ohne Messwerte, und mit ihr schaltest du das geführte Einfahren ein. Mehr dazu unter [Geführte Journeys](/help/mobile-journeys).
+Tippe auf dem Dashboard auf **Startest du ein neues Becken?** Diese Karte erscheint, solange das Becken keine Messwerte hat. Hast du schon einen Test eingetragen, öffne das Profil des Beckens und tippe oben auf dieselbe Karte, das geht jederzeit. Mehr dazu unter [Geführte Journeys](/help/mobile-journeys).
 
 Cora beurteilt Messwerte außerdem danach, was für ein Becken dieses Alters normal ist. Der Assistent fragt nicht danach, stell also das **Startdatum des Beckens** in deinem Beckenprofil unter **Beckenmaße** ein.
 :::

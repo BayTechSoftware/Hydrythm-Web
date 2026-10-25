@@ -1,8 +1,8 @@
 ---
 title: Deine Becken verwalten
-description: Ein weiteres Becken hinzufügen, zwischen Becken wechseln, ihre Reihenfolge ändern und festlegen, welche Becken Reef Buddy bekommen, und ein Becken entfernen oder wiederherstellen.
+description: Ein weiteres Becken hinzufügen, zwischen Becken wechseln, ihre Reihenfolge ändern, Reef Buddy je Becken festlegen und ein Becken entfernen oder wiederherstellen.
 section: Cora Mobile
-reviewed: 2026-10-18
+reviewed: 2026-10-24
 order: 4
 group: Getting started
 ---
@@ -15,7 +15,7 @@ Du kannst in jedem Abo so viele Becken haben, wie du willst. Dein Abo entscheide
 
 1. Geh zu **Einstellungen** und tippe unter deiner Beckenliste auf **Becken hinzufügen**.
 2. **Becken hinzufügen** öffnet das vollständige Beckenprofil. Gib dem Becken unter **Beckenname & -typ** einen Namen und füll aus, was du sonst noch weißt, etwa den Typ und das Wasservolumen unter **Beckenmaße**. Den Rest kannst du später erledigen. Siehe [Dein Beckenprofil](/help/mobile-tank-profile).
-3. Tippe auf **Becken speichern**.
+3. Tippe auf **Becken speichern**. Ist das Becken brandneu und fährt noch ein, schalte vorher unten im Formular **Das ist ein brandneues Becken, das ich einfahre** ein.
 4. Cora bietet dir den Schritt für den ersten Test an. Trag einen Test ein, stell eine wöchentliche Erinnerung ein oder tippe auf **Später**. Siehe [Die Karte für den ersten Test](/help/mobile-setup#the-first-test-card).
 
 Dann gib dem Becken seine Ausrüstung:
@@ -25,7 +25,7 @@ Dann gib dem Becken seine Ausrüstung:
 - Um das Becken auf Cora Max anzuzeigen, geh zu **Geräte**, öffne dein Cora Max und tippe unter **Zugewiesene Becken** auf **Becken hinzufügen**. Ein Cora Max zeigt bis zu 4 Becken.
 
 :::tip Fährt das neue Becken noch ein?
-Tippe auf seinem Dashboard auf **Startest du ein neues Becken?**, bevor du einen Test einträgst oder Ausrüstung verknüpfst. Die Karte erscheint nur bei einem Becken ganz ohne Messwerte. Mehr dazu unter [Geführte Journeys](/help/mobile-journeys).
+Du kannst das geführte Einfahren auch später starten: Tippe auf dem Dashboard des Beckens auf **Startest du ein neues Becken?** (die Karte erscheint, solange das Becken keine Messwerte hat) oder nutze dieselbe Karte oben im Profil des Beckens, das geht jederzeit. Mehr dazu unter [Geführte Journeys](/help/mobile-journeys).
 :::
 
 ## Zwischen Becken wechseln {#switching-between-tanks}

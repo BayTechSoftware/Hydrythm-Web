@@ -3,7 +3,7 @@ title: Il diario
 description: Scrivi o detta cosa hai fatto alla vasca, registra l'alimentazione e chiedi a Cora di una voce, così più avanti capisci cosa ha causato cosa.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 26
+order: 27
 group: Records
 twin: max-records
 ---

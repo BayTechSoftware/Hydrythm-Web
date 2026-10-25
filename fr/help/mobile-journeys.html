@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Parcours guidés | Cora Help</title>
+  <title>Parcours guidés | Aide Cora</title>
   <meta name="description" content="Lancez le parcours de cyclage guidé d’un nouvel aquarium, suivez-le jusqu’au bout, et réglez un problème de dinoflagellés étape par étape.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/fr/help/mobile-journeys">
@@ -16,7 +16,7 @@
   <link rel="alternate" hreflang="pl" href="https://coraiq.tech/pl/help/mobile-journeys">
   <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/mobile-journeys">
   <meta property="og:site_name" content="Cora">
-  <meta property="og:title" content="Parcours guidés | Cora Help">
+  <meta property="og:title" content="Parcours guidés | Aide Cora">
   <meta property="og:description" content="Lancez le parcours de cyclage guidé d’un nouvel aquarium, suivez-le jusqu’au bout, et réglez un problème de dinoflagellés étape par étape.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/fr/help/mobile-journeys">
@@ -209,7 +209,7 @@
 <h2 id="ecarter-un-parcours">Écarter un parcours</h2>
 <p>Si un parcours de problème n’est pas utile, écartez-le. Il cesse d’apparaître, et Cora enregistre ce choix pour proposer moins souvent des parcours semblables.</p>
       <nav class="pn" aria-label="Poursuivre la lecture"><a class="pn-p" href="/fr/help/mobile-icp-health"><span>Précédent</span><b>Rapports ICP et de santé</b></a><a class="pn-n" href="/fr/help/mobile-settings"><span>Suivant</span><b>Paramètres de Cora Mobile</b></a></nav>
-      <p class="stamp">Rédigé pour Cora Max 0.28.222 et Cora Mobile 1.4.3. Vérifié pour la dernière fois le 2026-10-22.</p>
+      <p class="stamp">Rédigé pour Cora Max 0.28.238 et Cora Mobile 1.4.14. Vérifié pour la dernière fois le 2026-10-22.</p>
       <p class="ask">Toujours bloqué ? Écrivez à <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, nous vous aiderons.</p>
     </article>
   </main>
@@ -600,7 +600,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/fr/help/search.json?v=f05beee199').then(function (r) { return r.json(); })
+    fetch('/fr/help/search.json?v=fac77358f2').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "fr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La recherche est indisponible. Utilisez la navigation." + '</li>';

@@ -3,7 +3,7 @@ title: Sorun bildirme
 description: Cora Mobile içinden hata bildirin ya da geri bildirim gönderin, rapora nelerin eklendiğini görün, çökme raporlarını açın ya da desteğe e-posta yazın.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 39
+order: 40
 group: Settings and account
 ---
 

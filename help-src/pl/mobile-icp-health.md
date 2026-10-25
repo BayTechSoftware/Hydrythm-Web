@@ -3,7 +3,7 @@ title: ICP i raporty zdrowia
 description: Prześlij PDF z testem ICP albo pozwól, żeby laboratorium go wysłało, przeczytaj ocenę, śledź każdy pierwiastek w czasie i uruchom Raport zdrowia całego systemu.
 section: Cora Mobile
 reviewed: 2026-10-17
-order: 33
+order: 34
 group: Intelligence
 twin: max-intelligence
 ---

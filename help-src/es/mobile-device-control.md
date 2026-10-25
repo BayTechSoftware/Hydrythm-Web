@@ -2,7 +2,7 @@
 title: Controlar tus equipos
 description: Abre la página de un dispositivo para ver su estado en directo y manejar tomas, bombas, cabezales de dosificación y analizadores, marca a marca.
 section: Cora Mobile
-reviewed: 2026-10-18
+reviewed: 2026-10-24
 order: 13
 group: Equipment
 twin: max-device-control
@@ -206,7 +206,7 @@ En **Controlador**, en la página del dispositivo, Cora muestra lo que informa e
 
 - el KH objetivo;
 - cuánto suplemento de alcalinidad queda, con el nivel de aviso que fijaste en el controlador (por ejemplo *bajo a 100 mL*);
-- cuántos mL hacen falta para 1 dKH (*mL por 1 dKH*);
+- cuántos mL hacen falta para 1 dKH (por ejemplo *48 mL por dosis de dKH*);
 - la dosis máxima por medición (*Hasta 20 mL por medición*);
 - la versión del firmware.
 

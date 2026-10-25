@@ -2,8 +2,8 @@
 title: Reef Buddy
 description: Il tuo briefing quotidiano di Reef Buddy, cosa contiene, quando arriva, come leggere i punteggi e perché un briefing potrebbe non arrivare.
 section: Cora Mobile
-reviewed: 2026-10-18
-order: 31
+reviewed: 2026-10-24
+order: 32
 group: Intelligence
 twin: max-intelligence
 ---
@@ -27,7 +27,7 @@ Un punteggio Dati basso vuol dire che Cora aveva meno letture di quante ne voles
 
 Poi c'è un riassunto, un breve paragrafo che spiega il titolo usando i tuoi valori e intervalli reali.
 
-Poi viene **Oggi in breve** e sotto ogni riscontro come una scheda: un'osservazione, una lettura che si è mossa o l'osservazione del giorno. Ogni scheda dice che cosa ha visto Cora, mostra i numeri e un piccolo grafico. Un riscontro che si ripete mostra *Ancora: ..., dal 12 ott*. Un chip in cima alla pagina mostra il tipo di vasca e quanto è completo il suo profilo. Entrambi influenzano ciò che Cora può concludere.
+Poi viene **Oggi in breve** e sotto ogni riscontro come una scheda: un'osservazione, una lettura che si è mossa o l'osservazione del giorno. Ogni scheda dice che cosa ha visto Cora, mostra i numeri e un piccolo grafico. Un riscontro che si ripete mostra *Ancora: ..., dal 12 ott*. Un chip accanto al titolo **Le scoperte di oggi** mostra il tipo di vasca e quanto è completo il suo profilo. Entrambi influenzano ciò che Cora può concludere.
 
 
 Cora filtra le osservazioni prima che arrivino a te. Un'osservazione deve reggere su più letture. Una sola non basta. Deve anche dirti qualcosa che un singolo grafico non mostrerebbe già.
@@ -106,10 +106,10 @@ Ogni scheda ha sotto una riga di feedback. La tua risposta influenza cosa compar
 |---|---|
 | **Utile** | Era giusta e utile |
 | **Non utile** | Giusta, ma non per te. Nasconde quel riscontro per 14 giorni |
-| **Lo sapevo già** | Giusta, ma lo sapevi. Lo nasconde per 7 giorni |
-| **Non corrisponde** | Non corrisponde a ciò che vedi. Lo nasconde per 14 giorni |
+| **Lo sapevo già** | Giusta, ma lo sapevi. Lo nasconde per 7 giorni, tranne su una lettura che si è mossa |
+| **Non corrisponde** | Non corrisponde a ciò che vedi. Lo nasconde per 14 giorni, tranne su una lettura che si è mossa |
 
-Su una lettura che si è mossa, **Non corrisponde** propone anche di escludere le letture sbagliate, così Cora smette di contarle. Nascondere dura solo un po'. Se il problema c'è ancora dopo, il riscontro torna.
+Su una lettura che si è mossa, solo **Non utile** nasconde la scheda (per 14 giorni). **Lo sapevo già** viene solo annotato e **Non corrisponde** non nasconde nulla: propone di escludere le letture sbagliate, così Cora smette di contarle. Nascondere dura solo un po'. Se il problema c'è ancora dopo, il riscontro torna.
 
 :::note I riscontri seri non vengono mai nascosti
 Gli avvisi e i riscontri critici continuano a comparire, qualunque cosa tu abbia risposto prima.

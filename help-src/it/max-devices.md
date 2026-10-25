@@ -1,6 +1,6 @@
 ---
 title: Dispositivi e salute dei dispositivi
-description: Guarda e rinomina l'attrezzatura che Cora Max legge, scegli quale Cora Max legge ogni vasca, sistema una vasca le cui letture si sono fermate e gestisci un Cora Max dal telefono.
+description: Guarda e rinomina l'attrezzatura che Cora Max legge, scegli quale Cora Max legge ogni vasca e sistema una vasca le cui letture si sono fermate.
 section: Cora Max
 reviewed: 2026-10-17
 order: 7

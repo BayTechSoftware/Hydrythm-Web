@@ -3,7 +3,7 @@ title: Fauna
 description: Añade los corales, peces e invertebrados de tu acuario y registra pérdidas, esquejes, ventas y traslados para ver patrones más adelante.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 29
+order: 30
 group: Records
 twin: max-records
 ---

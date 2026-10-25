@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Harmonogramy sprzętu | Cora Help</title>
-  <meta name="description" content="Ułóż program dnia dla pompy Jecod i skopiuj go na inne pompy.">
+  <title>Harmonogramy sprzętu | Pomoc Cora</title>
+  <meta name="description" content="Ułóż program dnia dla pompy Jecod, skopiuj go na inne pompy, zapisz i udostępnij oraz sprawdź, czy pompa go przyjęła.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/pl/help/mobile-schedules">
   <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/mobile-schedules">
@@ -16,8 +16,8 @@
   <link rel="alternate" hreflang="pl" href="https://coraiq.tech/pl/help/mobile-schedules">
   <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/mobile-schedules">
   <meta property="og:site_name" content="Cora">
-  <meta property="og:title" content="Harmonogramy sprzętu | Cora Help">
-  <meta property="og:description" content="Ułóż program dnia dla pompy Jecod i skopiuj go na inne pompy.">
+  <meta property="og:title" content="Harmonogramy sprzętu | Pomoc Cora">
+  <meta property="og:description" content="Ułóż program dnia dla pompy Jecod, skopiuj go na inne pompy, zapisz i udostępnij oraz sprawdź, czy pompa go przyjęła.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/pl/help/mobile-schedules">
   <meta property="og:image" content="https://coraiq.tech/og-image.png">
@@ -202,7 +202,7 @@
 <h2 id="czy-sie-zapisalo">Czy się zapisało</h2>
 <p>Po zapisaniu strona urządzenia pokazuje program, który realizuje pompa. Jeśli nie zgadza się z tym, co zapisano, zmiana nie dotarła. Sprawdź, czy urządzenie jest osiągalne, i spróbuj ponownie.</p>
       <nav class="pn" aria-label="Czytaj dalej"><a class="pn-p" href="/pl/help/mobile-device-control"><span>Poprzedni</span><b>Sterowanie sprzętem</b></a><a class="pn-n" href="/pl/help/mobile-probes"><span>Następny</span><b>Mapowanie parametrów i sondy</b></a></nav>
-      <p class="stamp">Napisano dla Cora Max 0.28.222 i Cora Mobile 1.4.3. Ostatnio sprawdzono 2026-10-17.</p>
+      <p class="stamp">Napisano dla Cora Max 0.28.238 i Cora Mobile 1.4.14. Ostatnio sprawdzono 2026-10-17.</p>
       <p class="ask">Wciąż masz problem? Napisz na <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, pomożemy.</p>
     </article>
   </main>
@@ -593,7 +593,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/pl/help/search.json?v=c5b79dad05').then(function (r) { return r.json(); })
+    fetch('/pl/help/search.json?v=aede854401').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "pl"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Wyszukiwanie jest niedost\u0119pne. U\u017cyj menu." + '</li>';

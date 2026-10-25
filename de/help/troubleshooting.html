@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Problembehebung | Cora Help</title>
-  <meta name="description" content="Einen veralteten Messwert, ein Gerät, das offline gegangen ist, einen Befehl, der nicht durchkam, ein Cora Max, das sich nicht koppeln lässt, oder eine Warnung, die nicht verschwindet, beheben.">
+  <title>Problembehebung | Cora Hilfe</title>
+  <meta name="description" content="Einen veralteten Messwert, ein Offline-Gerät, einen Befehl, der nicht durchkam, ein Cora Max, das sich nicht koppeln lässt, oder eine hartnäckige Warnung beheben.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/de/help/troubleshooting">
   <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/troubleshooting">
@@ -16,8 +16,8 @@
   <link rel="alternate" hreflang="pl" href="https://coraiq.tech/pl/help/troubleshooting">
   <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/troubleshooting">
   <meta property="og:site_name" content="Cora">
-  <meta property="og:title" content="Problembehebung | Cora Help">
-  <meta property="og:description" content="Einen veralteten Messwert, ein Gerät, das offline gegangen ist, einen Befehl, der nicht durchkam, ein Cora Max, das sich nicht koppeln lässt, oder eine Warnung, die nicht verschwindet, beheben.">
+  <meta property="og:title" content="Problembehebung | Cora Hilfe">
+  <meta property="og:description" content="Einen veralteten Messwert, ein Offline-Gerät, einen Befehl, der nicht durchkam, ein Cora Max, das sich nicht koppeln lässt, oder eine hartnäckige Warnung beheben.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/de/help/troubleshooting">
   <meta property="og:image" content="https://coraiq.tech/og-image.png">
@@ -257,6 +257,10 @@
 <ul><li>Prüf das WLAN unter <strong>Einstellungen → Cora Max-Einstellungen → WLAN</strong>.</li><li>Prüf, ob dein Netzwerk selbst funktioniert.</li><li>Steht in der Anzeige <strong>Online</strong> oder <strong>Cloud</strong> und sind die Daten trotzdem alt, liegt das Problem vor Cora Max. Prüf dasselbe Becken auf deinem Handy.</li></ul>
 <h3 id="cora-max-shows-apex-password">Cora Max zeigt "Apex-Passwort"</h3>
 <p>Dein Apex hat die Anmeldung abgelehnt, die Cora gespeichert hat, meist weil das Apex-Passwort geändert wurde. Öffne auf dem Handy <strong>Geräte</strong>, dann deinen Apex, und tippe unter <strong>Verbindung</strong> auf <strong>Verbindung bearbeiten</strong>, um das neue einzugeben.</p>
+<h3 id="the-apex-refused-this-login">"Der Apex hat diese Anmeldung abgelehnt"</h3>
+<p>Diese Meldung siehst du, wenn du beim Hinzufügen oder Bearbeiten eines Neptune Apex auf <strong>Weiter</strong> tippst. Cora hat die Anmeldung probiert, die du eingegeben hast (falls du ein Passwort eingetragen hast), danach die Werksanmeldung des Apex und zuletzt keine Anmeldung, und der Apex hat alle abgelehnt.</p>
+<ol><li>Tippe auf <strong>Abbrechen</strong>.</li><li>Prüfe Benutzernamen und Passwort, die am Apex eingerichtet sind, unter <strong>Network Setup</strong>, <strong>Login</strong>. Wenn dein Apex keine Anmeldung hat, lass beide Felder leer.</li><li>Gib sie erneut ein und tippe auf <strong>Weiter</strong>.</li></ol>
+<p><strong>Trotzdem speichern</strong> übernimmt deine Eingabe, ohne dass der Test bestanden ist. Nutze es nur, wenn du sicher bist, dass die Anmeldung stimmt. Änderst du die Anmeldung am Apex später, trage die neue ein, wie unter <a href="#cora-max-shows-apex-password">Cora Max zeigt "Apex-Passwort"</a> beschrieben.</p>
 <h3 id="cora-max-shows-cloud-save-refused">Cora Max zeigt "Cloud-Speichern abgelehnt"</h3>
 <p>Cora Cloud lehnt es ab, einen Teil der Daten dieses Bildschirms zu speichern. Mit deinem Becken und mit Cora Max ist alles in Ordnung, und auf dem Bildschirm musst du nichts ändern. Die Lösung ist ein Update von Cora Cloud.</p>
 <ol><li>Öffne <strong>Einstellungen → Cora Max-Einstellungen</strong> und scroll zu <strong>STATUS</strong>. Die Zeile <strong>Cloud-Speichern</strong> sagt, welche Daten abgelehnt werden, zum Beispiel die Messwerte oder Steckdosen eines Geräts.</li><li><a href="/support.html">Wende dich an den Support</a> und sag uns, was in dieser Zeile steht.</li></ol>
@@ -330,7 +334,7 @@
 <h2 id="still-stuck">Immer noch nicht gelöst</h2>
 <p>Schreib eine E-Mail an <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> oder melde es aus Cora Mobile heraus, wie unter <a href="/de/help/mobile-support">Ein Problem melden</a> beschrieben. Sag uns, welches Becken, welches Gerät, welcher Bildschirm und was du erwartet hast.</p>
       <nav class="pn" aria-label="Weiterlesen"><a class="pn-n" href="/de/help/how-do-i"><span>Weiter</span><b>Wie mache ich...?</b></a></nav>
-      <p class="stamp">Geschrieben für Cora Max 0.28.222 und Cora Mobile 1.4.3. Zuletzt geprüft am 2026-10-18.</p>
+      <p class="stamp">Geschrieben für Cora Max 0.28.238 und Cora Mobile 1.4.14. Zuletzt geprüft am 2026-10-24.</p>
       <p class="ask">Kommst du nicht weiter? Schreib eine E-Mail an <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, wir helfen dir.</p>
     </article>
   </main>
@@ -721,7 +725,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/de/help/search.json?v=8435023843').then(function (r) { return r.json(); })
+    fetch('/de/help/search.json?v=f36c594b9d').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "de"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Die Suche ist nicht verf\u00fcgbar. Nutze die Navigation." + '</li>';

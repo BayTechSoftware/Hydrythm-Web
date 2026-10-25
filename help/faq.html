@@ -182,7 +182,7 @@
 <h3 id="can-i-try-cora-before-i-sign-up">Can I try Cora before I sign up?</h3>
 <p>Yes. On the sign-in screen, tap <strong>Explore a demo reef</strong>. It's a sample tank, and you don't need an account. More in <a href="/help/mobile-setup">Setting up Cora Mobile</a>.</p>
 <h3 id="my-tank-is-still-cycling">My tank is still cycling. Can Cora help?</h3>
-<p>Yes. Tap <strong>Starting a new tank?</strong> on the dashboard to start the cycling journey. The card only shows on a tank with no readings yet, so do it before you log a test or link equipment. More in <a href="/help/mobile-journeys">Guided journeys</a>.</p>
+<p>Yes. Tap <strong>Starting a new tank?</strong> on the dashboard to start the cycling journey. The card shows while the tank has no readings. After that, use the same card at the top of the tank's profile. You can also turn on <strong>This is a brand-new tank I'm cycling</strong> when you add the tank. More in <a href="/help/mobile-journeys">Guided journeys</a>.</p>
 <h3 id="what-does-tank-profile-mean">What does "tank profile" mean, and why does it ask so many questions?</h3>
 <p>The tank profile describes your system: size, livestock, lighting, and how you dose and test. Cora uses your answers to set sensible starting ranges, and to make Reef Buddy and Cora Assistant talk about your tank instead of reefs in general. You can skip any section. More in <a href="/help/mobile-tank-profile">Your tank profile</a>.</p>
 <h3 id="how-long-does-setup-take">How long does setup take?</h3>
@@ -279,7 +279,7 @@
 <hr>
 <p>Still can't find your answer? <a href="/help/troubleshooting">Troubleshooting</a> goes through fixes symptom by symptom, or email <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/equipment-by-brand"><span>Previous</span><b>Equipment by brand</b></a><a class="pn-n" href="/help/glossary"><span>Next</span><b>Glossary</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.222 and Cora Mobile 1.4.3. Last checked 2026-10-18.</p>
+      <p class="stamp">Written for Cora Max 0.28.238 and Cora Mobile 1.4.14. Last checked 2026-10-24.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>
@@ -670,7 +670,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/help/search.json?v=b75054a183').then(function (r) { return r.json(); })
+    fetch('/help/search.json?v=5ca35b2a08').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "en"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';

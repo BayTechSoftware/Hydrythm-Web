@@ -1,6 +1,6 @@
 ---
 title: Consommables et alertes de réapprovisionnement
-description: Réglez des alertes de réapprovisionnement pour le réactif, les bidons de dosage, les réservoirs d’osmolateur et les rouleaux filtrants, et indiquez à Cora quand vous avez rempli.
+description: Réglez des alertes de réapprovisionnement pour le réactif, les bidons de dosage, l’osmolateur et les rouleaux filtrants, et indiquez à Cora quand vous avez rempli.
 section: Cora Mobile
 reviewed: 2026-10-13
 order: 16

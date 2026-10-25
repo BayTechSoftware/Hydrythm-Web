@@ -2,7 +2,7 @@
 title: Contrôler l’équipement depuis Cora Max
 description: Les pages d’appareils sur Cora Max pour Neptune Apex, Trident et DŌS, Red Sea ReefBeat, Jecod et AquaWiz, marque par marque.
 section: Cora Max
-reviewed: 2026-10-18
+reviewed: 2026-10-24
 order: 6
 group: Equipment
 twin: mobile-device-control

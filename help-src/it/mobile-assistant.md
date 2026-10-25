@@ -3,7 +3,7 @@ title: Fare domande a Cora
 description: Usa Cora Assistant scrivendo o parlando, scopri cosa vede, cosa può fare per te, l'interruttore di condivisione dei dati e la memoria.
 section: Cora Mobile
 reviewed: 2026-10-17
-order: 32
+order: 33
 group: Intelligence
 twin: max-voice
 ---

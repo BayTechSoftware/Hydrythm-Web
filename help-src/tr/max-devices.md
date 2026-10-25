@@ -1,6 +1,6 @@
 ---
 title: Cihazlar ve cihaz sağlığı
-description: Cora Max'in okuduğu ekipmanı görün ve adını değiştirin, her akvaryumu hangi Cora Max'in okuyacağını seçin, ölçümleri duran bir akvaryumu düzeltin ve bir Cora Max'i telefonunuzdan yönetin.
+description: Cora Max'in okuduğu ekipmanı görün ve adını değiştirin, her akvaryumu hangi Cora Max'in okuyacağını seçin ve ölçümleri duran bir akvaryumu düzeltin.
 section: Cora Max
 reviewed: 2026-10-17
 order: 7

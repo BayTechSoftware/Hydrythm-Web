@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Cora Mobile einrichten | Cora Help</title>
+  <title>Cora Mobile einrichten | Cora Hilfe</title>
   <meta name="description" content="Cora Mobile installieren, dein Konto anlegen, dein erstes Becken hinzufügen und die ersten Messwerte auf den Bildschirm bringen, Schritt für Schritt.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/de/help/mobile-setup">
@@ -16,7 +16,7 @@
   <link rel="alternate" hreflang="pl" href="https://coraiq.tech/pl/help/mobile-setup">
   <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/mobile-setup">
   <meta property="og:site_name" content="Cora">
-  <meta property="og:title" content="Cora Mobile einrichten | Cora Help">
+  <meta property="og:title" content="Cora Mobile einrichten | Cora Hilfe">
   <meta property="og:description" content="Cora Mobile installieren, dein Konto anlegen, dein erstes Becken hinzufügen und die ersten Messwerte auf den Bildschirm bringen, Schritt für Schritt.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/de/help/mobile-setup">
@@ -193,7 +193,7 @@
 <p>Nach der Anmeldung fragt <strong>Lerne dein Becken kennen</strong> drei Dinge. Nur der Name ist Pflicht, und du kannst alles später in deinem <a href="/de/help/mobile-tank-profile">Beckenprofil</a> ändern.</p>
 <ol><li><strong>Wie nennst du es?</strong> ist der Name, den du im Alltag benutzt, etwa "Hauptbecken", "Frag" oder "QT".</li><li><strong>Was für ein Becken ist es?</strong> ist <strong>SPS-Riff</strong>, <strong>LPS-Riff</strong>, <strong>Mischbecken</strong>, <strong>Weichkorallenriff</strong>, <strong>FOWLR</strong> oder <strong>Nur Fisch</strong>. Der Typ legt deine Start-Warnbereiche fest. Bist du unsicher, wähl <strong>Mischbecken</strong>.</li><li><strong>Wie viel Wasser?</strong> ist das echte Wasservolumen, mit Technikbecken. Die Dosierberechnung nutzt diese Zahl, sie sollte also ungefähr stimmen. Kennst du nur die Größe des Beckens, tippe auf <strong>Volumen unbekannt? Maße eingeben</strong>, und Cora rechnet es aus.</li></ol>
 <p>Tippe auf <strong>Mein Becken erstellen</strong>.</p>
-<aside class="cal cal-note"><p class="cal-t">Fährt dein Becken noch ein?</p><p>Tippe auf dem Dashboard auf <strong>Startest du ein neues Becken?</strong>, <strong>bevor</strong> du einen Test einträgst oder Ausrüstung verknüpfst. Diese Karte erscheint nur bei einem Becken ganz ohne Messwerte, und mit ihr schaltest du das geführte Einfahren ein. Mehr dazu unter <a href="/de/help/mobile-journeys">Geführte Journeys</a>.</p>
+<aside class="cal cal-note"><p class="cal-t">Fährt dein Becken noch ein?</p><p>Tippe auf dem Dashboard auf <strong>Startest du ein neues Becken?</strong> Diese Karte erscheint, solange das Becken keine Messwerte hat. Hast du schon einen Test eingetragen, öffne das Profil des Beckens und tippe oben auf dieselbe Karte, das geht jederzeit. Mehr dazu unter <a href="/de/help/mobile-journeys">Geführte Journeys</a>.</p>
 <p>Cora beurteilt Messwerte außerdem danach, was für ein Becken dieses Alters normal ist. Der Assistent fragt nicht danach, stell also das <strong>Startdatum des Beckens</strong> in deinem Beckenprofil unter <strong>Beckenmaße</strong> ein.</p></aside>
 <h2 id="your-tank-is-live">"Dein Becken ist live"</h2>
 <p>Als Nächstes siehst du den Namen deines Beckens mit <strong>ist live</strong>, zum Beispiel <strong>"Hauptbecken" ist live</strong>. Es bietet vier nächste Schritte an. Wähl einen davon oder keinen.</p>
@@ -220,7 +220,7 @@
 <p>Du bist eingerichtet, wenn das Dashboard oben deinen Beckennamen zeigt und ein paar Widgets mit Zahlen darin. Eine <strong>Reef Buddy</strong>-Karte folgt, sobald das erste Briefing über Nacht gelaufen ist.</p>
 <p>Schau dir als Nächstes <a href="/de/help/mobile-tour">So findest du dich zurecht</a> an. Um ein zweites Becken hinzuzufügen, siehe <a href="/de/help/mobile-tanks">Deine Becken verwalten</a>.</p>
       <nav class="pn" aria-label="Weiterlesen"><a class="pn-n" href="/de/help/mobile-tour"><span>Weiter</span><b>So findest du dich in Cora Mobile zurecht</b></a></nav>
-      <p class="stamp">Geschrieben für Cora Max 0.28.222 und Cora Mobile 1.4.3. Zuletzt geprüft am 2026-10-18.</p>
+      <p class="stamp">Geschrieben für Cora Max 0.28.238 und Cora Mobile 1.4.14. Zuletzt geprüft am 2026-10-24.</p>
       <p class="ask">Kommst du nicht weiter? Schreib eine E-Mail an <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, wir helfen dir.</p>
     </article>
   </main>
@@ -611,7 +611,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/de/help/search.json?v=8435023843').then(function (r) { return r.json(); })
+    fetch('/de/help/search.json?v=f36c594b9d').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "de"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Die Suche ist nicht verf\u00fcgbar. Nutze die Navigation." + '</li>';

@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Configurare Cora Mobile | Cora Help</title>
+  <title>Configurare Cora Mobile | Aiuto Cora</title>
   <meta name="description" content="Installa Cora Mobile, crea il tuo account, aggiungi la prima vasca e porta sullo schermo le prime letture, passo dopo passo.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/it/help/mobile-setup">
@@ -16,7 +16,7 @@
   <link rel="alternate" hreflang="pl" href="https://coraiq.tech/pl/help/mobile-setup">
   <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/mobile-setup">
   <meta property="og:site_name" content="Cora">
-  <meta property="og:title" content="Configurare Cora Mobile | Cora Help">
+  <meta property="og:title" content="Configurare Cora Mobile | Aiuto Cora">
   <meta property="og:description" content="Installa Cora Mobile, crea il tuo account, aggiungi la prima vasca e porta sullo schermo le prime letture, passo dopo passo.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/it/help/mobile-setup">
@@ -193,7 +193,7 @@
 <p>Dopo l'accesso, <strong>Facciamo conoscenza con la tua vasca</strong> ti chiede tre cose. Solo il nome è obbligatorio, e puoi cambiare tutto più avanti nel <a href="/it/help/mobile-tank-profile">profilo della vasca</a>.</p>
 <ol><li><strong>Come la chiami?</strong> è il nome che usi tutti i giorni, come "Display", "Frag" o "QT".</li><li><strong>Che tipo di vasca è?</strong> è <strong>Reef SPS</strong>, <strong>Reef LPS</strong>, <strong>Reef misto</strong>, <strong>Reef a coralli molli</strong>, <strong>FOWLR</strong> o <strong>Solo pesci</strong>. Il tipo imposta i tuoi intervalli di avviso iniziali. Se non sei sicuro, scegli <strong>Reef misto</strong>.</li><li><strong>Quanta acqua?</strong> è il volume d'acqua reale, sump compresa. I calcoli di dosaggio usano questo numero, quindi cerca di inserirlo più o meno giusto. Se conosci solo le dimensioni della vasca, tocca <strong>Non conosci il volume? Inserisci le dimensioni</strong> e Cora lo calcola.</li></ol>
 <p>Tocca <strong>Crea la mia vasca</strong>.</p>
-<aside class="cal cal-note"><p class="cal-t">La vasca sta ancora facendo il ciclo?</p><p>Tocca <strong>Stai avviando una nuova vasca?</strong> sulla dashboard <strong>prima</strong> di registrare un test o collegare attrezzatura. Quella scheda compare solo su una vasca senza nessuna lettura, ed è il modo per attivare la maturazione guidata. Di più in <a href="/it/help/mobile-journeys">Percorsi guidati</a>.</p>
+<aside class="cal cal-note"><p class="cal-t">La vasca sta ancora facendo il ciclo?</p><p>Tocca <strong>Stai avviando una nuova vasca?</strong> sulla dashboard. Quella scheda compare finché la vasca non ha letture. Se hai già registrato un test, apri il profilo della vasca e tocca la stessa scheda in alto: funziona in qualsiasi momento. Di più in <a href="/it/help/mobile-journeys">Percorsi guidati</a>.</p>
 <p>Cora valuta anche le letture rispetto a quello che è normale per una vasca di quell'età. La procedura guidata non la chiede, quindi imposta la <strong>Data di avvio della vasca</strong> nel profilo della vasca, in <strong>Dimensioni vasca</strong>.</p></aside>
 <h2 id="your-tank-is-live">"La tua vasca è attiva"</h2>
 <p>Poi vedi il nome della tua vasca seguito da <strong>è attiva</strong>, per esempio <strong>"Display" è attiva</strong>. Ti propone quattro passi successivi. Scegline uno qualsiasi, o nessuno.</p>
@@ -220,7 +220,7 @@
 <p>La configurazione è fatta quando la Dashboard mostra il nome della vasca in alto e qualche widget con dei numeri. Una scheda <strong>Reef Buddy</strong> arriva dopo che il primo briefing è stato preparato durante la notte.</p>
 <p>Poi dai un'occhiata a <a href="/it/help/mobile-tour">Orientarsi in Cora Mobile</a>. Per aggiungere una seconda vasca, vedi <a href="/it/help/mobile-tanks">Gestire le tue vasche</a>.</p>
       <nav class="pn" aria-label="Continua a leggere"><a class="pn-n" href="/it/help/mobile-tour"><span>Successivo</span><b>Orientarsi in Cora Mobile</b></a></nav>
-      <p class="stamp">Scritto per Cora Max 0.28.222 e Cora Mobile 1.4.3. Ultimo controllo il 2026-10-18.</p>
+      <p class="stamp">Scritto per Cora Max 0.28.238 e Cora Mobile 1.4.14. Ultimo controllo il 2026-10-24.</p>
       <p class="ask">Ancora bloccato? Scrivi a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, ti aiutiamo.</p>
     </article>
   </main>
@@ -611,7 +611,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/it/help/search.json?v=c9e910d07b').then(function (r) { return r.json(); })
+    fetch('/it/help/search.json?v=251de7c448').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "it"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La ricerca non \u00e8 disponibile. Usa la navigazione." + '</li>';

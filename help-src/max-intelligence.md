@@ -2,7 +2,7 @@
 title: Reef Buddy and reports
 description: The morning Reef Buddy briefing on Cora Max, giving feedback on insights, recording probe care, ICP results, health reports and history charts.
 section: Cora Max
-reviewed: 2026-10-13
+reviewed: 2026-10-24
 order: 12
 group: Intelligence
 twin: mobile-reef-buddy
@@ -31,7 +31,7 @@ After you log a test or add an ICP result, the screen shows **New readings since
 Tap a card in the list to open it on the right.
 
 - **Why am I seeing this?** shows the readings, target and journal entries it's based on.
-- The feedback row under every card: **Valuable**, **Not useful**, **Already knew** or **Doesn't match**. **Not useful** and **Doesn't match** hide that finding for 14 days, **Already knew** for 7. Warnings and critical findings are never hidden. On a reading that moved, **Doesn't match** offers to exclude the wrong readings. Cora uses your answers to learn your tank.
+- The feedback row under every card: **Valuable**, **Not useful**, **Already knew** or **Doesn't match**. On an insight, **Not useful** and **Doesn't match** hide the finding for 14 days and **Already knew** for 7. On a reading that moved, only **Not useful** hides it (14 days), and **Doesn't match** offers to exclude the wrong readings. Warnings and critical findings are never hidden. Cora uses your answers to learn your tank.
 
 When Cora doubts a reading, it shows it under **Worth a check**, for example a probe that may be drifting. There you can:
 

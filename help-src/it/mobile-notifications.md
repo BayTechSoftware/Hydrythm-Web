@@ -3,7 +3,7 @@ title: Notifiche
 description: Scegli quali notifiche arrivano sul telefono, tieni tranquille le notti, leggi quello che ti sei perso nella campanella e risolvi le notifiche che non arrivano.
 section: Cora Mobile
 reviewed: 2026-10-13
-order: 23
+order: 24
 group: Alerts and automation
 ---
 

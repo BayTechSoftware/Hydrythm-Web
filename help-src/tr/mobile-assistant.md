@@ -3,7 +3,7 @@ title: Cora'ya sorun
 description: Cora Assistant'ı yazarak ya da konuşarak kullanın; neleri görebildiğini, sizin için neler yapabildiğini, veri paylaşım anahtarını ve hafızayı öğrenin.
 section: Cora Mobile
 reviewed: 2026-10-17
-order: 32
+order: 33
 group: Intelligence
 twin: max-voice
 ---

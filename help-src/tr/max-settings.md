@@ -1,6 +1,6 @@
 ---
 title: Cora Max ayarları
-description: Yeniden adlandırma, parlaklık, gece karartması, hoparlör ve uyandırma sözcüğünden çocuk kilidine, dile, Wi-Fi'a, yeniden eşleştirmeye ve fabrika ayarlarına sıfırlamaya kadar her Cora Max ayarı.
+description: Yeniden adlandırma, parlaklık, gece karartması ve uyandırma sözcüğünden çocuk kilidine, dile, Wi-Fi'a ve fabrika ayarlarına sıfırlamaya kadar her Cora Max ayarı.
 section: Cora Max
 reviewed: 2026-10-18
 order: 14
