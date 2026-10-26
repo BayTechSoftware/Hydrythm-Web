@@ -18,7 +18,7 @@ La tarjeta de arriba muestra con qué cuenta has iniciado sesión y qué plan ti
 
 - **Nombre para mostrar** es cómo te llama Cora Mobile.
 - **Correos de laboratorio e ICP** te deja añadir hasta 3 direcciones de correo más que tu laboratorio puede usar para llegar a tu cuenta. Consulta [ICP e informes de salud](/help/mobile-icp-health#which-email-a-lab-can-use).
-- **Suscripción** muestra tu plan y cuándo se renueva, con **Ver planes**, **Mejorar plan** o **Mejorar a Max**, y después **Gestionar suscripción** y **Restaurar compras**. En Android también está **Canjear código**. Todo se explica en [Planes y suscripciones](/help/mobile-plans).
+- **Suscripción** muestra tu plan y cuándo se renueva, con **Ver planes**, **Mejorar plan** o **Mejorar a Expert**, y después **Gestionar suscripción** y **Restaurar compras**. En Android también está **Canjear código**. Todo se explica en [Planes y suscripciones](/help/mobile-plans).
 - **Cerrar sesión**
 - **Exportar mis datos** te da tus lecturas, entradas del diario y alertas en archivos, gratis en todos los planes. Consulta [Exportar tus datos](/help/mobile-data-export).
 - **Eliminar cuenta** es permanente. Lee las dos notas de [Tus datos y tu privacidad](#your-data-and-privacy) antes de usarlo.

@@ -19,7 +19,7 @@ Nie musisz nic robić, żeby mieć aktualną wersję.
 
 ![Sieć i aktualizacje na Cora Max](img/max-updates.webp "Aktualizacja oprogramowania w sekcji SIEĆ I AKTUALIZACJE w Ustawieniach Cora Max.")
 
-Twoja wersja jest na karcie na górze **Ustawienia → Ustawienia Cora Max** (*Cora Max · oprogramowanie 0.28.170*) oraz w **POMOC I O APLIKACJI → O aplikacji**.
+Twoja wersja jest na karcie na górze **Ustawienia → Ustawienia Cora Max** (*Cora Max · oprogramowanie 0.28.x*) oraz w **POMOC I O APLIKACJI → O aplikacji**.
 
 **Ustawienia → Ustawienia Cora Max → Aktualizacja oprogramowania** (w **SIEĆ I AKTUALIZACJE**) pokazuje Twoją wersję i to, czy czeka aktualizacja. Dotknij **Sprawdź aktualizacje**, żeby sprawdzić teraz, albo **Pobierz i zainstaluj**, gdy jakaś jest.
 

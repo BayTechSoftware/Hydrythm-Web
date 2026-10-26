@@ -131,7 +131,7 @@
 <summary>Primeros pasos</summary><ul>
 <li><a href="/es/help/max-setup">Configurar Cora Max</a></li>
 <li><a href="/es/help/max-tour">La pantalla de inicio de Cora Max</a></li>
-<li><a href="/es/help/max-reef-room">El cuarto de los acuarios</a></li>
+<li><a href="/es/help/max-reef-room">La sala del arrecife</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Tu panel</summary><ul>
@@ -178,7 +178,7 @@
 <p>No tienes que hacer nada para estar al día.</p>
 <h2 id="checking-the-version-and-update-settings">Ver la versión y los ajustes de actualización</h2>
 <figure class="shot"><button type="button" class="zoom" aria-label="Ampliar: Red y actualizaciones en Cora Max"><img src="/help/img/max-updates.webp" alt="Red y actualizaciones en Cora Max" width="1280" height="800" loading="lazy" decoding="async"></button><figcaption>Actualización de firmware, en la sección RED Y ACTUALIZACIONES de Ajustes de Cora Max.</figcaption></figure>
-<p>Tu versión está en la tarjeta de arriba de <strong>Ajustes → Ajustes de Cora Max</strong> (<em>Cora Max · firmware 0.28.170</em>), y en <strong>AYUDA Y ACERCA DE → Acerca de</strong>.</p>
+<p>Tu versión está en la tarjeta de arriba de <strong>Ajustes → Ajustes de Cora Max</strong> (<em>Cora Max · firmware 0.28.x</em>), y en <strong>AYUDA Y ACERCA DE → Acerca de</strong>.</p>
 <p><strong>Ajustes → Ajustes de Cora Max → Actualización de firmware</strong> (en <strong>RED Y ACTUALIZACIONES</strong>) muestra la versión que tienes y si hay una actualización esperando. Toca <strong>Buscar actualizaciones</strong> para mirar ahora, o <strong>Descargar e instalar</strong> cuando haya una.</p>
 <p>En <strong>Ajustes de actualización</strong>, en la misma pantalla:</p>
 <ul><li><strong>Ventana de instalación</strong> fija las horas en que se pueden instalar las actualizaciones, con una hora de <strong>Inicio</strong> y de <strong>Fin</strong>, en la hora local de esta pantalla. La zona horaria se fija en Cora Mobile, en <strong>Dispositivos →</strong> tu Cora Max <strong>→ Zona horaria</strong>.</li></ul>
@@ -208,7 +208,7 @@
 <h2 id="si-una-unidad-no-se-reinicia">Si una unidad no se reinicia</h2>
 <p>Escribe a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> con la versión que aparece en pantalla y el mensaje que muestra. No la vuelvas a emparejar antes. El estado del emparejamiento suele ayudar a saber qué pasó.</p>
       <nav class="pn" aria-label="Seguir leyendo"><a class="pn-p" href="/es/help/max-settings"><span>Anterior</span><b>Ajustes de Cora Max</b></a></nav>
-      <p class="stamp">Escrito para Cora Max 0.28.238 y Cora Mobile 1.4.14. Última revisión el 2026-10-17.</p>
+      <p class="stamp">Escrito para Cora Max 0.28.240 y Cora Mobile 1.4.16. Última revisión el 2026-10-17.</p>
       <p class="ask">¿Sigues atascado? Escribe a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> y te ayudamos.</p>
     </article>
   </main>
@@ -599,7 +599,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/es/help/search.json?v=9384433ffe').then(function (r) { return r.json(); })
+    fetch('/es/help/search.json?v=1d5700fe42').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "es"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La b\u00fasqueda no est\u00e1 disponible. Usa la navegaci\u00f3n." + '</li>';

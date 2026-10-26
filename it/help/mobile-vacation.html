@@ -176,9 +176,9 @@
 <p>Vai in Impostazioni → la tua vasca → <strong>Modalità vacanza</strong>. Se hai più di una vasca, scegli la vasca in alto. Ogni vasca ha il suo piano.</p>
 <figure class="shot phone"><button type="button" class="zoom" aria-label="Ingrandisci: La modalità vacanza in Cora Mobile"><img src="/help/img/mobile-vacation.webp" alt="La modalità vacanza in Cora Mobile" width="620" height="1347" loading="lazy" decoding="async"></button><figcaption>La vasca, un promemoria che gli avvisi arrivano comunque a te, le date del viaggio e poi la lista di controllo per chi si occupa della vasca.</figcaption></figure>
 <h2 id="setting-it-up">Prepararla</h2>
-<ol><li>In <strong>Quando sarai via?</strong>, tocca <strong>Scegli le tue date di viaggio</strong>.</li><li>Prepara la <strong>Lista di controllo per chi si occupa della vasca</strong>. Le attività di manutenzione che scadono mentre sei via ti vengono proposte, ognuna con la sua frequenza. Tocca un suggerimento per aggiungerlo, per esempio <strong>Alimenta la vasca</strong>, <strong>Controlla il serbatoio ATO</strong>, <strong>Vuota la coppetta dello schiumatoio</strong> o <strong>Chiamami se qualcosa non va</strong>. Per aggiungere un lavoro tuo, scrivilo in <strong>Aggiungi la tua attività…</strong> e tocca <strong>Aggiungi attività</strong>.</li><li>In <strong>Note e contatto</strong>, scrivi le <strong>Note per chi si occupa della vasca</strong> e, in <strong>Se qualcosa non va</strong>, come rintracciarti.</li><li>Tocca <strong>Avvia modalità vacanza</strong>.</li></ol>
+<ol><li>In <strong>Quando sarai via?</strong>, tocca <strong>Scegli le tue date di viaggio</strong>.</li><li>Prepara la <strong>Lista di controllo per chi si occupa della vasca</strong>. Le attività di manutenzione che scadono mentre sei via ti vengono proposte, ognuna con la sua frequenza. Tocca un suggerimento per aggiungerlo, per esempio <strong>Alimenta la vasca</strong>, <strong>Controlla il serbatoio ATO</strong>, <strong>Vuota il bicchiere dello schiumatoio</strong> o <strong>Chiamami se qualcosa non va</strong>. Per aggiungere un lavoro tuo, scrivilo in <strong>Aggiungi la tua attività…</strong> e tocca <strong>Aggiungi attività</strong>.</li><li>In <strong>Note e contatto</strong>, scrivi le <strong>Note per chi si occupa della vasca</strong> e, in <strong>Se qualcosa non va</strong>, come rintracciarti.</li><li>Tocca <strong>Avvia modalità vacanza</strong>.</li></ol>
 <p>Ogni lavoro mostra ogni quanto va fatto, per esempio <strong>Giornaliero</strong>, <strong>Ogni 3 giorni</strong>, <strong>Una volta</strong> o <strong>Sempre</strong> (un'istruzione valida per tutto il periodo). Cora lo ricava dall'attività di manutenzione o dal suggerimento. Un lavoro che scrivi tu non ha etichetta, quindi metti la frequenza nel testo.</p>
-<p>Scrivi la lista pensando a una persona che non conosce le vasche marine. Indica quantità e modi in modo preciso. "Un cubetto di surgelato, scongelato, una volta al giorno" è molto più chiaro di "dai da mangiare come al solito".</p>
+<p>Scrivi la lista pensando a una persona che non conosce le vasche marine. Indica quantità e modi in modo preciso. "Dai un cubetto di cibo surgelato, scongelato, una volta al giorno" è molto più chiaro di "dai da mangiare come al solito".</p>
 <aside class="cal cal-note"><p class="cal-t">Scrivi cosa non va toccato</p><p>Aggiungi un lavoro per ogni attrezzatura che non va toccata, per esempio "Non cambiare niente sul controller". Scrivilo anche nelle note.</p></aside>
 <h2 id="sharing">Condividerla con chi si occupa della vasca</h2>
 <p>Tocca <strong>Crea link per chi si occupa della vasca</strong>. Cora crea una pagina web in sola lettura con la lista di controllo, le tue note e le letture della vasca in tempo reale. A chi ti sostituisce non serve Cora Mobile né un account. Tocca <strong>Condividi</strong> per inviarla, oppure <strong>Copia</strong> il link.</p>
@@ -191,7 +191,7 @@
 <h2 id="coming-back">Al ritorno</h2>
 <p>Tocca <strong>Termina modalità vacanza</strong> e conferma con <strong>Terminala</strong>. Il link per chi si occupa della vasca smette subito di funzionare. La lista di controllo resta salvata per la prossima volta.</p>
       <nav class="pn" aria-label="Continua a leggere"><a class="pn-p" href="/it/help/mobile-automation"><span>Precedente</span><b>Automazioni e scene</b></a><a class="pn-n" href="/it/help/mobile-journal"><span>Successivo</span><b>Il diario</b></a></nav>
-      <p class="stamp">Scritto per Cora Max 0.28.238 e Cora Mobile 1.4.14. Ultimo controllo il 2026-10-13.</p>
+      <p class="stamp">Scritto per Cora Max 0.28.240 e Cora Mobile 1.4.16. Ultimo controllo il 2026-10-13.</p>
       <p class="ask">Ancora bloccato? Scrivi a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, ti aiutiamo.</p>
     </article>
   </main>
@@ -582,7 +582,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/it/help/search.json?v=251de7c448').then(function (r) { return r.json(); })
+    fetch('/it/help/search.json?v=6ecfe81ff8').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "it"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La ricerca non \u00e8 disponibile. Usa la navigazione." + '</li>';

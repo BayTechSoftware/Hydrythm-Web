@@ -25,7 +25,7 @@ Scegli prima la dimensione della griglia. Cambiarla dopo sposta tutti i riquadri
 | Griglia | Riquadri | Come risulta |
 |---|---|---|
 | 2×2, 3×2, 3×3 | 4–9 | Grande. Facile da leggere dall'altra parte della stanza. |
-| 4×4, 5×3, 6×4 | 16–24 | La scelta abituale per un impianto completo. |
+| 4×4, 5×3, 6×4 | 15–24 | La scelta abituale per un impianto completo. |
 | 6×5, 8×4, 8×5 | 30–40 | Fitta. Un'intera stanza dell'acquario in una schermata. |
 | 9×5, 10×5 | 45–50 | Molto fitta. Rende meglio sugli schermi più grandi. |
 | **Auto** | fino a 32 | Cora sceglie una forma adatta a quanti riquadri hai aggiunto. |

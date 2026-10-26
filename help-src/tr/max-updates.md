@@ -19,7 +19,7 @@ Güncel kalmak için bir şey yapmanız gerekmez.
 
 ![Cora Max'te ağ ve güncellemeler](img/max-updates.webp "Yazılım Güncellemesi, Cora Max Ayarları'nın AĞ VE GÜNCELLEMELER bölümünde.")
 
-Sürümünüz **Ayarlar → Cora Max Ayarları** ekranının en üstündeki kartta (*Cora Max · yazılım 0.28.170*) ve **YARDIM VE HAKKINDA → Hakkında** altında yazar.
+Sürümünüz **Ayarlar → Cora Max Ayarları** ekranının en üstündeki kartta (*Cora Max · yazılım 0.28.x*) ve **YARDIM VE HAKKINDA → Hakkında** altında yazar.
 
 **Ayarlar → Cora Max Ayarları → Yazılım Güncellemesi** (**AĞ VE GÜNCELLEMELER** içinde), kullandığınız sürümü ve bekleyen bir güncelleme olup olmadığını gösterir. Hemen bakmak için **Güncellemeleri kontrol et**'e, bir güncelleme varsa **İndir ve yükle**'ye dokunun.
 
@@ -57,7 +57,7 @@ Kurtarma, Cora Max normal açılmadığında ya da kurulumunu dizüstü bilgisay
 
 PIN'i Cora Max'i eşleştirdiğinizde görmüştünüz. Onu Cora Mobile'da **Cihazlar →** Cora Max'iniz **→ Kurtarma PIN'i** altında da bulursunuz. Cora Max'in kendisi onu hiçbir zaman göstermez, böylece bir misafir ya da ekrana yaslanan bir çocuk kurtarmaya giremez.
 
-PIN'i üç kez yanlış yazarsanız kurtarma 30 saniye, sonraki her yanlış denemede daha uzun süre kilitlenir. **Çok fazla deneme yapıldı** ne kadar beklemeniz gerektiğini söyler. Cora Max eşleştirmeden beri hiç çevrimiçi olmadıysa henüz bir PIN'i yoktur ve **Kurtarma kullanılamıyor** gösterir. Önce onu Wi-Fi'a bağlayın.
+PIN'i üç kez yanlış yazarsanız kurtarma 30 saniye, sonraki her yanlış denemede daha uzun süre kilitlenir. **Çok fazla deneme yapıldı** ne kadar beklemeniz gerektiğini söyler. Cora Max eşleştirmeden beri hiç çevrimiçi olmadıysa henüz bir PIN'i yoktur ve **Kurtarma kullanılamıyor** gösterir. Önce onu Wi-Fi'ye bağlayın.
 
 **Kurtarma** ekranından şunları yapabilirsiniz:
 

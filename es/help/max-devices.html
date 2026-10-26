@@ -131,7 +131,7 @@
 <summary>Primeros pasos</summary><ul>
 <li><a href="/es/help/max-setup">Configurar Cora Max</a></li>
 <li><a href="/es/help/max-tour">La pantalla de inicio de Cora Max</a></li>
-<li><a href="/es/help/max-reef-room">El cuarto de los acuarios</a></li>
+<li><a href="/es/help/max-reef-room">La sala del arrecife</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Tu panel</summary><ul>
@@ -192,7 +192,7 @@
 <aside class="cal cal-note"><p class="cal-t">Cora Max principal y el dispositivo que responde son dos ajustes distintos</p><p>Cora Max principal decide qué dispositivo <strong>lee tus equipos</strong>. El <strong>Dispositivo que responde</strong> en Cora Mobile decide cuál <strong>responde a "Hey Cora"</strong>. Si tienes más de un Cora Max, puedes configurarlos por separado. Más información en <a href="/es/help/max-voice">Hablar con Cora</a>.</p></aside>
 <h2 id="if-a-tanks-readings-stop">Si las lecturas de un acuario se detienen</h2>
 <p>Si las lecturas de un acuario se detienen mientras otro acuario de la misma pantalla se sigue actualizando, empieza por aquí.</p>
-<ol><li>Abre <strong>Ajustes → [ese acuario] → Cora Max principal</strong>. Comprueba que hay un dispositivo asignado y que está en línea.</li><li>Si otro Cora Max de este acuario muestra <strong>Cora principal sin conexión</strong> en su barra superior, el principal ha perdido la conexión. Qué significa la etiqueta de estado se explica en <a href="/es/help/max-tour#what-the-status-pill-means">La pantalla de inicio de Cora Max</a>.</li><li><strong>Ajustes → Ajustes de Cora Max → Red y actualizaciones → Sondeo de dispositivos</strong> muestra cada cuánto lee este Cora Max tus dispositivos. Aquí solo puedes verlo. Se configura desde Cora Mobile.</li><li>Revisa la sección <strong>Estado</strong> de <strong>Ajustes → Ajustes de Cora Max</strong>. Muestra el estado de consulta, la hora de la última consulta y la última escritura en la nube de cada acuario, sin cambiar nada.</li></ol>
+<ol><li>Abre <strong>Ajustes → [ese acuario] → Cora Max principal</strong>. Comprueba que hay un dispositivo asignado y que está en línea.</li><li>Si otro Cora Max de este acuario muestra <strong>Cora principal sin conexión</strong> en su barra superior, el principal ha perdido la conexión. Qué significa la etiqueta de estado se explica en <a href="/es/help/max-tour#what-the-status-pill-means">La pantalla de inicio de Cora Max</a>.</li><li><strong>Ajustes → Ajustes de Cora Max → RED Y ACTUALIZACIONES → Sondeo de dispositivos</strong> muestra cada cuánto lee este Cora Max tus dispositivos. Aquí solo puedes verlo. Se configura desde Cora Mobile.</li><li>Revisa la sección <strong>Estado</strong> de <strong>Ajustes → Ajustes de Cora Max</strong>. Muestra el estado de consulta, la hora de la última consulta y la última escritura en la nube de cada acuario, sin cambiar nada.</li></ol>
 <p>Si eso no ayuda, echa un vistazo a <a href="/es/help/troubleshooting">Solución de problemas</a>.</p>
 <h2 id="managing-a-cora-max-from-your-phone">Gestionar un Cora Max desde tu teléfono</h2>
 <p>Abre la pestaña <strong>Dispositivos</strong> en tu teléfono y toca el Cora Max. La tarjeta de arriba muestra su variante, su firmware y cuándo se vio por última vez. Desde ahí puedes cambiarle el nombre y, cuando hay una versión nueva, tocar <strong>Actualizar a v…</strong> para instalarla ahora. La tarjeta <strong>PIN de recuperación</strong> está justo debajo.</p>
@@ -202,7 +202,7 @@
 <p>En <strong>Acuarios</strong>, cada acuario que muestra este Cora Max tiene una tarjeta con <strong>Diseño del panel</strong>, <strong>Editar acuario</strong> y su dispositivo de consulta. <strong>Agregar acuario</strong> y el icono de quitar cambian qué acuarios muestra, y esos cambios se aplican a toda la cuenta. Solo puedes hacerlos en tu teléfono. Los pasos están en <a href="/es/help/max-setup#changing-which-tanks-it-shows">Configurar Cora Max</a>. Qué dispositivo es el Cora Max principal de un acuario se puede cambiar desde tu teléfono o desde Cora Max.</p>
 <p>En <strong>Restablecer</strong>, <strong>Restablecer pantalla</strong> devuelve la pantalla a su pantalla de emparejamiento. Se queda en tu Wi-Fi, así que puedes volver a emparejarla por Bluetooth, y los datos de tu acuario se conservan. <strong>Quitar dispositivo</strong> la quita de tu cuenta. Las lecturas de tu acuario se conservan, y puedes volver a emparejarla más adelante.</p>
       <nav class="pn" aria-label="Seguir leyendo"><a class="pn-p" href="/es/help/max-device-control"><span>Anterior</span><b>Controlar equipos desde Cora Max</b></a><a class="pn-n" href="/es/help/max-alerts"><span>Siguiente</span><b>Alertas en Cora Max</b></a></nav>
-      <p class="stamp">Escrito para Cora Max 0.28.238 y Cora Mobile 1.4.14. Última revisión el 2026-10-17.</p>
+      <p class="stamp">Escrito para Cora Max 0.28.240 y Cora Mobile 1.4.16. Última revisión el 2026-10-17.</p>
       <p class="ask">¿Sigues atascado? Escribe a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> y te ayudamos.</p>
     </article>
   </main>
@@ -593,7 +593,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/es/help/search.json?v=9384433ffe').then(function (r) { return r.json(); })
+    fetch('/es/help/search.json?v=1d5700fe42').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "es"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La b\u00fasqueda no est\u00e1 disponible. Usa la navegaci\u00f3n." + '</li>';

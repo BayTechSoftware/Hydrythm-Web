@@ -18,7 +18,7 @@ Die Karte oben zeigt, als wer du angemeldet bist und welches Abo du hast. Tippe 
 
 - **Anzeigename** ist, wie Cora Mobile dich nennt.
 - **Labor- & ICP-E-Mails** lässt dich bis zu 3 weitere E-Mail-Adressen hinzufügen, über die dein Labor dein Konto erreichen kann. Siehe [ICP und Gesundheitsberichte](/help/mobile-icp-health#which-email-a-lab-can-use).
-- **Abo** zeigt dein Abo und wann es sich verlängert, mit **Pläne ansehen**, **Upgrade** oder **Auf Max upgraden**, dann **Abo verwalten** und **Käufe wiederherstellen**. Auf Android gibt es außerdem **Code einlösen**. Alles davon ist unter [Pläne und Abos](/help/mobile-plans) erklärt.
+- **Abo** zeigt dein Abo und wann es sich verlängert, mit **Tarife ansehen**, **Upgrade** oder **Auf Expert upgraden**, dann **Abo verwalten** und **Käufe wiederherstellen**. Auf Android gibt es außerdem **Code einlösen**. Alles davon ist unter [Pläne und Abos](/help/mobile-plans) erklärt.
 - **Abmelden**
 - **Meine Daten exportieren** gibt dir deine Messwerte, Tagebucheinträge und Warnungen als Dateien, in jedem Abo kostenlos. Siehe [Deine Daten exportieren](/help/mobile-data-export).
 - **Konto löschen** ist endgültig. Lies die beiden Hinweise unter [Deine Daten und Datenschutz](#your-data-and-privacy), bevor du es nutzt.
@@ -95,7 +95,7 @@ Drei Einstellungen zu deinen Daten liegen an verschiedenen Stellen, deshalb übe
 
 - **Meine Daten exportieren** steht unter **Konto & Abo**, direkt über **Konto löschen**. Siehe [Deine Daten exportieren](/help/mobile-data-export).
 - **Anonymisierte Beckendaten beisteuern** steht unter **Cora Assistant**, oben.
-- **Absturzberichte senden** steht unter **Hilfe & Support**. Es schickt die technischen Details, wenn Cora Mobile abbricht oder ein Bildschirm nicht lädt, ohne dass du etwas schreiben musst. Beckendaten, Fotos oder Kontodaten sind nicht dabei.
+- **Absturzberichte senden** steht unter **Hilfe & Support**. Es schickt die technischen Details, wenn Cora Mobile abstürzt oder ein Bildschirm nicht lädt, ohne dass du etwas schreiben musst. Beckendaten, Fotos oder Kontodaten sind nicht dabei.
 
 :::warning Dein Konto zu löschen, kündigt dein Abo NICHT
 Ein Abo aus dem App Store oder von Google Play gehört dem **Store**, nicht Cora. Löschst du dein Konto, wird dein Eintrag hier entfernt, aber **die Abrechnung hört nicht auf**. Dir wird weiter etwas berechnet, bis du selbst bei Apple oder Google kündigst. Kündige zuerst das Abo und lösche dann das Konto.

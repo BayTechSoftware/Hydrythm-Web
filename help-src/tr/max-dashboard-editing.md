@@ -25,8 +25,8 @@ Cora Mobile'da **Cihazlar** sekmesini açın, Cora Max'inize, ardından akvaryum
 | Izgara | Kutucuk | Nasıl hissettirir |
 |---|---|---|
 | 2×2, 3×2, 3×3 | 4–9 | Büyük. Odanın öbür ucundan kolayca okunur. |
-| 4×4, 5×3, 6×4 | 16–24 | Eksiksiz bir sistem için olağan seçim. |
-| 6×5, 8×4, 8×5 | 30–40 | Yoğun. Bütün bir reef odası tek ekranda. |
+| 4×4, 5×3, 6×4 | 15–24 | Eksiksiz bir sistem için olağan seçim. |
+| 6×5, 8×4, 8×5 | 30–40 | Yoğun. Bütün bir resif odası tek ekranda. |
 | 9×5, 10×5 | 45–50 | Çok yoğun. En iyisi en büyük ekranlarda. |
 | **Otomatik** | 32'ye kadar | Cora, eklediğiniz kutucuk sayısına uyan bir şekil seçer. |
 

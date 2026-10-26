@@ -58,6 +58,5 @@ Díselo a Cora en la página del dispositivo, para que la alerta desaparezca y e
 | Cabezal DŌS | **Llenar** y después **Lleno**, o pon el **Volumen restante** |
 | Recipiente de residuos del DŌS | Restablece su espacio libre a lleno después de vaciarlo |
 | Cabezal ReefDose | **Restante en la botella** |
-| ReefMat | **Nuevo rollo** después de poner un rollo nuevo |
 
 Trident, ReefATO+ y AquaWiz informan de sus propios niveles, así que no hay nada que restablecer en Cora.

@@ -55,7 +55,7 @@ Si las lecturas de un acuario se detienen mientras otro acuario de la misma pant
 
 1. Abre **Ajustes → [ese acuario] → Cora Max principal**. Comprueba que hay un dispositivo asignado y que está en línea.
 2. Si otro Cora Max de este acuario muestra **Cora principal sin conexión** en su barra superior, el principal ha perdido la conexión. Qué significa la etiqueta de estado se explica en [La pantalla de inicio de Cora Max](/help/max-tour#what-the-status-pill-means).
-3. **Ajustes → Ajustes de Cora Max → Red y actualizaciones → Sondeo de dispositivos** muestra cada cuánto lee este Cora Max tus dispositivos. Aquí solo puedes verlo. Se configura desde Cora Mobile.
+3. **Ajustes → Ajustes de Cora Max → RED Y ACTUALIZACIONES → Sondeo de dispositivos** muestra cada cuánto lee este Cora Max tus dispositivos. Aquí solo puedes verlo. Se configura desde Cora Mobile.
 4. Revisa la sección **Estado** de **Ajustes → Ajustes de Cora Max**. Muestra el estado de consulta, la hora de la última consulta y la última escritura en la nube de cada acuario, sin cambiar nada.
 
 Si eso no ayuda, echa un vistazo a [Solución de problemas](/help/troubleshooting).

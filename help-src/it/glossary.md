@@ -1,6 +1,6 @@
 ---
 title: Glossario
-description: Cosa intende Cora con vasca, fonte, widget, soglia, Cora Max principale, modalità alimentazione, scena e le altre parole che vedi nelle app.
+description: Cosa intende Cora con vasca, fonte, widget, soglia, Cora Max principale, modalità alimentazione, scena e le altre parole che vedi in Cora Mobile e su Cora Max.
 section: Help
 reviewed: 2026-10-18
 order: 5
@@ -73,7 +73,7 @@ Il registro di quello che hai fatto alla vasca. Anche Cora lo legge, quindi puoi
 
 ## Dispositivo di risposta {#answering-device}
 
-Il dispositivo Cora che risponde quando dici "Hey Cora". Lo scegli in **Impostazioni → Cora Assistant**. Risponde un solo dispositivo alla volta. È un'impostazione diversa dal [Cora Max principale](#primary-cora-max).
+Il dispositivo Cora che risponde quando dici "Hey Cora". Lo scegli in **Impostazioni → Cora Assistant**, in Cora Mobile o su Cora Max. Risponde un solo dispositivo alla volta. È un'impostazione diversa dal [Cora Max principale](#primary-cora-max).
 
 ## Dose
 

@@ -26,7 +26,7 @@ Monitorowanie akwarium jest bezpłatne i bez limitu. Płatne plany dają większ
 | Wiadomości do Asystenta | 20 miesięcznie. Głos korzysta z tej samej puli i kosztuje więcej za wypowiedź |
 | Sesje głosowe | 20 miesięcznie |
 | Raporty zdrowia | 1 miesięcznie |
-| Analiza ICP | **Jedna, raz**. Dostajesz jedną analizę na całe życie konta, potem funkcja jest zablokowana |
+| Analiza ICP | **Jedna, jednorazowo**. Dostajesz jedną analizę w całym okresie istnienia konta, potem funkcja jest zablokowana |
 | AI dla akwariów | Tylko Twoje pierwsze akwarium |
 | Reef Buddy | Nie jest wliczony. Widzisz zablokowaną kartę z **Zobacz plany** |
 
@@ -34,7 +34,7 @@ Gdy limit się wyczerpie, nadal możesz czytać wszystko, co Cora już dla Ciebi
 
 ## Okres próbny {#the-trial}
 
-Twój **30-dniowy okres próbny Advanced zaczyna się w chwili założenia konta**. Nie czeka na pierwsze użycie funkcji i nie wymaga karty. **Konto i subskrypcja** pokazuje go jako **Okres próbny Cora Advanced**, z datą zakończenia.
+Twój **30-dniowy okres próbny Advanced zaczyna się w chwili założenia konta**. Nie czeka na pierwsze użycie funkcji i nie wymaga karty. **Konto i subskrypcja** pokazuje go jako **Okres próbny Cora Advanced**, z datą zakończenia. Okres próbny jest dla nowych kont. Jeśli wcześniej była u Ciebie subskrypcja, nowe konto nie dostanie kolejnego okresu próbnego.
 
 | W okresie próbnym | |
 |---|---|
@@ -54,13 +54,13 @@ Są trzy plany, **Essential**, **Advanced** i **Expert**, każdy z płatnością
 
 | | Essential | Advanced | Expert |
 |---|---|---|---|
-| Wiadomości do Asystenta / miesiąc | 500 | 1 200 | 2 500 (w granicach rozsądnego użycia) |
+| Wiadomości do Asystenta / miesiąc | 500 | 1 200 | 2 500 (w granicach rozsądnego użycia) |
 | Sesje głosowe / miesiąc | 100 | 200 | 400 |
 | Raporty zdrowia / miesiąc | 4 | 12 | 100 |
 | Analizy ICP / miesiąc | 1 | 3 | 30 |
 | Akwaria z monitorowaniem AI | 1 | 5 | 20 |
 
-Sesje głosowe mają własny licznik, a każda odpowiedź głosowa zużywa też limit wiadomości. Każdy płatny plan obejmuje Reef Buddy, przesyłanie i analizę ICP z laboratoriów, które odczytuje Cora, porównanie z Twoją własną historią oraz **Zaprojektuj z AI** dla paneli (do 5 projektów dziennie dla każdego akwarium).
+Sesje głosowe mają własny licznik, a każda odpowiedź głosowa zużywa też limit wiadomości. Każdy płatny plan obejmuje Reef Buddy, przesyłanie i analizę ICP z laboratoriów, które odczytuje Cora, porównanie z Twoją własną historią oraz **Zaprojektuj z AI** dla paneli (do 5 udanych projektów dziennie dla każdego akwarium; dzień zaczyna się od nowa o północy UTC).
 
 
 :::note Plan Expert to nie ekran Cora Max
@@ -69,7 +69,7 @@ Sesje głosowe mają własny licznik, a każda odpowiedź głosowa zużywa też 
 
 ### Które akwaria dostają AI {#which-tanks-get-ai}
 
-Reef Buddy i monitorowanie AI obejmują tyle akwariów, na ile pozwala Twój plan, licząc od góry listy w **Ustawienia → Zmień kolejność akwariów**. Żeby objąć akwarium, przesuń je wyżej na liście. Usunięte akwaria nie zajmują miejsca.
+Reef Buddy i monitorowanie AI obejmują tyle akwariów, na ile pozwala Twój plan, licząc od góry listy w **Ustawienia → Zmień kolejność akwariów**. Żeby objąć akwarium, przesuń je wyżej na liście. Usunięte akwaria nie zajmują miejsca. Akwarium, które wciąż cyklujesz (tryb nowego akwarium), jest zawsze objęte i nie zajmuje miejsca.
 
 ## Wykupienie subskrypcji albo przejście na wyższy plan {#subscribing}
 

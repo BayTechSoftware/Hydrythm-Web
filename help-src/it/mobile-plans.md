@@ -34,7 +34,7 @@ Quando una quota finisce, puoi comunque leggere tutto quello che Cora ha già pr
 
 ## La prova {#the-trial}
 
-La tua **prova Advanced di 30 giorni parte quando crei il tuo account**. Non aspetta che tu usi una funzione per la prima volta, e non serve una carta. **Account e abbonamento** la mostra come **Prova Cora Advanced**, con la data in cui finisce.
+La tua **prova Advanced di 30 giorni parte quando crei il tuo account**. Non aspetta che tu usi una funzione per la prima volta, e non serve una carta. **Account e abbonamento** la mostra come **Prova Cora Advanced**, con la data in cui finisce. La prova è per i nuovi account. Se ti sei già abbonato in passato, un nuovo account non ne riceve un'altra.
 
 | Durante la prova | |
 |---|---|
@@ -60,7 +60,7 @@ Ci sono tre piani, **Essential**, **Advanced** e **Expert**, ciascuno mensile o 
 | Analisi ICP / mese | 1 | 3 | 30 |
 | Vasche con monitoraggio IA | 1 | 5 | 20 |
 
-Le sessioni vocali hanno un conteggio a parte, e ogni risposta a voce consuma anche la tua quota di messaggi. Ogni piano a pagamento comprende Reef Buddy, il caricamento e l'analisi ICP per i laboratori che Cora sa leggere, il confronto con il tuo storico e **Progetta con l'IA** per le dashboard (fino a 5 design al giorno per ogni vasca).
+Le sessioni vocali hanno un conteggio a parte, e ogni risposta a voce consuma anche la tua quota di messaggi. Ogni piano a pagamento comprende Reef Buddy, il caricamento e l'analisi ICP per i laboratori che Cora sa leggere, il confronto con il tuo storico e **Progetta con l'IA** per le dashboard (fino a 5 design riusciti al giorno per ogni vasca; il giorno si azzera a mezzanotte UTC).
 
 
 :::note Il piano Expert non è lo schermo Cora Max
@@ -69,7 +69,7 @@ Il **piano Expert** è un abbonamento. **Cora Max** è lo schermo che sta accant
 
 ### Quali vasche hanno l'IA {#which-tanks-get-ai}
 
-Reef Buddy e il monitoraggio IA coprono tante vasche quante ne consente il tuo piano, contate dall'alto in **Impostazioni → Riordina vasche**. Per includere una vasca, spostala più in alto nell'elenco. Le vasche rimosse non occupano un posto.
+Reef Buddy e il monitoraggio IA coprono tante vasche quante ne consente il tuo piano, contate dall'alto in **Impostazioni → Riordina vasche**. Per includere una vasca, spostala più in alto nell'elenco. Le vasche rimosse non occupano un posto. Una vasca che stai ancora facendo maturare (modalità Nuova vasca) è sempre coperta e non occupa un posto.
 
 ## Abbonarsi o passare a un piano superiore {#subscribing}
 

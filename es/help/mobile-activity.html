@@ -131,7 +131,7 @@
 <summary>Primeros pasos</summary><ul>
 <li><a href="/es/help/max-setup">Configurar Cora Max</a></li>
 <li><a href="/es/help/max-tour">La pantalla de inicio de Cora Max</a></li>
-<li><a href="/es/help/max-reef-room">El cuarto de los acuarios</a></li>
+<li><a href="/es/help/max-reef-room">La sala del arrecife</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Tu panel</summary><ul>
@@ -193,7 +193,7 @@
 <p>Usa Actividad cuando quieras saber <em>"¿qué hizo algo?"</em>. Usa la línea de tiempo cuando quieras saber <em>"¿qué estaba pasando por estas fechas?"</em>.</p>
 <aside class="cal cal-note"><p class="cal-t">Usa la línea de tiempo con el diario</p><p>La línea de tiempo reúne lo que registró Cora. El diario guarda lo que hiciste tú y por qué. Léelos juntos para ver qué causó qué alrededor de una fecha.</p></aside>
       <nav class="pn" aria-label="Seguir leyendo"><a class="pn-p" href="/es/help/mobile-livestock"><span>Anterior</span><b>Fauna</b></a><a class="pn-n" href="/es/help/mobile-reef-buddy"><span>Siguiente</span><b>Reef Buddy</b></a></nav>
-      <p class="stamp">Escrito para Cora Max 0.28.238 y Cora Mobile 1.4.14. Última revisión el 2026-10-18.</p>
+      <p class="stamp">Escrito para Cora Max 0.28.240 y Cora Mobile 1.4.16. Última revisión el 2026-10-18.</p>
       <p class="ask">¿Sigues atascado? Escribe a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> y te ayudamos.</p>
     </article>
   </main>
@@ -584,7 +584,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/es/help/search.json?v=9384433ffe').then(function (r) { return r.json(); })
+    fetch('/es/help/search.json?v=1d5700fe42').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "es"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La b\u00fasqueda no est\u00e1 disponible. Usa la navegaci\u00f3n." + '</li>';

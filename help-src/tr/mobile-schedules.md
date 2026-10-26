@@ -1,13 +1,13 @@
 ---
 title: Ekipman zamanlamaları
-description: Bir Jecod pompası için günlük program hazırlayın, pompalar arasında kopyalayın, kaydedip paylaşın ve pompanın programı aldığını kontrol edin.
+description: Bir Jecod pompası için günlük zamanlama hazırlayın, pompalar arasında kopyalayın, kaydedip paylaşın ve pompanın programı aldığını kontrol edin.
 section: Cora Mobile
 reviewed: 2026-10-17
 order: 14
 group: Equipment
 ---
 
-Bir Jecod pompasına **günlük program** vermek için bu sayfayı kullanın: her birinin kendi yoğunluğu olan ve her gün tekrarlanan bir dizi periyot. **Cihazlar** sekmesinden pompaya dokunarak açın.
+Bir Jecod pompasına **günlük zamanlama** vermek için bu sayfayı kullanın: her birinin kendi yoğunluğu olan ve her gün tekrarlanan bir dizi periyot. **Cihazlar** sekmesinden pompaya dokunarak açın.
 
 Diğer markaların ışıkları ve pompaları zamanlamalarını kendi sayfalarında tutar: Red Sea'nin ReefDose'u [Ekipmanınızı kontrol etme](/help/mobile-device-control#red-sea) sayfasında.
 

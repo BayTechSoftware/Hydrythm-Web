@@ -13,7 +13,7 @@ Vous ajoutez et disposez les widgets dans [l’éditeur de tableau de bord](/hel
 
 ![La feuille de réglages d’un widget dans Cora Mobile](img/mobile-widget-config.webp "La moitié inférieure des réglages d’un widget : le paramètre, la largeur, la hauteur et la plage de temps, puis Retirer et Terminé.")
 
-## Les quinze types {#the-fifteen-types}
+## Les types de widget {#the-widget-types}
 
 | Type | Affiche |
 |---|---|
@@ -61,9 +61,9 @@ Sur une seule colonne, l’arc est trop petit pour être lu rapidement. Si vous 
 
 ## Graphique {#graph}
 
-Un graphique est une mini-courbe sur une plage de temps que vous choisissez : 1 h, 6 h, 24 h, 7 j, 30 j ou 1 an. Il marque le haut et le bas et indique la valeur actuelle.
+Un graphique est une mini-courbe sur une plage de temps que vous choisissez : 1 h, 6 h, 24 h, 7 j, 30 j ou 1 an. Il marque le point haut et le point bas et indique la valeur actuelle.
 
-Pour un paramètre que vous testez (avec un Trident ou un kit de test), la courbe relie vos vrais tests. S’il n’y a qu’un test dans la période, la courbe part du test précédent, et il n’y a ni haut ni bas. S’il n’y a aucun test dans la période, ou rien d’antérieur à relier à un test unique, la tuile affiche **Collecte en cours…** à la place d’une courbe.
+Pour un paramètre que vous testez (avec un Trident ou un kit de test), la courbe relie vos vrais tests. S’il n’y a qu’un test dans la période, la courbe part du test précédent, et il n’y a ni point haut ni point bas. S’il n’y a aucun test dans la période, ou rien d’antérieur à relier à un test unique, la tuile affiche **Collecte en cours…** à la place d’une courbe.
 
 Utilisez-le pour tout ce qui bouge, comme le pH au fil de la journée, la température pendant une canicule ou l’alcalinité entre deux doses.
 

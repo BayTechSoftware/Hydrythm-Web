@@ -50,7 +50,7 @@ Pour un deuxième avis, touchez **Demander à Cora à propos du cyclage**. Cela 
 :::
 
 :::note Notez les trois tests
-Cora n’affiche **Semble cyclé** que si l’ammoniac et le nitrite ont chacun été *mesurés* à zéro et que le nitrate est présent. Le nitrate seul ne suffit pas. L’eau de départ en contient souvent, et à lui seul il pourrait ressembler à un cycle terminé et vous pousser à ajouter des habitants trop tôt.
+Cora n’affiche **Semble cyclé** que si l’ammoniac et le nitrite ont chacun été *mesurés* à zéro ou presque (0,25 ppm ou moins) et que le nitrate est présent. Le nitrate seul ne suffit pas. L’eau de départ en contient souvent, et à lui seul il pourrait ressembler à un cycle terminé et vous pousser à ajouter des habitants trop tôt.
 :::
 
 :::note L’état de préparation vient de vos mesures
@@ -98,4 +98,4 @@ Soyez honnête, même si c’est **Aggravé**. Le résultat est enregistré avec
 
 ## Écarter un parcours
 
-Si un parcours de problème n’est pas utile, écartez-le. Il cesse d’apparaître, et Cora enregistre ce choix pour proposer moins souvent des parcours semblables.
+Si un parcours de problème n’est pas utile, écartez-le. Il cesse d’apparaître. Si vos mesures pointent de nouveau vers le même problème, Cora peut le reproposer.

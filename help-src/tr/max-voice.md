@@ -108,7 +108,7 @@ Ekran hangi akvaryumu gösteriyorsa ondan. Önce üst çubuktan akvaryum değiş
 
 ## Yanlış duyarsa
 
-Reef sözcükleri zordur, ekipman adları daha da zordur. Cora bir cihazı sürekli yanlış duyuyorsa ona daha belirgin bir ad verin. **Ayarlar → Cihazlar**'a gidin, cihazın yanındaki kaleme (ya da sayfasındaki **Yeniden adlandır**'a) dokunun ve kısa, gündelik bir ad yazın. Yeni ad telefonunuzda da görünür.
+Resif sözcükleri zordur, ekipman adları daha da zordur. Cora bir cihazı sürekli yanlış duyuyorsa ona daha belirgin bir ad verin. **Ayarlar → Cihazlar**'a gidin, cihazın yanındaki kaleme (ya da sayfasındaki **Yeniden adlandır**'a) dokunun ve kısa, gündelik bir ad yazın. Yeni ad telefonunuzda da görünür.
 
 ## Cora yanıt vermiyorsa
 

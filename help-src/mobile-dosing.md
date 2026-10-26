@@ -69,4 +69,4 @@ When demand changes, take a closer look before drawing a conclusion. Rising alka
 
 If you have a connected doser, such as a Neptune DŌS or a Red Sea ReefDose, its heads show up with their own readings, including what each head has left and what it's been dosing. How to run and refill them is in [Controlling your equipment](/help/mobile-device-control), and their low-container and missed-dose alerts are in [Doser alerts](/help/mobile-device-control#doser-alerts).
 
-An automation can also dose from a DŌS head, capped at 10 mL per head per day. See [Automations and scenes](/help/mobile-automation#actions).
+An automation can also dose from a DŌS head, capped at 10 mL per head per day unless you set a daily limit for that head in its settings. See [Automations and scenes](/help/mobile-automation#actions).

@@ -178,7 +178,7 @@
 <aside class="cal cal-tip"><p class="cal-t">You can also edit it from your phone</p><p>In Cora Mobile, open the <strong>Devices</strong> tab, tap your Cora Max, then tap <strong>Dashboard layout</strong> on the tank's card. It's quicker than arranging tiles by hand on a wall screen, and the result shows up on Cora Max as soon as you save.</p></aside>
 <h2 id="choosing-a-grid">Choosing a grid</h2>
 <p>Pick the grid size first. Changing it later moves all the tiles around.</p>
-<div class="tw"><table class="stack"><thead><tr><th>Grid</th><th>Tiles</th><th>Feels like</th></tr></thead><tbody><tr><td data-th="Grid">2×2, 3×2, 3×3</td><td data-th="Tiles">4–9</td><td data-th="Feels like">Large. Easy to read from across the room.</td></tr><tr><td data-th="Grid">4×4, 5×3, 6×4</td><td data-th="Tiles">16–24</td><td data-th="Feels like">The usual choice for a full system.</td></tr><tr><td data-th="Grid">6×5, 8×4, 8×5</td><td data-th="Tiles">30–40</td><td data-th="Feels like">Dense. A whole reef room on one screen.</td></tr><tr><td data-th="Grid">9×5, 10×5</td><td data-th="Tiles">45–50</td><td data-th="Feels like">Very dense. Best on the largest screens.</td></tr><tr><td data-th="Grid"><strong>Auto</strong></td><td data-th="Tiles">up to 32</td><td data-th="Feels like">Cora picks a shape that fits however many tiles you've added.</td></tr></tbody></table></div>
+<div class="tw"><table class="stack"><thead><tr><th>Grid</th><th>Tiles</th><th>Feels like</th></tr></thead><tbody><tr><td data-th="Grid">2×2, 3×2, 3×3</td><td data-th="Tiles">4–9</td><td data-th="Feels like">Large. Easy to read from across the room.</td></tr><tr><td data-th="Grid">4×4, 5×3, 6×4</td><td data-th="Tiles">15–24</td><td data-th="Feels like">The usual choice for a full system.</td></tr><tr><td data-th="Grid">6×5, 8×4, 8×5</td><td data-th="Tiles">30–40</td><td data-th="Feels like">Dense. A whole reef room on one screen.</td></tr><tr><td data-th="Grid">9×5, 10×5</td><td data-th="Tiles">45–50</td><td data-th="Feels like">Very dense. Best on the largest screens.</td></tr><tr><td data-th="Grid"><strong>Auto</strong></td><td data-th="Tiles">up to 32</td><td data-th="Feels like">Cora picks a shape that fits however many tiles you've added.</td></tr></tbody></table></div>
 <p>A fixed grid holds as many tiles as it has cells, up to 50 on 10×5. <strong>Auto</strong> has its own limit of 32 tiles. Past that, the text gets too small to read from a distance.</p>
 <aside class="cal cal-note"><p class="cal-t">Not sure? Start with Auto</p><p>Add the tiles you want and leave the grid on <strong>Auto</strong>. Cora picks a shape that fits them. If you like it, you can switch to that fixed shape afterwards.</p></aside>
 <aside class="cal cal-warning"><p class="cal-t">Changing the grid only drops tiles when they don't fit</p><p>When you change the grid, Cora doesn't throw tiles away by position. Tiles that still have a valid cell stay where they are, and the rest are packed back in, in order. You only lose tiles when the new grid has <strong>fewer cells than you have tiles</strong>, and Cora tells you how many went. Going from 10×5 (50 cells) to 3×3 (9) loses most of them.</p></aside>
@@ -208,7 +208,7 @@
 <h2 id="multiple-tanks">Multiple tanks</h2>
 <p>Each tank has its own layout. Switch to that tank and open <strong>Dashboard layout</strong> from its tank menu, or use <strong>Settings → [that tank] → Dashboard layout</strong>.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/max-reef-room"><span>Previous</span><b>The Reef Room</b></a><a class="pn-n" href="/help/max-controls"><span>Next</span><b>Outlets and controls</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.238 and Cora Mobile 1.4.14. Last checked 2026-10-18.</p>
+      <p class="stamp">Written for Cora Max 0.28.240 and Cora Mobile 1.4.16. Last checked 2026-10-18.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>
@@ -599,7 +599,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/help/search.json?v=5ca35b2a08').then(function (r) { return r.json(); })
+    fetch('/help/search.json?v=d076232951').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "en"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';

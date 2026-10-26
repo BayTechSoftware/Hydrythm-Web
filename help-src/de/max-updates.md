@@ -19,7 +19,7 @@ Du musst nichts tun, um aktuell zu bleiben.
 
 ![Netzwerk und Updates auf Cora Max](img/max-updates.webp "Firmware-Update, im Bereich NETZWERK & UPDATES der Cora Max-Einstellungen.")
 
-Deine Version steht auf der Karte oben unter **Einstellungen → Cora Max-Einstellungen** (*Cora Max · Firmware 0.28.170*) und unter **HILFE & ÜBER → Über**.
+Deine Version steht auf der Karte oben unter **Einstellungen → Cora Max-Einstellungen** (*Cora Max · Firmware 0.28.x*) und unter **HILFE & ÜBER → Über**.
 
 **Einstellungen → Cora Max-Einstellungen → Firmware-Update** (in **NETZWERK & UPDATES**) zeigt die Version, die du hast, und ob ein Update wartet. Tippe auf **Nach Updates suchen**, um jetzt nachzusehen, oder auf **Herunterladen & installieren**, wenn eins da ist.
 

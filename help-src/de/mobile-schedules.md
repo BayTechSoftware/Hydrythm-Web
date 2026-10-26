@@ -1,13 +1,13 @@
 ---
 title: Ausrüstung planen
-description: Ein Tagesprogramm für eine Jecod-Pumpe bauen, zwischen Pumpen kopieren, speichern und teilen und prüfen, ob die Pumpe es übernommen hat.
+description: Einen Zeitplan für eine Jecod-Pumpe bauen, zwischen Pumpen kopieren, speichern und teilen und prüfen, ob die Pumpe es übernommen hat.
 section: Cora Mobile
 reviewed: 2026-10-17
 order: 14
 group: Equipment
 ---
 
-Auf dieser Seite gibst du einer Jecod-Pumpe ein **Tagesprogramm**: eine Folge von Zeiträumen mit jeweils eigener Intensität, die sich jeden Tag wiederholt. Öffne es über **Geräte** → auf die Pumpe tippen.
+Auf dieser Seite gibst du einer Jecod-Pumpe einen **Zeitplan**: eine Folge von Zeiträumen mit jeweils eigener Intensität, die sich jeden Tag wiederholt. Öffne ihn über **Geräte** → auf die Pumpe tippen.
 
 Leuchten und Pumpen anderer Marken haben ihre Zeitpläne auf ihren eigenen Seiten: ReefDose von Red Sea unter [Deine Ausrüstung steuern](/help/mobile-device-control#red-sea).
 
@@ -18,7 +18,7 @@ Leuchten und Pumpen anderer Marken haben ihre Zeitpläne auf ihren eigenen Seite
 Eine Pumpe läuft in einem von zwei Modi. Wähl einen mit dem Schalter auf ihrer Seite. Der laufende ist mit *· läuft* markiert, und die Seite öffnet sich auf ihm.
 
 - **Den ganzen Tag gleich** läuft die ganze Zeit mit einer Intensität.
-- **Zeitplan** folgt einem Tagesprogramm aus Zeiträumen.
+- **Zeitplan** folgt einer Folge von Zeiträumen.
 
 Cora schickt deine Wahl direkt an die Pumpe, wenn dein Handy in ihrem Netzwerk ist. Ist es das nicht, läuft sie über das Cora Max am Becken. Eine Bluetooth-Pumpe muss in Reichweite sein. Bis sie es ist, ändert deine Wahl nur, was du auf dem Bildschirm siehst.
 

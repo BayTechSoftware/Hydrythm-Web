@@ -17,7 +17,7 @@ La maturazione guidata è gratuita con tutti i piani. Ci sono tre modi per avvia
 - **Dalla dashboard.** Su una vasca senza letture, una scheda chiede **Stai avviando una nuova vasca?** Toccala.
 - **Dal profilo della vasca.** Apri il profilo della vasca e tocca la stessa scheda in alto. Funziona in qualsiasi momento, anche dopo aver registrato letture.
 
-La prima volta Cora spiega la **Maturazione guidata**: mentre la vasca fa il ciclo, la dashboard si concentra su ammoniaca, nitriti e nitrati e mette in pausa i normali controlli da reef, che non servono ancora. Le indicazioni sono generali: ogni vasca è diversa, quindi segui le istruzioni dei tuoi prodotti e usa il tuo giudizio. Tocca **Ho capito: avvia la maturazione** e il percorso si apre.
+La prima volta Cora spiega la **Maturazione guidata**: mentre la vasca è in maturazione, la dashboard si concentra su ammoniaca, nitriti e nitrati e mette in pausa i normali controlli da reef, che non servono ancora. Le indicazioni sono generali: ogni vasca è diversa, quindi segui le istruzioni dei tuoi prodotti e usa il tuo giudizio. Tocca **Ho capito: avvia la maturazione** e il percorso si apre.
 
 Quando è in corso, la scheda sulla dashboard dice **Continua la maturazione · Giorno N**. Toccala per tornare al percorso. Se dice **Riprendi la maturazione**, la vasca è ancora impostata per la maturazione: toccala per riaprire la guida. Per uscire senza finire, tocca **Interrompi la maturazione guidata** in fondo al percorso. La vasca torna al monitoraggio normale e puoi riattivare la maturazione guidata dal profilo della vasca.
 
@@ -50,7 +50,7 @@ Per un secondo parere, tocca **Chiedi a Cora della maturazione**. Apre [Cora Ass
 :::
 
 :::note Registra tutti e tre i test
-Cora mostra **Sembra ciclata** solo quando ammoniaca e nitriti sono stati entrambi *misurati* a zero e ci sono nitrati. I nitrati da soli non bastano. L'acqua di partenza spesso ne contiene un po', e da soli potrebbero far sembrare il ciclo finito e spingerti a inserire animali troppo presto.
+Cora mostra **Sembra ciclata** solo quando ammoniaca e nitriti sono stati entrambi *misurati* a zero o quasi (0,25 ppm o meno) e ci sono nitrati. I nitrati da soli non bastano. L'acqua di partenza spesso ne contiene un po', e da soli potrebbero far sembrare il ciclo finito e spingerti a inserire animali troppo presto.
 :::
 
 :::note La prontezza dipende dalle tue letture
@@ -98,4 +98,4 @@ Sii onesto, anche se è **Peggiorato**. Il risultato viene salvato con il percor
 
 ## Ignorare un percorso
 
-Se un percorso per un problema non ti è utile, ignoralo. Non compare più, e Cora registra la tua scelta così ti propone meno spesso percorsi simili.
+Se un percorso per un problema non ti è utile, ignoralo. Non compare più. Se le tue letture indicano di nuovo lo stesso problema, Cora può riproporlo.

@@ -13,7 +13,7 @@ Widget'ları [pano düzenleyicisinde](/help/mobile-dashboard-editing) ekler ve y
 
 ![Cora Mobile'da bir widget'ın ayarlar sayfası](img/mobile-widget-config.webp "Bir widget'ın ayarlarının alt yarısı: parametre, genişlik, yükseklik ve zaman aralığı, ardından Kaldır ve Bitti.")
 
-## On beş tür {#the-fifteen-types}
+## Widget türleri {#the-widget-types}
 
 | Tür | Ne gösterir |
 |---|---|

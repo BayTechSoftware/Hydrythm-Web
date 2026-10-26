@@ -22,7 +22,7 @@ Przejdź do Ustawienia → Twoje akwarium → **Tryb wakacyjny**. Jeśli masz wi
 
 Przy każdym zadaniu widać, jak często je wykonywać, na przykład **Codziennie**, **Co 3 dni**, **Raz** albo **Zawsze** (stała instrukcja). Cora ustala to na podstawie zadania konserwacyjnego albo propozycji. Zadanie wpisane samodzielnie nie ma etykiety, więc podaj częstotliwość w jego treści.
 
-Pisz listę dla kogoś, kto nie zna akwariów morskich. Podawaj wprost ilości i sposób. „Podaj jedną kostkę mrożonki, rozmrożoną, raz dziennie” jest dużo jaśniejsze niż „nakarm jak zwykle”.
+Pisz listę dla kogoś, kto nie zna akwariów rafowych. Podawaj wprost ilości i sposób. „Podaj jedną kostkę mrożonki, rozmrożoną, raz dziennie” jest dużo jaśniejsze niż „nakarm jak zwykle”.
 
 :::note Napisz, czego nie ruszać
 Dodaj zadanie dla każdego sprzętu, którego opiekun nie powinien dotykać, na przykład „Nie zmieniaj niczego w kontrolerze”. Wpisz to też w notatkach.

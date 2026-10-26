@@ -13,7 +13,7 @@ Widgets fügst du im [Dashboard-Editor](/help/mobile-dashboard-editing) hinzu un
 
 ![Das Einstellungsfenster eines Widgets in Cora Mobile](img/mobile-widget-config.webp "Die untere Hälfte der Einstellungen eines Widgets: der Wasserwert, Breite, Höhe und Zeitraum, dann Entfernen und Fertig.")
 
-## Die fünfzehn Typen {#the-fifteen-types}
+## Die Widget-Typen {#the-widget-types}
 
 | Typ | Zeigt |
 |---|---|

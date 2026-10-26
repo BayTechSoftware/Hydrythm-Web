@@ -69,4 +69,4 @@ Si cambia el consumo, míralo con calma antes de sacar conclusiones. Un mayor co
 
 Si tienes una dosificadora conectada, como una Neptune DŌS o una Red Sea ReefDose, sus cabezales aparecen con sus propias lecturas, incluido lo que le queda a cada cabezal y lo que ha dosificado. Cómo manejarlos y rellenarlos se explica en [Controlar tus equipos](/help/mobile-device-control), y sus alertas de recipiente bajo y de dosis omitida en [Alertas de dosificadoras](/help/mobile-device-control#doser-alerts).
 
-Una automatización también puede dosificar con un cabezal DŌS, con un máximo de 10 mL por cabezal al día. Consulta [Automatizaciones y escenas](/help/mobile-automation#actions).
+Una automatización también puede dosificar con un cabezal DŌS, con un máximo de 10 mL por cabezal al día, salvo que fijes un límite diario propio para ese cabezal en sus ajustes. Consulta [Automatizaciones y escenas](/help/mobile-automation#actions).

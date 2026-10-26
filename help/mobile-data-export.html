@@ -178,9 +178,9 @@
 <ol><li>Open <strong>Settings</strong> and tap the account card at the top. <strong>Account &amp; Subscription</strong> opens.</li><li>Tap <strong>Export My Data</strong>.</li></ol>
 <p>Exporting is <strong>free on every plan</strong>, including the free one.</p>
 <p>Cora exports <strong>CSV files</strong>. They're spreadsheets that open in Excel, Numbers, Google Sheets or anything else that reads a table.</p>
-<div class="tw"><table class="stack"><thead><tr><th>File</th><th>Contains</th></tr></thead><tbody><tr><td data-th="File"><code>cora_parameters.csv</code></td><td data-th="Contains">Your readings, each with its source and timestamp</td></tr><tr><td data-th="File"><code>cora_journal.csv</code></td><td data-th="Contains">Your journal entries</td></tr><tr><td data-th="File"><code>cora_alerts.csv</code></td><td data-th="Contains">Alerts raised</td></tr><tr><td data-th="File"><code>cora_export_summary.csv</code></td><td data-th="Contains">What this export covers, including anything that was cut short</td></tr></tbody></table></div>
+<div class="tw"><table class="stack"><thead><tr><th>File</th><th>Contains</th></tr></thead><tbody><tr><td data-th="File"><code>cora_parameters.csv</code></td><td data-th="Contains">Your readings, each with its source and timestamp</td></tr><tr><td data-th="File"><code>cora_journal.csv</code></td><td data-th="Contains">Your journal entries</td></tr><tr><td data-th="File"><code>cora_alerts.csv</code></td><td data-th="Contains">Your notification history</td></tr><tr><td data-th="File"><code>cora_export_summary.csv</code></td><td data-th="Contains">What this export covers, including anything that was cut short</td></tr></tbody></table></div>
 <aside class="cal cal-note"><p class="cal-t">What's in the export</p><p>It covers <strong>readings, journal entries and alerts</strong>, the three records people ask for. It isn't a copy of your whole account. Dashboards, livestock, maintenance, automations, reports and device settings aren't included.</p>
-<p>Each of the three stops at <strong>25,000 rows per tank</strong>. A tank logging thirty metrics every five minutes writes more than that in three days, so a long-running tank will hit the cap. The summary file tells you when that's happened. Check it before you assume the export is complete.</p></aside>
+<p>Readings and journal entries stop at <strong>25,000 records per tank</strong>, and the alerts file stops at 25,000 for the whole account. A tank with years of history can reach the cap. The summary file tells you when that's happened. Check it before you assume the export is complete.</p></aside>
 <p>The parameter export includes the <strong>source</strong> of each reading. So in a spreadsheet of your alkalinity, you can still tell what your probe said from what your test kit said.</p>
 <aside class="cal cal-note"><p class="cal-t">Export before big changes</p><p>Take an export before you shut down a tank or make big changes to your setup. The files don't depend on Cora Mobile or your account.</p></aside>
 <h2 id="signing-out-versus-deleting">Signing out versus deleting</h2>
@@ -198,10 +198,10 @@
 <h2 id="what-cora-stores">What Cora stores</h2>
 <p>The <a href="/privacy-policy.html">privacy policy</a> has the full detail. Briefly, Cora stores your tank data, your account, and the sign-ins for any equipment you connected through a manufacturer's account.</p>
 <p>Removing a device forgets its sign-in. Deleting your account removes everything held under your name, with these exceptions:</p>
-<ul><li>the anonymised research copy, if you left that switch on</li><li>your store subscription, which only the store can cancel</li><li>your customer record at our subscription management provider, which is deleted 120 days after your account so a store refund or payment dispute can still be handled</li></ul>
+<ul><li>the anonymised research copy, if you left that switch on</li><li>your store subscription, which only the store can cancel</li><li>your customer record at our subscription management provider, which is deleted 120 days after your account is deleted so a store refund or payment dispute can still be handled</li></ul>
 <p>Signing in again on another phone, or changing your sign-in, is covered in <a href="/help/mobile-account">Signing in and account recovery</a>. Plans and billing are in <a href="/help/mobile-plans">Plans and subscriptions</a>.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-plans"><span>Previous</span><b>Plans and subscriptions</b></a><a class="pn-n" href="/help/mobile-support"><span>Next</span><b>Reporting a problem</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.238 and Cora Mobile 1.4.14. Last checked 2026-10-13.</p>
+      <p class="stamp">Written for Cora Max 0.28.240 and Cora Mobile 1.4.16. Last checked 2026-10-13.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>
@@ -592,7 +592,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/help/search.json?v=5ca35b2a08').then(function (r) { return r.json(); })
+    fetch('/help/search.json?v=d076232951').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "en"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';

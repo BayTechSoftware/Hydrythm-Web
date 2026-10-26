@@ -28,7 +28,7 @@ Tippe auf eine Szene, um sie zu bearbeiten, oder auf **Neue Szene**, um eine anz
    - **Ein Red-Sea-Gerät steuern**: zum Beispiel **ReefDose: jetzt dosieren**, **ReefDose: Tagesdosis einstellen**, **ReefRun: Pumpengeschwindigkeit einstellen**, **ATO: manuelle Befüllung starten** oder **ReefMat: Rolle weiterspulen**.
    - **Eine Strömungspumpe steuern**: Strömung oder Wellenmodus einer Jecod-Pumpe einstellen, sie ein- oder ausschalten oder **Für Fütterung pausieren**.
    - **Einen Trident-Test starten**: Alkalinität, kombiniert oder Nährstoffe. Jeder Lauf verbraucht Reagenz.
-   - **Einen Apex-Fütterungszyklus starten**: wähle den Zyklus. Das Apex führt den Fütterungstimer selbst und läuft danach allein weiter.
+   - **Einen Apex-Fütterungszyklus starten**: wähle den Zyklus. Der Apex führt den Fütterungstimer selbst und läuft danach allein weiter.
 3. Füg auf dieselbe Weise weitere Schritte hinzu. Du kannst sie umsortieren oder entfernen. Ein Schritt, den dieser Bildschirm nicht bearbeiten kann, zeigt **Hier nicht bearbeitbar**. Bearbeite ihn auf dem Handy.
 4. Wähl, wie lange sie läuft. **Zeitgesteuert** läuft so viele Minuten, wie du unter **Laufzeit (Minuten)** festlegst. **Dauerhaft** läuft, bis du sie stoppst.
 5. Lass **Vor der Ausführung fragen** eingeschaltet, außer du bist sicher, dass die Szene nie etwas berührt, das einen zweiten Blick braucht.
@@ -45,11 +45,11 @@ Szenen erscheinen als Kacheln auf dem Dashboard. Tippe auf **Start**, um eine zu
 
 Fragt die Szene vor der Ausführung, listet Cora Max zuerst auf, was gleich passiert, eine Zeile pro Schritt. Lies es und starte sie dann oder brich ab.
 
-Während eine zeitgesteuerte Szene läuft, zählt ihre Kachel bis zum Ende herunter und zeigt **Stopp**, falls du sie früher beenden willst. Die Kachel einer dauerhaften Szene zeigt sie als laufend, bis du auf **Stopp** tippst. Wenn eine Szene endet oder du sie stoppst, zeigt die Kachel **Wiederherstellen…**, während Cora die Ausrüstung zurückstellt.
+Während eine zeitgesteuerte Szene läuft, zählt ihre Kachel bis zum Ende herunter und zeigt **Stopp**, falls du sie früher beenden willst. Die Kachel einer dauerhaften Szene zeigt sie als laufend, bis du auf **Stopp** tippst. Wenn eine Szene endet oder du sie stoppst, zeigt die Kachel **Wird wiederhergestellt…**, während Cora die Ausrüstung zurückstellt.
 
 Das Starten oder Stoppen einer Szene läuft wie jeder andere Befehl über Cora Cloud. Das Ergebnis findest du unter [Aktivität](/help/max-activity).
 
-Szenen lassen sich auf Cora Max nicht per Sprache starten. Nutze die Kachel, **Einstellungen → Automationen** oder dein Handy.
+Du kannst eine Szene auch per Sprache starten: *"Starte die Szene Wasserwechsel."* Die Kindersicherung blockiert das wie jede andere Steuerung. Sonst nutze die Kachel, **Einstellungen → Automationen** oder dein Handy.
 
 Lässt sich eine Szene nicht starten oder nicht stoppen, schau in die [Problembehebung](/help/troubleshooting).
 

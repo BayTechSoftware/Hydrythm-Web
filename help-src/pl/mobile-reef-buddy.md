@@ -85,7 +85,7 @@ Jeśli przez tydzień nic nie testowano, ocena Dane spada, a Stabilność staje 
 
 Reef Buddy jest częścią płatnych planów. Jest też w 30-dniowym okresie próbnym, który zaczyna się w chwili założenia konta.
 
-Każdy plan obejmuje określoną liczbę akwariów: 1 w okresie próbnym i w Essential, 5 w Advanced i 20 w Expert. Podsumowania trafiają do pierwszych akwariów w kolejności ustawionej w **Ustawienia → Zmień kolejność akwariów**. Żeby objąć akwarium, które zostało pominięte, przesuń je wyżej na liście. Usunięte akwaria nie zajmują miejsca.
+Każdy plan obejmuje określoną liczbę akwariów: 1 w okresie próbnym i w Essential, 5 w Advanced i 20 w Expert. Podsumowania trafiają do pierwszych akwariów w kolejności ustawionej w **Ustawienia → Zmień kolejność akwariów**. Żeby objąć akwarium, które zostało pominięte, przesuń je wyżej na liście. Usunięte akwaria nie zajmują miejsca. Akwarium, które wciąż cyklujesz (tryb nowego akwarium), jest zawsze objęte i nie zajmuje miejsca.
 
 Po okresie próbnym konto darmowe widzi w miejscu podsumowania zablokowaną kartę Reef Buddy z **Zobacz plany** i nie dostaje powiadomienia o podsumowaniu. Więcej w [Planach i subskrypcjach](/help/mobile-plans).
 

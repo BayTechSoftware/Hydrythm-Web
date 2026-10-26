@@ -212,7 +212,7 @@
 <p>An old reading doesn't disappear just because it's older than the chart window. It stays on the widget with its age, so a stale value looks stale and doesn't look missing.</p>
 <p>For anything else, see <a href="/help/troubleshooting#a-widget-shows-no-value">Troubleshooting</a>.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-account"><span>Previous</span><b>Signing in and account recovery</b></a><a class="pn-n" href="/help/mobile-metric-detail"><span>Next</span><b>Looking into a parameter</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.238 and Cora Mobile 1.4.14. Last checked 2026-10-18.</p>
+      <p class="stamp">Written for Cora Max 0.28.240 and Cora Mobile 1.4.16. Last checked 2026-10-18.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>
@@ -603,7 +603,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/help/search.json?v=5ca35b2a08').then(function (r) { return r.json(); })
+    fetch('/help/search.json?v=d076232951').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "en"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';

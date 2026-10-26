@@ -19,7 +19,7 @@ Vous n’avez rien à faire pour rester à jour.
 
 ![Réseau et mises à jour sur Cora Max](img/max-updates.webp "Mise à jour du micrologiciel, dans la section RÉSEAU ET MISES À JOUR des Paramètres Cora Max.")
 
-Votre version figure sur la carte en haut de **Paramètres → Paramètres Cora Max** (*Cora Max · micrologiciel 0.28.170*), et sous **AIDE ET À PROPOS → À propos**.
+Votre version figure sur la carte en haut de **Paramètres → Paramètres Cora Max** (*Cora Max · micrologiciel 0.28.x*), et sous **AIDE ET À PROPOS → À propos**.
 
 **Paramètres → Paramètres Cora Max → Mise à jour du micrologiciel** (dans **RÉSEAU ET MISES À JOUR**) affiche la version que vous avez et indique si une mise à jour attend. Touchez **Rechercher des mises à jour** pour vérifier maintenant, ou **Télécharger et installer** quand il y en a une.
 

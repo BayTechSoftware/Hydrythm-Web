@@ -40,9 +40,9 @@ Cora akvaryumun birincil Cora Max'ini, seçilmemişse en çok yeri olan Cora Max
 
 ## Cora Max eşleştirme {#pairing-a-cora-max}
 
-![Cora Mobile'da cihaz arayan Cora'nızı Ekleyin ekranı](img/mobile-add-device.webp "Cihaz Ekle, ardından Cora. Cora Mobile Wi-Fi'ınızda ve Bluetooth üzerinden arar, altta IP Adresini Elle Girin bulunur.")
+![Cora Mobile'da cihaz arayan Cora'nızı Ekleyin ekranı](img/mobile-add-device.webp "Cihaz Ekle, ardından Cora. Cora Mobile Wi-Fi'nizde ve Bluetooth üzerinden arar, altta IP Adresini Elle Girin bulunur.")
 
-Yeni bir Cora Max'i **Cora** ile eşleştirirsiniz. Wi-Fi'ınızda zaten bulunan üniteleri ya da yakındakileri Bluetooth üzerinden bulur. Sizinkini bulamazsa aynı ekrandaki **IP Adresini Elle Girin**'i kullanın. Adım adım anlatım [Cora Max'i kurma](/help/max-setup) sayfasında.
+Yeni bir Cora Max'i **Cora** ile eşleştirirsiniz. Wi-Fi'nizde zaten bulunan üniteleri ya da yakındakileri Bluetooth üzerinden bulur. Sizinkini bulamazsa aynı ekrandaki **IP Adresini Elle Girin**'i kullanın. Adım adım anlatım [Cora Max'i kurma](/help/max-setup) sayfasında.
 
 ## Bir cihazın sayfası {#a-devices-page}
 

@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Glossary | Cora Help</title>
-  <meta name="description" content="What Cora means by tank, source, widget, threshold, Primary Cora Max, feed mode, scene and the other words you&#x27;ll see in the apps.">
+  <meta name="description" content="What Cora means by tank, source, widget, threshold, Primary Cora Max, feed mode, scene and the other words you&#x27;ll see in Cora Mobile and on Cora Max.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/help/glossary">
   <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/glossary">
@@ -17,7 +17,7 @@
   <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/glossary">
   <meta property="og:site_name" content="Cora">
   <meta property="og:title" content="Glossary | Cora Help">
-  <meta property="og:description" content="What Cora means by tank, source, widget, threshold, Primary Cora Max, feed mode, scene and the other words you&#x27;ll see in the apps.">
+  <meta property="og:description" content="What Cora means by tank, source, widget, threshold, Primary Cora Max, feed mode, scene and the other words you&#x27;ll see in Cora Mobile and on Cora Max.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/help/glossary">
   <meta property="og:image" content="https://coraiq.tech/og-image.png">
@@ -180,7 +180,7 @@
 <h2 id="alert">Alert</h2>
 <p>Cora telling you something needs attention. Usually it's a reading outside the range you set. It can also be a parameter moving too fast, an equipment fault, a device that stopped reporting, a consumable running low, or a lab result coming in. Most alerts clear by themselves once the problem passes. See <a href="/help/mobile-alerts">Alerts and thresholds</a>.</p>
 <h2 id="answering-device">Answering device</h2>
-<p>The Cora device that answers when you say "Hey Cora". You pick it in <strong>Settings → Cora Assistant</strong>. Only one device answers at a time. It's a different setting from <a href="#primary-cora-max">Primary Cora Max</a>.</p>
+<p>The Cora device that answers when you say "Hey Cora". You pick it in <strong>Settings → Cora Assistant</strong>, in Cora Mobile or on Cora Max. Only one device answers at a time. It's a different setting from <a href="#primary-cora-max">Primary Cora Max</a>.</p>
 <h2 id="aquawiz">AquaWiz™</h2>
 <p>The AquaWiz KH Controller, an alkalinity tester. Cora reads it through AquaWiz's own cloud. See <a href="/help/equipment-by-brand">Equipment by brand</a>.</p>
 <h2 id="automation">Automation</h2>
@@ -274,7 +274,7 @@
 <h2 id="widget">Widget</h2>
 <p>One tile on a dashboard that shows one thing, such as a value, a gauge, a graph or an outlet. See <a href="/help/mobile-widgets">Widget reference</a>.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/faq"><span>Previous</span><b>Frequently asked questions</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.238 and Cora Mobile 1.4.14. Last checked 2026-10-18.</p>
+      <p class="stamp">Written for Cora Max 0.28.240 and Cora Mobile 1.4.16. Last checked 2026-10-18.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>
@@ -665,7 +665,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/help/search.json?v=5ca35b2a08').then(function (r) { return r.json(); })
+    fetch('/help/search.json?v=d076232951').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "en"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';

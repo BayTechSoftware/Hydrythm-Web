@@ -38,7 +38,7 @@ Ein Tippen auf das Cora Assistant-Symbol startet sofort ein Live-Gespräch per S
 | Anzeige | Bedeutung |
 |---|---|
 | **Online** | Dieser Bildschirm sammelt deine Messwerte, und sie sind aktuell |
-| **Cloud** | Ein anderes Cora sammelt die Messwerte dieses Beckens, und dieser Bildschirm zeigt sie. Sie sind genauso aktuell wie bei **Online**. Hast du mehr als ein Cora, zeigt das, das nicht sammelt, diese Anzeige |
+| **Cloud** | Ein anderes Cora sammelt die Messwerte dieses Beckens, und dieser Bildschirm zeigt sie. Sie sind genauso aktuell wie bei **Online**. Hast du mehr als ein Cora, zeigt der Bildschirm, der nicht selbst sammelt, diese Anzeige |
 | **Apex-Abfrage**, **Sprache aktiv** | Gerade mit etwas beschäftigt (blau) |
 | **Abfrage aus** | Das Sammeln ist für dieses Becken ausgeschaltet. Du kannst es in Cora Mobile wieder einschalten |
 | **Aktualisierung läuft** | Das Sammeln pausiert, während ein Update installiert wird |
@@ -47,12 +47,12 @@ Ein Tippen auf das Cora Assistant-Symbol startet sofort ein Live-Gespräch per S
 | **Cloud-Abgleich fehlgeschlagen** | Dein Apex hat geantwortet, aber seine Messwerte ließen sich nicht in Cora Cloud speichern, deshalb hinkt das Dashboard hinterher. Cora Max versucht es weiter |
 | **Cloud-Speichern abgelehnt** | Cora Cloud lehnt es ab, einen Teil der Daten dieses Bildschirms zu speichern. Mit deinem Becken und mit Cora Max ist alles in Ordnung, und auf diesem Bildschirm musst du nichts ändern. Die Lösung ist ein Update von Cora Cloud. Öffne **Einstellungen → Cora Max-Einstellungen** und scroll zum Bereich **Status**, wo die Zeile **Cloud-Speichern** sagt, welche Daten betroffen sind. Dann [wende dich an den Support](/support.html) |
 | **Offline** | Keine Verbindung. Der Bildschirm zeigt die letzten Daten, die er bekommen hat |
-| **Offline, erneuter Versuch in 45s** | Dein Netzwerk läuft, aber Cora Cloud ist seit mehr als 30 Sekunden nicht erreichbar. Cora Max verbindet sich von selbst neu, und der Countdown zeigt, wann es den nächsten Versuch macht |
+| **Offline, erneuter Versuch in 30s** | Dein Netzwerk läuft, aber Cora Cloud ist seit etwa 15 Sekunden nicht erreichbar. Cora Max verbindet sich von selbst neu, und der Countdown zeigt, wann es den nächsten Versuch macht |
 | **Haupt-Cora offline** | Dieser Bildschirm ist ein zweites Cora Max für dieses Becken, und das **Primäre Cora Max** (das festgelegte Gerät, das die Ausrüstung dieses Beckens abfragt) ist offline gegangen. Dieser Bildschirm zeigt weiter die letzten Daten, die er hat, bis das primäre zurückkommt oder du ein anderes Primäres Cora Max wählst. Mehr dazu unter [Mehr als ein Cora-Gerät](/help/mobile-multi-device) |
 | **Apex-Passwort** | Dein Apex hat das gespeicherte Passwort abgelehnt. Schau in die [Problembehebung](/help/troubleshooting) |
 
 :::note So funktioniert der Countdown für neue Versuche
-Cora Max versucht in gleichmäßigem Takt, sich neu zu verbinden. Es wartet etwa 15 Sekunden nach dem ersten Abbruch, dann wieder 15 Sekunden, dann zweimal 30 Sekunden und danach einmal pro Minute, bis es durchkommt. Es gibt nie auf. **Offline, erneuter Versuch in 45s** ist normal.
+Cora Max versucht in gleichmäßigem Takt, sich neu zu verbinden. Es wartet etwa 15 Sekunden nach dem ersten Abbruch, dann wieder 15 Sekunden, dann zweimal 30 Sekunden und danach einmal pro Minute, bis es durchkommt. Es gibt nie auf. **Offline, erneuter Versuch in 30s** ist normal.
 :::
 
 ## Das Dashboard {#the-dashboard}
@@ -81,7 +81,7 @@ Tippe auf den Beckennamen, um das Menü für das angezeigte Becken zu öffnen.
 | **Gesundheitsberichte** | Gesundheitsbewertungen |
 | **Wartung** | Die [Aufgabenliste](/help/max-records) |
 | **ICP-Berichte** | Hochgeladene [Laborergebnisse](/help/max-intelligence) |
-| **Parameterverlauf** | Einen beliebigen Wasserwert mit Daten wählen und sein [Diagramm](/help/max-intelligence) öffnen |
+| **Werteverlauf** | Einen beliebigen Wasserwert mit Daten wählen und sein [Diagramm](/help/max-intelligence) öffnen |
 | **Warnschwellen** | Der [gesunde Bereich](/help/max-alerts) für jeden Wert dieses Beckens |
 | **Besatz** | Der Bestand dieses Beckens, auf diesem Bildschirm nur zum Ansehen |
 | **Aktivität** | [Jede Steckdose, Fütterung und Dosierung](/help/max-activity) und was passiert ist |

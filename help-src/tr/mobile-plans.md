@@ -34,7 +34,7 @@ Bir hak bittiğinde Cora'nın sizin için daha önce hazırladığı her şeyi o
 
 ## Deneme süresi {#the-trial}
 
-**30 günlük Advanced denemeniz hesabınızı oluşturduğunuzda başlar**. Bir özelliği ilk kullanmanızı beklemez ve kart gerekmez. **Hesap ve Abonelik**, onu bittiği tarihle birlikte **Cora Advanced Denemesi** olarak gösterir.
+**30 günlük Advanced denemeniz hesabınızı oluşturduğunuzda başlar**. Bir özelliği ilk kullanmanızı beklemez ve kart gerekmez. **Hesap ve Abonelik**, onu bittiği tarihle birlikte **Cora Advanced Denemesi** olarak gösterir. Deneme yeni hesaplar içindir. Daha önce abone olduysanız yeni bir hesap bir deneme daha almaz.
 
 | Deneme süresince | |
 |---|---|
@@ -60,7 +60,7 @@ Bittiğinde hesabınız Free'ye döner. **Hiçbir şey silinmez.** Elinizdeki he
 | ICP analizi / ay | 1 | 3 | 30 |
 | Yapay zeka izlemeli akvaryum | 1 | 5 | 20 |
 
-Sesli oturumların kendi sayacı vardır ve her sesli yanıt mesaj hakkınızdan da düşer. Her ücretli plan Reef Buddy'yi, Cora'nın okuduğu laboratuvarlar için ICP yükleme ve analizini, kendi geçmişinizle karşılaştırmayı ve panolar için **Yapay zeka ile tasarla**'yı (her akvaryum için günde en fazla 5 tasarım) içerir.
+Sesli oturumların kendi sayacı vardır ve her sesli yanıt mesaj hakkınızdan da düşer. Her ücretli plan Reef Buddy'yi, Cora'nın okuduğu laboratuvarlar için ICP yükleme ve analizini, kendi geçmişinizle karşılaştırmayı ve panolar için **Yapay zeka ile tasarla**'yı (her akvaryum için günde en fazla 5 başarılı tasarım; gün UTC gece yarısı sıfırlanır) içerir.
 
 
 :::note Expert planı Cora Max ekranı değildir
@@ -69,7 +69,7 @@ Sesli oturumların kendi sayacı vardır ve her sesli yanıt mesaj hakkınızdan
 
 ### Hangi akvaryumlar yapay zeka alır {#which-tanks-get-ai}
 
-Reef Buddy ve yapay zeka izlemesi, **Ayarlar → Akvaryumları yeniden sırala** listesinin üstünden sayılarak planınızın izin verdiği kadar akvaryumu kapsar. Bir akvaryumu dahil etmek için onu listede yukarı taşıyın. Kaldırılan akvaryumlar yer kaplamaz.
+Reef Buddy ve yapay zeka izlemesi, **Ayarlar → Akvaryumları yeniden sırala** listesinin üstünden sayılarak planınızın izin verdiği kadar akvaryumu kapsar. Bir akvaryumu dahil etmek için onu listede yukarı taşıyın. Kaldırılan akvaryumlar yer kaplamaz. Hâlâ döngüsünü yaptığınız bir akvaryum (Yeni Akvaryum Modu) her zaman kapsanır ve yer kaplamaz.
 
 ## Abone olma ya da yükseltme {#subscribing}
 
@@ -116,7 +116,7 @@ Yükseltmek için yukarıdaki gibi **Yükselt**'i ya da **Expert'e yükselt**'i 
 
 Ödeme yaptığınız mağaza üzerinden iptal edersiniz. Cora içinden iptal edemezsiniz. Planınız ödediğiniz dönemin sonuna kadar sürer, sonra Free'ye döner.
 
-En hızlı yol **Ayarlar → hesap kartınız → Aboneliği Yönet**'tir. Planı diğer türden bir telefonda aldıysanız Cora bunu söyler (*App Store'dan satın alındı* ya da *Google Play'den satın alındı*) ve **Devam et** o mağazanın sayfasını açar.
+En hızlı yol **Ayarlar → hesap kartınız → Aboneliği Yönet**'tir. Planı diğer türden bir telefonda aldıysanız Cora bunu söyler (*App Store'dan satın alındı* ya da *Google Play'den satın alındı*) ve **Devam** o mağazanın sayfasını açar.
 
 **Aboneliği Yönet** yoksa doğrudan mağazaya gidin.
 

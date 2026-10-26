@@ -131,7 +131,7 @@
 <summary>Primeros pasos</summary><ul>
 <li><a href="/es/help/max-setup">Configurar Cora Max</a></li>
 <li><a href="/es/help/max-tour">La pantalla de inicio de Cora Max</a></li>
-<li><a href="/es/help/max-reef-room">El cuarto de los acuarios</a></li>
+<li><a href="/es/help/max-reef-room">La sala del arrecife</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Tu panel</summary><ul>
@@ -187,10 +187,10 @@
 <aside class="cal cal-warning"><p class="cal-t">Algunos equipos siguen funcionando vacíos</p><p>Un cabezal DŌS con el recipiente vacío sigue con su horario y registra dosis que nunca dio. No tiene ningún aviso propio de nivel bajo. La alerta de reposición es la forma de detectarlo, así que configura una para cada cabezal con el que dosifiques.</p></aside>
 <h2 id="after-refilling">Después de rellenar</h2>
 <p>Díselo a Cora en la página del dispositivo, para que la alerta desaparezca y el siguiente aviso se calcule desde el nivel correcto.</p>
-<div class="tw"><table class="stack"><thead><tr><th>Dispositivo</th><th>Toca</th></tr></thead><tbody><tr><td data-th="Dispositivo">Cabezal DŌS</td><td data-th="Toca"><strong>Llenar</strong> y después <strong>Lleno</strong>, o pon el <strong>Volumen restante</strong></td></tr><tr><td data-th="Dispositivo">Recipiente de residuos del DŌS</td><td data-th="Toca">Restablece su espacio libre a lleno después de vaciarlo</td></tr><tr><td data-th="Dispositivo">Cabezal ReefDose</td><td data-th="Toca"><strong>Restante en la botella</strong></td></tr><tr><td data-th="Dispositivo">ReefMat</td><td data-th="Toca"><strong>Nuevo rollo</strong> después de poner un rollo nuevo</td></tr></tbody></table></div>
+<div class="tw"><table class="stack"><thead><tr><th>Dispositivo</th><th>Toca</th></tr></thead><tbody><tr><td data-th="Dispositivo">Cabezal DŌS</td><td data-th="Toca"><strong>Llenar</strong> y después <strong>Lleno</strong>, o pon el <strong>Volumen restante</strong></td></tr><tr><td data-th="Dispositivo">Recipiente de residuos del DŌS</td><td data-th="Toca">Restablece su espacio libre a lleno después de vaciarlo</td></tr><tr><td data-th="Dispositivo">Cabezal ReefDose</td><td data-th="Toca"><strong>Restante en la botella</strong></td></tr></tbody></table></div>
 <p>Trident, ReefATO+ y AquaWiz informan de sus propios niveles, así que no hay nada que restablecer en Cora.</p>
       <nav class="pn" aria-label="Seguir leyendo"><a class="pn-p" href="/es/help/mobile-probes"><span>Anterior</span><b>Asignación de parámetros y sondas</b></a><a class="pn-n" href="/es/help/mobile-alerts"><span>Siguiente</span><b>Alertas y umbrales</b></a></nav>
-      <p class="stamp">Escrito para Cora Max 0.28.238 y Cora Mobile 1.4.14. Última revisión el 2026-10-13.</p>
+      <p class="stamp">Escrito para Cora Max 0.28.240 y Cora Mobile 1.4.16. Última revisión el 2026-10-13.</p>
       <p class="ask">¿Sigues atascado? Escribe a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> y te ayudamos.</p>
     </article>
   </main>
@@ -581,7 +581,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/es/help/search.json?v=9384433ffe').then(function (r) { return r.json(); })
+    fetch('/es/help/search.json?v=1d5700fe42').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "es"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La b\u00fasqueda no est\u00e1 disponible. Usa la navegaci\u00f3n." + '</li>';

@@ -90,7 +90,7 @@ Accedi una sola volta, così Cora trova i tuoi controller. Dopo, Cora conserva s
 
 Ottieni l'alcalinità come fonte, e anche il pH se la tua unità lo riporta e **Leggi anche il pH** è attivo. La prima lettura arriva appena colleghi, insieme alle ultime 6 ore di storico. Dopo, il servizio Cora di AquaWiz invia una lettura ogni 12 ore, che è il limite di AquaWiz, quindi una lettura da lì può avere anche mezza giornata. Un Cora Max nella vasca può anche leggere il controller da solo ogni ora, quando riesce a raggiungerlo. Apri la pagina del dispositivo per vedere quando è stata misurata ogni lettura e da dove viene, e tocca **Leggi ora** per averne una fresca (al massimo una ogni 15 minuti). Cosa mostra la scheda AquaWiz, e i suoi avvisi, sono in [Controllare la tua attrezzatura](/help/mobile-device-control#aquawiz).
 
-Per spostare il controller in un'altra vasca, apri la sua pagina in **Dispositivi** e tocca **Modifica** sotto **Acquari**. Non devi accedere di nuovo ad AquaWiz.
+Per spostare il controller in un'altra vasca, apri la sua pagina in **Dispositivi** e tocca **Modifica** sotto **Vasche**. Non devi accedere di nuovo ad AquaWiz.
 
 :::note Cora conserva solo il tuo nome utente
 Cora usa la tua password una sola volta, mentre colleghi, e non la memorizza. Cambiare la password AquaWiz non scollega Cora. Scollegare ferma la lettura del controller e fa dimenticare a Cora il tuo nome utente; non ti disconnette dall'app AquaWiz. Le letture esistenti restano.
@@ -103,7 +103,7 @@ Cora raggiunge un AquaWiz in un massimo di tre modi, che lavorano insieme.
 | Via | Cosa dà a Cora | Con che frequenza |
 | --- | --- | --- |
 | Il tuo accesso ad AquaWiz | Usato una sola volta, quando colleghi, per trovare i tuoi controller. Dopo, Cora conserva solo il tuo nome utente. | Una volta |
-| Il servizio Cora di AquaWiz | L'ultima lettura di KH e pH, le ultime 6 ore di storico e le impostazioni del controller (KH obiettivo, intensità di dosaggio, integratore rimasto, stato di pompa e sonda pH, firmware). | Quando associ, poi ogni 12 ore (limite di AquaWiz) e quando apri la pagina del dispositivo o tocchi **Leggi ora** (al massimo ogni 15 minuti) |
+| Il servizio Cora di AquaWiz | L'ultima lettura di KH e pH, le ultime 6 ore di storico e le impostazioni del controller (KH obiettivo, intensità di dosaggio, integratore rimasto, stato di pompa e sonda pH, firmware). | Quando colleghi, poi ogni 12 ore (limite di AquaWiz) e quando apri la pagina del dispositivo o tocchi **Leggi ora** (al massimo ogni 15 minuti) |
 | Un Cora Max alla vasca | Legge il controller direttamente sul suo Wi-Fi e aggiunge gli avvisi sul livello del water box. | Ogni ora |
 
 Senza un Cora Max le letture arrivano ogni 12 ore, che è il limite di AquaWiz, quindi una lettura può avere anche mezza giornata. **Vuoi letture ogni ora? Aggiungi un Cora Max alla vasca.** [Scopri Cora Max](https://coraiq.tech/it/#max) e [configuralo](/help/max-setup). Richiede il controller nel raggio del Wi-Fi di Cora Max e un firmware del controller con accesso locale. I dettagli sono in [Lettura oraria da Cora Max](/help/max-device-control#aquawiz-hourly).

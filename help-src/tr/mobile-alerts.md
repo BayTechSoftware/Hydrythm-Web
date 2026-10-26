@@ -106,12 +106,12 @@ Cora'nın ne kadar beklediği cihaza bağlıdır:
 | Neptune Apex | Güncelleme olmadan yaklaşık 30 dakika |
 | Red Sea ReefBeat | Yaklaşık 30 dakika |
 | AquaWiz | Yaklaşık 25 saat, çünkü AquaWiz Cora'nın bulutunu yalnızca 12 saatte bir okumasına izin verir |
-| Jecod pompaları | Pompanın okuma aralığına göre üst üste üç kaçırılan ölçüm (varsayılan 30 ile 90 dakika) |
+| Jecod pompaları | Pompanın okuma aralığına göre üst üste üç kaçırılan ölçüm (varsayılan 30 dakikalık aralıkta 90 dakika) |
 | Zigbee akıllı prizi | Hub yeniden başladıktan 30 dakika sonra hâlâ dönmemişse. Uyarının onu adıyla anması için **Yeniden adlandır** ile ad verin |
 
 Neyi kontrol edeceğiniz Cora'nın cihazı nasıl okuduğuna bağlıdır.
 
-- Apex, ReefBeat ve Jecod'u bir Cora Max Wi-Fi üzerinden okur. Cihazın gücünü ve Wi-Fi'ını, ayrıca onu okuyan Cora Max'in açık ve çevrimiçi olduğunu kontrol edin.
+- Apex, ReefBeat ve Jecod'u bir Cora Max Wi-Fi üzerinden okur. Cihazın gücünü ve Wi-Fi'sini, ayrıca onu okuyan Cora Max'in açık ve çevrimiçi olduğunu kontrol edin.
 - AquaWiz, üreticideki hesabınız üzerinden okunur. Cora Mobile'da cihazın sayfasındaki hesap bağlantısını kontrol edin.
 
 

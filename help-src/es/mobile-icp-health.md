@@ -80,7 +80,7 @@ Recibes una puntuación sobre 100 y un resumen en lenguaje sencillo de lo que si
 
 La puntuación compara tus resultados con sus rangos objetivo, incluidos los rangos que hayas fijado tú. Si algún resultado está fuera de su rango, la puntuación no puede pasar de 70, así que no puede decir **Saludable**. Si uno está muy fuera, no puede pasar de 40, por buenos que sean los demás. La etiqueta bajo la puntuación dice **Saludable** de 71 a 100, **Necesita atención** de 40 a 70 y **Crítico** de 0 a 39. Los informes de salud se puntúan igual.
 
-Se sigue cada elemento, incluidos los oligoelementos y los contaminantes además de los parámetros principales. Cora registra los 71 elementos que puede informar un laboratorio, y la línea que algunos laboratorios llaman *Acidez* es el pH.
+Se sigue cada elemento, incluidos los oligoelementos y los contaminantes además de los parámetros principales. Cora registra todos los elementos y contaminantes que puede informar un laboratorio, y la línea que algunos laboratorios llaman *Acidez* es el pH.
 
 En cada fila de elemento verás el rango que imprimió el laboratorio, mostrado como *Rango del laboratorio*, junto al rango propio de Cora para ese elemento. Un elemento para el que Cora no tiene rango de referencia lleva la etiqueta **Sin rango de Cora**. El informe indica cuántos elementos tienen un rango de Cora y valora el resto con el conocimiento general de arrecife. Cora Assistant comenta todos los elementos analizados, y su comentario se mantiene aunque no haya rango de Cora.
 

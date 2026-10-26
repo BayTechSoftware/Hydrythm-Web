@@ -18,7 +18,7 @@ Cette page explique ce que vous voyez sur Cora Max. Il affiche un aquarium à la
 
 De gauche à droite :
 
-1. **L’icône de grille** ouvre [la Pièce du récif](/help/max-reef-room), la vue d’ensemble de tous les aquariums affichés par cet écran.
+1. **L’icône de grille** ouvre [la Salle du récif](/help/max-reef-room), la vue d’ensemble de tous les aquariums affichés par cet écran.
 2. **Le nom de l’aquarium**, avec une petite flèche. Touchez-le pour ouvrir le **menu de l’aquarium**, qui contient tous les écrans de l’aquarium affiché. La liste complète est plus bas.
 3. **Les étiquettes d’alerte** montrent ce qui demande votre attention en ce moment : mesures hors plage, pannes d’appareils, doses manquées ou consommables bas. Touchez une étiquette pour ramener cette alerte au milieu de l’écran. S’il y en a plus que la place ne le permet, vous verrez **+2** (ou le nombre qui convient). Touchez-le pour voir toutes les alarmes actives.
 4. **L’horloge**. Vous pouvez la masquer avec **Afficher l’horloge** dans **Paramètres → Paramètres Cora Max**.
@@ -47,12 +47,12 @@ Toucher l’icône Cora Assistant lance une session vocale en direct. Si vous vo
 | **Échec de la synchronisation cloud** | Votre Apex a répondu, mais ses mesures n’ont pas pu être enregistrées dans Cora Cloud, donc le tableau de bord prend du retard. Cora Max continue d’essayer |
 | **Enregistrement cloud refusé** | Cora Cloud refuse d’enregistrer une partie des données de cet écran. Rien ne va mal avec votre aquarium ni avec Cora Max, et rien n’est à changer sur cet écran. La solution est une mise à jour de Cora Cloud. Ouvrez **Paramètres → Paramètres Cora Max** et faites défiler jusqu’à la section **État**, où la ligne **Enregistrement cloud** indique quelles données sont concernées. Puis [contactez l’assistance](/support.html) |
 | **Hors ligne** | Pas de connexion. L’écran affiche les dernières données reçues |
-| **Hors ligne, nouvelle tentative dans 45 s** | Votre réseau fonctionne, mais Cora Cloud est injoignable depuis plus de 30 secondes. Cora Max se reconnecte tout seul, et le compte à rebours indique quand il réessaie |
+| **Hors ligne, nouvelle tentative dans 30 s** | Votre réseau fonctionne, mais Cora Cloud est injoignable depuis environ 15 secondes. Cora Max se reconnecte tout seul, et le compte à rebours indique quand il réessaie |
 | **Cora principal hors ligne** | Cet écran est un deuxième Cora Max pour cet aquarium, et le **Cora Max principal** (celui épinglé pour lire l’équipement de cet aquarium) s’est déconnecté. Cet écran continue d’afficher les dernières données qu’il a jusqu’au retour du principal ou jusqu’à ce que vous choisissiez un autre Cora Max principal. Plus de détails dans [Plus d’un appareil Cora](/help/mobile-multi-device) |
 | **Mot de passe Apex** | Votre Apex a refusé le mot de passe enregistré. Consultez [Résolution de problèmes](/help/troubleshooting) |
 
 :::note Comment fonctionne le compte à rebours
-Cora Max essaie de se reconnecter à un rythme régulier. Il attend environ 15 secondes après la première coupure, puis encore 15 secondes, puis 30 secondes deux fois, puis une fois par minute jusqu’à ce que cela passe. Il n’abandonne jamais. **Hors ligne, nouvelle tentative dans 45 s** est normal.
+Cora Max essaie de se reconnecter à un rythme régulier. Il attend environ 15 secondes après la première coupure, puis encore 15 secondes, puis 30 secondes deux fois, puis une fois par minute jusqu’à ce que cela passe. Il n’abandonne jamais. **Hors ligne, nouvelle tentative dans 30 s** est normal.
 :::
 
 ## Le tableau de bord {#the-dashboard}
@@ -91,7 +91,7 @@ Touchez le nom de l’aquarium pour ouvrir le menu de l’aquarium affiché.
 
 ## Changer d’aquarium {#switching-tanks}
 
-Touchez l’**icône de grille** tout à gauche de la barre du haut pour aller à [la Pièce du récif](/help/max-reef-room), puis ouvrez l’aquarium voulu. Vous pouvez aussi balayer vers la gauche ou la droite sur le tableau de bord. Chaque aquarium a sa propre disposition, donc tout l’écran change quand vous passez de l’un à l’autre.
+Touchez l’**icône de grille** tout à gauche de la barre du haut pour aller à [la Salle du récif](/help/max-reef-room), puis ouvrez l’aquarium voulu. Vous pouvez aussi balayer vers la gauche ou la droite sur le tableau de bord. Chaque aquarium a sa propre disposition, donc tout l’écran change quand vous passez de l’un à l’autre.
 
 ## Le tiroir Prises et nourrissage {#the-outlets-feed-drawer}
 

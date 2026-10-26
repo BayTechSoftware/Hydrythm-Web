@@ -19,7 +19,7 @@ La carte en haut indique si ce téléphone autorise les notifications de Cora (*
 |---|---|
 | **Alertes de paramètres** | La chimie de l’eau hors d’une plage que vous avez réglée, et la notification de *retour à la normale* quand elle y revient |
 | **Rappels d’entretien** | Les tâches que vous avez programmées, comme les changements d’eau, et un rappel unique de noter votre premier test quand un nouvel aquarium n’a toujours aucune mesure après trois jours |
-| **Pannes d’équipement** | Un appareil qui signale un problème, par exemple un Trident qui a arrêté de tester. Aussi un appareil qui [ne remonte plus de mesures](/help/mobile-alerts#stopped-reporting) et une dose manquée |
+| **Pannes d’équipement** | Un appareil qui signale un problème, par exemple un Trident qui a arrêté de tester. Aussi un appareil qui [ne remonte plus de mesures](/help/mobile-alerts#stopped-reporting), une dose manquée et une automatisation qui a échoué |
 | **Consommables bientôt épuisés** | Réactif, eau d’appoint, réservoirs de dosage, et un flacon de déchets plein |
 | **Rapport ICP prêt** | Vos résultats ICP sont analysés et prêts à lire |
 
@@ -31,7 +31,7 @@ Ces interrupteurs appartiennent à votre compte : ils s’appliquent donc à to
 Cet interrupteur ne couvre pas tout ce que l’aquarium peut vous dire. Un Trident qui a arrêté de tester est une **Panne d’équipement**. Un réactif qui s’épuise relève de **Consommables bientôt épuisés**. Chacun a son propre interrupteur. Si vous comptez depuis longtemps sur les Alertes de paramètres, vérifiez les deux autres.
 :::
 
-Le flacon de déchets compte comme un consommable même si elle se remplit au lieu de se vider. C’est quelque chose à vider avant qu’elle n’arrête les tests.
+Le flacon de déchets compte comme un consommable même s’il se remplit au lieu de se vider. C’est quelque chose à vider avant qu’il n’arrête les tests.
 
 ### Notifications sans interrupteur {#other-notifications}
 
@@ -39,6 +39,7 @@ Quelques notifications ne figurent pas dans cette liste :
 
 - Le briefing quotidien de Reef Buddy. Vous choisissez quand il arrive avec **Heure du briefing**, la ligne juste sous Notifications dans les Paramètres. Avec le forfait gratuit, il n’y a pas de notification de briefing. Plus de détails dans [Reef Buddy](/help/mobile-reef-buddy).
 - Les notifications de forfait : des rappels d’essai 7 jours et 1 jour avant la fin de l’essai et à sa fin, et un avertissement quand vous avez utilisé 80 % et 100 % de votre quota mensuel de Cora Assistant. Voir [Forfaits](/help/mobile-plans).
+- Les alertes de fuite d’un capteur de fuite. Elles arrivent toujours en notification et ne peuvent pas être désactivées ; désactiver **Alertes de paramètres** ne les fait pas taire non plus.
 
 ## Garder des nuits calmes {#quiet-at-night}
 

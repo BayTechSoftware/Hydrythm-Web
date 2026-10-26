@@ -34,7 +34,7 @@ Aunque hayas comprado Cora Max, [configura primero tus acuarios y dispositivos e
 ## Problemas habituales
 
 - [Una lectura está desactualizada](/help/troubleshooting#a-reading-is-stale)
-- ["[Dispositivo]: ha dejado de informar"](/help/troubleshooting#device-stopped-reporting)
+- ["[Dispositivo]: dejó de informar"](/help/troubleshooting#device-stopped-reporting)
 - [Mi Cora Max está desconectado](/help/troubleshooting#my-cora-max-is-offline)
 - [No me llegan las notificaciones](/help/troubleshooting#im-not-getting-notifications)
 - [Una alerta no desaparece](/help/troubleshooting#an-alert-is-not-clearing)
@@ -52,11 +52,11 @@ Aunque hayas comprado Cora Max, [configura primero tus acuarios y dispositivos e
 
 **Cora Mobile** es la app del teléfono. Aquí configuras casi todo (acuarios, dispositivos, paneles, alertas, productos de dosificación), y es lo que llevas encima cuando estás lejos del acuario. El icono de tu pantalla de inicio se llama **Cora**.
 
-**Cora Max** es la pantalla de pared para el cuarto de los acuarios. Muestra los mismos acuarios y los mismos datos en directo, lo bastante grandes para leerlos desde el otro lado de la habitación, lee tus equipos a todas horas, y puedes hablarle.
+**Cora Max** es la pantalla de pared para la sala del arrecife. Muestra los mismos acuarios y los mismos datos en directo, lo bastante grandes para leerlos desde el otro lado de la habitación, lee tus equipos a todas horas, y puedes hablarle.
 
 Los dos usan la misma cuenta, así que tus acuarios, lecturas, dispositivos y registros son los mismos en cada uno. Cada pantalla tiene su propio diseño de panel, y el Wi-Fi, el brillo, el sonido, la palabra de activación y el bloqueo infantil de un Cora Max solo se aplican a esa pantalla. Más información en [Más de un dispositivo Cora](/help/mobile-multi-device).
 
-Cada lectura muestra su fuente y su antigüedad. Si dos fuentes no coinciden, como una sonda y un kit de pruebas, Cora te lo dice en lugar de hacer la media sin avisar. Cuando algo empieza a desviarse, **Reef Buddy** lo menciona en tu resumen diario.
+Cada lectura muestra su fuente y su antigüedad. Si dos fuentes no coinciden, como una sonda y un kit de pruebas, Cora te lo dice en lugar de promediarlas sin avisar. Cuando algo empieza a desviarse, **Reef Buddy** lo menciona en tu resumen diario.
 
 ## Cora Mobile
 
@@ -74,7 +74,7 @@ Cada lectura muestra su fuente y su antigüedad. Si dos fuentes no coinciden, co
 
 | Tema | Páginas |
 |---|---|
-| Primeros pasos | [Configurar Cora Max](/help/max-setup) · [La pantalla de inicio de Cora Max](/help/max-tour) · [El cuarto de los acuarios](/help/max-reef-room) |
+| Primeros pasos | [Configurar Cora Max](/help/max-setup) · [La pantalla de inicio de Cora Max](/help/max-tour) · [La sala del arrecife](/help/max-reef-room) |
 | Tu panel | [Editar el panel de Cora Max](/help/max-dashboard-editing) |
 | Equipos | [Tomas y controles](/help/max-controls) · [Controlar equipos desde Cora Max](/help/max-device-control) · [Dispositivos y estado de los dispositivos](/help/max-devices) |
 | Alertas y automatización | [Alertas en Cora Max](/help/max-alerts) · [Escenas en Cora Max](/help/max-automation) |

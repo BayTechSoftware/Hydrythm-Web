@@ -182,7 +182,7 @@
 <p>Tocca <strong>Aggiungi attività</strong>, poi scegli:</p>
 <ul><li><strong>Da modello</strong> per un lavoro comune con l'intervallo già inserito. Sceglilo, poi imposta quando scade la prossima volta e l'ora in cui vuoi il promemoria, e tocca <strong>Conferma</strong>.</li><li><strong>Attività personalizzata</strong> per un lavoro tuo. Dagli un <strong>Nome attività</strong>, un <strong>Intervallo (giorni)</strong>, una <strong>Categoria</strong> e una <strong>Prossima data di scadenza</strong>. Attiva <strong>Promemoria</strong> e scegli <strong>Ricordamelo alle</strong> se vuoi una notifica.</li></ul>
 <p>Alcuni dei modelli, con l'intervallo da cui partono:</p>
-<div class="tw"><table class="stack"><thead><tr><th>Attività</th><th>Intervallo</th></tr></thead><tbody><tr><td data-th="Attività">Cambia i calzini filtranti</td><td data-th="Intervallo">3 giorni</td></tr><tr><td data-th="Attività">Pulisci la coppetta dello schiumatoio</td><td data-th="Intervallo">7 giorni</td></tr><tr><td data-th="Attività">Cambio d'acqua</td><td data-th="Intervallo">7 giorni</td></tr><tr><td data-th="Attività">Testa i parametri dell'acqua</td><td data-th="Intervallo">7 giorni</td></tr><tr><td data-th="Attività">Sostituisci il carbone</td><td data-th="Intervallo">30 giorni</td></tr><tr><td data-th="Attività">Calibra la sonda pH</td><td data-th="Intervallo">30 giorni</td></tr><tr><td data-th="Attività">Pulisci le pompe di movimento</td><td data-th="Intervallo">90 giorni</td></tr><tr><td data-th="Attività">Carica i risultati ICP</td><td data-th="Intervallo">90 giorni</td></tr></tbody></table></div>
+<div class="tw"><table class="stack"><thead><tr><th>Attività</th><th>Intervallo</th></tr></thead><tbody><tr><td data-th="Attività">Cambia i calzini filtranti</td><td data-th="Intervallo">3 giorni</td></tr><tr><td data-th="Attività">Pulisci il bicchiere dello schiumatoio</td><td data-th="Intervallo">7 giorni</td></tr><tr><td data-th="Attività">Cambio d'acqua</td><td data-th="Intervallo">7 giorni</td></tr><tr><td data-th="Attività">Testa i parametri dell'acqua</td><td data-th="Intervallo">7 giorni</td></tr><tr><td data-th="Attività">Sostituisci il carbone</td><td data-th="Intervallo">30 giorni</td></tr><tr><td data-th="Attività">Calibra la sonda pH</td><td data-th="Intervallo">30 giorni</td></tr><tr><td data-th="Attività">Pulisci le pompe di movimento</td><td data-th="Intervallo">90 giorni</td></tr><tr><td data-th="Attività">Carica i risultati ICP</td><td data-th="Intervallo">90 giorni</td></tr></tbody></table></div>
 <p>Puoi cambiare l'intervallo di qualsiasi attività in seguito.</p>
 <h3 id="red-sea-tasks">Attività che Cora aggiunge per l'attrezzatura Red Sea™</h3>
 <p>Quando colleghi un ReefDose, ReefATO+, ReefMat o ReefRun Red Sea, Cora aggiunge la manutenzione di cui ha bisogno quell'unità, già con l'intervallo giusto:</p>
@@ -210,7 +210,7 @@
 <aside class="cal cal-warning"><p class="cal-t">Segna un'attività come fatta solo quando l'hai fatta</p><p>La prossima scadenza viene calcolata dall'ora in cui hai fatto l'attività. Se segni come fatta un'attività ancora aperta, tutte le scadenze successive si spostano. Se l'hai fatta prima, usa <strong>Fatto prima…</strong> e scegli l'ora reale. Se non l'hai fatta, rinviala invece.</p></aside>
 <p>Non c'è modo di mettere in pausa un'attività. Per un lavoro che in questa stagione non serve, rinvialo di <strong>1 mese</strong>, oppure eliminalo e aggiungilo di nuovo più avanti.</p>
       <nav class="pn" aria-label="Continua a leggere"><a class="pn-p" href="/it/help/mobile-dosing"><span>Precedente</span><b>Prodotti di dosaggio e calcolatore di dosaggio</b></a><a class="pn-n" href="/it/help/mobile-livestock"><span>Successivo</span><b>Popolazione</b></a></nav>
-      <p class="stamp">Scritto per Cora Max 0.28.238 e Cora Mobile 1.4.14. Ultimo controllo il 2026-10-17.</p>
+      <p class="stamp">Scritto per Cora Max 0.28.240 e Cora Mobile 1.4.16. Ultimo controllo il 2026-10-17.</p>
       <p class="ask">Ancora bloccato? Scrivi a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, ti aiutiamo.</p>
     </article>
   </main>
@@ -601,7 +601,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/it/help/search.json?v=251de7c448').then(function (r) { return r.json(); })
+    fetch('/it/help/search.json?v=6ecfe81ff8').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "it"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La ricerca non \u00e8 disponibile. Usa la navigazione." + '</li>';

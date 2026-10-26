@@ -28,13 +28,13 @@ Dein Becken zu überwachen ist kostenlos und unbegrenzt. Die bezahlten Pläne ge
 | Gesundheitsberichte | 1 pro Monat |
 | ICP-Analyse | **Eine, einmalig**. Du bekommst eine einzige Analyse für die ganze Lebensdauer des Kontos, danach ist sie gesperrt |
 | KI für Becken | Nur dein erstes Becken |
-| Reef Buddy | Nicht enthalten. Du siehst eine gesperrte Karte mit **Pläne ansehen** |
+| Reef Buddy | Nicht enthalten. Du siehst eine gesperrte Karte mit **Tarife ansehen** |
 
 Ist ein Kontingent aufgebraucht, kannst du trotzdem alles lesen, was Cora schon für dich erstellt hat.
 
 ## Die Testphase {#the-trial}
 
-Deine **30-tägige Advanced-Testphase beginnt, wenn du dein Konto anlegst**. Sie wartet nicht, bis du eine Funktion zum ersten Mal nutzt, und du brauchst keine Karte. **Konto & Abo** zeigt sie als **Cora Advanced Test**, mit dem Datum, an dem sie endet.
+Deine **30-tägige Advanced-Testphase beginnt, wenn du dein Konto anlegst**. Sie wartet nicht, bis du eine Funktion zum ersten Mal nutzt, und du brauchst keine Karte. **Konto & Abo** zeigt sie als **Cora Advanced Test**, mit dem Datum, an dem sie endet. Die Testphase gilt für neue Konten. Wenn du schon einmal ein Abo hattest, bekommt ein neues Konto keine weitere.
 
 | Während der Testphase | |
 |---|---|
@@ -60,7 +60,7 @@ Es gibt drei Pläne, **Essential**, **Advanced** und **Expert**, jeweils monatli
 | ICP-Analysen / Monat | 1 | 3 | 30 |
 | Becken mit KI-Überwachung | 1 | 5 | 20 |
 
-Sprachsitzungen haben ihre eigene Zahl, und jede gesprochene Antwort verbraucht außerdem dein Nachrichtenkontingent. Jeder bezahlte Plan enthält Reef Buddy, ICP-Upload und -Analyse für die Labore, die Cora liest, den Vergleich mit deinem eigenen Verlauf und **Mit KI gestalten** für Dashboards (bis zu 5 Entwürfe pro Tag für jedes Becken).
+Sprachsitzungen haben ihre eigene Zahl, und jede gesprochene Antwort verbraucht außerdem dein Nachrichtenkontingent. Jeder bezahlte Plan enthält Reef Buddy, ICP-Upload und -Analyse für die Labore, die Cora liest, den Vergleich mit deinem eigenen Verlauf und **Mit KI gestalten** für Dashboards (bis zu 5 erfolgreiche Entwürfe pro Tag für jedes Becken; der Tag beginnt um Mitternacht UTC neu).
 
 
 :::note Der Expert-Plan ist nicht der Cora Max-Bildschirm
@@ -69,12 +69,12 @@ Der **Expert-Plan** ist ein Abo. **Cora Max** ist der Bildschirm neben deinem Be
 
 ### Welche Becken KI bekommen {#which-tanks-get-ai}
 
-Reef Buddy und die KI-Überwachung gelten für so viele Becken, wie dein Plan erlaubt, gezählt von oben in **Einstellungen → Becken neu anordnen**. Um ein Becken aufzunehmen, schieb es in der Liste nach oben. Entfernte Becken belegen keinen Platz.
+Reef Buddy und die KI-Überwachung gelten für so viele Becken, wie dein Plan erlaubt, gezählt von oben in **Einstellungen → Becken neu anordnen**. Um ein Becken aufzunehmen, schieb es in der Liste nach oben. Entfernte Becken belegen keinen Platz. Ein Becken, das du noch einfährst (Modus „Neues Becken“), ist immer abgedeckt und belegt keinen Platz.
 
 ## Ein Abo abschließen oder upgraden {#subscribing}
 
 1. Öffne **Einstellungen** und tippe oben auf die Kontokarte. **Konto & Abo** öffnet sich.
-2. Tippe neben deinem Plan auf **Pläne ansehen** (bei Free oder in der Testphase), **Upgrade** (bei Essential) oder **Auf Expert upgraden** (bei Advanced).
+2. Tippe neben deinem Plan auf **Tarife ansehen** (bei Free oder in der Testphase), **Upgrade** (bei Essential) oder **Auf Expert upgraden** (bei Advanced).
 3. Wähl **Monatlich** oder **Jährlich**. Der Jahrespreis zeigt, wie viel du sparst.
 4. Wähl einen Plan und tippe auf **Abonnieren**.
 5. Bestätige beim App Store oder bei Google Play. Dein neuer Plan wird freigeschaltet, sobald der Store ihn bestätigt.

@@ -32,7 +32,7 @@ Alcuni dei modelli, con l'intervallo da cui partono:
 | Attività | Intervallo |
 |---|---|
 | Cambia i calzini filtranti | 3 giorni |
-| Pulisci la coppetta dello schiumatoio | 7 giorni |
+| Pulisci il bicchiere dello schiumatoio | 7 giorni |
 | Cambio d'acqua | 7 giorni |
 | Testa i parametri dell'acqua | 7 giorni |
 | Sostituisci il carbone | 30 giorni |

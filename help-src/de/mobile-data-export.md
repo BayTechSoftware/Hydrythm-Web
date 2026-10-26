@@ -24,13 +24,13 @@ Cora exportiert **CSV-Dateien**. Das sind Tabellen, die sich in Excel, Numbers, 
 |---|---|
 | `cora_parameters.csv` | Deine Messwerte, jeweils mit Quelle und Zeitstempel |
 | `cora_journal.csv` | Deine Tagebucheinträge |
-| `cora_alerts.csv` | Ausgelöste Warnungen |
+| `cora_alerts.csv` | Dein Benachrichtigungsverlauf |
 | `cora_export_summary.csv` | Was dieser Export umfasst, auch alles, was abgeschnitten wurde |
 
 :::note Was im Export steckt
 Er umfasst **Messwerte, Tagebucheinträge und Warnungen**, die drei Aufzeichnungen, nach denen gefragt wird. Er ist keine Kopie deines ganzen Kontos. Dashboards, Besatz, Wartung, Automationen, Berichte und Geräteeinstellungen sind nicht enthalten.
 
-Jede der drei endet bei **25.000 Zeilen pro Becken**. Ein Becken, das alle fünf Minuten dreißig Werte protokolliert, schreibt in drei Tagen mehr als das, ein lange laufendes Becken erreicht die Grenze also. Die Zusammenfassungsdatei sagt dir, wenn das passiert ist. Prüf sie, bevor du davon ausgehst, dass der Export vollständig ist.
+Messwerte und Tagebucheinträge enden bei **25.000 Datensätzen pro Becken**, die Datei mit dem Benachrichtigungsverlauf bei 25.000 für das ganze Konto. Ein Becken mit jahrelangem Verlauf kann die Grenze erreichen. Die Zusammenfassungsdatei sagt dir, wenn das passiert ist. Prüf sie, bevor du davon ausgehst, dass der Export vollständig ist.
 :::
 
 Der Wasserwert-Export enthält die **Quelle** jedes Messwerts. In einer Tabelle deiner Alkalinität kannst du also weiterhin unterscheiden, was deine Sonde gesagt hat und was dein Testkit.
@@ -76,6 +76,6 @@ Entfernst du ein Gerät, vergisst Cora seine Anmeldung. Löschst du dein Konto, 
 
 - die anonymisierte Forschungskopie, wenn du diesen Schalter eingeschaltet gelassen hast
 - dein Store-Abo, das nur der Store kündigen kann
-- dein Kundeneintrag bei unserem Anbieter für die Abo-Verwaltung, der 120 Tage nach deinem Konto gelöscht wird, damit eine Erstattung oder ein Zahlungsstreit beim Store noch bearbeitet werden kann
+- dein Kundeneintrag bei unserem Anbieter für die Abo-Verwaltung, der 120 Tage nach der Löschung deines Kontos gelöscht wird, damit eine Erstattung oder ein Zahlungsstreit beim Store noch bearbeitet werden kann
 
 Wie du dich auf einem anderen Handy wieder anmeldest oder deine Anmeldung änderst, steht unter [Anmelden und Konto wiederherstellen](/help/mobile-account). Abos und Abrechnung stehen unter [Pläne und Abos](/help/mobile-plans).

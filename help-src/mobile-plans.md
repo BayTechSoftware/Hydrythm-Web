@@ -34,7 +34,7 @@ When an allowance runs out, you can still read everything Cora has already made 
 
 ## The trial {#the-trial}
 
-Your **30-day Advanced trial starts when you create your account**. It doesn't wait until you first use a feature, and you don't need a card. **Account & Subscription** shows it as **Cora Advanced Trial**, with the date it ends.
+Your **30-day Advanced trial starts when you create your account**. It doesn't wait until you first use a feature, and you don't need a card. **Account & Subscription** shows it as **Cora Advanced Trial**, with the date it ends. The trial is for new accounts. If you have subscribed before, a new account does not get another one.
 
 | During the trial | |
 |---|---|
@@ -60,7 +60,7 @@ There are three plans, **Essential**, **Advanced** and **Expert**, each monthly 
 | ICP analyses / month | 1 | 3 | 30 |
 | Tanks with AI monitoring | 1 | 5 | 20 |
 
-Voice sessions have their own count, and every spoken reply also uses up your message allowance. Every paid plan includes Reef Buddy, ICP upload and analysis for the labs Cora reads, comparison with your own history, and **Design with AI** for dashboards (up to 5 designs a day for each tank).
+Voice sessions have their own count, and every spoken reply also uses up your message allowance. Every paid plan includes Reef Buddy, ICP upload and analysis for the labs Cora reads, comparison with your own history, and **Design with AI** for dashboards (up to 5 successful designs a day for each tank; the day resets at midnight UTC).
 
 
 :::note The Expert plan isn't the Cora Max screen
@@ -69,7 +69,7 @@ The **Expert plan** is a subscription. **Cora Max** is the screen that sits by y
 
 ### Which tanks get AI {#which-tanks-get-ai}
 
-Reef Buddy and AI monitoring cover as many tanks as your plan allows, counted from the top of **Settings → Reorder tanks**. To bring a tank in, move it up the list. Removed tanks don't take a place.
+Reef Buddy and AI monitoring cover as many tanks as your plan allows, counted from the top of **Settings → Reorder tanks**. To bring a tank in, move it up the list. Removed tanks don't take a place. A tank you are still cycling (New Tank Mode) is always covered and doesn't use up a place.
 
 ## Subscribing or upgrading {#subscribing}
 

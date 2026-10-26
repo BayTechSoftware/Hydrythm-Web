@@ -76,7 +76,7 @@ Jeśli wyszukiwanie nic nie znajdzie, wynik pokazuje adresy sprawdzone przez Wi-
 Jej strona pokazuje ostatnie ustawienia odczytane przez Corę i to, jak dawno to było. Każda zmiana, nawet uruchomienie przerwy na karmienie, wymaga pompy w zasięgu. Stań blisko niej i ponownie otwórz stronę.
 :::
 
-Przy obu połączeniach dostajesz stan na żywo, tryb i intensywność, przerwę na karmienie i program dnia. Przerwa na karmienie uruchomiona z telefonu przy niektórych pompach wymaga otwartej strony pompy. Szczegóły są w [Sterowaniu sprzętem](/help/mobile-device-control#jecod), a program dnia opisują [Harmonogramy sprzętu](/help/mobile-schedules).
+Przy obu połączeniach dostajesz stan na żywo, tryb i intensywność, przerwę na karmienie i harmonogram. Przerwa na karmienie uruchomiona z telefonu przy niektórych pompach wymaga otwartej strony pompy. Szczegóły są w [Sterowaniu sprzętem](/help/mobile-device-control#jecod), a program dnia opisują [Harmonogramy sprzętu](/help/mobile-schedules).
 
 ## AquaWiz KH Controller {#aquawiz-kh-controller}
 

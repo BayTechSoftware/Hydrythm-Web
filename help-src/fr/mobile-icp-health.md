@@ -48,7 +48,7 @@ Si vous vous êtes connecté avec une adresse Apple masquée, les laboratoires n
 
 Certains laboratoires peuvent envoyer un résultat directement à Cora, et un PDF ICP que vous envoyez par e-mail arrive de la même façon. Vous n’avez rien à importer vous-même.
 
-Si vous avez un seul aquarium, un résultat d’un laboratoire de confiance, ou un résultat que vous avez envoyé par e-mail, va directement dans cet aquarium. Avec plusieurs aquariums, vous verrez un bandeau : *« Un résultat de laboratoire de {lab} vous attend. »* Touchez **Choisir l'aquarium** et choisissez l’aquarium auquel il appartient. Cora ne peut pas le deviner tout seul.
+Si vous avez un seul aquarium, un résultat d’un laboratoire de confiance, ou un résultat que vous avez envoyé par e-mail, va directement dans cet aquarium. Avec plusieurs aquariums, vous verrez un bandeau : *« Un résultat de laboratoire de {lab} vous attend. »* Touchez **Choisir un aquarium** et choisissez l’aquarium auquel il appartient. Cora ne peut pas le deviner tout seul.
 
 Le rapport affiche **Envoyé par {lab}** près du haut, ou **Reçu par e-mail**, pour que vous le distinguiez d’un rapport que vous avez importé.
 
@@ -80,7 +80,7 @@ Vous obtenez un score sur 100 et un résumé en langage simple de ce que cela si
 
 Le score compare vos résultats avec leurs plages cibles, y compris les plages que vous avez réglées vous-même. Si un résultat est hors de sa plage, le score ne peut pas dépasser 70, il ne peut donc pas indiquer **Sain**. Si l’un est très hors plage, il ne peut pas dépasser 40, aussi bons que soient les autres. L’étiquette sous le score indique **Sain** de 71 à 100, **Attention requise** de 40 à 70 et **Critique** de 0 à 39. Les rapports de santé sont notés de la même façon.
 
-Chaque élément est suivi, y compris les oligoéléments et les contaminants en plus des paramètres principaux. Cora enregistre les 71 éléments qu’un laboratoire peut indiquer, et la ligne que certains laboratoires appellent *Acidity* est le pH.
+Chaque élément est suivi, y compris les oligoéléments et les contaminants en plus des paramètres principaux. Cora enregistre tous les éléments et contaminants qu’un laboratoire peut indiquer, et la ligne que certains laboratoires appellent *Acidity* est le pH.
 
 Sur la ligne de chaque élément, vous voyez la plage imprimée par le laboratoire, affichée comme *Plage du laboratoire*, à côté de la plage propre à Cora pour cet élément. Un élément pour lequel Cora n’a pas de plage de référence porte l’étiquette **Pas de plage Cora**. Le rapport indique combien d’éléments ont une plage Cora et évalue les autres à partir des connaissances générales sur le récif. Cora Assistant commente chaque élément testé, et son commentaire vaut même quand il n’y a pas de plage Cora.
 
@@ -102,7 +102,7 @@ Un ICP vous dit où vous en êtes. Le deuxième vous dit dans quelle direction v
 
 ## Un test d’eau RO/DI ou d’eau de départ
 
-Si vous importez de l’eau RO/DI ou une autre eau de départ, choisissez **Eau RO/DI** à l’import. Cora ne la note pas par rapport aux cibles de votre aquarium. Il donne un verdict simple sur la propreté suffisante de l’eau pour l’utiliser, et garde ces chiffres en dehors des mesures de votre aquarium. Elle est enregistrée comme un rapport séparé. Cora fait de même pour **Mélange de sel** ou **Autre** : il dit à quoi ressemble l’échantillon et ne le note pas comme votre aquarium.
+Si vous importez de l’eau RO/DI ou une autre eau de départ, choisissez **Eau RO/DI** à l’import. Cora ne la note pas par rapport aux cibles de votre aquarium. Cora donne un verdict simple : l’eau est-elle assez propre pour être utilisée ? Ces chiffres restent en dehors des mesures de votre aquarium et sont enregistrés comme un rapport séparé. Cora fait de même pour **Mélange de sel** ou **Autre** : il dit à quoi ressemble l’échantillon et ne le note pas comme votre aquarium.
 
 ## Rapports de santé {#health-reports}
 

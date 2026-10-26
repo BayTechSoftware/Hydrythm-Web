@@ -47,7 +47,7 @@ In dieser Reihenfolge wischst du auch durch das Dashboard.
 
 Dein Abo deckt eine feste Zahl von Becken für das tägliche Briefing von Reef Buddy ab. Cora gibt es den ersten Becken in deiner Reihenfolge unter **Becken neu anordnen**. Bei Essential und während der 30-tägigen Testphase ist das nur dein erstes Becken. Advanced deckt 5 Becken ab und Expert 20. Mehr dazu unter [Pläne und Abos](/help/mobile-plans).
 
-Bekommt ein Becken kein Briefing, schieb es an den Anfang der Liste. Entfernte Becken zählen nicht mit.
+Bekommt ein Becken kein Briefing, schieb es an den Anfang der Liste. Entfernte Becken zählen nicht mit. Ein Becken, das du noch einfährst (Modus „Neues Becken“), ist immer abgedeckt und belegt keinen Platz.
 
 ## Ein Becken entfernen {#removing-a-tank}
 

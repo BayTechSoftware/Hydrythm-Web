@@ -26,7 +26,7 @@ Ein Cora Max zeigt **bis zu vier Becken**, und der Riffraum gibt jedem gleich vi
 Mit einem Becken öffnet Cora Max direkt das Dashboard dieses Beckens. Das Raster-Symbol bringt dich trotzdem zum Riffraum.
 
 :::note Vier Becken sind die Grenze
-Einem Cora Max kannst du höchstens vier Becken zuweisen, beim Koppeln oder später auf dem Handy unter **Geräte → dein Cora Max**. Versuchst du, ein fünftes hinzuzufügen, wirst du gebeten, zuerst eins zu entfernen. Hast du mehr Becken, nimm ein zweites Cora Max. Jedes behält seine eigene Auswahl. Die Schritte stehen unter [Cora Max einrichten](/help/max-setup#changing-which-tanks-it-shows).
+Einem Cora Max kannst du höchstens vier Becken zuweisen, beim Koppeln oder später auf dem Handy unter **Geräte → dein Cora Max**. Hat ein Cora Max schon vier Becken, ist die Taste **Becken hinzufügen** auf deinem Handy weg, entferne also zuerst eins. Hast du mehr Becken, nimm ein zweites Cora Max. Jedes behält seine eigene Auswahl. Die Schritte stehen unter [Cora Max einrichten](/help/max-setup#changing-which-tanks-it-shows).
 :::
 
 ## Was eine Kachel zeigt {#what-a-tile-shows}

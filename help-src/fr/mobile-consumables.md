@@ -58,6 +58,5 @@ Indiquez-le à Cora sur la page de l’appareil, pour que l’alerte se ferme et
 | Tête DŌS | **Remplir**, puis **Plein**, ou réglez **Volume restant** |
 | Réservoir d’eau usée DŌS | Remettez son espace libre à plein après l’avoir vidé |
 | Tête ReefDose | **Restant dans le flacon** |
-| ReefMat | **Nouveau rouleau** après avoir mis un nouveau rouleau |
 
 Trident, ReefATO+ et AquaWiz indiquent eux-mêmes leurs niveaux, il n’y a donc rien à réinitialiser dans Cora.

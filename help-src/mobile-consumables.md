@@ -58,6 +58,5 @@ Tell Cora on the device's page, so the alert clears and the next warning is work
 | DŌS head | **Fill**, then **Full**, or set **Volume Remaining** |
 | DŌS waste container | Reset its free space to full after you empty it |
 | ReefDose head | **Remaining in bottle** |
-| ReefMat | **New roll** after you load a new roll |
 
 Trident, ReefATO+ and AquaWiz report their own levels, so there's nothing to reset in Cora.

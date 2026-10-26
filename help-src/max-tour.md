@@ -47,12 +47,12 @@ Tapping the Cora Assistant icon starts a live voice session. If you wanted setti
 | **Cloud sync failed** | Your Apex answered, but its readings couldn't be saved to Cora Cloud, so the dashboard falls behind. Cora Max keeps trying |
 | **Cloud save refused** | Cora Cloud is refusing to save some of this screen's data. Nothing is wrong with your tank or with Cora Max, and nothing needs changing on this screen. The fix is a Cora Cloud update. Open **Settings → Cora Max Settings** and scroll to the **Status** section, where the **Cloud save** line says which data is affected. Then [contact support](/support.html) |
 | **Offline** | No connection. The screen shows the last data it got |
-| **Offline, retrying in 45s** | Your network is up, but Cora Cloud has been out of reach for more than 30 seconds. Cora Max reconnects by itself, and the countdown shows when it tries next |
+| **Offline, retrying in 30s** | Your network is up, but Cora Cloud has been out of reach for about 15 seconds. Cora Max reconnects by itself, and the countdown shows when it tries next |
 | **Main Cora offline** | This screen is a second Cora Max for this tank, and the **Primary Cora Max** (the one pinned to read this tank's equipment) has gone offline. This screen keeps showing the last data it has until the primary comes back or you choose a different Primary Cora Max. More in [More than one Cora device](/help/mobile-multi-device) |
 | **Apex password** | Your Apex turned down the saved password. Have a look at [Troubleshooting](/help/troubleshooting) |
 
 :::note How the retry countdown works
-Cora Max tries to reconnect at a steady pace. It waits about 15 seconds after the first drop, then 15 seconds again, then 30 seconds twice, then once a minute until it gets through. It never gives up. **Offline, retrying in 45s** is normal.
+Cora Max tries to reconnect at a steady pace. It waits about 15 seconds after the first drop, then 15 seconds again, then 30 seconds twice, then once a minute until it gets through. It never gives up. **Offline, retrying in 30s** is normal.
 :::
 
 ## The dashboard {#the-dashboard}

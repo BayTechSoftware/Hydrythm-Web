@@ -80,7 +80,7 @@ Dostajesz ocenę na 100 i podsumowanie zwykłym językiem, co to oznacza dla Two
 
 Ocena porównuje Twoje wyniki z ich zakresami docelowymi, także z tymi, które ustawiono samodzielnie. Jeśli jakikolwiek wynik jest poza zakresem, ocena nie przekroczy 70, więc nie może pokazać **Zdrowe**. Jeśli któryś jest daleko poza zakresem, nie przekroczy 40, bez względu na to, jak dobre są pozostałe. Etykieta pod oceną to **Zdrowe** od 71 do 100, **Wymaga uwagi** od 40 do 70 i **Krytyczne** od 0 do 39. Raporty zdrowia są oceniane tak samo.
 
-Śledzony jest każdy pierwiastek, w tym pierwiastki śladowe i zanieczyszczenia, a także główne parametry. Cora zapisuje wszystkie 71 pierwiastków, które może podać laboratorium, a linia, którą niektóre laboratoria nazywają *Acidity*, to pH.
+Śledzony jest każdy pierwiastek, w tym pierwiastki śladowe i zanieczyszczenia, a także główne parametry. Cora zapisuje wszystkie pierwiastki i zanieczyszczenia, które może podać laboratorium, a linia, którą niektóre laboratoria nazywają *Acidity*, to pH.
 
 W każdym wierszu pierwiastka zobaczysz zakres wydrukowany przez laboratorium, pokazany jako *Zakres laboratorium*, obok własnego zakresu Cory dla tego pierwiastka. Pierwiastek, dla którego Cora nie ma zakresu odniesienia, ma znacznik **Brak zakresu Cora**. Raport mówi, ile pierwiastków ma zakres Cory, a resztę ocenia na podstawie ogólnej wiedzy rafowej. Cora Assistant komentuje każdy przebadany pierwiastek, a jego komentarz obowiązuje także wtedy, gdy nie ma zakresu Cory.
 

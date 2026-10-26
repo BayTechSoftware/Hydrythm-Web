@@ -50,7 +50,7 @@ Si quieres otra opinión, toca **Preguntar a Cora sobre el ciclado**. Abre [Cora
 :::
 
 :::note Registra las tres pruebas
-Cora solo muestra **Parece ciclado** cuando el amoniaco y el nitrito se han *medido* en cero y hay nitrato. El nitrato solo no basta. El agua de origen suele traer algo, y por sí solo podría parecer un ciclo terminado y tentarte a añadir fauna demasiado pronto.
+Cora solo muestra **Parece ciclado** cuando el amoniaco y el nitrito se han *medido* en cero o casi cero (0,25 ppm o menos) y hay nitrato. El nitrato solo no basta. El agua de origen suele traer algo, y por sí solo podría parecer un ciclo terminado y tentarte a añadir fauna demasiado pronto.
 :::
 
 :::note Lo que cuenta son tus lecturas
@@ -98,4 +98,4 @@ Sé sincero, aunque sea **Peor**. El resultado se guarda con el itinerario, así
 
 ## Descartar un itinerario
 
-Si un itinerario de problema no te sirve, descártalo. Deja de aparecer, y Cora registra que lo descartaste para proponerte itinerarios parecidos con menos frecuencia.
+Si un itinerario de problema no te sirve, descártalo. Deja de aparecer. Si tus lecturas apuntan otra vez al mismo problema, Cora puede volver a ofrecértelo.

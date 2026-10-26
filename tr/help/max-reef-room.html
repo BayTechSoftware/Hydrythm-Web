@@ -178,7 +178,7 @@
 <p>Bir Cora Max <strong>en fazla dört akvaryum</strong> gösterir. Reef Room her birine ekranda eşit pay verir.</p>
 <div class="tw"><table class="stack"><thead><tr><th>Akvaryum</th><th>Yerleşim</th></tr></thead><tbody><tr><td data-th="Akvaryum">1</td><td data-th="Yerleşim">Tek büyük kutucuk</td></tr><tr><td data-th="Akvaryum">2</td><td data-th="Yerleşim">Yan yana</td></tr><tr><td data-th="Akvaryum">3</td><td data-th="Yerleşim">Üçü yan yana</td></tr><tr><td data-th="Akvaryum">4</td><td data-th="Yerleşim">İki satırda ikişer</td></tr></tbody></table></div>
 <p>Tek akvaryum varsa Cora Max o akvaryumun panosuyla açılır. Izgara simgesi yine de sizi Reef Room'a götürür.</p>
-<aside class="cal cal-note"><p class="cal-t">Sınır dört akvaryum</p><p>Bir Cora Max'e eşleştirirken ya da sonradan telefonunuzda <strong>Cihazlar → Cora Max'iniz</strong> yolundan en fazla dört akvaryum atayabilirsiniz. Beşinciyi eklemeye çalışırsanız önce birini kaldırmanız istenir. Daha fazla akvaryumunuz varsa ikinci bir Cora Max kullanın. Her biri kendi akvaryumlarını tutar. Adımlar <a href="/tr/help/max-setup#changing-which-tanks-it-shows">Cora Max'i kurma</a> sayfasında.</p></aside>
+<aside class="cal cal-note"><p class="cal-t">Sınır dört akvaryum</p><p>Bir Cora Max'e eşleştirirken ya da sonradan telefonunuzda <strong>Cihazlar → Cora Max'iniz</strong> yolundan en fazla dört akvaryum atayabilirsiniz. Bir Cora Max'te zaten dört akvaryum varsa telefonunuzda <strong>Akvaryum Ekle</strong> düğmesi kaybolur, bu yüzden önce birini kaldırın. Daha fazla akvaryumunuz varsa ikinci bir Cora Max kullanın. Her biri kendi akvaryumlarını tutar. Adımlar <a href="/tr/help/max-setup#changing-which-tanks-it-shows">Cora Max'i kurma</a> sayfasında.</p></aside>
 <h2 id="what-a-tile-shows">Kutucukta neler var</h2>
 <p>Her kutucuk bir akvaryumu özetler.</p>
 <ul><li>Sol kenarda, o akvaryumdaki en kötü duruma göre renklenen bir şerit.</li><li>Halka içinde bir <strong>sağlık puanı</strong> (bir ila üç akvaryumda). Yanında <em>37 parametreden 3 tanesi aralık dışı</em> (ya da <em>37 parametrenin tümü aralıkta</em>) gibi bir satır ve sınıra yakın parametrelerin sayısı yazar.</li><li>Bir durum çipi: <strong>N aralık dışı</strong>, sınıra yakın ölçümler için <strong>N izlenecek</strong>, <strong>Sağlıklı</strong> ya da henüz derecelendirilecek bir şey yokken <strong>İzleniyor</strong>.</li><li>Akvaryumun önemli ölçümleri. Daha geniş kutucuklar her birine 24 saatlik bir eğilim çizgisi ekler.</li><li><strong>Son güncelleme zamanı</strong> ve <strong>Panoyu aç</strong>.</li></ul>
@@ -188,7 +188,7 @@
 <ul><li>O akvaryuma gitmek için <strong>bir kutucuğa</strong> ya da <strong>Panoyu aç</strong>'a dokunun.</li><li>Panoda <strong>yana kaydırarak</strong> akvaryumlar arasında geçin ve Reef Room'a dönün.</li><li><strong>Izgara simgesi</strong> her akvaryum sayfasından sizi Reef Room'a geri götürür. Reef Room'un kendisinde görünmez.</li></ul>
 <p>Her akvaryumun kendi pano düzeni vardır, bu yüzden akvaryum değiştirdikçe ekran tamamen değişir. Ayrıntılar <a href="/tr/help/max-dashboard-editing">Cora Max panosunu düzenleme</a> sayfasında.</p>
       <nav class="pn" aria-label="Okumaya devam edin"><a class="pn-p" href="/tr/help/max-tour"><span>Önceki</span><b>Cora Max ana ekranı</b></a><a class="pn-n" href="/tr/help/max-dashboard-editing"><span>Sonraki</span><b>Cora Max panosunu düzenleme</b></a></nav>
-      <p class="stamp">Cora Max 0.28.238 ve Cora Mobile 1.4.14 için yazılmıştır. Son kontrol: 2026-10-13.</p>
+      <p class="stamp">Cora Max 0.28.240 ve Cora Mobile 1.4.16 için yazılmıştır. Son kontrol: 2026-10-13.</p>
       <p class="ask">Sorun devam ediyor mu? <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> adresine yazın, yardımcı olalım.</p>
     </article>
   </main>
@@ -579,7 +579,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/tr/help/search.json?v=a9e63682a9').then(function (r) { return r.json(); })
+    fetch('/tr/help/search.json?v=1a2be35337').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "tr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Arama \u015fu anda kullan\u0131lam\u0131yor. Men\u00fcy\u00fc kullan\u0131n." + '</li>';

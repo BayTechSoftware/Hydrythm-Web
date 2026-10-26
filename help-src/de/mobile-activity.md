@@ -61,7 +61,7 @@ Hast du mehr als ein Cora Max, sagt die Zeile auch, welches die Anfrage ausgefü
 
 Bei der Aktivität geht es um Ausrüstung. Bei der Zeitleiste des Beckens, auf dem Bildschirm **Riffgeschichte** genannt, geht es um das Becken. Sie zeigt Tagebucheinträge, Wartung, Änderungen am Besatz, Wassertests und Warnungen in zeitlicher Reihenfolge, mit Meilensteinen unterwegs.
 
-Um sie zu öffnen, geh zum [Tagebuch](/help/mobile-journal) und tippe oben auf das Symbol **Beckenzeitleiste**. Mit den Chips oben zeigst du nur **Tagebuch**, **Wartung**, **Besatz**, **Wassertests** oder **Warnungen**, oder **Alle**. **Ältere Geschichte laden** geht weiter zurück. Du kannst auch hier einen **Neuer Eintrag** anlegen oder einen diktieren.
+Um sie zu öffnen, geh zum [Tagebuch](/help/mobile-journal) und tippe oben auf das Symbol **Beckenzeitleiste**. Mit den Chips oben zeigst du nur **Tagebuch**, **Wartung**, **Besatz**, **Wassertests** oder **Warnungen**, oder **Alle**. **Ältere Geschichte laden** geht weiter zurück. Mit **Neuer Eintrag** kannst du hier auch einen Eintrag anlegen oder diktieren.
 
 Nimm die Aktivität, wenn du wissen willst *"Was hat etwas getan?"* Nimm die Zeitleiste, wenn du wissen willst *"Was war rund um dieses Datum los?"*
 

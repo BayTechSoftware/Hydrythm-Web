@@ -186,7 +186,7 @@
 <p>If the scene asks before running, Cora Max first lists what it's about to do, one line per step. Read it, then run it or cancel.</p>
 <p>While a timed scene runs, its tile counts down to the end and shows <strong>Stop</strong> if you want to end it early. A permanent scene's tile shows it as running until you tap <strong>Stop</strong>. When a scene ends or you stop it, the tile shows <strong>Restoring…</strong> while Cora puts the equipment back.</p>
 <p>Running or stopping a scene goes through Cora Cloud, like any other command. You'll find the result in <a href="/help/max-activity">Activity</a>.</p>
-<p>Scenes can't be run by voice on Cora Max. Use the tile, <strong>Settings → Automations</strong>, or your phone.</p>
+<p>You can also run a scene by voice: <em>"Run the water change scene."</em> Child lock blocks it like any other control. Otherwise use the tile, <strong>Settings → Automations</strong>, or your phone.</p>
 <p>If a scene won't run or won't stop, have a look at <a href="/help/troubleshooting">Troubleshooting</a>.</p>
 <aside class="cal cal-note"><p class="cal-t">Child lock covers scenes too</p><p>While <a href="/help/max-settings#child-lock">Child lock</a> has locked the screen, you can't run, stop or edit a scene from it, just like every other control.</p></aside>
 <p>A step that fails or has to wait does not stay pending. It expires at once, the run is recorded as failed, and you get a notification that names the automation, the step and why. A step fails when, for example, its device is offline, no Cora Max is available to carry it out, the device refuses it or doesn't answer, or a heater or chiller was switched a moment ago. A step on a removed tank doesn't notify you.</p>
@@ -194,7 +194,7 @@
 <p>To change a scene, open it from <strong>Settings → Automations</strong> or long-press its tile on the dashboard. Change what you need and tap <strong>Save</strong>. To remove it, tap <strong>Delete Scene</strong>. This can't be undone.</p>
 <aside class="cal cal-note"><p class="cal-t">An older Cora Max can run a scene but not edit it</p><p>Older Cora Max versions still show and run every scene, but can't change one. Update Cora Max (<a href="/help/max-updates">Updates and recovery</a>), or edit the scene on your phone.</p></aside>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/max-alerts"><span>Previous</span><b>Alerts on Cora Max</b></a><a class="pn-n" href="/help/max-records"><span>Next</span><b>Journal, livestock and maintenance</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.238 and Cora Mobile 1.4.14. Last checked 2026-10-24.</p>
+      <p class="stamp">Written for Cora Max 0.28.240 and Cora Mobile 1.4.16. Last checked 2026-10-24.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>
@@ -585,7 +585,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/help/search.json?v=5ca35b2a08').then(function (r) { return r.json(); })
+    fetch('/help/search.json?v=d076232951').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "en"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';

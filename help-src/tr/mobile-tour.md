@@ -32,7 +32,7 @@ Ayrıntılar [Panonuzu okuma](/help/mobile-dashboard) sayfasında.
 
 ## Cihazlar {#devices}
 
-Bağladığınız her şey burada, markaya göre gruplanmış olarak durur. Her grubu daraltabilirsiniz, böylece ekipmanla dolu bir reef odası bile kolayca okunur.
+Bağladığınız her şey burada, markaya göre gruplanmış olarak durur. Her grubu daraltabilirsiniz, böylece ekipmanla dolu bir resif odası bile kolayca okunur.
 
 Yeni ekipman eklediğiniz, adını değiştirdiğiniz, bir akvaryuma atadığınız ya da kaldırdığınız yer burasıdır. Ayrıntılar [Cihaz ekleme, düzenleme ve kaldırma](/help/mobile-devices) sayfasında.
 

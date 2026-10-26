@@ -1,6 +1,6 @@
 ---
 title: Cora Max ayarları
-description: Yeniden adlandırma, parlaklık, gece karartması ve uyandırma sözcüğünden çocuk kilidine, dile, Wi-Fi'a ve fabrika ayarlarına sıfırlamaya kadar her Cora Max ayarı.
+description: Yeniden adlandırma, parlaklık, gece karartması ve uyandırma sözcüğünden çocuk kilidine, dile, Wi-Fi'ye ve fabrika ayarlarına sıfırlamaya kadar her Cora Max ayarı.
 section: Cora Max
 reviewed: 2026-10-18
 order: 14
@@ -15,7 +15,7 @@ Ayarları üst çubuğun en sağındaki **dişliyle** açın.
 Ayarlarda üç grup vardır. **CORA**, evinizdeki tüm Cora cihazları için geçerli olan şeyleri tutar. **AKVARYUMLAR**'da her akvaryum için bir satır vardır. Son satır, **Cora Max Ayarları**, yalnızca bu ekranla ilgili her şeydir.
 
 :::note İki tür ayar
-Bazı ayarlar **hesabınıza** aittir. Hangi telefona ya da Cora Max'e bakarsanız bakın aynıdır ve birini değiştirmek onu her yerde değiştirir. Diğerleri, parlaklığı ya da Wi-Fi'ı gibi, yalnızca **bu ekrana** aittir. CORA ve AKVARYUMLAR grupları hesap ayarlarıdır. Cora Max Ayarları bu ekranın kendi ayarlarını tutar.
+Bazı ayarlar **hesabınıza** aittir. Hangi telefona ya da Cora Max'e bakarsanız bakın aynıdır ve birini değiştirmek onu her yerde değiştirir. Diğerleri, parlaklığı ya da Wi-Fi'yi gibi, yalnızca **bu ekrana** aittir. CORA ve AKVARYUMLAR grupları hesap ayarlarıdır. Cora Max Ayarları bu ekranın kendi ayarlarını tutar.
 :::
 
 ## CORA
@@ -42,7 +42,7 @@ Her akvaryumun kendi ayarlarını açan bir satırı vardır.
 
 Ayarlardaki son satır bu Cora Max'in adını taşır. **Yalnızca bu ekran** için geçerli olan her şeyi açar.
 
-En üstte bu ekranın adını ve yazılım sürümünü (*Cora Max · yazılım 0.28.170*) gösteren bir kart vardır.
+En üstte bu ekranın adını ve yazılım sürümünü (*Cora Max · yazılım 0.28.x*) gösteren bir kart vardır.
 
 - Ona yeni bir ad vermek için kaleme (**Bu cihazı yeniden adlandır**) dokunun, örneğin "Oturma odası".
 - **Ayrıntıları göster**; **Cora Kimliği**'ni, **MAC adresi**'ni, **Wi-Fi ağı**'nı, **IP adresi**'ni, akvaryumlarını ve eşleştiği hesabı listeler. Destek ekibi bunları sizden isteyebilir.

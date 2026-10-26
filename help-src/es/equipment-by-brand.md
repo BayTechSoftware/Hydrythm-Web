@@ -24,7 +24,7 @@ Cora lee las sondas y las tomas de tu Apex, ejecuta sus ciclos de alimentación 
 - Controlarlo en tu teléfono: [Apex](/help/mobile-device-control#neptune-apex), [DŌS](/help/mobile-device-control#dos), [Trident](/help/mobile-device-control#trident)
 - En Cora Max: [tomas y modo alimentación](/help/max-controls), [Apex y Trident](/help/max-device-control#neptune-apex), [cabezales DŌS](/help/max-device-control#dos-heads)
 - Alertas: [dejó de informar](/help/mobile-alerts#stopped-reporting), [alertas de dosificadoras](/help/mobile-device-control#doser-alerts)
-- Soluciones: ["No se pudo contactar al Apex"](/help/troubleshooting#could-not-reach-the-apex-nothing-changed-nothing-was-dosed), ["… no tiene datos del Apex"](/help/troubleshooting#this-could-not-be-sent-no-device-on-this-tank-can-send-it), ["Contraseña de Apex"](/help/troubleshooting#cora-max-shows-apex-password), ["El Apex rechazó este inicio de sesión"](/help/troubleshooting#the-apex-refused-this-login), [La alimentación no empieza](/help/troubleshooting#feed-does-not-start), [una dosis se detuvo a medias](/help/troubleshooting#a-dose-stopped-partway-through-and-a-restore-alert-appeared)
+- Soluciones: ["No se pudo contactar al Apex"](/help/troubleshooting#could-not-reach-the-apex-nothing-changed-nothing-was-dosed), ["… no tiene datos del Apex"](/help/troubleshooting#this-could-not-be-sent-no-device-on-this-tank-can-send-it), ["Contraseña de Apex"](/help/troubleshooting#cora-max-shows-apex-password), ["El Apex rechazó este inicio de sesión"](/help/troubleshooting#the-apex-refused-this-login), [La alimentación no empieza](/help/troubleshooting#feed-does-not-start)
 
 ## Red Sea ReefBeat {#red-sea}
 

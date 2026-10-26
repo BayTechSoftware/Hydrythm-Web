@@ -49,7 +49,7 @@ Si estás viendo el acuario de otra persona con un enlace compartido, no puedes 
 
 ## Escribir al soporte
 
-**Ajustes → Ayuda y soporte → Contactar soporte** abre un correo a **[cora@coraiq.tech](mailto:cora@coraiq.tech)** con tu versión de Cora Mobile ya incluida. Solemos responder en un día. Si tu teléfono no tiene app de correo, escribe a esa dirección desde cualquier cuenta de correo.
+**Ajustes → Ayuda y soporte → Contactar soporte** abre un correo a **[cora@coraiq.tech](mailto:cora@coraiq.tech)** con tu versión de Cora Mobile y el sistema operativo de tu teléfono ya incluidos. Solemos responder en un día. Si tu teléfono no tiene app de correo, escribe a esa dirección desde cualquier cuenta de correo.
 
 ## Otras opciones
 

@@ -205,7 +205,7 @@
 <aside class="cal cal-note"><p class="cal-t">Spadająca ocena Dane zwykle oznacza stare odczyty</p><p>Jeśli przez tydzień nic nie testowano, ocena Dane spada, a Stabilność staje się mniej wiarygodna. Zapisz kilka odczytów, żeby obie wróciły.</p></aside>
 <h2 id="availability">Które akwaria dostają podsumowanie</h2>
 <p>Reef Buddy jest częścią płatnych planów. Jest też w 30-dniowym okresie próbnym, który zaczyna się w chwili założenia konta.</p>
-<p>Każdy plan obejmuje określoną liczbę akwariów: 1 w okresie próbnym i w Essential, 5 w Advanced i 20 w Expert. Podsumowania trafiają do pierwszych akwariów w kolejności ustawionej w <strong>Ustawienia → Zmień kolejność akwariów</strong>. Żeby objąć akwarium, które zostało pominięte, przesuń je wyżej na liście. Usunięte akwaria nie zajmują miejsca.</p>
+<p>Każdy plan obejmuje określoną liczbę akwariów: 1 w okresie próbnym i w Essential, 5 w Advanced i 20 w Expert. Podsumowania trafiają do pierwszych akwariów w kolejności ustawionej w <strong>Ustawienia → Zmień kolejność akwariów</strong>. Żeby objąć akwarium, które zostało pominięte, przesuń je wyżej na liście. Usunięte akwaria nie zajmują miejsca. Akwarium, które wciąż cyklujesz (tryb nowego akwarium), jest zawsze objęte i nie zajmuje miejsca.</p>
 <p>Po okresie próbnym konto darmowe widzi w miejscu podsumowania zablokowaną kartę Reef Buddy z <strong>Zobacz plany</strong> i nie dostaje powiadomienia o podsumowaniu. Więcej w <a href="/pl/help/mobile-plans">Planach i subskrypcjach</a>.</p>
 <h2 id="gdy-podsumowanie-nie-przyszlo">Gdy podsumowanie nie przyszło</h2>
 <ul><li><strong>Nic nie wymagało Twojej uwagi.</strong> W dobry dzień Reef Buddy milczy. Karta nadal jest na panelu.</li><li><strong>Okres próbny się skończył.</strong> Konto darmowe dostaje zablokowaną kartę i żadnego powiadomienia.</li><li><strong>Akwarium jest poza limitem planu.</strong> Przesuń je wyżej w <strong>Ustawienia → Zmień kolejność akwariów</strong>.</li><li><strong>Powiadomienia są wyłączone.</strong> Sprawdź <a href="/pl/help/mobile-notifications">Powiadomienia</a>.</li></ul>
@@ -216,7 +216,7 @@
 <p>Przy odczycie, który się zmienił, tylko <strong>Nieprzydatne</strong> ukrywa kartę (na 14 dni). <strong>To już wiem</strong> jest tylko zapisywane, a <strong>Nie zgadza się</strong> niczego nie ukrywa: proponuje wykluczenie błędnych odczytów, żeby Cora przestała je liczyć. Ukrycie trwa tylko jakiś czas. Jeśli problem nadal istnieje, ustalenie wraca.</p>
 <aside class="cal cal-note"><p class="cal-t">Poważne ustalenia nigdy nie są ukrywane</p><p>Ostrzeżenia i ustalenia krytyczne nadal się pojawiają, niezależnie od tego, co odpowiedziałeś wcześniej.</p></aside>
       <nav class="pn" aria-label="Czytaj dalej"><a class="pn-p" href="/pl/help/mobile-activity"><span>Poprzedni</span><b>Aktywność i oś czasu</b></a><a class="pn-n" href="/pl/help/mobile-assistant"><span>Następny</span><b>Pytania do Cory</b></a></nav>
-      <p class="stamp">Napisano dla Cora Max 0.28.238 i Cora Mobile 1.4.14. Ostatnio sprawdzono 2026-10-24.</p>
+      <p class="stamp">Napisano dla Cora Max 0.28.240 i Cora Mobile 1.4.16. Ostatnio sprawdzono 2026-10-24.</p>
       <p class="ask">Wciąż masz problem? Napisz na <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, pomożemy.</p>
     </article>
   </main>
@@ -607,7 +607,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/pl/help/search.json?v=aede854401').then(function (r) { return r.json(); })
+    fetch('/pl/help/search.json?v=bf578ebf0d').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "pl"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Wyszukiwanie jest niedost\u0119pne. U\u017cyj menu." + '</li>';

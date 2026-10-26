@@ -80,7 +80,7 @@ Ricevi un punteggio su 100 e un riassunto con parole semplici di cosa significa 
 
 Il punteggio confronta i tuoi risultati con i loro intervalli obiettivo, compresi quelli che hai impostato tu. Se un risultato è fuori dal suo intervallo, il punteggio non può superare 70, quindi non può risultare **Sano**. Se uno è molto fuori, non può superare 40, per quanto buoni siano gli altri. L'etichetta sotto il punteggio dice **Sano** da 71 a 100, **Richiede attenzione** da 40 a 70 e **Critico** da 0 a 39. I report di salute hanno lo stesso punteggio.
 
-Ogni elemento viene seguito, compresi elementi in traccia e contaminanti oltre ai parametri principali. Cora registra tutti i 71 elementi che un laboratorio può riportare, e la riga che alcuni laboratori chiamano *Acidity* è il pH.
+Ogni elemento viene seguito, compresi elementi in traccia e contaminanti oltre ai parametri principali. Cora registra tutti gli elementi e i contaminanti che un laboratorio può riportare, e la riga che alcuni laboratori chiamano *Acidity* è il pH.
 
 Su ogni riga di elemento vedi l'intervallo stampato dal laboratorio, indicato come *Intervallo del laboratorio*, accanto all'intervallo di Cora per quell'elemento. Un elemento per cui Cora non ha un intervallo di riferimento ha l'etichetta **Nessun intervallo Cora**. Il report dice quanti elementi hanno un intervallo Cora e valuta gli altri in base alla conoscenza generale del reef. Cora Assistant commenta ogni elemento testato, e il suo commento vale anche quando non c'è un intervallo Cora.
 

@@ -119,7 +119,7 @@ Rien sur cet aquarium ne lit votre équipement Red Sea en ce moment, donc les me
 
 ### Certains réglages ReefBeat sont grisés ou manquants {#some-reefbeat-settings-are-greyed-out-or-missing}
 
-C’est normal. Les réglages propres d’un appareil Red Sea ne s’ouvrent que lorsque votre téléphone est sur le même réseau que l’appareil. Loin de ce réseau, vous ne voyez que les mesures.
+C’est normal. Les réglages propres d’un appareil Red Sea ne s’ouvrent que lorsque votre téléphone est sur le même réseau que l’appareil. Loin de ce réseau, vous voyez les mesures, et les commandes passent toujours par un Cora Max de l’aquarium s’il en a un. Les réglages propres de l’appareil restent indisponibles.
 
 1. Rejoignez le Wi-Fi de l’aquarium pour changer ces réglages.
 2. Les mesures et l’historique continuent de fonctionner pendant votre absence.
@@ -178,12 +178,6 @@ Sur votre téléphone, **Nourrir** n’apparaît que sur un aquarium équipé d�
 - *« Aucun Cora de cet aquarium ne peut joindre l’Apex, et vous n’êtes pas sur son réseau. »* Rejoignez le Wi-Fi de l’Apex, ou associez un Cora Max à l’aquarium.
 - *« L’Apex n’a pas répondu, mais il se peut qu’il soit déjà en train de nourrir. »* Vérifiez le contrôleur avant de réessayer.
 
-### Un dosage s’est arrêté en cours de route et une alerte de "restauration" est apparue {#a-dose-stopped-partway-through-and-a-restore-alert-appeared}
-
-La tête DŌS a perdu le contact pendant le dosage. Cora vous le dit pour ne pas avoir à supposer que la dose complète est passée.
-
-1. Ouvrez l’alerte et vérifiez combien a été dosé avant l’arrêt.
-2. Servez-vous de cette quantité pour décider de reprendre ou d’ajuster la dose.
 
 ## Cora Max {#cora-max}
 

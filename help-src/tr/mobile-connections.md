@@ -40,7 +40,7 @@ Cora, Apex'inizi problar, prizler ve taktığınız tüm genişletme modülleri 
 5. **Sorgulama Sıklığı**'nı ayarlayın. Onu kapalı bırakmayın: sorgulama kapalıyken Apex'i hiçbir şey okumaz ve ölçümleri eskir.
 6. **Devam et**'e dokunun. Cora önce girişi dener. Apex yanıt verip girişi reddederse bir mesaj **Apex bu girişi reddetti** der: kullanıcı adını ya da şifreyi düzeltmek için **İptal**'e, devam etmek için **Yine de kaydet**'e dokunun. Cora Apex'e ulaşamazsa (örneğin evde değilseniz) testi atlar. Sonra **Bu Apex hangi akvaryumlara hizmet veriyor?** altında her akvaryumu işaretleyin ve **Kaydet**'e dokunun. Bir Apex birden fazla akvaryuma hizmet edebilir.
 
-Tarama hiçbir şey bulamazsa telefonunuzun Apex ile aynı Wi-Fi'da olduğunu kontrol edin ya da IP adresini kendiniz girin.
+Tarama hiçbir şey bulamazsa telefonunuzun Apex ile aynı Wi-Fi'de olduğunu kontrol edin ya da IP adresini kendiniz girin.
 
 Bağlandıktan sonra Apex'inizin bildirdiği her prob panoya koyabileceğiniz bir kaynak olur. Prizler kontrol olarak görünür ve takılı her genişletme modülü kendi cihaz kutucuğunu alır. Kendi Apex programınız tam olarak ayarladığınız gibi çalışmaya devam eder. Neleri kontrol edebileceğiniz [Ekipmanınızı kontrol etme](/help/mobile-device-control#neptune-apex) sayfasında.
 
@@ -68,7 +68,7 @@ Cora Jecod pompalarına bağlanır ve onları okuyup kontrol edebilir. Birini **
 Pompalar bir taramaya yanıt verip bir sonrakini kaçırır. Sizinki listede yoksa ulaşılamayacağına karar vermeden önce yeniden tarayın.
 :::
 
-Bir arama hiçbir şey bulamazsa sonuç Wi-Fi üzerinden kontrol ettiği adresleri gösterir. Jebao uygulaması pompanız için farklı bir adres gösteriyorsa telefonunuz başka bir ağdadır. Bir misafir ya da IoT ağı ya da yalnızca 5 GHz bant bu pompaları görmez. iPhone'da Cora'nın Wi-Fi'ınızdaki pompaları görmesi için Yerel Ağ erişimi de gerekir. Bu erişim olmadan liste boş kalır ve hata görünmez, bu yüzden sonuç bunu açıklar ve onu yeniden açmak için **Ayarları Aç**'ı önerir. Oraya istediğiniz zaman [Ayarlar](/help/mobile-settings) sayfasında anlatılan **Ayarlar → Cihaz erişimi** yolundan da ulaşabilirsiniz.
+Bir arama hiçbir şey bulamazsa sonuç Wi-Fi üzerinden kontrol ettiği adresleri gösterir. Jebao uygulaması pompanız için farklı bir adres gösteriyorsa telefonunuz başka bir ağdadır. Bir misafir ya da IoT ağı ya da yalnızca 5 GHz bant bu pompaları görmez. iPhone'da Cora'nın Wi-Fi'nizdeki pompaları görmesi için Yerel Ağ erişimi de gerekir. Bu erişim olmadan liste boş kalır ve hata görünmez, bu yüzden sonuç bunu açıklar ve onu yeniden açmak için **Ayarları Aç**'ı önerir. Oraya istediğiniz zaman [Ayarlar](/help/mobile-settings) sayfasında anlatılan **Ayarlar → Cihaz erişimi** yolundan da ulaşabilirsiniz.
 
 **Bluetooth üzerinden.** Bazı pompalara yalnızca yakınında duran bir telefondan ulaşılabilir. Pompanın sayfası bunu söyler ve okuduğu son ayarları ve ne kadar eski olduklarını gösterir. Cora'nın bunun için Bluetooth iznine ihtiyacı vardır. Bluetooth bir pompa eklemeden önce izni verin, yoksa Cora pompayı hiç bulamaz.
 

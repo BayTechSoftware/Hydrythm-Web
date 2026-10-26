@@ -80,9 +80,9 @@ Burada bir şey çalışmıyorsa [Sorun giderme](/help/troubleshooting) sayfası
 
 Puan, sonuçlarınızı kendi belirlediğiniz aralıklar dahil hedef aralıklarıyla karşılaştırır. Herhangi bir sonuç aralığının dışındaysa puan 70'in üstüne çıkamaz, yani **Sağlıklı** okuyamaz. Biri çok dışındaysa diğerleri ne kadar iyi olursa olsun 40'ın üstüne çıkamaz. Puanın altındaki etiket 71 ile 100 arasında **Sağlıklı**, 40 ile 70 arasında **Dikkat Gerekiyor** ve 0 ile 39 arasında **Kritik** yazar. Sağlık Raporları da aynı şekilde puanlanır.
 
-Ana parametrelerin yanı sıra eser elementler ve kirleticiler dahil her element izlenir. Cora bir laboratuvarın bildirebileceği 71 elementin hepsini kaydeder ve bazı laboratuvarların *Acidity* dediği satır pH'tır.
+Ana parametrelerin yanı sıra eser elementler ve kirleticiler dahil her element izlenir. Cora bir laboratuvarın bildirebileceği tüm elementleri ve kirleticileri kaydeder ve bazı laboratuvarların *Acidity* dediği satır pH'tır.
 
-Her element satırında, Cora'nın o element için kendi aralığının yanında laboratuvarın bastığı aralığı *Laboratuvar aralığı* olarak görürsünüz. Cora'nın referans aralığı olmayan bir element **Cora aralığı yok** etiketini taşır. Rapor kaç elementin Cora aralığı olduğunu söyler ve geri kalanları genel reef bilgisine göre değerlendirir. Cora Assistant test edilen her element hakkında yorum yapar ve yorumu, Cora aralığı olmasa bile geçerlidir.
+Her element satırında, Cora'nın o element için kendi aralığının yanında laboratuvarın bastığı aralığı *Laboratuvar aralığı* olarak görürsünüz. Cora'nın referans aralığı olmayan bir element **Cora aralığı yok** etiketini taşır. Rapor kaç elementin Cora aralığı olduğunu söyler ve geri kalanları genel resif bilgisine göre değerlendirir. Cora Assistant test edilen her element hakkında yorum yapar ve yorumu, Cora aralığı olmasa bile geçerlidir.
 
 Laboratuvar bir element için *n.d.* ya da *not detected* (tespit edilmedi) basarsa Cora onu 0 olarak kaydeder ve tespit edilmediğini söyler.
 

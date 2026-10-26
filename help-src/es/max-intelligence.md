@@ -77,6 +77,6 @@ Para la alcalinidad, el calcio y el magnesio, el botón **Calculadora de dosis**
 
 Un itinerario activo aparece como una franja estrecha en la parte de arriba del panel del acuario. Tócala para ver los pasos y cuánto has avanzado.
 
-En un acuario nuevo que está haciendo el ciclo, puedes anotar lecturas aquí. **Registrar una prueba** en la pantalla de ciclado registra amoniaco, nitrito y nitrato sin tener que tomar el teléfono.
+En un acuario nuevo que está en ciclado, puedes anotar lecturas aquí. **Registrar una prueba** en la pantalla de ciclado registra amoniaco, nitrito y nitrato sin tener que tomar el teléfono.
 
 Un itinerario de **problema** es solo de consulta en la pantalla de pared. Empezarlo, completar un paso, anotar un resultado y resolverlo o descartarlo se hace en tu teléfono. Más información en [Itinerarios guiados](/help/mobile-journeys).

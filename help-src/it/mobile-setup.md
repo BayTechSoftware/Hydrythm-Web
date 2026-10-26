@@ -58,7 +58,7 @@ Dopo l'accesso, **Facciamo conoscenza con la tua vasca** ti chiede tre cose. Sol
 
 Tocca **Crea la mia vasca**.
 
-:::note La vasca sta ancora facendo il ciclo?
+:::note La vasca è ancora in maturazione?
 Tocca **Stai avviando una nuova vasca?** sulla dashboard. Quella scheda compare finché la vasca non ha letture. Se hai già registrato un test, apri il profilo della vasca e tocca la stessa scheda in alto: funziona in qualsiasi momento. Di più in [Percorsi guidati](/help/mobile-journeys).
 
 Cora valuta anche le letture rispetto a quello che è normale per una vasca di quell'età. La procedura guidata non la chiede, quindi imposta la **Data di avvio della vasca** nel profilo della vasca, in **Dimensioni vasca**.
@@ -116,6 +116,6 @@ Se una vasca non ha ancora letture tre giorni dopo averla creata, Cora manda una
 
 ## Quando è tutto a posto {#what-good-looks-like}
 
-La configurazione è fatta quando la Dashboard mostra il nome della vasca in alto e qualche widget con dei numeri. Una scheda **Reef Buddy** arriva dopo che il primo briefing è stato preparato durante la notte.
+La configurazione è fatta quando la Dashboard mostra il nome della vasca in alto e qualche widget con dei numeri. Una scheda **Reef Buddy** arriva dopo che il primo riepilogo (briefing) è stato preparato durante la notte.
 
 Poi dai un'occhiata a [Orientarsi in Cora Mobile](/help/mobile-tour). Per aggiungere una seconda vasca, vedi [Gestire le tue vasche](/help/mobile-tanks).

@@ -49,7 +49,7 @@ When you're looking at someone else's tank through a shared link, you can't atta
 
 ## Emailing support
 
-**Settings → Help & Support → Contact Support** opens an email to **[cora@coraiq.tech](mailto:cora@coraiq.tech)** with your Cora Mobile version filled in. We usually reply within a day. If your phone has no mail app, write to that address from any email account.
+**Settings → Help & Support → Contact Support** opens an email to **[cora@coraiq.tech](mailto:cora@coraiq.tech)** with your Cora Mobile version and your phone's operating system filled in. We usually reply within a day. If your phone has no mail app, write to that address from any email account.
 
 ## Elsewhere
 

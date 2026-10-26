@@ -35,7 +35,7 @@ Vous pouvez aussi lancer le cyclage guidé plus tard : touchez **Vous démarrez
 - **Assistant** et **Intelligence** : choisissez l’aquarium en haut de l’écran. Voir [Interroger Cora](/help/mobile-assistant#pick-a-tank-first).
 - Une notification concernant un aquarium ouvre le tableau de bord de cet aquarium.
 
-Sur Cora Max, la Pièce du récif montre tous les aquariums côte à côte. Voir [La pièce du récif](/help/max-reef-room).
+Sur Cora Max, la Salle du récif montre tous les aquariums côte à côte. Voir [La salle du récif](/help/max-reef-room).
 
 ## Changer l’ordre {#changing-the-order}
 
@@ -47,7 +47,7 @@ L’ordre est celui dans lequel vous les faites défiler sur le tableau de bord.
 
 Votre forfait couvre un nombre fixe d’aquariums pour le briefing quotidien de Reef Buddy. Cora le donne aux premiers dans votre ordre **Réorganiser les aquariums**. Avec Essential, et pendant l’essai de 30 jours, c’est uniquement votre premier aquarium. Advanced couvre 5 aquariums et Expert en couvre 20. Plus de détails dans [Forfaits et abonnements](/help/mobile-plans).
 
-Si un aquarium n’a pas de briefing, placez-le en haut de la liste. Les aquariums supprimés ne comptent pas.
+Si un aquarium n’a pas de briefing, placez-le en haut de la liste. Les aquariums supprimés ne comptent pas. Un aquarium que vous cyclez encore (mode Nouvel aquarium) est toujours couvert et ne prend pas de place.
 
 ## Supprimer un aquarium {#removing-a-tank}
 

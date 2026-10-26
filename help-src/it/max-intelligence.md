@@ -77,6 +77,6 @@ Per alcalinità, calcio e magnesio, il pulsante **Calcolatore dose** in alto cal
 
 Un percorso attivo compare come un sottile banner in cima alla dashboard della vasca. Toccalo per vedere i passi e a che punto sei.
 
-Su una vasca nuova che sta facendo il ciclo, puoi registrare le letture qui. **Registra un test** nella schermata della maturazione registra ammoniaca, nitriti e nitrati senza prendere il telefono.
+Su una vasca nuova in maturazione, puoi registrare le letture qui. **Registra un test** nella schermata della maturazione registra ammoniaca, nitriti e nitrati senza prendere il telefono.
 
 Un percorso per un **problema** è in sola visualizzazione sullo schermo a parete. Avviarlo, completare un passo, registrare un risultato, e risolverlo o ignorarlo si fa tutto dal telefono. Di più in [Percorsi guidati](/help/mobile-journeys).

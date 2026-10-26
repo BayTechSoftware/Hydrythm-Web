@@ -204,26 +204,19 @@
 <p>Give each head a <strong>use type</strong> so Cora knows what it does and talks about it correctly. The choices are <strong>Supplement</strong>, <strong>Water change: new saltwater in</strong>, <strong>Water change: old water out</strong>, <strong>Kalkwasser</strong>, <strong>Calcium reactor</strong>, <strong>Food</strong>, <strong>Top-off</strong> and <strong>Other</strong>. Set it under <strong>Used for</strong> in the head's settings.</p>
 <p>The two water-change use types go in <strong>pairs</strong>. Set one head's <strong>Paired head</strong> to the head that moves water the other way, and Cora treats the two as one water-change pair.</p>
 <p>A container can be up to 1,000 L, for every use type. The Apex itself only counts up to 150 L, so above that Cora tracks the container itself from what the head doses. Enter the <strong>Total Volume</strong> when you set it up. Cora also resets the Apex's own counter now and then, and Activity shows that as <em>Reset the Apex's own counter to 150 L</em>.</p>
-<p>Each head also has a <strong>Largest dose by hand</strong> limit, so a typo can't turn a manual dose into something far bigger than you meant. Large hand doses only become available after the head's rate has been measured against a real test at the tank, and after you turn on <strong>Large doses</strong> in the head's settings. It's off by default. Turn it on only after you've watched the first large dose run at the tank.</p>
+<p>Each head except a Supplement or Food head also has a <strong>Largest dose by hand</strong> limit, so a typo can't turn a manual dose into something far bigger than you meant. Supplement and Food heads keep a small, fixed ceiling instead. Once that limit is set, the head can also have a <strong>Daily limit for automations and the Assistant</strong>, which replaces the default of 10 mL a day.</p>
 <h2 id="red-sea">Red Sea ReefBeat</h2>
 <p>Each Red Sea unit has a page that fits what it does:</p>
-<div class="tw"><table class="stack"><thead><tr><th>Unit</th><th>Page shows</th><th>You can</th></tr></thead><tbody><tr><td data-th="Unit"><a href="#reefdose">ReefDose</a></td><td data-th="Page shows">Each head, its container and what it has dosed</td><td data-th="You can">Dose, change the daily dose, edit the <strong>Dosing plan</strong></td></tr><tr><td data-th="Unit"><a href="#reefrun">ReefRun</a></td><td data-th="Page shows">Return and skimmer pump speed and state</td><td data-th="You can">Change speed, switch a pump</td></tr><tr><td data-th="Unit"><a href="#reefmat">ReefMat</a></td><td data-th="Page shows">Remaining roll, in days and metres</td><td data-th="You can">Advance the mat, set <strong>ReefMat settings</strong>, register a new roll</td></tr><tr><td data-th="Unit"><a href="#reefato">ReefATO+</a></td><td data-th="Page shows">Reservoir level and top-off activity</td><td data-th="You can">Set a reservoir alert</td></tr></tbody></table></div>
+<div class="tw"><table class="stack"><thead><tr><th>Unit</th><th>Page shows</th><th>You can</th></tr></thead><tbody><tr><td data-th="Unit"><a href="#reefdose">ReefDose</a></td><td data-th="Page shows">Each head, its container and what it has dosed</td><td data-th="You can">Dose, change the daily dose</td></tr><tr><td data-th="Unit"><a href="#reefrun">ReefRun</a></td><td data-th="Page shows">Return and skimmer pump speed and state</td><td data-th="You can">Change speed, switch a pump</td></tr><tr><td data-th="Unit"><a href="#reefmat">ReefMat</a></td><td data-th="Page shows">Remaining roll, in days and metres</td><td data-th="You can">Advance the mat</td></tr><tr><td data-th="Unit"><a href="#reefato">ReefATO+</a></td><td data-th="Page shows">Reservoir level and top-off activity</td><td data-th="You can">Set a reservoir alert</td></tr></tbody></table></div>
 <p>When you're away from the unit's network, Cora Mobile sends Red Sea commands through a Cora Max on the tank. If no Cora Max can do it, the page says so and nothing is sent.</p>
 <h2 id="reefdose">ReefDose</h2>
 <figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: A ReefDose 4 page in Cora Mobile"><img src="/help/img/mobile-reefdose.webp" alt="A ReefDose 4 page in Cora Mobile" width="620" height="1347" loading="lazy" decoding="async"></button><figcaption>Status, heads and today's total, Use doser for consumption, then each dosing head.</figcaption></figure>
 <p>For each head you can set <strong>Dose per day</strong> and <strong>Remaining in bottle</strong>, run <strong>Dose now</strong>, and <strong>Activate schedule</strong>. Refill alerts are set per head with the bell, as described in <a href="#doser-alerts">Doser alerts</a>.</p>
 <p>The <strong>Dosing</strong> section shows <strong>Upcoming doses</strong>, what each head has dosed today (<strong>Dosed today so far</strong>), and <strong>Dosed per head</strong> for the <strong>Last 7 days</strong> or its <strong>Lifetime</strong>. Cora reads this while a Cora Max or your phone is on your home network.</p>
-<h3 id="reefdose-plan">Editing a dosing plan</h3>
-<p>Tap the calendar icon on a ReefDose page to open the <strong>Dosing plan</strong>.</p>
-<p>A plan is a daily total, split into up to four time windows. Each window has a start and end time, how many doses it should deliver, and a speed: <strong>Whisper</strong>, <strong>Regular</strong> or <strong>Quick</strong>. Add and remove windows, then save. Cora shows you what you're about to send and asks you to confirm before it replaces the head's whole plan.</p>
-<p>The editor reads the plan that's already on the unit first, so you're editing the real one, not a blank form.</p>
 <h2 id="reefrun">ReefRun</h2>
 <p>ReefRun controls return and skimmer pumps. It isn't a wave pump. You can change a pump's speed, switch it on or off, and adjust skimmer settings.</p>
 <h2 id="reefmat">ReefMat</h2>
 <p>The ReefMat page shows how much roll is left, in days and metres. Tap <strong>Advance now</strong> to move the mat on by hand. Cora asks <strong>Advance the mat now?</strong> first. You can also set a refill alert for the roll.</p>
-<p>Tap the gear for <strong>ReefMat settings</strong>:</p>
-<ul><li><strong>Scheduled advance</strong> turns on a fixed-time advance, separate from the auto-advance sensor already on the page. Turn it on and set how often, and how far each advance moves the mat.</li><li><strong>ReefMat model</strong> and <strong>Motor position</strong> (<strong>Left</strong> or <strong>Right</strong>) tell Cora which unit and orientation you have.</li></ul>
-<p>After you load a new roll, tell Cora with <strong>New roll</strong>: its thickness, and its outer diameter if you know it. <strong>Advance now</strong> only moves the mat you already have loaded.</p>
 <h2 id="reefato">ReefATO+</h2>
 <p>The ReefATO+ page shows the reservoir level and recent top-offs. Set a reservoir alert with the bell. Cora estimates how many days the reservoir has left from recent top-off use, and you can ask the Assistant about it too.</p>
 <h2 id="red-sea-stops">When a Red Sea unit stops itself</h2>
@@ -257,7 +250,7 @@
 <h2 id="what-happens-after-you-change-something">What happens after you change something</h2>
 <p>Every change is recorded in <a href="/help/mobile-activity">Activity</a>, with the surface it came from. If a device doesn't accept a change, that's recorded there too.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-connections"><span>Previous</span><b>Connecting your equipment</b></a><a class="pn-n" href="/help/mobile-schedules"><span>Next</span><b>Scheduling equipment</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.238 and Cora Mobile 1.4.14. Last checked 2026-10-24.</p>
+      <p class="stamp">Written for Cora Max 0.28.240 and Cora Mobile 1.4.16. Last checked 2026-10-24.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>
@@ -648,7 +641,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/help/search.json?v=5ca35b2a08').then(function (r) { return r.json(); })
+    fetch('/help/search.json?v=d076232951').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "en"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';

@@ -52,7 +52,7 @@ Es entscheidet, welches Cora Max die Ausrüstung eines Beckens abfragt. Die meis
 
 ### Welches Gerät antwortet auf "Hey Cora", wenn ich mehr als ein Cora Max habe? {#which-device-answers-hey-cora}
 
-Es antwortet immer nur ein Cora-Gerät. Du wählst es in Cora Mobile unter **Einstellungen → Cora Assistant**. Mit Primäres Cora Max hat das nichts zu tun. Mehr dazu unter [Mit Cora sprechen](/help/max-voice).
+Es antwortet immer nur ein Cora-Gerät. Du wählst es unter **Einstellungen → Cora Assistant**, in Cora Mobile oder am Cora Max. Mit Primäres Cora Max hat das nichts zu tun. Mehr dazu unter [Mit Cora sprechen](/help/max-voice).
 
 ### Warum findet Cora Mobile mein Cora Max beim Koppeln nicht? {#why-cant-cora-mobile-find-my-cora-max}
 
@@ -78,7 +78,7 @@ Ja. Verbinde Cora Max unter **Einstellungen → Cora Max-Einstellungen → WLAN*
 
 ### Warum will Cora Mobile Zugriff auf das lokale Netzwerk und auf Bluetooth? {#why-local-network-and-bluetooth}
 
-Den Zugriff auf das lokale Netzwerk braucht es, um WLAN-Ausrüstung zu finden und ein Cora Max in deinem Heimnetz zu erreichen, und Bluetooth, um ein Cora Max und Ausrüstung mit Bluetooth zu koppeln. Ohne diese Zugriffe findet es das Gerät nicht. Mehr dazu unter [Cora Mobile-Einstellungen](/help/mobile-settings).
+Auf dem iPhone braucht es den Zugriff auf das lokale Netzwerk, um WLAN-Ausrüstung zu finden und ein Cora Max in deinem Heimnetz zu erreichen, und Bluetooth, um ein Cora Max und Ausrüstung mit Bluetooth zu koppeln. Auf Android sind es Bluetooth und Standort. Ohne diese Zugriffe findet es das Gerät nicht. Mehr dazu unter [Cora Mobile-Einstellungen](/help/mobile-settings).
 
 ### Kann ich nach meinem Becken sehen, wenn ich nicht zu Hause bin? {#can-i-check-on-my-tank-away}
 
@@ -108,21 +108,21 @@ Neptune Apex (mit DŌS und Trident), Red Sea ReefBeat-Ausrüstung, Jecod- und Je
 
 
 
-### Gehört Cora zu Neptune, Red Sea oder Jebao? {#is-cora-affiliated}
+### Gehört Cora zu Neptune, Red Sea, Jecod, Jebao oder AquaWiz? {#is-cora-affiliated}
 
-Nein. Cora gehört zu keinem der Hersteller, mit denen es sich verbindet, wird von keinem empfohlen und arbeitet mit keinem als Partner zusammen. Cora nutzt ihre öffentlichen Konten, offiziellen APIs oder lokalen Netzwerkprotokolle. Ein Update der App oder Firmware eines Herstellers kann diese Verbindung jederzeit und ohne Vorwarnung ändern oder unterbrechen. Mehr dazu unter [Deine Ausrüstung verbinden](/help/mobile-connections).
+Nein. Cora gehört zu keinem der Hersteller, mit denen es sich verbindet, wird von keinem empfohlen und arbeitet mit keinem als Partner zusammen. Cora nutzt ihre Konten, ihre Cloud-Dienste oder ihre lokalen Netzwerkprotokolle. Manche davon werden vom Hersteller nicht offiziell unterstützt. Ein Update der App oder Firmware eines Herstellers kann diese Verbindung jederzeit und ohne Vorwarnung ändern oder unterbrechen. Mehr dazu unter [Deine Ausrüstung verbinden](/help/mobile-connections).
 
 ### Mein Handy hat bei der Suche nach Ausrüstung nichts gefunden. Warum? {#search-found-nothing}
 
-Prüf, ob die Ausrüstung eingeschaltet und, falls nötig, schon in der App des Herstellers eingerichtet ist. Prüf dann, ob dein Handy Cora den Zugriff auf das lokale Netzwerk und auf Bluetooth erlaubt. Ausrüstung, die nie in deinem Netzwerk war, kann Cora nicht finden. Mehr dazu unter [Problembehebung](/help/troubleshooting#a-device-cannot-be-reached).
+Prüf, ob die Ausrüstung eingeschaltet und, falls nötig, schon in der App des Herstellers eingerichtet ist. Prüf dann, ob dein Handy Cora auf dem iPhone den Zugriff auf das lokale Netzwerk und auf Bluetooth erlaubt, auf Android den Zugriff auf Bluetooth und Standort. Ausrüstung, die nie in deinem Netzwerk war, kann Cora nicht finden. Mehr dazu unter [Problembehebung](/help/troubleshooting#a-device-cannot-be-reached).
 
 ### Kann ich Cora meine Dosierpumpe gefahrlos steuern lassen? {#is-it-safe-to-let-cora-dose}
 
-Cora dosiert nur, was du eingerichtet hast: ein Produkt, eine Menge und einen Zeitplan, die du festlegst, innerhalb der Grenzen, die du für jeden Kopf setzt. Bricht eine Dosierung mittendrin ab, löst Cora eine Warnung aus, die das sagt, und nennt dir, wenn möglich, wie viel hineingegangen ist. Lies sie, bevor du davon ausgehst, dass die volle Dosis drin ist. Mehr dazu unter [Deine Ausrüstung steuern](/help/mobile-device-control) und [Problembehebung](/help/troubleshooting#a-dose-stopped-partway-through-and-a-restore-alert-appeared).
+Cora dosiert nur, was du eingerichtet hast: ein Produkt, eine Menge und einen Zeitplan, die du festlegst, innerhalb der Grenzen, die du für jeden Kopf setzt. Auch für Dosierungen, die du von Hand, aus einer Automation oder über Cora Assistant startest, gelten eigene Obergrenzen. Mehr dazu unter [Deine Ausrüstung steuern](/help/mobile-device-control).
 
 ### Woher weiß Cora, wie stark mein Dosierprodukt ist? {#how-strong-is-my-dosing-product}
 
-Aus der eingebauten Produktbibliothek, die Salze und Dosierprodukte mit ihren veröffentlichten Werten auflistet. Wenn du ein eigenes Produkt hinzufügst, gibst du die Stärke selbst ein. Mehr dazu unter [Dosierung](/help/mobile-dosing).
+Aus der eingebauten Liste mit Alkalinitäts-, Kalzium- und Magnesiumprodukten samt ihren veröffentlichten Werten. Steht auf deiner Flasche eine andere Stärke, ändere sie. Wenn du ein eigenes Produkt hinzufügst, gib die Stärke ein, die auf dem Etikett steht. Mehr dazu unter [Dosierung](/help/mobile-dosing).
 
 ## Warnungen und Benachrichtigungen
 
@@ -148,7 +148,7 @@ Beide gibt es auf Cora Max, und beide wirken nur auf diesem Bildschirm. **Versch
 
 ### Warum kam eine Warnung auf meinem Handy an, aber nicht auf Cora Max, oder umgekehrt? {#alert-on-phone-not-on-cora-max}
 
-Die Schalter unter **Einstellungen → Benachrichtigungen** gehören zu deinem Konto und gelten deshalb auf jedem Handy, auf dem du angemeldet bist. Cora Max zeigt jede Warnung, außer Bildschirmwarnungen sind für diesen Bildschirm ausgeschaltet (auf dem Handy unter **Geräte**, dein Cora Max, **Warnungen**) oder du hast sie dort verschoben oder verworfen. Mehr dazu unter [Warnungen auf Cora Max](/help/max-alerts).
+Die Schalter unter **Einstellungen → Benachrichtigungen** gehören zu deinem Konto und gelten deshalb auf jedem Handy, auf dem du angemeldet bist. Cora Max zeigt jede Warnung, außer du hast sie dort verschoben oder verworfen. Um nur den Warnton eines Cora Max stummzuschalten, schalte auf dem Handy **Warnton** aus (**Geräte**, dein Cora Max). Mehr dazu unter [Warnungen auf Cora Max](/help/max-alerts).
 
 ## Reef Buddy und Cora Assistant
 
@@ -162,7 +162,7 @@ Reef Buddy gehört zu den kostenpflichtigen Abos und zur 30-tägigen Testphase. 
 
 ### Was kann ich Cora fragen, und was kann Cora tun? {#what-can-i-ask-cora}
 
-Frag nach den Messwerten, dem Verlauf, der Dosierung, den Laborergebnissen und dem Tagebuch deines Beckens. Cora kann auch Dinge für dich erledigen, etwa einen Test eintragen oder Ausrüstung schalten, und bittet dich vorher um Bestätigung. Fehlen Cora Daten oder eine Verbindung für etwas, sagt Cora dir das, statt zu raten. Mehr dazu unter [Cora fragen](/help/mobile-assistant) und [Mit Cora sprechen](/help/max-voice).
+Frag nach den Messwerten, dem Verlauf, der Dosierung, den Laborergebnissen und dem Tagebuch deines Beckens. Cora kann auch Dinge für dich erledigen, etwa einen Test eintragen, oder Ausrüstung schalten, nachdem du es bestätigt hast. Fehlen Cora Daten oder eine Verbindung für etwas, sagt Cora dir das, statt zu raten. Mehr dazu unter [Cora fragen](/help/mobile-assistant) und [Mit Cora sprechen](/help/max-voice).
 
 ### Merkt sich Cora, was ich beim letzten Mal gesagt habe? {#does-cora-remember}
 
@@ -190,7 +190,7 @@ Nein. Was schon geschrieben ist, bleibt in seiner ursprünglichen Sprache. Neue 
 
 ### Was ist kostenlos, und wofür brauche ich ein Abo? {#whats-free}
 
-Was jedes Abo enthält, steht unter [Pläne und Abos](/help/mobile-plans).
+Überwachung, Geräte, Warnungen, Tagebuch, Datenexport und geführtes Einfahren sind kostenlos. Reef Buddy und die größeren Cora-Assistant-Kontingente brauchen Cora Essential, Advanced oder Expert, und ein neues Konto startet mit einer 30-tägigen Advanced-Testphase. Was jedes Abo enthält, steht unter [Pläne und Abos](/help/mobile-plans).
 
 ### Ist das Expert-Abo dasselbe wie Cora Max? {#max-plan-or-cora-max}
 
@@ -212,9 +212,9 @@ Um dein Passwort zu ändern, melde dich ab und nutze **Passwort vergessen?** auf
 
 Cora nutzt sie, um deine Messwerte anzuzeigen, Warnungen auszuführen und Reef Buddy und Cora Assistant zu betreiben. Was gespeichert wird und wie es genutzt werden darf, steht unter [Daten exportieren und Konto löschen](/help/mobile-data-export), [Cora Mobile-Einstellungen](/help/mobile-settings) und in der Datenschutzerklärung.
 
-### Bekomme ich eine Kopie von allem, was Cora über mein Becken gespeichert hat? {#can-i-get-a-copy}
+### Kann ich meine Daten exportieren? {#can-i-get-a-copy}
 
-Ja, du kannst es aus Cora Mobile exportieren. [Deine Daten exportieren](/help/mobile-data-export) erklärt, was der Export enthält.
+Ja. Du kannst deine Messwerte, Tagebucheinträge und deinen Benachrichtigungsverlauf aus Cora Mobile als CSV-Dateien exportieren, in jedem Plan kostenlos. Es ist keine Kopie deines ganzen Kontos. [Deine Daten exportieren](/help/mobile-data-export) erklärt, was der Export enthält.
 
 ---
 

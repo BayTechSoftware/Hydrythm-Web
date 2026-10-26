@@ -131,7 +131,7 @@
 <summary>Primeros pasos</summary><ul>
 <li><a href="/es/help/max-setup" class="cur" aria-current="page">Configurar Cora Max</a></li>
 <li><a href="/es/help/max-tour">La pantalla de inicio de Cora Max</a></li>
-<li><a href="/es/help/max-reef-room">El cuarto de los acuarios</a></li>
+<li><a href="/es/help/max-reef-room">La sala del arrecife</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Tu panel</summary><ul>
@@ -198,7 +198,7 @@
 <h2 id="after-pairing">Después de emparejar</h2>
 <p>Cora Max ya ve los mismos acuarios, dispositivos, lecturas y registros que tu teléfono.</p>
 <ul><li>Si uno de tus acuarios tuvo antes un Cora Max, Cora Max pregunta <strong>¿Restaurar el diseño anterior para este acuario?</strong> <strong>Restaurar</strong> recupera los ajustes de pantalla, sonido y alertas que guardó el anterior. <strong>Empezar de nuevo</strong> se los salta.</li><li>Un acuario sin lecturas todavía muestra <strong>Aún no hay lecturas</strong> y un botón <strong>Registra tu primera prueba</strong>.</li><li>Cora Max crea un panel inicial a partir del perfil de tu acuario. No copia el de tu teléfono.</li></ul>
-<p>Puedes emparejar más de un Cora Max con la misma cuenta, por ejemplo uno en el cuarto de los acuarios y otro en el salón. Cada uno puede mostrar acuarios distintos y tiene su propio diseño. Si dos muestran el mismo acuario, <a href="/es/help/mobile-multi-device">Más de un dispositivo Cora</a> explica cuál lee los equipos.</p>
+<p>Puedes emparejar más de un Cora Max con la misma cuenta, por ejemplo uno en la sala del arrecife y otro en el salón. Cada uno puede mostrar acuarios distintos y tiene su propio diseño. Si dos muestran el mismo acuario, <a href="/es/help/mobile-multi-device">Más de un dispositivo Cora</a> explica cuál lee los equipos.</p>
 <h2 id="building-the-dashboard">Crear el panel</h2>
 <p>El panel de pantalla grande es una cuadrícula fija, y todo tiene que caber en una pantalla. La forma más rápida de organizarlo es desde tu teléfono: abre la pestaña <strong>Dispositivos</strong>, toca tu Cora Max y después toca <strong>Diseño del panel</strong> en la tarjeta del acuario. También puedes hacerlo en la pantalla de pared desde el menú del acuario.</p>
 <p>Para reutilizar un diseño de otro Cora Max o de otro acuario, cárgalo desde <strong>Mis paneles</strong> en el editor. Más información en <a href="/es/help/max-dashboard-editing">Editar el panel de Cora Max</a>.</p>
@@ -212,7 +212,7 @@
 <h2 id="moving-it-to-a-different-network">Cambiarlo a otra red Wi-Fi</h2>
 <p>Ve a <strong>Ajustes → Ajustes de Cora Max → Wi-Fi</strong>, elige la red nueva y escribe la contraseña. Cora Max sigue emparejado, así que no tienes que volver a configurarlo.</p>
       <nav class="pn" aria-label="Seguir leyendo"><a class="pn-n" href="/es/help/max-tour"><span>Siguiente</span><b>La pantalla de inicio de Cora Max</b></a></nav>
-      <p class="stamp">Escrito para Cora Max 0.28.238 y Cora Mobile 1.4.14. Última revisión el 2026-10-13.</p>
+      <p class="stamp">Escrito para Cora Max 0.28.240 y Cora Mobile 1.4.16. Última revisión el 2026-10-13.</p>
       <p class="ask">¿Sigues atascado? Escribe a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> y te ayudamos.</p>
     </article>
   </main>
@@ -603,7 +603,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/es/help/search.json?v=9384433ffe').then(function (r) { return r.json(); })
+    fetch('/es/help/search.json?v=1d5700fe42').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "es"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La b\u00fasqueda no est\u00e1 disponible. Usa la navegaci\u00f3n." + '</li>';

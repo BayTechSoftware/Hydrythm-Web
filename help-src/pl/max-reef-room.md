@@ -26,7 +26,7 @@ Cora Max pokazuje **najwyżej cztery akwaria**, a Reef Room daje każdemu tyle s
 Przy jednym akwarium Cora Max otwiera się na panelu tego akwarium. Ikona siatki nadal prowadzi do Reef Room.
 
 :::note Cztery akwaria to limit
-Do jednego Cora Max możesz przypisać najwyżej cztery akwaria, przy parowaniu albo później w telefonie w **Urządzenia → Twój Cora Max**. Gdy spróbujesz dodać piąte, zobaczysz prośbę o usunięcie najpierw jednego z nich. Jeśli masz więcej akwariów, użyj drugiego Cora Max. Każdy ma własny zestaw. Kroki opisuje [Konfiguracja Cora Max](/help/max-setup#changing-which-tanks-it-shows).
+Do jednego Cora Max możesz przypisać najwyżej cztery akwaria, przy parowaniu albo później w telefonie w **Urządzenia → Twój Cora Max**. Gdy Cora Max ma już cztery akwaria, przycisku **Dodaj akwarium** w telefonie nie ma, więc najpierw usuń jedno. Jeśli masz więcej akwariów, użyj drugiego Cora Max. Każdy ma własny zestaw. Kroki opisuje [Konfiguracja Cora Max](/help/max-setup#changing-which-tanks-it-shows).
 :::
 
 ## Co pokazuje kafelek {#what-a-tile-shows}

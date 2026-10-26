@@ -49,7 +49,7 @@ While a timed scene runs, its tile counts down to the end and shows **Stop** if 
 
 Running or stopping a scene goes through Cora Cloud, like any other command. You'll find the result in [Activity](/help/max-activity).
 
-Scenes can't be run by voice on Cora Max. Use the tile, **Settings → Automations**, or your phone.
+You can also run a scene by voice: *"Run the water change scene."* Child lock blocks it like any other control. Otherwise use the tile, **Settings → Automations**, or your phone.
 
 If a scene won't run or won't stop, have a look at [Troubleshooting](/help/troubleshooting).
 

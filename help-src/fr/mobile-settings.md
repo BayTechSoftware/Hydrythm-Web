@@ -18,7 +18,7 @@ La carte du haut indique avec quel compte vous êtes connecté et quel forfait v
 
 - **Nom d’affichage** est le nom que vous donne Cora Mobile.
 - **E-mails labo et ICP** vous permet d’ajouter jusqu’à 3 adresses e-mail supplémentaires que votre laboratoire peut utiliser pour joindre votre compte. Voir [Rapports ICP et de santé](/help/mobile-icp-health#which-email-a-lab-can-use).
-- **Abonnement** affiche votre forfait et sa date de renouvellement, avec **Voir les forfaits**, **Passer à un forfait supérieur** ou **Passer à Max**, puis **Gérer l’abonnement** et **Restaurer les achats**. Sur Android, il y a aussi **Utiliser un code**. Tout est expliqué dans [Forfaits et abonnements](/help/mobile-plans).
+- **Abonnement** affiche votre forfait et sa date de renouvellement, avec **Voir les forfaits**, **Passer à un forfait supérieur** ou **Passer à Expert**, puis **Gérer l’abonnement** et **Restaurer les achats**. Sur Android, il y a aussi **Utiliser un code**. Tout est expliqué dans [Forfaits et abonnements](/help/mobile-plans).
 - **Se déconnecter**
 - **Exporter mes données** vous donne vos mesures, entrées de journal et alertes sous forme de fichiers, gratuitement avec tous les forfaits. Voir [Exporter vos données](/help/mobile-data-export).
 - **Supprimer le compte** est définitif. Lisez les deux notes de [Vos données et votre vie privée](#your-data-and-privacy) avant de l’utiliser.

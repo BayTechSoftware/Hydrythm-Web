@@ -52,7 +52,7 @@ Votre Apex continue de suivre sa propre programmation. Cora ne change une prise 
 
 La page du Trident affiche l’état actuel du test et les niveaux de réactifs et d’eau usée. Vous pouvez lancer un test d’ici.
 
-Vous pouvez aussi régler une alerte pour les tests restants et pour le flacon de déchets, pour que Cora vous prévienne avant que le réactif s’épuise ou que la bouteille se remplisse. Voir [Consommables](/help/mobile-consumables).
+Vous pouvez aussi régler une alerte pour les tests restants et pour le flacon de déchets, pour que Cora vous prévienne avant que le réactif s’épuise ou que le flacon se remplisse. Voir [Consommables](/help/mobile-consumables).
 
 ## DŌS {#dos}
 
@@ -88,9 +88,9 @@ Donnez à chaque tête un **type d’usage** pour que Cora sache ce qu’elle fa
 
 Les deux types d’usage de changement d’eau vont par **paires**. Réglez la **Tête associée** d’une tête sur la tête qui déplace l’eau dans l’autre sens, et Cora traite les deux comme une seule paire de changement d’eau.
 
-Un réservoir peut faire jusqu’à 1 000 L, pour tous les types d’usage. L’Apex lui-même ne compte que jusqu’à 150 L, donc au-delà, Cora suit lui-même le réservoir d’après ce que dose la tête. Saisissez le **Volume total** lors de la configuration. Cora remet aussi de temps en temps à zéro le compteur propre de l’Apex, et Activité l’affiche comme *Compteur propre de l'Apex remis à 150 L*.
+Un réservoir peut faire jusqu’à 1 000 L, pour tous les types d’usage. L’Apex lui-même ne compte que jusqu’à 150 L, donc au-delà, Cora suit lui-même le réservoir d’après ce que dose la tête. Saisissez le **Volume total** lors de la configuration. Cora remet aussi de temps en temps à zéro le compteur propre de l’Apex, et Activité l’affiche comme *Compteur propre de l’Apex remis à 150 L*.
 
-Chaque tête a aussi une limite de **Dosage manuel maximal**, pour qu’une faute de frappe ne puisse pas transformer une dose manuelle en quelque chose de bien plus gros que prévu. Les grosses doses à la main ne deviennent disponibles qu’après que le débit de la tête a été mesuré par un vrai test à l’aquarium, et après que vous avez activé **Doses importantes** dans les paramètres de la tête. C’est désactivé par défaut. Ne l’activez qu’après avoir regardé la première grosse dose se faire à l’aquarium.
+Chaque tête, sauf les têtes Complément et Nourriture, a aussi une limite de **Dosage manuel maximal**, pour qu’une faute de frappe ne puisse pas transformer une dose manuelle en quelque chose de bien plus gros que prévu. Les têtes Complément et Nourriture gardent à la place un petit plafond fixe. Une fois cette limite réglée, la tête peut aussi avoir une **Limite quotidienne pour les automatisations et l’assistant**, qui remplace la valeur par défaut de 10 mL par jour.
 
 ## Red Sea ReefBeat {#red-sea}
 
@@ -98,9 +98,9 @@ Chaque appareil Red Sea a une page adaptée à ce qu’il fait :
 
 | Appareil | La page affiche | Vous pouvez |
 |---|---|---|
-| [ReefDose](#reefdose) | Chaque tête, son réservoir et ce qu’elle a dosé | Doser, changer la dose quotidienne, modifier le **Programme de dosage** |
+| [ReefDose](#reefdose) | Chaque tête, son réservoir et ce qu’elle a dosé | Doser, changer la dose quotidienne |
 | [ReefRun](#reefrun) | La vitesse et l’état des pompes de remontée et d’écumeur | Changer la vitesse, allumer ou éteindre une pompe |
-| [ReefMat](#reefmat) | Le rouleau restant, en jours et en mètres | Faire avancer le tapis, régler les **Paramètres ReefMat**, enregistrer un nouveau rouleau |
+| [ReefMat](#reefmat) | Le rouleau restant, en jours et en mètres | Faire avancer le tapis |
 | [ReefATO+](#reefato) | Le niveau du réservoir et l’activité de l’osmolateur | Régler une alerte de réservoir |
 
 
@@ -113,15 +113,8 @@ Quand vous êtes loin du réseau de l’appareil, Cora Mobile envoie les command
 
 Pour chaque tête, vous pouvez régler la **Dose par jour** et le **Restant dans le flacon**, lancer **Doser maintenant**, et **Activer le programme**. Les alertes de réapprovisionnement se règlent par tête avec la cloche, comme décrit dans [Alertes des doseurs](#doser-alerts).
 
-La section **Dosage** affiche les **Prochaines doses**, ce que chaque tête a dosé aujourd’hui (**Dosé aujourd'hui jusqu'ici**), et **Dosé par tête** sur les **7 derniers jours** ou au **Total**. Cora lit ces données tant qu’un Cora Max ou votre téléphone est sur votre réseau domestique.
+La section **Dosage** affiche les **Prochaines doses**, ce que chaque tête a dosé aujourd’hui (**Dosé aujourd’hui jusqu’ici**), et **Dosé par tête** sur les **7 derniers jours** ou au **Total**. Cora lit ces données tant qu’un Cora Max ou votre téléphone est sur votre réseau domestique.
 
-### Modifier un programme de dosage {#reefdose-plan}
-
-Touchez l’icône de calendrier sur la page d’un ReefDose pour ouvrir le **Programme de dosage**.
-
-Un programme est un total quotidien, réparti sur quatre plages horaires au plus. Chaque plage a une heure de début et de fin, le nombre de doses à délivrer et une vitesse : **Silencieux**, **Normal** ou **Rapide**. Ajoutez et retirez des plages, puis enregistrez. Cora vous montre ce que vous allez envoyer et vous demande de confirmer avant de remplacer tout le programme de la tête.
-
-L’éditeur lit d’abord le programme qui se trouve déjà sur l’appareil : vous modifiez donc le vrai programme, pas un formulaire vierge.
 
 ## ReefRun {#reefrun}
 
@@ -132,12 +125,6 @@ ReefRun commande les pompes de remontée et d’écumeur. Ce n’est pas une pom
 
 La page du ReefMat affiche le rouleau restant, en jours et en mètres. Touchez **Avancer maintenant** pour faire avancer le tapis à la main. Cora demande d’abord **Avancer le tapis maintenant ?** Vous pouvez aussi régler une alerte de réapprovisionnement pour le rouleau.
 
-Touchez la roue dentée pour les **Paramètres ReefMat** :
-
-- **Avance programmée** active une avance à heure fixe, indépendante du capteur d’avance automatique déjà présent sur la page. Activez-la et réglez la fréquence, et la distance de chaque avance.
-- **Modèle ReefMat** et **Position du moteur** (**Gauche** ou **Droite**) indiquent à Cora quel appareil et quelle orientation vous avez.
-
-Après avoir mis un nouveau rouleau, indiquez-le à Cora avec **Nouveau rouleau** : son épaisseur, et son diamètre extérieur si vous le connaissez. **Avancer maintenant** ne fait que déplacer le tapis déjà chargé.
 
 ## ReefATO+ {#reefato}
 
@@ -145,7 +132,7 @@ La page du ReefATO+ affiche le niveau du réservoir et les appoints récents. R�
 
 ## Quand un appareil Red Sea s’arrête de lui-même {#red-sea-stops}
 
-Un appareil peut s’arrêter de lui-même. Une pompe ReefRun le fait par exemple quand le godet de l’écumeur est pleine. Dans ce cas, la page dit pourquoi et propose la solution :
+Un appareil peut s’arrêter de lui-même. Une pompe ReefRun le fait par exemple quand le godet de l’écumeur est plein. Dans ce cas, la page dit pourquoi et propose la solution :
 
 | Appareil | La page indique | Touchez |
 |---|---|---|
@@ -184,7 +171,7 @@ Si la pompe fait partie d’un groupe, la page affiche son rôle, comme **Mène 
 
 ### Pause nourrissage {#jecod-feeding}
 
-Lancez une pause nourrissage depuis **Nourrissage** sur la page de la pompe : touchez **5**, **10**, **15** ou **30** min. Certaines pompes terminent la pause d’elles-mêmes, et la page indique *La pompe met fin à cela elle-même.*
+Lancez une pause nourrissage depuis **Nourrissage** sur la page de la pompe : touchez **5**, **10**, **15** ou **30** min. Certaines pompes terminent la pause d’elles-mêmes, et la page indique *La pompe met fin à cela elle-même.*
 
 :::warning Gardez la page de la pompe ouverte pendant une pause nourrissage
 Certaines pompes ne terminent pas un nourrissage d’elles-mêmes, et la page l’indique. Pour celles-là, et pour toute pompe sur un programme, Cora Mobile ne rétablit le type de vague et le programme que tant que la page de la pompe reste ouverte. Si vous quittez la page, la pompe reste arrêtée en mode nourrissage, ou reste hors de son programme, jusqu’à ce que vous la changiez à nouveau ou que vous touchiez **Programme**.
@@ -200,17 +187,17 @@ Une pompe Bluetooth doit être à portée de votre téléphone pour lancer un no
 
 ## AquaWiz {#aquawiz}
 
-La carte AquaWiz affiche vos mesures d’alcalinité, et le pH si votre appareil le signale. Cora ne peut pas commander un AquaWiz : changez ses réglages dans l’application AquaWiz.
+La carte AquaWiz affiche vos mesures d’alcalinité, et le pH si votre appareil le signale. Cora ne peut pas commander un AquaWiz : changez ses réglages dans l’application AquaWiz.
 
-Sous **Contrôleur** sur la page de l’appareil, Cora affiche ce que le contrôleur signale, chaque ligne seulement s’il la signale :
+Sous **Contrôleur** sur la page de l’appareil, Cora affiche ce que le contrôleur signale, chaque ligne seulement s’il la signale :
 
-- le KH cible ;
-- la quantité de supplément d’alcalinité restante, avec le seuil d’alerte réglé sur le contrôleur (par exemple *bas à 100 mL*) ;
-- le nombre de mL pour 1 dKH (par exemple *48 mL pour 1 dKH*) ;
-- la dose maximale par mesure (*Jusqu’à 20 mL par mesure*) ;
-- la version du firmware.
+- le KH cible ;
+- la quantité de supplément d’alcalinité restante, avec le seuil d’alerte réglé sur le contrôleur (par exemple *bas à 100 mL*) ;
+- le nombre de mL pour 1 dKH (par exemple *48 mL pour 1 dKH*) ;
+- la dose maximale par mesure (*Jusqu’à 20 mL par mesure*) ;
+- la version du micrologiciel.
 
-Sous les mesures, la carte indique quand la dernière a été prise (par exemple *Mesuré 14:00*) et d’où elle vient : **Toutes les heures depuis votre Cora Max** ou **Depuis le cloud AquaWiz, toutes les 12 heures**. Elle affiche aussi la **variation du pH**. L’ouverture de la page demande une mesure fraîche, et **Lire maintenant** la redemande, au plus une fois toutes les 15 minutes. Si une mesure n’a pas changé, c’est normal : l’appareil ne mesure que de temps en temps.
+Sous les mesures, la carte indique quand la dernière a été prise (par exemple *Mesuré 14:00*) et d’où elle vient : **Toutes les heures depuis votre Cora Max** ou **Depuis le cloud AquaWiz, toutes les 12 heures**. Elle affiche aussi la **variation du pH**. L’ouverture de la page demande une mesure fraîche, et **Lire maintenant** la redemande, au plus une fois toutes les 15 minutes. Si une mesure n’a pas changé, c’est normal : l’appareil ne mesure que de temps en temps.
 
 La carte affiche aussi la pompe et la sonde de pH, et Cora vous alerte quand la pompe signale un défaut ou quand la sonde de pH est en panne ou presque en fin de vie. Cela vaut pour tout AquaWiz, avec ou sans Cora Max. Quand un Cora Max lit l’appareil toutes les heures, la carte affiche aussi le niveau de la boîte à eau, et Cora vous alerte quand il reste bas ou haut plus d’une heure.
 

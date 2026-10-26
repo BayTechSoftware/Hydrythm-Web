@@ -197,7 +197,7 @@
 <p>Jeśli wyszukiwanie nic nie znajdzie, wynik pokazuje adresy sprawdzone przez Wi-Fi. Jeśli aplikacja Jebao pokazuje dla pompy inny adres, telefon jest w innej sieci. Sieć gościnna albo IoT, a także pasmo wyłącznie 5 GHz, nie widzi tych pomp. Na iPhonie Cora potrzebuje też dostępu do sieci lokalnej, żeby widzieć pompy w Twojej sieci Wi-Fi. Bez niego lista zostaje pusta i nie pojawia się żaden błąd, więc wynik to wyjaśnia i proponuje <strong>Otwórz Ustawienia</strong>, żeby włączyć dostęp ponownie. Możesz tam też przejść w każdej chwili z <strong>Ustawienia → Dostęp do urządzeń</strong>, opisanego w <a href="/pl/help/mobile-settings">Ustawieniach</a>.</p>
 <p><strong>Przez Bluetooth.</strong> Z niektórymi pompami połączy się tylko telefon stojący blisko nich. Strona pompy o tym mówi i pokazuje ostatnio odczytane ustawienia oraz ich wiek. Cora potrzebuje do tego uprawnienia Bluetooth. Nadaj je przed dodaniem pompy Bluetooth, bo inaczej Cora w ogóle jej nie znajdzie.</p>
 <aside class="cal cal-warning"><p class="cal-t">Musisz być blisko pompy Bluetooth</p><p>Jej strona pokazuje ostatnie ustawienia odczytane przez Corę i to, jak dawno to było. Każda zmiana, nawet uruchomienie przerwy na karmienie, wymaga pompy w zasięgu. Stań blisko niej i ponownie otwórz stronę.</p></aside>
-<p>Przy obu połączeniach dostajesz stan na żywo, tryb i intensywność, przerwę na karmienie i program dnia. Przerwa na karmienie uruchomiona z telefonu przy niektórych pompach wymaga otwartej strony pompy. Szczegóły są w <a href="/pl/help/mobile-device-control#jecod">Sterowaniu sprzętem</a>, a program dnia opisują <a href="/pl/help/mobile-schedules">Harmonogramy sprzętu</a>.</p>
+<p>Przy obu połączeniach dostajesz stan na żywo, tryb i intensywność, przerwę na karmienie i harmonogram. Przerwa na karmienie uruchomiona z telefonu przy niektórych pompach wymaga otwartej strony pompy. Szczegóły są w <a href="/pl/help/mobile-device-control#jecod">Sterowaniu sprzętem</a>, a program dnia opisują <a href="/pl/help/mobile-schedules">Harmonogramy sprzętu</a>.</p>
 <h2 id="aquawiz-kh-controller">AquaWiz KH Controller</h2>
 <p>Cora odczytuje alkaliczność z kontrolera AquaWiz KH przez chmurę AquaWiz, więc działa to poza domem i nie wymaga Cora Max. Cora Max dodaje odczyty co godzinę: zobacz <a href="#how-cora-reads-aquawiz">Jak Cora odczytuje Twój AquaWiz</a>.</p>
 <ol><li>Przejdź do <strong>Urządzenia → Dodaj urządzenie → AquaWiz</strong>.</li><li>Zaloguj się kontem AquaWiz, którego używasz w aplikacji AquaWiz, i dotknij <strong>Połącz</strong>.</li><li>Wybierz akwarium, sprawdź <strong>Odczytuj też jego pH</strong> (dla urządzenia, które zgłasza pH, na początku jest włączone) i dotknij <strong>Połącz z Cora</strong>.</li></ol>
@@ -217,7 +217,7 @@
 <h2 id="if-a-connection-stops-working">Gdy połączenie przestaje działać</h2>
 <p>Wiersz urządzenia mówi, jaki to rodzaj problemu. Znajdź go w tabeli w <a href="/pl/help/mobile-devices#health">Dodawaniu, edytowaniu i usuwaniu urządzeń</a>. We wszystkim, czego tam nie ma, zobacz <a href="/pl/help/troubleshooting">Rozwiązywanie problemów</a>.</p>
       <nav class="pn" aria-label="Czytaj dalej"><a class="pn-p" href="/pl/help/mobile-devices"><span>Poprzedni</span><b>Dodawanie, edytowanie i usuwanie urządzeń</b></a><a class="pn-n" href="/pl/help/mobile-device-control"><span>Następny</span><b>Sterowanie sprzętem</b></a></nav>
-      <p class="stamp">Napisano dla Cora Max 0.28.238 i Cora Mobile 1.4.14. Ostatnio sprawdzono 2026-10-24.</p>
+      <p class="stamp">Napisano dla Cora Max 0.28.240 i Cora Mobile 1.4.16. Ostatnio sprawdzono 2026-10-24.</p>
       <p class="ask">Wciąż masz problem? Napisz na <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, pomożemy.</p>
     </article>
   </main>
@@ -608,7 +608,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/pl/help/search.json?v=aede854401').then(function (r) { return r.json(); })
+    fetch('/pl/help/search.json?v=bf578ebf0d').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "pl"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Wyszukiwanie jest niedost\u0119pne. U\u017cyj menu." + '</li>';

@@ -201,7 +201,7 @@
 <ul><li><strong>Meine Dashboards</strong> bewahrt bis zu 30 gespeicherte Designs in deinem Konto auf. Jedes Cora Max im Konto kann eins laden. Kacheln, die das Ziel nicht füllen kann, stehen vor dem Laden unter <strong>Zurückgelassen:</strong>.</li><li><strong>Vorlagen</strong> öffnet <strong>Dashboard-Vorlagen</strong>: <strong>Übersicht</strong>, <strong>Ausrüstung</strong> und <strong>Wasserwerte</strong>. Es ist in jedem Abo offen und nutzt keine KI.</li><li><strong>Mit KI gestalten</strong>, mit einem kostenpflichtigen Abo oder während der Testphase, schlägt ein ganzes Layout vor, ausgehend von dem, was das Becken meldet und verknüpft hat. Du kannst 5 Entwürfe pro Becken und Tag erstellen.</li></ul>
 <p>Wie jedes davon funktioniert, steht unter <a href="/de/help/max-dashboard-editing">Das Cora Max-Dashboard bearbeiten</a>.</p>
       <nav class="pn" aria-label="Weiterlesen"><a class="pn-p" href="/de/help/mobile-metric-detail"><span>Zurück</span><b>Einen Wasserwert genauer ansehen</b></a><a class="pn-n" href="/de/help/mobile-widgets"><span>Weiter</span><b>Widget-Referenz</b></a></nav>
-      <p class="stamp">Geschrieben für Cora Max 0.28.238 und Cora Mobile 1.4.14. Zuletzt geprüft am 2026-10-18.</p>
+      <p class="stamp">Geschrieben für Cora Max 0.28.240 und Cora Mobile 1.4.16. Zuletzt geprüft am 2026-10-18.</p>
       <p class="ask">Kommst du nicht weiter? Schreib eine E-Mail an <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, wir helfen dir.</p>
     </article>
   </main>
@@ -592,7 +592,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/de/help/search.json?v=f36c594b9d').then(function (r) { return r.json(); })
+    fetch('/de/help/search.json?v=78d2fe7c0c').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "de"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Die Suche ist nicht verf\u00fcgbar. Nutze die Navigation." + '</li>';

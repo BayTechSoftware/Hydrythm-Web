@@ -90,7 +90,7 @@ Cora'nın ne yaptığını bilmesi ve ondan doğru söz etmesi için her kafaya 
 
 Her kullanım amacı için bir kap 1.000 L'ye kadar olabilir. Apex'in kendisi yalnızca 150 L'ye kadar sayar, bu yüzden bunun üstünde Cora kabı kafanın dozladığından kendisi izler. Kurarken **Toplam Hacim**'i girin. Cora ayrıca Apex'in kendi sayacını zaman zaman sıfırlar ve Etkinlik bunu *Apex'in kendi sayacı 150 L'ye sıfırlandı* olarak gösterir.
 
-Her kafanın ayrıca bir **Elle verilecek en büyük dozaj** sınırı vardır, böylece bir yazım hatası elle bir dozu kastettiğinizden çok daha büyük bir şeye çeviremez. Büyük elle dozlar yalnızca kafanın hızı akvaryumun başında gerçek bir teste göre ölçüldükten ve siz kafanın ayarlarında **Büyük dozlar**'ı açtıktan sonra kullanılabilir. Varsayılan olarak kapalıdır. Bunu yalnızca ilk büyük dozun çalışmasını akvaryumun başında izledikten sonra açın.
+Takviye ve Yem dışındaki her kafanın ayrıca bir **Elle verilecek en büyük dozaj** sınırı vardır, böylece bir yazım hatası elle bir dozu kastettiğinizden çok daha büyük bir şeye çeviremez. Takviye ve Yem kafaları bunun yerine küçük, sabit bir sınırı korur. Bu sınır ayarlandıktan sonra kafanın, varsayılan günde 10 mL'nin yerine geçen bir **Otomasyonlar ve Asistan için günlük sınır** değeri de olabilir.
 
 ## Red Sea ReefBeat {#red-sea}
 
@@ -98,9 +98,9 @@ Her Red Sea ünitesinin yaptığı işe uyan bir sayfası vardır:
 
 | Ünite | Sayfada | Yapabilecekleriniz |
 |---|---|---|
-| [ReefDose](#reefdose) | Her kafa, kabı ve ne dozladığı | Dozaj yapma, günlük dozu değiştirme, **Dozaj planı**'nı düzenleme |
+| [ReefDose](#reefdose) | Her kafa, kabı ve ne dozladığı | Dozaj yapma, günlük dozu değiştirme |
 | [ReefRun](#reefrun) | Ana pompa ve skimmer pompası hızı ve durumu | Hızı değiştirme, bir pompayı açıp kapatma |
-| [ReefMat](#reefmat) | Gün ve metre olarak kalan rulo | Matı ilerletme, **ReefMat ayarları**'nı ayarlama, yeni bir rulo kaydetme |
+| [ReefMat](#reefmat) | Gün ve metre olarak kalan rulo | Matı ilerletme |
 | [ReefATO+](#reefato) | Depo seviyesi ve su tamamlama etkinliği | Bir depo uyarısı kurma |
 
 
@@ -115,13 +115,6 @@ Her kafa için **Günlük dozaj** ve **Şişede kalan** değerlerini ayarlayabil
 
 **Dozaj** bölümü **Yaklaşan dozlar**'ı, her kafanın bugün ne dozladığını (**Bugün şimdiye kadar dozlanan**) ve **Son 7 gün** ya da **Toplam** için **Kafa başına dozlanan**'ı gösterir. Cora bunu bir Cora Max ya da telefonunuz ev ağınızdayken okur.
 
-### Bir dozaj planını düzenleme {#reefdose-plan}
-
-**Dozaj planı**'nı açmak için bir ReefDose sayfasındaki takvim simgesine dokunun.
-
-Bir plan, en fazla dört zaman aralığına bölünmüş günlük bir toplamdır. Her aralığın bir başlangıç ve bitiş saati, kaç doz vermesi gerektiği ve bir hızı vardır: **Fısıltı**, **Normal** ya da **Hızlı**. Aralık ekleyip kaldırın, sonra kaydedin. Cora, kafanın tüm planının yerine geçmeden önce göndermek üzere olduğunuz şeyi gösterir ve onaylamanızı ister.
-
-Düzenleyici önce ünitede zaten olan planı okur, böylece boş bir formu değil gerçek planı düzenlersiniz.
 
 ## ReefRun {#reefrun}
 
@@ -132,12 +125,6 @@ ReefRun ana pompaları ve skimmer pompalarını kontrol eder. Bir dalga pompası
 
 ReefMat sayfası gün ve metre olarak ne kadar rulo kaldığını gösterir. Matı elle ilerletmek için **Şimdi ilerlet**'e dokunun. Cora önce **Mat şimdi ilerletilsin mi?** diye sorar. Rulo için bir dolum uyarısı da kurabilirsiniz.
 
-**ReefMat ayarları** için dişliye dokunun:
-
-- **Zamanlanmış ilerletme**, sayfada zaten bulunan otomatik ilerletme sensöründen ayrı, sabit zamanlı bir ilerletmeyi açar. Açın ve ne sıklıkla ve her ilerletmenin matı ne kadar taşıyacağını ayarlayın.
-- **ReefMat modeli** ve **Motor konumu** (**Sol** ya da **Sağ**), Cora'ya hangi üniteye ve yöne sahip olduğunuzu söyler.
-
-Yeni bir rulo taktıktan sonra bunu **Yeni rulo** ile Cora'ya bildirin: kalınlığı ve biliyorsanız dış çapı. **Şimdi ilerlet** yalnızca zaten takılı olan matı ilerletir.
 
 ## ReefATO+ {#reefato}
 

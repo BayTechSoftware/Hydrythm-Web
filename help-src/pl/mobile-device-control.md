@@ -90,7 +90,7 @@ Dwa przeznaczenia do podmiany wody działają w **parach**. Ustaw **Sparowana g�
 
 Pojemnik może mieć do 1000 L, przy każdym przeznaczeniu. Sam Apex liczy tylko do 150 L, więc powyżej tego Cora sama śledzi pojemnik na podstawie tego, co dozuje głowica. Wpisz **Całkowitą objętość** przy konfiguracji. Cora też od czasu do czasu zeruje własny licznik Apex, a Aktywność pokazuje to jako *Własny licznik Apex zresetowano do 150 L*.
 
-Każda głowica ma też limit **Największa dawka ręczna**, żeby literówka nie zamieniła dawki ręcznej w coś znacznie większego, niż chodziło. Duże dawki ręczne stają się dostępne dopiero wtedy, gdy tempo głowicy zostało zmierzone prawdziwym testem przy akwarium i gdy włączysz **Duże dawki** w ustawieniach głowicy. Domyślnie jest wyłączone. Włącz je dopiero wtedy, gdy obejrzysz przy akwarium pierwszą dużą dawkę.
+Każda głowica poza Suplementem i Pokarmem ma też limit **Największa dawka ręczna**, żeby literówka nie zamieniła dawki ręcznej w coś znacznie większego, niż chodziło. Głowice Suplement i Pokarm zachowują zamiast tego mały, stały limit. Gdy ten limit jest ustawiony, głowica może mieć też **Dzienny limit dla automatyzacji i Asystenta**, który zastępuje domyślne 10 mL dziennie.
 
 ## Red Sea ReefBeat {#red-sea}
 
@@ -98,9 +98,9 @@ Każde urządzenie Red Sea ma stronę dopasowaną do tego, co robi:
 
 | Urządzenie | Strona pokazuje | Możesz |
 |---|---|---|
-| [ReefDose](#reefdose) | Każdą głowicę, jej pojemnik i to, co dozowała | Dozować, zmienić dawkę dzienną, edytować **Plan dozowania** |
+| [ReefDose](#reefdose) | Każdą głowicę, jej pojemnik i to, co dozowała | Dozować, zmienić dawkę dzienną |
 | [ReefRun](#reefrun) | Prędkość i stan pompy powrotnej i pompy odpieniacza | Zmienić prędkość, przełączyć pompę |
-| [ReefMat](#reefmat) | Pozostałą rolkę, w dniach i metrach | Przesunąć matę, ustawić **Ustawienia ReefMat**, zarejestrować nową rolkę |
+| [ReefMat](#reefmat) | Pozostałą rolkę, w dniach i metrach | Przesunąć matę |
 | [ReefATO+](#reefato) | Poziom w zbiorniku i aktywność dolewki | Ustawić alert zbiornika |
 
 
@@ -115,13 +115,6 @@ Dla każdej głowicy możesz ustawić **Dawka dzienna** i **Pozostało w butelce
 
 Sekcja **Dozowanie** pokazuje **Nadchodzące dawki**, to, co każda głowica dozowała dziś (**Dozowano dziś do tej pory**), oraz **Dozowane na głowicę** za **Ostatnie 7 dni** albo **Łącznie**. Cora odczytuje to, gdy Cora Max albo Twój telefon jest w Twojej sieci domowej.
 
-### Edytowanie planu dozowania {#reefdose-plan}
-
-Dotknij ikony kalendarza na stronie ReefDose, żeby otworzyć **Plan dozowania**.
-
-Plan to suma dzienna podzielona na maksymalnie cztery okna czasowe. Każde okno ma godzinę początku i końca, liczbę dawek do podania i prędkość: **Cichy**, **Normalny** albo **Szybki**. Dodawaj i usuwaj okna, a potem zapisz. Cora pokaże, co zamierzasz wysłać, i poprosi o potwierdzenie, zanim zastąpi cały plan głowicy.
-
-Edytor najpierw odczytuje plan, który już jest w urządzeniu, więc edytujesz prawdziwy plan, a nie pusty formularz.
 
 ## ReefRun {#reefrun}
 
@@ -132,12 +125,6 @@ ReefRun steruje pompami powrotnymi i pompami odpieniaczy. To nie jest pompa cyrk
 
 Strona ReefMat pokazuje, ile zostało rolki, w dniach i metrach. Dotknij **Przewiń teraz**, żeby ręcznie przesunąć matę. Cora najpierw zapyta **Przewinąć matę teraz?** Możesz też ustawić alert uzupełnienia rolki.
 
-Dotknij koła zębatego, żeby otworzyć **Ustawienia ReefMat**:
-
-- **Zaplanowane przewijanie** włącza przewijanie o stałych porach, niezależne od czujnika automatycznego przewijania, który już jest na stronie. Włącz go i ustaw, jak często i o ile ma przesuwać matę każde przewinięcie.
-- **Model ReefMat** i **Pozycja silnika** (**Lewa** albo **Prawa**) mówią Corze, jakie masz urządzenie i w jakim ułożeniu.
-
-Po założeniu nowej rolki daj znać Corze przez **Nowa rolka**: podaj jej grubość, a jeśli znasz, także średnicę zewnętrzną. **Przewiń teraz** przesuwa tylko już założoną matę.
 
 ## ReefATO+ {#reefato}
 

@@ -49,7 +49,7 @@ Gdy działa scena czasowa, jej kafelek odlicza czas do końca i pokazuje **Zatrz
 
 Uruchomienie i zatrzymanie sceny idzie przez Cora Cloud, jak każde inne polecenie. Wynik znajdziesz w [Aktywności](/help/max-activity).
 
-Na Cora Max nie da się uruchamiać scen głosem. Użyj kafelka, **Ustawienia → Automatyzacje** albo telefonu.
+Scenę możesz też uruchomić głosem: *"Uruchom scenę podmiana wody."* Blokada rodzicielska blokuje to jak każde inne sterowanie. Inaczej użyj kafelka, **Ustawienia → Automatyzacje** albo telefonu.
 
 Jeśli scena nie chce się uruchomić albo zatrzymać, zajrzyj do [Rozwiązywania problemów](/help/troubleshooting).
 

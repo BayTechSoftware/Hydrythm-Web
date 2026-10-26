@@ -26,7 +26,7 @@ Bir Cora Max **en fazla dört akvaryum** gösterir. Reef Room her birine ekranda
 Tek akvaryum varsa Cora Max o akvaryumun panosuyla açılır. Izgara simgesi yine de sizi Reef Room'a götürür.
 
 :::note Sınır dört akvaryum
-Bir Cora Max'e eşleştirirken ya da sonradan telefonunuzda **Cihazlar → Cora Max'iniz** yolundan en fazla dört akvaryum atayabilirsiniz. Beşinciyi eklemeye çalışırsanız önce birini kaldırmanız istenir. Daha fazla akvaryumunuz varsa ikinci bir Cora Max kullanın. Her biri kendi akvaryumlarını tutar. Adımlar [Cora Max'i kurma](/help/max-setup#changing-which-tanks-it-shows) sayfasında.
+Bir Cora Max'e eşleştirirken ya da sonradan telefonunuzda **Cihazlar → Cora Max'iniz** yolundan en fazla dört akvaryum atayabilirsiniz. Bir Cora Max'te zaten dört akvaryum varsa telefonunuzda **Akvaryum Ekle** düğmesi kaybolur, bu yüzden önce birini kaldırın. Daha fazla akvaryumunuz varsa ikinci bir Cora Max kullanın. Her biri kendi akvaryumlarını tutar. Adımlar [Cora Max'i kurma](/help/max-setup#changing-which-tanks-it-shows) sayfasında.
 :::
 
 ## Kutucukta neler var {#what-a-tile-shows}

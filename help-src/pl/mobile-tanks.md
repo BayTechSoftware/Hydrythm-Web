@@ -47,7 +47,7 @@ W tej kolejności przesuwasz akwaria na panelu.
 
 Twój plan obejmuje określoną liczbę akwariów, które dostają codzienne podsumowanie Reef Buddy. Cora daje je pierwszym akwariom w kolejności z **Zmień kolejność akwariów**. W planie Essential i w czasie 30-dniowego okresu próbnego to tylko pierwsze akwarium. Advanced obejmuje 5 akwariów, a Expert 20. Więcej w [Planach i subskrypcjach](/help/mobile-plans).
 
-Jeśli akwarium nie dostaje podsumowania, przesuń je na początek listy. Usunięte akwaria się nie liczą.
+Jeśli akwarium nie dostaje podsumowania, przesuń je na początek listy. Usunięte akwaria się nie liczą. Akwarium, które wciąż cyklujesz (tryb nowego akwarium), jest zawsze objęte i nie zajmuje miejsca.
 
 ## Usuwanie akwarium {#removing-a-tank}
 

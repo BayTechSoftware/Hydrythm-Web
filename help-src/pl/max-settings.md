@@ -42,7 +42,7 @@ Każde akwarium ma wiersz, który otwiera jego własne ustawienia.
 
 Ostatni wiersz w Ustawieniach ma nazwę tego Cora Max. Otwiera wszystko, co dotyczy **tylko tego ekranu**.
 
-Na górze jest karta z nazwą tego ekranu i wersją oprogramowania (*Cora Max · oprogramowanie 0.28.170*).
+Na górze jest karta z nazwą tego ekranu i wersją oprogramowania (*Cora Max · oprogramowanie 0.28.x*).
 
 - Dotknij ołówka (**Zmień nazwę tego urządzenia**), żeby nadać mu nową nazwę, na przykład „Salon”.
 - **Pokaż szczegóły** wymienia jego **ID Cora**, **Adres MAC**, **Sieć Wi-Fi**, **Adres IP**, jego akwaria i konto, z którym jest sparowany. Pomoc techniczna może o nie poprosić.

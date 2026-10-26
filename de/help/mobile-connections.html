@@ -197,7 +197,7 @@
 <p>Findet eine Suche nichts, zeigt das Ergebnis die Adressen, die über WLAN geprüft wurden. Zeigt die Jebao-App eine andere Adresse für deine Pumpe, ist dein Handy in einem anderen Netzwerk. Ein Gast- oder IoT-Netzwerk oder ein reines 5-GHz-Band sieht diese Pumpen nicht. Auf dem iPhone braucht Cora außerdem Zugriff auf das lokale Netzwerk, um Pumpen in deinem WLAN zu sehen. Ohne ihn bleibt die Liste leer, ohne Fehlermeldung, deshalb erklärt das Ergebnis das und bietet <strong>Einstellungen öffnen</strong> an, um ihn wieder einzuschalten. Du kommst auch jederzeit über <strong>Einstellungen → Gerätezugriff</strong> dorthin, beschrieben unter <a href="/de/help/mobile-settings">Cora Mobile-Einstellungen</a>.</p>
 <p><strong>Über Bluetooth.</strong> Manche Pumpen lassen sich nur von einem Handy erreichen, das in ihrer Nähe steht. Die Seite der Pumpe sagt das und zeigt die letzten Einstellungen, die sie gelesen hat, und wie alt sie sind. Cora braucht dafür die Bluetooth-Berechtigung. Erteil sie, bevor du eine Bluetooth-Pumpe hinzufügst, sonst findet Cora die Pumpe gar nicht.</p>
 <aside class="cal cal-warning"><p class="cal-t">Du musst in der Nähe einer Bluetooth-Pumpe sein</p><p>Ihre Seite zeigt die letzten Einstellungen, die Cora gelesen hat, und wie lange das her ist. Etwas zu ändern, auch eine Futterpause zu starten, braucht die Pumpe in Reichweite. Stell dich in ihre Nähe und öffne die Seite noch einmal.</p></aside>
-<p>Über beide Verbindungen bekommst du Live-Zustand, Modus und Intensität, eine Futterpause und ein Tagesprogramm. Eine Futterpause, die du auf dem Handy startest, braucht bei manchen Pumpen die geöffnete Seite der Pumpe. Die Details stehen unter <a href="/de/help/mobile-device-control#jecod">Deine Ausrüstung steuern</a>, und <a href="/de/help/mobile-schedules">Ausrüstung planen</a> behandelt das Tagesprogramm.</p>
+<p>Über beide Verbindungen bekommst du Live-Zustand, Modus und Intensität, eine Futterpause und ein Zeitplan. Eine Futterpause, die du auf dem Handy startest, braucht bei manchen Pumpen die geöffnete Seite der Pumpe. Die Details stehen unter <a href="/de/help/mobile-device-control#jecod">Deine Ausrüstung steuern</a>, und <a href="/de/help/mobile-schedules">Ausrüstung planen</a> behandelt den Zeitplan.</p>
 <h2 id="aquawiz-kh-controller">AquaWiz KH Controller</h2>
 <p>Cora liest die Alkalinität eines AquaWiz KH Controllers über die Cloud von AquaWiz, das funktioniert also auch unterwegs und braucht kein Cora Max. Ein Cora Max bringt stündliche Messwerte dazu: siehe <a href="#how-cora-reads-aquawiz">Wie Cora deinen AquaWiz liest</a>.</p>
 <ol><li>Geh zu <strong>Geräte → Gerät hinzufügen → AquaWiz</strong>.</li><li>Melde dich mit dem AquaWiz-Konto an, das du auch in der AquaWiz-App nutzt, und tippe auf <strong>Verbinden</strong>.</li><li>Wähl das Becken, prüf <strong>Auch pH-Wert lesen</strong> (es ist bei einem Gerät, das den pH-Wert meldet, zuerst eingeschaltet), und tippe auf <strong>Mit Cora verknüpfen</strong>.</li></ol>
@@ -217,7 +217,7 @@
 <h2 id="if-a-connection-stops-working">Wenn eine Verbindung nicht mehr funktioniert</h2>
 <p>Die Gerätezeile sagt dir, welche Art von Problem es ist. Schlag es in der Tabelle unter <a href="/de/help/mobile-devices#health">Geräte hinzufügen, bearbeiten und entfernen</a> nach. Für alles, was dort nicht steht, siehe <a href="/de/help/troubleshooting">Problembehebung</a>.</p>
       <nav class="pn" aria-label="Weiterlesen"><a class="pn-p" href="/de/help/mobile-devices"><span>Zurück</span><b>Geräte hinzufügen, bearbeiten und entfernen</b></a><a class="pn-n" href="/de/help/mobile-device-control"><span>Weiter</span><b>Deine Ausrüstung steuern</b></a></nav>
-      <p class="stamp">Geschrieben für Cora Max 0.28.238 und Cora Mobile 1.4.14. Zuletzt geprüft am 2026-10-24.</p>
+      <p class="stamp">Geschrieben für Cora Max 0.28.240 und Cora Mobile 1.4.16. Zuletzt geprüft am 2026-10-24.</p>
       <p class="ask">Kommst du nicht weiter? Schreib eine E-Mail an <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, wir helfen dir.</p>
     </article>
   </main>
@@ -608,7 +608,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/de/help/search.json?v=f36c594b9d').then(function (r) { return r.json(); })
+    fetch('/de/help/search.json?v=78d2fe7c0c').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "de"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Die Suche ist nicht verf\u00fcgbar. Nutze die Navigation." + '</li>';

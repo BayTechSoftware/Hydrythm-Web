@@ -1,6 +1,6 @@
 ---
 title: Geräte und Gerätezustand
-description: Die Ausrüstung sehen und umbenennen, die Cora Max abfragt, wählen, welches Cora Max welches Becken abfragt, und ein Becken mit stehen gebliebenen Messwerten reparieren.
+description: Ausrüstung sehen und umbenennen, wählen, welches Cora Max welches Becken abfragt, ein Becken mit stehen gebliebenen Messwerten reparieren und ein Cora Max vom Handy verwalten.
 section: Cora Max
 reviewed: 2026-10-17
 order: 7
@@ -55,7 +55,7 @@ Bleiben die Messwerte eines Beckens stehen, während ein anderes Becken auf dems
 
 1. Öffne **Einstellungen → [dieses Becken] → Primäres Cora Max**. Prüf, ob ein Gerät zugewiesen und online ist.
 2. Zeigt ein anderes Cora Max für dieses Becken in seiner oberen Leiste **Haupt-Cora offline**, hat das primäre seine Verbindung verloren. Was die Statusanzeige bedeutet, steht unter [Der Cora Max-Startbildschirm](/help/max-tour#what-the-status-pill-means).
-3. **Einstellungen → Cora Max-Einstellungen → Netzwerk & Updates → Geräteabfrage** zeigt, wie oft dieses Cora Max deine Geräte abfragt. Hier kannst du es nur ansehen. Eingestellt wird es in Cora Mobile.
+3. **Einstellungen → Cora Max-Einstellungen → NETZWERK & UPDATES → Geräteabfrage** zeigt, wie oft dieses Cora Max deine Geräte abfragt. Hier kannst du es nur ansehen. Eingestellt wird es in Cora Mobile.
 4. Prüf den Bereich **Status** unter **Einstellungen → Cora Max-Einstellungen**. Er zeigt für jedes Becken den Abfragestatus, die letzte Abfrage und den letzten Schreibvorgang in die Cloud, ohne etwas zu ändern.
 
 Hilft das nicht, schau in die [Problembehebung](/help/troubleshooting).

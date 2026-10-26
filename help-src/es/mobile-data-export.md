@@ -24,13 +24,13 @@ Cora exporta **archivos CSV**. Son hojas de cálculo que se abren en Excel, Numb
 |---|---|
 | `cora_parameters.csv` | Tus lecturas, cada una con su fuente y su fecha y hora |
 | `cora_journal.csv` | Tus entradas del diario |
-| `cora_alerts.csv` | Las alertas que han saltado |
+| `cora_alerts.csv` | Tu historial de notificaciones |
 | `cora_export_summary.csv` | Qué incluye esta exportación, también lo que se haya recortado |
 
 :::note Qué incluye la exportación
 Incluye **lecturas, entradas del diario y alertas**, los tres registros que más se piden. No es una copia de toda tu cuenta. No incluye los paneles, la fauna, el mantenimiento, las automatizaciones, los informes ni los ajustes de los dispositivos.
 
-Cada uno de los tres se detiene en **25.000 filas por acuario**. Un acuario que registra treinta parámetros cada cinco minutos pasa de esa cifra en tres días, así que un acuario con mucho tiempo de datos llegará al límite. El archivo de resumen te dice cuándo ha pasado. Revísalo antes de dar la exportación por completa.
+Las lecturas y las entradas del diario se detienen en **25.000 registros por acuario**, y el archivo de notificaciones en 25.000 para toda la cuenta. Un acuario con años de historial puede llegar al límite. El archivo de resumen te dice cuándo ha pasado. Revísalo antes de dar por completada la exportación.
 :::
 
 La exportación de parámetros incluye la **fuente** de cada lectura. Así, en una hoja con tu alcalinidad sigues viendo qué dijo la sonda y qué dijo tu kit de pruebas.
@@ -76,6 +76,6 @@ Al eliminar un dispositivo, Cora olvida ese inicio de sesión. Al eliminar tu cu
 
 - la copia anonimizada para investigación, si dejaste ese interruptor activado
 - tu suscripción de la tienda, que solo la tienda puede cancelar
-- tu ficha de cliente en nuestro proveedor de gestión de suscripciones, que se elimina 120 días después que tu cuenta para que todavía se pueda atender un reembolso de la tienda o una disputa de pago
+- tu ficha de cliente en nuestro proveedor de gestión de suscripciones, que se elimina 120 días después de que se elimine tu cuenta para que todavía se pueda atender un reembolso de la tienda o una disputa de pago
 
 Volver a iniciar sesión en otro teléfono, o cambiar tu forma de iniciar sesión, se explica en [Inicio de sesión y recuperación de la cuenta](/help/mobile-account). Los planes y la facturación están en [Planes y suscripciones](/help/mobile-plans).

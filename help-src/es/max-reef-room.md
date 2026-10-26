@@ -1,5 +1,5 @@
 ---
-title: El cuarto de los acuarios
+title: La sala del arrecife
 description: Ve todos tus acuarios uno al lado del otro en Cora Max, lee la salud de cada uno de un vistazo y pasa de un acuario a otro.
 section: Cora Max
 reviewed: 2026-10-13
@@ -8,13 +8,13 @@ group: Getting started
 twin: mobile-multi-device
 ---
 
-El Cuarto de los Acuarios es la vista general de todos los acuarios que muestra este Cora Max. Ábrelo con el **icono de cuadrícula** que está a la izquierda del todo en la barra superior. En pantalla lleva el título **Acuarios Cora**.
+La sala del arrecife es la vista general de todos los acuarios que muestra este Cora Max. Ábrelo con el **icono de cuadrícula** que está a la izquierda del todo en la barra superior. En pantalla lleva el título **Acuarios Cora**.
 
-![El Cuarto de los Acuarios](img/max-reef-room.webp "Cada acuario con su puntuación de salud, sus parámetros principales y lo que esté fuera de rango.")
+![La sala del arrecife](img/max-reef-room.webp "Cada acuario con su puntuación de salud, sus parámetros principales y lo que esté fuera de rango.")
 
 ## Cómo se reparte la pantalla {#the-layout}
 
-Un Cora Max muestra **hasta cuatro acuarios**, y el Cuarto de los Acuarios da a cada uno el mismo espacio.
+Un Cora Max muestra **hasta cuatro acuarios**, y la sala del arrecife da a cada uno el mismo espacio.
 
 | Acuarios | Disposición |
 |---|---|
@@ -23,10 +23,10 @@ Un Cora Max muestra **hasta cuatro acuarios**, y el Cuarto de los Acuarios da a 
 | 3 | Tres en fila |
 | 4 | Dos arriba y dos abajo |
 
-Con un solo acuario, Cora Max abre el panel de ese acuario. El icono de cuadrícula te sigue llevando al Cuarto de los Acuarios.
+Con un solo acuario, Cora Max abre el panel de ese acuario. El icono de cuadrícula te sigue llevando a la sala del arrecife.
 
 :::note El límite es cuatro
-Un Cora Max admite como máximo cuatro acuarios, al emparejarlo o después en tu teléfono, en **Dispositivos → tu Cora Max**. Si intentas añadir un quinto, te pedirá que quites uno antes. Si tienes más acuarios, usa un segundo Cora Max. Cada uno guarda sus propios acuarios. Los pasos están en [Configurar Cora Max](/help/max-setup#changing-which-tanks-it-shows).
+Un Cora Max admite como máximo cuatro acuarios, al emparejarlo o después en tu teléfono, en **Dispositivos → tu Cora Max**. Cuando un Cora Max ya tiene cuatro acuarios, el botón **Agregar acuario** desaparece en tu teléfono, así que quita uno antes. Si tienes más acuarios, usa un segundo Cora Max. Cada uno guarda sus propios acuarios. Los pasos están en [Configurar Cora Max](/help/max-setup#changing-which-tanks-it-shows).
 :::
 
 ## Qué muestra cada tarjeta {#what-a-tile-shows}
@@ -46,7 +46,7 @@ Debajo de las tarjetas, una franja va mostrando por turnos las ideas del día y 
 ## Pasar de un acuario a otro {#moving-between-tanks}
 
 - **Toca una tarjeta** o **Abrir panel** para ir a ese acuario.
-- **Desliza a los lados** en el panel para pasar de un acuario a otro y volver al Cuarto de los Acuarios.
-- **El icono de cuadrícula** te devuelve al Cuarto de los Acuarios desde cualquier acuario. En el propio Cuarto de los Acuarios no aparece.
+- **Desliza a los lados** en el panel para pasar de un acuario a otro y volver a la sala del arrecife.
+- **El icono de cuadrícula** te devuelve a la sala del arrecife desde cualquier acuario. En la propia sala del arrecife no aparece.
 
 Cada acuario tiene su propio diseño de panel, así que la pantalla cambia por completo al pasar de uno a otro. Más información en [Editar el panel de Cora Max](/help/max-dashboard-editing).

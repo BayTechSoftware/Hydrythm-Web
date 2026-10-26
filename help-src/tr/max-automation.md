@@ -49,7 +49,7 @@ Süreli bir sahne çalışırken kutucuğu bitişe kadar geri sayar ve erken bit
 
 Bir sahneyi çalıştırmak ya da durdurmak, diğer her komut gibi Cora Cloud üzerinden gider. Sonucu [Etkinlik](/help/max-activity) içinde bulursunuz.
 
-Sahneler Cora Max'te sesle çalıştırılamaz. Kutucuğu, **Ayarlar → Otomasyonlar**'ı ya da telefonunuzu kullanın.
+Bir sahneyi sesle de çalıştırabilirsiniz: *"Su değişimi sahnesini çalıştır."* Çocuk kilidi bunu da diğer tüm kontroller gibi engeller. Aksi halde kutucuğu, **Ayarlar → Otomasyonlar**'ı ya da telefonunuzu kullanın.
 
 Bir sahne çalışmıyor ya da durmuyorsa [Sorun giderme](/help/troubleshooting) sayfasına göz atın.
 

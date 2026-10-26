@@ -14,7 +14,7 @@ Tam sayfalara bağlantılarla kısa yanıtlar. Bir şey çalışmıyorsa doğrud
 
 Başlamak için bir şey satın almanız gerekmez. Cora Mobile tek başına akvaryumlarınızı takip eder, testleri kaydeder, uyarı gönderir ve Cora Assistant'ı çalıştırır.
 
-Akvaryumdaki bir Cora Max birkaç şey ekler. O olmadan telefonunuz bir Neptune Apex, Red Sea ya da Jecod cihazını yalnızca Cora Mobile aynı Wi-Fi'da açıkken okur. Bir Cora Max onları gece gündüz okur, siz uzaktayken ölçümlerinizi güncel tutar ve uzaktan gönderdiğiniz komutları iletir. Ayrıntılar [Markaya göre ekipman](/help/equipment-by-brand) sayfasında.
+Akvaryumdaki bir Cora Max birkaç şey ekler. O olmadan telefonunuz bir Neptune Apex, Red Sea ya da Jecod cihazını yalnızca Cora Mobile aynı Wi-Fi'de açıkken okur. Bir Cora Max onları gece gündüz okur, siz uzaktayken ölçümlerinizi güncel tutar ve uzaktan gönderdiğiniz komutları iletir. Ayrıntılar [Markaya göre ekipman](/help/equipment-by-brand) sayfasında.
 
 ### İlk akvaryumumu nasıl eklerim? {#how-do-i-add-my-first-tank}
 
@@ -52,19 +52,19 @@ Bir akvaryumun ekipmanını hangi Cora Max'in okuyacağına karar verir. Çoğu 
 
 ### Birden fazla Cora Max'im varsa "Hey Cora"ya hangi cihaz yanıt verir? {#which-device-answers-hey-cora}
 
-Aynı anda yalnızca bir Cora cihazı yanıt verir. Onu Cora Mobile'da **Ayarlar → Cora Assistant** altında seçersiniz. Birincil Cora Max ile ilgisi yoktur. Ayrıntılar [Cora ile konuşma](/help/max-voice) sayfasında.
+Aynı anda yalnızca bir Cora cihazı yanıt verir. Onu Cora Mobile'da ya da Cora Max'te **Ayarlar → Cora Assistant** altında seçersiniz. Birincil Cora Max ile ilgisi yoktur. Ayrıntılar [Cora ile konuşma](/help/max-voice) sayfasında.
 
 ### Eşleştirmeye çalıştığımda Cora Mobile neden Cora Max'imi bulamıyor? {#why-cant-cora-mobile-find-my-cora-max}
 
 Yeni bir Cora Max Bluetooth üzerinden bulunur. Bluetooth'u açın, Cora'nın onu kullanmasına izin verin ve ekranın yakınında durun. Ayrıca Cora Mobile'da en az bir akvaryumunuz olması gerekir. Wi-Fi adımından sonra telefonunuz Cora Max ile Wi-Fi üzerinden konuşur, bu yüzden eşleştirme bitene kadar aynı ağda kalın. Her hata mesajı ve çözümü [Sorun giderme](/help/troubleshooting#pairing-a-cora-max-fails) sayfasında.
 
-### Telefonumun Cora Max'imle aynı Wi-Fi'da olması gerekir mi? {#does-my-phone-need-the-same-wi-fi}
+### Telefonumun Cora Max'imle aynı Wi-Fi'de olması gerekir mi? {#does-my-phone-need-the-same-wi-fi}
 
 Yalnızca eşleştirirken. Sonrasında Cora'yı her yerden kullanabilirsiniz. Bir cihazın kendi ayarlarından birkaçı yine de telefonunuzun o cihazın ağında olmasını gerektirir.
 
-### Cora Max internete mi ihtiyaç duyar, yoksa yalnızca ev Wi-Fi'ıma mı? {#does-cora-max-need-the-internet}
+### Cora Max internete mi ihtiyaç duyar, yoksa yalnızca ev Wi-Fi'ime mı? {#does-cora-max-need-the-internet}
 
-İkisine de. Ekipmanınıza ulaşmak için ev Wi-Fi'ınıza, eşitleme, diğer cihazlarınız ve asistan için Cora Cloud'a ulaşmak üzere internete ihtiyaç duyar. Üst çubuktaki durum etiketi hangisine sahip olduğunu gösterir. Ayrıntılar [Cora Max ana ekranı](/help/max-tour) sayfasında.
+İkisine de. Ekipmanınıza ulaşmak için ev Wi-Fi'nize, eşitleme, diğer cihazlarınız ve asistan için Cora Cloud'a ulaşmak üzere internete ihtiyaç duyar. Üst çubuktaki durum etiketi hangisine sahip olduğunu gösterir. Ayrıntılar [Cora Max ana ekranı](/help/max-tour) sayfasında.
 
 ### İnternetim kesilirse ne olur? {#what-happens-if-my-internet-goes-down}
 
@@ -78,11 +78,11 @@ Evet. Cora Max'te **Ayarlar → Cora Max Ayarları → Wi-Fi** altından yeni a�
 
 ### Cora Mobile neden Yerel Ağ ve Bluetooth erişimi istiyor? {#why-local-network-and-bluetooth}
 
-Wi-Fi ekipmanını bulmak ve ev ağınızdaki bir Cora Max'e ulaşmak için Yerel Ağ erişimine, bir Cora Max'i ve Bluetooth kullanan ekipmanı eşleştirmek için Bluetooth'a ihtiyaç duyar. Bunlar olmadan cihazı bulamaz. Ayrıntılar [Cora Mobile ayarları](/help/mobile-settings) sayfasında.
+iPhone'da Wi-Fi ekipmanını bulmak ve ev ağınızdaki bir Cora Max'e ulaşmak için Yerel Ağ erişimine, bir Cora Max'i ve Bluetooth kullanan ekipmanı eşleştirmek için Bluetooth'a ihtiyaç duyar. Android'de bunlar Bluetooth ve konumdur. Bunlar olmadan cihazı bulamaz. Ayrıntılar [Cora Mobile ayarları](/help/mobile-settings) sayfasında.
 
 ### Evde değilken akvaryumuma bakabilir miyim? {#can-i-check-on-my-tank-away}
 
-Evet. Akvaryumda bir Cora Max varken ölçümleriniz nerede olursanız olun güncel kalır. O olmadan bir Neptune Apex, Red Sea ya da Jecod cihazı, telefonunuzun aynı Wi-Fi'dayken kaydettiği son ölçümleri gösterir. Bir AquaWiz, üreticisinin bulutu üzerinden okunur, bu yüzden her iki durumda da güncellenmeye devam eder, ama oradan yalnızca 12 saatte bir. Akvaryumda bir Cora Max varsa her saat okunur. Elle kaydettiğiniz ölçümler ve akvaryumun geçmişi her zaman oradadır.
+Evet. Akvaryumda bir Cora Max varken ölçümleriniz nerede olursanız olun güncel kalır. O olmadan bir Neptune Apex, Red Sea ya da Jecod cihazı, telefonunuzun aynı Wi-Fi'deyken kaydettiği son ölçümleri gösterir. Bir AquaWiz, üreticisinin bulutu üzerinden okunur, bu yüzden her iki durumda da güncellenmeye devam eder, ama oradan yalnızca 12 saatte bir. Akvaryumda bir Cora Max varsa her saat okunur. Elle kaydettiğiniz ölçümler ve akvaryumun geçmişi her zaman oradadır.
 
 ### Evden uzaktayken ekipmanı kontrol edebilir miyim? {#can-i-control-equipment-away}
 
@@ -108,21 +108,21 @@ Neptune Apex (DŌS ve Trident ile), Red Sea ReefBeat ekipmanı, Jecod ve Jebao p
 
 
 
-### Cora; Neptune, Red Sea ya da Jebao ile bağlantılı mı? {#is-cora-affiliated}
+### Cora; Neptune, Red Sea, Jecod, Jebao ya da AquaWiz ile bağlantılı mı? {#is-cora-affiliated}
 
-Hayır. Cora bağlandığı hiçbir üreticiyle bağlantılı değildir, onlar tarafından onaylanmamıştır ve onlarla ortaklığı yoktur. Cora onların herkese açık hesaplarıyla, resmi API'leriyle ya da yerel ağ protokolleriyle konuşur. Bir üreticinin kendi uygulaması ya da yazılım güncellemesi bu bağlantıyı herhangi bir zamanda, haber vermeden değiştirebilir ya da bozabilir. Ayrıntılar [Ekipmanınızı bağlama](/help/mobile-connections) sayfasında.
+Hayır. Cora bağlandığı hiçbir üreticiyle bağlantılı değildir, onlar tarafından onaylanmamıştır ve onlarla ortaklığı yoktur. Cora onların hesaplarıyla, bulut hizmetleriyle ya da yerel ağ protokolleriyle konuşur. Bunların bir kısmı üretici tarafından resmî olarak desteklenmez. Bir üreticinin kendi uygulaması ya da yazılım güncellemesi bu bağlantıyı herhangi bir zamanda, haber vermeden değiştirebilir ya da bozabilir. Ayrıntılar [Ekipmanınızı bağlama](/help/mobile-connections) sayfasında.
 
 ### Ekipman aradığımda telefonum hiçbir şey bulamadı. Neden? {#search-found-nothing}
 
-Ekipmanın açık olduğunu ve gerekiyorsa üreticinin uygulamasında zaten kurulmuş olduğunu kontrol edin. Sonra telefonunuzun Cora için Yerel Ağ ve Bluetooth erişimine izin verdiğini kontrol edin. Cora ağınıza hiç katılmamış ekipmanı bulamaz. Ayrıntılar [Sorun giderme](/help/troubleshooting#a-device-cannot-be-reached) sayfasında.
+Ekipmanın açık olduğunu ve gerekiyorsa üreticinin uygulamasında zaten kurulmuş olduğunu kontrol edin. Sonra telefonunuzun Cora için iPhone'da Yerel Ağ ve Bluetooth, Android'de Bluetooth ve konum erişimine izin verdiğini kontrol edin. Cora ağınıza hiç katılmamış ekipmanı bulamaz. Ayrıntılar [Sorun giderme](/help/troubleshooting#a-device-cannot-be-reached) sayfasında.
 
 ### Dozaj pompamı Cora'nın kontrol etmesine izin vermek güvenli mi? {#is-it-safe-to-let-cora-dose}
 
-Cora yalnızca sizin kurduğunuzu dozlar: tanımladığınız bir ürün, bir miktar ve bir zamanlama, her kafa için belirlediğiniz sınırlar içinde. Bir doz yarıda durursa Cora bunu söyleyen bir uyarı verir ve mümkün olduğunda ne kadarının gittiğini söyler. Dozun tamamının gittiğini varsaymadan önce onu okuyun. Ayrıntılar [Ekipmanınızı kontrol etme](/help/mobile-device-control) ve [Sorun giderme](/help/troubleshooting#a-dose-stopped-partway-through-and-a-restore-alert-appeared) sayfalarında.
+Cora yalnızca sizin kurduğunuzu dozlar: tanımladığınız bir ürün, bir miktar ve bir zamanlama, her kafa için belirlediğiniz sınırlar içinde. Elle, bir otomasyondan ya da Cora Assistant üzerinden başlattığınız dozların da kendi üst sınırları vardır. Ayrıntılar [Ekipmanınızı kontrol etme](/help/mobile-device-control) sayfasında.
 
 ### Cora dozaj ürünümün ne kadar güçlü olduğunu nereden biliyor? {#how-strong-is-my-dosing-product}
 
-Tuzları ve dozaj ürünlerini yayımlanmış değerleriyle listeleyen yerleşik ürün kütüphanesinden gelir. Kendi ürününüzü eklerseniz yoğunluğu kendiniz girersiniz. Ayrıntılar [Dozaj](/help/mobile-dosing) sayfasında.
+Alkalinite, kalsiyum ve magnezyum ürünlerini yayımlanmış değerleriyle listeleyen yerleşik listeden gelir. Şişenizde farklı bir yoğunluk yazıyorsa onu değiştirin. Kendi ürününüzü eklerseniz etiketteki yoğunluğu girin. Ayrıntılar [Dozaj](/help/mobile-dosing) sayfasında.
 
 ## Uyarılar ve bildirimler
 
@@ -148,7 +148,7 @@ Cora Max'te **Ertele**'ye dokunun. O uyarıyı o ekranda kuralın **Uyarılar ar
 
 ### Neden telefonuma bir uyarı geldi de Cora Max'e gelmedi, ya da tam tersi? {#alert-on-phone-not-on-cora-max}
 
-**Ayarlar → Bildirimler** içindeki anahtarlar hesabınıza aittir, bu yüzden giriş yaptığınız her telefonda geçerlidir. Cora Max, o ekran için ekrandaki uyarılar kapatılmadıkça (telefonunuzda **Cihazlar**, Cora Max'iniz, **Uyarılar**) ya da siz onu orada ertelemediyseniz veya kapatmadıysanız her uyarıyı gösterir. Ayrıntılar [Cora Max'te uyarılar](/help/max-alerts) sayfasında.
+**Ayarlar → Bildirimler** içindeki anahtarlar hesabınıza aittir, bu yüzden giriş yaptığınız her telefonda geçerlidir. Cora Max, siz onu orada ertelemediyseniz veya kapatmadıysanız her uyarıyı gösterir. Yalnızca bir Cora Max'in uyarı sesini susturmak için telefonunuzda **Uyarı sesi**'ni kapatın (**Cihazlar**, Cora Max'iniz). Ayrıntılar [Cora Max'te uyarılar](/help/max-alerts) sayfasında.
 
 ## Reef Buddy ve Cora Assistant
 
@@ -162,7 +162,7 @@ Reef Buddy ücretli planların ve 30 günlük denemenin bir parçasıdır. Her p
 
 ### Cora'ya ne sorabilirim ve o neler yapabilir? {#what-can-i-ask-cora}
 
-Akvaryumunuzun ölçümlerini, geçmişini, dozajını, laboratuvar sonuçlarını ve günlüğünü sorun. Cora sizin için bir test kaydetmek ya da ekipmanı açıp kapatmak gibi işler de yapabilir ve önce onaylamanızı ister. Bir şey için verisi ya da bağlantısı olmadığında tahmin etmek yerine bunu söyler. Ayrıntılar [Cora'ya sorun](/help/mobile-assistant) ve [Cora ile konuşma](/help/max-voice) sayfalarında.
+Akvaryumunuzun ölçümlerini, geçmişini, dozajını, laboratuvar sonuçlarını ve günlüğünü sorun. Cora sizin için bir test kaydetmek, ya da siz onayladıktan sonra ekipmanı açıp kapatmak gibi işler de yapabilir. Bir şey için verisi ya da bağlantısı olmadığında tahmin etmek yerine bunu söyler. Ayrıntılar [Cora'ya sorun](/help/mobile-assistant) ve [Cora ile konuşma](/help/max-voice) sayfalarında.
 
 ### Cora geçen sefer söylediklerimi hatırlıyor mu? {#does-cora-remember}
 
@@ -190,7 +190,7 @@ Hayır. Zaten yazılmış olan her şey kendi dilinde kalır. Yeni uyarılar, ra
 
 ### Ne ücretsiz, ne bir plan gerektirir? {#whats-free}
 
-Her planın neleri içerdiği için [Planlar ve abonelikler](/help/mobile-plans) sayfasına bakın.
+İzleme, cihazlar, uyarılar, günlük, verilerinizi dışa aktarma ve rehberli döngü ücretsizdir. Reef Buddy ve Cora Assistant'ın daha büyük kotaları Cora Essential, Advanced ya da Expert gerektirir; yeni bir hesap 30 günlük Advanced denemesiyle başlar. Her planın neleri içerdiği için [Planlar ve abonelikler](/help/mobile-plans) sayfasına bakın.
 
 ### Expert planı Cora Max ile aynı şey mi? {#max-plan-or-cora-max}
 
@@ -212,9 +212,9 @@ Hayır. Aboneliği Apple ya da Google üzerinden de iptal edin. **Hesabı Sil** 
 
 Cora onu ölçümlerinizi göstermek, uyarıları çalıştırmak ve Reef Buddy ile Cora Assistant'a güç vermek için kullanır. Neyin saklandığı ve nasıl kullanılabileceği [Verilerinizi dışa aktarma ve hesabınızı silme](/help/mobile-data-export), [Cora Mobile ayarları](/help/mobile-settings) sayfalarında ve gizlilik politikasında anlatılır.
 
-### Cora'nın akvaryumum hakkında sakladığı her şeyin bir kopyasını alabilir miyim? {#can-i-get-a-copy}
+### Verilerimi dışa aktarabilir miyim? {#can-i-get-a-copy}
 
-Evet, onu Cora Mobile'dan dışa aktarabilirsiniz. [Verilerinizi dışa aktarma](/help/mobile-data-export) sayfası dışa aktarmanın neleri içerdiğini açıklar.
+Evet. Ölçümlerinizi, günlük kayıtlarınızı ve bildirim geçmişinizi Cora Mobile'dan CSV dosyaları olarak dışa aktarabilirsiniz; her planda ücretsizdir. Hesabınızın tamamının kopyası değildir. [Verilerinizi dışa aktarma](/help/mobile-data-export) sayfası dışa aktarmanın neleri içerdiğini açıklar.
 
 ---
 

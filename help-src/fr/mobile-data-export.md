@@ -24,13 +24,13 @@ Cora exporte des **fichiers CSV**. Ce sont des feuilles de calcul qui s’ouvren
 |---|---|
 | `cora_parameters.csv` | Vos mesures, chacune avec sa source et son horodatage |
 | `cora_journal.csv` | Les entrées de votre journal |
-| `cora_alerts.csv` | Les alertes déclenchées |
+| `cora_alerts.csv` | Votre historique de notifications |
 | `cora_export_summary.csv` | Ce que couvre cet export, y compris ce qui a été coupé |
 
 :::note Ce que contient l’export
 Il couvre **les mesures, les entrées du journal et les alertes**, les trois suivis que l’on demande le plus. Ce n’est pas une copie de tout votre compte. Les tableaux de bord, la population, l’entretien, les automatisations, les rapports et les réglages des appareils n’y sont pas.
 
-Chacun des trois s’arrête à **25 000 lignes par aquarium**. Un aquarium qui enregistre trente paramètres toutes les cinq minutes en écrit davantage en trois jours, donc un aquarium suivi depuis longtemps atteindra la limite. Le fichier récapitulatif vous dit quand c’est le cas. Consultez-le avant de considérer que l’export est complet.
+Les mesures et les entrées du journal s’arrêtent à **25 000 enregistrements par aquarium**, et le fichier des notifications à 25 000 pour tout le compte. Un aquarium avec des années d’historique peut atteindre la limite. Le fichier récapitulatif vous dit quand c’est le cas. Consultez-le avant de considérer que l’export est complet.
 :::
 
 L’export des paramètres indique la **source** de chaque mesure. Dans un tableau de votre alcalinité, vous distinguez donc toujours ce que disait votre sonde de ce que disait votre kit de test.
@@ -76,6 +76,6 @@ Retirer un appareil efface ses identifiants. Supprimer votre compte efface tout 
 
 - la copie anonymisée pour la recherche, si vous avez laissé cet interrupteur activé
 - votre abonnement par une boutique, que seule la boutique peut résilier
-- votre fiche client chez notre prestataire de gestion des abonnements, supprimée 120 jours après votre compte pour qu’un remboursement ou un litige de paiement auprès de la boutique puisse encore être traité
+- votre fiche client chez notre prestataire de gestion des abonnements, supprimée 120 jours après la suppression de votre compte pour qu’un remboursement ou un litige de paiement auprès de la boutique puisse encore être traité
 
 Se reconnecter sur un autre téléphone, ou changer de mode de connexion, est expliqué dans [Connexion et récupération de compte](/help/mobile-account). Les forfaits et la facturation sont dans [Forfaits et abonnements](/help/mobile-plans).

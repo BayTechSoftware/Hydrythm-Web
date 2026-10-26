@@ -13,7 +13,7 @@ Widżety dodajesz i układasz w [edytorze panelu](/help/mobile-dashboard-editing
 
 ![Arkusz ustawień widżetu w Cora Mobile](img/mobile-widget-config.webp "Dolna połowa ustawień widżetu: parametr, szerokość, wysokość i zakres czasu, a pod nimi Usuń i Gotowe.")
 
-## Piętnaście typów {#the-fifteen-types}
+## Typy widżetów {#the-widget-types}
 
 | Typ | Co pokazuje |
 |---|---|

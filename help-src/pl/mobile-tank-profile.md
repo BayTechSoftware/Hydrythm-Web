@@ -13,7 +13,7 @@ Profil akwarium opisuje Twój system. Na jego podstawie Cora ocenia odczyty, lic
 
 ## Prowadzona konfiguracja {#guided-setup}
 
-Profil ma dużo pól, więc **Prowadzona konfiguracja** przeprowadza Cię przez niego po jednej sekcji. Otworzysz ją przyciskiem **Skonfiguruj mój akwarium z przewodnikiem** zaraz po utworzeniu akwarium, z **Ustawienia → Twoje akwarium → Prowadzona konfiguracja** oraz z zachęty do profilu na panelu.
+Profil ma dużo pól, więc **Prowadzona konfiguracja** przeprowadza Cię przez niego po jednej sekcji. Otworzysz ją przyciskiem **Skonfiguruj moje akwarium z przewodnikiem** zaraz po utworzeniu akwarium, z **Ustawienia → Twoje akwarium → Prowadzona konfiguracja** oraz z zachęty do profilu na panelu.
 
 Sekcje są w tej kolejności: **Nazwa i typ akwarium**, **Wymiary akwarium**, **Oświetlenie**, **Dozowanie**, **Zarządzanie wodą**, **Obsada**, **Kontrola temperatury**, **Przepływ i filtracja** oraz **Szkodniki i leczenie**. Góra ekranu pokazuje **Krok 2 z 10** i tak dalej.
 

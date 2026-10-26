@@ -27,7 +27,7 @@ Un score Données faible veut dire que Cora avait moins de mesures qu’il n’e
 
 Vient ensuite un résumé, un court paragraphe qui explique le titre avec vos vraies valeurs et vos plages.
 
-Vient ensuite **Aujourd’hui en un coup d’œil**, puis chaque constat sous forme d’une carte : une analyse, une mesure qui a bougé ou l’observation du jour. Chaque carte dit ce que Cora a vu, montre les chiffres et un petit graphique. Un constat qui se répète affiche *Toujours : ..., depuis le 12 oct.* Une pastille à côté du titre **Constats du jour** indique le type d’aquarium et la complétude de son profil. Les deux influencent ce que Cora peut conclure.
+Vient ensuite **Aujourd’hui en un coup d’œil**, puis chaque constat sous forme d’une carte : une analyse, une mesure qui a bougé ou l’observation du jour. Chaque carte dit ce que Cora a vu, montre les chiffres et un petit graphique. Un constat qui se répète affiche *Toujours : ..., depuis le 12 oct.* Une puce à côté du titre **Constats du jour** indique le type d’aquarium et la complétude de son profil. Les deux influencent ce que Cora peut conclure.
 
 
 Cora filtre les analyses avant qu’elles ne vous parviennent. Une analyse doit tenir sur plusieurs mesures. Une seule ne suffit pas. Elle doit aussi vous apprendre quelque chose qu’un simple graphique ne montrerait pas déjà.
@@ -85,7 +85,7 @@ Si vous n’avez rien testé depuis une semaine, le score Données baisse et le 
 
 Reef Buddy fait partie des forfaits payants. Il est aussi inclus dans l’essai de 30 jours qui commence à la création de votre compte.
 
-Chaque forfait couvre un nombre fixe d’aquariums : 1 pendant l’essai et avec Essential, 5 avec Advanced et 20 avec Expert. Les briefings vont aux premiers aquariums dans l’ordre défini dans **Paramètres → Réorganiser les aquariums**. Pour inclure un aquarium qui n’en reçoit pas, remontez-le dans la liste. Les aquariums supprimés ne prennent pas de place.
+Chaque forfait couvre un nombre fixe d’aquariums : 1 pendant l’essai et avec Essential, 5 avec Advanced et 20 avec Expert. Les briefings vont aux premiers aquariums dans l’ordre défini dans **Paramètres → Réorganiser les aquariums**. Pour inclure un aquarium qui n’en reçoit pas, remontez-le dans la liste. Les aquariums supprimés ne prennent pas de place. Un aquarium que vous cyclez encore (mode Nouvel aquarium) est toujours couvert et ne prend pas de place.
 
 Après l’essai, un compte gratuit voit une carte Reef Buddy verrouillée avec **Voir les forfaits** à la place du briefing, et ne reçoit pas de notification de briefing. Plus de détails dans [Forfaits et abonnements](/help/mobile-plans).
 

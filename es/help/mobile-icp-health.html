@@ -131,7 +131,7 @@
 <summary>Primeros pasos</summary><ul>
 <li><a href="/es/help/max-setup">Configurar Cora Max</a></li>
 <li><a href="/es/help/max-tour">La pantalla de inicio de Cora Max</a></li>
-<li><a href="/es/help/max-reef-room">El cuarto de los acuarios</a></li>
+<li><a href="/es/help/max-reef-room">La sala del arrecife</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Tu panel</summary><ul>
@@ -203,7 +203,7 @@
 <figure class="shot phone"><button type="button" class="zoom" aria-label="Ampliar: Un informe de ICP"><img src="/help/img/mobile-icp-report.webp" alt="Un informe de ICP" width="620" height="1347" loading="lazy" decoding="async"></button><figcaption>Cada informe lleva una puntuación y un resumen escrito para tu acuario.</figcaption></figure>
 <p>Recibes una puntuación sobre 100 y un resumen en lenguaje sencillo de lo que significa para tu sistema, teniendo en cuenta el tipo de acuario, su edad y tu fauna.</p>
 <p>La puntuación compara tus resultados con sus rangos objetivo, incluidos los rangos que hayas fijado tú. Si algún resultado está fuera de su rango, la puntuación no puede pasar de 70, así que no puede decir <strong>Saludable</strong>. Si uno está muy fuera, no puede pasar de 40, por buenos que sean los demás. La etiqueta bajo la puntuación dice <strong>Saludable</strong> de 71 a 100, <strong>Necesita atención</strong> de 40 a 70 y <strong>Crítico</strong> de 0 a 39. Los informes de salud se puntúan igual.</p>
-<p>Se sigue cada elemento, incluidos los oligoelementos y los contaminantes además de los parámetros principales. Cora registra los 71 elementos que puede informar un laboratorio, y la línea que algunos laboratorios llaman <em>Acidez</em> es el pH.</p>
+<p>Se sigue cada elemento, incluidos los oligoelementos y los contaminantes además de los parámetros principales. Cora registra todos los elementos y contaminantes que puede informar un laboratorio, y la línea que algunos laboratorios llaman <em>Acidez</em> es el pH.</p>
 <p>En cada fila de elemento verás el rango que imprimió el laboratorio, mostrado como <em>Rango del laboratorio</em>, junto al rango propio de Cora para ese elemento. Un elemento para el que Cora no tiene rango de referencia lleva la etiqueta <strong>Sin rango de Cora</strong>. El informe indica cuántos elementos tienen un rango de Cora y valora el resto con el conocimiento general de arrecife. Cora Assistant comenta todos los elementos analizados, y su comentario se mantiene aunque no haya rango de Cora.</p>
 <p>Si el laboratorio imprime <em>n.d.</em>, o <em>no detectado</em>, para un elemento, Cora lo registra como 0 e indica que no se detectó.</p>
 <p>Si un laboratorio informa la <strong>gravedad específica</strong> (o densidad relativa) en lugar de la salinidad, Cora la guarda como salinidad, mostrada igualmente en SG, y la evalúa con tu rango de salinidad.</p>
@@ -230,7 +230,7 @@
 <p>La pantalla Inteligencia mantiene separados los dos tipos. Los resultados de laboratorio están en <strong>INFORMES DE ICP</strong> y las revisiones generadas en <strong>INFORMES DE SALUD</strong>. Cada lista muestra primero el más reciente, con su puntuación. Toca uno para volver a abrirlo completo.</p>
 <p>También puedes llegar a ellos desde <strong>Ajustes</strong>: abre un acuario y después <strong>Informes ICP</strong> o <strong>Informes de salud</strong>.</p>
       <nav class="pn" aria-label="Seguir leyendo"><a class="pn-p" href="/es/help/mobile-assistant"><span>Anterior</span><b>Preguntar a Cora</b></a><a class="pn-n" href="/es/help/mobile-journeys"><span>Siguiente</span><b>Itinerarios guiados</b></a></nav>
-      <p class="stamp">Escrito para Cora Max 0.28.238 y Cora Mobile 1.4.14. Última revisión el 2026-10-17.</p>
+      <p class="stamp">Escrito para Cora Max 0.28.240 y Cora Mobile 1.4.16. Última revisión el 2026-10-17.</p>
       <p class="ask">¿Sigues atascado? Escribe a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> y te ayudamos.</p>
     </article>
   </main>
@@ -621,7 +621,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/es/help/search.json?v=9384433ffe').then(function (r) { return r.json(); })
+    fetch('/es/help/search.json?v=1d5700fe42').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "es"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La b\u00fasqueda no est\u00e1 disponible. Usa la navegaci\u00f3n." + '</li>';

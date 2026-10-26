@@ -30,7 +30,7 @@ Füg eine Aufgabe für jede Ausrüstung hinzu, die die Vertretung nicht anfassen
 
 ## Mit deiner Vertretung teilen {#sharing}
 
-Tippe auf **Sitter-Link erstellen**. Cora macht eine Webseite nur zum Lesen mit der Checkliste, deinen Notizen und Live-Messwerten des Beckens. Deine Vertretung braucht weder Cora Mobile noch ein Konto. Tippe auf **Teilen**, um sie zu verschicken, oder **Kopieren** den Link.
+Tippe auf **Sitter-Link erstellen**. Cora macht eine Webseite nur zum Lesen mit der Checkliste, deinen Notizen und Live-Messwerten des Beckens. Deine Vertretung braucht weder Cora Mobile noch ein Konto. Tippe auf **Teilen**, um sie zu verschicken, oder auf **Kopieren**, um den Link zu kopieren.
 
 Auf dieser Seite kann die Vertretung Aufgaben abhaken, wenn sie sie erledigt. Du siehst jede unter **Sitter-Aktivität**, mit der Uhrzeit. Sonst kann sie nichts ändern, keine Ausrüstung steuern und den Rest deines Kontos nicht sehen.
 

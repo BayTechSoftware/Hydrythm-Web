@@ -23,7 +23,7 @@ La surveillance de votre aquarium est gratuite, sans limite. Les forfaits payant
 
 | Fonction | Free |
 |---|---|
-| Messages à l’Assistant | 20 par mois. La voix utilise le même quota et coûte plus par échange |
+| Messages à l’Assistant | 20 par mois. La voix utilise le même quota et coûte plus cher par échange |
 | Sessions vocales | 20 par mois |
 | Rapports de santé | 1 par mois |
 | Analyse ICP | **Une seule, une fois**. Vous avez une seule analyse pour toute la vie du compte, ensuite c’est verrouillé |
@@ -34,7 +34,7 @@ Quand un quota est épuisé, vous pouvez toujours lire tout ce que Cora a déjà
 
 ## L’essai {#the-trial}
 
-Votre **essai Advanced de 30 jours commence à la création de votre compte**. Il n’attend pas votre première utilisation d’une fonction, et vous n’avez pas besoin de carte bancaire. **Compte et abonnement** l’affiche comme **Essai Cora Advanced**, avec sa date de fin.
+Votre **essai Advanced de 30 jours commence à la création de votre compte**. Il n’attend pas votre première utilisation d’une fonction, et vous n’avez pas besoin de carte bancaire. **Compte et abonnement** l’affiche comme **Essai Cora Advanced**, avec sa date de fin. L’essai est réservé aux nouveaux comptes. Si vous avez déjà été abonné, un nouveau compte n’en reçoit pas un autre.
 
 | Pendant l’essai | |
 |---|---|
@@ -44,7 +44,7 @@ Votre **essai Advanced de 30 jours commence à la création de votre compte**. I
 | Analyses ICP | 1 par mois |
 | Reef Buddy et surveillance par l’IA | Votre premier aquarium |
 
-L’essai comprend Reef Buddy et **Concevoir avec l'IA**. Ses quotas sont plus petits que ceux du forfait Advanced.
+L’essai comprend Reef Buddy et **Concevoir avec l’IA**. Ses quotas sont plus petits que ceux du forfait Advanced.
 
 À la fin, votre compte repasse en Free. **Rien n’est supprimé.** Vous pouvez toujours lire chaque mesure, entrée de journal, rapport et briefing que vous avez.
 
@@ -60,7 +60,7 @@ Il y a trois forfaits, **Essential**, **Advanced** et **Expert**, chacun mensuel
 | Analyses ICP / mois | 1 | 3 | 30 |
 | Aquariums avec surveillance par l’IA | 1 | 5 | 20 |
 
-Les sessions vocales ont leur propre compteur, et chaque réponse parlée consomme aussi votre quota de messages. Tous les forfaits payants comprennent Reef Buddy, l’import et l’analyse ICP pour les laboratoires que Cora lit, la comparaison avec votre propre historique, et **Concevoir avec l'IA** pour les tableaux de bord (jusqu’à 5 designs par jour pour chaque aquarium).
+Les sessions vocales ont leur propre compteur, et chaque réponse parlée consomme aussi votre quota de messages. Tous les forfaits payants comprennent Reef Buddy, l’import et l’analyse ICP pour les laboratoires que Cora lit, la comparaison avec votre propre historique, et **Concevoir avec l’IA** pour les tableaux de bord (jusqu’à 5 designs réussis par jour pour chaque aquarium ; la journée redémarre à minuit UTC).
 
 
 :::note Le forfait Expert n’est pas l’écran Cora Max
@@ -69,7 +69,7 @@ Le **forfait Expert** est un abonnement. **Cora Max** est l’écran installé p
 
 ### Quels aquariums ont l’IA {#which-tanks-get-ai}
 
-Reef Buddy et la surveillance par l’IA couvrent autant d’aquariums que votre forfait le permet, comptés à partir du haut de **Paramètres → Réorganiser les aquariums**. Pour inclure un aquarium, remontez-le dans la liste. Les aquariums supprimés ne prennent pas de place.
+Reef Buddy et la surveillance par l’IA couvrent autant d’aquariums que votre forfait le permet, comptés à partir du haut de **Paramètres → Réorganiser les aquariums**. Pour inclure un aquarium, remontez-le dans la liste. Les aquariums supprimés ne prennent pas de place. Un aquarium que vous cyclez encore (mode Nouvel aquarium) est toujours couvert et ne prend pas de place.
 
 ## S’abonner ou passer à un forfait supérieur {#subscribing}
 
@@ -116,11 +116,11 @@ Pour monter en gamme, utilisez **Passer à un forfait supérieur** ou **Passer �
 
 Vous résiliez auprès de la boutique où vous avez payé. Vous ne pouvez pas résilier dans Cora. Votre forfait court jusqu’à la fin de la période payée, puis repasse en Free.
 
-Le plus rapide est **Paramètres → carte de votre compte → Gérer l’abonnement**. Si vous avez acheté le forfait sur l’autre type de téléphone, Cora le dit (*Acheté sur l'App Store* ou *Acheté sur Google Play*) et **Continuer** ouvre la page de cette boutique.
+Le plus rapide est **Paramètres → carte de votre compte → Gérer l’abonnement**. Si vous avez acheté le forfait sur l’autre type de téléphone, Cora le dit (*Acheté sur l’App Store* ou *Acheté sur Google Play*) et **Continuer** ouvre la page de cette boutique.
 
 Si **Gérer l’abonnement** n’apparaît pas, passez directement par la boutique.
 
-- **iPhone :** ouvrez l’application **Paramètres**, touchez votre nom, puis **Abonnements**. Choisissez Cora et touchez **Annuler l’abonnement**.
+- **iPhone :** ouvrez l’application **Réglages**, touchez votre nom, puis **Abonnements**. Choisissez Cora et touchez **Annuler l’abonnement**.
 - **Android :** ouvrez **Google Play**, touchez votre photo de profil, puis **Paiements et abonnements → Abonnements**. Choisissez Cora et touchez **Résilier l’abonnement**.
 
 :::note Résilier ne supprime rien

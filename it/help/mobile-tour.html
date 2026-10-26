@@ -200,7 +200,7 @@
 <p><strong>La campanella</strong> in alto a destra contiene lo storico delle notifiche, con tutti gli avvisi che Cora ha generato, dal più recente. Il numero indica quanti non hai ancora letto.</p>
 <p><strong>Il pulsante Diario</strong> fluttua in basso a destra sulla Dashboard. Toccalo e racconta cosa hai appena fatto, per esempio un cambio d'acqua, un corallo nuovo o un dosaggio modificato. Tocca il pulsante di stop quando hai finito, e Cora lo scrive nel diario. Vedi <a href="/it/help/mobile-journal">Il diario</a>.</p>
       <nav class="pn" aria-label="Continua a leggere"><a class="pn-p" href="/it/help/mobile-setup"><span>Precedente</span><b>Configurare Cora Mobile</b></a><a class="pn-n" href="/it/help/mobile-tank-profile"><span>Successivo</span><b>Il profilo della tua vasca</b></a></nav>
-      <p class="stamp">Scritto per Cora Max 0.28.238 e Cora Mobile 1.4.14. Ultimo controllo il 2026-10-13.</p>
+      <p class="stamp">Scritto per Cora Max 0.28.240 e Cora Mobile 1.4.16. Ultimo controllo il 2026-10-13.</p>
       <p class="ask">Ancora bloccato? Scrivi a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, ti aiutiamo.</p>
     </article>
   </main>
@@ -591,7 +591,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/it/help/search.json?v=251de7c448').then(function (r) { return r.json(); })
+    fetch('/it/help/search.json?v=6ecfe81ff8').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "it"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La ricerca non \u00e8 disponibile. Usa la navigazione." + '</li>';

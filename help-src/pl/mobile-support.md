@@ -17,7 +17,7 @@ group: Settings and account
 2. W **Co się stało?** opisz to własnymi słowami.
 3. Dotknij **Wyślij**. Zobaczysz *Dzięki, otrzymaliśmy Twoje zgłoszenie.*
 
-Napisz, czego się spodziewasz i co widzisz. „Alkaliczność na panelu pokazywała 2 dni, choć Apex odczytywał ją normalnie” pomoże dużo bardziej niż „odczyty nie działają”.
+Napisz, czego się spodziewasz i co widzisz. „Odczyt alkaliczności na panelu miał 2 dni, choć Apex odczytywał ją normalnie” pomoże dużo bardziej niż „odczyty nie działają”.
 
 Możesz wysłać do 10 zgłoszeń dziennie.
 
@@ -49,7 +49,7 @@ Gdy oglądasz cudze akwarium przez udostępniony link, nie możesz dołączyć z
 
 ## Pisanie do pomocy
 
-**Ustawienia → Pomoc i wsparcie → Skontaktuj się z pomocą** otwiera e-mail do **[cora@coraiq.tech](mailto:cora@coraiq.tech)** z wpisaną wersją Cora Mobile. Zwykle odpowiadamy w ciągu jednego dnia. Jeśli telefon nie ma aplikacji pocztowej, napisz na ten adres z dowolnego konta e-mail.
+**Ustawienia → Pomoc i wsparcie → Kontakt z pomocą** otwiera e-mail do **[cora@coraiq.tech](mailto:cora@coraiq.tech)** z wpisaną wersją Cora Mobile i systemem operacyjnym telefonu. Zwykle odpowiadamy w ciągu jednego dnia. Jeśli telefon nie ma aplikacji pocztowej, napisz na ten adres z dowolnego konta e-mail.
 
 ## Inne miejsca
 

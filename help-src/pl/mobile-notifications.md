@@ -19,7 +19,7 @@ Karta na górze mówi, czy ten telefon w ogóle pozwala Corze wysyłać powiadom
 |---|---|
 | **Alerty parametrów** | Chemii wody poza ustawionym zakresem i powiadomienia o *powrocie do normy*, gdy wróci |
 | **Przypomnienia o konserwacji** | Zaplanowanych zadań, takich jak podmiany wody, oraz jednorazowego przypomnienia o zapisaniu pierwszego testu, gdy nowe akwarium po trzech dniach nadal nie ma odczytów |
-| **Awarie sprzętu** | Urządzenia zgłaszającego problem, na przykład Tridenta, który przestał robić testy. Także urządzenia, które [przestało raportować](/help/mobile-alerts#stopped-reporting) i pominiętej dawki |
+| **Awarie sprzętu** | Urządzenia zgłaszającego problem, na przykład Tridenta, który przestał robić testy. Także urządzenia, które [przestało raportować](/help/mobile-alerts#stopped-reporting), pominiętej dawki i nieudanej automatyzacji |
 | **Kończące się zasoby** | Odczynnika, wody do dolewki, pojemników dozujących i pełnej butelki odpadów |
 | **Raport ICP gotowy** | Wyników ICP, które są przeanalizowane i gotowe do przeczytania |
 
@@ -39,6 +39,7 @@ Kilku powiadomień nie ma na tej liście:
 
 - Codzienne podsumowanie Reef Buddy. Godzinę wybierasz w **Godzina podsumowania**, w wierszu tuż pod Powiadomieniami w Ustawieniach. W planie darmowym nie ma powiadomienia o podsumowaniu. Więcej w [Reef Buddy](/help/mobile-reef-buddy).
 - Powiadomienia o planie: przypomnienia o okresie próbnym 7 dni i 1 dzień przed jego końcem oraz w dniu zakończenia, a także ostrzeżenie, gdy wykorzystasz 80% i 100% miesięcznego limitu Cora Assistant. Zobacz [Plany](/help/mobile-plans).
+- Alerty wycieku z czujnika wycieku. Zawsze przychodzą jako powiadomienia i nie da się ich wyłączyć; wyłączenie **Alerty parametrów** też ich nie wycisza.
 
 ## Cisza w nocy {#quiet-at-night}
 
@@ -78,4 +79,4 @@ Nadal nic? Zobacz [Rozwiązywanie problemów](/help/troubleshooting).
 
 Zanim wyłączysz powiadomienia, przejrzyj progi. Za dużo alertów zwykle oznacza, że zakres jest węższy niż wartości, w których akwarium naprawdę pracuje, albo że źródło wymaga kalibracji. Więcej w [Alertach i progach](/help/mobile-alerts).
 
-Wyłączenie kategorii wycisza ją w całości. Jeśli za często przychodzi jeden alert, zmień raczej **Czas wstrzymania między alertami** w tej regule. Wynosi od 15 minut do 1 tygodnia. Opcje czasu wstrzymania i to, co robi Odłóż na Cora Max, opisują [Czasy wstrzymania](/help/mobile-alerts#cooldowns).
+Wyłączenie kategorii wycisza ją w całości. Jeśli za często przychodzi jeden alert, zmień raczej **Czas wstrzymania między alertami** w tej regule. Wynosi od 15 minut do 1 tygodnia. Opcje czasu wstrzymania i to, co robi Uśpij na Cora Max, opisują [Czasy wstrzymania](/help/mobile-alerts#cooldowns).

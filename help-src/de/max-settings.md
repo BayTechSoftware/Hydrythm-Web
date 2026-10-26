@@ -42,7 +42,7 @@ Jedes Becken hat eine Zeile, die seine eigenen Einstellungen öffnet.
 
 Die letzte Zeile in den Einstellungen trägt den Namen dieses Cora Max. Sie öffnet alles, was **nur für diesen Bildschirm** gilt.
 
-Oben ist eine Karte mit dem Namen dieses Bildschirms und seiner Firmware-Version (*Cora Max · Firmware 0.28.170*).
+Oben ist eine Karte mit dem Namen dieses Bildschirms und seiner Firmware-Version (*Cora Max · Firmware 0.28.x*).
 
 - Tippe auf den Stift (**Dieses Gerät umbenennen**), um ihm einen neuen Namen zu geben, zum Beispiel "Wohnzimmer".
 - **Details anzeigen** listet seine **Cora-ID**, **MAC-Adresse**, sein **WLAN-Netzwerk**, seine **IP-Adresse**, seine Becken und das Konto auf, mit dem es gekoppelt ist. Der Support fragt vielleicht danach.

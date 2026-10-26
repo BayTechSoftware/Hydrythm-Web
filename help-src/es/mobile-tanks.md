@@ -15,7 +15,7 @@ Puedes tener tantos acuarios como quieras en cualquier plan. Tu plan solo decide
 
 1. Ve a **Ajustes** y toca **Agregar acuario**, debajo de tu lista de acuarios.
 2. **Agregar acuario** abre el perfil completo del acuario. Ponle un nombre en **Nombre y tipo de acuario** y rellena lo que sepas, como el tipo y el volumen de agua en **Dimensiones del acuario**. El resto puedes completarlo más tarde. Consulta [El perfil de tu acuario](/help/mobile-tank-profile).
-3. Toca **Guardar acuario**. Si el acuario es nuevo y está haciendo el ciclo, activa antes **Es un acuario nuevo que estoy ciclando** al final del formulario.
+3. Toca **Guardar acuario**. Si el acuario es nuevo y está en ciclado, activa antes **Es un acuario nuevo que estoy ciclando** al final del formulario.
 4. Cora te ofrece el paso de la primera prueba. Registra una prueba, configura un recordatorio semanal o toca **Más tarde**. Consulta [La tarjeta de la primera prueba](/help/mobile-setup#the-first-test-card).
 
 Después, dale al acuario sus equipos:
@@ -24,7 +24,7 @@ Después, dale al acuario sus equipos:
 - Para mover equipos que ya tienes, abre el dispositivo en la pestaña **Dispositivos** y cambia su acuario. Consulta [Añadir, editar y eliminar dispositivos](/help/mobile-devices).
 - Para mostrar el acuario en Cora Max, ve a **Dispositivos**, abre tu Cora Max y toca **Agregar acuario** en **Acuarios asignados**. Un Cora Max muestra hasta 4 acuarios.
 
-:::tip ¿El acuario nuevo todavía está haciendo el ciclo?
+:::tip ¿El acuario nuevo sigue en ciclado?
 También puedes empezar el ciclado guiado más tarde: toca **¿Estás empezando un acuario nuevo?** en el panel del acuario (la tarjeta aparece mientras el acuario no tiene lecturas) o usa la misma tarjeta arriba en el perfil del acuario, que funciona en cualquier momento. Más información en [Itinerarios guiados](/help/mobile-journeys).
 :::
 
@@ -35,7 +35,7 @@ También puedes empezar el ciclado guiado más tarde: toca **¿Estás empezando 
 - **Asistente** e **Inteligencia**: elige el acuario arriba en la pantalla. Consulta [Preguntar a Cora](/help/mobile-assistant#pick-a-tank-first).
 - Una notificación sobre un acuario abre el panel de ese acuario.
 
-En Cora Max, el Cuarto de los Acuarios muestra todos los acuarios uno al lado del otro. Consulta [El cuarto de los acuarios](/help/max-reef-room).
+En Cora Max, la sala del arrecife muestra todos los acuarios uno al lado del otro. Consulta [La sala del arrecife](/help/max-reef-room).
 
 ## Cambiar el orden {#changing-the-order}
 
@@ -47,7 +47,7 @@ El orden es el orden en que los recorres al deslizar en el panel.
 
 Tu plan cubre un número fijo de acuarios para el resumen diario de Reef Buddy. Cora se lo da a los primeros según tu orden de **Reordenar acuarios**. Con Essential, y durante la prueba gratuita de 30 días, es solo tu primer acuario. Advanced cubre 5 acuarios y Expert cubre 20. Más información en [Planes y suscripciones](/help/mobile-plans).
 
-Si un acuario no recibe resumen, súbelo al principio de la lista. Los acuarios eliminados no cuentan.
+Si un acuario no recibe resumen, súbelo al principio de la lista. Los acuarios eliminados no cuentan. Un acuario que todavía estás ciclando (modo Acuario Nuevo) siempre queda cubierto y no ocupa sitio.
 
 ## Quitar un acuario {#removing-a-tank}
 

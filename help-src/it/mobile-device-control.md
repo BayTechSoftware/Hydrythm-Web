@@ -90,7 +90,7 @@ I due tipi di uso del cambio d'acqua vanno in **coppia**. Imposta la **Testa abb
 
 Un contenitore può arrivare a 1.000 L, per ogni tipo di uso. L'Apex da solo conta solo fino a 150 L, quindi oltre quel valore Cora segue il contenitore da sé in base a quanto dosa la testa. Inserisci il **Volume totale** quando lo configuri. Cora inoltre ogni tanto azzera il contatore interno dell'Apex, e Attività lo mostra come *Contatore interno dell'Apex reimpostato a 150 L*.
 
-Ogni testa ha anche un limite **Dose massima manuale**, così un errore di battitura non può trasformare una dose manuale in qualcosa di molto più grande di quello che volevi. Le dosi manuali grandi diventano disponibili solo dopo che la velocità della testa è stata misurata con un test reale alla vasca, e dopo che hai attivato **Dosi grandi** nelle impostazioni della testa. È spento di default. Attivalo solo dopo aver guardato la prima dose grande eseguita alla vasca.
+Ogni testa, tranne quelle Integratore e Cibo, ha anche un limite **Dose massima manuale**, così un errore di battitura non può trasformare una dose manuale in qualcosa di molto più grande di quello che volevi. Le teste Integratore e Cibo mantengono invece un piccolo limite fisso. Una volta impostato quel limite, la testa può avere anche un **Limite giornaliero per automazioni e Assistente**, che sostituisce il valore predefinito di 10 mL al giorno.
 
 ## Red Sea ReefBeat {#red-sea}
 
@@ -98,9 +98,9 @@ Ogni unità Red Sea ha una pagina adatta a quello che fa:
 
 | Unità | La pagina mostra | Puoi |
 |---|---|---|
-| [ReefDose](#reefdose) | Ogni testa, il suo contenitore e quanto ha dosato | Dosare, cambiare la dose giornaliera, modificare il **Piano di dosaggio** |
+| [ReefDose](#reefdose) | Ogni testa, il suo contenitore e quanto ha dosato | Dosare, cambiare la dose giornaliera |
 | [ReefRun](#reefrun) | Velocità e stato delle pompe di risalita e dello schiumatoio | Cambiare la velocità, accendere o spegnere una pompa |
-| [ReefMat](#reefmat) | Il rotolo rimanente, in giorni e metri | Far avanzare il tappetino, impostare **Impostazioni ReefMat**, registrare un rotolo nuovo |
+| [ReefMat](#reefmat) | Il rotolo rimanente, in giorni e metri | Far avanzare il tappetino |
 | [ReefATO+](#reefato) | Livello del serbatoio e attività di rabbocco | Impostare un avviso per il serbatoio |
 
 
@@ -115,13 +115,6 @@ Per ogni testa puoi impostare **Dose al giorno** e **Rimanente nella bottiglia**
 
 La sezione **Dosaggio** mostra le **Prossime dosi**, quanto ha dosato oggi ogni testa (**Dosato oggi finora**) e **Dosato per testa** negli **Ultimi 7 giorni** o in **Totale**. Cora legge questi dati mentre un Cora Max o il tuo telefono è sulla rete di casa.
 
-### Modificare un piano di dosaggio {#reefdose-plan}
-
-Tocca l'icona del calendario nella pagina di un ReefDose per aprire il **Piano di dosaggio**.
-
-Un piano è un totale giornaliero, diviso in un massimo di quattro fasce orarie. Ogni fascia ha un'ora di inizio e di fine, quante dosi deve fare e una velocità: **Silenzioso**, **Normale** o **Rapido**. Aggiungi e togli le fasce, poi salva. Cora ti mostra cosa stai per inviare e ti chiede di confermare prima di sostituire tutto il piano della testa.
-
-L'editor legge prima il piano che c'è già sull'unità, quindi stai modificando quello vero, non un modulo vuoto.
 
 ## ReefRun {#reefrun}
 
@@ -132,12 +125,6 @@ ReefRun comanda le pompe di risalita e dello schiumatoio. Non è una pompa di mo
 
 La pagina del ReefMat mostra quanto rotolo resta, in giorni e metri. Tocca **Avanza ora** per far avanzare il tappetino a mano. Cora chiede prima **Avanzare il tappetino ora?** Puoi anche impostare un avviso di rifornimento per il rotolo.
 
-Tocca l'ingranaggio per **Impostazioni ReefMat**:
-
-- **Avanzamento programmato** attiva un avanzamento a orari fissi, separato dal sensore di avanzamento automatico già presente nella pagina. Attivalo e imposta ogni quanto, e di quanto ogni avanzamento sposta il tappetino.
-- **Modello ReefMat** e **Posizione motore** (**Sinistra** o **Destra**) dicono a Cora quale unità e quale orientamento hai.
-
-Dopo aver caricato un rotolo nuovo, dillo a Cora con **Nuovo rotolo**: il suo spessore, e il diametro esterno se lo conosci. **Avanza ora** fa solo avanzare il tappetino che hai già caricato.
 
 ## ReefATO+ {#reefato}
 

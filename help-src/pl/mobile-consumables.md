@@ -58,6 +58,5 @@ Daj znać Corze na stronie urządzenia, żeby alert zniknął, a kolejne ostrze�
 | Głowica DŌS | **Napełnij**, a potem **Pełny**, albo ustaw **Pozostała objętość** |
 | Zbiornik odpadów DŌS | Po opróżnieniu przywróć jego wolne miejsce do pełnego |
 | Głowica ReefDose | **Pozostało w butelce** |
-| ReefMat | **Nowa rolka** po założeniu nowej rolki |
 
 Trident, ReefATO+ i AquaWiz same podają swoje poziomy, więc w Corze nie trzeba niczego resetować.

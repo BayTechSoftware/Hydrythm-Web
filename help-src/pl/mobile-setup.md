@@ -68,7 +68,7 @@ Cora ocenia też odczyty względem tego, co jest normalne dla akwarium w danym w
 
 Następnie zobaczysz nazwę akwarium z dopiskiem **jest już aktywne**, na przykład **„Główne” jest już aktywne**. Ekran proponuje cztery kolejne kroki. Wybierz dowolny albo żaden.
 
-- **Skonfiguruj mój akwarium z przewodnikiem** prowadzi przez resztę profilu, po jednej sekcji. Zobacz [Prowadzona konfiguracja](/help/mobile-tank-profile#guided-setup). Kończy się przyciskiem **Dodaj urządzenia**, który przenosi do dodawania sprzętu.
+- **Skonfiguruj moje akwarium z przewodnikiem** prowadzi przez resztę profilu, po jednej sekcji. Zobacz [Prowadzona konfiguracja](/help/mobile-tank-profile#guided-setup). Kończy się przyciskiem **Dodaj urządzenia**, który przenosi do dodawania sprzętu.
 - **Połącz swój sprzęt** paruje Cora Max. Dla Neptune Apex, Red Sea albo innej marki użyj zamiast tego **Urządzenia → Dodaj urządzenie** (zobacz niżej).
 - **Zapisz swój pierwszy test** otwiera krok pierwszego testu opisany w [Karcie pierwszego testu](/help/mobile-setup#the-first-test-card).
 - **Zapytaj asystenta o cokolwiek** otwiera Cora Assistant z gotowym do wysłania pierwszym pytaniem.
@@ -96,7 +96,7 @@ Możesz to pominąć i wrócić później. Akwarium działa dobrze bez urządze�
 
 Niektóre parametry pochodzą tylko z testów kropelkowych. Przewiń panel w dół i dotknij **Zapisz parametry** w rzędzie przycisków pod widżetami.
 
-![Formularz Zapisz parametry w Cora Mobile](img/mobile-logparams.webp "Wybierz datę i godzinę, a potem wpisz wyniki testów w grupach Podstawowe, Pierwiastki i Składniki odżywcze.")
+![Formularz Zapisz parametry w Cora Mobile](img/mobile-logparams.webp "Wybierz datę i godzinę, a potem wpisz wyniki testów w grupach Podstawowe, Pierwiastki i Biogeny.")
 
 Cora zapisuje każdy odczyt z jego źródłem i czasem. Dzięki temu może Ci powiedzieć, gdy sonda i test kropelkowy się nie zgadzają.
 

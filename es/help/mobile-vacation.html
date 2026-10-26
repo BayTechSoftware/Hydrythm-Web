@@ -131,7 +131,7 @@
 <summary>Primeros pasos</summary><ul>
 <li><a href="/es/help/max-setup">Configurar Cora Max</a></li>
 <li><a href="/es/help/max-tour">La pantalla de inicio de Cora Max</a></li>
-<li><a href="/es/help/max-reef-room">El cuarto de los acuarios</a></li>
+<li><a href="/es/help/max-reef-room">La sala del arrecife</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Tu panel</summary><ul>
@@ -178,7 +178,7 @@
 <h2 id="setting-it-up">Prepararlo</h2>
 <ol><li>En <strong>¿Cuándo estarás fuera?</strong>, toca <strong>Elige tus fechas de viaje</strong>.</li><li>Prepara la <strong>Lista para el cuidador</strong>. Se te ofrecen las tareas de mantenimiento que vencen mientras estás fuera, cada una con la frecuencia con que hay que hacerla. Toca una sugerencia para añadirla, como <strong>Alimentar el acuario</strong>, <strong>Comprobar el depósito del ATO</strong>, <strong>Vaciar el vaso del skimmer</strong> o <strong>Llámame si algo parece ir mal</strong>. Para añadir una tarea tuya, escríbela en <strong>Añade tu propia tarea…</strong> y toca <strong>Añadir tarea</strong>.</li><li>En <strong>Notas y contacto</strong>, escribe las <strong>Notas para el cuidador</strong> y, en <strong>Si algo parece ir mal</strong>, cómo localizarte.</li><li>Toca <strong>Activar modo vacaciones</strong>.</li></ol>
 <p>Cada tarea muestra cada cuánto hay que hacerla, por ejemplo <strong>Diaria</strong>, <strong>Cada 3 días</strong>, <strong>Una vez</strong> o <strong>Siempre</strong> (una instrucción fija). Cora lo calcula a partir de la tarea de mantenimiento o de la sugerencia. Una tarea que escribes tú no lleva etiqueta, así que pon la frecuencia en el propio texto.</p>
-<p>Escribe la lista pensando en alguien que no sabe nada de acuarios de arrecife. Di cantidades y cómo hacer las cosas. "Alimenta con un cubo de comida congelada, ya descongelado, una vez al día" se entiende mucho mejor que "alimenta como siempre".</p>
+<p>Escribe la lista pensando en alguien que no sabe nada de acuarios de arrecife. Di cantidades y cómo hacer las cosas. "Alimenta con un cubito de comida congelada, descongelado, una vez al día" se entiende mucho mejor que "alimenta como siempre".</p>
 <aside class="cal cal-note"><p class="cal-t">Di qué no se toca</p><p>Añade una tarea para cualquier equipo que el cuidador no deba tocar, por ejemplo "No cambies nada en el controlador". Ponlo también en las notas.</p></aside>
 <h2 id="sharing">Compartirlo con quien cuida el acuario</h2>
 <p>Toca <strong>Crear enlace para el cuidador</strong>. Cora crea una página web de solo lectura con la lista, tus notas y las lecturas del acuario en directo. El cuidador no necesita Cora Mobile ni una cuenta. Toca <strong>Compartir</strong> para enviarla, o <strong>Copiar</strong> para copiar el enlace.</p>
@@ -191,7 +191,7 @@
 <h2 id="coming-back">Al volver</h2>
 <p>Toca <strong>Terminar modo vacaciones</strong> y confirma con <strong>Terminarlo</strong>. El enlace del cuidador deja de funcionar al momento. Tu lista se queda guardada para la próxima vez.</p>
       <nav class="pn" aria-label="Seguir leyendo"><a class="pn-p" href="/es/help/mobile-automation"><span>Anterior</span><b>Automatizaciones y escenas</b></a><a class="pn-n" href="/es/help/mobile-journal"><span>Siguiente</span><b>El diario</b></a></nav>
-      <p class="stamp">Escrito para Cora Max 0.28.238 y Cora Mobile 1.4.14. Última revisión el 2026-10-13.</p>
+      <p class="stamp">Escrito para Cora Max 0.28.240 y Cora Mobile 1.4.16. Última revisión el 2026-10-13.</p>
       <p class="ask">¿Sigues atascado? Escribe a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> y te ayudamos.</p>
     </article>
   </main>
@@ -582,7 +582,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/es/help/search.json?v=9384433ffe').then(function (r) { return r.json(); })
+    fetch('/es/help/search.json?v=1d5700fe42').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "es"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La b\u00fasqueda no est\u00e1 disponible. Usa la navegaci\u00f3n." + '</li>';

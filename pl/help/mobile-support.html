@@ -176,7 +176,7 @@
 <figure class="shot phone"><button type="button" class="zoom" aria-label="Powiększ: Formularz opinii w Cora Mobile"><img src="/help/img/mobile-support.webp" alt="Formularz opinii w Cora Mobile" width="620" height="1347" loading="lazy" decoding="async"></button><figcaption>Wybierz, czego dotyczy zgłoszenie, opisz, co się stało, i dodaj zrzut ekranu, jeśli pomoże.</figcaption></figure>
 <h2 id="co-wypelniasz">Co wypełniasz</h2>
 <ol><li>W <strong>Jakiego rodzaju to jest?</strong> wybierz jedną opcję: <strong>Coś jest zepsute</strong>, <strong>Prośba o funkcję</strong>, <strong>Błędne dane</strong>, <strong>Niejasne</strong>, <strong>Płatności</strong> albo <strong>Coś innego</strong>. Dzięki temu zgłoszenie trafi do właściwej osoby.</li><li>W <strong>Co się stało?</strong> opisz to własnymi słowami.</li><li>Dotknij <strong>Wyślij</strong>. Zobaczysz <em>Dzięki, otrzymaliśmy Twoje zgłoszenie.</em></li></ol>
-<p>Napisz, czego się spodziewasz i co widzisz. „Alkaliczność na panelu pokazywała 2 dni, choć Apex odczytywał ją normalnie” pomoże dużo bardziej niż „odczyty nie działają”.</p>
+<p>Napisz, czego się spodziewasz i co widzisz. „Odczyt alkaliczności na panelu miał 2 dni, choć Apex odczytywał ją normalnie” pomoże dużo bardziej niż „odczyty nie działają”.</p>
 <p>Możesz wysłać do 10 zgłoszeń dziennie.</p>
 <h2 id="co-dolacza-sie-automatycznie">Co dołącza się automatycznie</h2>
 <p>Do każdego zgłoszenia dołącza się krótka linijka z kontekstem. Formularz pokazuje ją przed wysłaniem, w <em>Wysłane z Twoim zgłoszeniem</em>.</p>
@@ -189,11 +189,11 @@
 <h2 id="automatyczne-raporty-awarii">Automatyczne raporty awarii</h2>
 <p><strong>Wysyłaj raporty awarii</strong>, w <strong>Pomoc i wsparcie</strong> pod wierszem zgłoszeń, robi to samo, tylko nie musisz samodzielnie zauważać, że coś się zepsuło, ani tego opisywać. Jeśli Cora Mobile się zatrzyma albo ekran się nie wczyta, aplikacja wyśle szczegóły techniczne. Nie zawierają danych akwarium, zdjęć ani danych konta. Zobacz <a href="/pl/help/mobile-settings#getting-help">Ustawienia Cora Mobile</a>.</p>
 <h2 id="pisanie-do-pomocy">Pisanie do pomocy</h2>
-<p><strong>Ustawienia → Pomoc i wsparcie → Skontaktuj się z pomocą</strong> otwiera e-mail do <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> z wpisaną wersją Cora Mobile. Zwykle odpowiadamy w ciągu jednego dnia. Jeśli telefon nie ma aplikacji pocztowej, napisz na ten adres z dowolnego konta e-mail.</p>
+<p><strong>Ustawienia → Pomoc i wsparcie → Kontakt z pomocą</strong> otwiera e-mail do <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> z wpisaną wersją Cora Mobile i systemem operacyjnym telefonu. Zwykle odpowiadamy w ciągu jednego dnia. Jeśli telefon nie ma aplikacji pocztowej, napisz na ten adres z dowolnego konta e-mail.</p>
 <h2 id="inne-miejsca">Inne miejsca</h2>
 <ul><li>Pytania o własne akwarium zwykle szybciej rozwiąże <a href="/pl/help/mobile-assistant">Cora Assistant</a>, bo widzi Twoje odczyty.</li><li>Jeśli coś działa inaczej, niż opisuje ten przewodnik, najpierw zajrzyj do <a href="/pl/help/troubleshooting">Rozwiązywania problemów</a>.</li><li>Z pytaniem o płatności zajrzyj do <a href="/pl/help/mobile-plans">Planów i subskrypcji</a>.</li></ul>
       <nav class="pn" aria-label="Czytaj dalej"><a class="pn-p" href="/pl/help/mobile-data-export"><span>Poprzedni</span><b>Eksport danych i usuwanie konta</b></a></nav>
-      <p class="stamp">Napisano dla Cora Max 0.28.238 i Cora Mobile 1.4.14. Ostatnio sprawdzono 2026-10-13.</p>
+      <p class="stamp">Napisano dla Cora Max 0.28.240 i Cora Mobile 1.4.16. Ostatnio sprawdzono 2026-10-13.</p>
       <p class="ask">Wciąż masz problem? Napisz na <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, pomożemy.</p>
     </article>
   </main>
@@ -584,7 +584,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/pl/help/search.json?v=aede854401').then(function (r) { return r.json(); })
+    fetch('/pl/help/search.json?v=bf578ebf0d').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "pl"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Wyszukiwanie jest niedost\u0119pne. U\u017cyj menu." + '</li>';

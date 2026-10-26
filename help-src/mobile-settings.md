@@ -18,7 +18,7 @@ The card at the top shows who you're signed in as and which plan you're on. Tap 
 
 - **Display name** is what Cora Mobile calls you.
 - **Lab & ICP emails** lets you add up to 3 more email addresses that your lab can use to reach your account. See [ICP and health reports](/help/mobile-icp-health#which-email-a-lab-can-use).
-- **Subscription** shows your plan and when it renews, with **See plans**, **Upgrade** or **Upgrade to Max**, then **Manage Subscription** and **Restore Purchases**. On Android there's also **Redeem code**. All of it is explained in [Plans and subscriptions](/help/mobile-plans).
+- **Subscription** shows your plan and when it renews, with **See plans**, **Upgrade** or **Upgrade to Expert**, then **Manage Subscription** and **Restore Purchases**. On Android there's also **Redeem code**. All of it is explained in [Plans and subscriptions](/help/mobile-plans).
 - **Sign Out**
 - **Export My Data** gives you your readings, journal entries and alerts as files, free on every plan. See [Exporting your data](/help/mobile-data-export).
 - **Delete Account** is permanent. Read the two notes in [Your data and privacy](#your-data-and-privacy) before you use it.

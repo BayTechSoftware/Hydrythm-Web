@@ -90,7 +90,7 @@ Los dos tipos de uso de cambio de agua van en **parejas**. Pon en el **Cabezal e
 
 Un recipiente puede tener hasta 1.000 L, en todos los tipos de uso. El propio Apex solo cuenta hasta 150 L, así que por encima de eso Cora sigue el recipiente a partir de lo que dosifica el cabezal. Introduce el **Volumen total** al configurarlo. Cora también restablece de vez en cuando el contador propio del Apex, y Actividad lo muestra como *Contador propio del Apex restablecido a 150 L*.
 
-Cada cabezal tiene además un límite de **Dosis manual más grande**, para que una errata no convierta una dosis manual en algo mucho mayor de lo que querías. Las dosis manuales grandes solo están disponibles después de medir el ritmo del cabezal frente a una prueba real en el acuario, y después de activar **Dosis grandes** en los ajustes del cabezal. Viene desactivado. Actívalo solo después de haber visto la primera dosis grande en el acuario.
+Cada cabezal, salvo los de Suplemento y Alimento, tiene además un límite de **Dosis manual más grande**, para que una errata no convierta una dosis manual en algo mucho mayor de lo que querías. Los cabezales de Suplemento y Alimento mantienen en su lugar un tope pequeño y fijo. Una vez fijado ese límite, el cabezal también puede tener un **Límite diario para automatizaciones y el asistente**, que sustituye al valor por defecto de 10 mL al día.
 
 ## Red Sea ReefBeat {#red-sea}
 
@@ -98,9 +98,9 @@ Cada unidad Red Sea tiene una página adaptada a lo que hace:
 
 | Unidad | La página muestra | Puedes |
 |---|---|---|
-| [ReefDose](#reefdose) | Cada cabezal, su recipiente y lo que ha dosificado | Dosificar, cambiar la dosis diaria, editar el **Plan de dosificación** |
+| [ReefDose](#reefdose) | Cada cabezal, su recipiente y lo que ha dosificado | Dosificar, cambiar la dosis diaria |
 | [ReefRun](#reefrun) | La velocidad y el estado de las bombas de retorno y del skimmer | Cambiar la velocidad, encender o apagar una bomba |
-| [ReefMat](#reefmat) | El rollo restante, en días y metros | Avanzar el fieltro, fijar los **Ajustes de ReefMat**, registrar un rollo nuevo |
+| [ReefMat](#reefmat) | El rollo restante, en días y metros | Avanzar el fieltro |
 | [ReefATO+](#reefato) | El nivel del depósito y la actividad de reposición | Fijar una alerta del depósito |
 
 
@@ -115,13 +115,6 @@ Para cada cabezal puedes fijar la **Dosis por día** y lo **Restante en la botel
 
 La sección **Dosificación** muestra las **Próximas dosis**, lo que ha dosificado hoy cada cabezal (**Dosificado hoy hasta ahora**) y **Dosificado por cabezal** en los **Últimos 7 días** o en **Total**. Cora lo lee mientras un Cora Max o tu teléfono está en tu red doméstica.
 
-### Editar un plan de dosificación {#reefdose-plan}
-
-Toca el icono del calendario en la página de una ReefDose para abrir el **Plan de dosificación**.
-
-Un plan es un total diario, repartido en hasta cuatro franjas horarias. Cada franja tiene una hora de inicio y de fin, cuántas dosis debe dar y una velocidad: **Susurro**, **Normal** o **Rápido**. Añade y quita franjas, y guarda. Cora te muestra lo que vas a enviar y te pide que confirmes antes de sustituir el plan completo del cabezal.
-
-El editor lee primero el plan que ya está en la unidad, así que editas el plan real, no un formulario en blanco.
 
 ## ReefRun {#reefrun}
 
@@ -132,12 +125,6 @@ ReefRun controla bombas de retorno y de skimmer. No es una bomba de circulación
 
 La página de ReefMat muestra cuánto rollo queda, en días y metros. Toca **Avanzar ahora** para mover el fieltro a mano. Cora pregunta antes **¿Avanzar el tapete ahora?** También puedes fijar una alerta de reposición para el rollo.
 
-Toca el engranaje para abrir los **Ajustes de ReefMat**:
-
-- **Avance programado** activa un avance a una hora fija, aparte del sensor de avance automático que ya está en la página. Actívalo y fija cada cuánto, y cuánto mueve el fieltro cada avance.
-- **Modelo de ReefMat** y **Posición del motor** (**Izquierda** o **Derecha**) le dicen a Cora qué unidad y qué orientación tienes.
-
-Después de poner un rollo nuevo, díselo a Cora con **Nuevo rollo**: su grosor y, si lo sabes, su diámetro exterior. **Avanzar ahora** solo mueve el fieltro que ya tienes puesto.
 
 ## ReefATO+ {#reefato}
 

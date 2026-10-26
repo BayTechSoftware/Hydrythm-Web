@@ -42,7 +42,7 @@ Her otomasyonun üç parçası vardır.
 | **Bir cihaz çevrimdışı olduğunda** | Cora Max'iniz **Çevrimdışı** olduğunda, yeniden **Çevrimiçi** olduğunda ya da her iki durumda |
 
 :::tip Cora Max'iniz düştüğünde haberiniz olsun
-**Bir cihaz çevrimdışı olduğunda** ve **Beni Bilgilendir** içeren bir kural, ekipmanınızı okuyan Cora Max'in elektriği ya da Wi-Fi'ı kesildiğinde size haber verir.
+**Bir cihaz çevrimdışı olduğunda** ve **Beni Bilgilendir** içeren bir kural, ekipmanınızı okuyan Cora Max'in elektriği ya da Wi-Fi'si kesildiğinde size haber verir.
 :::
 
 ## Koşullar {#conditions}

@@ -18,7 +18,7 @@ Esta página explica lo que ves en Cora Max. Muestra un acuario cada vez, con la
 
 De izquierda a derecha:
 
-1. **El icono de cuadrícula** abre [el Cuarto de los Acuarios](/help/max-reef-room), la vista general de todos los acuarios que muestra esta pantalla.
+1. **El icono de cuadrícula** abre [la sala del arrecife](/help/max-reef-room), la vista general de todos los acuarios que muestra esta pantalla.
 2. **El nombre del acuario**, con una pequeña flecha. Tócalo para abrir el **menú del acuario**, que tiene todas las pantallas del acuario que estás mirando. La lista completa está más abajo.
 3. **Las etiquetas de alerta** muestran lo que necesita atención ahora mismo: lecturas fuera de rango, fallos de dispositivos, dosis omitidas o suministros bajos. Toca una etiqueta para volver a traer esa alerta al centro de la pantalla. Si hay más de las que caben, verás **+2** (o las que sean). Tócalo para ver todas las alarmas activas.
 4. **El reloj**. Puedes ocultarlo con **Mostrar reloj** en **Ajustes → Ajustes de Cora Max**.
@@ -47,12 +47,12 @@ Tocar el icono de Cora Assistant empieza una sesión de voz en directo. Si quer�
 | **Falló la sincronización con la nube** | Tu Apex respondió, pero sus lecturas no se pudieron guardar en Cora Cloud, así que el panel se queda atrás. Cora Max sigue intentándolo |
 | **Guardado en la nube rechazado** | Cora Cloud se niega a guardar algunos datos de esta pantalla. No pasa nada con tu acuario ni con Cora Max, y no hay que cambiar nada en esta pantalla. La solución es una actualización de Cora Cloud. Abre **Ajustes → Ajustes de Cora Max** y baja hasta la sección **Estado**, donde la línea **Guardado en la nube** dice qué datos están afectados. Después [contacta con soporte](/support.html) |
 | **Sin conexión** | No hay conexión. La pantalla muestra los últimos datos que recibió |
-| **Sin conexión, reintentando en 45s** | Tu red funciona, pero lleva más de 30 segundos sin poder llegar a Cora Cloud. Cora Max se vuelve a conectar sola, y la cuenta atrás muestra cuándo lo intenta de nuevo |
+| **Sin conexión, reintentando en 30s** | Tu red funciona, pero lleva unos 15 segundos sin poder llegar a Cora Cloud. Cora Max se vuelve a conectar sola, y la cuenta atrás muestra cuándo lo intenta de nuevo |
 | **Cora principal sin conexión** | Esta pantalla es un segundo Cora Max para este acuario, y el **Cora Max principal** (el fijado para leer los equipos de este acuario) se ha desconectado. Esta pantalla sigue mostrando los últimos datos que tiene hasta que el principal vuelva o elijas otro Cora Max principal. Más información en [Más de un dispositivo Cora](/help/mobile-multi-device) |
 | **Contraseña de Apex** | Tu Apex rechazó la contraseña guardada. Echa un vistazo a [Solución de problemas](/help/troubleshooting) |
 
 :::note Cómo funciona la cuenta atrás de reintento
-Cora Max intenta volver a conectarse a un ritmo constante. Espera unos 15 segundos después del primer corte, luego otros 15 segundos, luego 30 segundos dos veces y después una vez por minuto hasta que lo consigue. Nunca se rinde. **Sin conexión, reintentando en 45s** es normal.
+Cora Max intenta volver a conectarse a un ritmo constante. Espera unos 15 segundos después del primer corte, luego otros 15 segundos, luego 30 segundos dos veces y después una vez por minuto hasta que lo consigue. Nunca se rinde. **Sin conexión, reintentando en 30s** es normal.
 :::
 
 ## El panel {#the-dashboard}
@@ -91,7 +91,7 @@ Toca el nombre del acuario para abrir el menú del acuario que hay en pantalla.
 
 ## Cambiar de acuario {#switching-tanks}
 
-Toca el **icono de cuadrícula** de la izquierda del todo en la barra superior para ir a [el Cuarto de los Acuarios](/help/max-reef-room), y después abre el acuario que quieras. También puedes deslizar a los lados en el panel. Cada acuario tiene su propio diseño de panel, así que toda la pantalla cambia al pasar de uno a otro.
+Toca el **icono de cuadrícula** de la izquierda del todo en la barra superior para ir a [la sala del arrecife](/help/max-reef-room), y después abre el acuario que quieras. También puedes deslizar a los lados en el panel. Cada acuario tiene su propio diseño de panel, así que toda la pantalla cambia al pasar de uno a otro.
 
 ## El cajón Tomas y alimentación {#the-outlets-feed-drawer}
 

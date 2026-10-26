@@ -25,7 +25,7 @@ Ekipmanı telefonunuzda ekler, atar ve kaldırırsınız. Hesabınızda olduğun
 | **Neptune Apex** | Problar ve prizler, her prizi açıp kapatabilirsiniz |
 | **Trident** | Test durumu, reaktif ve atık seviyeleri ve bir test başlatma düğmesi |
 | DŌS QD dahil **DŌS** | Her kafanın dozajı, zamanlaması, ne kadar yeteceği ve kap hacmi (duraklatma, doldurma, şimdi dozajlama ve tek seferlik yirmi saniyelik bir ölçümle) |
-| **Red Sea ReefBeat** | Ünitede ne varsa: dozaj kafaları, depo, rulo günleri, pompa modu, ayrıca tam bir ReefDose planı düzenleyicisi ve ReefMat ayarları |
+| **Red Sea ReefBeat** | Ünitede ne varsa: dozaj kafaları, depo, rulo günleri, pompa modu |
 | **Jecod** | Pompa modu ve yoğunluğu ve günlük programı |
 | **AquaWiz** | Kendi sayfası yok. **Cihazlar** içinde listelenir ve ölçümleri panoya gider |
 
@@ -56,17 +56,10 @@ Bir DŌS'un seviye sensörü yoktur ve boş bir kaptan dozaj yapmaya devam eder.
 Bir kafanın ayarlar sayfasında **Kullanım amacı**'nı ayarlayabilirsiniz. Seçenekler **Takviye**, **Su değişimi: yeni tuzlu su girişi**, **Su değişimi: eski su çıkışı**, **Kalkwasser**, **Kalsiyum reaktörü**, **Yem** ya da **Su tamamlama** ve **Diğer**'dir. Kullanım amacı iki şeyi değiştirir.
 
 - Ne kadar büyük bir kabı izleyebileceği. Her kullanım amacı 1.000 litreye kadar bir kabı izleyebilir. Apex'in kendi 150 litrelik sayacının üstünde hacmi Cora kendisi izler ve Apex sayacını her 100 litrede bir sıfırlar.
-- Elle büyük bir doz alıp alamayacağı. Takviye ve Yem kafaları bugünkü küçük, dikkatli sınırı korur. Diğer her kullanım amacının 10 litrelik kesin bir tavana kadar kendi **Elle verilecek en büyük dozaj** sınırı ve kendi **Otomasyonlar ve Asistan için günlük sınır** değeri olabilir. Elle büyük bir doz ayrıca kafanın ayarlarında varsayılan olarak kapalı olan **Büyük dozlar**'ın açılmasını gerektirir. Bunu yalnızca ilk büyük dozun çalışmasını akvaryumun başında izledikten sonra açın.
+- Elle büyük bir doz alıp alamayacağı. Takviye ve Yem kafaları bugünkü küçük, dikkatli sınırı korur. Diğer her kullanım amacının 10 litrelik kesin bir tavana kadar kendi **Elle verilecek en büyük dozaj** sınırı ve kendi **Otomasyonlar ve Asistan için günlük sınır** değeri olabilir.
 
 Bir su değişimi çiftini (yeni tuzlu su girişi, eski su çıkışı) **Eşleştirilmiş kafa** olarak bağlayabilir ve bir **Denge uyarısı üstünde** miktarı ayarlayabilirsiniz. İki kafanın gün içindeki toplamları bundan fazla açılırsa Cora sizi uyarır. Dengesiz bir çift genellikle bir tarafın olması gerektiği gibi pompalamadığı anlamına gelir.
 
-### Büyük bir doz yarıda kalırsa {#if-a-large-dose-is-interrupted}
-
-Büyük bir doz, kafanın Apex'te yaptığı şeyi bir süreliğine değiştirir, sonra normal zamanlamasını geri koyar. Bağlantı yarıda koparsa Cora Max o kafanın sayfasında bir şerit gösterir: *"[kafa] üzerindeki büyük bir dozaj düzgün bitmedi. Cora programını geri koymayı denemeye devam ediyor; bunu Apex Fusion'da kontrol edin."*
-
-Kafayı Apex Fusion'da kendiniz kontrol edin, sonra şeridi kaldırmak için **Kafayı Fusion'da kontrol ettim**'e dokunun. Bunu yalnızca kafanın Cora'nın dozaj programını değil kendi zamanlamasını çalıştırdığını doğruladıktan sonra yapın.
-
-Şerit kalkmıyorsa ya da geri gelmeye devam ediyorsa [Sorun giderme](/help/troubleshooting) sayfasına göz atın.
 
 ## Red Sea ReefBeat {#red-sea}
 
@@ -74,7 +67,6 @@ Her Red Sea ünitesinin yaptığı işe uyan bir sayfası vardır: ReefDose kafa
 
 Bir Red Sea ünitesi kendini durdurursa sayfası neyin yanlış olduğunu söyler ve çözümü hemen yanına koyar. Bu **Sürdür**, **Acil durumu temizle**, **Sensör temizlendi**, **Zaten yeni bir rulo yükledim** ya da bir dozaj kafası için **Sıfırla**'dır.
 
-Bir ReefDose planı ve ReefMat'in zamanlanmış ilerletmesi, modeli, konumu ve Yeni rulo burada da telefonunuzdakiyle aynı şekilde çalışır. Ayrıntılar [Ekipmanınızı kontrol etme](/help/mobile-device-control) sayfasında.
 
 
 ## Jecod {#jecod}
@@ -99,7 +91,7 @@ AquaWiz, Cora'nın bulutunu yalnızca 12 saatte bir okumasına izin verir. Alkal
 - Birkaç saniyeliğine kontrolörün kendi Wi-Fi ağına bağlanır, son sonucu okur ve hemen ev Wi-Fi'nize döner. Bu sırada Cora Max yaklaşık 4 saniye çevrimdışı kalır.
 - Ev Wi-Fi şifreniz bu işlem için hiçbir yere kaydedilmez veya gönderilmez.
 - Bunu yalnızca akvaryumun ana Cora Max'i yapar. Aynı akvaryumdaki ikinci bir Cora Max yapmaz.
-- Cora Max sizinle konuşurken, güncellenirken, eşleşirken ya da Wi-Fi değiştirirken bekler ve bir sonraki saatte yeniden dener.
+- Cora Max meşgulken (sizinle konuşurken, güncellenirken, eşleşirken ya da Wi-Fi değiştirirken) bekler ve o saatin sonuna kadar bir iki dakikada bir yeniden dener. Sonra bir sonraki saati bekler.
 - Kontrolör Cora Max'in Wi-Fi menzilinde olmalı ve ürün yazılımı yerel erişim sunmalıdır. Üst üste iki okuma başarısız olursa Cora Max günün geri kalanında denemeyi bırakır ve 12 saatlik bulut okuması devam eder.
 
 Cora Max'ten gelen bir ölçüm, telefondaki AquaWiz kartında **Cora Max cihazınızdan saatlik** olarak görünür. Ayrıca [Uyarılar](/help/mobile-alerts#equipment-faults) sayfasında anlatılan su kutusu seviyesi uyarılarını da getirir. Pompa ve pH probu uyarıları için Cora Max gerekmez.

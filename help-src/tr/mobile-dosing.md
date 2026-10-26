@@ -33,7 +33,7 @@ Yoğunluk yanlışsa Cora'nın o ürün için hesapladığı her doz aynı orand
 
 Nitrat ve fosfat ürünleri hesaplayıcıda Cora'nın kendi listesinden gelir. Bunları buraya ekleyemezsiniz.
 
-Akvaryumunuzun **tuz karışımı** bir dozaj ürünü değildir. Onu akvaryumun profilinde ayarlarsınız ve Cora, aralarından seçim yapabileceğiniz, yaygın reef tuzlarının yayımlanmış değerlerini kaynaklarıyla birlikte içeren bir katalog sunar. [Akvaryum profiliniz](/help/mobile-tank-profile) sayfasına bakın.
+Akvaryumunuzun **tuz karışımı** bir dozaj ürünü değildir. Onu akvaryumun profilinde ayarlarsınız ve Cora, aralarından seçim yapabileceğiniz, yaygın resif tuzlarının yayımlanmış değerlerini kaynaklarıyla birlikte içeren bir katalog sunar. [Akvaryum profiliniz](/help/mobile-tank-profile) sayfasına bakın.
 
 ## Dozaj hesaplayıcı {#the-dose-calculator}
 
@@ -43,7 +43,7 @@ Hesaplayıcı, bir parametreyi hedefine çıkarmak için ne kadar ürün gerekti
 2. Üstteki hesap makinesi simgesine dokunun. Üzerindeki nokta, ölçümün hedefin altında olduğunu gösterir.
 3. Cora'nın doldurduğu sayıları kontrol edin:
    - Güncel değer en son ölçümünüzdür. Yeni test ettiyseniz güncelleyin.
-   - Hedef, o parametre için uyarı aralığınızın ortasıdır. Bir aralık ayarlamadıysanız tipik reef aralığıdır.
+   - Hedef, o parametre için uyarı aralığınızın ortasıdır. Bir aralık ayarlamadıysanız tipik resif aralığıdır.
    - **Net su hacmi (L)**, kaya ve kum payı bırakmak için akvaryum hacminizin %90'ıdır. Gerçek değeri biliyorsanız değiştirin.
 4. **Ürün**'ü seçin. Akvaryum profilindeki kendi ürünleriniz önce, ardından marka hazır ayarları gelir. Bir **Özel yoğunluk** da girebilirsiniz.
 
@@ -69,4 +69,4 @@ Tüketim değiştiğinde bir sonuca varmadan önce daha yakından bakın. Alkali
 
 Neptune DŌS ya da Red Sea ReefDose gibi bağlı bir dozaj pompanız varsa kafaları, her kafada ne kaldığı ve ne dozladığı dahil kendi ölçümleriyle görünür. Onları nasıl çalıştırıp dolduracağınız [Ekipmanınızı kontrol etme](/help/mobile-device-control) sayfasında, düşük kap ve kaçırılan doz uyarıları da [Dozaj pompası uyarıları](/help/mobile-device-control#doser-alerts) bölümünde anlatılır.
 
-Bir otomasyon da bir DŌS kafasından dozaj yapabilir. Bu, kafa başına günde 10 mL ile sınırlıdır. [Otomasyonlar ve sahneler](/help/mobile-automation#actions) sayfasına bakın.
+Bir otomasyon da bir DŌS kafasından dozaj yapabilir. Bu, kafanın ayarlarında kafa için kendi günlük sınırınızı belirlemediğiniz sürece kafa başına günde 10 mL ile sınırlıdır. [Otomasyonlar ve sahneler](/help/mobile-automation#actions) sayfasına bakın.

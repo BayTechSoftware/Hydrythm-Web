@@ -55,7 +55,7 @@ Si les mesures d’un aquarium s’arrêtent alors qu’un autre aquarium du mê
 
 1. Ouvrez **Paramètres → [cet aquarium] → Cora Max principal**. Vérifiez qu’un appareil est attribué et qu’il est en ligne.
 2. Si un autre Cora Max de cet aquarium affiche **Cora principal hors ligne** dans sa barre du haut, le principal a perdu sa connexion. La signification de l’étiquette d’état est expliquée dans [L’écran d’accueil de Cora Max](/help/max-tour#what-the-status-pill-means).
-3. **Paramètres → Paramètres Cora Max → Réseau et mises à jour → Interrogation des appareils** indique à quelle fréquence ce Cora Max lit vos appareils. Ici, vous pouvez seulement le consulter. Il se règle depuis Cora Mobile.
+3. **Paramètres → Paramètres Cora Max → RÉSEAU ET MISES À JOUR → Interrogation des appareils** indique à quelle fréquence ce Cora Max lit vos appareils. Ici, vous pouvez seulement le consulter. Il se règle depuis Cora Mobile.
 4. Vérifiez la section **État** de **Paramètres → Paramètres Cora Max**. Elle affiche l’état de l’interrogation, l’heure de la dernière interrogation et la dernière écriture cloud pour chaque aquarium, sans rien changer.
 
 Si cela ne suffit pas, consultez [Résolution de problèmes](/help/troubleshooting).

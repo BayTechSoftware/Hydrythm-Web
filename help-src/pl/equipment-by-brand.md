@@ -24,7 +24,7 @@ Cora odczytuje sondy i gniazda Twojego Apex, uruchamia jego cykle karmienia i ws
 - Sterowanie w telefonie: [Apex](/help/mobile-device-control#neptune-apex), [DŌS](/help/mobile-device-control#dos), [Trident](/help/mobile-device-control#trident)
 - Na Cora Max: [gniazda i tryb karmienia](/help/max-controls), [Apex i Trident](/help/max-device-control#neptune-apex), [głowice DŌS](/help/max-device-control#dos-heads)
 - Alerty: [brak raportów](/help/mobile-alerts#stopped-reporting), [alerty dozownika](/help/mobile-device-control#doser-alerts)
-- Rozwiązania: [„Nie udało się połączyć z Apex”](/help/troubleshooting#could-not-reach-the-apex-nothing-changed-nothing-was-dosed), [„… nie ma danych Apex”](/help/troubleshooting#this-could-not-be-sent-no-device-on-this-tank-can-send-it), [„Hasło Apex”](/help/troubleshooting#cora-max-shows-apex-password), [„Apex odrzucił ten login”](/help/troubleshooting#the-apex-refused-this-login), [karmienie się nie uruchamia](/help/troubleshooting#feed-does-not-start), [dawka zatrzymała się w połowie](/help/troubleshooting#a-dose-stopped-partway-through-and-a-restore-alert-appeared)
+- Rozwiązania: [„Nie udało się połączyć z Apex”](/help/troubleshooting#could-not-reach-the-apex-nothing-changed-nothing-was-dosed), [„… nie ma danych Apex”](/help/troubleshooting#this-could-not-be-sent-no-device-on-this-tank-can-send-it), [„Hasło Apex”](/help/troubleshooting#cora-max-shows-apex-password), [„Apex odrzucił ten login”](/help/troubleshooting#the-apex-refused-this-login), [karmienie się nie uruchamia](/help/troubleshooting#feed-does-not-start)
 
 ## Red Sea ReefBeat {#red-sea}
 

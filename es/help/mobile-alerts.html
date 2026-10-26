@@ -131,7 +131,7 @@
 <summary>Primeros pasos</summary><ul>
 <li><a href="/es/help/max-setup">Configurar Cora Max</a></li>
 <li><a href="/es/help/max-tour">La pantalla de inicio de Cora Max</a></li>
-<li><a href="/es/help/max-reef-room">El cuarto de los acuarios</a></li>
+<li><a href="/es/help/max-reef-room">La sala del arrecife</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Tu panel</summary><ul>
@@ -209,7 +209,7 @@
 <ul><li>su bomba dosificadora informa de un fallo;</li><li>su sonda de pH ha fallado o está cerca del final de su vida.</li></ul>
 <p>Cuando el suplemento de alcalinidad se acaba, el aviso usa el nivel que fijaste en el controlador. Aún puedes cambiarlo en el Centro de alertas. Un nivel de la caja de agua que se queda bajo o alto más de una hora también genera un aviso, pero para eso hace falta la lectura cada hora de Cora Max (mira <a href="/es/help/max-device-control#aquawiz-hourly">Controlar equipos desde Cora Max</a>): la lectura de la nube de AquaWiz cada 12 horas no lo incluye.</p>
 <h2 id="stopped-reporting">Un dispositivo ha dejado de informar</h2>
-<p>Cuando un dispositivo conectado se queda en silencio, Cora envía <em>"[Dispositivo]: ha dejado de informar"</em>. No significa que el dispositivo esté averiado, solo que Cora lleva un rato sin saber de él. Recibes una segunda notificación, <em>"[Dispositivo]: vuelve a informar"</em>, cuando vuelve.</p>
+<p>Cuando un dispositivo conectado se queda en silencio, Cora envía <em>"[Dispositivo]: dejó de informar"</em>. No significa que el dispositivo esté averiado, solo que Cora lleva un rato sin saber de él. Recibes una segunda notificación, <em>"[Dispositivo]: vuelve a informar"</em>, cuando vuelve.</p>
 <p>Cuánto espera Cora depende del dispositivo:</p>
 <div class="tw"><table class="stack"><thead><tr><th>Dispositivo</th><th>Cora espera</th></tr></thead><tbody><tr><td data-th="Dispositivo">Neptune™ Apex</td><td data-th="Cora espera">Unos 30 minutos sin actualizaciones</td></tr><tr><td data-th="Dispositivo">Red Sea™ ReefBeat</td><td data-th="Cora espera">Unos 30 minutos</td></tr><tr><td data-th="Dispositivo">AquaWiz</td><td data-th="Cora espera">Unas 25 horas, porque AquaWiz solo deja que Cora lea su nube cada 12 horas</td></tr><tr><td data-th="Dispositivo">Bombas Jecod</td><td data-th="Cora espera">Tres lecturas perdidas seguidas, según el intervalo de lectura de la bomba (90 minutos con el predeterminado de 30)</td></tr><tr><td data-th="Dispositivo">Enchufe Zigbee</td><td data-th="Cora espera">No ha vuelto 30 minutos después de reiniciar el hub. Ponle nombre con <strong>Renombrar</strong> para que el aviso la nombre</td></tr></tbody></table></div>
 <p>Qué revisar depende de cómo lee Cora el dispositivo.</p>
@@ -235,7 +235,7 @@
 <p>Mientras una regla está desactivada, Cora no valora esa lectura. Su widget se queda en gris neutro y nunca genera una alerta.</p>
 <aside class="cal cal-warning"><p class="cal-t">Desactiva un parámetro sin borrar su rango</p><p>Eliminar una regla no siempre impide que Cora valore esa lectura. Las bandas de referencia predeterminadas siguen dando color al valor y pueden seguir influyendo en el resumen. Usa el interruptor de la regla.</p></aside>
       <nav class="pn" aria-label="Seguir leyendo"><a class="pn-p" href="/es/help/mobile-consumables"><span>Anterior</span><b>Consumibles y alertas de reposición</b></a><a class="pn-n" href="/es/help/mobile-notifications"><span>Siguiente</span><b>Notificaciones</b></a></nav>
-      <p class="stamp">Escrito para Cora Max 0.28.238 y Cora Mobile 1.4.14. Última revisión el 2026-10-24.</p>
+      <p class="stamp">Escrito para Cora Max 0.28.240 y Cora Mobile 1.4.16. Última revisión el 2026-10-24.</p>
       <p class="ask">¿Sigues atascado? Escribe a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> y te ayudamos.</p>
     </article>
   </main>
@@ -626,7 +626,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/es/help/search.json?v=9384433ffe').then(function (r) { return r.json(); })
+    fetch('/es/help/search.json?v=1d5700fe42').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "es"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La b\u00fasqueda no est\u00e1 disponible. Usa la navegaci\u00f3n." + '</li>';

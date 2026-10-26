@@ -13,7 +13,7 @@ You add and arrange widgets in [the dashboard editor](/help/mobile-dashboard-edi
 
 ![A widget's settings sheet in Cora Mobile](img/mobile-widget-config.webp "The lower half of a widget's settings: the parameter, width, height and time range, then Remove and Done.")
 
-## The fifteen types {#the-fifteen-types}
+## The widget types {#the-widget-types}
 
 | Type | Shows |
 |---|---|

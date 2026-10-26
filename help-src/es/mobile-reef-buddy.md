@@ -50,14 +50,14 @@ Las lecturas de sondas y controladores no activan esta opción, porque llegan du
 
 ## Por qué ves un análisis
 
-Debajo de un análisis, toca **¿Por qué veo esto?** La hoja **Por qué ves esto** lista las **Lecturas que usó**, el **Objetivo de comparación** (tu propio objetivo o un rango de referencia), lo que **De tu diario** haya tenido en cuenta y el periodo en días que miró. Si el razonamiento no encaja con tu acuario, responde al análisis como se explica en [Corregir un análisis](#correcting-an-insight).
+Debajo de un análisis, toca **¿Por qué veo esto?** La hoja **Por qué ves esto** lista las **Lecturas que usó**, el **Objetivo de comparación** (tu propio objetivo o un rango de referencia), lo que haya tenido en cuenta de tu diario (**De tu diario**) y el periodo en días que miró. Si el razonamiento no encaja con tu acuario, responde al análisis como se explica en [Corregir un análisis](#correcting-an-insight).
 
 Los resúmenes también usan más que las lecturas de parámetros. Pueden usar los horarios de tus luces, la velocidad de un rollo ReefMat, tu alcalinidad anotada a mano junto a la de un dispositivo y los totales de tus cabezales DŌS.
 
 
 ## Cuándo llega {#when-it-arrives}
 
-Una vez al día para cada acuario, a la hora que elijas. Configúrala en **Ajustes → Hora del resumen**, junto a **Notificaciones**. El resumen llega en unos 15 minutos desde esa hora, en tu propia zona horaria. Si nunca eliges una, llega a las 8:00.
+Una vez al día para cada acuario, a la hora que elijas. Configúrala en **Ajustes → Hora del resumen**, junto a **Notificaciones**. El resumen llega dentro de unos 15 minutos de esa hora, en tu propia zona horaria. Si nunca eliges una, llega a las 8:00.
 
 Elige una hora posterior a tu prueba habitual de la mañana, para que el resultado de hoy entre en el resumen.
 
@@ -85,7 +85,7 @@ Si no has medido nada en una semana, la puntuación de Datos baja y la de Estabi
 
 Reef Buddy forma parte de los planes de pago. También está incluido en la prueba gratuita de 30 días que empieza cuando creas tu cuenta.
 
-Cada plan cubre un número fijo de acuarios: 1 en la prueba y en Essential, 5 en Advanced y 20 en Expert. Los resúmenes van a los primeros acuarios según el orden de **Ajustes → Reordenar acuarios**. Para incluir un acuario que se queda fuera, súbelo en la lista. Los acuarios eliminados no ocupan sitio.
+Cada plan cubre un número fijo de acuarios: 1 en la prueba y en Essential, 5 en Advanced y 20 en Expert. Los resúmenes van a los primeros acuarios según el orden de **Ajustes → Reordenar acuarios**. Para incluir un acuario que se queda fuera, súbelo en la lista. Los acuarios eliminados no ocupan sitio. Un acuario que todavía estás ciclando (modo Acuario Nuevo) siempre queda cubierto y no ocupa sitio.
 
 Después de la prueba, una cuenta gratuita ve una tarjeta de Reef Buddy bloqueada con **Ver planes** donde estaba el resumen, y no recibe la notificación del resumen. Más información en [Planes y suscripciones](/help/mobile-plans).
 
@@ -96,7 +96,7 @@ Después de la prueba, una cuenta gratuita ve una tarjeta de Reef Buddy bloquead
 - **El acuario está fuera del límite de tu plan.** Súbelo en **Ajustes → Reordenar acuarios**.
 - **Las notificaciones están desactivadas.** Revisa [Notificaciones](/help/mobile-notifications).
 
-Si desactivaste **Permitir que el Cora Assistant use los datos guardados del acuario**, el resumen sigue llegando, pero su resumen es un texto fijo y sencillo y se omite la observación escrita por la IA. Consulta [Preguntar a Cora](/help/mobile-assistant#consent).
+Si desactivaste **Permitir que el Cora Assistant use los datos guardados del acuario**, el resumen sigue llegando, pero su párrafo de resumen es un texto fijo y sencillo y se omite la observación escrita por la IA. Consulta [Preguntar a Cora](/help/mobile-assistant#consent).
 
 ## Corregir un análisis {#correcting-an-insight}
 

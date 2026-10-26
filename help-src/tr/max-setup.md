@@ -1,6 +1,6 @@
 ---
 title: Cora Max'i kurma
-description: Yeni bir Cora Max'i Bluetooth üzerinden Cora Mobile ile eşleştirin, Wi-Fi'a bağlayın, akvaryumlarını seçin ve daha sonra başka bir akvaryuma taşıyın.
+description: Yeni bir Cora Max'i Bluetooth üzerinden Cora Mobile ile eşleştirin, Wi-Fi'ye bağlayın, akvaryumlarını seçin ve daha sonra başka bir akvaryuma taşıyın.
 section: Cora Max
 reviewed: 2026-10-13
 order: 1
@@ -37,7 +37,7 @@ Geri kalan her şey Cora Mobile'da olur. Bir sayfa, üstünde gösterilen beş a
 
 1. **Bulun.** **Cihazlar** sekmesini açın, **Cihaz Ekle**'ye, ardından **Cora**'ya dokunun. **Cora'nızı Ekleyin** ekranı ağınızdaki Cora cihazlarını ve Bluetooth üzerinden bulunan yakındaki kurulum cihazlarını listeler. Sizinki henüz orada değilse **Tara**'ya dokunun, sonra Cora Max'inize dokunun.
 
-   ![Cora Mobile'da cihaz arayan Cora'nızı Ekleyin ekranı](img/mobile-add-device.webp "Cihaz Ekle, ardından Cora. Cora Mobile Wi-Fi'ınızda ve Bluetooth üzerinden arar, altta IP Adresini Elle Girin bulunur.")
+   ![Cora Mobile'da cihaz arayan Cora'nızı Ekleyin ekranı](img/mobile-add-device.webp "Cihaz Ekle, ardından Cora. Cora Mobile Wi-Fi'nizde ve Bluetooth üzerinden arar, altta IP Adresini Elle Girin bulunur.")
 
 2. **Bağlan.** Telefonunuz Cora Max'e Bluetooth üzerinden bağlanır ve MAC adresini, yazılım sürümünü, modelini ve donanım revizyonunu gösterir. Doğru cihaz olduğunu kontrol edin, sonra **Devam et**'e dokunun.
 
@@ -52,7 +52,7 @@ Geri kalan her şey Cora Mobile'da olur. Bir sayfa, üstünde gösterilen beş a
 6. **Tamamlandı.** Telefonunuz Cora Max'in kurulduğunu söyler ve bir **Kurtarma PIN'i** gösterir. Akvaryumunuzun panosunu açan düğmeye ya da **Cihazlara Git**'e dokunun. Cora Max **Eşleştirildi**, ardından **Pano açılıyor…** gösterir.
 
 :::warning Kurtarma PIN'ini bir yere yazın
-**Kurtarma PIN'i** altı hanelidir ve o Cora Max'te kurtarmaya girmenin tek yoludur. Kullanmak için ekranın sağ üst köşesinde beş parmağınızı on saniye basılı tutun, sonra PIN'i girin. Kurtarma; Wi-Fi'ı yeniden kurmanıza, yeniden eşleştirmenize, güncelleme kontrol etmenize ya da fabrika ayarlarına sıfırlamanıza olanak verir. PIN'i telefonunuzda **Cihazlar → Cora Max'iniz → Kurtarma PIN'i** altında yeniden bulabilirsiniz, ama Cora Max'in kendisinde asla bulamazsınız.
+**Kurtarma PIN'i** altı hanelidir ve o Cora Max'te kurtarmaya girmenin tek yoludur. Kullanmak için ekranın sağ üst köşesinde beş parmağınızı on saniye basılı tutun, sonra PIN'i girin. Kurtarma; Wi-Fi'yi yeniden kurmanıza, yeniden eşleştirmenize, güncelleme kontrol etmenize ya da fabrika ayarlarına sıfırlamanıza olanak verir. PIN'i telefonunuzda **Cihazlar → Cora Max'iniz → Kurtarma PIN'i** altında yeniden bulabilirsiniz, ama Cora Max'in kendisinde asla bulamazsınız.
 :::
 
 ### Eşleştirme takılırsa {#if-pairing-gets-stuck}

@@ -69,4 +69,4 @@ Gdy zmienia się zapotrzebowanie, przyjrzyj się temu, zanim wyciągniesz wniose
 
 Jeśli masz podłączony dozownik, na przykład Neptune DŌS albo Red Sea ReefDose, jego głowice pojawiają się z własnymi odczytami, w tym z tym, ile zostało w każdej głowicy i co dozowała. Jak je uruchamiać i uzupełniać, opisuje [Sterowanie sprzętem](/help/mobile-device-control), a ich alerty o niskim poziomie w pojemniku i pominiętej dawce są w [Alertach dozownika](/help/mobile-device-control#doser-alerts).
 
-Automatyzacja też może dozować z głowicy DŌS, z limitem 10 mL na głowicę dziennie. Zobacz [Automatyzacje i sceny](/help/mobile-automation#actions).
+Automatyzacja też może dozować z głowicy DŌS, z limitem 10 mL na głowicę dziennie, chyba że ustawisz dla niej własny limit dzienny w jej ustawieniach. Zobacz [Automatyzacje i sceny](/help/mobile-automation#actions).

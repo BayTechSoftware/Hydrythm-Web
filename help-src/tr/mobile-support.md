@@ -17,7 +17,7 @@ Bir sorunu bildirmek ya da geri bildirim göndermek için **Ayarlar → Yardım 
 2. **Ne oldu?** altında olanı kendi cümlelerinizle yazın.
 3. **Gönder**'e dokunun. *Teşekkürler, raporunuzu aldık.* mesajını görürsünüz.
 
-Ne beklediğinizi ve ne gördüğünüzü yazın. "Apex doğru ölçerken panoda alkalinite 2 gün önce görünüyordu" gibi bir cümle, "ölçümler bozuk" demekten çok daha işe yarar.
+Ne beklediğinizi ve ne gördüğünüzü yazın. "Apex doğru ölçerken panoda alkalinite 2 gün eski görünüyordu" gibi bir cümle, "ölçümler bozuk" demekten çok daha işe yarar.
 
 Günde en fazla 10 rapor gönderebilirsiniz.
 
@@ -49,9 +49,9 @@ Başka birinin akvaryumuna paylaşılan bir bağlantıdan bakıyorsanız ekran g
 
 ## Desteğe e-posta gönderme
 
-**Ayarlar → Yardım ve Destek → Destekle İletişime Geç**, Cora Mobile sürümünüz doldurulmuş olarak **[cora@coraiq.tech](mailto:cora@coraiq.tech)** adresine bir e-posta açar. Genellikle bir gün içinde yanıt veririz. Telefonunuzda e-posta uygulaması yoksa bu adrese herhangi bir e-posta hesabından yazın.
+**Ayarlar → Yardım ve Destek → Destekle İletişime Geç**, Cora Mobile sürümünüz ve telefonunuzun işletim sistemi doldurulmuş olarak **[cora@coraiq.tech](mailto:cora@coraiq.tech)** adresine bir e-posta açar. Genellikle bir gün içinde yanıt veririz. Telefonunuzda e-posta uygulaması yoksa bu adrese herhangi bir e-posta hesabından yazın.
 
-## Başka nereden
+## Başka yardım kaynakları
 
 - Kendi akvaryumunuzla ilgili sorulara [Cora Assistant](/help/mobile-assistant) genellikle daha hızlı yanıt verir, çünkü ölçümlerinizi görebilir.
 - Bir şey bu kılavuzda anlatıldığı gibi çalışmıyorsa önce [Sorun giderme](/help/troubleshooting) sayfasına bakın.

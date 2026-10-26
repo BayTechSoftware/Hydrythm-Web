@@ -85,7 +85,7 @@ Se non fai nessun test per una settimana, il punteggio Dati scende e il punteggi
 
 Reef Buddy fa parte dei piani a pagamento. È compreso anche nella prova di 30 giorni che parte quando crei il tuo account.
 
-Ogni piano copre un certo numero di vasche: 1 nella prova e con Essential, 5 con Advanced e 20 con Expert. I briefing vanno alle prime vasche nell'ordine impostato in **Impostazioni → Riordina vasche**. Per includere una vasca che resta fuori, spostala più in alto nell'elenco. Le vasche rimosse non occupano un posto.
+Ogni piano copre un certo numero di vasche: 1 nella prova e con Essential, 5 con Advanced e 20 con Expert. I briefing vanno alle prime vasche nell'ordine impostato in **Impostazioni → Riordina vasche**. Per includere una vasca che resta fuori, spostala più in alto nell'elenco. Le vasche rimosse non occupano un posto. Una vasca che stai ancora facendo maturare (modalità Nuova vasca) è sempre coperta e non occupa un posto.
 
 Dopo la prova, un account gratuito vede una scheda Reef Buddy bloccata con **Vedi i piani** al posto del briefing, e non riceve la notifica del briefing. Di più in [Piani e abbonamenti](/help/mobile-plans).
 

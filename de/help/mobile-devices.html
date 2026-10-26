@@ -208,7 +208,7 @@
 <p>Du verlierst die Live-Verbindung. War das Gerät über ein Konto beim Hersteller verbunden, verlierst du auch die gespeicherte Anmeldung, du musst dich also neu anmelden, wenn du es wieder hinzufügst.</p>
 <aside class="cal cal-tip"><p class="cal-t">Ein lautes Gerät beruhigen, ohne es zu entfernen</p><p>Funktioniert ein Gerät gut, warnt aber zu oft, ändere seine Schwellenwerte oder Benachrichtigungseinstellungen unter <a href="/de/help/mobile-alerts">Warnungen und Schwellenwerte</a>. Du behältst die Verbindung und die Daten, und der Lärm hört auf.</p></aside>
       <nav class="pn" aria-label="Weiterlesen"><a class="pn-p" href="/de/help/mobile-sharing"><span>Zurück</span><b>Dein Becken teilen</b></a><a class="pn-n" href="/de/help/mobile-connections"><span>Weiter</span><b>Deine Ausrüstung verbinden</b></a></nav>
-      <p class="stamp">Geschrieben für Cora Max 0.28.238 und Cora Mobile 1.4.14. Zuletzt geprüft am 2026-10-17.</p>
+      <p class="stamp">Geschrieben für Cora Max 0.28.240 und Cora Mobile 1.4.16. Zuletzt geprüft am 2026-10-17.</p>
       <p class="ask">Kommst du nicht weiter? Schreib eine E-Mail an <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, wir helfen dir.</p>
     </article>
   </main>
@@ -599,7 +599,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/de/help/search.json?v=f36c594b9d').then(function (r) { return r.json(); })
+    fetch('/de/help/search.json?v=78d2fe7c0c').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "de"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Die Suche ist nicht verf\u00fcgbar. Nutze die Navigation." + '</li>';

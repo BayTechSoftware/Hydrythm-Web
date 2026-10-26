@@ -15,7 +15,7 @@ Puoi avere tutte le vasche che vuoi con qualsiasi piano. Il piano decide solo qu
 
 1. Vai in **Impostazioni** e tocca **Aggiungi vasca**, sotto l'elenco delle tue vasche.
 2. **Aggiungi vasca** apre il profilo completo della vasca. Dai un nome alla vasca in **Nome e tipo di vasca**, e compila quello che sai, come il tipo e il volume d'acqua in **Dimensioni vasca**. Il resto puoi finirlo più avanti. Vedi [Il profilo della vasca](/help/mobile-tank-profile).
-3. Tocca **Salva vasca**. Se la vasca è nuovissima e sta ancora facendo il ciclo, attiva prima **È una vasca nuovissima che sto facendo maturare** in fondo al modulo.
+3. Tocca **Salva vasca**. Se la vasca è nuovissima e la stai ancora facendo maturare, attiva prima **È una vasca nuovissima che sto facendo maturare** in fondo al modulo.
 4. Cora propone il passaggio del primo test. Registra un test, imposta un promemoria settimanale oppure tocca **Più tardi**. Vedi [La scheda del primo test](/help/mobile-setup#the-first-test-card).
 
 Poi dai alla vasca la sua attrezzatura:
@@ -24,7 +24,7 @@ Poi dai alla vasca la sua attrezzatura:
 - Per spostare attrezzatura che hai già, apri il dispositivo nella scheda **Dispositivi** e cambia la sua vasca. Vedi [Aggiungere, modificare e rimuovere dispositivi](/help/mobile-devices).
 - Per mostrare la vasca su Cora Max, vai in **Dispositivi**, apri il tuo Cora Max e tocca **Aggiungi vasca** sotto **Vasche assegnate**. Un Cora Max mostra fino a 4 vasche.
 
-:::tip La vasca nuova sta ancora facendo il ciclo?
+:::tip La vasca nuova è ancora in maturazione?
 Puoi avviare la maturazione guidata anche più tardi: tocca **Stai avviando una nuova vasca?** sulla dashboard della vasca (la scheda compare finché la vasca non ha letture) oppure usa la stessa scheda in cima al profilo della vasca, che funziona in qualsiasi momento. Di più in [Percorsi guidati](/help/mobile-journeys).
 :::
 
@@ -45,9 +45,9 @@ L'ordine è quello in cui le scorri sulla dashboard.
 
 ### L'ordine decide quali vasche ricevono Reef Buddy {#reef-buddy-and-tank-order}
 
-Il tuo piano copre un certo numero di vasche per il briefing giornaliero di Reef Buddy. Cora lo dà alle prime nell'ordine di **Riordina vasche**. Con Essential, e durante la prova di 30 giorni, è solo la prima vasca. Advanced copre 5 vasche e Expert ne copre 20. Di più in [Piani e abbonamenti](/help/mobile-plans).
+Il tuo piano copre un certo numero di vasche per il riepilogo (briefing) giornaliero di Reef Buddy. Cora lo dà alle prime nell'ordine di **Riordina vasche**. Con Essential, e durante la prova di 30 giorni, è solo la prima vasca. Advanced copre 5 vasche e Expert ne copre 20. Di più in [Piani e abbonamenti](/help/mobile-plans).
 
-Se una vasca non riceve il briefing, spostala in cima all'elenco. Le vasche rimosse non contano.
+Se una vasca non riceve il riepilogo, spostala in cima all'elenco. Le vasche rimosse non contano. Una vasca che stai ancora facendo maturare (modalità Nuova vasca) è sempre coperta e non occupa un posto.
 
 ## Rimuovere una vasca {#removing-a-tank}
 

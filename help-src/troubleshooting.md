@@ -119,7 +119,7 @@ Nothing on this tank is reading your Red Sea equipment right now, so the reading
 
 ### Some ReefBeat settings are greyed out or missing {#some-reefbeat-settings-are-greyed-out-or-missing}
 
-That's normal. A Red Sea device's own settings only open when your phone is on the same network as the device. Away from that network you only see readings.
+That's normal. A Red Sea device's own settings only open when your phone is on the same network as the device. Away from that network you see readings, and commands still go through a Cora Max on the tank if it has one. The device's own settings stay unavailable.
 
 1. Join the tank's Wi-Fi to change those settings.
 2. Readings and history keep working when you're away.
@@ -178,12 +178,6 @@ On your phone, **Feed** only shows on a tank with a Neptune Apex, and it starts 
 - *"No Cora on this tank can reach the Apex, and you're not on its network."* Join the Apex's Wi-Fi, or pair a Cora Max to the tank.
 - *"The Apex didn't answer, but it may already be feeding."* Check the controller before you try again.
 
-### A dose stopped partway through and a "restore" alert appeared {#a-dose-stopped-partway-through-and-a-restore-alert-appeared}
-
-The DŌS head lost contact during the dose. Cora tells you so it doesn't have to assume the full dose went in.
-
-1. Open the alert and check how much was dosed before it stopped.
-2. Use that amount to decide whether to resume or adjust the dose.
 
 ## Cora Max {#cora-max}
 

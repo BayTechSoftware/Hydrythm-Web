@@ -1,6 +1,6 @@
 ---
 title: Glosario
-description: Qué quiere decir Cora con acuario, fuente, widget, umbral, Cora Max principal, modo alimentación, escena y las demás palabras que verás en las apps.
+description: Qué quiere decir Cora con acuario, fuente, widget, umbral, Cora Max principal, modo alimentación, escena y las demás palabras que verás en Cora Mobile y en Cora Max.
 section: Help
 reviewed: 2026-10-18
 order: 5
@@ -72,7 +72,7 @@ El servicio que mantiene sincronizados tu teléfono, tu Cora Max y tus equipos, 
 
 ## Cora Max {#cora-max}
 
-La pantalla de pared para el cuarto de los acuarios. Muestra tus acuarios en directo, lee tus equipos a todas horas y puedes hablarle. Consulta [Configurar Cora Max](/help/max-setup).
+La pantalla de pared para la sala del arrecife. Muestra tus acuarios en directo, lee tus equipos a todas horas y puedes hablarle. Consulta [Configurar Cora Max](/help/max-setup).
 
 ## Cora Max principal {#primary-cora-max}
 
@@ -81,10 +81,6 @@ El Cora Max que lee por ti los equipos de un acuario en tu red. Fíjalo en un Co
 ## Cora Mobile {#cora-mobile}
 
 La app del teléfono. El icono de tu pantalla de inicio se llama **Cora**. Consulta [Configurar Cora Mobile](/help/mobile-setup).
-
-## Cuarto de los Acuarios {#reef-room}
-
-La pantalla de Cora Max que muestra todos tus acuarios uno al lado del otro. En pantalla se llama **Acuarios Cora**. Consulta [El cuarto de los acuarios](/help/max-reef-room).
 
 ## Diario {#journal}
 
@@ -104,7 +100,7 @@ Lo que pone en marcha una [automatización](#automation): un parámetro que pasa
 
 ## Dispositivo que responde {#answering-device}
 
-El dispositivo Cora que contesta cuando dices "Hey Cora". Lo eliges en **Ajustes → Cora Assistant**. Solo responde un dispositivo a la vez. Es un ajuste distinto de [Cora Max principal](#primary-cora-max).
+El dispositivo Cora que contesta cuando dices "Hey Cora". Lo eliges en **Ajustes → Cora Assistant**, en Cora Mobile o en Cora Max. Solo responde un dispositivo a la vez. Es un ajuste distinto de [Cora Max principal](#primary-cora-max).
 
 ## Dosis {#dose}
 
@@ -193,6 +189,10 @@ Cómo terminó una orden enviada a tus equipos. **Confirmado**: el equipo respon
 ## Rutina de alimentación {#feeding-routine}
 
 Cómo alimentas normalmente, fijado una vez para el acuario (por ejemplo, copos dos veces al día). A partir de ahí solo anotas los días que son distintos, y Reef Buddy tiene en cuenta las dos cosas. Consulta [El diario](/help/mobile-journal).
+
+## Sala del arrecife {#reef-room}
+
+La pantalla de Cora Max que muestra todos tus acuarios uno al lado del otro. En pantalla se llama **Acuarios Cora**. Consulta [La sala del arrecife](/help/max-reef-room).
 
 ## Tiempo de espera {#cooldown}
 

@@ -17,7 +17,7 @@ Rehberli döngü her planda ücretsizdir. Başlatmanın üç yolu var:
 - **Panodan.** Hiç ölçümü olmayan bir akvaryumda bir kart **Yeni bir akvaryum mu kuruyorsunuz?** diye sorar. Ona dokunun.
 - **Akvaryumun profilinden.** Akvaryumun profilini açın ve en üstteki aynı karta dokunun. Ölçüm kaydettikten sonra bile her zaman çalışır.
 
-İlk seferde Cora **Rehberli döngü**'yü açıklar: akvaryum döngüdeyken panonuz amonyak, nitrit ve nitrata odaklanır ve henüz geçerli olmayan olağan reef kontrollerini duraklatır. Yönlendirme geneldir: her akvaryum farklıdır, bu yüzden ürünlerinizin talimatlarına uyun ve kendi kararınızı verin. **Anladım: döngüyü başlat**'a dokunun, yolculuk açılır.
+İlk seferde Cora **Rehberli döngü**'yü açıklar: akvaryum döngüdeyken panonuz amonyak, nitrit ve nitrata odaklanır ve henüz geçerli olmayan olağan resif kontrollerini duraklatır. Yönlendirme geneldir: her akvaryum farklıdır, bu yüzden ürünlerinizin talimatlarına uyun ve kendi kararınızı verin. **Anladım: döngüyü başlat**'a dokunun, yolculuk açılır.
 
 Yolculuk çalışmaya başladığında panodaki kartta **Döngüye devam et · N. Gün** yazar. Yolculuğa dönmek için ona dokunun. **Döngüyü sürdür** yazıyorsa akvaryum hâlâ döngü için ayarlıdır: rehberi yeniden açmak için ona dokunun. Bitirmeden çıkmak için yolculuğun altındaki **Rehberli döngüyü durdur**'a dokunun. Akvaryum normal izlemeye döner ve rehberli döngüyü akvaryumun profilinden tekrar açabilirsiniz.
 
@@ -41,7 +41,7 @@ Amonyak, nitrit ve nitrat testi eklemek için **Bir test kaydet**'e dokunun. Kit
 
 Üstteki bir nokta sırası (**Kurulum**, **Aşılama**, **Test**, **Onayla**) ne kadar ilerlediğinizi gösterir. Kontrol listesindeki her aşamanın kısa bir neden ve nasıl bölümü, çoğu resif sahibinin hemfikir olduğu **Bilinen bilgiler** ve bunun genel bir yönlendirme olduğunu belirten bir hatırlatma vardır. Cora burada ürün dozu vermez: kullandığınız bakteri ürününün etiketine uyun.
 
-**Şimdiye kadarki döngünüz** üç eğriyi iki ölçekte çizer. Amonyak ve nitrit, 0'dan en az 5 ppm'e uzanan sol ekseni kullanır. Nitrat, 0'dan en az 40 ppm'e uzanan sağ ekseni kullanır. Böylece küçük amonyak ve nitrit değerleri büyük bir nitrat sayısının yanında da görünür kalır. Tüm geçmişi görmek için bir ada dokunun.
+**Şu ana kadarki döngünüz** üç eğriyi iki ölçekte çizer. Amonyak ve nitrit, 0'dan en az 5 ppm'e uzanan sol ekseni kullanır. Nitrat, 0'dan en az 40 ppm'e uzanan sağ ekseni kullanır. Böylece küçük amonyak ve nitrit değerleri büyük bir nitrat sayısının yanında da görünür kalır. Tüm geçmişi görmek için bir ada dokunun.
 
 İkinci bir görüş için **Döngü hakkında Cora'ya sor**'a dokunun. En son ölçümlerinizle ilgili bir soruyla [Cora Assistant](/help/mobile-assistant)'ı açar.
 
@@ -50,7 +50,7 @@ Amonyak, nitrit ve nitrat testi eklemek için **Bir test kaydet**'e dokunun. Kit
 :::
 
 :::note Üç testi de kaydedin
-Cora **Döngü tamamlanmış görünüyor**'u ancak amonyak ve nitritin her biri sıfır *ölçüldüğünde* ve nitrat bulunduğunda gösterir. Tek başına nitrat yetmez. Kaynak suda çoğu zaman biraz bulunur ve tek başına bitmiş bir döngü gibi görünüp sizi canlıları çok erken eklemeye yöneltebilir.
+Cora **Döngü tamamlanmış görünüyor**'u ancak amonyak ve nitritin her biri sıfır ya da sıfıra yakın (0,25 ppm veya altı) *ölçüldüğünde* ve nitrat bulunduğunda gösterir. Tek başına nitrat yetmez. Kaynak suda çoğu zaman biraz bulunur ve tek başına bitmiş bir döngü gibi görünüp sizi canlıları çok erken eklemeye yöneltebilir.
 :::
 
 :::note Hazır olma durumu ölçümlerinizden gelir
@@ -59,7 +59,7 @@ Yolculuk hazır olup olmadığını kaydettiklerinize göre değerlendirir. Kaç
 
 ## Kişisel yorumunuz {#your-personal-read}
 
-Aşama, grafik, bilinen bilgiler, güvenlik uyarıları ve kutlama her planda ücretsizdir. Ücretli bir planda (Essential, Advanced veya Expert, ve ücretsiz deneme sırasında) yolculuk ayrıca **Döngünüz, sizin için yorumlandı** bölümünü gösterir: kendi değerlerinizin sade bir dille yorumu, örneğin nitritin ne kadardır takılı kaldığı ve bunun arkasında sık görülen nedenler. Ücretsiz planda bu yerde **Testlerinizin kişisel yorumu** görünür ve ona dokunmak planları açar. Değerlerinize dayalı bir tahmindir, söz değildir. Değerler döngüsü tamamlanmış gibi göründüğü anda üstte **Tebrikler, döngü tamamlanmış görünüyor** yazan bir kart da çıkar. Akvaryumu işaretledikten sonra yolculuk sıradakini önerir: canlıları eklerken kaydetmek, uyarı aralıkları belirlemek ve bir kontrolcü veya prob bağlamak.
+Aşama, grafik, bilinen bilgiler, güvenlik uyarıları ve kutlama her planda ücretsizdir. Ücretli bir planda (Essential, Advanced veya Expert, ve ücretsiz deneme sırasında) yolculuk ayrıca **Döngünüz, sizin için yorumlandı** bölümünü gösterir: kendi değerlerinizin sade bir dille yorumu, örneğin nitritin ne kadardır takılı kaldığı ve bunun arkasında sık görülen nedenler. Ücretsiz planda bu yerde **Testlerinizin kişisel yorumu** görünür ve ona dokunmak planları açar. Değerlerinize dayalı bir tahmindir, söz değildir. Değerler döngüsü tamamlanmış gibi göründüğü anda üstte **Tebrikler, döngü tamamlanmış görünüyor** yazan bir kart da çıkar. Akvaryumu işaretledikten sonra yolculuk sıradakini önerir: canlıları eklerken kaydetmek, uyarı aralıkları belirlemek ve bir kontrolör veya prob bağlamak.
 
 ## Döngü bittiğinde
 
@@ -68,7 +68,7 @@ Yolculuk **Döngü tamamlanmış görünüyor** gösterdiğinde son kontrolü ya
 1. **Akvaryumumu döngü tamamlandı olarak işaretle**'ye dokunun.
 2. Cora **Akvaryumunuz döngü tamamlanmış olarak işaretlensin mi?** diye sorar. **Evet, döngü tamamlandı**'ya ya da devam etmek için **Henüz değil**'e dokunun.
 
-Akvaryum normal izlemeye geçer ve tam reef zekası açılır. Canlıları yavaş yavaş, en dayanıklılardan başlayarak ekleyin.
+Akvaryum normal izlemeye geçer ve tam resif zekası açılır. Canlıları yavaş yavaş, en dayanıklılardan başlayarak ekleyin.
 
 ## Bir sorunu çözme
 
@@ -98,4 +98,4 @@ Sonunda ne olduğunu söylersiniz:
 
 ## Yolculuğu kapatma
 
-Bir sorun yolculuğu işe yaramıyorsa onu kapatın. Görünmeyi bırakır ve Cora kapatmayı kaydeder, böylece benzer yolculukları daha seyrek önerir.
+Bir sorun yolculuğu işe yaramıyorsa onu kapatın. Görünmeyi bırakır. Ölçümleriniz yine aynı soruna işaret ederse Cora onu tekrar önerebilir.

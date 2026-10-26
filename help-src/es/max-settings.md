@@ -42,7 +42,7 @@ Cada acuario tiene una fila que abre sus propios ajustes.
 
 La última fila de Ajustes lleva el nombre de este Cora Max. Abre todo lo que se aplica **solo a esta pantalla**.
 
-Arriba hay una tarjeta con el nombre de esta pantalla y su versión de firmware (*Cora Max · firmware 0.28.170*).
+Arriba hay una tarjeta con el nombre de esta pantalla y su versión de firmware (*Cora Max · firmware 0.28.x*).
 
 - Toca el lápiz (**Renombrar este dispositivo**) para ponerle un nombre nuevo, por ejemplo "Salón".
 - **Mostrar detalles** lista su **ID de Cora**, su **Dirección MAC**, su **Red Wi-Fi**, su **Dirección IP**, sus acuarios y la cuenta con la que está emparejado. El soporte puede pedirte estos datos.

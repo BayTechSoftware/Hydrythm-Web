@@ -34,7 +34,7 @@ Cuando se acaba una cuota, puedes seguir leyendo todo lo que Cora ya ha hecho pa
 
 ## La prueba gratuita {#the-trial}
 
-Tu **prueba de Advanced de 30 días empieza cuando creas tu cuenta**. No espera a que uses una función por primera vez, y no necesitas tarjeta. **Cuenta y suscripción** la muestra como **Prueba de Cora Advanced**, con la fecha en que termina.
+Tu **prueba de Advanced de 30 días empieza cuando creas tu cuenta**. No espera a que uses una función por primera vez, y no necesitas tarjeta. **Cuenta y suscripción** la muestra como **Prueba de Cora Advanced**, con la fecha en que termina. La prueba es para cuentas nuevas. Si ya has tenido una suscripción, una cuenta nueva no recibe otra.
 
 | Durante la prueba | |
 |---|---|
@@ -60,7 +60,7 @@ Hay tres planes, **Essential**, **Advanced** y **Expert**, cada uno mensual o an
 | Análisis de ICP / mes | 1 | 3 | 30 |
 | Acuarios con vigilancia por IA | 1 | 5 | 20 |
 
-Las sesiones de voz tienen su propio contador, y cada respuesta hablada también gasta de tu cuota de mensajes. Todos los planes de pago incluyen Reef Buddy, la subida y el análisis de ICP de los laboratorios que Cora sabe leer, la comparación con tu propio historial y **Diseñar con IA** para los paneles (hasta 5 diseños al día por acuario).
+Las sesiones de voz tienen su propio contador, y cada respuesta hablada también gasta de tu cuota de mensajes. Todos los planes de pago incluyen Reef Buddy, la subida y el análisis de ICP de los laboratorios que Cora sabe leer, la comparación con tu propio historial y **Diseñar con IA** para los paneles (hasta 5 diseños correctos al día por acuario; el día se reinicia a medianoche UTC).
 
 
 :::note El plan Expert no es la pantalla Cora Max
@@ -69,7 +69,7 @@ El **plan Expert** es una suscripción. **Cora Max** es la pantalla que está ju
 
 ### Qué acuarios tienen IA {#which-tanks-get-ai}
 
-Reef Buddy y la vigilancia con IA cubren tantos acuarios como permita tu plan, contados desde arriba en **Ajustes → Reordenar acuarios**. Para incluir un acuario, súbelo en la lista. Los acuarios eliminados no ocupan sitio.
+Reef Buddy y la vigilancia con IA cubren tantos acuarios como permita tu plan, contados desde arriba en **Ajustes → Reordenar acuarios**. Para incluir un acuario, súbelo en la lista. Los acuarios eliminados no ocupan sitio. Un acuario que todavía estás ciclando (modo Acuario Nuevo) siempre queda cubierto y no ocupa sitio.
 
 ## Suscribirte o mejorar tu plan {#subscribing}
 

@@ -1,6 +1,6 @@
 ---
 title: Glossaire
-description: Ce que Cora entend par aquarium, source, widget, seuil, Cora Max principal, mode nourrissage, scène et les autres mots que vous verrez dans les applications.
+description: Ce que Cora entend par aquarium, source, widget, seuil, Cora Max principal, mode nourrissage, scène et les autres mots que vous verrez dans Cora Mobile et sur Cora Max.
 section: Help
 reviewed: 2026-10-18
 order: 5
@@ -22,7 +22,7 @@ Cora qui vous dit que quelque chose demande votre attention. En général, c’e
 
 ## Appareil répondant {#answering-device}
 
-L’appareil Cora qui répond quand vous dites "Hey Cora". Vous le choisissez dans **Paramètres → Cora Assistant**. Un seul appareil répond à la fois. C’est un réglage différent du [Cora Max principal](#primary-cora-max).
+L’appareil Cora qui répond quand vous dites "Hey Cora". Vous le choisissez dans **Paramètres → Cora Assistant**, dans Cora Mobile ou sur Cora Max. Un seul appareil répond à la fois. C’est un réglage différent du [Cora Max principal](#primary-cora-max).
 
 ## AquaWiz
 
@@ -64,7 +64,7 @@ Le service qui garde votre téléphone, votre Cora Max et votre équipement sync
 
 ## Cora Max
 
-L’écran mural de la pièce du récif. Il affiche vos aquariums en direct, lit votre équipement jour et nuit, et vous pouvez lui parler. Voir [Configurer Cora Max](/help/max-setup).
+L’écran mural de la salle du récif. Il affiche vos aquariums en direct, lit votre équipement jour et nuit, et vous pouvez lui parler. Voir [Configurer Cora Max](/help/max-setup).
 
 ## Cora Mobile
 
@@ -154,9 +154,9 @@ La famille d’équipements connectés de Red Sea : ReefDose, ReefRun, ReefMat 
 
 Votre briefing quotidien. Il a un titre, deux scores (**Stabilité** sur 100 et **Données** en pourcentage), et les analyses qui les expliquent. Il fait partie des forfaits payants. Voir [Reef Buddy](/help/mobile-reef-buddy).
 
-## Pièce du récif {#reef-room}
+## Salle du récif {#reef-room}
 
-L’écran de Cora Max qui montre tous vos aquariums côte à côte. À l’écran, il s’appelle **Aquariums Cora**. Voir [La pièce du récif](/help/max-reef-room).
+L’écran de Cora Max qui montre tous vos aquariums côte à côte. À l’écran, il s’appelle **Aquariums Cora**. Voir [La salle du récif](/help/max-reef-room).
 
 ## Aquarium supprimé {#removed-tank}
 

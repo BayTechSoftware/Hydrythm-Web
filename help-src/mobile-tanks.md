@@ -47,7 +47,7 @@ The order is the order you swipe through on the dashboard.
 
 Your plan covers a set number of tanks for Reef Buddy's daily briefing. Cora gives it to the first ones in your **Reorder tanks** order. On Essential, and during the 30-day trial, that's your first tank only. Advanced covers 5 tanks and Expert covers 20. More in [Plans and subscriptions](/help/mobile-plans).
 
-If a tank gets no briefing, move it to the top of the list. Removed tanks don't count.
+If a tank gets no briefing, move it to the top of the list. Removed tanks don't count. A tank you are still cycling (New Tank Mode) is always covered and doesn't use up a place.
 
 ## Removing a tank {#removing-a-tank}
 

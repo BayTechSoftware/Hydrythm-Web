@@ -67,7 +67,7 @@ Magari una sonda ha avuto un picco, hai letto male un test o hai preso il campio
 
 ![L'elenco delle letture del pH in Cora Mobile](img/mobile-readings.webp "Ogni lettura dietro la linea, con il suo orario e la sua fonte. Toccane una per escluderla.")
 
-Tocca **Letture** nella barra in alto, poi tocca una lettura. Cora chiede **Escludere questa lettura?** e spiega che resta nel tuo registro ma smette di contare per medie, tendenze, approfondimenti e per l'assistente. Tocca **Escludi**. Non viene cancellato niente, e puoi ripristinarla allo stesso modo.
+Tocca **Letture** nella barra in alto, poi tocca una lettura. Cora chiede **Escludere questa lettura?** e spiega che resta nel tuo registro ma smette di contare per medie, tendenze, osservazioni e per l'assistente. Tocca **Escludi**. Non viene cancellato niente, e puoi ripristinarla allo stesso modo.
 
 Le letture più vecchie di 90 giorni non si possono escludere né ripristinare.
 

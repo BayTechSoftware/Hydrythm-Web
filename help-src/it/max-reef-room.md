@@ -26,7 +26,7 @@ Un Cora Max mostra **fino a quattro vasche**, e la Reef Room dà a ognuna una pa
 Con una sola vasca, Cora Max si apre sulla dashboard di quella vasca. L'icona a griglia ti porta comunque alla Reef Room.
 
 :::note Quattro vasche è il limite
-Puoi assegnare al massimo quattro vasche a un Cora Max, quando lo associ o più tardi dal telefono in **Dispositivi → il tuo Cora Max**. Se provi ad aggiungerne una quinta, ti verrà chiesto di toglierne prima una. Se hai più vasche di così, usa un secondo Cora Max. Ognuno tiene il suo gruppo. I passaggi sono in [Configurare Cora Max](/help/max-setup#changing-which-tanks-it-shows).
+Puoi assegnare al massimo quattro vasche a un Cora Max, quando lo associ o più tardi dal telefono in **Dispositivi → il tuo Cora Max**. Quando un Cora Max ha già quattro vasche, il pulsante **Aggiungi vasca** non c'è più sul telefono, quindi togline prima una. Se hai più vasche di così, usa un secondo Cora Max. Ognuno tiene il suo gruppo. I passaggi sono in [Configurare Cora Max](/help/max-setup#changing-which-tanks-it-shows).
 :::
 
 ## Cosa mostra un riquadro {#what-a-tile-shows}

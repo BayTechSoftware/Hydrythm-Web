@@ -50,7 +50,7 @@ For a second opinion, tap **Ask Cora about cycling**. It opens [Cora Assistant](
 :::
 
 :::note Log all three tests
-Cora only shows **Looks cycled** when ammonia and nitrite have each been *measured* at zero and nitrate is present. Nitrate alone isn't enough. Source water often has some, and on its own it could look like a finished cycle and tempt you to add livestock too early.
+Cora only shows **Looks cycled** when ammonia and nitrite have each been *measured* at or near zero (0.25 ppm or less) and nitrate is present. Nitrate alone isn't enough. Source water often has some, and on its own it could look like a finished cycle and tempt you to add livestock too early.
 :::
 
 :::note Readiness comes from your readings
@@ -98,4 +98,4 @@ Be honest, even if it's **Worse**. The outcome is saved with the journey, so if 
 
 ## Dismissing a journey
 
-If an issue journey isn't useful, dismiss it. It stops showing up, and Cora records the dismissal so it offers similar journeys less often.
+If an issue journey isn't useful, dismiss it. It stops showing up. If your readings point to the same problem again, Cora can offer it again.

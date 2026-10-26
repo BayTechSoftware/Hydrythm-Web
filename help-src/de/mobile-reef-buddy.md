@@ -85,9 +85,9 @@ Hast du eine Woche lang nichts getestet, sinkt der Daten-Wert, und die Stabilit�
 
 Reef Buddy gehört zu den bezahlten Abos. Es ist auch in der 30-tägigen Testphase enthalten, die beginnt, wenn du dein Konto anlegst.
 
-Jedes Abo deckt eine feste Zahl von Becken ab: 1 in der Testphase und bei Essential, 5 bei Advanced und 20 bei Expert. Briefings gehen an die ersten Becken in der Reihenfolge unter **Einstellungen → Becken neu anordnen**. Um ein Becken aufzunehmen, das leer ausgeht, schieb es in der Liste nach oben. Entfernte Becken belegen keinen Platz.
+Jedes Abo deckt eine feste Zahl von Becken ab: 1 in der Testphase und bei Essential, 5 bei Advanced und 20 bei Expert. Briefings gehen an die ersten Becken in der Reihenfolge unter **Einstellungen → Becken neu anordnen**. Um ein Becken aufzunehmen, das leer ausgeht, schieb es in der Liste nach oben. Entfernte Becken belegen keinen Platz. Ein Becken, das du noch einfährst (Modus „Neues Becken“), ist immer abgedeckt und belegt keinen Platz.
 
-Nach der Testphase sieht ein kostenloses Konto dort, wo das Briefing war, eine gesperrte Reef Buddy-Karte mit **Pläne ansehen** und bekommt keine Briefing-Benachrichtigung. Mehr dazu unter [Pläne und Abos](/help/mobile-plans).
+Nach der Testphase sieht ein kostenloses Konto dort, wo das Briefing war, eine gesperrte Reef Buddy-Karte mit **Tarife ansehen** und bekommt keine Briefing-Benachrichtigung. Mehr dazu unter [Pläne und Abos](/help/mobile-plans).
 
 ## Wenn kein Briefing kam
 

@@ -24,13 +24,13 @@ Cora **CSV dosyaları** verir. Bunlar Excel, Numbers, Google Sheets ya da tablo 
 |---|---|
 | `cora_parameters.csv` | Ölçümleriniz, her biri kaynağı ve zamanıyla |
 | `cora_journal.csv` | Günlük kayıtlarınız |
-| `cora_alerts.csv` | Verilen uyarılar |
+| `cora_alerts.csv` | Bildirim geçmişiniz |
 | `cora_export_summary.csv` | Bu dışa aktarmanın kapsadıkları, kesilen kısımlar dahil |
 
 :::note Dışa aktarmada neler var
 Dışa aktarma, insanların en çok istediği üç kaydı kapsar: **ölçümler, günlük kayıtları ve uyarılar**. Tüm hesabınızın bir kopyası değildir. Panolar, canlılar, bakım, otomasyonlar, raporlar ve cihaz ayarları dahil değildir.
 
-Üçünün her biri **akvaryum başına 25.000 satırda** durur. Beş dakikada bir otuz parametre kaydeden bir akvaryum üç günde bundan fazlasını yazar, bu yüzden uzun süredir çalışan bir akvaryum bu sınıra takılır. Bu olduğunda özet dosyası size söyler. Dışa aktarmanın eksiksiz olduğunu varsaymadan önce ona bakın.
+Ölçümler ve günlük kayıtları **akvaryum başına 25.000 kayıtta**, bildirim geçmişi dosyası ise tüm hesap için 25.000'de durur. Yıllık geçmişi olan bir akvaryum bu sınıra ulaşabilir. Bu olduğunda özet dosyası size söyler. Dışa aktarmanın eksiksiz olduğunu varsaymadan önce ona bakın.
 :::
 
 Parametre dosyası her ölçümün **kaynağını** da içerir. Böylece alkalinite tablonuzda probunuzun söylediğini test kitinizin söylediğinden yine ayırt edebilirsiniz.
@@ -64,7 +64,7 @@ Giriş yapalı uzun zaman olduysa Cora bir şey silmeden önce sizin olduğunuzu
 
 **Ayarlar → Cora Assistant → Anonimleştirilmiş akvaryum verisine katkıda bulun.**
 
-Bu ayar açıkken akvaryumunuzun parametre geçmişi reef araştırmaları için **sizinle hiçbir bağlantısı olmadan** saklanır. Bu, bir akvaryumu kaldırdığınızda ve hesabınızı sildiğinizde olur. Ayarı kapatırsanız bu geçmiş de diğer her şeyle birlikte silinir.
+Bu ayar açıkken akvaryumunuzun parametre geçmişi resif araştırmaları için **sizinle hiçbir bağlantısı olmadan** saklanır. Bu, bir akvaryumu kaldırdığınızda ve hesabınızı sildiğinizde olur. Ayarı kapatırsanız bu geçmiş de diğer her şeyle birlikte silinir.
 
 Bu, hesabınızı silmekten ayrı bir seçimdir. Verilerinizin hesaptan sonra da kalan tek parçası budur, bu yüzden biraz düşünün. Ayar **varsayılan olarak açıktır**. Bu anahtara bakmadan hesabınızı silerseniz kimliksizleştirilmiş kopya geride kalır.
 
@@ -76,6 +76,6 @@ Bir cihazı kaldırmak onun giriş bilgisini unutturur. Hesabınızı silmek, ad
 
 - o anahtarı açık bıraktıysanız anonimleştirilmiş araştırma kopyası
 - yalnızca mağazanın iptal edebileceği mağaza aboneliğiniz
-- abonelik yönetimi sağlayıcımızdaki müşteri kaydınız. Bir mağaza iadesi ya da ödeme itirazı yine de işlenebilsin diye hesabınızdan 120 gün sonra silinir
+- abonelik yönetimi sağlayıcımızdaki müşteri kaydınız. Bir mağaza iadesi ya da ödeme itirazı yine de işlenebilsin diye hesabınızın silinmesinden 120 gün sonra silinir
 
 Başka bir telefonda yeniden giriş yapmak ya da giriş yönteminizi değiştirmek [Giriş yapma ve hesap kurtarma](/help/mobile-account) sayfasında anlatılır. Planlar ve faturalandırma [Planlar ve abonelikler](/help/mobile-plans) sayfasında.

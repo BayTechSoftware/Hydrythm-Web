@@ -119,7 +119,7 @@ Gerade fragt nichts an diesem Becken deine Red Sea-Ausrüstung ab, die Messwerte
 
 ### Manche ReefBeat-Einstellungen sind ausgegraut oder fehlen {#some-reefbeat-settings-are-greyed-out-or-missing}
 
-Das ist normal. Die eigenen Einstellungen eines Red Sea-Geräts öffnen sich nur, wenn dein Handy im selben Netzwerk ist wie das Gerät. Außerhalb dieses Netzwerks siehst du nur Messwerte.
+Das ist normal. Die eigenen Einstellungen eines Red Sea-Geräts öffnen sich nur, wenn dein Handy im selben Netzwerk ist wie das Gerät. Außerhalb dieses Netzwerks siehst du Messwerte, und Befehle laufen weiter über ein Cora Max am Becken, falls es eins hat. Die eigenen Einstellungen des Geräts bleiben nicht verfügbar.
 
 1. Verbinde dich mit dem WLAN des Beckens, um diese Einstellungen zu ändern.
 2. Messwerte und Verlauf funktionieren weiter, wenn du unterwegs bist.
@@ -178,12 +178,6 @@ Auf dem Handy erscheint **Füttern** nur bei einem Becken mit Neptune Apex, und 
 - *"Kein Cora an diesem Becken kann den Apex erreichen, und du bist nicht in seinem Netzwerk."* Verbinde dich mit dem WLAN des Apex oder koppel ein Cora Max mit dem Becken.
 - *"Der Apex hat nicht geantwortet, füttert aber möglicherweise schon."* Prüf den Controller, bevor du es noch einmal versuchst.
 
-### Eine Dosierung hat mittendrin aufgehört, und eine Wiederherstellungswarnung ist erschienen {#a-dose-stopped-partway-through-and-a-restore-alert-appeared}
-
-Der DŌS-Kopf hat während der Dosierung die Verbindung verloren. Cora sagt es dir, damit es nicht davon ausgehen muss, dass die volle Dosis hineingegangen ist.
-
-1. Öffne die Warnung und prüf, wie viel dosiert wurde, bevor es aufgehört hat.
-2. Entscheide anhand dieser Menge, ob du fortsetzt oder die Dosis anpasst.
 
 ## Cora Max {#cora-max}
 

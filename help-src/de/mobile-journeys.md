@@ -50,7 +50,7 @@ Für eine zweite Meinung tippe auf **Cora zum Einfahren fragen**. Das öffnet [C
 :::
 
 :::note Trag alle drei Tests ein
-Cora zeigt **Sieht eingefahren aus** erst, wenn Ammoniak und Nitrit jeweils bei null *gemessen* wurden und Nitrat vorhanden ist. Nitrat allein reicht nicht. Ausgangswasser hat oft etwas davon, und für sich allein könnte das wie ein fertiger Zyklus aussehen und dich verleiten, zu früh Besatz einzusetzen.
+Cora zeigt **Sieht eingefahren aus** erst, wenn Ammoniak und Nitrit jeweils bei null oder knapp darüber (bis 0,25 ppm) *gemessen* wurden und Nitrat vorhanden ist. Nitrat allein reicht nicht. Ausgangswasser hat oft etwas davon, und für sich allein könnte das wie ein fertiger Zyklus aussehen und dich verleiten, zu früh Besatz einzusetzen.
 :::
 
 :::note Ob das Becken bereit ist, sagen deine Messwerte
@@ -98,4 +98,4 @@ Sei ehrlich, auch bei **Schlechter**. Das Ergebnis wird mit der Journey gespeich
 
 ## Eine Journey verwerfen
 
-Ist eine Problem-Journey nicht hilfreich, verwirf sie. Sie erscheint dann nicht mehr, und Cora hält das Verwerfen fest, damit es ähnliche Journeys seltener anbietet.
+Ist eine Problem-Journey nicht hilfreich, verwirf sie. Sie erscheint dann nicht mehr. Deuten deine Messwerte erneut auf dasselbe Problem hin, kann Cora sie wieder anbieten.

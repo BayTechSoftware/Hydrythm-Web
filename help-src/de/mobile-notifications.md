@@ -19,7 +19,7 @@ Die Karte oben sagt, ob dieses Handy überhaupt Benachrichtigungen von Cora erla
 |---|---|
 | **Wasserwert-Warnungen** | Wasserchemie außerhalb eines Bereichs, den du festgelegt hast, und die Benachrichtigung *wieder normal*, wenn sie zurückkommt |
 | **Wartungserinnerungen** | Aufgaben, die du geplant hast, etwa Wasserwechsel, und eine einmalige Erinnerung, deinen ersten Test einzutragen, wenn ein neues Becken nach drei Tagen noch keine Messwerte hat |
-| **Gerätefehler** | Ein Gerät meldet ein Problem, zum Beispiel ein Trident, der nicht mehr testet. Außerdem ein Gerät, das [sich nicht mehr meldet](/help/mobile-alerts#stopped-reporting), und eine verpasste Dosierung |
+| **Gerätefehler** | Ein Gerät meldet ein Problem, zum Beispiel ein Trident, der nicht mehr testet. Außerdem ein Gerät, das [sich nicht mehr meldet](/help/mobile-alerts#stopped-reporting), eine verpasste Dosierung und eine fehlgeschlagene Automation |
 | **Vorräte werden knapp** | Reagenz, Nachfüllwasser, Dosierbehälter und eine volle Abfallflasche |
 | **ICP-Bericht bereit** | Deine ICP-Ergebnisse sind ausgewertet und können gelesen werden |
 
@@ -39,6 +39,7 @@ Ein paar Benachrichtigungen stehen nicht in dieser Liste:
 
 - Das tägliche Briefing von Reef Buddy. Wann es kommt, wählst du mit **Briefing-Zeit**, der Zeile direkt unter Benachrichtigungen in den Einstellungen. Im kostenlosen Abo gibt es keine Briefing-Benachrichtigung. Mehr dazu unter [Reef Buddy](/help/mobile-reef-buddy).
 - Abo-Benachrichtigungen: Erinnerungen an die Testphase 7 Tage und 1 Tag vor ihrem Ende und wenn sie endet, und eine Warnung, wenn du 80 % und 100 % deines monatlichen Kontingents für Cora Assistant verbraucht hast. Siehe [Pläne und Abos](/help/mobile-plans).
+- Leckwarnungen eines Lecksensors. Sie kommen immer als Push und lassen sich nicht ausschalten; auch das Ausschalten von **Wasserwert-Warnungen** stellt sie nicht stumm.
 
 ## Die Nächte ruhig halten {#quiet-at-night}
 
@@ -52,7 +53,7 @@ Cora Mobile hat keine Einstellung für Ruhezeiten. Eine Wasserwert-Warnung wird 
 Auf Cora Max dimmt **Nachtdimmung** den Bildschirm über Nacht, und im Bereich Ton & Sprache kannst du **Warnton** und **Gesprochene Warnungen** ausschalten. Diese beiden bleiben aus, bis du sie wieder einschaltest. Siehe [Cora Max-Einstellungen](/help/max-settings).
 
 :::warning Schalte nicht stumm, was du hören willst
-Ein Heizer, der um 3 Uhr morgens hängen bleibt, ist genau die Warnung, die du willst. Schaltest du dein Handy nachts stumm, lass Cora im Fokus oder bei Nicht stören durch, damit dich eine solche Warnung trotzdem erreicht.
+Ein Heizer, der um 3 Uhr morgens nicht mehr abschaltet, ist genau die Warnung, die du willst. Schaltest du dein Handy nachts stumm, lass Cora im Fokus oder bei Nicht stören durch, damit dich eine solche Warnung trotzdem erreicht.
 :::
 
 ## Die Glocke {#the-bell}

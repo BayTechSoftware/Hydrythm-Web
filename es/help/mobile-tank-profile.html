@@ -131,7 +131,7 @@
 <summary>Primeros pasos</summary><ul>
 <li><a href="/es/help/max-setup">Configurar Cora Max</a></li>
 <li><a href="/es/help/max-tour">La pantalla de inicio de Cora Max</a></li>
-<li><a href="/es/help/max-reef-room">El cuarto de los acuarios</a></li>
+<li><a href="/es/help/max-reef-room">La sala del arrecife</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Tu panel</summary><ul>
@@ -200,7 +200,7 @@
 <aside class="cal cal-warning"><p class="cal-t">Las dosis dependen directamente del volumen</p><p>Si el volumen es un 20 % demasiado alto, las dosis sugeridas también salen un 20 % demasiado altas. Si no estás seguro, mídelo. No lo calcules a ojo.</p></aside>
 <h2 id="tank-age">Antigüedad del acuario</h2>
 <p>Indica la <strong>Fecha de inicio del acuario</strong> en <strong>Dimensiones del acuario</strong>. Cora valora las lecturas según lo normal para un acuario de esa edad, así que un sistema de tres meses y otro de cinco años se valoran de forma distinta.</p>
-<p>Si el acuario todavía está haciendo el ciclo, toca la tarjeta <strong>¿Estás empezando un acuario nuevo?</strong> de arriba en este perfil para empezar el ciclado guiado. Funciona en cualquier momento, incluso después de registrar lecturas. Más información en <a href="/es/help/mobile-journeys">Itinerarios guiados</a>.</p>
+<p>Si el acuario sigue en ciclado, toca la tarjeta <strong>¿Estás empezando un acuario nuevo?</strong> de arriba en este perfil para empezar el ciclado guiado. Funciona en cualquier momento, incluso después de registrar lecturas. Más información en <a href="/es/help/mobile-journeys">Itinerarios guiados</a>.</p>
 <h2 id="keeping-the-profile-current">Mantén el perfil al día</h2>
 <p>Actualiza el perfil cuando cambie tu sistema, por ejemplo con un equipo nuevo, otra carga de fauna o una nueva forma de dosificar. Cora trabaja a partir del perfil, así que si está desactualizado, los consejos también lo estarán.</p>
 <h2 id="adding-another-tank">Añadir otro acuario</h2>
@@ -208,7 +208,7 @@
 <h2 id="removing-a-tank">Quitar un acuario</h2>
 <p><strong>Quitar acuario</strong> está al final del perfil. Oculta el acuario y conserva sus datos, y puedes recuperarlo más adelante. Antes de usarlo, lee <a href="/es/help/mobile-tanks#removing-a-tank">Quitar un acuario</a>, porque algunas cosas siguen funcionando.</p>
       <nav class="pn" aria-label="Seguir leyendo"><a class="pn-p" href="/es/help/mobile-tour"><span>Anterior</span><b>Moverte por Cora Mobile</b></a><a class="pn-n" href="/es/help/mobile-tanks"><span>Siguiente</span><b>Gestionar tus acuarios</b></a></nav>
-      <p class="stamp">Escrito para Cora Max 0.28.238 y Cora Mobile 1.4.14. Última revisión el 2026-10-24.</p>
+      <p class="stamp">Escrito para Cora Max 0.28.240 y Cora Mobile 1.4.16. Última revisión el 2026-10-24.</p>
       <p class="ask">¿Sigues atascado? Escribe a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> y te ayudamos.</p>
     </article>
   </main>
@@ -599,7 +599,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/es/help/search.json?v=9384433ffe').then(function (r) { return r.json(); })
+    fetch('/es/help/search.json?v=1d5700fe42').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "es"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La b\u00fasqueda no est\u00e1 disponible. Usa la navegaci\u00f3n." + '</li>';

@@ -18,7 +18,7 @@ Karta na górze pokazuje, na jakie konto się logujesz i jaki masz plan. Dotknij
 
 - **Nazwa wyświetlana** to imię, którym Cora Mobile się do Ciebie zwraca.
 - **E-maile laboratorium i ICP** pozwala dodać do 3 dodatkowych adresów e-mail, przez które laboratorium może dotrzeć do Twojego konta. Zobacz [ICP i raporty zdrowia](/help/mobile-icp-health#which-email-a-lab-can-use).
-- **Subskrypcja** pokazuje Twój plan i datę odnowienia, z **Zobacz plany**, **Ulepsz plan** albo **Ulepsz do Max**, a dalej **Zarządzaj subskrypcją** i **Przywróć zakupy**. Na Androidzie jest też **Wykorzystaj kod**. Wszystko wyjaśniają [Plany i subskrypcje](/help/mobile-plans).
+- **Subskrypcja** pokazuje Twój plan i datę odnowienia, z **Zobacz plany**, **Ulepsz plan** albo **Ulepsz do Expert**, a dalej **Zarządzaj subskrypcją** i **Przywróć zakupy**. Na Androidzie jest też **Wykorzystaj kod**. Wszystko wyjaśniają [Plany i subskrypcje](/help/mobile-plans).
 - **Wyloguj się**
 - **Eksportuj moje dane** daje Ci odczyty, wpisy w dzienniku i alerty w plikach, bezpłatnie w każdym planie. Zobacz [Eksport danych](/help/mobile-data-export).
 - **Usuń konto** działa na stałe. Zanim z niego skorzystasz, przeczytaj dwie uwagi w [Twoich danych i prywatności](#your-data-and-privacy).

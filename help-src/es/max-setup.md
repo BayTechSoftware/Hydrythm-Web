@@ -73,7 +73,7 @@ Cora Max ya ve los mismos acuarios, dispositivos, lecturas y registros que tu te
 - Un acuario sin lecturas todavía muestra **Aún no hay lecturas** y un botón **Registra tu primera prueba**.
 - Cora Max crea un panel inicial a partir del perfil de tu acuario. No copia el de tu teléfono.
 
-Puedes emparejar más de un Cora Max con la misma cuenta, por ejemplo uno en el cuarto de los acuarios y otro en el salón. Cada uno puede mostrar acuarios distintos y tiene su propio diseño. Si dos muestran el mismo acuario, [Más de un dispositivo Cora](/help/mobile-multi-device) explica cuál lee los equipos.
+Puedes emparejar más de un Cora Max con la misma cuenta, por ejemplo uno en la sala del arrecife y otro en el salón. Cada uno puede mostrar acuarios distintos y tiene su propio diseño. Si dos muestran el mismo acuario, [Más de un dispositivo Cora](/help/mobile-multi-device) explica cuál lee los equipos.
 
 ## Crear el panel {#building-the-dashboard}
 

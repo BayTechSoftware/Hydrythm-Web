@@ -1,6 +1,6 @@
 ---
 title: Glossar
-description: Was Cora mit Becken, Quelle, Widget, Schwellenwert, Primäres Cora Max, Fütterungsmodus, Szene und den anderen Begriffen in den Apps meint.
+description: Was Cora mit Becken, Quelle, Widget, Schwellenwert, Primäres Cora Max, Fütterungsmodus, Szene und den anderen Begriffen in Cora Mobile und am Cora Max meint.
 section: Help
 reviewed: 2026-10-18
 order: 5
@@ -18,7 +18,7 @@ Wie lange es her ist, dass ein Messwert gemessen wurde. Jedes Wasserwert-Widget 
 
 ## Antwortgerät {#answering-device}
 
-Das Cora-Gerät, das antwortet, wenn du "Hey Cora" sagst. Du wählst es unter **Einstellungen → Cora Assistant**. Es antwortet immer nur ein Gerät. Das ist eine andere Einstellung als [Primäres Cora Max](#primary-cora-max).
+Das Cora-Gerät, das antwortet, wenn du "Hey Cora" sagst. Du wählst es unter **Einstellungen → Cora Assistant**, in Cora Mobile oder am Cora Max. Es antwortet immer nur ein Gerät. Das ist eine andere Einstellung als [Primäres Cora Max](#primary-cora-max).
 
 ## AquaWiz
 
@@ -35,7 +35,7 @@ Eine Regel, die von selbst läuft, zum Beispiel "Wenn die Temperatur über 27 st
 
 ## Becken {#tank}
 
-Ein Wasserkörper, den du verfolgst. Ein Ablegersystem oder ein Quarantänebecken zählt als eigenes Becken. Siehe [Dein Beckenprofil](/help/mobile-tank-profile).
+Ein Aquarium oder Wasservolumen, das du verfolgst. Ein Ablegersystem oder ein Quarantänebecken zählt als eigenes Becken. Siehe [Dein Beckenprofil](/help/mobile-tank-profile).
 
 ## Bedingung {#condition}
 

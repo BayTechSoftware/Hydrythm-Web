@@ -42,7 +42,7 @@ Each tank has a row that opens its own settings.
 
 The last row in Settings carries this Cora Max's name. It opens everything that applies to **this screen only**.
 
-At the top is a card with this screen's name and its firmware version (*Cora Max · firmware 0.28.170*).
+At the top is a card with this screen's name and its firmware version (*Cora Max · firmware 0.28.x*).
 
 - Tap the pencil (**Rename this device**) to give it a new name, for example "Living room".
 - **Show details** lists its **Cora ID**, **MAC address**, **Wi-Fi network**, **IP address**, its tanks and the account it's paired to. Support may ask you for these.

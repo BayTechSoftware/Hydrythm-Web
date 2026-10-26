@@ -19,7 +19,7 @@ The card at the top says whether this phone allows notifications from Cora at al
 |---|---|
 | **Parameter Alerts** | Water chemistry outside a range you set, and the *recovered* notification when it comes back |
 | **Maintenance Reminders** | Tasks you scheduled, like water changes, and a one-time reminder to log your first test when a new tank still has no readings after three days |
-| **Equipment Faults** | A device reporting a problem, for example a Trident that has stopped testing. Also a device that [stopped reporting](/help/mobile-alerts#stopped-reporting) and a missed dose |
+| **Equipment Faults** | A device reporting a problem, for example a Trident that has stopped testing. Also a device that [stopped reporting](/help/mobile-alerts#stopped-reporting), a missed dose and an automation that failed |
 | **Supplies Running Low** | Reagent, top-off water, dosing containers, and a full waste bottle |
 | **ICP Report Ready** | Your ICP results are analysed and ready to read |
 
@@ -39,6 +39,7 @@ A few notifications aren't in that list:
 
 - Reef Buddy's daily briefing. You choose when it arrives with **Briefing time**, the row just below Notifications in Settings. On the free plan there's no briefing notification. More in [Reef Buddy](/help/mobile-reef-buddy).
 - Plan notifications: trial reminders 7 days and 1 day before the trial ends and when it ends, and a warning when you've used 80% and 100% of your monthly Cora Assistant allowance. See [Plans](/help/mobile-plans).
+- Leak alerts from a leak sensor. They always push and can't be switched off, so turning off **Parameter Alerts** never silences them.
 
 ## Keeping nights quiet {#quiet-at-night}
 

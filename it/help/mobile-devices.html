@@ -188,7 +188,7 @@
 <p><strong>Cora</strong> è il modo per associare un nuovo Cora Max. Trova le unità già sul tuo Wi-Fi, o quelle vicine via Bluetooth. Se non trova il tuo, usa <strong>Inserisci l'indirizzo IP manualmente</strong> nella stessa schermata. La procedura completa è in <a href="/it/help/max-setup">Configurare Cora Max</a>.</p>
 <h2 id="a-devices-page">La pagina di un dispositivo</h2>
 <p>Tocca un dispositivo qualsiasi nell'elenco per aprirne la pagina. Prima vengono i suoi comandi, poi sezioni che funzionano allo stesso modo per ogni marca.</p>
-<ul><li><strong>Stato</strong> mostra <strong>Modello</strong>, <strong>Seriale</strong>, <strong>Firmware</strong> e quando Cora l'ha sentito l'ultima volta (<strong>Ultimo contatto</strong>).</li><li><strong>Acquari</strong> mostra a quale vasca (o vasche) è assegnato. Tocca <strong>Modifica</strong> per riassegnarlo.</li><li><strong>Connessione</strong> è dove modifichi il suo indirizzo IP, l'accesso o la chiave dispositivo.</li><li><strong>Rimuovi dispositivo</strong>, in fondo.</li></ul>
+<ul><li><strong>Stato</strong> mostra <strong>Modello</strong>, <strong>Seriale</strong>, <strong>Firmware</strong> e quando Cora l'ha sentito l'ultima volta (<strong>Ultimo contatto</strong>).</li><li><strong>Vasche</strong> mostra a quale vasca (o vasche) è assegnato. Tocca <strong>Modifica</strong> per riassegnarlo.</li><li><strong>Connessione</strong> è dove modifichi il suo indirizzo IP, l'accesso o la chiave dispositivo.</li><li><strong>Rimuovi dispositivo</strong>, in fondo.</li></ul>
 <p>Cora Max e Neptune Apex possono servire più di una vasca, quindi il loro selettore di vasca è un elenco a scelta multipla. Cora Max si può assegnare a un massimo di quattro. Vedi <a href="/it/help/mobile-multi-device">Più di un dispositivo Cora</a>. Tutto il resto serve una vasca alla volta. Sceglierne una diversa sposta lì il dispositivo e lo toglie da quella vecchia.</p>
 <aside class="cal cal-warning"><p class="cal-t">Assegna la vasca prima di fidarti delle letture</p><p>Un dispositivo senza vasca continua a inviare dati, ma i suoi numeri non hanno dove andare. Se un dispositivo appena aggiunto non compare su una dashboard, controlla prima questo.</p></aside>
 <p>Cosa fanno i comandi di ogni marca è spiegato in <a href="/it/help/mobile-device-control">Controllare la tua attrezzatura</a>.</p>
@@ -208,7 +208,7 @@
 <p>Perdi il collegamento in tempo reale. Se il dispositivo si collegava tramite un account del produttore, perdi anche l'accesso salvato, quindi dovrai accedere di nuovo se lo aggiungi un'altra volta.</p>
 <aside class="cal cal-tip"><p class="cal-t">Zittisci un dispositivo rumoroso senza rimuoverlo</p><p>Se un dispositivo funziona bene ma avvisa troppo spesso, cambia le sue soglie o le impostazioni delle notifiche in <a href="/it/help/mobile-alerts">Avvisi e soglie</a>. Tieni il collegamento e i dati, e il rumore finisce.</p></aside>
       <nav class="pn" aria-label="Continua a leggere"><a class="pn-p" href="/it/help/mobile-sharing"><span>Precedente</span><b>Condividere la tua vasca</b></a><a class="pn-n" href="/it/help/mobile-connections"><span>Successivo</span><b>Collegare la tua attrezzatura</b></a></nav>
-      <p class="stamp">Scritto per Cora Max 0.28.238 e Cora Mobile 1.4.14. Ultimo controllo il 2026-10-17.</p>
+      <p class="stamp">Scritto per Cora Max 0.28.240 e Cora Mobile 1.4.16. Ultimo controllo il 2026-10-17.</p>
       <p class="ask">Ancora bloccato? Scrivi a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, ti aiutiamo.</p>
     </article>
   </main>
@@ -599,7 +599,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/it/help/search.json?v=251de7c448').then(function (r) { return r.json(); })
+    fetch('/it/help/search.json?v=6ecfe81ff8').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "it"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La ricerca non \u00e8 disponibile. Usa la navigazione." + '</li>';

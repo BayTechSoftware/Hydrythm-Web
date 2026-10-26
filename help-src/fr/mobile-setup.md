@@ -48,7 +48,7 @@ La disposition du tableau de bord de votre téléphone suit le compte sur tout t
 
 ## Ajouter votre premier aquarium {#add-your-first-tank}
 
-Dans Cora, un **aquarium** est toute masse d’eau que vous voulez suivre. La plupart des gens en ont un. Si vous avez un système à boutures ou un bac de quarantaine, chacun est un aquarium à part entière.
+Dans Cora, un **aquarium** est toute masse d’eau que vous voulez suivre. La plupart des gens en ont un. Si vous avez un système à boutures ou un aquarium de quarantaine, chacun est un aquarium à part entière.
 
 Après la connexion, **Faisons connaissance avec votre aquarium** vous pose trois questions. Seul le nom est obligatoire, et vous pourrez tout changer plus tard dans le [profil de votre aquarium](/help/mobile-tank-profile).
 
@@ -96,7 +96,7 @@ Vous pouvez passer cette étape et y revenir plus tard. Un aquarium fonctionne t
 
 Certains paramètres ne viennent que d’un kit de test. Faites défiler le tableau de bord et touchez **Enregistrer les paramètres**, dans la rangée de boutons sous les widgets.
 
-![Le formulaire Enregistrer les paramètres dans Cora Mobile](img/mobile-logparams.webp "Choisissez la date et l’heure, puis saisissez les résultats des kits de test sous Principaux, Éléments et Nutriments.")
+![Le formulaire Enregistrer les paramètres dans Cora Mobile](img/mobile-logparams.webp "Choisissez la date et l’heure, puis saisissez les résultats des kits de test sous Essentiel, Éléments et Nutriments.")
 
 Cora enregistre chaque mesure avec sa source et son heure. C’est ainsi qu’il peut vous dire quand une sonde et un kit de test ne sont pas d’accord.
 

@@ -47,12 +47,12 @@ Cora Assistant simgesine dokunmak canlı bir sesli oturum başlatır. Ayarları 
 | **Bulut eşitleme başarısız** | Apex'iniz yanıt verdi ama ölçümleri Cora Cloud'a kaydedilemedi, bu yüzden pano geride kalıyor. Cora Max denemeye devam eder |
 | **Bulut kaydı reddedildi** | Cora Cloud bu ekranın bazı verilerini kaydetmeyi reddediyor. Akvaryumunuzda ya da Cora Max'te bir sorun yok ve bu ekranda değiştirilmesi gereken bir şey yok. Çözüm bir Cora Cloud güncellemesidir. **Ayarlar → Cora Max Ayarları**'nı açın ve **Durum** bölümüne kaydırın, orada **Bulut kaydı** satırı hangi verilerin etkilendiğini söyler. Sonra [destekle iletişime geçin](/support.html) |
 | **Çevrimdışı** | Bağlantı yok. Ekran aldığı son veriyi gösterir |
-| **Çevrimdışı, 45 s içinde tekrar denenecek** | Ağınız çalışıyor ama Cora Cloud'a 30 saniyeden uzun süredir ulaşılamıyor. Cora Max kendiliğinden yeniden bağlanır ve geri sayım bir sonraki denemenin ne zaman olacağını gösterir |
+| **Çevrimdışı, 30 s içinde tekrar denenecek** | Ağınız çalışıyor ama Cora Cloud'a yaklaşık 15 saniyedir ulaşılamıyor. Cora Max kendiliğinden yeniden bağlanır ve geri sayım bir sonraki denemenin ne zaman olacağını gösterir |
 | **Ana Cora çevrimdışı** | Bu ekran bu akvaryum için ikinci bir Cora Max ve **Birincil Cora Max** (bu akvaryumun ekipmanını okumak için sabitlenen) çevrimdışı oldu. Bu ekran, birincil geri gelene ya da siz başka bir Birincil Cora Max seçene kadar elindeki son veriyi göstermeye devam eder. Ayrıntılar [Birden fazla Cora cihazı](/help/mobile-multi-device) sayfasında |
 | **Apex şifresi** | Apex'iniz kayıtlı şifreyi reddetti. [Sorun giderme](/help/troubleshooting) sayfasına göz atın |
 
 :::note Yeniden deneme geri sayımı nasıl çalışır
-Cora Max düzenli bir tempoyla yeniden bağlanmayı dener. İlk kopuştan sonra yaklaşık 15 saniye, sonra yine 15 saniye, sonra iki kez 30 saniye, ardından bağlanana kadar dakikada bir bekler. Hiçbir zaman pes etmez. **Çevrimdışı, 45 s içinde tekrar denenecek** normaldir.
+Cora Max düzenli bir tempoyla yeniden bağlanmayı dener. İlk kopuştan sonra yaklaşık 15 saniye, sonra yine 15 saniye, sonra iki kez 30 saniye, ardından bağlanana kadar dakikada bir bekler. Hiçbir zaman pes etmez. **Çevrimdışı, 30 s içinde tekrar denenecek** normaldir.
 :::
 
 ## Pano {#the-dashboard}

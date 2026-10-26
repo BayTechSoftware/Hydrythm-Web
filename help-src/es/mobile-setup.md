@@ -54,11 +54,11 @@ Después de iniciar sesión, **Conozcamos tu acuario** te pregunta tres cosas. S
 
 1. **¿Cómo lo llamas?** es el nombre que usas a diario, como "Principal", "Esquejes" o "Cuarentena".
 2. **¿Qué tipo de acuario es?** es **Arrecife SPS**, **Arrecife LPS**, **Arrecife mixto**, **Arrecife de corales blandos**, **FOWLR** o **Solo peces**. El tipo fija tus rangos de alerta iniciales. Si no lo tienes claro, elige **Arrecife mixto**.
-3. **¿Cuánta agua tiene?** es el volumen real de agua, con el sump incluido. Los cálculos de dosificación usan este número, así que intenta que se acerque. Si solo sabes el tamaño del acuario, toca **¿No sabes el volumen? Introduce las dimensiones** y Cora lo calcula.
+3. **¿Cuánta agua tiene?** es el volumen real de agua, con el sump incluido. Los cálculos de dosificación usan este número, así que intenta que sea lo más aproximado posible. Si solo sabes el tamaño del acuario, toca **¿No sabes el volumen? Introduce las dimensiones** y Cora lo calcula.
 
 Toca **Crear mi acuario**.
 
-:::note ¿Tu acuario todavía está haciendo el ciclo?
+:::note ¿Tu acuario sigue en ciclado?
 Toca **¿Estás empezando un acuario nuevo?** en el panel. Esa tarjeta aparece mientras el acuario no tiene lecturas. Si ya registraste una prueba, abre el perfil del acuario y toca la misma tarjeta de arriba, que funciona en cualquier momento. Más información en [Itinerarios guiados](/help/mobile-journeys).
 
 Cora también valora las lecturas según lo normal para un acuario de esa edad. El asistente no lo pregunta, así que indica la **Fecha de inicio del acuario** en tu perfil del acuario, en **Dimensiones del acuario**.

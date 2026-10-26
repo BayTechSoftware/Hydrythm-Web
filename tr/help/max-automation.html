@@ -186,7 +186,7 @@
 <p>Sahne çalışmadan önce soruyorsa Cora Max önce ne yapacağını her adım için bir satırda listeler. Okuyun, sonra çalıştırın ya da iptal edin.</p>
 <p>Süreli bir sahne çalışırken kutucuğu bitişe kadar geri sayar ve erken bitirmek isterseniz <strong>Durdur</strong>'u gösterir. Kalıcı bir sahnenin kutucuğu, siz <strong>Durdur</strong>'a dokunana kadar onu çalışıyor olarak gösterir. Bir sahne bittiğinde ya da onu durdurduğunuzda, Cora ekipmanı eski haline getirirken kutucukta <strong>Geri yükleniyor…</strong> yazar.</p>
 <p>Bir sahneyi çalıştırmak ya da durdurmak, diğer her komut gibi Cora Cloud üzerinden gider. Sonucu <a href="/tr/help/max-activity">Etkinlik</a> içinde bulursunuz.</p>
-<p>Sahneler Cora Max'te sesle çalıştırılamaz. Kutucuğu, <strong>Ayarlar → Otomasyonlar</strong>'ı ya da telefonunuzu kullanın.</p>
+<p>Bir sahneyi sesle de çalıştırabilirsiniz: <em>"Su değişimi sahnesini çalıştır."</em> Çocuk kilidi bunu da diğer tüm kontroller gibi engeller. Aksi halde kutucuğu, <strong>Ayarlar → Otomasyonlar</strong>'ı ya da telefonunuzu kullanın.</p>
 <p>Bir sahne çalışmıyor ya da durmuyorsa <a href="/tr/help/troubleshooting">Sorun giderme</a> sayfasına göz atın.</p>
 <aside class="cal cal-note"><p class="cal-t">Çocuk kilidi sahneleri de kapsar</p><p><a href="/tr/help/max-settings#child-lock">Çocuk kilidi</a> ekranı kilitlediğinde, diğer tüm kontroller gibi bir sahneyi de buradan çalıştıramaz, durduramaz ya da düzenleyemezsiniz.</p></aside>
 <p>Başarısız olan ya da bekleyecek olan bir adım beklemede kalmaz. Hemen süresi dolar, çalıştırma başarısız olarak kaydedilir ve otomasyonun adını, adımı ve nedenini söyleyen bir bildirim alırsınız. Örneğin cihazı çevrimdışıysa, onu yürütecek bir Cora Max yoksa, cihaz reddederse ya da yanıt vermezse veya bir ısıtıcı ya da soğutucu az önce açılıp kapatıldıysa adım başarısız olur. Kaldırılmış bir akvaryumdaki bir adım için bildirim gelmez.</p>
@@ -194,7 +194,7 @@
 <p>Bir sahneyi değiştirmek için onu <strong>Ayarlar → Otomasyonlar</strong>'dan açın ya da panodaki kutucuğuna uzun basın. Gerekeni değiştirin ve <strong>Kaydet</strong>'e dokunun. Kaldırmak için <strong>Sahneyi Sil</strong>'e dokunun. Bu geri alınamaz.</p>
 <aside class="cal cal-note"><p class="cal-t">Eski bir Cora Max sahneyi çalıştırabilir ama düzenleyemez</p><p>Eski Cora Max sürümleri her sahneyi göstermeye ve çalıştırmaya devam eder ama hiçbirini değiştiremez. Cora Max'i güncelleyin (<a href="/tr/help/max-updates">Güncellemeler ve kurtarma</a>) ya da sahneyi telefonunuzda düzenleyin.</p></aside>
       <nav class="pn" aria-label="Okumaya devam edin"><a class="pn-p" href="/tr/help/max-alerts"><span>Önceki</span><b>Cora Max&#x27;te uyarılar</b></a><a class="pn-n" href="/tr/help/max-records"><span>Sonraki</span><b>Günlük, canlılar ve bakım</b></a></nav>
-      <p class="stamp">Cora Max 0.28.238 ve Cora Mobile 1.4.14 için yazılmıştır. Son kontrol: 2026-10-24.</p>
+      <p class="stamp">Cora Max 0.28.240 ve Cora Mobile 1.4.16 için yazılmıştır. Son kontrol: 2026-10-24.</p>
       <p class="ask">Sorun devam ediyor mu? <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> adresine yazın, yardımcı olalım.</p>
     </article>
   </main>
@@ -585,7 +585,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/tr/help/search.json?v=a9e63682a9').then(function (r) { return r.json(); })
+    fetch('/tr/help/search.json?v=1a2be35337').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "tr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Arama \u015fu anda kullan\u0131lam\u0131yor. Men\u00fcy\u00fc kullan\u0131n." + '</li>';

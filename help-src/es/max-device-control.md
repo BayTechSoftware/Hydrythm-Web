@@ -25,7 +25,7 @@ Los equipos se añaden, se asignan y se quitan en tu teléfono. Cora Max los mue
 | **Neptune Apex** | Sondas y tomas, y puedes cambiar cada toma |
 | **Trident** | El estado de la prueba, los niveles de reactivo y de residuos, y un botón para empezar una prueba |
 | **DŌS**, incluido el DŌS QD | La dosificación, el horario, la autonomía y el volumen del recipiente de cada cabezal (con pausa, llenado, dosificar ahora y una medición única de veinte segundos) |
-| **Red Sea ReefBeat** | Lo que tenga la unidad: cabezales de dosificación, depósito, días de rollo, modo de las bombas, además de un editor completo del plan de ReefDose y los ajustes de ReefMat |
+| **Red Sea ReefBeat** | Lo que tenga la unidad: cabezales de dosificación, depósito, días de rollo, modo de las bombas |
 | **Jecod** | El modo y la intensidad de la bomba, y su programa diario |
 | **AquaWiz** | No tiene página propia. Aparece en **Dispositivos**, y sus lecturas van al panel |
 
@@ -53,20 +53,13 @@ Un DŌS no tiene sensor de nivel y sigue dosificando con el recipiente vacío. F
 
 ### Para qué se usa un cabezal {#what-a-head-is-used-for}
 
-En la hoja de ajustes de un cabezal puedes fijar su **tipo de uso**. Las opciones son **Suplemento**, **Cambio de agua: entrada de agua salada nueva**, **Cambio de agua: salida de agua vieja**, **Agua de kalk**, **Reactor de calcio**, **Alimento** o **Relleno**, y **Otro**. El tipo de uso cambia dos cosas.
+En la hoja de ajustes de un cabezal puedes fijar su tipo de uso en **Usado para**. Las opciones son **Suplemento**, **Cambio de agua: entrada de agua salada nueva**, **Cambio de agua: salida de agua vieja**, **Agua de kalk**, **Reactor de calcio**, **Alimento** o **Relleno**, y **Otro**. El tipo de uso cambia dos cosas.
 
 - El tamaño del recipiente que puede seguir. Todos los tipos de uso pueden seguir un recipiente de hasta 1.000 litros. Por encima del contador propio del Apex de 150 litros, Cora sigue el volumen por su cuenta, y restablece el contador del Apex cada 100 litros.
-- Si puede dar una dosis grande a mano. Los cabezales de Suplemento y Alimento mantienen el tope actual, pequeño y prudente. Todos los demás tipos de uso pueden tener su propio límite de **Dosis manual más grande**, hasta un tope máximo de 10 litros, y su propio **Límite diario para automatizaciones y el asistente**. Una dosis manual grande también necesita **Dosis grandes** activado en los ajustes del cabezal, que viene desactivado. Actívalo solo después de haber visto la primera dosis grande en el acuario.
+- Si puede dar una dosis grande a mano. Los cabezales de Suplemento y Alimento mantienen el tope actual, pequeño y prudente. Todos los demás tipos de uso pueden tener su propio límite de **Dosis manual más grande**, hasta un tope máximo de 10 litros, y su propio **Límite diario para automatizaciones y el asistente**.
 
 Puedes vincular una pareja de cambio de agua (entrada de agua salada nueva, salida de agua vieja) como **Cabezal emparejado** y fijar una cantidad en **Aviso de balance por encima de**. Si los totales del día de los dos cabezales se separan más que eso, Cora te avisa. Una pareja desequilibrada suele significar que uno de los lados no bombea como debería.
 
-### Si se interrumpe una dosis grande {#if-a-large-dose-is-interrupted}
-
-Una dosis grande cambia durante un rato lo que hace el cabezal en el Apex, y después vuelve a poner su horario normal. Si la conexión se corta a medias, Cora Max muestra un aviso en la página de ese cabezal: *"Una dosis grande en [cabezal] no terminó correctamente. Cora sigue intentando restaurar su programa; revísalo en Apex Fusion."*
-
-Revisa tú el cabezal en Apex Fusion, y después toca **Ya revisé el cabezal en Fusion** para quitar el aviso. Hazlo solo cuando hayas confirmado que está funcionando el horario propio del cabezal, no el programa de dosificación de Cora.
-
-Si el aviso no desaparece, o vuelve una y otra vez, echa un vistazo a [Solución de problemas](/help/troubleshooting).
 
 ## Red Sea ReefBeat {#red-sea}
 
@@ -74,7 +67,6 @@ Cada unidad Red Sea tiene una página adaptada a lo que hace: los cabezales y re
 
 Si una unidad Red Sea se detiene sola, su página te dice qué pasa y pone la solución justo al lado. Es **Reanudar**, **Borrar emergencia**, **Sensor limpiado**, **Ya cargué un rollo nuevo** o **Restablecer** para un cabezal de dosificación.
 
-Un plan de ReefDose y el avance programado, el modelo, la posición y el rollo nuevo de ReefMat funcionan aquí igual que en tu teléfono. [Controlar tus equipos](/help/mobile-device-control) tiene los detalles.
 
 
 ## Jecod {#jecod}
@@ -99,7 +91,7 @@ AquaWiz solo deja que Cora lea su nube cada 12 horas. Para mantener la alcalinid
 - Se conecta unos segundos al Wi-Fi propio del controlador, lee el último resultado y vuelve enseguida a tu Wi-Fi de casa. El Cora Max queda sin conexión unos 4 segundos.
 - La contraseña de tu Wi-Fi de casa nunca se guarda ni se envía a ningún sitio por esto.
 - Solo lo hace el Cora Max principal del acuario. Un segundo Cora Max en el mismo acuario no.
-- Espera mientras el Cora Max habla contigo, se actualiza, se empareja o cambia de Wi-Fi, y lo intenta de nuevo a la hora siguiente.
+- Espera mientras el Cora Max está ocupado (hablando contigo, actualizándose, emparejándose o cambiando de Wi-Fi) y lo intenta de nuevo cada uno o dos minutos hasta el final de esa hora. Después espera a la hora siguiente.
 - El controlador debe estar al alcance del Wi-Fi del Cora Max, y su firmware debe ofrecer acceso local. Si fallan dos lecturas seguidas, el Cora Max deja de intentarlo el resto del día y la lectura de la nube cada 12 horas continúa.
 
 Una lectura de Cora Max muestra **Cada hora desde tu Cora Max** en la tarjeta de AquaWiz del teléfono. También trae los avisos del nivel de la caja de agua descritos en [Alertas](/help/mobile-alerts#equipment-faults). Los avisos de bomba y sonda de pH no necesitan un Cora Max.

@@ -85,7 +85,7 @@ Bir haftadır hiçbir şey test etmediyseniz Veri puanı düşer ve Kararlılık
 
 Reef Buddy ücretli planların bir parçasıdır. Hesabınızı oluşturduğunuzda başlayan 30 günlük denemeye de dahildir.
 
-Her plan belli sayıda akvaryumu kapsar: denemede ve Essential'da 1, Advanced'de 5, Expert'te 20. Özetler **Ayarlar → Akvaryumları yeniden sırala** içinde belirlenen sıradaki ilk akvaryumlara gider. Dışarıda kalan bir akvaryumu dahil etmek için onu listede yukarı taşıyın. Kaldırılan akvaryumlar yer kaplamaz.
+Her plan belli sayıda akvaryumu kapsar: denemede ve Essential'da 1, Advanced'de 5, Expert'te 20. Özetler **Ayarlar → Akvaryumları yeniden sırala** içinde belirlenen sıradaki ilk akvaryumlara gider. Dışarıda kalan bir akvaryumu dahil etmek için onu listede yukarı taşıyın. Kaldırılan akvaryumlar yer kaplamaz. Hâlâ döngüsünü yaptığınız bir akvaryum (Yeni Akvaryum Modu) her zaman kapsanır ve yer kaplamaz.
 
 Deneme bittikten sonra ücretsiz bir hesap, özetin olduğu yerde **Planları gör** düğmeli kilitli bir Reef Buddy kartı görür ve özet bildirimi almaz. Ayrıntılar [Planlar ve abonelikler](/help/mobile-plans) sayfasında.
 

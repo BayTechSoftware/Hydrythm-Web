@@ -16,13 +16,13 @@ Vai in Impostazioni → la tua vasca → **Modalità vacanza**. Se hai più di u
 ## Prepararla {#setting-it-up}
 
 1. In **Quando sarai via?**, tocca **Scegli le tue date di viaggio**.
-2. Prepara la **Lista di controllo per chi si occupa della vasca**. Le attività di manutenzione che scadono mentre sei via ti vengono proposte, ognuna con la sua frequenza. Tocca un suggerimento per aggiungerlo, per esempio **Alimenta la vasca**, **Controlla il serbatoio ATO**, **Vuota la coppetta dello schiumatoio** o **Chiamami se qualcosa non va**. Per aggiungere un lavoro tuo, scrivilo in **Aggiungi la tua attività…** e tocca **Aggiungi attività**.
+2. Prepara la **Lista di controllo per chi si occupa della vasca**. Le attività di manutenzione che scadono mentre sei via ti vengono proposte, ognuna con la sua frequenza. Tocca un suggerimento per aggiungerlo, per esempio **Alimenta la vasca**, **Controlla il serbatoio ATO**, **Vuota il bicchiere dello schiumatoio** o **Chiamami se qualcosa non va**. Per aggiungere un lavoro tuo, scrivilo in **Aggiungi la tua attività…** e tocca **Aggiungi attività**.
 3. In **Note e contatto**, scrivi le **Note per chi si occupa della vasca** e, in **Se qualcosa non va**, come rintracciarti.
 4. Tocca **Avvia modalità vacanza**.
 
 Ogni lavoro mostra ogni quanto va fatto, per esempio **Giornaliero**, **Ogni 3 giorni**, **Una volta** o **Sempre** (un'istruzione valida per tutto il periodo). Cora lo ricava dall'attività di manutenzione o dal suggerimento. Un lavoro che scrivi tu non ha etichetta, quindi metti la frequenza nel testo.
 
-Scrivi la lista pensando a una persona che non conosce le vasche marine. Indica quantità e modi in modo preciso. "Un cubetto di surgelato, scongelato, una volta al giorno" è molto più chiaro di "dai da mangiare come al solito".
+Scrivi la lista pensando a una persona che non conosce le vasche marine. Indica quantità e modi in modo preciso. "Dai un cubetto di cibo surgelato, scongelato, una volta al giorno" è molto più chiaro di "dai da mangiare come al solito".
 
 :::note Scrivi cosa non va toccato
 Aggiungi un lavoro per ogni attrezzatura che non va toccata, per esempio "Non cambiare niente sul controller". Scrivilo anche nelle note.

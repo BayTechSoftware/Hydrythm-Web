@@ -19,7 +19,7 @@ No tienes que hacer nada para estar al día.
 
 ![Red y actualizaciones en Cora Max](img/max-updates.webp "Actualización de firmware, en la sección RED Y ACTUALIZACIONES de Ajustes de Cora Max.")
 
-Tu versión está en la tarjeta de arriba de **Ajustes → Ajustes de Cora Max** (*Cora Max · firmware 0.28.170*), y en **AYUDA Y ACERCA DE → Acerca de**.
+Tu versión está en la tarjeta de arriba de **Ajustes → Ajustes de Cora Max** (*Cora Max · firmware 0.28.x*), y en **AYUDA Y ACERCA DE → Acerca de**.
 
 **Ajustes → Ajustes de Cora Max → Actualización de firmware** (en **RED Y ACTUALIZACIONES**) muestra la versión que tienes y si hay una actualización esperando. Toca **Buscar actualizaciones** para mirar ahora, o **Descargar e instalar** cuando haya una.
 

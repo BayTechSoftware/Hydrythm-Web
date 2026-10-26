@@ -47,7 +47,7 @@ Panoda kaydırırken akvaryumlar bu sırayla gelir.
 
 Planınız, Reef Buddy'nin günlük özeti için belli sayıda akvaryumu kapsar. Cora özeti **Akvaryumları yeniden sırala** sıranızdaki ilk akvaryumlara verir. Essential'da ve 30 günlük deneme süresinde bu yalnızca ilk akvaryumunuzdur. Advanced 5 akvaryumu, Expert 20 akvaryumu kapsar. Ayrıntılar [Planlar ve abonelikler](/help/mobile-plans) sayfasında.
 
-Bir akvaryum özet almıyorsa onu listenin en üstüne taşıyın. Kaldırılan akvaryumlar sayılmaz.
+Bir akvaryum özet almıyorsa onu listenin en üstüne taşıyın. Kaldırılan akvaryumlar sayılmaz. Hâlâ döngüsünü yaptığınız bir akvaryum (Yeni Akvaryum Modu) her zaman kapsanır ve yer kaplamaz.
 
 ## Akvaryumu kaldırma {#removing-a-tank}
 
@@ -65,7 +65,7 @@ Bir akvaryumu kaldırmak hiçbir bağlantıyı koparmaz. Cihazları ona atanmı�
 Bir akvaryumu kaldırmadan önce cihazlarını **Cihazlar** sekmesinde taşıyın ya da kaldırın. Sonra **Cihazlar** altında Cora Max'inizi açın ve **Atanmış Akvaryumlar** altında o akvaryumun yanındaki **Akvaryumu kaldır** simgesine dokunun.
 :::
 
-Bir akvaryumu kaldırdığınızda parametre geçmişinin kimliksizleştirilmiş bir kopyası, sizinle hiçbir bağlantısı olmadan reef araştırmalarına gider. Bunu istemiyorsanız önce **Anonimleştirilmiş akvaryum verisine katkıda bulun**'u kapatın. [Verileriniz](/help/mobile-data-export) sayfasına bakın.
+Bir akvaryumu kaldırdığınızda parametre geçmişinin kimliksizleştirilmiş bir kopyası, sizinle hiçbir bağlantısı olmadan resif araştırmalarına gider. Bunu istemiyorsanız önce **Anonimleştirilmiş akvaryum verisine katkıda bulun**'u kapatın. [Verileriniz](/help/mobile-data-export) sayfasına bakın.
 
 ## Kaldırılan bir akvaryumu geri getirme {#restoring-a-removed-tank}
 

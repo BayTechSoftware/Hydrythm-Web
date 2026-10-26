@@ -33,7 +33,7 @@ Niektóre szablony, z interwałem, od którego startują:
 |---|---|
 | Zmień skarpety filtracyjne | 3 dni |
 | Wyczyść kubek odpieniacza | 7 dni |
-| Wymiana wody | 7 dni |
+| Podmiana wody | 7 dni |
 | Przetestuj parametry wody | 7 dni |
 | Wymień węgiel | 30 dni |
 | Skalibruj sondę pH | 30 dni |

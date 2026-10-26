@@ -178,7 +178,7 @@
 <p>A Cora Max shows <strong>up to four tanks</strong>, and the Reef Room gives each one an equal share of the screen.</p>
 <div class="tw"><table class="stack"><thead><tr><th>Tanks</th><th>Layout</th></tr></thead><tbody><tr><td data-th="Tanks">1</td><td data-th="Layout">One large tile</td></tr><tr><td data-th="Tanks">2</td><td data-th="Layout">Side by side</td></tr><tr><td data-th="Tanks">3</td><td data-th="Layout">Three across</td></tr><tr><td data-th="Tanks">4</td><td data-th="Layout">Two by two</td></tr></tbody></table></div>
 <p>With one tank, Cora Max opens on that tank's dashboard. The grid icon still takes you to the Reef Room.</p>
-<aside class="cal cal-note"><p class="cal-t">Four tanks is the limit</p><p>You can assign at most four tanks to a Cora Max, when you pair it or later on your phone under <strong>Devices → your Cora Max</strong>. If you try to add a fifth, you'll be asked to remove one first. If you have more tanks than that, use a second Cora Max. Each one keeps its own set. The steps are in <a href="/help/max-setup#changing-which-tanks-it-shows">Setting up Cora Max</a>.</p></aside>
+<aside class="cal cal-note"><p class="cal-t">Four tanks is the limit</p><p>You can assign at most four tanks to a Cora Max, when you pair it or later on your phone under <strong>Devices → your Cora Max</strong>. Once a Cora Max has four tanks, the <strong>Add Tank</strong> button is gone on your phone, so remove one first. If you have more tanks than that, use a second Cora Max. Each one keeps its own set. The steps are in <a href="/help/max-setup#changing-which-tanks-it-shows">Setting up Cora Max</a>.</p></aside>
 <h2 id="what-a-tile-shows">What a tile shows</h2>
 <p>Each tile sums up one tank.</p>
 <ul><li>A coloured bar down the left edge, for the worst state on that tank.</li><li>A <strong>health score</strong> in a ring (with one to three tanks). Next to it is a line like <em>3 of 37 parameters out of range</em> (or <em>All 37 parameters in range</em>), and how many are near their limits.</li><li>A status chip: <strong>N out of range</strong>, <strong>N to watch</strong> for readings near their limits, <strong>Healthy</strong>, or <strong>Monitoring</strong> while there's nothing to grade yet.</li><li>The tank's key readings. Wider tiles add a 24-hour trend line to each one.</li><li><strong>When it last updated</strong>, and <strong>Open dashboard</strong>.</li></ul>
@@ -188,7 +188,7 @@
 <ul><li><strong>Tap a tile</strong>, or <strong>Open dashboard</strong>, to go to that tank.</li><li><strong>Swipe sideways</strong> on the dashboard to move between tanks and back to the Reef Room.</li><li><strong>The grid icon</strong> takes you back to the Reef Room from any tank page. You won't see it on the Reef Room itself.</li></ul>
 <p>Each tank has its own dashboard layout, so the screen changes completely as you move between them. More in <a href="/help/max-dashboard-editing">Editing the Cora Max dashboard</a>.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/max-tour"><span>Previous</span><b>The Cora Max home screen</b></a><a class="pn-n" href="/help/max-dashboard-editing"><span>Next</span><b>Editing the Cora Max dashboard</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.238 and Cora Mobile 1.4.14. Last checked 2026-10-13.</p>
+      <p class="stamp">Written for Cora Max 0.28.240 and Cora Mobile 1.4.16. Last checked 2026-10-13.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>
@@ -579,7 +579,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/help/search.json?v=5ca35b2a08').then(function (r) { return r.json(); })
+    fetch('/help/search.json?v=d076232951').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "en"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';

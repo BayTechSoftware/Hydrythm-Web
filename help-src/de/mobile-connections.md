@@ -76,7 +76,7 @@ Findet eine Suche nichts, zeigt das Ergebnis die Adressen, die über WLAN geprü
 Ihre Seite zeigt die letzten Einstellungen, die Cora gelesen hat, und wie lange das her ist. Etwas zu ändern, auch eine Futterpause zu starten, braucht die Pumpe in Reichweite. Stell dich in ihre Nähe und öffne die Seite noch einmal.
 :::
 
-Über beide Verbindungen bekommst du Live-Zustand, Modus und Intensität, eine Futterpause und ein Tagesprogramm. Eine Futterpause, die du auf dem Handy startest, braucht bei manchen Pumpen die geöffnete Seite der Pumpe. Die Details stehen unter [Deine Ausrüstung steuern](/help/mobile-device-control#jecod), und [Ausrüstung planen](/help/mobile-schedules) behandelt das Tagesprogramm.
+Über beide Verbindungen bekommst du Live-Zustand, Modus und Intensität, eine Futterpause und ein Zeitplan. Eine Futterpause, die du auf dem Handy startest, braucht bei manchen Pumpen die geöffnete Seite der Pumpe. Die Details stehen unter [Deine Ausrüstung steuern](/help/mobile-device-control#jecod), und [Ausrüstung planen](/help/mobile-schedules) behandelt den Zeitplan.
 
 ## AquaWiz KH Controller {#aquawiz-kh-controller}
 

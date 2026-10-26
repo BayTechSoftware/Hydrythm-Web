@@ -1,12 +1,12 @@
 ---
 title: Cora Yardım
-description: Cora Mobile ve Cora Max'i kurun ve kullanın: akvaryumunuzu ekleyin, ekipmanınızı bağlayın, uyarıları ayarlayın, Reef Buddy ve ICP sonuçlarını okuyun, sorunları çözün.
+description: Cora Mobile ve Cora Max'i kurun: akvaryum ekleyin, ekipmanı bağlayın, uyarıları ayarlayın, Reef Buddy ve ICP sonuçlarını okuyun, Cora Max'i eşleştirin, sorunları çözün.
 section: -
 reviewed: 2026-10-13
 order: 0
 ---
 
-Reef akvaryumunuzu Cora ile yönetmek için gereken her şey burada. Bir iş seçin ya da en üstten arama yapın.
+Resif akvaryumunuzu Cora ile yönetmek için gereken her şey burada. Bir iş seçin ya da en üstten arama yapın.
 
 :::tiles
 - [Cora Mobile'a yeniyim](/help/mobile-setup): Hesabınızı açın, ilk akvaryumunuzu ekleyin ve ölçümleri ekranda görün.
@@ -34,7 +34,7 @@ Cora Max aldıysanız bile önce [akvaryumlarınızı ve cihazlarınızı Cora M
 ## Sık karşılaşılan sorunlar
 
 - [Bir ölçüm eski](/help/troubleshooting#a-reading-is-stale)
-- ["[Cihaz]: bildirmeyi bıraktı"](/help/troubleshooting#device-stopped-reporting)
+- ["[Cihaz]: bildirim yapmıyor"](/help/troubleshooting#device-stopped-reporting)
 - [Cora Max'im çevrimdışı](/help/troubleshooting#my-cora-max-is-offline)
 - [Bildirim almıyorum](/help/troubleshooting#im-not-getting-notifications)
 - [Bir uyarı kapanmıyor](/help/troubleshooting#an-alert-is-not-clearing)
@@ -52,7 +52,7 @@ Cora Max aldıysanız bile önce [akvaryumlarınızı ve cihazlarınızı Cora M
 
 **Cora Mobile** telefon uygulamasıdır. Neredeyse her şeyi (akvaryumlar, cihazlar, panolar, uyarılar, dozaj ürünleri) burada kurarsınız ve akvaryumdan uzaktayken yanınızda taşıdığınız odur. Ana ekranınızdaki simgenin adı **Cora**'dır.
 
-**Cora Max**, reef odası için duvar ekranıdır. Aynı akvaryumları ve aynı canlı verileri odanın öbür ucundan okunacak büyüklükte gösterir, ekipmanınızı gece gündüz okur ve onunla konuşabilirsiniz.
+**Cora Max**, resif odası için duvar ekranıdır. Aynı akvaryumları ve aynı canlı verileri odanın öbür ucundan okunacak büyüklükte gösterir, ekipmanınızı gece gündüz okur ve onunla konuşabilirsiniz.
 
 İkisi de aynı hesabı kullanır, bu yüzden akvaryumlarınız, ölçümleriniz, cihazlarınız ve kayıtlarınız ikisinde de aynıdır. Her ekran kendi pano düzenini tutar. Bir Cora Max'in Wi-Fi, parlaklık, ses, uyandırma sözcüğü ve çocuk kilidi ayarları yalnızca o ekran için geçerlidir. Ayrıntılar [Birden fazla Cora cihazı](/help/mobile-multi-device) sayfasında.
 

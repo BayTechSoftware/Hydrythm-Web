@@ -187,7 +187,7 @@
 <p>In dieser Reihenfolge wischst du auch durch das Dashboard.</p>
 <h3 id="reef-buddy-and-tank-order">Die Reihenfolge entscheidet, welche Becken Reef Buddy bekommen</h3>
 <p>Dein Abo deckt eine feste Zahl von Becken für das tägliche Briefing von Reef Buddy ab. Cora gibt es den ersten Becken in deiner Reihenfolge unter <strong>Becken neu anordnen</strong>. Bei Essential und während der 30-tägigen Testphase ist das nur dein erstes Becken. Advanced deckt 5 Becken ab und Expert 20. Mehr dazu unter <a href="/de/help/mobile-plans">Pläne und Abos</a>.</p>
-<p>Bekommt ein Becken kein Briefing, schieb es an den Anfang der Liste. Entfernte Becken zählen nicht mit.</p>
+<p>Bekommt ein Becken kein Briefing, schieb es an den Anfang der Liste. Entfernte Becken zählen nicht mit. Ein Becken, das du noch einfährst (Modus „Neues Becken“), ist immer abgedeckt und belegt keinen Platz.</p>
 <h2 id="removing-a-tank">Ein Becken entfernen</h2>
 <ol><li>Öffne das Beckenprofil: Tippe auf den Stift in der Beckenkopfzeile oder geh zu <strong>Einstellungen</strong>, tippe auf das Becken und wähl <strong>Becken bearbeiten</strong>.</li><li>Scroll ganz nach unten und tippe auf <strong>Becken entfernen</strong>.</li><li>Cora fragt <strong>Dieses Becken entfernen?</strong> Tippe auf <strong>Entfernen</strong>.</li></ol>
 <p>Entfernen blendet das Becken nur aus. Es verschwindet aus deinem Dashboard und deiner Liste unter Einstellungen, aber seine Messwerte, sein Tagebuch und seine Aufzeichnungen bleiben erhalten. Du kannst es jederzeit zurückholen.</p>
@@ -199,7 +199,7 @@
 <p>Geh zu <strong>Einstellungen</strong> und tippe auf <strong>Entfernte Becken</strong>. Die Zeile erscheint nur, wenn du ein entferntes Becken hast. Tippe neben dem Becken auf <strong>Wiederherstellen</strong>. Seine Messwerte, sein Tagebuch und seine Geräte kommen genau so zurück, wie sie waren.</p>
 <p>In Cora Mobile kannst du ein einzelnes Becken nicht endgültig löschen. Die Daten eines Beckens löschst du nur, indem du dein Konto löschst. Siehe <a href="/de/help/mobile-data-export">Deine Daten</a>.</p>
       <nav class="pn" aria-label="Weiterlesen"><a class="pn-p" href="/de/help/mobile-tank-profile"><span>Zurück</span><b>Dein Beckenprofil</b></a><a class="pn-n" href="/de/help/mobile-account"><span>Weiter</span><b>Anmelden und Konto wiederherstellen</b></a></nav>
-      <p class="stamp">Geschrieben für Cora Max 0.28.238 und Cora Mobile 1.4.14. Zuletzt geprüft am 2026-10-24.</p>
+      <p class="stamp">Geschrieben für Cora Max 0.28.240 und Cora Mobile 1.4.16. Zuletzt geprüft am 2026-10-24.</p>
       <p class="ask">Kommst du nicht weiter? Schreib eine E-Mail an <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, wir helfen dir.</p>
     </article>
   </main>
@@ -590,7 +590,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/de/help/search.json?v=f36c594b9d').then(function (r) { return r.json(); })
+    fetch('/de/help/search.json?v=78d2fe7c0c').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "de"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Die Suche ist nicht verf\u00fcgbar. Nutze die Navigation." + '</li>';

@@ -55,7 +55,7 @@ Se le letture di una vasca si fermano mentre un'altra vasca sullo stesso schermo
 
 1. Apri **Impostazioni → [quella vasca] → Cora Max principale**. Controlla che sia assegnato un dispositivo e che sia online.
 2. Se un altro Cora Max di questa vasca mostra **Cora principale offline** nella sua barra in alto, il principale ha perso la connessione. Cosa significa l'etichetta di stato è spiegato in [La schermata principale di Cora Max](/help/max-tour#what-the-status-pill-means).
-3. **Impostazioni → Impostazioni Cora Max → Rete e aggiornamenti → Polling dispositivi** mostra ogni quanto questo Cora Max legge i tuoi dispositivi. Qui puoi solo vederlo. Si imposta da Cora Mobile.
+3. **Impostazioni → Impostazioni Cora Max → RETE E AGGIORNAMENTI → Polling dispositivi** mostra ogni quanto questo Cora Max legge i tuoi dispositivi. Qui puoi solo vederlo. Si imposta da Cora Mobile.
 4. Controlla la sezione **Stato** di **Impostazioni → Impostazioni Cora Max**. Mostra per ogni vasca lo stato del polling, l'ora dell'ultima lettura e l'ultima scrittura nel cloud, senza cambiare niente.
 
 Se non basta, dai un'occhiata a [Risoluzione dei problemi](/help/troubleshooting).

@@ -1,6 +1,6 @@
 ---
 title: Glossary
-description: What Cora means by tank, source, widget, threshold, Primary Cora Max, feed mode, scene and the other words you'll see in the apps.
+description: What Cora means by tank, source, widget, threshold, Primary Cora Max, feed mode, scene and the other words you'll see in Cora Mobile and on Cora Max.
 section: Help
 reviewed: 2026-10-18
 order: 5
@@ -22,7 +22,7 @@ Cora telling you something needs attention. Usually it's a reading outside the r
 
 ## Answering device
 
-The Cora device that answers when you say "Hey Cora". You pick it in **Settings → Cora Assistant**. Only one device answers at a time. It's a different setting from [Primary Cora Max](#primary-cora-max).
+The Cora device that answers when you say "Hey Cora". You pick it in **Settings → Cora Assistant**, in Cora Mobile or on Cora Max. Only one device answers at a time. It's a different setting from [Primary Cora Max](#primary-cora-max).
 
 ## AquaWiz
 

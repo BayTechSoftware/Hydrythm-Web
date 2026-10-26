@@ -1,6 +1,6 @@
 ---
 title: Słownik
-description: Co Cora rozumie przez akwarium, źródło, widżet, próg, Główne Cora Max, tryb karmienia, scenę i inne słowa, które zobaczysz w aplikacjach.
+description: Co Cora rozumie przez akwarium, źródło, widżet, próg, Główne Cora Max, tryb karmienia, scenę i inne słowa, które zobaczysz w Cora Mobile i na Cora Max.
 section: Help
 reviewed: 2026-10-18
 order: 5
@@ -172,7 +172,7 @@ Tryb dla opiekuna akwarium. Tworzysz plan z datami i listą zadań, a Cora zamie
 
 ## Urządzenie odpowiadające {#answering-device}
 
-Urządzenie Cora, które odpowiada, gdy mówisz „Hey Cora”. Wybierasz je w **Ustawienia → Cora Assistant**. Odpowiada tylko jedno urządzenie naraz. To inne ustawienie niż [Główne Cora Max](#primary-cora-max).
+Urządzenie Cora, które odpowiada, gdy mówisz „Hey Cora”. Wybierasz je w **Ustawienia → Cora Assistant**, w Cora Mobile albo na Cora Max. Odpowiada tylko jedno urządzenie naraz. To inne ustawienie niż [Główne Cora Max](#primary-cora-max).
 
 ## Usunięte akwarium {#removed-tank}
 

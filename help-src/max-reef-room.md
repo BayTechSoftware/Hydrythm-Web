@@ -26,7 +26,7 @@ A Cora Max shows **up to four tanks**, and the Reef Room gives each one an equal
 With one tank, Cora Max opens on that tank's dashboard. The grid icon still takes you to the Reef Room.
 
 :::note Four tanks is the limit
-You can assign at most four tanks to a Cora Max, when you pair it or later on your phone under **Devices → your Cora Max**. If you try to add a fifth, you'll be asked to remove one first. If you have more tanks than that, use a second Cora Max. Each one keeps its own set. The steps are in [Setting up Cora Max](/help/max-setup#changing-which-tanks-it-shows).
+You can assign at most four tanks to a Cora Max, when you pair it or later on your phone under **Devices → your Cora Max**. Once a Cora Max has four tanks, the **Add Tank** button is gone on your phone, so remove one first. If you have more tanks than that, use a second Cora Max. Each one keeps its own set. The steps are in [Setting up Cora Max](/help/max-setup#changing-which-tanks-it-shows).
 :::
 
 ## What a tile shows {#what-a-tile-shows}

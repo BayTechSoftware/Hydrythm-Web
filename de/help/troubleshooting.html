@@ -216,7 +216,7 @@
 <p>Gerade fragt nichts an diesem Becken deine Red Sea-Ausrüstung ab, die Messwerte auf dem Bildschirm werden also nicht aufgefrischt.</p>
 <ol><li>Öffne <strong>Einstellungen</strong>, öffne das Becken und dann <strong>Primäres Cora Max</strong>. Prüf, ob ein Cora Max festgelegt oder <strong>Jedes aktive (automatisch)</strong> gewählt ist.</li><li>Hast du kein Cora Max, öffne das Becken in Cora Mobile, während dein Handy im selben WLAN ist wie die Red Sea-Ausrüstung.</li><li>Prüf, ob die Red Sea-Ausrüstung eingeschaltet und in ihrer eigenen App online ist.</li></ol>
 <h3 id="some-reefbeat-settings-are-greyed-out-or-missing">Manche ReefBeat-Einstellungen sind ausgegraut oder fehlen</h3>
-<p>Das ist normal. Die eigenen Einstellungen eines Red Sea-Geräts öffnen sich nur, wenn dein Handy im selben Netzwerk ist wie das Gerät. Außerhalb dieses Netzwerks siehst du nur Messwerte.</p>
+<p>Das ist normal. Die eigenen Einstellungen eines Red Sea-Geräts öffnen sich nur, wenn dein Handy im selben Netzwerk ist wie das Gerät. Außerhalb dieses Netzwerks siehst du Messwerte, und Befehle laufen weiter über ein Cora Max am Becken, falls es eins hat. Die eigenen Einstellungen des Geräts bleiben nicht verfügbar.</p>
 <ol><li>Verbinde dich mit dem WLAN des Beckens, um diese Einstellungen zu ändern.</li><li>Messwerte und Verlauf funktionieren weiter, wenn du unterwegs bist.</li></ol>
 <h3 id="an-aquawiz-reading-is-hours-old">Ein AquaWiz-Messwert ist Stunden alt</h3>
 <p>Das kann normal sein. AquaWiz lässt Cora seine Cloud nur alle 12 Stunden auslesen, ohne Cora Max kann ein Messwert also bis zu einem halben Tag alt sein. Öffne die Seite des Geräts in Cora Mobile: Sie zeigt, wann der Messwert gemessen wurde und woher er kam, und <strong>Jetzt auslesen</strong> fragt einen frischen an (höchstens alle 15 Minuten).</p>
@@ -240,9 +240,6 @@
 <h3 id="feed-does-not-start">Füttern startet nicht vom Handy aus</h3>
 <p>Auf dem Handy erscheint <strong>Füttern</strong> nur bei einem Becken mit Neptune Apex, und es startet einen der Fütterungszyklen, die auf dem Apex programmiert sind.</p>
 <ul><li><em>"Kein Cora an diesem Becken kann den Apex erreichen, und du bist nicht in seinem Netzwerk."</em> Verbinde dich mit dem WLAN des Apex oder koppel ein Cora Max mit dem Becken.</li><li><em>"Der Apex hat nicht geantwortet, füttert aber möglicherweise schon."</em> Prüf den Controller, bevor du es noch einmal versuchst.</li></ul>
-<h3 id="a-dose-stopped-partway-through-and-a-restore-alert-appeared">Eine Dosierung hat mittendrin aufgehört, und eine Wiederherstellungswarnung ist erschienen</h3>
-<p>Der DŌS-Kopf hat während der Dosierung die Verbindung verloren. Cora sagt es dir, damit es nicht davon ausgehen muss, dass die volle Dosis hineingegangen ist.</p>
-<ol><li>Öffne die Warnung und prüf, wie viel dosiert wurde, bevor es aufgehört hat.</li><li>Entscheide anhand dieser Menge, ob du fortsetzt oder die Dosis anpasst.</li></ol>
 <h2 id="cora-max">Cora Max</h2>
 <h3 id="my-cora-max-is-offline">Mein Cora Max ist offline</h3>
 <p>Auf dem Handy hat seine Zeile im Tab <strong>Geräte</strong> einen roten Punkt. Solange es offline ist, wird Ausrüstung, die es abfragt, nicht mehr aktualisiert, du bekommst vielleicht Warnungen, dass sich diese Ausrüstung nicht mehr meldet, und Befehle, die du von unterwegs schickst, können mit <em>"Es wurde nichts gesendet"</em> zurückkommen.</p>
@@ -334,7 +331,7 @@
 <h2 id="still-stuck">Immer noch nicht gelöst</h2>
 <p>Schreib eine E-Mail an <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> oder melde es aus Cora Mobile heraus, wie unter <a href="/de/help/mobile-support">Ein Problem melden</a> beschrieben. Sag uns, welches Becken, welches Gerät, welcher Bildschirm und was du erwartet hast.</p>
       <nav class="pn" aria-label="Weiterlesen"><a class="pn-n" href="/de/help/how-do-i"><span>Weiter</span><b>Wie mache ich...?</b></a></nav>
-      <p class="stamp">Geschrieben für Cora Max 0.28.238 und Cora Mobile 1.4.14. Zuletzt geprüft am 2026-10-24.</p>
+      <p class="stamp">Geschrieben für Cora Max 0.28.240 und Cora Mobile 1.4.16. Zuletzt geprüft am 2026-10-24.</p>
       <p class="ask">Kommst du nicht weiter? Schreib eine E-Mail an <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, wir helfen dir.</p>
     </article>
   </main>
@@ -725,7 +722,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/de/help/search.json?v=f36c594b9d').then(function (r) { return r.json(); })
+    fetch('/de/help/search.json?v=78d2fe7c0c').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "de"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Die Suche ist nicht verf\u00fcgbar. Nutze die Navigation." + '</li>';

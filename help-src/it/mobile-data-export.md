@@ -24,13 +24,13 @@ Cora esporta **file CSV**. Sono fogli di calcolo che si aprono con Excel, Number
 |---|---|
 | `cora_parameters.csv` | Le tue letture, ciascuna con la fonte e l'orario |
 | `cora_journal.csv` | Le voci del diario |
-| `cora_alerts.csv` | Gli avvisi scattati |
+| `cora_alerts.csv` | Il tuo storico delle notifiche |
 | `cora_export_summary.csv` | Cosa comprende questa esportazione, compreso quello che è stato tagliato |
 
 :::note Cosa c'è nell'esportazione
 Comprende **letture, voci di diario e avvisi**, i tre archivi che le persone chiedono. Non è una copia di tutto l'account. Dashboard, popolazione, manutenzione, automazioni, report e impostazioni dei dispositivi non sono inclusi.
 
-Ognuno dei tre si ferma a **25.000 righe per vasca**. Una vasca che registra trenta parametri ogni cinque minuti ne scrive di più in tre giorni, quindi una vasca attiva da tempo raggiungerà il limite. Il file di riepilogo ti dice quando è successo. Controllalo prima di dare per scontato che l'esportazione sia completa.
+Letture e voci del diario si fermano a **25.000 record per vasca**, e il file delle notifiche a 25.000 per l'intero account. Una vasca con anni di storico può raggiungere il limite. Il file di riepilogo ti dice quando è successo. Controllalo prima di dare per scontato che l'esportazione sia completa.
 :::
 
 L'esportazione dei parametri comprende la **fonte** di ogni lettura. Così, in un foglio con la tua alcalinità, distingui ancora quello che ha detto la sonda da quello che ha detto il test.
@@ -76,6 +76,6 @@ Quando rimuovi un dispositivo, Cora dimentica il suo accesso. Quando elimini l'a
 
 - la copia anonimizzata per la ricerca, se hai lasciato attivo quell'interruttore
 - l'abbonamento sullo store, che solo lo store può annullare
-- la tua scheda cliente presso il nostro fornitore di gestione degli abbonamenti, che viene eliminata 120 giorni dopo l'account, così un rimborso dello store o una contestazione di pagamento possono ancora essere gestiti
+- la tua scheda cliente presso il nostro fornitore di gestione degli abbonamenti, che viene eliminata 120 giorni dopo l'eliminazione dell'account, così un rimborso dello store o una contestazione di pagamento possono ancora essere gestiti
 
 Come accedere di nuovo su un altro telefono, o cambiare il modo di accesso, è spiegato in [Accesso e recupero dell'account](/help/mobile-account). Piani e fatturazione sono in [Piani e abbonamenti](/help/mobile-plans).

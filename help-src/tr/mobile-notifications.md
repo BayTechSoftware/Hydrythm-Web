@@ -19,7 +19,7 @@ En üstteki kart, bu telefonun Cora'dan gelen bildirimlere izin verip vermediği
 |---|---|
 | **Parametre Uyarıları** | Belirlediğiniz aralığın dışına çıkan su kimyası ve değer geri döndüğünde gelen *düzeldi* bildirimi |
 | **Bakım Hatırlatıcıları** | Su değişimi gibi planladığınız görevler ve yeni bir akvaryumda üç gün sonra hâlâ ölçüm yoksa ilk testinizi kaydetmeniz için tek seferlik bir hatırlatma |
-| **Ekipman Arızaları** | Sorun bildiren bir cihaz, örneğin test yapmayı bırakmış bir Trident. Ayrıca [bildirmeyi bırakan](/help/mobile-alerts#stopped-reporting) bir cihaz ve kaçırılan bir doz |
+| **Ekipman Arızaları** | Sorun bildiren bir cihaz, örneğin test yapmayı bırakmış bir Trident. Ayrıca [bildirmeyi bırakan](/help/mobile-alerts#stopped-reporting) bir cihaz, kaçırılan bir doz ve başarısız olan bir otomasyon |
 | **Sarf Malzemesi Azalıyor** | Reaktif, su tamamlama suyu, dozaj kapları ve dolan atık şişesi |
 | **ICP Raporu Hazır** | ICP sonuçlarınız analiz edildi ve okunmaya hazır |
 
@@ -39,6 +39,7 @@ Birkaç bildirim bu listede yer almaz:
 
 - Reef Buddy'nin günlük özeti. Ne zaman geleceğini Ayarlar'da Bildirimler'in hemen altındaki **Özet saati** satırıyla seçersiniz. Ücretsiz planda özet bildirimi yoktur. Ayrıntılar [Reef Buddy](/help/mobile-reef-buddy) sayfasında.
 - Plan bildirimleri: deneme süresi bitmeden 7 gün ve 1 gün önce ve bittiğinde gelen hatırlatmalar, ayrıca aylık Cora Assistant hakkınızın %80'ini ve %100'ünü kullandığınızda gelen uyarı. [Planlar](/help/mobile-plans) sayfasına bakın.
+- Sızıntı sensöründen gelen sızıntı uyarıları. Her zaman bildirim olarak gelir ve kapatılamaz; **Parametre Uyarıları**'nı kapatmak da onları susturmaz.
 
 ## Geceleri sessiz tutma {#quiet-at-night}
 

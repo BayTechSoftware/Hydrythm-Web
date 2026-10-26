@@ -58,6 +58,5 @@ Uyarının kapanması ve bir sonraki uyarının doğru seviyeden hesaplanması i
 | DŌS kafası | **Doldur**, ardından **Dolu**, ya da **Kalan Hacim**'i ayarlayın |
 | DŌS atık kabı | Boşalttıktan sonra boş alanını tam olarak sıfırlayın |
 | ReefDose kafası | **Şişede kalan** |
-| ReefMat | Yeni rulo taktıktan sonra **Yeni rulo** |
 
 Trident, ReefATO+ ve AquaWiz kendi seviyelerini bildirir, bu yüzden Cora'da sıfırlanacak bir şey yoktur.

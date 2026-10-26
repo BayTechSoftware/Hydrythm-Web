@@ -131,7 +131,7 @@
 <summary>Primeros pasos</summary><ul>
 <li><a href="/es/help/max-setup">Configurar Cora Max</a></li>
 <li><a href="/es/help/max-tour">La pantalla de inicio de Cora Max</a></li>
-<li><a href="/es/help/max-reef-room">El cuarto de los acuarios</a></li>
+<li><a href="/es/help/max-reef-room">La sala del arrecife</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Tu panel</summary><ul>
@@ -188,7 +188,7 @@
 <p><strong>Tu ciclo hasta ahora</strong> dibuja las tres curvas en dos escalas. El amoniaco y el nitrito usan el eje izquierdo, que va de 0 a al menos 5 ppm. El nitrato usa el eje derecho, que va de 0 a al menos 40 ppm. Así los valores pequeños de amoniaco y nitrito se ven junto a un nitrato grande. Toca un nombre para ver todo su historial.</p>
 <p>Si quieres otra opinión, toca <strong>Preguntar a Cora sobre el ciclado</strong>. Abre <a href="/es/help/mobile-assistant">Cora Assistant</a> con una pregunta sobre tus últimas lecturas.</p>
 <aside class="cal cal-warning"><p class="cal-t">Tres cosas pueden estancar un ciclo</p><p><strong>Amoniaco o nitrito por encima de 5 ppm</strong> frena las bacterias que intentas criar. Si te pasas, un cambio parcial de agua lo hace bajar. <strong>Un pH por debajo de 7</strong> también lo frena. Lo mismo ocurre con una <strong>temperatura del agua fuera de 25 a 30 °C (77 a 86 °F)</strong>, que además puede estresar a los animales. El itinerario te avisa si ocurre alguna, y Cora envía una notificación cuando un valor se sale y otra cuando vuelve al rango. Estas alertas de seguridad son gratis en todos los planes y son consejos, no órdenes.</p></aside>
-<aside class="cal cal-note"><p class="cal-t">Registra las tres pruebas</p><p>Cora solo muestra <strong>Parece ciclado</strong> cuando el amoniaco y el nitrito se han <em>medido</em> en cero y hay nitrato. El nitrato solo no basta. El agua de origen suele traer algo, y por sí solo podría parecer un ciclo terminado y tentarte a añadir fauna demasiado pronto.</p></aside>
+<aside class="cal cal-note"><p class="cal-t">Registra las tres pruebas</p><p>Cora solo muestra <strong>Parece ciclado</strong> cuando el amoniaco y el nitrito se han <em>medido</em> en cero o casi cero (0,25 ppm o menos) y hay nitrato. El nitrato solo no basta. El agua de origen suele traer algo, y por sí solo podría parecer un ciclo terminado y tentarte a añadir fauna demasiado pronto.</p></aside>
 <aside class="cal cal-note"><p class="cal-t">Lo que cuenta son tus lecturas</p><p>El itinerario decide si el acuario está listo por lo que has registrado. No cuentan las semanas que hayan pasado. Si llevas quince días sin hacer pruebas, el acuario se queda donde estaba. Por eso muestra cuánto hace de tu última prueba.</p></aside>
 <h2 id="your-personal-read">Tu lectura personal</h2>
 <p>La etapa, el gráfico, los datos conocidos, las alertas de seguridad y la celebración son gratis en todos los planes. Con un plan de pago (Essential, Advanced o Expert, y durante la prueba gratuita), el itinerario también muestra <strong>Tu ciclo, interpretado para ti</strong>: una lectura en lenguaje sencillo de tus propios valores, como cuánto tiempo lleva estancado el nitrito y qué suele haber detrás. En el plan gratuito, ese espacio muestra <strong>Lectura personal de tus pruebas</strong>, y al tocarlo se abren los planes. Es una estimación a partir de tus valores, no una promesa. Una tarjeta <strong>Buen trabajo, el ciclo parece completo</strong> también aparece arriba en cuanto los valores parecen ciclados. Después de marcar el acuario, el itinerario sugiere qué hacer a continuación: registrar tus animales al añadirlos, definir rangos de alerta y vincular un controlador o una sonda.</p>
@@ -207,9 +207,9 @@
 <p><strong>Resuelto</strong> · <strong>Mejorando</strong> · <strong>Sin cambios</strong> · <strong>Peor</strong> · <strong>Detenido</strong></p>
 <p>Sé sincero, aunque sea <strong>Peor</strong>. El resultado se guarda con el itinerario, así que si más adelante aparece un problema parecido puedes compararlo con lo que probaste y cómo fue.</p>
 <h2 id="descartar-un-itinerario">Descartar un itinerario</h2>
-<p>Si un itinerario de problema no te sirve, descártalo. Deja de aparecer, y Cora registra que lo descartaste para proponerte itinerarios parecidos con menos frecuencia.</p>
+<p>Si un itinerario de problema no te sirve, descártalo. Deja de aparecer. Si tus lecturas apuntan otra vez al mismo problema, Cora puede volver a ofrecértelo.</p>
       <nav class="pn" aria-label="Seguir leyendo"><a class="pn-p" href="/es/help/mobile-icp-health"><span>Anterior</span><b>ICP e informes de salud</b></a><a class="pn-n" href="/es/help/mobile-settings"><span>Siguiente</span><b>Ajustes de Cora Mobile</b></a></nav>
-      <p class="stamp">Escrito para Cora Max 0.28.238 y Cora Mobile 1.4.14. Última revisión el 2026-10-22.</p>
+      <p class="stamp">Escrito para Cora Max 0.28.240 y Cora Mobile 1.4.16. Última revisión el 2026-10-22.</p>
       <p class="ask">¿Sigues atascado? Escribe a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> y te ayudamos.</p>
     </article>
   </main>
@@ -600,7 +600,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/es/help/search.json?v=9384433ffe').then(function (r) { return r.json(); })
+    fetch('/es/help/search.json?v=1d5700fe42').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "es"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La b\u00fasqueda no est\u00e1 disponible. Usa la navegaci\u00f3n." + '</li>';

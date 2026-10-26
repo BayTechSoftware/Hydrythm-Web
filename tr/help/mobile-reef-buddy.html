@@ -205,7 +205,7 @@
 <aside class="cal cal-note"><p class="cal-t">Düşen bir Veri puanı genellikle eski ölçümler demektir</p><p>Bir haftadır hiçbir şey test etmediyseniz Veri puanı düşer ve Kararlılık puanı daha az güvenilir olur. İkisini de yükseltmek için birkaç ölçüm kaydedin.</p></aside>
 <h2 id="availability">Hangi akvaryumlar özet alır</h2>
 <p>Reef Buddy ücretli planların bir parçasıdır. Hesabınızı oluşturduğunuzda başlayan 30 günlük denemeye de dahildir.</p>
-<p>Her plan belli sayıda akvaryumu kapsar: denemede ve Essential'da 1, Advanced'de 5, Expert'te 20. Özetler <strong>Ayarlar → Akvaryumları yeniden sırala</strong> içinde belirlenen sıradaki ilk akvaryumlara gider. Dışarıda kalan bir akvaryumu dahil etmek için onu listede yukarı taşıyın. Kaldırılan akvaryumlar yer kaplamaz.</p>
+<p>Her plan belli sayıda akvaryumu kapsar: denemede ve Essential'da 1, Advanced'de 5, Expert'te 20. Özetler <strong>Ayarlar → Akvaryumları yeniden sırala</strong> içinde belirlenen sıradaki ilk akvaryumlara gider. Dışarıda kalan bir akvaryumu dahil etmek için onu listede yukarı taşıyın. Kaldırılan akvaryumlar yer kaplamaz. Hâlâ döngüsünü yaptığınız bir akvaryum (Yeni Akvaryum Modu) her zaman kapsanır ve yer kaplamaz.</p>
 <p>Deneme bittikten sonra ücretsiz bir hesap, özetin olduğu yerde <strong>Planları gör</strong> düğmeli kilitli bir Reef Buddy kartı görür ve özet bildirimi almaz. Ayrıntılar <a href="/tr/help/mobile-plans">Planlar ve abonelikler</a> sayfasında.</p>
 <h2 id="ozet-gelmediyse">Özet gelmediyse</h2>
 <ul><li><strong>İlgilenmeniz gereken bir şey yoktu.</strong> Reef Buddy iyi bir günde sessiz kalır. Kart panoda yine durur.</li><li><strong>Deneme süreniz bitti.</strong> Ücretsiz bir hesap kilitli kartı alır ve bildirim almaz.</li><li><strong>Akvaryum planınızın sınırını aşıyor.</strong> Onu <strong>Ayarlar → Akvaryumları yeniden sırala</strong> içinde yukarı taşıyın.</li><li><strong>Bildirimler kapalı.</strong> <a href="/tr/help/mobile-notifications">Bildirimler</a> sayfasını kontrol edin.</li></ul>
@@ -216,7 +216,7 @@
 <p>Değişen bir ölçümde yalnızca <strong>Faydalı değil</strong> kartı gizler (14 gün). <strong>Zaten biliyordum</strong> yalnızca not edilir, <strong>Uyuşmuyor</strong> ise hiçbir şeyi gizlemez: yanlış ölçümleri hariç tutmayı önerir; böylece Cora onları saymayı bırakır. Gizleme yalnızca bir süre sürer. Sorun hâlâ varsa bulgu geri gelir.</p>
 <aside class="cal cal-note"><p class="cal-t">Ciddi bulgular asla gizlenmez</p><p>Uyarı ve kritik bulgular, daha önce ne yanıtlamış olursanız olun görünmeye devam eder.</p></aside>
       <nav class="pn" aria-label="Okumaya devam edin"><a class="pn-p" href="/tr/help/mobile-activity"><span>Önceki</span><b>Etkinlik ve zaman çizelgesi</b></a><a class="pn-n" href="/tr/help/mobile-assistant"><span>Sonraki</span><b>Cora&#x27;ya sorun</b></a></nav>
-      <p class="stamp">Cora Max 0.28.238 ve Cora Mobile 1.4.14 için yazılmıştır. Son kontrol: 2026-10-24.</p>
+      <p class="stamp">Cora Max 0.28.240 ve Cora Mobile 1.4.16 için yazılmıştır. Son kontrol: 2026-10-24.</p>
       <p class="ask">Sorun devam ediyor mu? <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> adresine yazın, yardımcı olalım.</p>
     </article>
   </main>
@@ -607,7 +607,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/tr/help/search.json?v=a9e63682a9').then(function (r) { return r.json(); })
+    fetch('/tr/help/search.json?v=1a2be35337').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "tr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Arama \u015fu anda kullan\u0131lam\u0131yor. Men\u00fcy\u00fc kullan\u0131n." + '</li>';

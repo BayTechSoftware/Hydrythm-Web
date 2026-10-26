@@ -49,7 +49,7 @@ Mientras una escena temporizada está en marcha, su tarjeta hace una cuenta atr�
 
 Ejecutar o detener una escena pasa por Cora Cloud, como cualquier otra orden. Encontrarás el resultado en [Actividad](/help/max-activity).
 
-Las escenas no se pueden ejecutar por voz en Cora Max. Usa la tarjeta, **Ajustes → Automatizaciones** o tu teléfono.
+También puedes ejecutar una escena por voz: *"Ejecuta la escena de cambio de agua."* El bloqueo infantil lo impide como cualquier otro control. Si no, usa la tarjeta, **Ajustes → Automatizaciones** o tu teléfono.
 
 Si una escena no se ejecuta o no se detiene, echa un vistazo a [Solución de problemas](/help/troubleshooting).
 

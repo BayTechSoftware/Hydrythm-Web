@@ -188,13 +188,13 @@
 <h2 id="konserwacja">Konserwacja</h2>
 <figure class="shot"><button type="button" class="zoom" aria-label="Powiększ: Konserwacja na Cora Max"><img src="/help/img/max-records.webp" alt="Konserwacja na Cora Max" width="1280" height="800" loading="lazy" decoding="async"></button><figcaption>Zadania do zrobienia, każde z przyciskami Odłóż i Gotowe, oraz to, co ostatnio wykonano.</figcaption></figure>
 <p>Góra ekranu mówi, ile zadań czeka. Pod nią <strong>Nadchodzące</strong> wymienia każde zadanie z oznaczeniem <strong>DZIŚ</strong>, <strong>ZA 3d</strong> albo <strong>ZALEGŁE 2d</strong>, a <strong>Zakończone · ostatnie 7 dni</strong> pokazuje, co ostatnio zrobiono.</p>
-<ul><li>Dotknij <strong>Gotowe</strong>, gdy skończysz zadanie. Jeśli jest po terminie, Cora pyta <strong>Kiedy to zostało zrobione?</strong> Cora dodaje też krótki wpis do Twojego <a href="/pl/help/max-records#journal">dziennika</a>, z adnotacją, jeśli zadanie było po terminie.</li><li>Dotknij <strong>Zrobione wcześniej…</strong>, jeśli zrobiono to przed dzisiaj. Wybierz datę i godzinę, a następny termin liczy się od niej. Godzina z przyszłości ani wcześniejsza niż ostatnie wykonanie nie jest przyjmowana.</li><li>Dotknij <strong>Odłóż</strong>, żeby przesunąć je o <strong>1 dzień</strong>, <strong>3 dni</strong>, <strong>1 tydzień</strong>, <strong>2 tygodnie</strong> albo <strong>1 miesiąc</strong>.</li></ul>
+<ul><li>Dotknij <strong>Gotowe</strong>, gdy skończysz zadanie. Jeśli jest po terminie, Cora pyta <strong>Kiedy to zostało zrobione?</strong> Cora dodaje też krótki wpis do Twojego <a href="/pl/help/max-records#journal">dziennika</a>, z adnotacją, jeśli zadanie było po terminie.</li><li>Dotknij <strong>Zrobione wcześniej…</strong>, jeśli zrobiono to wcześniej niż dziś. Wybierz datę i godzinę, a następny termin liczy się od niej. Godzina z przyszłości ani wcześniejsza niż ostatnie wykonanie nie jest przyjmowana.</li><li>Dotknij <strong>Odłóż</strong>, żeby przesunąć je o <strong>1 dzień</strong>, <strong>3 dni</strong>, <strong>1 tydzień</strong>, <strong>2 tygodnie</strong> albo <strong>1 miesiąc</strong>.</li></ul>
 <p>Zadania dodajesz i zmieniasz na telefonie. Więcej w <a href="/pl/help/mobile-maintenance">Konserwacji</a>.</p>
 <h2 id="obsada">Obsada</h2>
 <p>Tu jest cała obsada, z tym, co jest <strong>W akwarium</strong>, i tym, czego <strong>Już nie w akwarium</strong>. Tutaj jest tylko do odczytu. Obsadę dodajesz i edytujesz w Cora Mobile, a to, co tam dodasz, od razu pojawia się na tym ekranie. Więcej w <a href="/pl/help/mobile-livestock">Obsadzie</a>.</p>
 <aside class="cal cal-note"><p class="cal-t">Jeden zestaw zapisów</p><p>Każde akwarium ma jeden dziennik, jedną listę obsady i jedną listę konserwacji. Cora Max i telefon pokazują te same zapisy.</p></aside>
       <nav class="pn" aria-label="Czytaj dalej"><a class="pn-p" href="/pl/help/max-automation"><span>Poprzedni</span><b>Sceny na Cora Max</b></a><a class="pn-n" href="/pl/help/max-activity"><span>Następny</span><b>Aktywność na Cora Max</b></a></nav>
-      <p class="stamp">Napisano dla Cora Max 0.28.238 i Cora Mobile 1.4.14. Ostatnio sprawdzono 2026-10-18.</p>
+      <p class="stamp">Napisano dla Cora Max 0.28.240 i Cora Mobile 1.4.16. Ostatnio sprawdzono 2026-10-18.</p>
       <p class="ask">Wciąż masz problem? Napisz na <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, pomożemy.</p>
     </article>
   </main>
@@ -585,7 +585,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/pl/help/search.json?v=aede854401').then(function (r) { return r.json(); })
+    fetch('/pl/help/search.json?v=bf578ebf0d').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "pl"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Wyszukiwanie jest niedost\u0119pne. U\u017cyj menu." + '</li>';

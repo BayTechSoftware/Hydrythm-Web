@@ -119,7 +119,7 @@ Nic w tym akwarium nie odczytuje teraz Twojego sprzętu Red Sea, więc odczyty n
 
 ### Część ustawień ReefBeat jest wyszarzona albo ich brakuje {#some-reefbeat-settings-are-greyed-out-or-missing}
 
-To normalne. Własne ustawienia urządzenia Red Sea otwierają się tylko wtedy, gdy telefon jest w tej samej sieci co urządzenie. Poza tą siecią widzisz tylko odczyty.
+To normalne. Własne ustawienia urządzenia Red Sea otwierają się tylko wtedy, gdy telefon jest w tej samej sieci co urządzenie. Poza tą siecią widzisz odczyty, a polecenia nadal idą przez Cora Max w akwarium, jeśli je ma. Własne ustawienia urządzenia pozostają niedostępne.
 
 1. Dołącz do sieci Wi-Fi akwarium, żeby zmienić te ustawienia.
 2. Odczyty i historia działają, gdy jesteś poza domem.
@@ -178,12 +178,6 @@ W telefonie **Karmienie** pokazuje się tylko przy akwarium z Neptune Apex i uru
 - *„Żadne urządzenie Cora w tym akwarium nie może połączyć się z Apex, a Ty nie jesteś w jego sieci.”* Dołącz do sieci Wi-Fi Apex albo sparuj Cora Max z akwarium.
 - *„Apex nie odpowiedział, ale karmienie może już trwać.”* Sprawdź kontroler, zanim spróbujesz ponownie.
 
-### Dawka zatrzymała się w połowie i pojawił się alert „przywracania” {#a-dose-stopped-partway-through-and-a-restore-alert-appeared}
-
-Głowica DŌS straciła kontakt w trakcie dawki. Cora mówi Ci o tym, żeby nie trzeba było zakładać, że podano całą dawkę.
-
-1. Otwórz alert i sprawdź, ile zdozowano, zanim się zatrzymała.
-2. Na podstawie tej ilości zdecyduj, czy wznowić dawkę, czy ją skorygować.
 
 ## Cora Max {#cora-max}
 

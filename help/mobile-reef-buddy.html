@@ -205,7 +205,7 @@
 <aside class="cal cal-note"><p class="cal-t">A falling Data score usually means old readings</p><p>If you haven't tested anything for a week, the Data score drops and the Stability score becomes less reliable. Log some readings to bring both back up.</p></aside>
 <h2 id="availability">Which tanks get a briefing</h2>
 <p>Reef Buddy is part of the paid plans. It's also included in the 30-day trial that starts when you create your account.</p>
-<p>Each plan covers a set number of tanks: 1 on the trial and on Essential, 5 on Advanced and 20 on Expert. Briefings go to the first tanks in the order set in <strong>Settings → Reorder tanks</strong>. To include a tank that's missing out, move it up the list. Removed tanks don't take a place.</p>
+<p>Each plan covers a set number of tanks: 1 on the trial and on Essential, 5 on Advanced and 20 on Expert. Briefings go to the first tanks in the order set in <strong>Settings → Reorder tanks</strong>. To include a tank that's missing out, move it up the list. Removed tanks don't take a place. A tank you are still cycling (New Tank Mode) is always covered and doesn't use up a place.</p>
 <p>After the trial, a free account sees a locked Reef Buddy card with <strong>See plans</strong> where the briefing was, and gets no briefing notification. More in <a href="/help/mobile-plans">Plans and subscriptions</a>.</p>
 <h2 id="if-no-briefing-came">If no briefing came</h2>
 <ul><li><strong>Nothing needed your attention.</strong> Reef Buddy stays quiet on a good day. The card is still on the dashboard.</li><li><strong>Your trial ended.</strong> A free account gets the locked card and no notification.</li><li><strong>The tank is past your plan's limit.</strong> Move it up in <strong>Settings → Reorder tanks</strong>.</li><li><strong>Notifications are off.</strong> Check <a href="/help/mobile-notifications">Notifications</a>.</li></ul>
@@ -216,7 +216,7 @@
 <p>On a reading that moved, only <strong>Not useful</strong> hides the card (for 14 days). <strong>Already knew</strong> is only noted, and <strong>Doesn't match</strong> hides nothing: it offers to exclude the wrong readings, so Cora stops counting them. Hiding only lasts for a while. If the problem is still there afterwards, the finding comes back.</p>
 <aside class="cal cal-note"><p class="cal-t">Serious findings are never hidden</p><p>Warning and critical findings keep showing up, whatever you've answered before.</p></aside>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-activity"><span>Previous</span><b>Activity and timeline</b></a><a class="pn-n" href="/help/mobile-assistant"><span>Next</span><b>Asking Cora</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.238 and Cora Mobile 1.4.14. Last checked 2026-10-24.</p>
+      <p class="stamp">Written for Cora Max 0.28.240 and Cora Mobile 1.4.16. Last checked 2026-10-24.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>
@@ -607,7 +607,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/help/search.json?v=5ca35b2a08').then(function (r) { return r.json(); })
+    fetch('/help/search.json?v=d076232951').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "en"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';

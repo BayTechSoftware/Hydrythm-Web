@@ -97,7 +97,7 @@ Cuando el suplemento de alcalinidad se acaba, el aviso usa el nivel que fijaste 
 
 ## Un dispositivo ha dejado de informar {#stopped-reporting}
 
-Cuando un dispositivo conectado se queda en silencio, Cora envía *"[Dispositivo]: ha dejado de informar"*. No significa que el dispositivo esté averiado, solo que Cora lleva un rato sin saber de él. Recibes una segunda notificación, *"[Dispositivo]: vuelve a informar"*, cuando vuelve.
+Cuando un dispositivo conectado se queda en silencio, Cora envía *"[Dispositivo]: dejó de informar"*. No significa que el dispositivo esté averiado, solo que Cora lleva un rato sin saber de él. Recibes una segunda notificación, *"[Dispositivo]: vuelve a informar"*, cuando vuelve.
 
 Cuánto espera Cora depende del dispositivo:
 

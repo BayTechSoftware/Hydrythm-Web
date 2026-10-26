@@ -42,7 +42,7 @@ Chaque aquarium a une ligne qui ouvre ses propres réglages.
 
 La dernière ligne des réglages porte le nom de ce Cora Max. Elle ouvre tout ce qui s’applique **uniquement à cet écran**.
 
-En haut se trouve une carte avec le nom de cet écran et sa version de micrologiciel (*Cora Max · micrologiciel 0.28.170*).
+En haut se trouve une carte avec le nom de cet écran et sa version de micrologiciel (*Cora Max · micrologiciel 0.28.x*).
 
 - Touchez le crayon (**Renommer cet appareil**) pour lui donner un nouveau nom, par exemple « Salon ».
 - **Afficher les détails** liste son **ID Cora**, son **Adresse MAC**, son **Réseau Wi-Fi**, son **Adresse IP**, ses aquariums et le compte auquel il est associé. L’assistance peut vous les demander.

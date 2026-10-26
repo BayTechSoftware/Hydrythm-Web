@@ -19,7 +19,7 @@ La scheda in alto dice se questo telefono permette o no le notifiche di Cora (**
 |---|---|
 | **Avvisi sui parametri** | Valori dell'acqua fuori da un intervallo che hai impostato, e la notifica di *ripristino* quando tornano nell'intervallo |
 | **Promemoria di manutenzione** | Lavori che hai programmato, come i cambi d'acqua, e un promemoria una tantum per registrare il primo test quando una vasca nuova dopo tre giorni non ha ancora letture |
-| **Guasti dell'apparecchiatura** | Un dispositivo che segnala un problema, per esempio un Trident che ha smesso di fare test. Anche un dispositivo che [ha smesso di inviare dati](/help/mobile-alerts#stopped-reporting) e una dose mancata |
+| **Guasti dell'apparecchiatura** | Un dispositivo che segnala un problema, per esempio un Trident che ha smesso di fare test. Anche un dispositivo che [ha smesso di inviare dati](/help/mobile-alerts#stopped-reporting), una dose mancata e un'automazione fallita |
 | **Scorte in esaurimento** | Reagente, acqua di rabbocco, contenitori di dosaggio e flacone dei rifiuti pieno |
 | **Rapporto ICP pronto** | I tuoi risultati ICP sono stati analizzati e puoi leggerli |
 
@@ -37,8 +37,9 @@ Il flacone dei rifiuti conta come scorta anche se si riempie invece di svuotarsi
 
 Alcune notifiche non sono in quell'elenco:
 
-- Il briefing giornaliero di Reef Buddy. Scegli quando arriva con **Orario del riepilogo**, la riga subito sotto Notifiche nelle Impostazioni. Con il piano gratuito non c'è la notifica del briefing. Di più in [Reef Buddy](/help/mobile-reef-buddy).
+- Il riepilogo (briefing) giornaliero di Reef Buddy. Scegli quando arriva con **Orario del riepilogo**, la riga subito sotto Notifiche nelle Impostazioni. Con il piano gratuito non c'è la notifica del briefing. Di più in [Reef Buddy](/help/mobile-reef-buddy).
 - Le notifiche del piano: promemoria della prova 7 giorni e 1 giorno prima che finisca e quando finisce, e un avviso quando hai usato l'80% e il 100% della tua quota mensile di Cora Assistant. Vedi [Piani](/help/mobile-plans).
+- Gli avvisi di allagamento di un sensore di allagamento. Arrivano sempre come notifica e non si possono disattivare; nemmeno disattivare **Avvisi sui parametri** li silenzia.
 
 ## Notti tranquille {#quiet-at-night}
 
@@ -49,7 +50,7 @@ Cora Mobile non ha un'impostazione per le ore di silenzio. Un avviso sui paramet
 - Allunga l'attesa di una regola. Se un avviso continua a svegliarti per un problema che conosci già, aumenta la sua **Attesa tra gli avvisi**. Vedi [Attese](/help/mobile-alerts#cooldowns).
 - Scegli quando arrivano i promemoria. Ogni attività di manutenzione ha un orario **Ricordamelo alle**, e Reef Buddy usa il tuo **Orario del riepilogo** (le 8:00 se non lo cambi).
 
-Su Cora Max, **Attenuazione notturna** abbassa la luminosità dello schermo di notte, e nella sezione Suono e voce puoi spegnere **Suono degli avvisi** e **Avvisi parlati**. Questi due restano spenti finché non li riaccendi. Vedi [Impostazioni di Cora Max](/help/max-settings).
+Su Cora Max, **Attenuazione notturna** abbassa la luminosità dello schermo di notte, e nella sezione Audio e voce puoi spegnere **Suono degli avvisi** e **Avvisi parlati**. Questi due restano spenti finché non li riaccendi. Vedi [Impostazioni di Cora Max](/help/max-settings).
 
 :::warning Non silenziare quello che vorresti sentire
 Un riscaldatore bloccato acceso alle 3 di notte è proprio l'avviso che vuoi ricevere. Se di notte silenzi il telefono, fai passare Cora da Full immersion o Non disturbare, così un avviso del genere può comunque raggiungerti.

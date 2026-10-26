@@ -58,6 +58,5 @@ Diglielo nella pagina del dispositivo, così l'avviso si chiude e il prossimo vi
 | Testa DŌS | **Riempi**, poi **Pieno**, oppure imposta **Volume rimanente** |
 | Contenitore dei rifiuti DŌS | Riporta lo spazio libero al massimo dopo averlo svuotato |
 | Testa ReefDose | **Rimanente nella bottiglia** |
-| ReefMat | **Nuovo rotolo** dopo aver caricato un rotolo nuovo |
 
 Trident, ReefATO+ e AquaWiz riportano da soli i propri livelli, quindi in Cora non c'è niente da azzerare.

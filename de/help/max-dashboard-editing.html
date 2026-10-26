@@ -178,7 +178,7 @@
 <aside class="cal cal-tip"><p class="cal-t">Du kannst es auch auf dem Handy bearbeiten</p><p>Öffne in Cora Mobile den Tab <strong>Geräte</strong>, tippe auf dein Cora Max und dann auf der Karte des Beckens auf <strong>Dashboard-Layout</strong>. Das geht schneller, als Kacheln an einem Wandbildschirm von Hand anzuordnen, und das Ergebnis erscheint auf Cora Max, sobald du speicherst.</p></aside>
 <h2 id="choosing-a-grid">Ein Raster wählen</h2>
 <p>Wähl zuerst die Rastergröße. Änderst du sie später, verschieben sich alle Kacheln.</p>
-<div class="tw"><table class="stack"><thead><tr><th>Raster</th><th>Kacheln</th><th>So wirkt es</th></tr></thead><tbody><tr><td data-th="Raster">2×2, 3×2, 3×3</td><td data-th="Kacheln">4–9</td><td data-th="So wirkt es">Groß. Quer durch den Raum gut lesbar.</td></tr><tr><td data-th="Raster">4×4, 5×3, 6×4</td><td data-th="Kacheln">16–24</td><td data-th="So wirkt es">Die übliche Wahl für ein komplettes System.</td></tr><tr><td data-th="Raster">6×5, 8×4, 8×5</td><td data-th="Kacheln">30–40</td><td data-th="So wirkt es">Dicht. Ein ganzer Riffraum auf einem Bildschirm.</td></tr><tr><td data-th="Raster">9×5, 10×5</td><td data-th="Kacheln">45–50</td><td data-th="So wirkt es">Sehr dicht. Am besten auf den größten Bildschirmen.</td></tr><tr><td data-th="Raster"><strong>Auto</strong></td><td data-th="Kacheln">bis zu 32</td><td data-th="So wirkt es">Cora wählt eine Form, die zur Zahl deiner Kacheln passt.</td></tr></tbody></table></div>
+<div class="tw"><table class="stack"><thead><tr><th>Raster</th><th>Kacheln</th><th>So wirkt es</th></tr></thead><tbody><tr><td data-th="Raster">2×2, 3×2, 3×3</td><td data-th="Kacheln">4–9</td><td data-th="So wirkt es">Groß. Quer durch den Raum gut lesbar.</td></tr><tr><td data-th="Raster">4×4, 5×3, 6×4</td><td data-th="Kacheln">15–24</td><td data-th="So wirkt es">Die übliche Wahl für ein komplettes System.</td></tr><tr><td data-th="Raster">6×5, 8×4, 8×5</td><td data-th="Kacheln">30–40</td><td data-th="So wirkt es">Dicht. Ein ganzer Riffraum auf einem Bildschirm.</td></tr><tr><td data-th="Raster">9×5, 10×5</td><td data-th="Kacheln">45–50</td><td data-th="So wirkt es">Sehr dicht. Am besten auf den größten Bildschirmen.</td></tr><tr><td data-th="Raster"><strong>Auto</strong></td><td data-th="Kacheln">bis zu 32</td><td data-th="So wirkt es">Cora wählt eine Form, die zur Zahl deiner Kacheln passt.</td></tr></tbody></table></div>
 <p>Ein festes Raster fasst so viele Kacheln, wie es Zellen hat, bis zu 50 bei 10×5. <strong>Auto</strong> hat eine eigene Grenze von 32 Kacheln. Darüber wird die Schrift zu klein, um sie aus der Entfernung zu lesen.</p>
 <aside class="cal cal-note"><p class="cal-t">Unsicher? Fang mit Auto an</p><p>Füg die Kacheln hinzu, die du willst, und lass das Raster auf <strong>Auto</strong>. Cora wählt eine Form, die passt. Gefällt sie dir, kannst du danach auf diese feste Form wechseln.</p></aside>
 <aside class="cal cal-warning"><p class="cal-t">Beim Rasterwechsel fallen Kacheln nur weg, wenn sie nicht passen</p><p>Wenn du das Raster wechselst, wirft Cora keine Kacheln wegen ihrer Position weg. Kacheln, die noch eine gültige Zelle haben, bleiben, wo sie sind, und der Rest wird der Reihe nach wieder einsortiert. Kacheln verlierst du nur, wenn das neue Raster <strong>weniger Zellen hat, als du Kacheln hast</strong>, und Cora sagt dir, wie viele weggefallen sind. Von 10×5 (50 Zellen) auf 3×3 (9) verlierst du die meisten.</p></aside>
@@ -208,7 +208,7 @@
 <h2 id="multiple-tanks">Mehrere Becken</h2>
 <p>Jedes Becken hat sein eigenes Layout. Wechsle zu diesem Becken und öffne <strong>Dashboard-Layout</strong> über sein Beckenmenü, oder nutze <strong>Einstellungen → [dieses Becken] → Dashboard-Layout</strong>.</p>
       <nav class="pn" aria-label="Weiterlesen"><a class="pn-p" href="/de/help/max-reef-room"><span>Zurück</span><b>Der Riffraum</b></a><a class="pn-n" href="/de/help/max-controls"><span>Weiter</span><b>Steckdosen und Steuerung</b></a></nav>
-      <p class="stamp">Geschrieben für Cora Max 0.28.238 und Cora Mobile 1.4.14. Zuletzt geprüft am 2026-10-18.</p>
+      <p class="stamp">Geschrieben für Cora Max 0.28.240 und Cora Mobile 1.4.16. Zuletzt geprüft am 2026-10-18.</p>
       <p class="ask">Kommst du nicht weiter? Schreib eine E-Mail an <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, wir helfen dir.</p>
     </article>
   </main>
@@ -599,7 +599,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/de/help/search.json?v=f36c594b9d').then(function (r) { return r.json(); })
+    fetch('/de/help/search.json?v=78d2fe7c0c').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "de"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Die Suche ist nicht verf\u00fcgbar. Nutze die Navigation." + '</li>';

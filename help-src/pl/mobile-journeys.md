@@ -50,7 +50,7 @@ Rząd kropek u góry (**Start**, **Zaszczepić**, **Testuj**, **Potwierdź**) po
 :::
 
 :::note Zapisuj wszystkie trzy testy
-Cora pokazuje **Wygląda na zacyklowane** dopiero wtedy, gdy amoniak i azotyny zostały *zmierzone* na zerze, a azotany są obecne. Same azotany nie wystarczą. Woda wyjściowa często je zawiera, a same mogłyby wyglądać jak zakończony cykl i skusić do zbyt wczesnego wpuszczenia obsady.
+Cora pokazuje **Wygląda na zacyklowane** dopiero wtedy, gdy amoniak i azotyny zostały *zmierzone* na zerze lub blisko zera (0,25 ppm albo mniej), a azotany są obecne. Same azotany nie wystarczą. Woda wyjściowa często je zawiera, a same mogłyby wyglądać jak zakończony cykl i skusić do zbyt wczesnego wpuszczenia obsady.
 :::
 
 :::note O gotowości decydują odczyty
@@ -98,4 +98,4 @@ Odpowiedz szczerze, nawet jeśli to **Pogorszenie**. Wynik zostaje zapisany ze �
 
 ## Odrzucanie ścieżki
 
-Jeśli ścieżka problemu się nie przydaje, odrzuć ją. Przestanie się pokazywać, a Cora zapisze odrzucenie i będzie rzadziej proponować podobne ścieżki.
+Jeśli ścieżka problemu się nie przydaje, odrzuć ją. Przestanie się pokazywać. Jeśli Twoje odczyty znowu wskażą ten sam problem, Cora może zaproponować ją ponownie.

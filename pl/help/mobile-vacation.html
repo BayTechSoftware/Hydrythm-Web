@@ -178,7 +178,7 @@
 <h2 id="setting-it-up">Przygotowanie planu</h2>
 <ol><li>W <strong>Kiedy jesteś poza domem?</strong> dotknij <strong>Wybierz daty wyjazdu</strong>.</li><li>Przygotuj <strong>Listę kontrolną opiekuna</strong>. Cora podsuwa zadania konserwacyjne, które przypadną w czasie Twojej nieobecności, każde z informacją, jak często trzeba je wykonywać. Dotknij propozycji, żeby ją dodać, na przykład <strong>Nakarm akwarium</strong>, <strong>Sprawdź zbiornik ATO</strong>, <strong>Opróżnij kubek odpieniacza</strong> albo <strong>Zadzwoń do mnie, jeśli coś wygląda nie tak</strong>. Żeby dodać własne zadanie, wpisz je w <strong>Dodaj własne zadanie…</strong> i dotknij <strong>Dodaj zadanie</strong>.</li><li>W <strong>Notatki i kontakt</strong> wpisz <strong>Notatki dla opiekuna</strong>, a w <strong>Jeśli coś wygląda nie tak</strong> napisz, jak się z Tobą skontaktować.</li><li>Dotknij <strong>Uruchom tryb wakacyjny</strong>.</li></ol>
 <p>Przy każdym zadaniu widać, jak często je wykonywać, na przykład <strong>Codziennie</strong>, <strong>Co 3 dni</strong>, <strong>Raz</strong> albo <strong>Zawsze</strong> (stała instrukcja). Cora ustala to na podstawie zadania konserwacyjnego albo propozycji. Zadanie wpisane samodzielnie nie ma etykiety, więc podaj częstotliwość w jego treści.</p>
-<p>Pisz listę dla kogoś, kto nie zna akwariów morskich. Podawaj wprost ilości i sposób. „Podaj jedną kostkę mrożonki, rozmrożoną, raz dziennie” jest dużo jaśniejsze niż „nakarm jak zwykle”.</p>
+<p>Pisz listę dla kogoś, kto nie zna akwariów rafowych. Podawaj wprost ilości i sposób. „Podaj jedną kostkę mrożonki, rozmrożoną, raz dziennie” jest dużo jaśniejsze niż „nakarm jak zwykle”.</p>
 <aside class="cal cal-note"><p class="cal-t">Napisz, czego nie ruszać</p><p>Dodaj zadanie dla każdego sprzętu, którego opiekun nie powinien dotykać, na przykład „Nie zmieniaj niczego w kontrolerze”. Wpisz to też w notatkach.</p></aside>
 <h2 id="sharing">Udostępnianie opiekunowi</h2>
 <p>Dotknij <strong>Utwórz link dla opiekuna</strong>. Cora tworzy stronę internetową tylko do odczytu z listą zadań, Twoimi notatkami i bieżącymi odczytami akwarium. Opiekun nie potrzebuje Cora Mobile ani konta. Dotknij <strong>Udostępnij</strong>, żeby ją wysłać, albo <strong>Kopiuj</strong>, żeby skopiować link.</p>
@@ -191,7 +191,7 @@
 <h2 id="coming-back">Po powrocie</h2>
 <p>Dotknij <strong>Zakończ tryb wakacyjny</strong> i potwierdź przyciskiem <strong>Zakończ</strong>. Link opiekuna od razu przestaje działać. Lista zadań zostaje zapisana na następny raz.</p>
       <nav class="pn" aria-label="Czytaj dalej"><a class="pn-p" href="/pl/help/mobile-automation"><span>Poprzedni</span><b>Automatyzacje i sceny</b></a><a class="pn-n" href="/pl/help/mobile-journal"><span>Następny</span><b>Dziennik</b></a></nav>
-      <p class="stamp">Napisano dla Cora Max 0.28.238 i Cora Mobile 1.4.14. Ostatnio sprawdzono 2026-10-13.</p>
+      <p class="stamp">Napisano dla Cora Max 0.28.240 i Cora Mobile 1.4.16. Ostatnio sprawdzono 2026-10-13.</p>
       <p class="ask">Wciąż masz problem? Napisz na <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, pomożemy.</p>
     </article>
   </main>
@@ -582,7 +582,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/pl/help/search.json?v=aede854401').then(function (r) { return r.json(); })
+    fetch('/pl/help/search.json?v=bf578ebf0d').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "pl"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Wyszukiwanie jest niedost\u0119pne. U\u017cyj menu." + '</li>';

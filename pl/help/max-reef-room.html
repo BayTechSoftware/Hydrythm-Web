@@ -178,7 +178,7 @@
 <p>Cora Max pokazuje <strong>najwyżej cztery akwaria</strong>, a Reef Room daje każdemu tyle samo miejsca na ekranie.</p>
 <div class="tw"><table class="stack"><thead><tr><th>Akwaria</th><th>Układ</th></tr></thead><tbody><tr><td data-th="Akwaria">1</td><td data-th="Układ">Jeden duży kafelek</td></tr><tr><td data-th="Akwaria">2</td><td data-th="Układ">Obok siebie</td></tr><tr><td data-th="Akwaria">3</td><td data-th="Układ">Trzy w rzędzie</td></tr><tr><td data-th="Akwaria">4</td><td data-th="Układ">Dwa na dwa</td></tr></tbody></table></div>
 <p>Przy jednym akwarium Cora Max otwiera się na panelu tego akwarium. Ikona siatki nadal prowadzi do Reef Room.</p>
-<aside class="cal cal-note"><p class="cal-t">Cztery akwaria to limit</p><p>Do jednego Cora Max możesz przypisać najwyżej cztery akwaria, przy parowaniu albo później w telefonie w <strong>Urządzenia → Twój Cora Max</strong>. Gdy spróbujesz dodać piąte, zobaczysz prośbę o usunięcie najpierw jednego z nich. Jeśli masz więcej akwariów, użyj drugiego Cora Max. Każdy ma własny zestaw. Kroki opisuje <a href="/pl/help/max-setup#changing-which-tanks-it-shows">Konfiguracja Cora Max</a>.</p></aside>
+<aside class="cal cal-note"><p class="cal-t">Cztery akwaria to limit</p><p>Do jednego Cora Max możesz przypisać najwyżej cztery akwaria, przy parowaniu albo później w telefonie w <strong>Urządzenia → Twój Cora Max</strong>. Gdy Cora Max ma już cztery akwaria, przycisku <strong>Dodaj akwarium</strong> w telefonie nie ma, więc najpierw usuń jedno. Jeśli masz więcej akwariów, użyj drugiego Cora Max. Każdy ma własny zestaw. Kroki opisuje <a href="/pl/help/max-setup#changing-which-tanks-it-shows">Konfiguracja Cora Max</a>.</p></aside>
 <h2 id="what-a-tile-shows">Co pokazuje kafelek</h2>
 <p>Każdy kafelek podsumowuje jedno akwarium.</p>
 <ul><li>Kolorowy pasek wzdłuż lewej krawędzi, dla najgorszego stanu w tym akwarium.</li><li><strong>Ocena zdrowia</strong> w pierścieniu (przy jednym do trzech akwariów). Obok jest linijka w rodzaju <em>3 z 37 parametrów poza zakresem</em> (albo <em>Wszystkie 37 parametry w zakresie</em>) i liczba parametrów blisko granic.</li><li>Plakietka stanu: <strong>N poza zakresem</strong>, <strong>N do obserwacji</strong> dla odczytów blisko granic, <strong>Zdrowe</strong> albo <strong>Monitorowanie</strong>, gdy nie ma jeszcze czego oceniać.</li><li>Najważniejsze odczyty akwarium. Szersze kafelki dodają do każdego linię trendu z 24 godzin.</li><li><strong>Czas ostatniej aktualizacji</strong> i <strong>Otwórz panel</strong>.</li></ul>
@@ -188,7 +188,7 @@
 <ul><li><strong>Dotknij kafelka</strong> albo <strong>Otwórz panel</strong>, żeby przejść do tego akwarium.</li><li><strong>Przesuń palcem w bok</strong> na panelu, żeby przechodzić między akwariami i wrócić do Reef Room.</li><li><strong>Ikona siatki</strong> wraca do Reef Room z każdej strony akwarium. W samym Reef Room jej nie zobaczysz.</li></ul>
 <p>Każde akwarium ma własny układ panelu, więc ekran zmienia się całkowicie, gdy przechodzisz między nimi. Więcej w <a href="/pl/help/max-dashboard-editing">Edytowaniu panelu Cora Max</a>.</p>
       <nav class="pn" aria-label="Czytaj dalej"><a class="pn-p" href="/pl/help/max-tour"><span>Poprzedni</span><b>Ekran główny Cora Max</b></a><a class="pn-n" href="/pl/help/max-dashboard-editing"><span>Następny</span><b>Edytowanie panelu Cora Max</b></a></nav>
-      <p class="stamp">Napisano dla Cora Max 0.28.238 i Cora Mobile 1.4.14. Ostatnio sprawdzono 2026-10-13.</p>
+      <p class="stamp">Napisano dla Cora Max 0.28.240 i Cora Mobile 1.4.16. Ostatnio sprawdzono 2026-10-13.</p>
       <p class="ask">Wciąż masz problem? Napisz na <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, pomożemy.</p>
     </article>
   </main>
@@ -579,7 +579,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/pl/help/search.json?v=aede854401').then(function (r) { return r.json(); })
+    fetch('/pl/help/search.json?v=bf578ebf0d').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "pl"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Wyszukiwanie jest niedost\u0119pne. U\u017cyj menu." + '</li>';

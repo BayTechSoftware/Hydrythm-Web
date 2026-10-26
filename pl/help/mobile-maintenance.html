@@ -182,7 +182,7 @@
 <p>Dotknij <strong>Dodaj zadanie</strong>, a potem wybierz:</p>
 <ul><li><strong>Z szablonu</strong> dla typowej pracy z wpisanym już interwałem. Wybierz ją, ustaw następny termin i godzinę przypomnienia, a potem dotknij <strong>Potwierdź</strong>.</li><li><strong>Własne zadanie</strong> dla własnej pracy. Podaj <strong>Nazwę zadania</strong>, <strong>Interwał (dni)</strong>, <strong>Kategorię</strong> i <strong>Następny termin</strong>. Włącz <strong>Przypomnienie</strong> i wybierz <strong>Przypomnij mi o</strong>, jeśli chcesz dostać powiadomienie.</li></ul>
 <p>Niektóre szablony, z interwałem, od którego startują:</p>
-<div class="tw"><table class="stack"><thead><tr><th>Zadanie</th><th>Interwał</th></tr></thead><tbody><tr><td data-th="Zadanie">Zmień skarpety filtracyjne</td><td data-th="Interwał">3 dni</td></tr><tr><td data-th="Zadanie">Wyczyść kubek odpieniacza</td><td data-th="Interwał">7 dni</td></tr><tr><td data-th="Zadanie">Wymiana wody</td><td data-th="Interwał">7 dni</td></tr><tr><td data-th="Zadanie">Przetestuj parametry wody</td><td data-th="Interwał">7 dni</td></tr><tr><td data-th="Zadanie">Wymień węgiel</td><td data-th="Interwał">30 dni</td></tr><tr><td data-th="Zadanie">Skalibruj sondę pH</td><td data-th="Interwał">30 dni</td></tr><tr><td data-th="Zadanie">Wyczyść pompy cyrkulacyjne</td><td data-th="Interwał">90 dni</td></tr><tr><td data-th="Zadanie">Wgraj wyniki ICP</td><td data-th="Interwał">90 dni</td></tr></tbody></table></div>
+<div class="tw"><table class="stack"><thead><tr><th>Zadanie</th><th>Interwał</th></tr></thead><tbody><tr><td data-th="Zadanie">Zmień skarpety filtracyjne</td><td data-th="Interwał">3 dni</td></tr><tr><td data-th="Zadanie">Wyczyść kubek odpieniacza</td><td data-th="Interwał">7 dni</td></tr><tr><td data-th="Zadanie">Podmiana wody</td><td data-th="Interwał">7 dni</td></tr><tr><td data-th="Zadanie">Przetestuj parametry wody</td><td data-th="Interwał">7 dni</td></tr><tr><td data-th="Zadanie">Wymień węgiel</td><td data-th="Interwał">30 dni</td></tr><tr><td data-th="Zadanie">Skalibruj sondę pH</td><td data-th="Interwał">30 dni</td></tr><tr><td data-th="Zadanie">Wyczyść pompy cyrkulacyjne</td><td data-th="Interwał">90 dni</td></tr><tr><td data-th="Zadanie">Wgraj wyniki ICP</td><td data-th="Interwał">90 dni</td></tr></tbody></table></div>
 <p>Interwał każdego zadania możesz później zmienić.</p>
 <h3 id="red-sea-tasks">Zadania, które Cora dodaje dla sprzętu Red Sea™</h3>
 <p>Gdy podłączysz Red Sea ReefDose, ReefATO+, ReefMat albo ReefRun, Cora dodaje serwis, którego wymaga to urządzenie, od razu z właściwym interwałem:</p>
@@ -210,7 +210,7 @@
 <aside class="cal cal-warning"><p class="cal-t">Oznaczaj zadanie jako wykonane dopiero po wykonaniu</p><p>Następny termin liczy się od chwili, w której zadanie zostało zrobione. Jeśli oznaczysz otwarte zadanie jako wykonane, przesuną się wszystkie kolejne terminy. Jeśli zrobiono je wcześniej, użyj <strong>Zrobione wcześniej…</strong> i wybierz prawdziwą godzinę. Jeśli go nie zrobiono, zamiast tego odłóż zadanie.</p></aside>
 <p>Zadania nie da się wstrzymać. Pracę, która nie dotyczy bieżącego sezonu, odłóż na <strong>1 miesiąc</strong> albo usuń i dodaj ponownie później.</p>
       <nav class="pn" aria-label="Czytaj dalej"><a class="pn-p" href="/pl/help/mobile-dosing"><span>Poprzedni</span><b>Produkty dozujące i kalkulator dawek</b></a><a class="pn-n" href="/pl/help/mobile-livestock"><span>Następny</span><b>Obsada</b></a></nav>
-      <p class="stamp">Napisano dla Cora Max 0.28.238 i Cora Mobile 1.4.14. Ostatnio sprawdzono 2026-10-17.</p>
+      <p class="stamp">Napisano dla Cora Max 0.28.240 i Cora Mobile 1.4.16. Ostatnio sprawdzono 2026-10-17.</p>
       <p class="ask">Wciąż masz problem? Napisz na <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, pomożemy.</p>
     </article>
   </main>
@@ -601,7 +601,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/pl/help/search.json?v=aede854401').then(function (r) { return r.json(); })
+    fetch('/pl/help/search.json?v=bf578ebf0d').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "pl"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Wyszukiwanie jest niedost\u0119pne. U\u017cyj menu." + '</li>';

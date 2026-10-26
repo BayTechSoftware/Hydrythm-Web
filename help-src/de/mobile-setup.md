@@ -48,7 +48,7 @@ Dein Dashboard-Layout auf dem Handy folgt dem Konto auf jedes Handy, auf dem du 
 
 ## Dein erstes Becken hinzufügen {#add-your-first-tank}
 
-In Cora ist ein **Becken** jeder Wasserkörper, den du verfolgen willst. Die meisten haben eins. Betreibst du ein Ablegersystem oder ein Quarantänebecken, ist jedes davon ein eigenes Becken.
+In Cora ist ein **Becken** jedes Aquarium oder Wasservolumen, das du verfolgen willst. Die meisten haben eins. Betreibst du ein Ablegersystem oder ein Quarantänebecken, ist jedes davon ein eigenes Becken.
 
 Nach der Anmeldung fragt **Lerne dein Becken kennen** drei Dinge. Nur der Name ist Pflicht, und du kannst alles später in deinem [Beckenprofil](/help/mobile-tank-profile) ändern.
 
@@ -61,7 +61,7 @@ Tippe auf **Mein Becken erstellen**.
 :::note Fährt dein Becken noch ein?
 Tippe auf dem Dashboard auf **Startest du ein neues Becken?** Diese Karte erscheint, solange das Becken keine Messwerte hat. Hast du schon einen Test eingetragen, öffne das Profil des Beckens und tippe oben auf dieselbe Karte, das geht jederzeit. Mehr dazu unter [Geführte Journeys](/help/mobile-journeys).
 
-Cora beurteilt Messwerte außerdem danach, was für ein Becken dieses Alters normal ist. Der Assistent fragt nicht danach, stell also das **Startdatum des Beckens** in deinem Beckenprofil unter **Beckenmaße** ein.
+Cora beurteilt Messwerte außerdem danach, was für ein Becken dieses Alters normal ist. Die Einrichtung fragt nicht danach, stell also das **Startdatum des Beckens** in deinem Beckenprofil unter **Beckenmaße** ein.
 :::
 
 ## "Dein Becken ist live" {#your-tank-is-live}
@@ -77,7 +77,7 @@ Bist du fertig, tippe auf **Zu meinem Dashboard** oder **Das mache ich später**
 
 ## Deine ersten 30 Tage {#your-first-30-days}
 
-Bei einem neuen kostenlosen Konto zeigt **Zu meinem Dashboard** zuerst **Deine ersten 30 Tage gehen auf uns**. Deine 30-tägige Advanced-Testphase hat begonnen, als du dein Konto angelegt hast, und du brauchst keine Karte. Tippe auf **Jetzt entdecken**, um weiterzumachen, oder auf **Pläne ansehen**, um dir die bezahlten Pläne anzusehen. Mehr dazu unter [Pläne und Abos](/help/mobile-plans#the-trial).
+Bei einem neuen kostenlosen Konto zeigt **Zu meinem Dashboard** zuerst **Deine ersten 30 Tage gehen auf uns**. Deine 30-tägige Advanced-Testphase hat begonnen, als du dein Konto angelegt hast, und du brauchst keine Karte. Tippe auf **Jetzt entdecken**, um weiterzumachen, oder auf **Tarife ansehen**, um dir die bezahlten Pläne anzusehen. Mehr dazu unter [Pläne und Abos](/help/mobile-plans#the-trial).
 
 ## Dein erster Blick auf das Dashboard {#your-first-look-at-the-dashboard}
 

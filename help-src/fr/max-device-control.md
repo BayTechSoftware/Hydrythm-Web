@@ -25,7 +25,7 @@ Vous ajoutez, attribuez et retirez l’équipement sur votre téléphone. Cora M
 | **Neptune Apex** | Sondes et prises, et vous pouvez commander chaque prise |
 | **Trident** | L’état du test, les niveaux de réactifs et de déchets, et un bouton pour lancer un test |
 | **DŌS**, y compris le DŌS QD | Le dosage, le programme, l’autonomie et le volume du réservoir de chaque tête (avec pause, remplissage, dose immédiate et une mesure unique de vingt secondes) |
-| **Red Sea ReefBeat** | Ce que l’appareil possède : têtes de dosage, réservoir, jours de rouleau, mode de pompe, plus un éditeur complet du plan ReefDose, et les réglages ReefMat |
+| **Red Sea ReefBeat** | Ce que l’appareil possède : têtes de dosage, réservoir, jours de rouleau, mode de pompe |
 | **Jecod** | Le mode et l’intensité de la pompe, et son programme journalier |
 | **AquaWiz** | Pas de page à lui. Il est listé dans **Appareils**, et ses mesures vont sur le tableau de bord |
 
@@ -53,20 +53,13 @@ Un DŌS n’a pas de capteur de niveau et continue de doser depuis un réservoir
 
 ### À quoi sert une tête {#what-a-head-is-used-for}
 
-Dans la feuille de réglages d’une tête, vous pouvez régler son **type d’usage**. Les options sont **Complément**, **Changement d’eau : entrée d’eau salée neuve**, **Changement d’eau : sortie d’eau ancienne**, **Kalkwasser**, **Réacteur à calcium**, **Nourriture** ou **Appoint**, et **Autre**. Le type d’usage change deux choses.
+Dans la feuille de réglages d’une tête, vous pouvez régler son type d’usage sous **Utilisée pour**. Les options sont **Complément**, **Changement d’eau : entrée d’eau salée neuve**, **Changement d’eau : sortie d’eau ancienne**, **Kalkwasser**, **Réacteur à calcium**, **Nourriture** ou **Appoint**, et **Autre**. Le type d’usage change deux choses.
 
 - La taille du réservoir qu’elle peut suivre. Chaque type d’usage peut suivre un réservoir jusqu’à 1 000 litres. Au-delà du compteur de 150 litres de l’Apex, Cora suit lui-même le volume, et Cora remet le compteur de l’Apex à zéro tous les 100 litres.
-- Si elle peut faire une grosse dose à la main. Les têtes Complément et Nourriture gardent le plafond actuel, petit et prudent. Tout autre type d’usage peut avoir sa propre limite de **Dosage manuel maximal**, jusqu’à un plafond absolu de 10 litres, et sa propre **Limite quotidienne pour les automatisations et l’Assistant**. Une grosse dose à la main demande aussi d’activer **Doses importantes** dans les paramètres de la tête, désactivé par défaut. Ne l’activez qu’après avoir regardé la première grosse dose se faire à l’aquarium.
+- Si elle peut faire une grosse dose à la main. Les têtes Complément et Nourriture gardent le plafond actuel, petit et prudent. Tout autre type d’usage peut avoir sa propre limite de **Dosage manuel maximal**, jusqu’à un plafond absolu de 10 litres, et sa propre **Limite quotidienne pour les automatisations et l’Assistant**.
 
 Vous pouvez associer une paire de changement d’eau (entrée d’eau salée neuve, sortie d’eau ancienne) comme **Tête associée** et régler une valeur d’**Alerte d’équilibre au-dessus de**. Si les totaux du jour des deux têtes s’écartent de plus que cette valeur, Cora vous prévient. Une paire déséquilibrée veut en général dire qu’un côté ne pompe pas comme il devrait.
 
-### Si une grosse dose est interrompue {#if-a-large-dose-is-interrupted}
-
-Une grosse dose change pendant un moment ce que fait la tête sur l’Apex, puis remet son programme normal. Si la connexion tombe en cours de route, Cora Max affiche un bandeau sur la page de cette tête : *« Un dosage important sur [tête] ne s’est pas terminé proprement. Cora continue d’essayer de remettre son programme en place ; vérifiez-le dans Apex Fusion. »*
-
-Vérifiez vous-même la tête dans Apex Fusion, puis touchez **J’ai vérifié la tête dans Fusion** pour effacer le bandeau. Ne le faites qu’après avoir confirmé que c’est le programme propre de la tête qui tourne, et non le programme de dosage de Cora.
-
-Si le bandeau ne s’efface pas, ou revient sans cesse, consultez [Résolution de problèmes](/help/troubleshooting).
 
 ## Red Sea ReefBeat {#red-sea}
 
@@ -74,7 +67,6 @@ Chaque appareil Red Sea a une page adaptée à ce qu’il fait : têtes et rés
 
 Si un appareil Red Sea s’arrête de lui-même, sa page vous dit ce qui ne va pas et place la solution juste à côté. C’est **Reprendre**, **Effacer l’urgence**, **Capteur nettoyé**, **J’ai déjà chargé un nouveau rouleau**, ou **Réinitialiser** pour une tête de dosage.
 
-Un plan ReefDose et l’avance programmée, le modèle, la position et Nouveau rouleau du ReefMat fonctionnent ici de la même façon que sur votre téléphone. [Contrôler votre équipement](/help/mobile-device-control) donne les détails.
 
 
 ## Jecod {#jecod}
@@ -99,7 +91,7 @@ AquaWiz ne laisse Cora lire son cloud que toutes les 12 heures. Pour garder l’
 - Il se connecte quelques secondes au Wi-Fi propre du contrôleur, lit le dernier résultat et revient aussitôt sur votre Wi-Fi domestique. Le Cora Max est hors ligne environ 4 secondes pendant ce temps.
 - Le mot de passe de votre Wi-Fi domestique n’est jamais enregistré ni envoyé nulle part pour cela.
 - Seul le Cora Max principal de l’aquarium le fait. Un deuxième Cora Max sur le même aquarium ne le fait pas.
-- Il attend tant que le Cora Max vous parle, se met à jour, s’associe ou change de Wi-Fi, et réessaie à l’heure suivante.
+- Il attend tant que le Cora Max est occupé (il vous parle, se met à jour, s’associe ou change de Wi-Fi) et réessaie toutes les minutes ou deux jusqu’à la fin de cette heure. Ensuite, il attend l’heure suivante.
 - Le contrôleur doit être à portée Wi-Fi du Cora Max, et son firmware doit offrir un accès local. Si deux lectures de suite échouent, le Cora Max n’essaie plus jusqu’à la fin de la journée et la lecture cloud toutes les 12 heures continue.
 
 Une mesure venue du Cora Max affiche **Toutes les heures depuis votre Cora Max** sur la carte AquaWiz du téléphone. Elle apporte aussi les alertes de niveau de la boîte à eau décrites dans [Alertes](/help/mobile-alerts#equipment-faults). Les alertes de pompe et de sonde pH n’ont pas besoin d’un Cora Max.

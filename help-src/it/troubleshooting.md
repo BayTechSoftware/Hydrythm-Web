@@ -119,7 +119,7 @@ In questo momento niente su questa vasca sta leggendo la tua attrezzatura Red Se
 
 ### Alcune impostazioni ReefBeat sono disattivate o mancano {#some-reefbeat-settings-are-greyed-out-or-missing}
 
-È normale. Le impostazioni proprie di un dispositivo Red Sea si aprono solo quando il telefono è sulla stessa rete del dispositivo. Lontano da quella rete vedi solo le letture.
+È normale. Le impostazioni proprie di un dispositivo Red Sea si aprono solo quando il telefono è sulla stessa rete del dispositivo. Lontano da quella rete vedi le letture, e i comandi passano comunque da un Cora Max della vasca, se ne ha uno. Le impostazioni proprie del dispositivo restano non disponibili.
 
 1. Collegati al Wi-Fi della vasca per cambiare quelle impostazioni.
 2. Letture e storico continuano a funzionare quando sei via.
@@ -178,12 +178,6 @@ Sul telefono, **Alimenta** compare solo su una vasca con un Neptune Apex, e avvi
 - *"Nessun Cora su questa vasca può raggiungere l'Apex, e non sei sulla sua rete."* Collegati al Wi-Fi dell'Apex, oppure associa un Cora Max alla vasca.
 - *"L'Apex non ha risposto, ma potrebbe già essere in fase di alimentazione."* Controlla il controller prima di riprovare.
 
-### Una dose si è fermata a metà ed è comparso un avviso di "ripristino" {#a-dose-stopped-partway-through-and-a-restore-alert-appeared}
-
-La testa DŌS ha perso il contatto durante la dose. Cora te lo dice, così non deve dare per scontato che sia entrata tutta la dose.
-
-1. Apri l'avviso e controlla quanto è stato dosato prima che si fermasse.
-2. Usa quella quantità per decidere se riprendere o correggere la dose.
 
 ## Cora Max {#cora-max}
 

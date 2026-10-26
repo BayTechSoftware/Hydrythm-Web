@@ -18,7 +18,7 @@ En üstteki kart kimin olarak giriş yaptığınızı ve hangi planda olduğunuz
 
 - **Görünen ad**, Cora Mobile'ın size nasıl hitap ettiğidir.
 - **Laboratuvar ve ICP e-postaları**, laboratuvarınızın hesabınıza ulaşmak için kullanabileceği en fazla 3 e-posta adresi daha eklemenizi sağlar. [ICP ve sağlık raporları](/help/mobile-icp-health#which-email-a-lab-can-use) sayfasına bakın.
-- **Abonelik**, planınızı ve ne zaman yenileneceğini **Planları gör**, **Yükselt** ya da **Max'e yükselt**, ardından **Aboneliği Yönet** ve **Satın Alımları Geri Yükle** ile birlikte gösterir. Android'de ayrıca **Kodu kullan** vardır. Hepsi [Planlar ve abonelikler](/help/mobile-plans) sayfasında anlatılır.
+- **Abonelik**, planınızı ve ne zaman yenileneceğini **Planları gör**, **Yükselt** ya da **Expert'e yükselt**, ardından **Aboneliği Yönet** ve **Satın Alımları Geri Yükle** ile birlikte gösterir. Android'de ayrıca **Kodu kullan** vardır. Hepsi [Planlar ve abonelikler](/help/mobile-plans) sayfasında anlatılır.
 - **Çıkış Yap**
 - **Verilerimi Dışa Aktar**, ölçümlerinizi, günlük kayıtlarınızı ve uyarılarınızı dosya olarak verir, her planda ücretsizdir. [Verilerinizi dışa aktarma](/help/mobile-data-export) sayfasına bakın.
 - **Hesabı Sil** kalıcıdır. Kullanmadan önce [Verileriniz ve gizlilik](#your-data-and-privacy) bölümündeki iki notu okuyun.
@@ -74,7 +74,7 @@ Her şey birden beklemediğiniz bir dilde görünüyorsa biri onu değiştirmiş
 
 **Cihaz erişimi**, telefonunuzun Cora için kendi ayarlarını açar. Cora'nın ekipmanınızı bulmak için ihtiyaç duyduğu şeylere orada izin verirsiniz. Satır bir şeyin kapalı olup olmadığını göstermez. Yalnızca kontrol edebileceğiniz yere götürür.
 
-- iPhone'da bunlar Yerel Ağ ve Bluetooth'tur. Yerel Ağ erişimi olmadan Wi-Fi'ınızdaki ekipman araması hiçbir şey bulmaz ve bir hata da görmezsiniz. iPhone yalnızca bir kez sorar, bu yüzden yeniden açmanın yolu budur.
+- iPhone'da bunlar Yerel Ağ ve Bluetooth'tur. Yerel Ağ erişimi olmadan Wi-Fi'nizdeki ekipman araması hiçbir şey bulmaz ve bir hata da görmezsiniz. iPhone yalnızca bir kez sorar, bu yüzden yeniden açmanın yolu budur.
 - Android'de bunlar Bluetooth ve konumdur.
 
 ## Cora Assistant
@@ -82,7 +82,7 @@ Her şey birden beklemediğiniz bir dilde görünüyorsa biri onu değiştirmiş
 Bunu yukarıda **Cora** altındaki **Cora Assistant** satırından açarsınız.
 
 - **Cora Assistant'ın kayıtlı akvaryum verilerini kullanmasına izin ver**, Cora Assistant'ın akvaryum geçmişinizi, metriklerinizi ve cihazlarınızı kullanmasını sağlar. Asistan (telefonunuzda ve Cora Max'te, yazılı ya da sesli), ICP analizi, Sağlık Raporları ve **Yapay zeka ile tasarla** için açık olması gerekir. Reef Buddy o olmadan da sade bir özetle gelir. Tam liste [Cora'ya sorun](/help/mobile-assistant#what-the-switch-covers) sayfasında.
-- **Anonimleştirilmiş akvaryum verisine katkıda bulun**, parametre geçmişinizin kimliksizleştirilmiş bir kopyasını reef araştırmaları için saklar. **Siz kapatmadıkça açıktır.** O kopya bir akvaryumu kaldırdığınızda oluşturulur ve hesabınızı sildikten sonra saklanan tek şeydir. [Anonimleştirilmiş veriye katkı](/help/mobile-data-export#contributing-anonymised-data) bölümüne bakın.
+- **Anonimleştirilmiş akvaryum verisine katkıda bulun**, parametre geçmişinizin kimliksizleştirilmiş bir kopyasını resif araştırmaları için saklar. **Siz kapatmadıkça açıktır.** O kopya bir akvaryumu kaldırdığınızda oluşturulur ve hesabınızı sildikten sonra saklanan tek şeydir. [Anonimleştirilmiş veriye katkı](/help/mobile-data-export#contributing-anonymised-data) bölümüne bakın.
 - **Yapay zeka hafızası**, Cora'nın bir sohbetten diğerine sisteminiz hakkında hatırladıklarıdır. Okuyabilir ve sıfırlayabilirsiniz. Yalnızca yukarıdaki izin anahtarı açıkken görünür.
 - **Yanıtlayan cihaz**, evinizde uyandırma ifadesine hangi Cora cihazının yanıt vereceğini seçer. Ayrıntılar [Birden fazla Cora cihazı](/help/mobile-multi-device#cora-assistant-answering-device) sayfasında.
 - **Cora'nın analizini laboratuvarlarla paylaşın**, size sonuç gönderen bir laboratuvarın Cora'nın puanlarını ve yazılı analizini görüp göremeyeceğini belirler. Siz açana kadar kapalıdır.

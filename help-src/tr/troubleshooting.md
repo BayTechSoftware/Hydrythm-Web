@@ -84,7 +84,7 @@ Bu beklenen bir durumdur. Göstergeler, kutucuklar ve geçmiş seçtiğiniz biri
 Cora bunu bir cihaz sessizleştiğinde gönderir. Cihazın bozuk olduğu anlamına gelmez, yalnızca Cora'nın bir süredir ondan haber almadığı anlamına gelir. Cora'nın her marka için ne kadar beklediği [Uyarılar ve eşikler](/help/mobile-alerts#stopped-reporting) sayfasında.
 
 1. Cihazın gücünü ve Wi-Fi ya da Bluetooth menzilini kontrol edin.
-2. Onu okuyan Cora Max'in açık ve çevrimiçi olduğunu kontrol edin. Cora Max olmadan telefonunuz bir Neptune Apex, Red Sea ya da Jecod cihazını yalnızca Cora Mobile aynı Wi-Fi'da açıkken okur.
+2. Onu okuyan Cora Max'in açık ve çevrimiçi olduğunu kontrol edin. Cora Max olmadan telefonunuz bir Neptune Apex, Red Sea ya da Jecod cihazını yalnızca Cora Mobile aynı Wi-Fi'de açıkken okur.
 3. Bir sonraki ölçümü bekleyin. Yeniden bildirmeye başladığında ikinci bir bildirim alırsınız.
 
 
@@ -114,14 +114,14 @@ Yerel ağınızdaki ekipmana o ağda ulaşılabilmelidir. Bir üretici hesabı �
 Bu akvaryumda şu anda hiçbir şey Red Sea ekipmanınızı okumuyor, bu yüzden ekrandaki ölçümler yenilenmiyor.
 
 1. **Ayarlar**'ı, akvaryumu, ardından **Birincil Cora Max**'i açın. Bir Cora Max'in ayarlı olduğunu ya da **Aktif olan herhangi biri (otomatik)**'in seçili olduğunu kontrol edin.
-2. Cora Max'iniz yoksa telefonunuz Red Sea ekipmanıyla aynı Wi-Fi'dayken akvaryumu Cora Mobile'da açın.
+2. Cora Max'iniz yoksa telefonunuz Red Sea ekipmanıyla aynı Wi-Fi'deyken akvaryumu Cora Mobile'da açın.
 3. Red Sea ekipmanının kendi uygulamasında açık ve çevrimiçi olduğunu kontrol edin.
 
 ### Bazı ReefBeat ayarları soluk görünüyor ya da yok {#some-reefbeat-settings-are-greyed-out-or-missing}
 
-Bu normaldir. Bir Red Sea cihazının kendi ayarları yalnızca telefonunuz cihazla aynı ağdayken açılır. O ağdan uzaktayken yalnızca ölçümleri görürsünüz.
+Bu normaldir. Bir Red Sea cihazının kendi ayarları yalnızca telefonunuz cihazla aynı ağdayken açılır. O ağdan uzaktayken ölçümleri görürsünüz ve akvaryumda bir Cora Max varsa komutlar yine onun üzerinden gider. Cihazın kendi ayarları kullanılamaz kalır.
 
-1. O ayarları değiştirmek için akvaryumun Wi-Fi'ına katılın.
+1. O ayarları değiştirmek için akvaryumun Wi-Fi'sine katılın.
 2. Siz uzaktayken ölçümler ve geçmiş çalışmaya devam eder.
 
 
@@ -175,15 +175,9 @@ Cora Max bunu Apex'inize ulaşmanın hiçbir yolu olmadığında ve akvaryumdaki
 
 Telefonunuzda **Besle** yalnızca Neptune Apex'i olan bir akvaryumda görünür ve Apex'te programlanmış besleme döngülerinden birini başlatır.
 
-- *"Bu akvaryumdaki hiçbir Cora Apex'e ulaşamıyor ve siz onun ağında değilsiniz."* Apex'in Wi-Fi'ına katılın ya da akvaryuma bir Cora Max eşleştirin.
+- *"Bu akvaryumdaki hiçbir Cora Apex'e ulaşamıyor ve siz onun ağında değilsiniz."* Apex'in Wi-Fi'sine katılın ya da akvaryuma bir Cora Max eşleştirin.
 - *"Apex yanıt vermedi ama zaten besleme yapıyor olabilir."* Tekrar denemeden önce kontrolörü kontrol edin.
 
-### Bir doz yarıda durdu ve bir "geri yükleme" uyarısı çıktı {#a-dose-stopped-partway-through-and-a-restore-alert-appeared}
-
-DŌS kafası doz sırasında bağlantıyı kaybetti. Cora, dozun tamamının gittiğini varsaymak zorunda kalmamak için size bunu söyler.
-
-1. Uyarıyı açın ve durmadan önce ne kadar dozlandığını kontrol edin.
-2. Dozu sürdürmeye mi yoksa ayarlamaya mı karar vermek için o miktarı kullanın.
 
 ## Cora Max {#cora-max}
 
@@ -202,7 +196,7 @@ Cora Mobile'da **Ayarlar → Otomasyonlar**'ı açın ve **Bir cihaz çevrimdı�
 
 ### Cora Max eşleştirme başarısız oluyor {#pairing-a-cora-max-fails}
 
-Cora Mobile yeni bir Cora Max'i Bluetooth üzerinden bulur, sonra ona Wi-Fi'ınızı verir. Başlamadan önce Cora Mobile'da en az bir akvaryumunuz olsun, Bluetooth açık olsun ve telefonunuz ekranın yakınında olsun. Eşleştirme yarıda durursa Cora Mobile size nedenini, altında **İptal** ve **Tekrar dene** ile söyler.
+Cora Mobile yeni bir Cora Max'i Bluetooth üzerinden bulur, sonra ona Wi-Fi'nizi verir. Başlamadan önce Cora Mobile'da en az bir akvaryumunuz olsun, Bluetooth açık olsun ve telefonunuz ekranın yakınında olsun. Eşleştirme yarıda durursa Cora Mobile size nedenini, altında **İptal** ve **Tekrar dene** ile söyler.
 
 - *"Bluetooth kapalı. Açın, ardından tekrar Tara'ya dokunun."* Bluetooth'u açın ve yeniden tarayın.
 - *"Cora için Bluetooth izni kapalı. Ayarlar'dan etkinleştirin, ardından tekrar Tara'ya dokunun."* Telefonunuzun ayarlarında Cora için Bluetooth'a izin verin. Cora Mobile'daki **Ayarlar → Cihaz erişimi** sizi oraya götürür.
@@ -217,7 +211,7 @@ Diğer her mesaj için **Tekrar dene**'ye dokunun. Kurulumun tamamı [Cora Max'i
 
 Üst çubuktaki durum etiketine bakın. **Çevrimiçi** ve **Bulut** ikisi de sorunsuzdur. Birden fazla Cora Max'iniz varsa veriyi toplamayan **Bulut** gösterir ve ölçümleri aynı derecede günceldir. **Eski** ya da **Çevrimdışı**, Cora Max'in kaynağını kaybettiği ve aldığı son veriyi gösterdiği anlamına gelir.
 
-- **Ayarlar → Cora Max Ayarları → Wi-Fi** altından Wi-Fi'ı kontrol edin.
+- **Ayarlar → Cora Max Ayarları → Wi-Fi** altından Wi-Fi'yi kontrol edin.
 - Ağınızın kendisinin çalıştığını kontrol edin.
 - Etikette **Çevrimiçi** ya da **Bulut** yazıyor ve veri yine de eskiyse sorun Cora Max'ten öncedir. Aynı akvaryumu telefonunuzda kontrol edin.
 
@@ -248,7 +242,7 @@ Bu arada ölçümleriniz Cora Max'te görünmeye devam eder. Yalnızca çözüm 
 
 Bu akvaryumun Birincil Cora Max'i çevrimdışı oldu. Bu ekran aldığı son veriyi gösteriyor, bu yüzden canlı değil.
 
-1. Birincil Cora Max'in elektriğini ve Wi-Fi'ını kontrol edin.
+1. Birincil Cora Max'in elektriğini ve Wi-Fi'sini kontrol edin.
 2. Yeniden bağlanmasını bekleyin ya da **Birincil Cora Max**'i çevrimiçi olan bir cihaza değiştirin.
 
 ### Cora Max bir Wi-Fi kesintisinden sonra hemen yeniden bağlanmıyor {#cora-max-wont-reconnect-right-away-after-a-wi-fi-outage}

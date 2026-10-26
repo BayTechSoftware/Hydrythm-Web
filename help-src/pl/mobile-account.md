@@ -18,7 +18,7 @@ Zacznij od sytuacji, która pasuje do tego, co widzisz.
 - *Cora mówi, że ten adres ma już konto z innym sposobem logowania.* Za pierwszym razem rejestracja odbyła się inaczej. Zaloguj się tak jak za pierwszym razem: e-mailem i hasłem, przez Google albo przez Apple.
 - *Udało się zalogować, ale nie ma akwariów.* Prawdopodobnie jesteś na drugim, pustym koncie. Dzieje się tak, gdy inny sposób logowania używa innego adresu, na przykład **Ukryj mój adres e-mail** od Apple albo innego konta Google. Akwaria nie zniknęły. Wyloguj się i zaloguj tak jak za pierwszym razem.
 - *Cora mówi, że było za dużo prób logowania.* Odczekaj kilka minut albo dotknij **Nie pamiętasz hasła?**, żeby zresetować hasło i zalogować się od razu.
-- *Cora mówi, że konto zostało wyłączone.* Komunikat podaje adres, na który trzeba napisać. Napisz na niego z adresu użytego przy rejestracji, a konto zostanie przywrócone.
+- *Cora mówi, że konto zostało wyłączone.* Komunikat podaje adres, na który trzeba napisać. Napisz na niego z adresu użytego przy rejestracji, żeby poprosić o przywrócenie konta.
 - *Logowanie w ogóle nie rusza.* Najpierw zaznacz **Akceptuję: Warunki korzystania i Polityka prywatności**. Wymaga tego każdy sposób logowania.
 
 ## Sposoby logowania {#ways-to-sign-in}

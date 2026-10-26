@@ -178,7 +178,7 @@
 <aside class="cal cal-tip"><p class="cal-t">Puoi modificarla anche dal telefono</p><p>In Cora Mobile, apri la scheda <strong>Dispositivi</strong>, tocca il tuo Cora Max, poi tocca <strong>Layout dashboard</strong> sulla scheda della vasca. È più veloce che sistemare i riquadri a mano su uno schermo a parete, e il risultato compare su Cora Max appena salvi.</p></aside>
 <h2 id="choosing-a-grid">Scegliere una griglia</h2>
 <p>Scegli prima la dimensione della griglia. Cambiarla dopo sposta tutti i riquadri.</p>
-<div class="tw"><table class="stack"><thead><tr><th>Griglia</th><th>Riquadri</th><th>Come risulta</th></tr></thead><tbody><tr><td data-th="Griglia">2×2, 3×2, 3×3</td><td data-th="Riquadri">4–9</td><td data-th="Come risulta">Grande. Facile da leggere dall'altra parte della stanza.</td></tr><tr><td data-th="Griglia">4×4, 5×3, 6×4</td><td data-th="Riquadri">16–24</td><td data-th="Come risulta">La scelta abituale per un impianto completo.</td></tr><tr><td data-th="Griglia">6×5, 8×4, 8×5</td><td data-th="Riquadri">30–40</td><td data-th="Come risulta">Fitta. Un'intera stanza dell'acquario in una schermata.</td></tr><tr><td data-th="Griglia">9×5, 10×5</td><td data-th="Riquadri">45–50</td><td data-th="Come risulta">Molto fitta. Rende meglio sugli schermi più grandi.</td></tr><tr><td data-th="Griglia"><strong>Auto</strong></td><td data-th="Riquadri">fino a 32</td><td data-th="Come risulta">Cora sceglie una forma adatta a quanti riquadri hai aggiunto.</td></tr></tbody></table></div>
+<div class="tw"><table class="stack"><thead><tr><th>Griglia</th><th>Riquadri</th><th>Come risulta</th></tr></thead><tbody><tr><td data-th="Griglia">2×2, 3×2, 3×3</td><td data-th="Riquadri">4–9</td><td data-th="Come risulta">Grande. Facile da leggere dall'altra parte della stanza.</td></tr><tr><td data-th="Griglia">4×4, 5×3, 6×4</td><td data-th="Riquadri">15–24</td><td data-th="Come risulta">La scelta abituale per un impianto completo.</td></tr><tr><td data-th="Griglia">6×5, 8×4, 8×5</td><td data-th="Riquadri">30–40</td><td data-th="Come risulta">Fitta. Un'intera stanza dell'acquario in una schermata.</td></tr><tr><td data-th="Griglia">9×5, 10×5</td><td data-th="Riquadri">45–50</td><td data-th="Come risulta">Molto fitta. Rende meglio sugli schermi più grandi.</td></tr><tr><td data-th="Griglia"><strong>Auto</strong></td><td data-th="Riquadri">fino a 32</td><td data-th="Come risulta">Cora sceglie una forma adatta a quanti riquadri hai aggiunto.</td></tr></tbody></table></div>
 <p>Una griglia fissa contiene tanti riquadri quante celle ha, fino a 50 su 10×5. <strong>Auto</strong> ha un suo limite di 32 riquadri. Oltre, il testo diventa troppo piccolo da leggere a distanza.</p>
 <aside class="cal cal-note"><p class="cal-t">Non sei sicuro? Parti da Auto</p><p>Aggiungi i riquadri che vuoi e lascia la griglia su <strong>Auto</strong>. Cora sceglie una forma adatta. Se ti piace, puoi passare dopo a quella forma fissa.</p></aside>
 <aside class="cal cal-warning"><p class="cal-t">Cambiare la griglia toglie riquadri solo quando non ci stanno</p><p>Quando cambi la griglia, Cora non butta via i riquadri in base alla posizione. I riquadri che hanno ancora una cella valida restano dove sono, e gli altri vengono risistemati in ordine. Perdi riquadri solo quando la nuova griglia ha <strong>meno celle dei riquadri che hai</strong>, e Cora ti dice quanti sono andati persi. Passare da 10×5 (50 celle) a 3×3 (9) ne fa perdere la maggior parte.</p></aside>
@@ -208,7 +208,7 @@
 <h2 id="multiple-tanks">Più vasche</h2>
 <p>Ogni vasca ha il suo layout. Passa a quella vasca e apri <strong>Layout dashboard</strong> dal suo menu della vasca, oppure usa <strong>Impostazioni → [quella vasca] → Layout dashboard</strong>.</p>
       <nav class="pn" aria-label="Continua a leggere"><a class="pn-p" href="/it/help/max-reef-room"><span>Precedente</span><b>La Reef Room</b></a><a class="pn-n" href="/it/help/max-controls"><span>Successivo</span><b>Prese e comandi</b></a></nav>
-      <p class="stamp">Scritto per Cora Max 0.28.238 e Cora Mobile 1.4.14. Ultimo controllo il 2026-10-18.</p>
+      <p class="stamp">Scritto per Cora Max 0.28.240 e Cora Mobile 1.4.16. Ultimo controllo il 2026-10-18.</p>
       <p class="ask">Ancora bloccato? Scrivi a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, ti aiutiamo.</p>
     </article>
   </main>
@@ -599,7 +599,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/it/help/search.json?v=251de7c448').then(function (r) { return r.json(); })
+    fetch('/it/help/search.json?v=6ecfe81ff8').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "it"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La ricerca non \u00e8 disponibile. Usa la navigazione." + '</li>';

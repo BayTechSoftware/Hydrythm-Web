@@ -25,8 +25,8 @@ Elige primero el tamaño de la cuadrícula. Cambiarlo después mueve todas las t
 | Cuadrícula | Tarjetas | Cómo se ve |
 |---|---|---|
 | 2×2, 3×2, 3×3 | 4–9 | Grande. Fácil de leer desde el otro lado de la habitación. |
-| 4×4, 5×3, 6×4 | 16–24 | La opción habitual para un sistema completo. |
-| 6×5, 8×4, 8×5 | 30–40 | Densa. Todo un cuarto de acuarios en una pantalla. |
+| 4×4, 5×3, 6×4 | 15–24 | La opción habitual para un sistema completo. |
+| 6×5, 8×4, 8×5 | 30–40 | Densa. Toda una sala de acuarios en una pantalla. |
 | 9×5, 10×5 | 45–50 | Muy densa. Mejor en las pantallas más grandes. |
 | **Auto** | hasta 32 | Cora elige una forma que encaje con las tarjetas que hayas añadido. |
 

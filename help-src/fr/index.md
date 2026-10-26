@@ -52,7 +52,7 @@ Même si vous avez acheté Cora Max, [configurez d’abord vos aquariums et vos 
 
 **Cora Mobile** est l’application pour téléphone. Vous y configurez presque tout (aquariums, appareils, tableaux de bord, alertes, produits de dosage), et c’est elle que vous emportez quand vous êtes loin de l’aquarium. Sur votre écran d’accueil, son icône s’appelle **Cora**.
 
-**Cora Max** est l’écran mural de la pièce du récif. Il affiche les mêmes aquariums et les mêmes données en direct, assez grand pour être lu depuis l’autre bout de la pièce, lit votre équipement jour et nuit, et vous pouvez lui parler.
+**Cora Max** est l’écran mural de la salle du récif. Il affiche les mêmes aquariums et les mêmes données en direct, assez grand pour être lu depuis l’autre bout de la pièce, lit votre équipement jour et nuit, et vous pouvez lui parler.
 
 Les deux utilisent le même compte : vos aquariums, mesures, appareils et suivis sont donc les mêmes des deux côtés. Chaque écran garde sa propre disposition de tableau de bord, et le Wi-Fi, la luminosité, le son, le mot d’activation et le verrouillage enfant d’un Cora Max ne concernent que cet écran. Plus de détails dans [Plus d’un appareil Cora](/help/mobile-multi-device).
 
@@ -74,7 +74,7 @@ Chaque mesure indique sa source et son âge. Si deux sources ne sont pas d’acc
 
 | Thème | Pages |
 |---|---|
-| Premiers pas | [Configurer Cora Max](/help/max-setup) · [L’écran d’accueil de Cora Max](/help/max-tour) · [La pièce du récif](/help/max-reef-room) |
+| Premiers pas | [Configurer Cora Max](/help/max-setup) · [L’écran d’accueil de Cora Max](/help/max-tour) · [La salle du récif](/help/max-reef-room) |
 | Votre tableau de bord | [Modifier le tableau de bord Cora Max](/help/max-dashboard-editing) |
 | Équipement | [Prises et commandes](/help/max-controls) · [Contrôler l’équipement depuis Cora Max](/help/max-device-control) · [Appareils et état des appareils](/help/max-devices) |
 | Alertes et automatisation | [Alertes sur Cora Max](/help/max-alerts) · [Scènes sur Cora Max](/help/max-automation) |

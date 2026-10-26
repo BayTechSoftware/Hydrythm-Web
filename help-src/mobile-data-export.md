@@ -24,13 +24,13 @@ Cora exports **CSV files**. They're spreadsheets that open in Excel, Numbers, Go
 |---|---|
 | `cora_parameters.csv` | Your readings, each with its source and timestamp |
 | `cora_journal.csv` | Your journal entries |
-| `cora_alerts.csv` | Alerts raised |
+| `cora_alerts.csv` | Your notification history |
 | `cora_export_summary.csv` | What this export covers, including anything that was cut short |
 
 :::note What's in the export
 It covers **readings, journal entries and alerts**, the three records people ask for. It isn't a copy of your whole account. Dashboards, livestock, maintenance, automations, reports and device settings aren't included.
 
-Each of the three stops at **25,000 rows per tank**. A tank logging thirty metrics every five minutes writes more than that in three days, so a long-running tank will hit the cap. The summary file tells you when that's happened. Check it before you assume the export is complete.
+Readings and journal entries stop at **25,000 records per tank**, and the alerts file stops at 25,000 for the whole account. A tank with years of history can reach the cap. The summary file tells you when that's happened. Check it before you assume the export is complete.
 :::
 
 The parameter export includes the **source** of each reading. So in a spreadsheet of your alkalinity, you can still tell what your probe said from what your test kit said.
@@ -76,6 +76,6 @@ Removing a device forgets its sign-in. Deleting your account removes everything 
 
 - the anonymised research copy, if you left that switch on
 - your store subscription, which only the store can cancel
-- your customer record at our subscription management provider, which is deleted 120 days after your account so a store refund or payment dispute can still be handled
+- your customer record at our subscription management provider, which is deleted 120 days after your account is deleted so a store refund or payment dispute can still be handled
 
 Signing in again on another phone, or changing your sign-in, is covered in [Signing in and account recovery](/help/mobile-account). Plans and billing are in [Plans and subscriptions](/help/mobile-plans).

@@ -25,7 +25,7 @@ You add, assign and remove equipment on your phone. Cora Max shows it once your 
 | **Neptune Apex** | Probes and outlets, and you can switch each outlet |
 | **Trident** | Test state, reagent and waste levels, and a button to start a test |
 | **DŌS**, including the DŌS QD | Each head's dosing, schedule, runway and container volume (with pause, fill, dose now and a one-time twenty-second measure) |
-| **Red Sea ReefBeat** | Whatever the unit has: dosing heads, reservoir, roller days, pump mode, plus a full ReefDose plan editor and ReefMat settings |
+| **Red Sea ReefBeat** | Whatever the unit has: dosing heads, reservoir, roller days, pump mode |
 | **Jecod** | Pump mode and intensity, and its schedule |
 | **AquaWiz** | No page of its own. It's listed in **Devices**, and its readings go on the dashboard |
 
@@ -53,20 +53,13 @@ A DŌS has no level sensor and keeps dosing from an empty container. Set a refil
 
 ### What a head is used for {#what-a-head-is-used-for}
 
-In a head's settings sheet you can set its **use type**. The options are **Supplement**, **Water change: new saltwater in**, **Water change: old water out**, **Kalkwasser**, **Calcium reactor**, **Food** or **Top-off**, and **Other**. The use type changes two things.
+In a head's settings sheet you can set what it is **Used for**. The options are **Supplement**, **Water change: new saltwater in**, **Water change: old water out**, **Kalkwasser**, **Calcium reactor**, **Food** or **Top-off**, and **Other**. The use type changes two things.
 
 - How big a container it can track. Every use type can track a container of up to 1,000 litres. Above the Apex's own 150 litre counter, Cora tracks the volume itself, and Cora resets the Apex counter every 100 litres.
-- Whether it can take a large dose by hand. Supplement and Food heads keep today's small, careful ceiling. Every other use type can have its own **Largest dose by hand** limit, up to a hard ceiling of 10 litres, and its own **daily limit for automations and the Assistant**. A large hand dose also needs **Large doses** turned on in the head's settings, off by default. Turn it on only after you've watched the first large dose run at the tank.
+- Whether it can take a large dose by hand. Supplement and Food heads keep today's small, careful ceiling. Every other use type can have its own **Largest dose by hand** limit, up to a hard ceiling of 10 litres, and its own **daily limit for automations and the Assistant**.
 
 You can link a water-change pair (new saltwater in, old water out) as a **Paired head** and set a **Balance warning above** amount. If the two heads' totals for the day drift apart by more than that, Cora warns you. A pair that's out of balance usually means one side isn't pumping as it should.
 
-### If a large dose is interrupted {#if-a-large-dose-is-interrupted}
-
-A large dose changes what the head is doing on the Apex for a while, then puts its normal schedule back. If the connection drops partway through, Cora Max shows a banner on that head's page: *"A large dose on [head] did not finish cleanly. Cora keeps trying to put its program back; check it in Apex Fusion."*
-
-Check the head in Apex Fusion yourself, then tap **I checked the head in Fusion** to clear the banner. Only do this once you've confirmed that the head's own schedule is running, not Cora's dosing program.
-
-If the banner won't clear, or keeps coming back, have a look at [Troubleshooting](/help/troubleshooting).
 
 ## Red Sea ReefBeat {#red-sea}
 
@@ -74,7 +67,6 @@ Each Red Sea unit has a page that fits what it does: ReefDose heads and containe
 
 If a Red Sea unit stops itself, its page tells you what's wrong and puts the fix right next to it. That's **Resume**, **Clear emergency**, **Sensor cleaned**, **I already loaded a new roll**, or **Reset** for a dosing head.
 
-A ReefDose plan and ReefMat's scheduled advance, model, position and New roll all work the same way here as on your phone. [Controlling your equipment](/help/mobile-device-control) has the detail.
 
 
 ## Jecod {#jecod}
@@ -99,7 +91,7 @@ AquaWiz lets Cora read its cloud only every 12 hours. To keep alkalinity current
 - It joins the controller's own Wi-Fi for a few seconds, reads the latest result, and goes straight back to your home Wi-Fi. Cora Max is offline for about 4 seconds while it does this.
 - Your home Wi-Fi password is never saved or sent anywhere by this.
 - Only the tank's main Cora Max does it. A second Cora Max on the same tank doesn't.
-- It waits while Cora Max is talking to you, updating, pairing or changing Wi-Fi, and tries again the next hour.
+- It waits while Cora Max is busy (talking to you, updating, pairing or changing Wi-Fi) and tries again every minute or two until the end of that hour. After that it waits for the next hour.
 - The controller must be within Wi-Fi range of the Cora Max, and its firmware must offer local access. If two reads in a row fail, Cora Max stops trying for the rest of the day and the 12-hour cloud reading carries on.
 
 A reading from Cora Max shows **Hourly from your Cora Max** on the phone's AquaWiz card. It also brings the water box level alerts described in [Alerts](/help/mobile-alerts#equipment-faults). Pump and pH probe alerts don't need a Cora Max.

@@ -131,7 +131,7 @@
 <summary>Primeros pasos</summary><ul>
 <li><a href="/es/help/max-setup">Configurar Cora Max</a></li>
 <li><a href="/es/help/max-tour">La pantalla de inicio de Cora Max</a></li>
-<li><a href="/es/help/max-reef-room">El cuarto de los acuarios</a></li>
+<li><a href="/es/help/max-reef-room">La sala del arrecife</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Tu panel</summary><ul>
@@ -189,11 +189,11 @@
 <h2 id="informes-de-errores-automaticos">Informes de errores automáticos</h2>
 <p><strong>Enviar informes de errores</strong>, en <strong>Ayuda y soporte</strong> debajo de la fila de informes, hace lo mismo sin que tengas que darte cuenta del fallo ni escribir nada. Si Cora Mobile se detiene o una pantalla no carga, envía los detalles técnicos. No incluye datos del acuario, fotos ni datos de la cuenta. Consulta <a href="/es/help/mobile-settings#getting-help">Ajustes de Cora Mobile</a>.</p>
 <h2 id="escribir-al-soporte">Escribir al soporte</h2>
-<p><strong>Ajustes → Ayuda y soporte → Contactar soporte</strong> abre un correo a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> con tu versión de Cora Mobile ya incluida. Solemos responder en un día. Si tu teléfono no tiene app de correo, escribe a esa dirección desde cualquier cuenta de correo.</p>
+<p><strong>Ajustes → Ayuda y soporte → Contactar soporte</strong> abre un correo a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> con tu versión de Cora Mobile y el sistema operativo de tu teléfono ya incluidos. Solemos responder en un día. Si tu teléfono no tiene app de correo, escribe a esa dirección desde cualquier cuenta de correo.</p>
 <h2 id="otras-opciones">Otras opciones</h2>
 <ul><li>Si tienes una pregunta sobre tu propio acuario, suele ser más rápido preguntar a <a href="/es/help/mobile-assistant">Cora Assistant</a>, que puede ver tus lecturas.</li><li>Si algo no funciona como dice esta guía, mira primero <a href="/es/help/troubleshooting">Solución de problemas</a>.</li><li>Para una pregunta de facturación, consulta <a href="/es/help/mobile-plans">Planes y suscripciones</a>.</li></ul>
       <nav class="pn" aria-label="Seguir leyendo"><a class="pn-p" href="/es/help/mobile-data-export"><span>Anterior</span><b>Exportar tus datos y eliminar tu cuenta</b></a></nav>
-      <p class="stamp">Escrito para Cora Max 0.28.238 y Cora Mobile 1.4.14. Última revisión el 2026-10-13.</p>
+      <p class="stamp">Escrito para Cora Max 0.28.240 y Cora Mobile 1.4.16. Última revisión el 2026-10-13.</p>
       <p class="ask">¿Sigues atascado? Escribe a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> y te ayudamos.</p>
     </article>
   </main>
@@ -584,7 +584,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/es/help/search.json?v=9384433ffe').then(function (r) { return r.json(); })
+    fetch('/es/help/search.json?v=1d5700fe42').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "es"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La b\u00fasqueda no est\u00e1 disponible. Usa la navegaci\u00f3n." + '</li>';

@@ -22,7 +22,7 @@ Ve a Ajustes → tu acuario → **Modo vacaciones**. Si tienes más de un acuari
 
 Cada tarea muestra cada cuánto hay que hacerla, por ejemplo **Diaria**, **Cada 3 días**, **Una vez** o **Siempre** (una instrucción fija). Cora lo calcula a partir de la tarea de mantenimiento o de la sugerencia. Una tarea que escribes tú no lleva etiqueta, así que pon la frecuencia en el propio texto.
 
-Escribe la lista pensando en alguien que no sabe nada de acuarios de arrecife. Di cantidades y cómo hacer las cosas. "Alimenta con un cubo de comida congelada, ya descongelado, una vez al día" se entiende mucho mejor que "alimenta como siempre".
+Escribe la lista pensando en alguien que no sabe nada de acuarios de arrecife. Di cantidades y cómo hacer las cosas. "Alimenta con un cubito de comida congelada, descongelado, una vez al día" se entiende mucho mejor que "alimenta como siempre".
 
 :::note Di qué no se toca
 Añade una tarea para cualquier equipo que el cuidador no deba tocar, por ejemplo "No cambies nada en el controlador". Ponlo también en las notas.

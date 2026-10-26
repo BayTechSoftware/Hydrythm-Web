@@ -25,8 +25,8 @@ Sprzęt dodajesz, przypisujesz i usuwasz w telefonie. Cora Max pokazuje go, gdy 
 | **Neptune Apex** | Sondy i gniazda. Każde gniazdo możesz przełączać |
 | **Trident** | Stan testu, poziom odczynników i odpadów oraz przycisk uruchomienia testu |
 | **DŌS**, w tym DŌS QD | Dozowanie każdej głowicy, harmonogram, zapas i objętość pojemnika (z pauzą, napełnianiem, dawką od razu i jednorazowym dwudziestosekundowym pomiarem) |
-| **Red Sea ReefBeat** | To, co ma urządzenie: głowice dozujące, zbiornik, dni rolki, tryb pompy, a także pełny edytor planu ReefDose oraz ustawienia ReefMat |
-| **Jecod** | Tryb i intensywność pompy oraz jej program dnia |
+| **Red Sea ReefBeat** | To, co ma urządzenie: głowice dozujące, zbiornik, dni rolki, tryb pompy |
+| **Jecod** | Tryb i intensywność pompy oraz jej harmonogram |
 | **AquaWiz** | Nie ma własnej strony. Jest na liście w **Urządzenia**, a jego odczyty trafiają na panel |
 
 Większość stron urządzeń ma ołówek do zmiany nazwy urządzenia. Nowa nazwa pojawia się też w telefonie. Więcej w [Urządzeniach i ich stanie](/help/max-devices).
@@ -53,20 +53,13 @@ DŌS nie ma czujnika poziomu i dozuje dalej z pustego pojemnika. Ustaw alert uzu
 
 ### Do czego służy głowica {#what-a-head-is-used-for}
 
-W arkuszu ustawień głowicy możesz ustawić, do czego jest **Używana do**. Możliwości to **Suplement**, **Podmiana wody: nowa słona woda wchodzi**, **Podmiana wody: stara woda wychodzi**, **Kalkwasser**, **Reaktor wapniowy**, **Pokarm** albo **Dolewka** oraz **Inne**. Przeznaczenie zmienia dwie rzeczy.
+W arkuszu ustawień głowicy możesz ustawić jej przeznaczenie w polu **Używana do**. Możliwości to **Suplement**, **Podmiana wody: nowa słona woda wchodzi**, **Podmiana wody: stara woda wychodzi**, **Kalkwasser**, **Reaktor wapniowy**, **Pokarm** albo **Dolewka** oraz **Inne**. Przeznaczenie zmienia dwie rzeczy.
 
 - Jak duży pojemnik głowica może śledzić. Przy każdym przeznaczeniu głowica może śledzić pojemnik do 1000 litrów. Powyżej własnego licznika Apex, który liczy do 150 litrów, Cora sama śledzi objętość i co 100 litrów zeruje licznik Apex.
-- Czy głowica może podać ręcznie dużą dawkę. Głowice Suplement i Pokarm zachowują dotychczasowy mały, ostrożny limit. Każde inne przeznaczenie może mieć własny limit **Największa dawka ręczna**, do twardej granicy 10 litrów, i własny **Dzienny limit dla automatyzacji i Asystenta**. Duża dawka ręczna wymaga też włączenia **Duże dawki** w ustawieniach głowicy, domyślnie wyłączonego. Włącz je dopiero wtedy, gdy obejrzysz przy akwarium pierwszą dużą dawkę.
+- Czy głowica może podać ręcznie dużą dawkę. Głowice Suplement i Pokarm zachowują dotychczasowy mały, ostrożny limit. Każde inne przeznaczenie może mieć własny limit **Największa dawka ręczna**, do twardej granicy 10 litrów, i własny **Dzienny limit dla automatyzacji i Asystenta**.
 
 Parę głowic do podmiany wody (nowa słona woda wchodzi, stara wychodzi) możesz połączyć jako **Sparowana głowica** i ustawić wartość **Ostrzeżenie o równowadze powyżej**. Jeśli dzienne sumy obu głowic rozjadą się bardziej niż o tę wartość, Cora Cię ostrzeże. Para bez równowagi zwykle oznacza, że jedna strona nie pompuje tak, jak powinna.
 
-### Gdy duża dawka zostanie przerwana {#if-a-large-dose-is-interrupted}
-
-Duża dawka na jakiś czas zmienia to, co głowica robi na Apex, a potem przywraca jej zwykły harmonogram. Jeśli w trakcie połączenie się zerwie, Cora Max pokaże na stronie tej głowicy baner: *„Duża dawka na [głowica] nie zakończyła się poprawnie. Cora wciąż próbuje przywrócić jej program: sprawdź to w Apex Fusion.”*
-
-Samodzielnie sprawdź głowicę w Apex Fusion, a potem dotknij **Głowicę sprawdzono w Fusion**, żeby usunąć baner. Zrób to dopiero wtedy, gdy potwierdzisz, że działa własny harmonogram głowicy, a nie program dozowania Cory.
-
-Jeśli baner nie znika albo ciągle wraca, zajrzyj do [Rozwiązywania problemów](/help/troubleshooting).
 
 ## Red Sea ReefBeat {#red-sea}
 
@@ -74,7 +67,6 @@ Każde urządzenie Red Sea ma stronę dopasowaną do tego, co robi: głowice i p
 
 Jeśli urządzenie Red Sea samo się zatrzyma, jego strona mówi, co jest nie tak, i daje rozwiązanie tuż obok. To **Wznów**, **Usuń stan awaryjny**, **Czujnik wyczyszczony**, **Nowa rolka już załadowana** albo **Resetuj** dla głowicy dozującej.
 
-Plan ReefDose oraz zaplanowane przewijanie, model, pozycja i nowa rolka ReefMat działają tu tak samo jak w telefonie. Szczegóły są w [Sterowaniu sprzętem](/help/mobile-device-control).
 
 
 ## Jecod {#jecod}
@@ -99,7 +91,7 @@ AquaWiz pozwala Corze czytać swoją chmurę tylko co 12 godzin. Żeby alkaliczn
 - Na kilka sekund łączy się z własnym Wi-Fi kontrolera, czyta ostatni wynik i od razu wraca do Twojego domowego Wi-Fi. W tym czasie Cora Max jest offline przez około 4 sekundy.
 - Hasło do Twojego domowego Wi-Fi nigdy nie jest przy tym zapisywane ani nigdzie wysyłane.
 - Robi to tylko główny Cora Max akwarium. Drugi Cora Max przy tym samym akwarium nie.
-- Czeka, gdy Cora Max rozmawia z Tobą, się aktualizuje, paruje albo zmienia Wi-Fi, i próbuje ponownie w następnej godzinie.
+- Czeka, gdy Cora Max jest zajęty (rozmawia z Tobą, aktualizuje się, paruje albo zmienia Wi-Fi), i próbuje ponownie co minutę lub dwie do końca tej godziny. Potem czeka na następną godzinę.
 - Kontroler musi być w zasięgu Wi-Fi Cora Max, a jego oprogramowanie musi umożliwiać dostęp lokalny. Jeśli dwa odczyty z rzędu się nie uda, Cora Max przestaje próbować do końca dnia, a odczyt z chmury co 12 godzin działa dalej.
 
 Odczyt z Cora Max pokazuje **Co godzinę z Twojego Cora Max** na karcie AquaWiz w telefonie. Przynosi też alerty poziomu w pojemniku z wodą opisane w [Alerty](/help/mobile-alerts#equipment-faults). Alerty pompy i sondy pH nie wymagają Cora Max.

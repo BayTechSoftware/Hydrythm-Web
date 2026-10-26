@@ -47,12 +47,12 @@ Dotknięcie ikony Cora Assistant zaczyna sesję głosową na żywo. Jeśli chodz
 | **Synchronizacja z chmurą nie powiodła się** | Apex odpowiedział, ale jego odczytów nie udało się zapisać w Cora Cloud, więc panel zostaje w tyle. Cora Max dalej próbuje |
 | **Zapis w chmurze odrzucony** | Cora Cloud odmawia zapisania części danych z tego ekranu. Z Twoim akwarium ani z Cora Max nic złego się nie dzieje i nic nie trzeba zmieniać na tym ekranie. Rozwiązaniem jest aktualizacja Cora Cloud. Otwórz **Ustawienia → Ustawienia Cora Max** i przewiń do sekcji **Stan**, gdzie linia **Zapis w chmurze** mówi, których danych to dotyczy. Potem [skontaktuj się z pomocą techniczną](/support.html) |
 | **Offline** | Brak połączenia. Ekran pokazuje ostatnie dane, które dostał |
-| **Offline, ponowna próba za 45 s** | Sieć działa, ale Cora Cloud jest niedostępna od ponad 30 sekund. Cora Max połączy się ponownie sam, a odliczanie pokazuje, kiedy spróbuje następnym razem |
+| **Offline, ponowna próba za 30 s** | Sieć działa, ale Cora Cloud jest niedostępna od około 15 sekund. Cora Max połączy się ponownie sam, a odliczanie pokazuje, kiedy spróbuje następnym razem |
 | **Główne Cora offline** | Ten ekran to drugi Cora Max dla tego akwarium, a **Główne Cora Max** (to przypięte do odczytywania sprzętu tego akwarium) przeszło w tryb offline. Ten ekran pokazuje ostatnie dane, dopóki główne nie wróci albo nie wybierzesz innego Głównego Cora Max. Więcej w [Więcej niż jedno urządzenie Cora](/help/mobile-multi-device) |
 | **Hasło Apex** | Twój Apex odrzucił zapisane hasło. Zajrzyj do [Rozwiązywania problemów](/help/troubleshooting) |
 
 :::note Jak działa odliczanie ponownych prób
-Cora Max próbuje połączyć się ponownie w stałym rytmie. Czeka około 15 sekund po pierwszym zerwaniu, potem znowu 15 sekund, potem dwa razy 30 sekund, a dalej raz na minutę, aż się uda. Nigdy się nie poddaje. **Offline, ponowna próba za 45 s** to normalny stan.
+Cora Max próbuje połączyć się ponownie w stałym rytmie. Czeka około 15 sekund po pierwszym zerwaniu, potem znowu 15 sekund, potem dwa razy 30 sekund, a dalej raz na minutę, aż się uda. Nigdy się nie poddaje. **Offline, ponowna próba za 30 s** to normalny stan.
 :::
 
 ## Pulpit {#the-dashboard}

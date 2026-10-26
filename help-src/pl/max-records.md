@@ -48,7 +48,7 @@ Ikona obok ikony urządzeń to **Reef Buddy**, a kropka przy niej oznacza, że d
 Góra ekranu mówi, ile zadań czeka. Pod nią **Nadchodzące** wymienia każde zadanie z oznaczeniem **DZIŚ**, **ZA 3d** albo **ZALEGŁE 2d**, a **Zakończone · ostatnie 7 dni** pokazuje, co ostatnio zrobiono.
 
 - Dotknij **Gotowe**, gdy skończysz zadanie. Jeśli jest po terminie, Cora pyta **Kiedy to zostało zrobione?** Cora dodaje też krótki wpis do Twojego [dziennika](/help/max-records#journal), z adnotacją, jeśli zadanie było po terminie.
-- Dotknij **Zrobione wcześniej…**, jeśli zrobiono to przed dzisiaj. Wybierz datę i godzinę, a następny termin liczy się od niej. Godzina z przyszłości ani wcześniejsza niż ostatnie wykonanie nie jest przyjmowana.
+- Dotknij **Zrobione wcześniej…**, jeśli zrobiono to wcześniej niż dziś. Wybierz datę i godzinę, a następny termin liczy się od niej. Godzina z przyszłości ani wcześniejsza niż ostatnie wykonanie nie jest przyjmowana.
 - Dotknij **Odłóż**, żeby przesunąć je o **1 dzień**, **3 dni**, **1 tydzień**, **2 tygodnie** albo **1 miesiąc**.
 
 Zadania dodajesz i zmieniasz na telefonie. Więcej w [Konserwacji](/help/mobile-maintenance).

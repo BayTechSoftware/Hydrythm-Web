@@ -80,7 +80,7 @@ Du bekommst eine Bewertung von 100 und eine verständliche Zusammenfassung desse
 
 Die Bewertung vergleicht deine Ergebnisse mit ihren Zielbereichen, auch mit Bereichen, die du selbst festgelegt hast. Liegt ein Ergebnis außerhalb seines Bereichs, kann die Bewertung nicht über 70 gehen und also nicht **Gesund** zeigen. Liegt eins weit außerhalb, kann sie nicht über 40 gehen, egal wie gut der Rest ist. Das Etikett unter der Bewertung zeigt **Gesund** von 71 bis 100, **Braucht Aufmerksamkeit** von 40 bis 70 und **Kritisch** von 0 bis 39. Gesundheitsberichte werden genauso bewertet.
 
-Jedes Element wird verfolgt, auch Spurenelemente und Schadstoffe neben den wichtigsten Wasserwerten. Cora erfasst alle 71 Elemente, die ein Labor melden kann, und die Zeile, die manche Labore *Acidity* nennen, ist der pH-Wert.
+Jedes Element wird verfolgt, auch Spurenelemente und Schadstoffe neben den wichtigsten Wasserwerten. Cora erfasst jedes Element und jeden Schadstoff, die ein Labor melden kann, und die Zeile, die manche Labore *Acidity* nennen, ist der pH-Wert.
 
 In jeder Elementzeile siehst du den Bereich, den das Labor gedruckt hat, als *Laborbereich*, neben dem eigenen Bereich von Cora für dieses Element. Ein Element, für das Cora keinen Referenzbereich hat, trägt das Etikett **Kein Cora-Bereich**. Der Bericht sagt, wie viele Elemente einen Cora-Bereich haben, und bewertet den Rest nach allgemeinem Riffwissen. Cora Assistant kommentiert jedes getestete Element, und sein Kommentar gilt auch, wenn es keinen Cora-Bereich gibt.
 

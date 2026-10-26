@@ -13,7 +13,7 @@ I widget si aggiungono e si dispongono nell'[editor della dashboard](/help/mobil
 
 ![Il pannello delle impostazioni di un widget in Cora Mobile](img/mobile-widget-config.webp "La metà inferiore delle impostazioni di un widget: parametro, larghezza, altezza e intervallo di tempo, poi Rimuovi e Fatto.")
 
-## I quindici tipi {#the-fifteen-types}
+## I tipi di widget {#the-widget-types}
 
 | Tipo | Cosa mostra |
 |---|---|

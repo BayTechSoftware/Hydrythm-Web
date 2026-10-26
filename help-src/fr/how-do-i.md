@@ -67,7 +67,7 @@ Choisissez la tâche que vous voulez faire. Chaque lien ouvre les étapes corres
 - [Recevoir la même alerte moins souvent](/help/mobile-alerts#cooldowns)
 - [Choisir quelles notifications arrivent sur mon téléphone](/help/mobile-notifications)
 - [Couper les notifications la nuit](/help/mobile-notifications#quiet-at-night)
-- [Mettre une alerte en sourdine sur Cora Max](/help/max-alerts)
+- [Reporter une alerte sur Cora Max](/help/max-alerts)
 - [Réparer des notifications qui n’arrivent pas](/help/troubleshooting#im-not-getting-notifications)
 - [Effacer une alerte qui ne disparaît pas](/help/troubleshooting#an-alert-is-not-clearing)
 - [Créer une automatisation](/help/mobile-automation)

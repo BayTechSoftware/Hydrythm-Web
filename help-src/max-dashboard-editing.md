@@ -25,7 +25,7 @@ Pick the grid size first. Changing it later moves all the tiles around.
 | Grid | Tiles | Feels like |
 |---|---|---|
 | 2×2, 3×2, 3×3 | 4–9 | Large. Easy to read from across the room. |
-| 4×4, 5×3, 6×4 | 16–24 | The usual choice for a full system. |
+| 4×4, 5×3, 6×4 | 15–24 | The usual choice for a full system. |
 | 6×5, 8×4, 8×5 | 30–40 | Dense. A whole reef room on one screen. |
 | 9×5, 10×5 | 45–50 | Very dense. Best on the largest screens. |
 | **Auto** | up to 32 | Cora picks a shape that fits however many tiles you've added. |

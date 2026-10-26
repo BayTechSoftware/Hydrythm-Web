@@ -21,7 +21,7 @@ La scheda mostra nome, età e tipo della vasca e il numero di animali, più il p
 
 ## Scegliere cosa mostrare {#choosing-what-appears}
 
-**Parametri sulla scheda** mostra un'etichetta per ogni parametro con letture nell'ultima settimana. Tocca le etichette per aggiungerle o toglierle. **Seleziona tutto** le attiva tutte, e quando sono tutte attive il pulsante diventa **Ripristina**, che torna alla scelta iniziale. Tre o quattro rendono al meglio. Con di più la scheda diventa affollata. La scheda ne tiene sempre almeno uno.
+**Parametri sulla scheda** mostra un'etichetta per ogni parametro con letture nell'ultima settimana. Tocca le etichette per aggiungerle o toglierle. **Seleziona tutto** le attiva tutte, e quando sono tutte attive il pulsante diventa **Ripristina**, che torna alla scelta iniziale. Tre o quattro rendono al meglio. Con più di quattro la scheda diventa affollata. La scheda ne tiene sempre almeno uno.
 
 Questo telefono si ricorda la tua scelta per quella vasca la volta successiva.
 

@@ -25,7 +25,7 @@ Wähl zuerst die Rastergröße. Änderst du sie später, verschieben sich alle K
 | Raster | Kacheln | So wirkt es |
 |---|---|---|
 | 2×2, 3×2, 3×3 | 4–9 | Groß. Quer durch den Raum gut lesbar. |
-| 4×4, 5×3, 6×4 | 16–24 | Die übliche Wahl für ein komplettes System. |
+| 4×4, 5×3, 6×4 | 15–24 | Die übliche Wahl für ein komplettes System. |
 | 6×5, 8×4, 8×5 | 30–40 | Dicht. Ein ganzer Riffraum auf einem Bildschirm. |
 | 9×5, 10×5 | 45–50 | Sehr dicht. Am besten auf den größten Bildschirmen. |
 | **Auto** | bis zu 32 | Cora wählt eine Form, die zur Zahl deiner Kacheln passt. |

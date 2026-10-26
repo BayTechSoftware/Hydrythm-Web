@@ -25,8 +25,8 @@ Ausrüstung fügst du auf dem Handy hinzu, weist sie dort zu und entfernst sie d
 | **Neptune Apex** | Sonden und Steckdosen, und du kannst jede Steckdose schalten |
 | **Trident** | Teststatus, Reagenz- und Abfallstand und eine Taste, um einen Test zu starten |
 | **DŌS**, auch der DŌS QD | Für jeden Kopf Dosierung, Zeitplan, Reichweite und Behältervolumen (mit Pausieren, Befüllen, Jetzt dosieren und einer einmaligen Messung über zwanzig Sekunden) |
-| **Red Sea ReefBeat** | Was das Gerät hat: Dosierköpfe, Nachfüllbehälter, Rollentage, Pumpenmodus, dazu ein vollständiger Editor für ReefDose-Plan und ReefMat-Einstellungen |
-| **Jecod** | Pumpenmodus und Intensität und ihr Tagesprogramm |
+| **Red Sea ReefBeat** | Was das Gerät hat: Dosierköpfe, Nachfüllbehälter, Rollentage, Pumpenmodus |
+| **Jecod** | Pumpenmodus und Intensität und ihr Zeitplan |
 | **AquaWiz** | Keine eigene Seite. Er steht unter **Geräte**, und seine Messwerte erscheinen auf dem Dashboard |
 
 Die meisten Geräteseiten haben einen Stift, um das Gerät umzubenennen. Der neue Name erscheint auch auf deinem Handy. Mehr dazu unter [Geräte und Gerätezustand](/help/max-devices).
@@ -53,20 +53,13 @@ Ein DŌS hat keinen Füllstandssensor und dosiert auch aus einem leeren Behälte
 
 ### Wofür ein Kopf verwendet wird {#what-a-head-is-used-for}
 
-In den Einstellungen eines Kopfes kannst du seinen **Verwendungstyp** festlegen. Die Optionen sind **Supplement**, **Wasserwechsel: neues Salzwasser rein**, **Wasserwechsel: altes Wasser raus**, **Kalkwasser**, **Calciumreaktor**, **Futter** oder **Nachfüllen** und **Andere**. Der Verwendungstyp ändert zwei Dinge.
+In den Einstellungen eines Kopfes legst du unter **Verwendet für** fest, wofür er genutzt wird. Die Optionen sind **Supplement**, **Wasserwechsel: neues Salzwasser rein**, **Wasserwechsel: altes Wasser raus**, **Kalkwasser**, **Calciumreaktor**, **Futter** oder **Nachfüllen** und **Andere**. Der Verwendungstyp ändert zwei Dinge.
 
 - Wie groß ein Behälter sein kann, den er verfolgt. Jeder Verwendungstyp kann einen Behälter mit bis zu 1.000 Litern verfolgen. Über dem eigenen 150-Liter-Zähler des Apex verfolgt Cora das Volumen selbst und setzt den Apex-Zähler alle 100 Liter zurück.
-- Ob er von Hand eine große Dosierung bekommen kann. Supplement- und Futter-Köpfe behalten die bisherige kleine, vorsichtige Obergrenze. Jeder andere Verwendungstyp kann eine eigene Grenze **Größte manuelle Dosierung** haben, bis zu einer festen Obergrenze von 10 Litern, und ein eigenes **Tageslimit für Automationen und den Assistant**. Eine große Handdosierung braucht außerdem **Große Dosierungen**, eingeschaltet in den Einstellungen des Kopfes, standardmäßig aus. Schalte es erst ein, nachdem du die erste große Dosierung am Becken beobachtet hast.
+- Ob er von Hand eine große Dosierung bekommen kann. Supplement- und Futter-Köpfe behalten die bisherige kleine, vorsichtige Obergrenze. Jeder andere Verwendungstyp kann eine eigene Grenze **Größte manuelle Dosierung** haben, bis zu einer festen Obergrenze von 10 Litern, und ein eigenes **Tageslimit für Automationen und den Assistant**.
 
-Zwei Köpfe für den Wasserwechsel (neues Salzwasser rein, altes Wasser raus) kannst du als **Gekoppelter Kopf** verbinden und eine Menge für **Ausgleichswarnung ab** festlegen. Weichen die Tagessummen der beiden Köpfe um mehr als das voneinander ab, warnt Cora dich. Ein Paar außer Gleichgewicht heißt meist, dass eine Seite nicht pumpt, wie sie sollte.
+Zwei Köpfe für den Wasserwechsel (neues Salzwasser rein, altes Wasser raus) kannst du als **Gekoppelter Kopf** verbinden und eine Menge für **Ausgleichswarnung ab** festlegen. Weichen die Tagessummen der beiden Köpfe um mehr als das voneinander ab, warnt Cora dich. Ein Paar, das nicht im Gleichgewicht ist, heißt meist, dass eine Seite nicht pumpt, wie sie sollte.
 
-### Wenn eine große Dosierung unterbrochen wird {#if-a-large-dose-is-interrupted}
-
-Eine große Dosierung ändert eine Weile, was der Kopf am Apex tut, und stellt dann seinen normalen Zeitplan wieder her. Bricht die Verbindung mittendrin ab, zeigt Cora Max auf der Seite dieses Kopfes einen Hinweis: *"Eine große Dosierung an [Kopf] wurde nicht sauber abgeschlossen. Cora versucht weiterhin, sein Programm zurückzusetzen; prüfe es in Apex Fusion."*
-
-Prüf den Kopf selbst in Apex Fusion und tippe dann auf **Ich habe den Kopf in Fusion geprüft**, um den Hinweis zu schließen. Tu das erst, wenn du bestätigt hast, dass der eigene Zeitplan des Kopfes läuft und nicht das Dosierprogramm von Cora.
-
-Lässt sich der Hinweis nicht schließen oder kommt er immer wieder, schau in die [Problembehebung](/help/troubleshooting).
 
 ## Red Sea ReefBeat {#red-sea}
 
@@ -74,7 +67,6 @@ Jedes Red Sea-Gerät hat eine Seite, die zu dem passt, was es tut: ReefDose-Köp
 
 Stoppt sich ein Red Sea-Gerät selbst, sagt dir seine Seite, was los ist, und setzt die Lösung gleich daneben. Das ist **Fortsetzen**, **Notstopp aufheben**, **Sensor gereinigt**, **Ich habe bereits eine neue Rolle eingelegt** oder **Zurücksetzen** bei einem Dosierkopf.
 
-Ein ReefDose-Plan und beim ReefMat der geplante Vorschub, das Modell, die Position und Neue Rolle funktionieren hier genauso wie auf dem Handy. [Deine Ausrüstung steuern](/help/mobile-device-control) hat die Details.
 
 
 ## Jecod {#jecod}
@@ -86,7 +78,7 @@ Die Jecod-Seite zeigt Modus und Intensität der Pumpe, und du kannst beides änd
 
 Die Karte, die läuft, hat einen Rahmen und einen Chip **Läuft**. Eine Jecod-Pumpe hat keine Schaltfläche **Fütterung beenden**. Jede Jecod-Pumpe, die für die Fütterung pausieren kann, zeigt die Chips **5**, **10**, **15** und **30** Min. Bei einer Jecod Pro tut die Kachel Füttern in den Wellenmustern dasselbe, für 10 Minuten. Über ein Cora Max, das nicht am Becken ist, füttert eine Jecod-Pumpe nur 10 Minuten lang. Kann eine Pumpe gerade nicht füttern, steht der Grund in einer kurzen Zeile unter den Chips, und ein langer Druck zeigt den ganzen Satz. Eine vom Telefon gestartete Fütterung beendet auch das Cora Max: Läuft die Zeit ab, kehrt die Pumpe zu ihrem Programm zurück.
 
-Tagesprogramme für Jecod-Pumpen kannst du an der Wand genauso schreiben wie auf dem Handy. Der Editor ist derselbe, mit einer Tagesgrafik, einer Liste der Zeiträume und einer Reihe von Aktionen. Mehr dazu unter [Ausrüstung planen](/help/mobile-schedules).
+Zeitpläne für Jecod-Pumpen kannst du an der Wand genauso schreiben wie auf dem Handy. Der Editor ist derselbe, mit einer Tagesgrafik, einer Liste der Zeiträume und einer Reihe von Aktionen. Mehr dazu unter [Ausrüstung planen](/help/mobile-schedules).
 
 ## AquaWiz {#aquawiz}
 
@@ -99,7 +91,7 @@ AquaWiz lässt Cora seine Cloud nur alle 12 Stunden auslesen. Damit die Alkalini
 - Es verbindet sich für ein paar Sekunden mit dem eigenen WLAN des Controllers, liest das letzte Ergebnis und wechselt sofort zurück in dein Heim-WLAN. Dabei ist das Cora Max etwa 4 Sekunden offline.
 - Dein Heim-WLAN-Passwort wird dabei weder gespeichert noch irgendwohin gesendet.
 - Nur das Haupt-Cora-Max des Beckens macht das. Ein zweites Cora Max am selben Becken nicht.
-- Es wartet, solange das Cora Max mit dir spricht, aktualisiert, koppelt oder das WLAN wechselt, und versucht es in der nächsten Stunde wieder.
+- Es wartet, solange das Cora Max beschäftigt ist (es spricht mit dir, aktualisiert, koppelt oder wechselt das WLAN), und versucht es bis zum Ende dieser Stunde alle ein bis zwei Minuten erneut. Danach wartet es auf die nächste Stunde.
 - Der Controller muss in WLAN-Reichweite des Cora Max sein, und seine Firmware muss lokalen Zugriff bieten. Schlagen zwei Messungen hintereinander fehl, versucht das Cora Max es für den Rest des Tages nicht mehr, und die 12-Stunden-Messung aus der Cloud läuft weiter.
 
 Ein Messwert vom Cora Max zeigt auf der AquaWiz-Karte im Handy **Stündlich von deinem Cora Max**. Er bringt außerdem die Warnungen zum Wasserbox-Füllstand mit, die unter [Warnungen](/help/mobile-alerts#equipment-faults) beschrieben sind. Warnungen zu Pumpe und pH-Sonde brauchen kein Cora Max.

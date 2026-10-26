@@ -24,13 +24,13 @@ Cora eksportuje **pliki CSV**. To arkusze, które otworzysz w Excelu, Numbers, A
 |---|---|
 | `cora_parameters.csv` | Twoje odczyty, każdy ze źródłem i znacznikiem czasu |
 | `cora_journal.csv` | Twoje wpisy w dzienniku |
-| `cora_alerts.csv` | Zgłoszone alerty |
+| `cora_alerts.csv` | Twoja historia powiadomień |
 | `cora_export_summary.csv` | Co obejmuje ten eksport, w tym wszystko, co zostało ucięte |
 
 :::note Co jest w eksporcie
 Eksport obejmuje **odczyty, wpisy w dzienniku i alerty**, czyli trzy rodzaje zapisów, o które ludzie proszą. Nie jest kopią całego konta. Nie ma w nim paneli, obsady, konserwacji, automatyzacji, raportów ani ustawień urządzeń.
 
-Każdy z tych trzech plików kończy się na **25 000 wierszy na akwarium**. Akwarium, które co pięć minut zapisuje trzydzieści parametrów, przekroczy to w trzy dni, więc akwarium działające od dawna trafi na ten limit. Plik podsumowania powie Ci, kiedy tak się stało. Sprawdź go, zanim uznasz, że eksport jest kompletny.
+Odczyty i wpisy w dzienniku kończą się na **25 000 rekordów na akwarium**, a plik z powiadomieniami na 25 000 dla całego konta. Akwarium z wieloletnią historią może trafić na ten limit. Plik podsumowania powie Ci, kiedy tak się stało. Sprawdź go, zanim uznasz, że eksport jest kompletny.
 :::
 
 Eksport parametrów zawiera **źródło** każdego odczytu. W arkuszu z alkalicznością nadal odróżnisz więc, co podała sonda, a co test kropelkowy.
@@ -66,7 +66,7 @@ Jeśli logowanie było dawno, Cora może poprosić o potwierdzenie tożsamości,
 
 Gdy ten przełącznik jest włączony, historia parametrów akwarium jest zachowywana na potrzeby badań nad rafami, **bez żadnego powiązania z Tobą**. Dzieje się tak, gdy usuwasz akwarium i gdy usuwasz konto. Wyłącz go, a ta historia zostanie usunięta razem ze wszystkim innym.
 
-To osobna decyzja, niezależna od usunięcia konta. To jedyna część danych, która przetrwa konto, więc przemyśl ją. Przełącznik jest **domyślnie włączony**. Jeśli usuniesz konto bez sprawdzenia tego przełącznika, odpersonalizowana kopia zostanie.
+To osobna decyzja, niezależna od usunięcia konta. To jedyna część danych, która przetrwa konto, więc przemyśl ją. Przełącznik jest **domyślnie włączony**. Jeśli usuniesz konto bez sprawdzenia tego przełącznika, zanonimizowana kopia zostanie.
 
 ## Co przechowuje Cora
 
@@ -76,6 +76,6 @@ Usunięcie urządzenia sprawia, że Cora zapomina jego dane logowania. Usunięci
 
 - zanonimizowana kopia do badań, jeśli przełącznik został włączony
 - subskrypcja w sklepie, którą może anulować tylko sklep
-- Twój zapis klienta u naszego dostawcy zarządzania subskrypcjami, usuwany 120 dni po koncie, żeby nadal dało się obsłużyć zwrot w sklepie albo spór o płatność
+- Twój zapis klienta u naszego dostawcy zarządzania subskrypcjami, usuwany 120 dni po usunięciu konta, żeby nadal dało się obsłużyć zwrot w sklepie albo spór o płatność
 
 Ponowne logowanie na innym telefonie albo zmianę sposobu logowania opisuje [Logowanie i odzyskiwanie konta](/help/mobile-account). Plany i płatności są w [Planach i subskrypcjach](/help/mobile-plans).

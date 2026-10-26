@@ -192,7 +192,7 @@
 <aside class="cal cal-note"><p class="cal-t">Primary Cora Max and the Answering device are two separate settings</p><p>Primary Cora Max decides which device <strong>reads your equipment</strong>. The <strong>Answering device</strong> in Cora Mobile decides which one <strong>answers "Hey Cora"</strong>. If you have more than one Cora Max, you can set them separately. More in <a href="/help/max-voice">Talking to Cora</a>.</p></aside>
 <h2 id="if-a-tanks-readings-stop">If a tank's readings stop</h2>
 <p>If one tank's readings stop while another tank on the same screen keeps updating, start here.</p>
-<ol><li>Open <strong>Settings → [that tank] → Primary Cora Max</strong>. Check that a device is assigned and that it's online.</li><li>If another Cora Max for this tank shows <strong>Main Cora offline</strong> in its top bar, the primary has lost its connection. What the status tag means is explained in <a href="/help/max-tour#what-the-status-pill-means">The Cora Max home screen</a>.</li><li><strong>Settings → Cora Max Settings → Network &amp; Updates → Device polling</strong> shows how often this Cora Max reads your devices. You can only view it here. It's set from Cora Mobile.</li><li>Check the <strong>Status</strong> section of <strong>Settings → Cora Max Settings</strong>. It shows polling status, last poll time and last cloud write for each tank, without changing anything.</li></ol>
+<ol><li>Open <strong>Settings → [that tank] → Primary Cora Max</strong>. Check that a device is assigned and that it's online.</li><li>If another Cora Max for this tank shows <strong>Main Cora offline</strong> in its top bar, the primary has lost its connection. What the status tag means is explained in <a href="/help/max-tour#what-the-status-pill-means">The Cora Max home screen</a>.</li><li><strong>Settings → Cora Max Settings → NETWORK &amp; UPDATES → Device polling</strong> shows how often this Cora Max reads your devices. You can only view it here. It's set from Cora Mobile.</li><li>Check the <strong>Status</strong> section of <strong>Settings → Cora Max Settings</strong>. It shows polling status, last poll time and last cloud write for each tank, without changing anything.</li></ol>
 <p>If that doesn't help, have a look at <a href="/help/troubleshooting">Troubleshooting</a>.</p>
 <h2 id="managing-a-cora-max-from-your-phone">Managing a Cora Max from your phone</h2>
 <p>Open the <strong>Devices</strong> tab on your phone and tap the Cora Max. The top card shows its variant, firmware and when it was last seen. From there you can rename it, and when there's a new version, tap <strong>Update to v…</strong> to install it now. The <strong>Recovery PIN</strong> card sits just below.</p>
@@ -202,7 +202,7 @@
 <p>Under <strong>Tanks</strong>, each tank this Cora Max shows has a card with <strong>Dashboard layout</strong>, <strong>Edit tank</strong> and its polling device. <strong>Add Tank</strong> and the remove icon change which tanks it shows, and those changes apply to the whole account. You can only make them on your phone. The steps are in <a href="/help/max-setup#changing-which-tanks-it-shows">Setting up Cora Max</a>. Which device is the Primary Cora Max for a tank can be changed from either your phone or Cora Max.</p>
 <p>Under <strong>Reset</strong>, <strong>Reset display</strong> sends the screen back to its pairing screen. It stays on your Wi-Fi, so you can pair it again over Bluetooth, and your tank data is kept. <strong>Remove device</strong> takes it off your account. Your tank readings are kept, and you can pair it again later.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/max-device-control"><span>Previous</span><b>Controlling equipment from Cora Max</b></a><a class="pn-n" href="/help/max-alerts"><span>Next</span><b>Alerts on Cora Max</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.238 and Cora Mobile 1.4.14. Last checked 2026-10-17.</p>
+      <p class="stamp">Written for Cora Max 0.28.240 and Cora Mobile 1.4.16. Last checked 2026-10-17.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>
@@ -593,7 +593,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/help/search.json?v=5ca35b2a08').then(function (r) { return r.json(); })
+    fetch('/help/search.json?v=d076232951').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "en"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';

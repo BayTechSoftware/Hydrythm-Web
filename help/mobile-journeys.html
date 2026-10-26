@@ -188,7 +188,7 @@
 <p><strong>Your cycle so far</strong> plots the three curves on two scales. Ammonia and nitrite use the left axis, which runs from 0 to at least 5 ppm. Nitrate uses the right axis, which runs from 0 to at least 40 ppm. That keeps small ammonia and nitrite readings visible next to a large nitrate number. Tap a name to see its full history.</p>
 <p>For a second opinion, tap <strong>Ask Cora about cycling</strong>. It opens <a href="/help/mobile-assistant">Cora Assistant</a> with a question about your latest readings.</p>
 <aside class="cal cal-warning"><p class="cal-t">Three things can stall a cycle</p><p><strong>Ammonia or nitrite above 5 ppm</strong> stalls the bacteria you're trying to grow. If you overshoot, a partial water change brings it back down. <strong>pH under 7</strong> stalls it too. So can <strong>water temperature outside 25 to 30 °C (77 to 86 °F)</strong>, which can also stress animals. The journey warns you if any of these happens, and Cora sends a notification when one trips and another when it is back in range. These safety alerts are free on every plan, and they are advice, not commands.</p></aside>
-<aside class="cal cal-note"><p class="cal-t">Log all three tests</p><p>Cora only shows <strong>Looks cycled</strong> when ammonia and nitrite have each been <em>measured</em> at zero and nitrate is present. Nitrate alone isn't enough. Source water often has some, and on its own it could look like a finished cycle and tempt you to add livestock too early.</p></aside>
+<aside class="cal cal-note"><p class="cal-t">Log all three tests</p><p>Cora only shows <strong>Looks cycled</strong> when ammonia and nitrite have each been <em>measured</em> at or near zero (0.25 ppm or less) and nitrate is present. Nitrate alone isn't enough. Source water often has some, and on its own it could look like a finished cycle and tempt you to add livestock too early.</p></aside>
 <aside class="cal cal-note"><p class="cal-t">Readiness comes from your readings</p><p>The journey judges readiness on what you've logged. How many weeks have gone by doesn't count. If you haven't tested for a fortnight, the tank stays where it was. That's why it shows how long it's been since your last test.</p></aside>
 <h2 id="your-personal-read">Your personal read</h2>
 <p>The stage, the chart, the known facts, the safety alerts and the celebration are free on every plan. On a paid plan (Essential, Advanced or Expert, and during the free trial) the journey also shows <strong>Your cycle, read for you</strong>: a plain-language read of your own readings, such as how long nitrite has been stuck and what is commonly behind it. On the free plan that spot shows <strong>Personal read of your tests</strong>, and tapping it opens the plans. It is an estimate from your readings, not a promise. A card saying <strong>Nice work, the cycle looks complete</strong> also appears at the top as soon as the readings look cycled. After you mark the tank, the journey suggests what to do next: log your livestock as you add it, set alert ranges and link a controller or probe.</p>
@@ -207,9 +207,9 @@
 <p><strong>Resolved</strong> · <strong>Improving</strong> · <strong>No change</strong> · <strong>Worse</strong> · <strong>Stopped</strong></p>
 <p>Be honest, even if it's <strong>Worse</strong>. The outcome is saved with the journey, so if a similar problem comes up later you can compare it with what you tried and how it went.</p>
 <h2 id="dismissing-a-journey">Dismissing a journey</h2>
-<p>If an issue journey isn't useful, dismiss it. It stops showing up, and Cora records the dismissal so it offers similar journeys less often.</p>
+<p>If an issue journey isn't useful, dismiss it. It stops showing up. If your readings point to the same problem again, Cora can offer it again.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-icp-health"><span>Previous</span><b>ICP and health reports</b></a><a class="pn-n" href="/help/mobile-settings"><span>Next</span><b>Cora Mobile settings</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.238 and Cora Mobile 1.4.14. Last checked 2026-10-22.</p>
+      <p class="stamp">Written for Cora Max 0.28.240 and Cora Mobile 1.4.16. Last checked 2026-10-22.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>
@@ -600,7 +600,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/help/search.json?v=5ca35b2a08').then(function (r) { return r.json(); })
+    fetch('/help/search.json?v=d076232951').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "en"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';

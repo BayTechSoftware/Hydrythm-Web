@@ -47,12 +47,12 @@ Toccare l'icona di Cora Assistant avvia una sessione vocale dal vivo. Se volevi 
 | **Sincronizzazione cloud non riuscita** | Il tuo Apex ha risposto, ma le sue letture non si sono potute salvare in Cora Cloud, quindi la dashboard resta indietro. Cora Max continua a provare |
 | **Salvataggio cloud rifiutato** | Cora Cloud rifiuta di salvare alcuni dati di questo schermo. Non c'è niente che non va nella tua vasca o in Cora Max, e non c'è niente da cambiare su questo schermo. La soluzione è un aggiornamento di Cora Cloud. Apri **Impostazioni → Impostazioni Cora Max** e scorri fino alla sezione **Stato**, dove la riga **Salvataggio cloud** dice quali dati sono coinvolti. Poi [contatta l'assistenza](/support.html) |
 | **Offline** | Nessuna connessione. Lo schermo mostra gli ultimi dati ricevuti |
-| **Offline, nuovo tentativo in 45s** | La tua rete funziona, ma Cora Cloud è irraggiungibile da più di 30 secondi. Cora Max si ricollega da solo, e il conto alla rovescia mostra quando riprova |
+| **Offline, nuovo tentativo in 30s** | La tua rete funziona, ma Cora Cloud è irraggiungibile da circa 15 secondi. Cora Max si ricollega da solo, e il conto alla rovescia mostra quando riprova |
 | **Cora principale offline** | Questo schermo è un secondo Cora Max per questa vasca, e il **Cora Max principale** (quello fissato per leggere l'attrezzatura di questa vasca) è andato offline. Questo schermo continua a mostrare gli ultimi dati che ha finché il principale non torna o non scegli un altro Cora Max principale. Di più in [Più di un dispositivo Cora](/help/mobile-multi-device) |
 | **Password Apex** | Il tuo Apex ha rifiutato la password salvata. Dai un'occhiata a [Risoluzione dei problemi](/help/troubleshooting) |
 
 :::note Come funziona il conto alla rovescia dei tentativi
-Cora Max prova a ricollegarsi a un ritmo regolare. Aspetta circa 15 secondi dopo la prima interruzione, poi di nuovo 15 secondi, poi 30 secondi due volte, poi una volta al minuto finché non ci riesce. Non si arrende mai. **Offline, nuovo tentativo in 45s** è normale.
+Cora Max prova a ricollegarsi a un ritmo regolare. Aspetta circa 15 secondi dopo la prima interruzione, poi di nuovo 15 secondi, poi 30 secondi due volte, poi una volta al minuto finché non ci riesce. Non si arrende mai. **Offline, nuovo tentativo in 30s** è normale.
 :::
 
 ## La dashboard {#the-dashboard}

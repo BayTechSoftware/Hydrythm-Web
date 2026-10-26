@@ -1,6 +1,6 @@
 ---
 title: Solución de problemas
-description: Arregla una lectura desactualizada, un dispositivo que se ha desconectado, una orden que no llegó, un Cora Max que no se empareja o una alerta que no desaparece.
+description: Arregla una lectura desactualizada, un dispositivo que está sin conexión, una orden que no llegó, un Cora Max que no se empareja o una alerta que no desaparece.
 section: Help
 reviewed: 2026-10-24
 order: 1
@@ -79,7 +79,7 @@ Tus lecturas, tu historial y tu diario se guardan aparte del diseño, así que n
 
 ## Un dispositivo ha dejado de informar o no se puede contactar {#device-not-reporting}
 
-### "[Dispositivo]: ha dejado de informar" {#device-stopped-reporting}
+### "[Dispositivo]: dejó de informar" {#device-stopped-reporting}
 
 Cora envía esto cuando un dispositivo se queda en silencio. No significa que el dispositivo esté averiado, solo que Cora lleva un rato sin saber de él. Cuánto espera Cora con cada marca está en [Alertas y umbrales](/help/mobile-alerts#stopped-reporting).
 
@@ -88,12 +88,12 @@ Cora envía esto cuando un dispositivo se queda en silencio. No significa que el
 3. Espera a la siguiente lectura. Recibirás una segunda notificación cuando vuelva a informar.
 
 
-### "El dispositivo está fuera de línea. Mostrando el último estado conocido." {#device-is-offline-showing-last-known-state}
+### "El dispositivo está sin conexión. Mostrando el último estado conocido." {#device-is-offline-showing-last-known-state}
 
 El dispositivo ha dejado de informar, y Cora muestra los últimos valores que tenía. No son actuales.
 
 1. Revisa la propia conexión de red del dispositivo.
-2. No tomes los valores como en directo hasta que la fila deje de decir que está fuera de línea.
+2. No tomes los valores como en directo hasta que la fila deje de decir que está sin conexión.
 
 ### No se puede contactar con un dispositivo {#a-device-cannot-be-reached}
 
@@ -119,7 +119,7 @@ Ahora mismo nada de este acuario está leyendo tus equipos Red Sea, así que las
 
 ### Algunos ajustes de ReefBeat aparecen en gris o no aparecen {#some-reefbeat-settings-are-greyed-out-or-missing}
 
-Es normal. Los ajustes propios de un dispositivo Red Sea solo se abren cuando tu teléfono está en la misma red que el dispositivo. Fuera de esa red solo ves lecturas.
+Es normal. Los ajustes propios de un dispositivo Red Sea solo se abren cuando tu teléfono está en la misma red que el dispositivo. Fuera de esa red ves las lecturas, y las órdenes siguen pasando por un Cora Max del acuario si tiene uno. Los ajustes propios del dispositivo siguen sin estar disponibles.
 
 1. Conéctate al Wi-Fi del acuario para cambiar esos ajustes.
 2. Las lecturas y el historial siguen funcionando cuando estás fuera.
@@ -178,18 +178,12 @@ En tu teléfono, **Alimentar** solo aparece en un acuario con un Neptune Apex, y
 - *"Ningún Cora de este acuario puede contactar al Apex, y no estás en su red."* Conéctate al Wi-Fi del Apex, o empareja un Cora Max con el acuario.
 - *"El Apex no respondió, pero puede que ya esté alimentando."* Revisa el controlador antes de volver a intentarlo.
 
-### Una dosis se detuvo a medias y apareció una alerta de "restauración" {#a-dose-stopped-partway-through-and-a-restore-alert-appeared}
-
-El cabezal DŌS perdió el contacto durante la dosis. Cora te lo dice para no tener que suponer que entró la dosis completa.
-
-1. Abre la alerta y comprueba cuánto se dosificó antes de que se detuviera.
-2. Usa esa cantidad para decidir si reanudas o ajustas la dosis.
 
 ## Cora Max {#cora-max}
 
-### Mi Cora Max está desconectado {#my-cora-max-is-offline}
+### Mi Cora Max está sin conexión {#my-cora-max-is-offline}
 
-En tu teléfono, su fila de la pestaña **Dispositivos** tiene un punto rojo. Mientras está desconectado, los equipos que lee dejan de actualizarse, puedes recibir alertas de "ha dejado de informar" de esos equipos, y las órdenes enviadas desde fuera pueden volver como *"No se envió nada"*.
+En tu teléfono, su fila de la pestaña **Dispositivos** tiene un punto rojo. Mientras está sin conexión, los equipos que lee dejan de actualizarse, puedes recibir alertas de "dejó de informar" de esos equipos, y las órdenes enviadas desde fuera pueden volver como *"No se envió nada"*.
 
 1. Comprueba que Cora Max tiene corriente y que la pantalla está encendida.
 2. En Cora Max, revisa **Ajustes → Ajustes de Cora Max → Wi-Fi**, y que tu router funciona.
@@ -246,7 +240,7 @@ Mientras tanto, tus lecturas se siguen mostrando en Cora Max. Simplemente no se 
 
 ### Un segundo Cora Max muestra "Cora principal sin conexión" {#a-secondary-cora-max-shows-main-cora-offline}
 
-El Cora Max principal de este acuario se ha desconectado. Esta pantalla muestra los últimos datos que recibió, así que no son en directo.
+El Cora Max principal de este acuario está sin conexión. Esta pantalla muestra los últimos datos que recibió, así que no son en directo.
 
 1. Revisa la alimentación eléctrica y el Wi-Fi del Cora Max principal.
 2. Espera a que se vuelva a conectar, o cambia el **Cora Max principal** a un dispositivo que esté en línea.

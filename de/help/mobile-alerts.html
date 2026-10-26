@@ -235,7 +235,7 @@
 <p>Solange eine Regel aus ist, bewertet Cora diesen Messwert nicht. Sein Widget bleibt neutral grau und löst nie eine Warnung aus.</p>
 <aside class="cal cal-warning"><p class="cal-t">Schalte einen Wasserwert aus, ohne seinen Bereich zu löschen</p><p>Eine Regel zu löschen, hält Cora nicht immer davon ab, diesen Messwert zu bewerten. Standard-Referenzbereiche färben den Wert weiter ein und können weiter ins Briefing einfließen. Nimm den Schalter der Regel.</p></aside>
       <nav class="pn" aria-label="Weiterlesen"><a class="pn-p" href="/de/help/mobile-consumables"><span>Zurück</span><b>Verbrauchsmaterial und Nachfüllwarnungen</b></a><a class="pn-n" href="/de/help/mobile-notifications"><span>Weiter</span><b>Benachrichtigungen</b></a></nav>
-      <p class="stamp">Geschrieben für Cora Max 0.28.238 und Cora Mobile 1.4.14. Zuletzt geprüft am 2026-10-24.</p>
+      <p class="stamp">Geschrieben für Cora Max 0.28.240 und Cora Mobile 1.4.16. Zuletzt geprüft am 2026-10-24.</p>
       <p class="ask">Kommst du nicht weiter? Schreib eine E-Mail an <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, wir helfen dir.</p>
     </article>
   </main>
@@ -626,7 +626,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/de/help/search.json?v=f36c594b9d').then(function (r) { return r.json(); })
+    fetch('/de/help/search.json?v=78d2fe7c0c').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "de"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Die Suche ist nicht verf\u00fcgbar. Nutze die Navigation." + '</li>';

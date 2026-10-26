@@ -19,9 +19,9 @@ Her priz üç durumdan birindedir.
 
 **Otomatik**, prizi Apex programına geri verir. Bir priz çoğu zaman bu durumda olmalıdır.
 
-**Kapalı** ve **Açık** elle yapılan geçersiz kılmalardır. Hemen devreye girer ve **siz geri değiştirene kadar öyle kalırlar**. Süreleri dolmaz ve hiçbir şey onları sizin yerinize sıfırlamaz.
+**Kapalı** ve **Açık** manuel ayarlardır. Hemen devreye girer ve **siz geri değiştirene kadar öyle kalırlar**. Süreleri dolmaz ve hiçbir şey onları sizin yerinize sıfırlamaz.
 
-:::warning Elle yapılan geçersiz kılmanın süresi dolmaz
+:::warning Manuel ayarın süresi dolmaz
 İşiniz bitince prizi **Otomatik**'e geri alın, çünkü bunu başka hiçbir şey yapmaz. Yine de manuel ayar bir kilit değildir. Siz, sesiniz ya da bir otomasyon onu daha sonra değiştirebilir.
 :::
 

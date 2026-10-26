@@ -38,7 +38,7 @@ Wybierz zadanie, które chcesz wykonać. Każdy link otwiera kroki. Jeśli coś 
 - [Podłącz sprzęt Red Sea ReefBeat](/help/mobile-connections#red-sea-reefbeat)
 - [Podłącz pompę Jecod albo Jebao](/help/mobile-connections#jecod)
 - [Podłącz AquaWiz KH Controller](/help/mobile-connections#aquawiz-kh-controller)
-- [Napraw „Osiągnięto limit Bluetooth" przy dodawaniu urządzenia](/help/mobile-devices#bluetooth-capacity)
+- [Napraw „Osiągnięto limit Bluetooth” przy dodawaniu urządzenia](/help/mobile-devices#bluetooth-capacity)
 - [Przenieś urządzenie do innego akwarium](/help/mobile-devices#a-devices-page)
 - [Zmień nazwę urządzenia](/help/mobile-devices#renaming)
 - [Usuń urządzenie](/help/mobile-devices#removing-a-device)
@@ -46,7 +46,7 @@ Wybierz zadanie, które chcesz wykonać. Każdy link otwiera kroki. Jeśli coś 
 - [Włącz tryb karmienia w telefonie](/help/mobile-dashboard#the-tank-header)
 - [Włącz tryb karmienia na Cora Max](/help/max-controls#feed-mode)
 - [Wstrzymaj głowicę DŌS](/help/mobile-device-control#dos)
-- [Ustaw dla pompy program dnia](/help/mobile-schedules)
+- [Ustaw dla pompy harmonogram](/help/mobile-schedules)
 - [Zobacz, co zrobił Twój sprzęt i dlaczego](/help/mobile-activity)
 
 ## Odczyty i panel
@@ -67,7 +67,7 @@ Wybierz zadanie, które chcesz wykonać. Każdy link otwiera kroki. Jeśli coś 
 - [Dostawaj ten sam alert rzadziej](/help/mobile-alerts#cooldowns)
 - [Wybierz, które powiadomienia trafiają na telefon](/help/mobile-notifications)
 - [Wycisz powiadomienia w nocy](/help/mobile-notifications#quiet-at-night)
-- [Odłóż alert na Cora Max](/help/max-alerts)
+- [Uśpij alert na Cora Max](/help/max-alerts)
 - [Napraw powiadomienia, które nie przychodzą](/help/troubleshooting#im-not-getting-notifications)
 - [Usuń alert, który nie znika](/help/troubleshooting#an-alert-is-not-clearing)
 - [Utwórz automatyzację](/help/mobile-automation)

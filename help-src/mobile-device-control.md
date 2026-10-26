@@ -90,7 +90,7 @@ The two water-change use types go in **pairs**. Set one head's **Paired head** t
 
 A container can be up to 1,000 L, for every use type. The Apex itself only counts up to 150 L, so above that Cora tracks the container itself from what the head doses. Enter the **Total Volume** when you set it up. Cora also resets the Apex's own counter now and then, and Activity shows that as *Reset the Apex's own counter to 150 L*.
 
-Each head also has a **Largest dose by hand** limit, so a typo can't turn a manual dose into something far bigger than you meant. Large hand doses only become available after the head's rate has been measured against a real test at the tank, and after you turn on **Large doses** in the head's settings. It's off by default. Turn it on only after you've watched the first large dose run at the tank.
+Each head except a Supplement or Food head also has a **Largest dose by hand** limit, so a typo can't turn a manual dose into something far bigger than you meant. Supplement and Food heads keep a small, fixed ceiling instead. Once that limit is set, the head can also have a **Daily limit for automations and the Assistant**, which replaces the default of 10 mL a day.
 
 ## Red Sea ReefBeat {#red-sea}
 
@@ -98,9 +98,9 @@ Each Red Sea unit has a page that fits what it does:
 
 | Unit | Page shows | You can |
 |---|---|---|
-| [ReefDose](#reefdose) | Each head, its container and what it has dosed | Dose, change the daily dose, edit the **Dosing plan** |
+| [ReefDose](#reefdose) | Each head, its container and what it has dosed | Dose, change the daily dose |
 | [ReefRun](#reefrun) | Return and skimmer pump speed and state | Change speed, switch a pump |
-| [ReefMat](#reefmat) | Remaining roll, in days and metres | Advance the mat, set **ReefMat settings**, register a new roll |
+| [ReefMat](#reefmat) | Remaining roll, in days and metres | Advance the mat |
 | [ReefATO+](#reefato) | Reservoir level and top-off activity | Set a reservoir alert |
 
 
@@ -115,13 +115,6 @@ For each head you can set **Dose per day** and **Remaining in bottle**, run **Do
 
 The **Dosing** section shows **Upcoming doses**, what each head has dosed today (**Dosed today so far**), and **Dosed per head** for the **Last 7 days** or its **Lifetime**. Cora reads this while a Cora Max or your phone is on your home network.
 
-### Editing a dosing plan {#reefdose-plan}
-
-Tap the calendar icon on a ReefDose page to open the **Dosing plan**.
-
-A plan is a daily total, split into up to four time windows. Each window has a start and end time, how many doses it should deliver, and a speed: **Whisper**, **Regular** or **Quick**. Add and remove windows, then save. Cora shows you what you're about to send and asks you to confirm before it replaces the head's whole plan.
-
-The editor reads the plan that's already on the unit first, so you're editing the real one, not a blank form.
 
 ## ReefRun {#reefrun}
 
@@ -132,12 +125,6 @@ ReefRun controls return and skimmer pumps. It isn't a wave pump. You can change 
 
 The ReefMat page shows how much roll is left, in days and metres. Tap **Advance now** to move the mat on by hand. Cora asks **Advance the mat now?** first. You can also set a refill alert for the roll.
 
-Tap the gear for **ReefMat settings**:
-
-- **Scheduled advance** turns on a fixed-time advance, separate from the auto-advance sensor already on the page. Turn it on and set how often, and how far each advance moves the mat.
-- **ReefMat model** and **Motor position** (**Left** or **Right**) tell Cora which unit and orientation you have.
-
-After you load a new roll, tell Cora with **New roll**: its thickness, and its outer diameter if you know it. **Advance now** only moves the mat you already have loaded.
 
 ## ReefATO+ {#reefato}
 

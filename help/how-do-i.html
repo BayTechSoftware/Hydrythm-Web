@@ -192,7 +192,7 @@
 <h2 id="cora-max">Cora Max</h2>
 <ul><li><a href="/help/max-setup">Pair a Cora Max</a></li><li><a href="/help/troubleshooting#pairing-a-cora-max-fails">Fix a Cora Max that won't pair</a></li><li><a href="/help/max-setup#changing-which-tanks-it-shows">Change which tanks a Cora Max shows</a></li><li><a href="/help/max-tour#switching-tanks">Switch tanks on Cora Max</a></li><li><a href="/help/max-dashboard-editing">Edit the Cora Max dashboard</a></li><li><a href="/help/mobile-multi-device#cora-assistant-answering-device">Choose which device answers "Hey Cora"</a></li><li><a href="/help/mobile-multi-device#primary-cora-max">Choose which Cora Max reads a tank's equipment</a></li><li><a href="/help/troubleshooting#i-cant-find-where-to-turn-off-the-wake-word-on-cora-max">Turn off "Hey Cora"</a></li><li><a href="/help/max-settings#child-lock">Lock the screen against children</a></li><li><a href="/help/max-records#logging-readings">Log a test at the tank</a></li><li><a href="/help/max-setup#moving-it-to-a-different-network">Move Cora Max to a new Wi-Fi network</a></li><li><a href="/help/max-updates#checking-the-version-and-update-settings">Update Cora Max or check its version</a></li><li><a href="/help/max-settings#pairing-re-pairing-and-factory-reset">Factory reset or re-pair Cora Max</a></li></ul>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/troubleshooting"><span>Previous</span><b>Troubleshooting</b></a><a class="pn-n" href="/help/equipment-by-brand"><span>Next</span><b>Equipment by brand</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.238 and Cora Mobile 1.4.14. Last checked 2026-10-17.</p>
+      <p class="stamp">Written for Cora Max 0.28.240 and Cora Mobile 1.4.16. Last checked 2026-10-17.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>
@@ -583,7 +583,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/help/search.json?v=5ca35b2a08').then(function (r) { return r.json(); })
+    fetch('/help/search.json?v=d076232951').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "en"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';

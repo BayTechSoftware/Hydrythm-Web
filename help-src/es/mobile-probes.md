@@ -15,9 +15,9 @@ La pantalla tiene un campo de búsqueda (**Buscar parámetros**) y dos pestañas
 
 ## Sondas: decirle a Cora qué es cada una {#mapping}
 
-![La pestaña Asignación](img/mobile-probe-mapping.webp "Cada sonda, agrupada por el dispositivo que la informa, con el parámetro al que está asignada.")
+![La pestaña Asignación](img/mobile-probe-mapping.webp "Cada sonda, agrupada por el dispositivo del que procede, con el parámetro al que está asignada.")
 
-La pestaña **Asignación** se abre primero. Lista todas las sondas que Cora conoce, agrupadas por el dispositivo que las informa, con su lectura actual. Cora reconoce sola los nombres estándar de las sondas, y cada fila indica con qué la ha emparejado. Normalmente solo tienes que corregir las pocas que no ha sabido identificar.
+La pestaña **Asignación** se abre primero. Lista todas las sondas que Cora conoce, agrupadas por el dispositivo del que proceden, con su lectura actual. Cora reconoce sola los nombres estándar de las sondas, y cada fila indica con qué la ha emparejado. Normalmente solo tienes que corregir las pocas que no ha sabido identificar.
 
 Cada fila te da tres opciones.
 
@@ -39,7 +39,7 @@ Si un parámetro no muestra lecturas pero la sonda funciona, revisa primero su a
 
 La pestaña **Fuentes** lista cada parámetro que Cora sigue para este acuario, como el pH o la temperatura, y muestra qué sonda lo está alimentando ahora.
 
-Toca una lectura para ver todas las sondas que la informan, entre todos los controladores que has conectado. Cada una muestra su marca, el nombre que le da a la sonda su propio controlador y su valor en directo. Elige una para fijarla, o elige **Automático (gana la lectura más reciente)** para que Cora use la sonda que haya informado más recientemente. Las demás se quedan en el historial.
+Toca una lectura para ver todas las sondas que informan de ella, entre todos los controladores que has conectado. Cada una muestra su marca, el nombre que le da a la sonda su propio controlador y su valor en directo. Elige una para fijarla, o elige **Automático (gana la lectura más reciente)** para que Cora use la sonda que haya informado más recientemente. Las demás se quedan en el historial.
 
 Una etiqueta junto a cada lectura indica cuál está en efecto: **Automático**, o **Elegido por ti** una vez que has fijado una sonda. Tu elección se aplica a esa lectura en todo el acuario, no a un solo widget.
 

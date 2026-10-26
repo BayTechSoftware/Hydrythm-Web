@@ -69,7 +69,7 @@ Zapytaj, jak coś zrobić, na przykład *„Jak dodać pompę dozującą?”*, a
 
 Pod odpowiedzią możesz zobaczyć do dwóch sekcji Pomocy, każda z maksymalnie dwoma przyciskami:
 
-- **Otwórz ten ekran** przenosi Cię prosto na ekran, którego dotyczy odpowiedź. Nie ma go, gdy już tam jesteś. Jeśli ekran jest jedną z głównych kart, rozmowa głosowa kończy się wcześniej.
+- **Otwórz ten ekran** przenosi Cię prosto na ekran, którego dotyczy odpowiedź. Nie ma go, gdy już tam jesteś. Jeśli ekran jest jedną z głównych kart, najpierw kończy się rozmowa głosowa.
 - **Przeczytaj w Pomocy** otwiera tę stronę Pomocy w przeglądarce wbudowanej w aplikację na telefonie.
 
 Przyciski pojawiają się tylko wtedy, gdy jest ekran lub strona do otwarcia.
@@ -123,7 +123,7 @@ Cora pamięta różne rzeczy o akwarium z rozmowy na rozmowę. Na przykład to, 
 **Ustawienia → Cora Assistant → Pamięć AI** pokazuje, co Cora zapisała o Twoim akwarium, i pozwala to zresetować. Każde akwarium ma własną pamięć, więc najpierw wybierz akwarium. Ten wiersz widać tylko wtedy, gdy **Pozwól Cora Assistant korzystać z zapisanych danych akwarium** jest włączone.
 
 :::note Co usuwa czyszczenie pamięci
-Czyszczenie usuwa to, co Cora zapamiętała *z Waszych rozmów* o jednym akwarium. To jej profil Twojego systemu, sprawy, które śledziła, i wszystkie zapisane sesje. Jeśli czegoś z tego nie da się usunąć, Cora Mobile powie, że się nie udało.
+Czyszczenie usuwa to, co Cora zapamiętała *z Twoich rozmów* o jednym akwarium. To jej profil Twojego systemu, sprawy, które śledziła, i wszystkie zapisane sesje. Jeśli czegoś z tego nie da się usunąć, Cora Mobile powie, że się nie udało.
 
 Twoje **dane akwarium** zostają bez zmian. Czyszczenie pamięci nie usuwa odczytów, wpisów w dzienniku, obsady, konserwacji ani raportów.
 :::

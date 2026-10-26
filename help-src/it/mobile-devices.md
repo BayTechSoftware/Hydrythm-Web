@@ -49,7 +49,7 @@ Cora controlla il Cora Max principale della vasca o, se non ne è scelto uno, il
 Tocca un dispositivo qualsiasi nell'elenco per aprirne la pagina. Prima vengono i suoi comandi, poi sezioni che funzionano allo stesso modo per ogni marca.
 
 - **Stato** mostra **Modello**, **Seriale**, **Firmware** e quando Cora l'ha sentito l'ultima volta (**Ultimo contatto**).
-- **Acquari** mostra a quale vasca (o vasche) è assegnato. Tocca **Modifica** per riassegnarlo.
+- **Vasche** mostra a quale vasca (o vasche) è assegnato. Tocca **Modifica** per riassegnarlo.
 - **Connessione** è dove modifichi il suo indirizzo IP, l'accesso o la chiave dispositivo.
 - **Rimuovi dispositivo**, in fondo.
 

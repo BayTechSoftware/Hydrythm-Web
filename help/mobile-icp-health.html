@@ -203,7 +203,7 @@
 <figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: An ICP report"><img src="/help/img/mobile-icp-report.webp" alt="An ICP report" width="620" height="1347" loading="lazy" decoding="async"></button><figcaption>Each report carries a score and a summary written for your tank.</figcaption></figure>
 <p>You get a score out of 100 and a plain-language summary of what it means for your system, taking in your tank type, its age and your livestock.</p>
 <p>The score compares your results with their target ranges, including any ranges you've set yourself. If any result is outside its range, the score can't go above 70, so it can't read <strong>Healthy</strong>. If one is far outside, it can't go above 40, however good the rest are. The label under the score reads <strong>Healthy</strong> from 71 to 100, <strong>Needs Attention</strong> from 40 to 70 and <strong>Critical</strong> from 0 to 39. Health Reports are scored the same way.</p>
-<p>Every element is tracked, including trace elements and contaminants as well as the main parameters. Cora records all 71 elements a lab can report, and the line some labs call <em>Acidity</em> is pH.</p>
+<p>Every element is tracked, including trace elements and contaminants as well as the main parameters. Cora records every element and contaminant a lab can report, and the line some labs call <em>Acidity</em> is pH.</p>
 <p>On each element row you'll see the range the lab printed, shown as <em>Lab range</em>, next to Cora's own range for that element. An element Cora has no reference range for carries the tag <strong>No Cora range</strong>. The report says how many elements have a Cora range and assesses the rest from general reef knowledge. Cora Assistant comments on every element that was tested, and its comment stands even when there's no Cora range.</p>
 <p>If the lab prints <em>n.d.</em>, or <em>not detected</em>, for an element, Cora records it as 0 and says it wasn't detected.</p>
 <p>If a lab reports <strong>specific gravity</strong> (or relative density) instead of salinity, Cora stores it as salinity, still shown in SG, and grades it against your salinity range.</p>
@@ -230,7 +230,7 @@
 <p>The Intelligence screen keeps the two kinds apart. Lab results are under <strong>ICP REPORTS</strong> and generated reviews under <strong>HEALTH REPORTS</strong>. Each list shows the newest first, with its score. Tap one to open it again in full.</p>
 <p>You can also get to them from <strong>Settings</strong>: open a tank, then <strong>ICP Reports</strong> or <strong>Health Reports</strong>.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-assistant"><span>Previous</span><b>Asking Cora</b></a><a class="pn-n" href="/help/mobile-journeys"><span>Next</span><b>Guided journeys</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.238 and Cora Mobile 1.4.14. Last checked 2026-10-17.</p>
+      <p class="stamp">Written for Cora Max 0.28.240 and Cora Mobile 1.4.16. Last checked 2026-10-17.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>
@@ -621,7 +621,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/help/search.json?v=5ca35b2a08').then(function (r) { return r.json(); })
+    fetch('/help/search.json?v=d076232951').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "en"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';

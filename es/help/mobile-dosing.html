@@ -131,7 +131,7 @@
 <summary>Primeros pasos</summary><ul>
 <li><a href="/es/help/max-setup">Configurar Cora Max</a></li>
 <li><a href="/es/help/max-tour">La pantalla de inicio de Cora Max</a></li>
-<li><a href="/es/help/max-reef-room">El cuarto de los acuarios</a></li>
+<li><a href="/es/help/max-reef-room">La sala del arrecife</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Tu panel</summary><ul>
@@ -198,9 +198,9 @@
 <p>Si cambia el consumo, míralo con calma antes de sacar conclusiones. Un mayor consumo de alcalinidad suele significar crecimiento, pero una variación brusca, en cualquier dirección, también puede deberse a una dosis omitida, un error al medir, precipitación, un cambio de agua o un cambio en el equipo. Comprueba qué más cambió por esas fechas.</p>
 <h2 id="dosing-equipment">Equipos de dosificación</h2>
 <p>Si tienes una dosificadora conectada, como una Neptune™ DŌS o una Red Sea™ ReefDose, sus cabezales aparecen con sus propias lecturas, incluido lo que le queda a cada cabezal y lo que ha dosificado. Cómo manejarlos y rellenarlos se explica en <a href="/es/help/mobile-device-control">Controlar tus equipos</a>, y sus alertas de recipiente bajo y de dosis omitida en <a href="/es/help/mobile-device-control#doser-alerts">Alertas de dosificadoras</a>.</p>
-<p>Una automatización también puede dosificar con un cabezal DŌS, con un máximo de 10 mL por cabezal al día. Consulta <a href="/es/help/mobile-automation#actions">Automatizaciones y escenas</a>.</p>
+<p>Una automatización también puede dosificar con un cabezal DŌS, con un máximo de 10 mL por cabezal al día, salvo que fijes un límite diario propio para ese cabezal en sus ajustes. Consulta <a href="/es/help/mobile-automation#actions">Automatizaciones y escenas</a>.</p>
       <nav class="pn" aria-label="Seguir leyendo"><a class="pn-p" href="/es/help/mobile-journal"><span>Anterior</span><b>El diario</b></a><a class="pn-n" href="/es/help/mobile-maintenance"><span>Siguiente</span><b>Mantenimiento</b></a></nav>
-      <p class="stamp">Escrito para Cora Max 0.28.238 y Cora Mobile 1.4.14. Última revisión el 2026-10-13.</p>
+      <p class="stamp">Escrito para Cora Max 0.28.240 y Cora Mobile 1.4.16. Última revisión el 2026-10-13.</p>
       <p class="ask">¿Sigues atascado? Escribe a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> y te ayudamos.</p>
     </article>
   </main>
@@ -591,7 +591,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/es/help/search.json?v=9384433ffe').then(function (r) { return r.json(); })
+    fetch('/es/help/search.json?v=1d5700fe42').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "es"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La b\u00fasqueda no est\u00e1 disponible. Usa la navegaci\u00f3n." + '</li>';

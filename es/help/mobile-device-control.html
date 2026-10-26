@@ -131,7 +131,7 @@
 <summary>Primeros pasos</summary><ul>
 <li><a href="/es/help/max-setup">Configurar Cora Max</a></li>
 <li><a href="/es/help/max-tour">La pantalla de inicio de Cora Max</a></li>
-<li><a href="/es/help/max-reef-room">El cuarto de los acuarios</a></li>
+<li><a href="/es/help/max-reef-room">La sala del arrecife</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Tu panel</summary><ul>
@@ -204,26 +204,19 @@
 <p>Dale a cada cabezal un <strong>tipo de uso</strong> para que Cora sepa qué hace y hable de él correctamente. Las opciones son <strong>Suplemento</strong>, <strong>Cambio de agua: entrada de agua salada nueva</strong>, <strong>Cambio de agua: salida de agua vieja</strong>, <strong>Kalkwasser</strong>, <strong>Reactor de calcio</strong>, <strong>Alimento</strong>, <strong>Relleno</strong> y <strong>Otro</strong>. Fíjalo en <strong>Usado para</strong> en los ajustes del cabezal.</p>
 <p>Los dos tipos de uso de cambio de agua van en <strong>parejas</strong>. Pon en el <strong>Cabezal emparejado</strong> de un cabezal el cabezal que mueve el agua en sentido contrario, y Cora trata los dos como una pareja de cambio de agua.</p>
 <p>Un recipiente puede tener hasta 1.000 L, en todos los tipos de uso. El propio Apex solo cuenta hasta 150 L, así que por encima de eso Cora sigue el recipiente a partir de lo que dosifica el cabezal. Introduce el <strong>Volumen total</strong> al configurarlo. Cora también restablece de vez en cuando el contador propio del Apex, y Actividad lo muestra como <em>Contador propio del Apex restablecido a 150 L</em>.</p>
-<p>Cada cabezal tiene además un límite de <strong>Dosis manual más grande</strong>, para que una errata no convierta una dosis manual en algo mucho mayor de lo que querías. Las dosis manuales grandes solo están disponibles después de medir el ritmo del cabezal frente a una prueba real en el acuario, y después de activar <strong>Dosis grandes</strong> en los ajustes del cabezal. Viene desactivado. Actívalo solo después de haber visto la primera dosis grande en el acuario.</p>
+<p>Cada cabezal, salvo los de Suplemento y Alimento, tiene además un límite de <strong>Dosis manual más grande</strong>, para que una errata no convierta una dosis manual en algo mucho mayor de lo que querías. Los cabezales de Suplemento y Alimento mantienen en su lugar un tope pequeño y fijo. Una vez fijado ese límite, el cabezal también puede tener un <strong>Límite diario para automatizaciones y el asistente</strong>, que sustituye al valor por defecto de 10 mL al día.</p>
 <h2 id="red-sea">Red Sea ReefBeat</h2>
 <p>Cada unidad Red Sea tiene una página adaptada a lo que hace:</p>
-<div class="tw"><table class="stack"><thead><tr><th>Unidad</th><th>La página muestra</th><th>Puedes</th></tr></thead><tbody><tr><td data-th="Unidad"><a href="#reefdose">ReefDose</a></td><td data-th="La página muestra">Cada cabezal, su recipiente y lo que ha dosificado</td><td data-th="Puedes">Dosificar, cambiar la dosis diaria, editar el <strong>Plan de dosificación</strong></td></tr><tr><td data-th="Unidad"><a href="#reefrun">ReefRun</a></td><td data-th="La página muestra">La velocidad y el estado de las bombas de retorno y del skimmer</td><td data-th="Puedes">Cambiar la velocidad, encender o apagar una bomba</td></tr><tr><td data-th="Unidad"><a href="#reefmat">ReefMat</a></td><td data-th="La página muestra">El rollo restante, en días y metros</td><td data-th="Puedes">Avanzar el fieltro, fijar los <strong>Ajustes de ReefMat</strong>, registrar un rollo nuevo</td></tr><tr><td data-th="Unidad"><a href="#reefato">ReefATO+</a></td><td data-th="La página muestra">El nivel del depósito y la actividad de reposición</td><td data-th="Puedes">Fijar una alerta del depósito</td></tr></tbody></table></div>
+<div class="tw"><table class="stack"><thead><tr><th>Unidad</th><th>La página muestra</th><th>Puedes</th></tr></thead><tbody><tr><td data-th="Unidad"><a href="#reefdose">ReefDose</a></td><td data-th="La página muestra">Cada cabezal, su recipiente y lo que ha dosificado</td><td data-th="Puedes">Dosificar, cambiar la dosis diaria</td></tr><tr><td data-th="Unidad"><a href="#reefrun">ReefRun</a></td><td data-th="La página muestra">La velocidad y el estado de las bombas de retorno y del skimmer</td><td data-th="Puedes">Cambiar la velocidad, encender o apagar una bomba</td></tr><tr><td data-th="Unidad"><a href="#reefmat">ReefMat</a></td><td data-th="La página muestra">El rollo restante, en días y metros</td><td data-th="Puedes">Avanzar el fieltro</td></tr><tr><td data-th="Unidad"><a href="#reefato">ReefATO+</a></td><td data-th="La página muestra">El nivel del depósito y la actividad de reposición</td><td data-th="Puedes">Fijar una alerta del depósito</td></tr></tbody></table></div>
 <p>Cuando estás fuera de la red de la unidad, Cora Mobile envía las órdenes de Red Sea a través de un Cora Max del acuario. Si ningún Cora Max puede hacerlo, la página lo indica y no se envía nada.</p>
 <h2 id="reefdose">ReefDose</h2>
 <figure class="shot phone"><button type="button" class="zoom" aria-label="Ampliar: La página de una ReefDose 4 en Cora Mobile"><img src="/help/img/mobile-reefdose.webp" alt="La página de una ReefDose 4 en Cora Mobile" width="620" height="1347" loading="lazy" decoding="async"></button><figcaption>El estado, los cabezales y el total de hoy, Usar la dosificadora para el consumo, y después cada cabezal de dosificación.</figcaption></figure>
 <p>Para cada cabezal puedes fijar la <strong>Dosis por día</strong> y lo <strong>Restante en la botella</strong>, hacer <strong>Dosificar ahora</strong> y <strong>Activar horario</strong>. Las alertas de reposición se fijan por cabezal con la campana, como se explica en <a href="#doser-alerts">Alertas de dosificadoras</a>.</p>
 <p>La sección <strong>Dosificación</strong> muestra las <strong>Próximas dosis</strong>, lo que ha dosificado hoy cada cabezal (<strong>Dosificado hoy hasta ahora</strong>) y <strong>Dosificado por cabezal</strong> en los <strong>Últimos 7 días</strong> o en <strong>Total</strong>. Cora lo lee mientras un Cora Max o tu teléfono está en tu red doméstica.</p>
-<h3 id="reefdose-plan">Editar un plan de dosificación</h3>
-<p>Toca el icono del calendario en la página de una ReefDose para abrir el <strong>Plan de dosificación</strong>.</p>
-<p>Un plan es un total diario, repartido en hasta cuatro franjas horarias. Cada franja tiene una hora de inicio y de fin, cuántas dosis debe dar y una velocidad: <strong>Susurro</strong>, <strong>Normal</strong> o <strong>Rápido</strong>. Añade y quita franjas, y guarda. Cora te muestra lo que vas a enviar y te pide que confirmes antes de sustituir el plan completo del cabezal.</p>
-<p>El editor lee primero el plan que ya está en la unidad, así que editas el plan real, no un formulario en blanco.</p>
 <h2 id="reefrun">ReefRun</h2>
 <p>ReefRun controla bombas de retorno y de skimmer. No es una bomba de circulación. Puedes cambiar la velocidad de una bomba, encenderla o apagarla y ajustar los ajustes del skimmer.</p>
 <h2 id="reefmat">ReefMat</h2>
 <p>La página de ReefMat muestra cuánto rollo queda, en días y metros. Toca <strong>Avanzar ahora</strong> para mover el fieltro a mano. Cora pregunta antes <strong>¿Avanzar el tapete ahora?</strong> También puedes fijar una alerta de reposición para el rollo.</p>
-<p>Toca el engranaje para abrir los <strong>Ajustes de ReefMat</strong>:</p>
-<ul><li><strong>Avance programado</strong> activa un avance a una hora fija, aparte del sensor de avance automático que ya está en la página. Actívalo y fija cada cuánto, y cuánto mueve el fieltro cada avance.</li><li><strong>Modelo de ReefMat</strong> y <strong>Posición del motor</strong> (<strong>Izquierda</strong> o <strong>Derecha</strong>) le dicen a Cora qué unidad y qué orientación tienes.</li></ul>
-<p>Después de poner un rollo nuevo, díselo a Cora con <strong>Nuevo rollo</strong>: su grosor y, si lo sabes, su diámetro exterior. <strong>Avanzar ahora</strong> solo mueve el fieltro que ya tienes puesto.</p>
 <h2 id="reefato">ReefATO+</h2>
 <p>La página de ReefATO+ muestra el nivel del depósito y las reposiciones recientes. Fija una alerta del depósito con la campana. Cora calcula cuántos días le quedan al depósito según el uso reciente de la reposición, y también puedes preguntárselo al Asistente.</p>
 <h2 id="red-sea-stops">Cuando una unidad Red Sea se detiene sola</h2>
@@ -257,7 +250,7 @@
 <h2 id="what-happens-after-you-change-something">Qué pasa después de cambiar algo</h2>
 <p>Cada cambio queda registrado en <a href="/es/help/mobile-activity">Actividad</a>, con la superficie desde la que se hizo. Si un dispositivo no acepta un cambio, también queda registrado ahí.</p>
       <nav class="pn" aria-label="Seguir leyendo"><a class="pn-p" href="/es/help/mobile-connections"><span>Anterior</span><b>Conectar tus equipos</b></a><a class="pn-n" href="/es/help/mobile-schedules"><span>Siguiente</span><b>Programar equipos</b></a></nav>
-      <p class="stamp">Escrito para Cora Max 0.28.238 y Cora Mobile 1.4.14. Última revisión el 2026-10-24.</p>
+      <p class="stamp">Escrito para Cora Max 0.28.240 y Cora Mobile 1.4.16. Última revisión el 2026-10-24.</p>
       <p class="ask">¿Sigues atascado? Escribe a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> y te ayudamos.</p>
     </article>
   </main>
@@ -648,7 +641,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/es/help/search.json?v=9384433ffe').then(function (r) { return r.json(); })
+    fetch('/es/help/search.json?v=1d5700fe42').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "es"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La b\u00fasqueda no est\u00e1 disponible. Usa la navegaci\u00f3n." + '</li>';

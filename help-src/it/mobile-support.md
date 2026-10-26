@@ -49,7 +49,7 @@ Quando guardi la vasca di un'altra persona tramite un link condiviso, non puoi a
 
 ## Scrivere all'assistenza
 
-**Impostazioni → Aiuto e assistenza → Contatta l'assistenza** apre un'email a **[cora@coraiq.tech](mailto:cora@coraiq.tech)** con la versione di Cora Mobile già inserita. Di solito rispondiamo entro un giorno. Se il telefono non ha un'app di posta, scrivi a quell'indirizzo da qualsiasi account email.
+**Impostazioni → Aiuto e assistenza → Contatta l'assistenza** apre un'email a **[cora@coraiq.tech](mailto:cora@coraiq.tech)** con la versione di Cora Mobile e il sistema operativo del telefono già inseriti. Di solito rispondiamo entro un giorno. Se il telefono non ha un'app di posta, scrivi a quell'indirizzo da qualsiasi account email.
 
 ## Altre strade
 

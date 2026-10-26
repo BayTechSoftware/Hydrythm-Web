@@ -178,7 +178,7 @@
 <h2 id="the-welcome-screens">Karşılama ekranları</h2>
 <p>Cora Mobile'ı ilk açtığınızda birkaç kısa ekran onu tanıtır. Aralarında ilerlemek için <strong>İleri</strong>'ye ya da doğrudan girişe gitmek için sağ üstteki <strong>Atla</strong>'ya dokunun.</p>
 <p>İkisi sizden bir şey ister:</p>
-<ul><li><strong>Cihazlarınız Wi-Fi ağınızdadır</strong>, iPhone'unuzun daha sonra soracağı bir soru konusunda sizi uyarır. İlk ekipmanınızı eklediğinizde iPhone, Cora'nın yerel ağınızdaki cihazları bulup bulamayacağını sorar. İzin verin, yoksa Cora Wi-Fi'ınızda hiçbir şey bulamaz. Hayır dediyseniz <strong>Ayarlar → Cihaz erişimi</strong> sizi anahtara götürür. <a href="/tr/help/mobile-settings#device-access">Ayarlar</a> sayfasına bakın.</li><li>Son ekran uyarılarla ilgilidir. Uyarıların bu telefona ulaşması için <strong>Bildirimlere izin ver</strong>'e dokunun, sonra telefonunuzun penceresinde izin verin. <strong>Belki sonra</strong> bunu atlar. Ayrıntılar <a href="/tr/help/mobile-notifications">Bildirimler</a> sayfasında.</li></ul>
+<ul><li><strong>Cihazlarınız Wi-Fi ağınızdadır</strong>, iPhone'unuzun daha sonra soracağı bir soru konusunda sizi uyarır. İlk ekipmanınızı eklediğinizde iPhone, Cora'nın yerel ağınızdaki cihazları bulup bulamayacağını sorar. İzin verin, yoksa Cora Wi-Fi'nizde hiçbir şey bulamaz. Hayır dediyseniz <strong>Ayarlar → Cihaz erişimi</strong> sizi anahtara götürür. <a href="/tr/help/mobile-settings#device-access">Ayarlar</a> sayfasına bakın.</li><li>Son ekran uyarılarla ilgilidir. Uyarıların bu telefona ulaşması için <strong>Bildirimlere izin ver</strong>'e dokunun, sonra telefonunuzun penceresinde izin verin. <strong>Belki sonra</strong> bunu atlar. Ayrıntılar <a href="/tr/help/mobile-notifications">Bildirimler</a> sayfasında.</li></ul>
 <h2 id="looking-around-first">Önce bir göz atın</h2>
 <p>Göz atmak için hesaba ihtiyacınız yok. Giriş ekranında <strong>Bir demo resifi keşfedin</strong>'e dokunun. Gerçekçi verilerle dolu, gerçek bir akvaryum gibi düzenlenmiş örnek bir akvaryumdur. Hiçbir ekipman kullanılmaz ve orada yaptığınız hiçbir şey kaydedilmez.</p>
 <p>Kendi akvaryumunuza hazır olduğunuzda <strong>Kendinize göre yapın</strong>'a dokunun.</p>
@@ -220,7 +220,7 @@
 <p>Pano en üstte akvaryumunuzun adını ve içinde sayılar olan birkaç widget gösterdiğinde kurulumunuz tamamdır. İlk özet gece çalıştıktan sonra bir <strong>Reef Buddy</strong> kartı gelir.</p>
 <p>Sırada <a href="/tr/help/mobile-tour">Yolunuzu bulma</a> var. İkinci bir akvaryum eklemek için <a href="/tr/help/mobile-tanks">Akvaryumlarınızı yönetme</a> sayfasına bakın.</p>
       <nav class="pn" aria-label="Okumaya devam edin"><a class="pn-n" href="/tr/help/mobile-tour"><span>Sonraki</span><b>Cora Mobile&#x27;da yolunuzu bulma</b></a></nav>
-      <p class="stamp">Cora Max 0.28.238 ve Cora Mobile 1.4.14 için yazılmıştır. Son kontrol: 2026-10-24.</p>
+      <p class="stamp">Cora Max 0.28.240 ve Cora Mobile 1.4.16 için yazılmıştır. Son kontrol: 2026-10-24.</p>
       <p class="ask">Sorun devam ediyor mu? <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> adresine yazın, yardımcı olalım.</p>
     </article>
   </main>
@@ -611,7 +611,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/tr/help/search.json?v=a9e63682a9').then(function (r) { return r.json(); })
+    fetch('/tr/help/search.json?v=1a2be35337').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "tr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Arama \u015fu anda kullan\u0131lam\u0131yor. Men\u00fcy\u00fc kullan\u0131n." + '</li>';

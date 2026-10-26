@@ -19,7 +19,7 @@ La tarjeta de arriba indica si este teléfono permite notificaciones de Cora (**
 |---|---|
 | **Alertas de parámetros** | La química del agua sale de un rango que fijaste, y la notificación de *recuperación* cuando vuelve |
 | **Recordatorios de mantenimiento** | Tareas que programaste, como los cambios de agua, y un recordatorio único para anotar tu primera prueba cuando un acuario nuevo sigue sin lecturas a los tres días |
-| **Fallos de equipos** | Un dispositivo avisa de un problema, por ejemplo un Trident que ha dejado de medir. También un dispositivo que [dejó de informar](/help/mobile-alerts#stopped-reporting) y una dosis omitida |
+| **Fallos de equipos** | Un dispositivo avisa de un problema, por ejemplo un Trident que ha dejado de medir. También un dispositivo que [dejó de informar](/help/mobile-alerts#stopped-reporting), una dosis omitida y una automatización que falló |
 | **Suministros bajos** | Reactivo, agua de reposición, recipientes de dosificación y una botella de residuos llena |
 | **Informe ICP listo** | Tus resultados de ICP ya están analizados y puedes leerlos |
 
@@ -38,7 +38,8 @@ La botella de residuos cuenta como suministro aunque se llena en lugar de vaciar
 Algunas notificaciones no están en esa lista:
 
 - El resumen diario de Reef Buddy. Eliges cuándo llega con **Hora del resumen**, la fila que hay justo debajo de Notificaciones en Ajustes. En el plan gratuito no hay notificación del resumen. Más información en [Reef Buddy](/help/mobile-reef-buddy).
-- Las notificaciones del plan: recordatorios de la prueba gratuita 7 días y 1 día antes de que termine y cuando termina, y un aviso cuando has usado el 80% y el 100% de tu cupo mensual de Cora Assistant. Consulta [Planes](/help/mobile-plans).
+- Las notificaciones del plan: recordatorios de la prueba gratuita 7 días y 1 día antes de que termine y cuando termina, y un aviso cuando has usado el 80 % y el 100 % de tu cupo mensual de Cora Assistant. Consulta [Planes](/help/mobile-plans).
+- Las alertas de fuga de un sensor de fugas. Siempre llegan como notificación y no se pueden desactivar; desactivar **Alertas de parámetros** tampoco las silencia.
 
 ## Noches tranquilas {#quiet-at-night}
 

@@ -49,7 +49,7 @@ Mentre una scena a tempo è in corso, il suo riquadro fa il conto alla rovescia 
 
 Avviare o fermare una scena passa da Cora Cloud, come qualsiasi altro comando. Trovi il risultato in [Attività](/help/max-activity).
 
-Su Cora Max le scene non si possono avviare a voce. Usa il riquadro, **Impostazioni → Automazioni**, oppure il telefono.
+Puoi anche avviare una scena a voce: *"Avvia la scena cambio acqua."* Il blocco bambini la impedisce come ogni altro controllo. Altrimenti usa il riquadro, **Impostazioni → Automazioni**, oppure il telefono.
 
 Se una scena non parte o non si ferma, dai un'occhiata a [Risoluzione dei problemi](/help/troubleshooting).
 

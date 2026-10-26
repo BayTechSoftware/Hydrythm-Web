@@ -203,7 +203,7 @@
 <figure class="shot phone"><button type="button" class="zoom" aria-label="Vergrößern: Ein ICP-Bericht"><img src="/help/img/mobile-icp-report.webp" alt="Ein ICP-Bericht" width="620" height="1347" loading="lazy" decoding="async"></button><figcaption>Jeder Bericht trägt eine Bewertung und eine Zusammenfassung, die für dein Becken geschrieben ist.</figcaption></figure>
 <p>Du bekommst eine Bewertung von 100 und eine verständliche Zusammenfassung dessen, was das für dein System bedeutet, unter Berücksichtigung von Beckentyp, Alter und Besatz.</p>
 <p>Die Bewertung vergleicht deine Ergebnisse mit ihren Zielbereichen, auch mit Bereichen, die du selbst festgelegt hast. Liegt ein Ergebnis außerhalb seines Bereichs, kann die Bewertung nicht über 70 gehen und also nicht <strong>Gesund</strong> zeigen. Liegt eins weit außerhalb, kann sie nicht über 40 gehen, egal wie gut der Rest ist. Das Etikett unter der Bewertung zeigt <strong>Gesund</strong> von 71 bis 100, <strong>Braucht Aufmerksamkeit</strong> von 40 bis 70 und <strong>Kritisch</strong> von 0 bis 39. Gesundheitsberichte werden genauso bewertet.</p>
-<p>Jedes Element wird verfolgt, auch Spurenelemente und Schadstoffe neben den wichtigsten Wasserwerten. Cora erfasst alle 71 Elemente, die ein Labor melden kann, und die Zeile, die manche Labore <em>Acidity</em> nennen, ist der pH-Wert.</p>
+<p>Jedes Element wird verfolgt, auch Spurenelemente und Schadstoffe neben den wichtigsten Wasserwerten. Cora erfasst jedes Element und jeden Schadstoff, die ein Labor melden kann, und die Zeile, die manche Labore <em>Acidity</em> nennen, ist der pH-Wert.</p>
 <p>In jeder Elementzeile siehst du den Bereich, den das Labor gedruckt hat, als <em>Laborbereich</em>, neben dem eigenen Bereich von Cora für dieses Element. Ein Element, für das Cora keinen Referenzbereich hat, trägt das Etikett <strong>Kein Cora-Bereich</strong>. Der Bericht sagt, wie viele Elemente einen Cora-Bereich haben, und bewertet den Rest nach allgemeinem Riffwissen. Cora Assistant kommentiert jedes getestete Element, und sein Kommentar gilt auch, wenn es keinen Cora-Bereich gibt.</p>
 <p>Druckt das Labor für ein Element <em>n.d.</em> oder <em>not detected</em>, erfasst Cora es als 0 und sagt, dass es nicht nachgewiesen wurde.</p>
 <p>Gibt ein Labor die <strong>spezifische Dichte</strong> (oder relative Dichte) statt der Salinität an, speichert Cora sie als Salinität, weiter in SG angezeigt, und bewertet sie nach deinem Salinitätsbereich.</p>
@@ -230,7 +230,7 @@
 <p>Der Intelligenz-Bildschirm hält die beiden Arten getrennt. Laborergebnisse stehen unter <strong>ICP-BERICHTE</strong> und erstellte Bewertungen unter <strong>GESUNDHEITSBERICHTE</strong>. Jede Liste zeigt die neuesten zuerst, mit ihrer Bewertung. Tippe auf einen, um ihn wieder vollständig zu öffnen.</p>
 <p>Du erreichst sie auch über <strong>Einstellungen</strong>: Öffne ein Becken, dann <strong>ICP-Berichte</strong> oder <strong>Gesundheitsberichte</strong>.</p>
       <nav class="pn" aria-label="Weiterlesen"><a class="pn-p" href="/de/help/mobile-assistant"><span>Zurück</span><b>Cora fragen</b></a><a class="pn-n" href="/de/help/mobile-journeys"><span>Weiter</span><b>Geführte Journeys</b></a></nav>
-      <p class="stamp">Geschrieben für Cora Max 0.28.238 und Cora Mobile 1.4.14. Zuletzt geprüft am 2026-10-17.</p>
+      <p class="stamp">Geschrieben für Cora Max 0.28.240 und Cora Mobile 1.4.16. Zuletzt geprüft am 2026-10-17.</p>
       <p class="ask">Kommst du nicht weiter? Schreib eine E-Mail an <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, wir helfen dir.</p>
     </article>
   </main>
@@ -621,7 +621,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/de/help/search.json?v=f36c594b9d').then(function (r) { return r.json(); })
+    fetch('/de/help/search.json?v=78d2fe7c0c').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "de"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Die Suche ist nicht verf\u00fcgbar. Nutze die Navigation." + '</li>';

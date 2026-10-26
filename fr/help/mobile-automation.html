@@ -101,7 +101,7 @@
 <li><a href="/fr/help/mobile-alerts">Alertes et seuils</a></li>
 <li><a href="/fr/help/mobile-notifications">Notifications</a></li>
 <li><a href="/fr/help/mobile-automation" class="cur" aria-current="page">Automatisations et scènes</a></li>
-<li><a href="/fr/help/mobile-vacation">Partir en vacances : un plan pour la personne qui garde votre aquarium</a></li>
+<li><a href="/fr/help/mobile-vacation">Partir en vacances : un plan pour votre gardien</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Journaux</summary><ul>
@@ -131,7 +131,7 @@
 <summary>Prise en main</summary><ul>
 <li><a href="/fr/help/max-setup">Configurer Cora Max</a></li>
 <li><a href="/fr/help/max-tour">L’écran d’accueil de Cora Max</a></li>
-<li><a href="/fr/help/max-reef-room">La pièce du récif</a></li>
+<li><a href="/fr/help/max-reef-room">La salle du récif</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Votre tableau de bord</summary><ul>
@@ -172,7 +172,7 @@
       <h1>Automatisations et scènes</h1>
       <p class="twin">Sur Cora Max : <a href="/fr/help/max-automation">Scènes sur Cora Max</a></p>
       <nav class="toc" aria-label="Sur cette page"><p>Sur cette page</p><ul><li><a href="#shape">La structure d’une règle</a></li><li><a href="#triggers">Ce qui peut réveiller une règle</a></li><li><a href="#conditions">Conditions</a></li><li><a href="#branches">Branches et vérifications par étape</a></li><li><a href="#when-it-may-run">Quand elle peut s’exécuter</a></li><li><a href="#actions">Ce qu’une règle peut faire</a></li><li><a href="#scenes">Scènes</a></li><li><a href="#scenes-on-cora-max">Scènes créées sur Cora Max</a></li><li><a href="#turning-a-rule-off">Désactiver une règle</a></li><li><a href="#seeing-what-a-rule-did">Voir ce qu’une règle a fait</a></li></ul></nav>
-<p>Une automatisation est une règle que Cora exécute pour vous : <em>quand ceci arrive, vérifie cela, puis fais ceci.</em> Une scène regroupe plusieurs actions en une seule chose que vous lancez quand vous le voulez.</p>
+<p>Une automatisation est une règle que Cora exécute pour vous : <em>quand ceci arrive, vérifier cela, puis faire ceci.</em> Une scène regroupe plusieurs actions en une seule chose que vous lancez quand vous le voulez.</p>
 <p>Allez dans <strong>Paramètres → Automatisations</strong>.</p>
 <figure class="shot phone"><button type="button" class="zoom" aria-label="Agrandir : L’écran Automatisation dans Cora Mobile, avec les onglets Automatisations et Scènes"><img src="/help/img/mobile-automation.webp" alt="L’écran Automatisation dans Cora Mobile, avec les onglets Automatisations et Scènes" width="620" height="1347" loading="lazy" decoding="async"></button><figcaption>Automatisations et Scènes sont des onglets distincts. Chaque règle a son propre interrupteur.</figcaption></figure>
 <p>L’écran a deux onglets, <strong>Automatisations</strong> et <strong>Scènes</strong>, avec un bouton <strong>Nouvelle automatisation</strong> ou <strong>Nouvelle scène</strong>. Chaque règle affiche un résumé d’une ligne, un interrupteur d’activation et un menu pour la <strong>Modifier</strong> ou la <strong>Supprimer</strong>. Une règle qui ne s’est pas encore exécutée l’indique.</p>
@@ -187,7 +187,7 @@
 <aside class="cal cal-tip"><p class="cal-t">Soyez prévenu quand votre Cora Max décroche</p><p>Une règle avec <strong>Quand un appareil passe hors ligne</strong> et <strong>Me notifier</strong> vous prévient quand le Cora Max qui lit votre équipement perd l’alimentation ou le Wi-Fi.</p></aside>
 <h2 id="conditions">Conditions</h2>
 <p>Les conditions décident si les actions s’exécutent. Touchez <strong>Ajouter une condition</strong> et choisissez :</p>
-<ul><li><strong>Comparaison de valeur</strong>, une mesure au-dessus, en dessous ou égale à une valeur</li><li><strong>Valeur dans / hors d’une plage</strong></li><li><strong>Alerte active</strong></li><li><strong>Prise activée / désactivée</strong>, pour une prise Apex</li><li><strong>Heure de la journée</strong>, une plage comme 22:00 à 06:00</li><li><strong>Résultat d’une étape précédente</strong>, qui vérifie si une étape précédente s’est terminée <strong>OK</strong> ou a été <strong>Ignoré</strong>. Utilisez-le pour « essaie ceci, et si ça n’a pas marché, fais plutôt cela »</li></ul>
+<ul><li><strong>Comparaison de valeur</strong>, une mesure au-dessus, en dessous ou égale à une valeur</li><li><strong>Valeur dans / hors d’une plage</strong></li><li><strong>Alerte active</strong></li><li><strong>Prise activée / désactivée</strong>, pour une prise Apex</li><li><strong>Heure de la journée</strong>, une plage comme 22:00 à 06:00</li><li><strong>Résultat d’une étape précédente</strong>, qui vérifie si une étape précédente s’est terminée <strong>OK</strong> ou a été <strong>Ignoré</strong>. Utilisez-le pour « essayer ceci, et si cela n’a pas marché, faire plutôt cela »</li></ul>
 <p>Avec plusieurs conditions, réglez <strong>Correspondance</strong> sur <strong>Toutes (ET)</strong> ou <strong>Au moins une (OU)</strong>.</p>
 <h2 id="branches">Branches et vérifications par étape</h2>
 <p>Une automatisation peut faire des choses différentes selon les cas. Son premier bloc est <strong>Si</strong>. Touchez <strong>Sinon-si</strong> pour ajouter un autre cas, ou ajoutez un bloc <strong>Sinon</strong> pour tout le reste. Cora exécute le premier bloc dont les conditions sont remplies.</p>
@@ -212,9 +212,9 @@
 <p>Chaque règle a un interrupteur d’activation. Désactiver une règle garde ses réglages, ce qui est pratique quand vous voulez la retrouver la saison suivante.</p>
 <h2 id="seeing-what-a-rule-did">Voir ce qu’une règle a fait</h2>
 <p>Chaque action d’une règle est enregistrée avec <strong>Règle d’automatisation</strong> comme cause. Vous la trouverez dans <a href="/fr/help/mobile-activity">Activité</a>.</p>
-<p>Une étape qui échoue ou doit attendre ne reste pas en attente. Elle expire aussitôt, l’exécution est enregistrée comme échouée, et vous recevez une notification qui nomme l’automatisation, l’étape et la raison. Une étape échoue par exemple quand son appareil est hors ligne, qu’aucun Cora Max ne peut l’exécuter, que l’appareil la refuse ou ne répond pas, ou qu’un chauffage ou un refroidisseur vient d’être commuté. Une étape sur un aquarium retiré ne vous envoie aucune notification.</p>
-      <nav class="pn" aria-label="Poursuivre la lecture"><a class="pn-p" href="/fr/help/mobile-notifications"><span>Précédent</span><b>Notifications</b></a><a class="pn-n" href="/fr/help/mobile-vacation"><span>Suivant</span><b>Partir en vacances : un plan pour la personne qui garde votre aquarium</b></a></nav>
-      <p class="stamp">Rédigé pour Cora Max 0.28.238 et Cora Mobile 1.4.14. Vérifié pour la dernière fois le 2026-10-24.</p>
+<p>Une étape qui échoue ou doit attendre ne reste pas en attente. Elle expire aussitôt, l’exécution est enregistrée comme échouée, et vous recevez une notification qui nomme l’automatisation, l’étape et la raison. Une étape échoue par exemple quand son appareil est hors ligne, qu’aucun Cora Max ne peut l’exécuter, que l’appareil la refuse ou ne répond pas, ou qu’un chauffage ou un groupe froid vient d’être commuté. Une étape sur un aquarium retiré ne vous envoie aucune notification.</p>
+      <nav class="pn" aria-label="Poursuivre la lecture"><a class="pn-p" href="/fr/help/mobile-notifications"><span>Précédent</span><b>Notifications</b></a><a class="pn-n" href="/fr/help/mobile-vacation"><span>Suivant</span><b>Partir en vacances : un plan pour votre gardien</b></a></nav>
+      <p class="stamp">Rédigé pour Cora Max 0.28.240 et Cora Mobile 1.4.16. Vérifié pour la dernière fois le 2026-10-24.</p>
       <p class="ask">Toujours bloqué ? Écrivez à <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, nous vous aiderons.</p>
     </article>
   </main>
@@ -605,7 +605,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/fr/help/search.json?v=fac77358f2').then(function (r) { return r.json(); })
+    fetch('/fr/help/search.json?v=84e649e8bc').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "fr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La recherche est indisponible. Utilisez la navigation." + '</li>';

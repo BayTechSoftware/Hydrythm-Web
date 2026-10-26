@@ -13,7 +13,7 @@ Los widgets se añaden y se colocan en [el editor del panel](/help/mobile-dashbo
 
 ![La hoja de ajustes de un widget en Cora Mobile](img/mobile-widget-config.webp "La mitad inferior de los ajustes de un widget: el parámetro, el ancho, el alto y el rango de tiempo, y después Quitar y Listo.")
 
-## Los quince tipos {#the-fifteen-types}
+## Los tipos de widget {#the-widget-types}
 
 | Tipo | Muestra |
 |---|---|

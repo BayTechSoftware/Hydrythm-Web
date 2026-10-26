@@ -90,7 +90,7 @@ Die beiden Wasserwechsel-Typen gehören in **Paare**. Stell bei einem Kopf **Gek
 
 Ein Behälter kann bei jedem Verwendungstyp bis zu 1.000 l groß sein. Der Apex selbst zählt nur bis 150 l, darüber verfolgt Cora den Behälter also selbst anhand dessen, was der Kopf dosiert. Gib beim Einrichten das **Gesamtvolumen** ein. Cora setzt außerdem ab und zu den eigenen Zähler des Apex zurück, und die Aktivität zeigt das als *Den eigenen Zähler des Apex auf 150 L zurückgesetzt*.
 
-Jeder Kopf hat außerdem eine Grenze **Größte manuelle Dosierung**, damit ein Tippfehler aus einer Handdosierung nicht etwas viel Größeres macht, als du wolltest. Große Handdosierungen werden erst verfügbar, nachdem die Rate des Kopfes am Becken mit einem echten Test gemessen wurde und du **Große Dosierungen** in den Einstellungen des Kopfes eingeschaltet hast. Standardmäßig ist es aus. Schalte es erst ein, nachdem du die erste große Dosierung am Becken beobachtet hast.
+Jeder Kopf außer einem Supplement- oder Futter-Kopf hat außerdem eine Grenze **Größte manuelle Dosierung**, damit ein Tippfehler aus einer Handdosierung nicht etwas viel Größeres macht, als du wolltest. Supplement- und Futter-Köpfe behalten stattdessen eine kleine feste Obergrenze. Sobald diese Grenze gesetzt ist, kann der Kopf auch ein **Tageslimit für Automationen und den Assistenten** haben, das die Standardgrenze von 10 ml pro Tag ersetzt.
 
 ## Red Sea ReefBeat {#red-sea}
 
@@ -98,9 +98,9 @@ Jedes Red Sea-Gerät hat eine Seite, die zu dem passt, was es tut:
 
 | Gerät | Die Seite zeigt | Du kannst |
 |---|---|---|
-| [ReefDose](#reefdose) | Jeden Kopf, seinen Behälter und was er dosiert hat | Dosieren, die Tagesdosis ändern, den **Dosierplan** bearbeiten |
+| [ReefDose](#reefdose) | Jeden Kopf, seinen Behälter und was er dosiert hat | Dosieren, die Tagesdosis ändern |
 | [ReefRun](#reefrun) | Geschwindigkeit und Zustand der Rückförder- und Abschäumerpumpe | Geschwindigkeit ändern, eine Pumpe schalten |
-| [ReefMat](#reefmat) | Verbleibende Rolle, in Tagen und Metern | Die Matte weiterspulen, **ReefMat-Einstellungen** festlegen, eine neue Rolle eintragen |
+| [ReefMat](#reefmat) | Verbleibende Rolle, in Tagen und Metern | Die Matte weiterspulen |
 | [ReefATO+](#reefato) | Füllstand des Reservoirs und Nachfüllaktivität | Eine Nachfüllbehälter-Warnung festlegen |
 
 
@@ -115,13 +115,6 @@ Für jeden Kopf kannst du **Dosierung pro Tag** und **Rest in der Flasche** eins
 
 Der Bereich **Dosierung** zeigt **Anstehende Dosierungen**, was jeder Kopf heute dosiert hat (**Heute bisher dosiert**) und **Dosiert pro Kopf** für die **Letzte 7 Tage** oder **Gesamt**. Cora liest das, solange ein Cora Max oder dein Handy in deinem Heimnetz ist.
 
-### Einen Dosierplan bearbeiten {#reefdose-plan}
-
-Tippe auf einer ReefDose-Seite auf das Kalendersymbol, um den **Dosierplan** zu öffnen.
-
-Ein Plan ist eine Tagesmenge, aufgeteilt in bis zu vier Zeitfenster. Jedes Fenster hat eine Start- und Endzeit, wie viele Dosierungen es abgeben soll, und eine Geschwindigkeit: **Flüster**, **Normal** oder **Schnell**. Füg Fenster hinzu und entferne sie, dann speichere. Cora zeigt dir, was du gleich schickst, und bittet dich um Bestätigung, bevor es den ganzen Plan des Kopfes ersetzt.
-
-Der Editor liest zuerst den Plan, der schon auf dem Gerät ist, du bearbeitest also den echten und kein leeres Formular.
 
 ## ReefRun {#reefrun}
 
@@ -132,12 +125,6 @@ ReefRun steuert Rückförder- und Abschäumerpumpen. Es ist keine Strömungspump
 
 Die ReefMat-Seite zeigt, wie viel Rolle übrig ist, in Tagen und Metern. Tippe auf **Jetzt weiterspulen**, um die Matte von Hand weiterzuspulen. Cora fragt zuerst **Die Matte jetzt weiterspulen?** Du kannst auch eine Nachfüllwarnung für die Rolle festlegen.
 
-Tippe auf das Zahnrad für **ReefMat-Einstellungen**:
-
-- **Geplanter Vorschub** schaltet einen Vorschub zu festen Zeiten ein, getrennt vom Sensor für den automatischen Vorschub, der schon auf der Seite ist. Schalte ihn ein und leg fest, wie oft und wie weit jeder Vorschub die Matte bewegt.
-- **ReefMat-Modell** und **Motorposition** (**Links** oder **Rechts**) sagen Cora, welches Gerät und welche Ausrichtung du hast.
-
-Nachdem du eine neue Rolle eingelegt hast, sag es Cora mit **Neue Rolle**: ihre Dicke und, wenn du ihn kennst, ihren Außendurchmesser. **Jetzt weiterspulen** bewegt nur die Matte, die schon eingelegt ist.
 
 ## ReefATO+ {#reefato}
 
@@ -178,7 +165,7 @@ Standardwerte und anderes Verbrauchsmaterial stehen unter [Verbrauchsmaterial un
 
 ## Jecod / Jebao-Pumpen {#jecod}
 
-Die Pumpenseite zeigt das aktuelle Wellenmuster (Modus) und die Intensität, und du kannst beides ändern. Ihr Status steht in der Titelzeile neben dem Namen der Pumpe. Ein Schalter mit **Den ganzen Tag gleich** und **Zeitplan** markiert den laufenden Modus mit *· läuft*, und die Seite öffnet sich auf ihm. Wie du ein Tagesprogramm baust und es kopierst, speicherst oder teilst, steht unter [Ausrüstung planen](/help/mobile-schedules).
+Die Pumpenseite zeigt das aktuelle Wellenmuster (Modus) und die Intensität, und du kannst beides ändern. Ihr Status steht in der Titelzeile neben dem Namen der Pumpe. Ein Schalter mit **Den ganzen Tag gleich** und **Zeitplan** markiert den laufenden Modus mit *· läuft*, und die Seite öffnet sich auf ihm. Wie du einen Zeitplan baust und ihn kopierst, speicherst oder teilst, steht unter [Ausrüstung planen](/help/mobile-schedules).
 
 Gehört die Pumpe zu einer Gruppe, zeigt die Seite ihre Rolle, etwa **Führt die Gruppe an**, **Folgt: im Gleichschritt** oder **Folgt: wechselnd**.
 

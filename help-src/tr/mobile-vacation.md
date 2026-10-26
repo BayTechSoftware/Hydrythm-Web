@@ -22,7 +22,7 @@ Ayarlar → akvaryumunuz → **Tatil modu** yoluna gidin. Birden fazla akvaryumu
 
 Her iş ne sıklıkla yapılacağını gösterir, örneğin **Günlük**, **Her 3 günde bir**, **Bir kez** ya da **Her zaman** (kalıcı bir talimat). Cora bunu bakım görevinden ya da öneriden çıkarır. Kendi yazdığınız işin etiketi olmaz, bu yüzden zamanlamayı işin metnine yazın.
 
-Kontrol listesini reef akvaryumlarını bilmeyen biri için yazın. Miktarları ve yöntemi açıkça yazın. "Günde bir kez, çözdürülmüş bir küp donmuş yem ver", "her zamanki gibi besle"den çok daha anlaşılırdır.
+Kontrol listesini resif akvaryumlarını bilmeyen biri için yazın. Miktarları ve yöntemi açıkça yazın. "Günde bir kez, çözdürülmüş bir küp donmuş yem ver", "her zamanki gibi besle"den çok daha anlaşılırdır.
 
 :::note Neye dokunulmayacağını yazın
 Bakıcının dokunmaması gereken her ekipman için bir iş ekleyin, örneğin "Kontrolörde hiçbir şeyi değiştirme". Bunu notlara da yazın.

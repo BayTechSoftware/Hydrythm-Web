@@ -1,13 +1,13 @@
 ---
 title: Harmonogramy sprzętu
-description: Ułóż program dnia dla pompy Jecod, skopiuj go na inne pompy, zapisz i udostępnij oraz sprawdź, czy pompa go przyjęła.
+description: Ułóż harmonogram dla pompy Jecod, skopiuj go na inne pompy, zapisz i udostępnij oraz sprawdź, czy pompa go przyjęła.
 section: Cora Mobile
 reviewed: 2026-10-17
 order: 14
 group: Equipment
 ---
 
-Na tej stronie nadasz pompie Jecod **program dnia**: zestaw okresów, każdy z własną intensywnością, powtarzany codziennie. Otwórz go z **Urządzenia** → dotknij pompy.
+Na tej stronie nadasz pompie Jecod **harmonogram**: zestaw okresów, każdy z własną intensywnością, powtarzany codziennie. Otwórz go z **Urządzenia** → dotknij pompy.
 
 Lampy i pompy innych marek mają harmonogramy na własnych stronach: ReefDose od Red Sea w [Sterowaniu sprzętem](/help/mobile-device-control#red-sea).
 
@@ -18,7 +18,7 @@ Lampy i pompy innych marek mają harmonogramy na własnych stronach: ReefDose od
 Pompa pracuje w jednym z dwóch trybów. Wybierz go przełącznikiem na jej stronie. Działający jest oznaczony *· działa*, a strona otwiera się na nim.
 
 - **Cały dzień tak samo** to jedna intensywność przez cały czas.
-- **Harmonogram** to program dnia złożony z okresów.
+- **Harmonogram** to zestaw okresów powtarzany codziennie.
 
 Gdy telefon jest w sieci pompy, Cora wysyła Twój wybór prosto do pompy. Jeśli nie jest, wybór idzie przez Cora Max przy akwarium. Pompa Bluetooth musi być w zasięgu. Dopóki nie jest, wybór zmienia tylko to, co widzisz na ekranie.
 

@@ -49,7 +49,7 @@ Pendant qu’une scène minutée tourne, sa tuile compte à rebours jusqu’à l
 
 Lancer ou arrêter une scène passe par Cora Cloud, comme toute autre commande. Vous trouverez le résultat dans [Activité](/help/max-activity).
 
-Les scènes ne peuvent pas être lancées à la voix sur Cora Max. Utilisez la tuile, **Paramètres → Automatisations**, ou votre téléphone.
+Vous pouvez aussi lancer une scène à la voix : *« Lance la scène changement d’eau. »* Le verrouillage enfant la bloque comme toute autre commande. Sinon, utilisez la tuile, **Paramètres → Automatisations**, ou votre téléphone.
 
 Si une scène refuse de se lancer ou de s’arrêter, consultez [Résolution de problèmes](/help/troubleshooting).
 

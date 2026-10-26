@@ -194,7 +194,7 @@
 <h2 id="help-answers">Odpowiedzi z Pomocy</h2>
 <p>Zapytaj, jak coś zrobić, na przykład <em>„Jak dodać pompę dozującą?”</em>, a Cora Assistant odpowie na podstawie tego przewodnika Pomocy, w Twoim języku, pisemnie lub głosowo. Pytanie o aplikację liczy się jak zwykła wiadomość.</p>
 <p>Pod odpowiedzią możesz zobaczyć do dwóch sekcji Pomocy, każda z maksymalnie dwoma przyciskami:</p>
-<ul><li><strong>Otwórz ten ekran</strong> przenosi Cię prosto na ekran, którego dotyczy odpowiedź. Nie ma go, gdy już tam jesteś. Jeśli ekran jest jedną z głównych kart, rozmowa głosowa kończy się wcześniej.</li><li><strong>Przeczytaj w Pomocy</strong> otwiera tę stronę Pomocy w przeglądarce wbudowanej w aplikację na telefonie.</li></ul>
+<ul><li><strong>Otwórz ten ekran</strong> przenosi Cię prosto na ekran, którego dotyczy odpowiedź. Nie ma go, gdy już tam jesteś. Jeśli ekran jest jedną z głównych kart, najpierw kończy się rozmowa głosowa.</li><li><strong>Przeczytaj w Pomocy</strong> otwiera tę stronę Pomocy w przeglądarce wbudowanej w aplikację na telefonie.</li></ul>
 <p>Przyciski pojawiają się tylko wtedy, gdy jest ekran lub strona do otwarcia.</p>
 <h2 id="consent">Zgoda</h2>
 <figure class="shot"><button type="button" class="zoom" aria-label="Powiększ: Zgoda Asystenta"><img src="/help/img/mobile-assistant-consent.webp" alt="Zgoda Asystenta" width="620" height="620" loading="lazy" decoding="async"></button><figcaption>Dwie osobne zgody i pamięć, którą prowadzi Cora.</figcaption></figure>
@@ -216,7 +216,7 @@
 <figure class="shot phone"><button type="button" class="zoom" aria-label="Powiększ: Ustawienia, Cora Assistant w Cora Mobile"><img src="/help/img/mobile-assistant-settings.webp" alt="Ustawienia, Cora Assistant w Cora Mobile" width="620" height="1347" loading="lazy" decoding="async"></button><figcaption>Dwa przełączniki danych, Pamięć AI, Urządzenie odpowiadające i Udostępniaj laboratoriom analizę Cora.</figcaption></figure>
 <p>Cora pamięta różne rzeczy o akwarium z rozmowy na rozmowę. Na przykład to, że dozujesz metodą dwuskładnikową, że akwarium z fragami ma wspólny sump albo że próbujesz podnieść poziom biogenów. Nie musisz za każdym razem tłumaczyć swojego systemu.</p>
 <p><strong>Ustawienia → Cora Assistant → Pamięć AI</strong> pokazuje, co Cora zapisała o Twoim akwarium, i pozwala to zresetować. Każde akwarium ma własną pamięć, więc najpierw wybierz akwarium. Ten wiersz widać tylko wtedy, gdy <strong>Pozwól Cora Assistant korzystać z zapisanych danych akwarium</strong> jest włączone.</p>
-<aside class="cal cal-note"><p class="cal-t">Co usuwa czyszczenie pamięci</p><p>Czyszczenie usuwa to, co Cora zapamiętała <em>z Waszych rozmów</em> o jednym akwarium. To jej profil Twojego systemu, sprawy, które śledziła, i wszystkie zapisane sesje. Jeśli czegoś z tego nie da się usunąć, Cora Mobile powie, że się nie udało.</p>
+<aside class="cal cal-note"><p class="cal-t">Co usuwa czyszczenie pamięci</p><p>Czyszczenie usuwa to, co Cora zapamiętała <em>z Twoich rozmów</em> o jednym akwarium. To jej profil Twojego systemu, sprawy, które śledziła, i wszystkie zapisane sesje. Jeśli czegoś z tego nie da się usunąć, Cora Mobile powie, że się nie udało.</p>
 <p>Twoje <strong>dane akwarium</strong> zostają bez zmian. Czyszczenie pamięci nie usuwa odczytów, wpisów w dzienniku, obsady, konserwacji ani raportów.</p></aside>
 <aside class="cal cal-warning"><p class="cal-t">Ostatnie wiadomości zostają</p><p>Reset nie usuwa wiadomości wymienionych z Corą. Przez mniej więcej pół godziny po nim Cora nadal widzi kilka ostatnich, gdy rozmawiasz dalej.</p></aside>
 <h2 id="wykorzystanie">Wykorzystanie</h2>
@@ -226,7 +226,7 @@
 <p>Jeśli odpowiedź brzmi pewnie, ale jest błędna, najpierw sprawdź chip danych. Często odpowiedź jest prawidłowa dla danych, które dostała Cora. Prawdziwym problemem jest nieaktualny odczyt albo źródło przypisane do niewłaściwego akwarium.</p>
 <p>Oceń odpowiedź kciukami pod nią. Kciuk w dół pyta <em>Co było z tym nie tak?</em> Wybierz powód, na przykład <strong>Błędna</strong> albo <strong>Nie uwzględniła mojego akwarium</strong>, i dotknij <strong>Wyślij ocenę</strong>. To pomaga nam to naprawić.</p>
       <nav class="pn" aria-label="Czytaj dalej"><a class="pn-p" href="/pl/help/mobile-reef-buddy"><span>Poprzedni</span><b>Reef Buddy</b></a><a class="pn-n" href="/pl/help/mobile-icp-health"><span>Następny</span><b>ICP i raporty zdrowia</b></a></nav>
-      <p class="stamp">Napisano dla Cora Max 0.28.238 i Cora Mobile 1.4.14. Ostatnio sprawdzono 2026-10-17.</p>
+      <p class="stamp">Napisano dla Cora Max 0.28.240 i Cora Mobile 1.4.16. Ostatnio sprawdzono 2026-10-17.</p>
       <p class="ask">Wciąż masz problem? Napisz na <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, pomożemy.</p>
     </article>
   </main>
@@ -617,7 +617,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/pl/help/search.json?v=aede854401').then(function (r) { return r.json(); })
+    fetch('/pl/help/search.json?v=bf578ebf0d').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "pl"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Wyszukiwanie jest niedost\u0119pne. U\u017cyj menu." + '</li>';

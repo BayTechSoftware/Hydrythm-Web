@@ -8,7 +8,7 @@ group: Alerts and automation
 twin: max-automation
 ---
 
-Une automatisation est une règle que Cora exécute pour vous : *quand ceci arrive, vérifie cela, puis fais ceci.* Une scène regroupe plusieurs actions en une seule chose que vous lancez quand vous le voulez.
+Une automatisation est une règle que Cora exécute pour vous : *quand ceci arrive, vérifier cela, puis faire ceci.* Une scène regroupe plusieurs actions en une seule chose que vous lancez quand vous le voulez.
 
 Allez dans **Paramètres → Automatisations**.
 
@@ -54,7 +54,7 @@ Les conditions décident si les actions s’exécutent. Touchez **Ajouter une co
 - **Alerte active**
 - **Prise activée / désactivée**, pour une prise Apex
 - **Heure de la journée**, une plage comme 22:00 à 06:00
-- **Résultat d’une étape précédente**, qui vérifie si une étape précédente s’est terminée **OK** ou a été **Ignoré**. Utilisez-le pour « essaie ceci, et si ça n’a pas marché, fais plutôt cela »
+- **Résultat d’une étape précédente**, qui vérifie si une étape précédente s’est terminée **OK** ou a été **Ignoré**. Utilisez-le pour « essayer ceci, et si cela n’a pas marché, faire plutôt cela »
 
 Avec plusieurs conditions, réglez **Correspondance** sur **Toutes (ET)** ou **Au moins une (OU)**.
 
@@ -125,4 +125,4 @@ Chaque règle a un interrupteur d’activation. Désactiver une règle garde ses
 
 Chaque action d’une règle est enregistrée avec **Règle d’automatisation** comme cause. Vous la trouverez dans [Activité](/help/mobile-activity).
 
-Une étape qui échoue ou doit attendre ne reste pas en attente. Elle expire aussitôt, l’exécution est enregistrée comme échouée, et vous recevez une notification qui nomme l’automatisation, l’étape et la raison. Une étape échoue par exemple quand son appareil est hors ligne, qu’aucun Cora Max ne peut l’exécuter, que l’appareil la refuse ou ne répond pas, ou qu’un chauffage ou un refroidisseur vient d’être commuté. Une étape sur un aquarium retiré ne vous envoie aucune notification.
+Une étape qui échoue ou doit attendre ne reste pas en attente. Elle expire aussitôt, l’exécution est enregistrée comme échouée, et vous recevez une notification qui nomme l’automatisation, l’étape et la raison. Une étape échoue par exemple quand son appareil est hors ligne, qu’aucun Cora Max ne peut l’exécuter, que l’appareil la refuse ou ne répond pas, ou qu’un chauffage ou un groupe froid vient d’être commuté. Une étape sur un aquarium retiré ne vous envoie aucune notification.

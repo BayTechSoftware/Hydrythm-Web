@@ -83,7 +83,7 @@ Si el volumen es un 20 % demasiado alto, las dosis sugeridas también salen un 2
 
 Indica la **Fecha de inicio del acuario** en **Dimensiones del acuario**. Cora valora las lecturas según lo normal para un acuario de esa edad, así que un sistema de tres meses y otro de cinco años se valoran de forma distinta.
 
-Si el acuario todavía está haciendo el ciclo, toca la tarjeta **¿Estás empezando un acuario nuevo?** de arriba en este perfil para empezar el ciclado guiado. Funciona en cualquier momento, incluso después de registrar lecturas. Más información en [Itinerarios guiados](/help/mobile-journeys).
+Si el acuario sigue en ciclado, toca la tarjeta **¿Estás empezando un acuario nuevo?** de arriba en este perfil para empezar el ciclado guiado. Funciona en cualquier momento, incluso después de registrar lecturas. Más información en [Itinerarios guiados](/help/mobile-journeys).
 
 ## Mantén el perfil al día {#keeping-the-profile-current}
 

@@ -8,7 +8,7 @@ group: Your dashboard
 twin: mobile-dashboard-editing
 ---
 
-Ta strona pokazuje, jak układać kafelki na panelu Cora Max. Pulpit ma **stałą siatkę**: ekran się nie przewija, więc każdy kafelek musi zmieścić się na jednym ekranie. To główna różnica w porównaniu z panelem w telefonie.
+Ta strona pokazuje, jak układać kafelki na panelu Cora Max. Panel ma **stałą siatkę**: ekran się nie przewija, więc każdy kafelek musi zmieścić się na jednym ekranie. To główna różnica w porównaniu z panelem w telefonie.
 
 Edytor otworzysz z **menu akwarium**: dotknij nazwy akwarium na górnym pasku, a potem **Układ panelu**. Jest też w **Ustawienia → [Twoje akwarium] → Układ panelu**.
 
@@ -25,7 +25,7 @@ Najpierw wybierz rozmiar siatki. Późniejsza zmiana przestawia wszystkie kafelk
 | Siatka | Kafelki | Jak to wygląda |
 |---|---|---|
 | 2×2, 3×2, 3×3 | 4–9 | Duże. Łatwe do przeczytania z drugiego końca pokoju. |
-| 4×4, 5×3, 6×4 | 16–24 | Zwykły wybór dla pełnego systemu. |
+| 4×4, 5×3, 6×4 | 15–24 | Zwykły wybór dla pełnego systemu. |
 | 6×5, 8×4, 8×5 | 30–40 | Gęsto. Cały pokój z akwariami na jednym ekranie. |
 | 9×5, 10×5 | 45–50 | Bardzo gęsto. Najlepsze na największych ekranach. |
 | **Auto** | do 32 | Cora wybiera kształt, który mieści tyle kafelków, ile dodano. |
@@ -47,7 +47,7 @@ Gdy zmieniasz siatkę, Cora nie wyrzuca kafelków według pozycji. Kafelki, któ
 3. W **ROZMIAR** wybierz, jak duży ma być. Kafelek może mieć jedną albo dwie komórki szerokości i jedną albo dwie wysokości. Wykres ma też **ZAKRES CZASU**. Kafelek dozownika ma **Pokaż pozostałe jako**, w **Dni** albo **Mililitry (mL)**.
 4. Dotknij **Dodaj**.
 
-Gesty są wymienione u góry edytora: **Dotknij kafelek, aby edytować**, **przytrzymaj, aby przenieść** i **✕, aby usunąć**. **Wyczyść wszystko** opróżnia siatkę, żeby zacząć od nowa.
+Gesty są wymienione u góry edytora: **dotknij kafelka, aby edytować**, **przytrzymaj, aby przenieść** i **✕, aby usunąć**. **Wyczyść wszystko** opróżnia siatkę, żeby zacząć od nowa.
 
 Typy kafelków to Wartość, Wskaźnik, Wykres, Stan, Gniazdo, Scena, ReefBeat, Moduł Apex i Jecod. **Oświetlenie**, **Pompa cyrkulacyjna** i **Pompa** wymieniają wszystkie lampy, pompy cyrkulacyjne i pompy w akwarium, niezależnie od marki, a każdy wiersz pojawia się tylko wtedy, gdy akwarium ma takie urządzenie. Znajdziesz je w [Rodzajach widżetów](/help/mobile-widgets). Kafelek **Scena** istnieje tylko na Cora Max. Uruchamia [scenę](/help/max-automation) jednym dotknięciem.
 

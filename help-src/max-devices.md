@@ -55,7 +55,7 @@ If one tank's readings stop while another tank on the same screen keeps updating
 
 1. Open **Settings → [that tank] → Primary Cora Max**. Check that a device is assigned and that it's online.
 2. If another Cora Max for this tank shows **Main Cora offline** in its top bar, the primary has lost its connection. What the status tag means is explained in [The Cora Max home screen](/help/max-tour#what-the-status-pill-means).
-3. **Settings → Cora Max Settings → Network & Updates → Device polling** shows how often this Cora Max reads your devices. You can only view it here. It's set from Cora Mobile.
+3. **Settings → Cora Max Settings → NETWORK & UPDATES → Device polling** shows how often this Cora Max reads your devices. You can only view it here. It's set from Cora Mobile.
 4. Check the **Status** section of **Settings → Cora Max Settings**. It shows polling status, last poll time and last cloud write for each tank, without changing anything.
 
 If that doesn't help, have a look at [Troubleshooting](/help/troubleshooting).

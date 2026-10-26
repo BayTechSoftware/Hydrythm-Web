@@ -101,7 +101,7 @@
 <li><a href="/fr/help/mobile-alerts">Alertes et seuils</a></li>
 <li><a href="/fr/help/mobile-notifications">Notifications</a></li>
 <li><a href="/fr/help/mobile-automation">Automatisations et scènes</a></li>
-<li><a href="/fr/help/mobile-vacation">Partir en vacances : un plan pour la personne qui garde votre aquarium</a></li>
+<li><a href="/fr/help/mobile-vacation">Partir en vacances : un plan pour votre gardien</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Journaux</summary><ul>
@@ -131,7 +131,7 @@
 <summary>Prise en main</summary><ul>
 <li><a href="/fr/help/max-setup">Configurer Cora Max</a></li>
 <li><a href="/fr/help/max-tour">L’écran d’accueil de Cora Max</a></li>
-<li><a href="/fr/help/max-reef-room">La pièce du récif</a></li>
+<li><a href="/fr/help/max-reef-room">La salle du récif</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Votre tableau de bord</summary><ul>
@@ -178,7 +178,7 @@
 <p>Vous n’avez rien à faire pour rester à jour.</p>
 <h2 id="checking-the-version-and-update-settings">Vérifier la version et les réglages de mise à jour</h2>
 <figure class="shot"><button type="button" class="zoom" aria-label="Agrandir : Réseau et mises à jour sur Cora Max"><img src="/help/img/max-updates.webp" alt="Réseau et mises à jour sur Cora Max" width="1280" height="800" loading="lazy" decoding="async"></button><figcaption>Mise à jour du micrologiciel, dans la section RÉSEAU ET MISES À JOUR des Paramètres Cora Max.</figcaption></figure>
-<p>Votre version figure sur la carte en haut de <strong>Paramètres → Paramètres Cora Max</strong> (<em>Cora Max · micrologiciel 0.28.170</em>), et sous <strong>AIDE ET À PROPOS → À propos</strong>.</p>
+<p>Votre version figure sur la carte en haut de <strong>Paramètres → Paramètres Cora Max</strong> (<em>Cora Max · micrologiciel 0.28.x</em>), et sous <strong>AIDE ET À PROPOS → À propos</strong>.</p>
 <p><strong>Paramètres → Paramètres Cora Max → Mise à jour du micrologiciel</strong> (dans <strong>RÉSEAU ET MISES À JOUR</strong>) affiche la version que vous avez et indique si une mise à jour attend. Touchez <strong>Rechercher des mises à jour</strong> pour vérifier maintenant, ou <strong>Télécharger et installer</strong> quand il y en a une.</p>
 <p>Sous <strong>Paramètres de mise à jour</strong>, sur le même écran :</p>
 <ul><li><strong>Plage d’installation</strong> définit les heures pendant lesquelles les mises à jour peuvent s’installer, avec une heure de <strong>Début</strong> et de <strong>Fin</strong>, à l’heure locale de cet écran. Le fuseau horaire se règle dans Cora Mobile, sous <strong>Appareils →</strong> votre Cora Max <strong>→ Fuseau horaire</strong>.</li></ul>
@@ -208,7 +208,7 @@
 <h2 id="si-un-appareil-ne-redemarre-pas">Si un appareil ne redémarre pas</h2>
 <p>Écrivez à <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> en indiquant la version affichée à l’écran et le message qu’il affiche. Ne le réappairez pas avant. L’état de l’association aide souvent à comprendre ce qui s’est passé.</p>
       <nav class="pn" aria-label="Poursuivre la lecture"><a class="pn-p" href="/fr/help/max-settings"><span>Précédent</span><b>Paramètres de Cora Max</b></a></nav>
-      <p class="stamp">Rédigé pour Cora Max 0.28.238 et Cora Mobile 1.4.14. Vérifié pour la dernière fois le 2026-10-17.</p>
+      <p class="stamp">Rédigé pour Cora Max 0.28.240 et Cora Mobile 1.4.16. Vérifié pour la dernière fois le 2026-10-17.</p>
       <p class="ask">Toujours bloqué ? Écrivez à <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, nous vous aiderons.</p>
     </article>
   </main>
@@ -599,7 +599,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/fr/help/search.json?v=fac77358f2').then(function (r) { return r.json(); })
+    fetch('/fr/help/search.json?v=84e649e8bc').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "fr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La recherche est indisponible. Utilisez la navigation." + '</li>';

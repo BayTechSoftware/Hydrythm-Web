@@ -175,7 +175,7 @@
 <p>Twoje konto trzyma razem akwaria, odczyty i urządzenia. Ta strona pomoże Ci się do niego dostać i utrzymać je w porządku. Zakładanie konta po raz pierwszy opisuje <a href="/pl/help/mobile-setup#create-your-account">Konfiguracja Cora Mobile</a>.</p>
 <h2 id="cant-sign-in">Nie możesz się zalogować?</h2>
 <p>Zacznij od sytuacji, która pasuje do tego, co widzisz.</p>
-<ul><li><em>Nie pamiętasz hasła.</em> Zobacz <a href="/pl/help/mobile-account#forgotten-password">Zapomniane hasło</a>.</li><li><em>Cora mówi, że ten adres ma już konto z innym sposobem logowania.</em> Za pierwszym razem rejestracja odbyła się inaczej. Zaloguj się tak jak za pierwszym razem: e-mailem i hasłem, przez Google albo przez Apple.</li><li><em>Udało się zalogować, ale nie ma akwariów.</em> Prawdopodobnie jesteś na drugim, pustym koncie. Dzieje się tak, gdy inny sposób logowania używa innego adresu, na przykład <strong>Ukryj mój adres e-mail</strong> od Apple albo innego konta Google. Akwaria nie zniknęły. Wyloguj się i zaloguj tak jak za pierwszym razem.</li><li><em>Cora mówi, że było za dużo prób logowania.</em> Odczekaj kilka minut albo dotknij <strong>Nie pamiętasz hasła?</strong>, żeby zresetować hasło i zalogować się od razu.</li><li><em>Cora mówi, że konto zostało wyłączone.</em> Komunikat podaje adres, na który trzeba napisać. Napisz na niego z adresu użytego przy rejestracji, a konto zostanie przywrócone.</li><li><em>Logowanie w ogóle nie rusza.</em> Najpierw zaznacz <strong>Akceptuję: Warunki korzystania i Polityka prywatności</strong>. Wymaga tego każdy sposób logowania.</li></ul>
+<ul><li><em>Nie pamiętasz hasła.</em> Zobacz <a href="/pl/help/mobile-account#forgotten-password">Zapomniane hasło</a>.</li><li><em>Cora mówi, że ten adres ma już konto z innym sposobem logowania.</em> Za pierwszym razem rejestracja odbyła się inaczej. Zaloguj się tak jak za pierwszym razem: e-mailem i hasłem, przez Google albo przez Apple.</li><li><em>Udało się zalogować, ale nie ma akwariów.</em> Prawdopodobnie jesteś na drugim, pustym koncie. Dzieje się tak, gdy inny sposób logowania używa innego adresu, na przykład <strong>Ukryj mój adres e-mail</strong> od Apple albo innego konta Google. Akwaria nie zniknęły. Wyloguj się i zaloguj tak jak za pierwszym razem.</li><li><em>Cora mówi, że było za dużo prób logowania.</em> Odczekaj kilka minut albo dotknij <strong>Nie pamiętasz hasła?</strong>, żeby zresetować hasło i zalogować się od razu.</li><li><em>Cora mówi, że konto zostało wyłączone.</em> Komunikat podaje adres, na który trzeba napisać. Napisz na niego z adresu użytego przy rejestracji, żeby poprosić o przywrócenie konta.</li><li><em>Logowanie w ogóle nie rusza.</em> Najpierw zaznacz <strong>Akceptuję: Warunki korzystania i Polityka prywatności</strong>. Wymaga tego każdy sposób logowania.</li></ul>
 <h2 id="ways-to-sign-in">Sposoby logowania</h2>
 <p>Możesz zalogować się <strong>adresem e-mail i hasłem</strong> albo przez <strong>Kontynuuj z Apple</strong> lub <strong>Kontynuuj z Google</strong>. Za każdym razem używaj tego samego sposobu.</p>
 <p>Jeśli używasz <strong>Kontynuuj z Apple</strong>, wybierz <strong>Udostępnij mój adres e-mail</strong>, gdy Apple o to zapyta, żeby wyniki z laboratorium i ICP mogły trafić na Twoje konto Cora. Jeśli adres został już ukryty, dodaj prawdziwy adres w <a href="/pl/help/mobile-account#lab-and-icp-emails">E-mailach laboratorium i ICP</a>.</p>
@@ -203,7 +203,7 @@
 <h2 id="signing-out">Wylogowanie</h2>
 <p><strong>Ustawienia → Twoje konto → Wyloguj się</strong> wylogowuje to urządzenie. Nic nie zostaje usunięte, a po ponownym zalogowaniu Twoje akwaria, odczyty i urządzenia będą na miejscu. <a href="/pl/help/mobile-data-export">Twoje dane</a> wyjaśniają, czym wylogowanie różni się od usunięcia konta.</p>
       <nav class="pn" aria-label="Czytaj dalej"><a class="pn-p" href="/pl/help/mobile-tanks"><span>Poprzedni</span><b>Zarządzanie akwariami</b></a><a class="pn-n" href="/pl/help/mobile-dashboard"><span>Następny</span><b>Jak czytać panel</b></a></nav>
-      <p class="stamp">Napisano dla Cora Max 0.28.238 i Cora Mobile 1.4.14. Ostatnio sprawdzono 2026-10-13.</p>
+      <p class="stamp">Napisano dla Cora Max 0.28.240 i Cora Mobile 1.4.16. Ostatnio sprawdzono 2026-10-13.</p>
       <p class="ask">Wciąż masz problem? Napisz na <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, pomożemy.</p>
     </article>
   </main>
@@ -594,7 +594,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/pl/help/search.json?v=aede854401').then(function (r) { return r.json(); })
+    fetch('/pl/help/search.json?v=bf578ebf0d').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "pl"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Wyszukiwanie jest niedost\u0119pne. U\u017cyj menu." + '</li>';

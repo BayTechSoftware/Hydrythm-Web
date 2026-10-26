@@ -52,7 +52,7 @@ It decides which Cora Max reads a tank's equipment. Most people never touch it. 
 
 ### Which device answers "Hey Cora" if I have more than one Cora Max? {#which-device-answers-hey-cora}
 
-Only one Cora device answers at a time. You choose it in Cora Mobile under **Settings → Cora Assistant**. It has nothing to do with Primary Cora Max. More in [Talking to Cora](/help/max-voice).
+Only one Cora device answers at a time. You choose it under **Settings → Cora Assistant**, in Cora Mobile or on Cora Max. It has nothing to do with Primary Cora Max. More in [Talking to Cora](/help/max-voice).
 
 ### Why can't Cora Mobile find my Cora Max when I try to pair it? {#why-cant-cora-mobile-find-my-cora-max}
 
@@ -78,7 +78,7 @@ Yes. On Cora Max, join the new network under **Settings → Cora Max Settings �
 
 ### Why does Cora Mobile ask for Local Network and Bluetooth access? {#why-local-network-and-bluetooth}
 
-It needs Local Network access to find Wi-Fi equipment and reach a Cora Max on your home network, and Bluetooth to pair a Cora Max and equipment that uses Bluetooth. Without them, it can't find the device. More in [Cora Mobile settings](/help/mobile-settings).
+On iPhone it needs Local Network access to find Wi-Fi equipment and reach a Cora Max on your home network, and Bluetooth to pair a Cora Max and equipment that uses Bluetooth. On Android, the matching permissions are Bluetooth and location. Without them, it can't find the device. More in [Cora Mobile settings](/help/mobile-settings).
 
 ### Can I check on my tank when I'm not home? {#can-i-check-on-my-tank-away}
 
@@ -108,21 +108,21 @@ Neptune Apex (with DŌS and Trident), Red Sea ReefBeat equipment, Jecod and Jeba
 
 
 
-### Is Cora affiliated with Neptune, Red Sea or Jebao? {#is-cora-affiliated}
+### Is Cora affiliated with Neptune, Red Sea, Jecod, Jebao or AquaWiz? {#is-cora-affiliated}
 
-No. Cora isn't affiliated with, endorsed by, or partnered with any manufacturer it connects to. Cora talks to their public accounts, official APIs or local network protocols. A manufacturer's own app or firmware update can change or break that connection at any time, without notice. More in [Connecting your equipment](/help/mobile-connections).
+No. Cora isn't affiliated with, endorsed by, or partnered with any manufacturer it connects to. Cora talks to their accounts, their cloud services or their local network protocols. Some of these are not officially supported by the manufacturer. A manufacturer's own app or firmware update can change or break that connection at any time, without notice. More in [Connecting your equipment](/help/mobile-connections).
 
 ### My phone found nothing when I searched for equipment. Why? {#search-found-nothing}
 
-Check that the equipment is powered on and already set up in the manufacturer's app, if it needs one. Then check that your phone allows Local Network and Bluetooth access for Cora. Cora can't find equipment that has never joined your network. More in [Troubleshooting](/help/troubleshooting#a-device-cannot-be-reached).
+Check that the equipment is powered on and already set up in the manufacturer's app, if it needs one. Then check that your phone allows Cora to use Local Network and Bluetooth on iPhone, or Bluetooth and location on Android. Cora can't find equipment that has never joined your network. More in [Troubleshooting](/help/troubleshooting#a-device-cannot-be-reached).
 
 ### Is it safe to let Cora control my dosing pump? {#is-it-safe-to-let-cora-dose}
 
-Cora only doses what you set up: a product, an amount and a schedule you define, within the limits you set for each head. If a dose stops partway, Cora raises an alert saying so, and tells you how much went in when it can. Read it before you assume the full dose went in. More in [Controlling your equipment](/help/mobile-device-control) and [Troubleshooting](/help/troubleshooting#a-dose-stopped-partway-through-and-a-restore-alert-appeared).
+Cora only doses what you set up: a product, an amount and a schedule you define, within the limits you set for each head. Doses you start by hand, from an automation or through Cora Assistant have caps of their own. More in [Controlling your equipment](/help/mobile-device-control).
 
 ### How does Cora know how strong my dosing product is? {#how-strong-is-my-dosing-product}
 
-It comes from the built-in product library, which lists salts and dosing products with their published figures. If you add your own product, you enter the strength yourself. More in [Dosing](/help/mobile-dosing).
+It comes from the built-in list of alkalinity, calcium and magnesium products, with their published strengths. If your bottle gives a different strength, change it. If you add your own product, enter the strength printed on the label. More in [Dosing](/help/mobile-dosing).
 
 ## Alerts and notifications
 
@@ -148,7 +148,7 @@ Both are on Cora Max and only affect that screen. **Snooze** mutes the alert the
 
 ### Why did I get an alert on my phone but not on Cora Max, or the other way round? {#alert-on-phone-not-on-cora-max}
 
-The switches in **Settings → Notifications** belong to your account, so they apply to every phone you're signed in on. Cora Max shows every alert unless on-screen alerts are turned off for that screen (on your phone, **Devices**, your Cora Max, **Alerts**), or you snoozed or dismissed it there. More in [Alerts on Cora Max](/help/max-alerts).
+The switches in **Settings → Notifications** belong to your account, so they apply to every phone you're signed in on. Cora Max shows every alert unless you snoozed or dismissed it there. To silence only the chime on one Cora Max, turn off **Alert sound** on your phone (**Devices**, your Cora Max). More in [Alerts on Cora Max](/help/max-alerts).
 
 ## Reef Buddy and Cora Assistant
 
@@ -162,7 +162,7 @@ Reef Buddy is part of the paid plans and the 30-day trial. Each plan covers a se
 
 ### What can I ask Cora, and what can it do? {#what-can-i-ask-cora}
 
-Ask about your tank's readings, history, dosing, lab results and journal. Cora can also do things for you, like log a test or switch equipment, and asks you to confirm first. It tells you when it has no data or connection for something, instead of guessing. More in [Asking Cora](/help/mobile-assistant) and [Talking to Cora](/help/max-voice).
+Ask about your tank's readings, history, dosing, lab results and journal. Cora can also do things for you, like log a test, or switch equipment after you confirm it. It tells you when it has no data or connection for something, instead of guessing. More in [Asking Cora](/help/mobile-assistant) and [Talking to Cora](/help/max-voice).
 
 ### Does Cora remember what I told it last time? {#does-cora-remember}
 
@@ -190,7 +190,7 @@ No. Anything already written stays in its original language. New alerts, reports
 
 ### What's free, and what needs a plan? {#whats-free}
 
-See [Plans and subscriptions](/help/mobile-plans) for what each plan includes.
+Monitoring, devices, alerts, the journal, exporting your data and guided cycling are free. Reef Buddy and the bigger Cora Assistant allowances need Cora Essential, Advanced or Expert, and a new account starts with a 30-day Advanced trial. See [Plans and subscriptions](/help/mobile-plans) for what each plan includes.
 
 ### Is the Expert plan the same as Cora Max? {#max-plan-or-cora-max}
 
@@ -212,9 +212,9 @@ To change your password, sign out and use **Forgot password?** on the sign-in sc
 
 Cora uses it to show your readings, run alerts, and power Reef Buddy and Cora Assistant. What's stored and how it may be used is in [Exporting your data and deleting your account](/help/mobile-data-export), [Cora Mobile settings](/help/mobile-settings) and the privacy policy.
 
-### Can I get a copy of everything Cora has stored about my tank? {#can-i-get-a-copy}
+### Can I export my data? {#can-i-get-a-copy}
 
-Yes, you can export it from Cora Mobile. [Exporting your data](/help/mobile-data-export) explains what the export includes.
+Yes. You can export your readings, journal entries and notification history from Cora Mobile as CSV files, free on every plan. It isn't a copy of your whole account. [Exporting your data](/help/mobile-data-export) explains what the export includes.
 
 ---
 

@@ -35,7 +35,7 @@ Die meisten Schwellenwerte sind in Tagen, nicht in Volumen. Cora rechnet aus, wi
 | DŌS-Kopf | **Warnungen bei verpasster Dosierung** (ein Schalter) | |
 | ReefDose-Kopf | Tage, die das Supplement noch reicht | 7 Tage |
 | ReefATO+ | **Restlaufzeit des Behälters**, geschätzt aus dem jüngsten Nachfüllverbrauch | 2 Tage |
-| ReefMat | **Verbleibende Rolle**, geschätzt daraus, wie schnell die Rolle vorrückt | 3 Tage |
+| ReefMat | **Verbleibende Rolle**, geschätzt aus der Vorschubgeschwindigkeit der Rolle | 3 Tage |
 | AquaWiz | Verbleibender Alkalinitäts-Zusatz | Die am Controller eingestellte Warnstufe (100 ml, wenn er keine meldet) |
 
 
@@ -58,6 +58,5 @@ Sag es Cora auf der Seite des Geräts, damit die Warnung verschwindet und die n�
 | DŌS-Kopf | **Befüllen**, dann **Voll**, oder stell **Verbleibendes Volumen** ein |
 | DŌS-Abfallbehälter | Setz seinen freien Platz nach dem Leeren auf voll zurück |
 | ReefDose-Kopf | **Rest in der Flasche** |
-| ReefMat | **Neue Rolle**, nachdem du eine neue Rolle eingelegt hast |
 
 Trident, ReefATO+ und AquaWiz melden ihren Stand selbst, in Cora musst du also nichts zurücksetzen.

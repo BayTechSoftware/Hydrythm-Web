@@ -80,7 +80,7 @@ You get a score out of 100 and a plain-language summary of what it means for you
 
 The score compares your results with their target ranges, including any ranges you've set yourself. If any result is outside its range, the score can't go above 70, so it can't read **Healthy**. If one is far outside, it can't go above 40, however good the rest are. The label under the score reads **Healthy** from 71 to 100, **Needs Attention** from 40 to 70 and **Critical** from 0 to 39. Health Reports are scored the same way.
 
-Every element is tracked, including trace elements and contaminants as well as the main parameters. Cora records all 71 elements a lab can report, and the line some labs call *Acidity* is pH.
+Every element is tracked, including trace elements and contaminants as well as the main parameters. Cora records every element and contaminant a lab can report, and the line some labs call *Acidity* is pH.
 
 On each element row you'll see the range the lab printed, shown as *Lab range*, next to Cora's own range for that element. An element Cora has no reference range for carries the tag **No Cora range**. The report says how many elements have a Cora range and assesses the rest from general reef knowledge. Cora Assistant comments on every element that was tested, and its comment stands even when there's no Cora range.
 

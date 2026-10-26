@@ -178,9 +178,9 @@
 <ol><li>Apri <strong>Impostazioni</strong> e tocca la scheda dell'account in alto. Si apre <strong>Account e abbonamento</strong>.</li><li>Tocca <strong>Esporta i miei dati</strong>.</li></ol>
 <p>L'esportazione è <strong>gratuita con tutti i piani</strong>, compreso quello gratuito.</p>
 <p>Cora esporta <strong>file CSV</strong>. Sono fogli di calcolo che si aprono con Excel, Numbers, Google Sheets o qualsiasi programma che legge una tabella.</p>
-<div class="tw"><table class="stack"><thead><tr><th>File</th><th>Contenuto</th></tr></thead><tbody><tr><td data-th="File"><code>cora_parameters.csv</code></td><td data-th="Contenuto">Le tue letture, ciascuna con la fonte e l'orario</td></tr><tr><td data-th="File"><code>cora_journal.csv</code></td><td data-th="Contenuto">Le voci del diario</td></tr><tr><td data-th="File"><code>cora_alerts.csv</code></td><td data-th="Contenuto">Gli avvisi scattati</td></tr><tr><td data-th="File"><code>cora_export_summary.csv</code></td><td data-th="Contenuto">Cosa comprende questa esportazione, compreso quello che è stato tagliato</td></tr></tbody></table></div>
+<div class="tw"><table class="stack"><thead><tr><th>File</th><th>Contenuto</th></tr></thead><tbody><tr><td data-th="File"><code>cora_parameters.csv</code></td><td data-th="Contenuto">Le tue letture, ciascuna con la fonte e l'orario</td></tr><tr><td data-th="File"><code>cora_journal.csv</code></td><td data-th="Contenuto">Le voci del diario</td></tr><tr><td data-th="File"><code>cora_alerts.csv</code></td><td data-th="Contenuto">Il tuo storico delle notifiche</td></tr><tr><td data-th="File"><code>cora_export_summary.csv</code></td><td data-th="Contenuto">Cosa comprende questa esportazione, compreso quello che è stato tagliato</td></tr></tbody></table></div>
 <aside class="cal cal-note"><p class="cal-t">Cosa c'è nell'esportazione</p><p>Comprende <strong>letture, voci di diario e avvisi</strong>, i tre archivi che le persone chiedono. Non è una copia di tutto l'account. Dashboard, popolazione, manutenzione, automazioni, report e impostazioni dei dispositivi non sono inclusi.</p>
-<p>Ognuno dei tre si ferma a <strong>25.000 righe per vasca</strong>. Una vasca che registra trenta parametri ogni cinque minuti ne scrive di più in tre giorni, quindi una vasca attiva da tempo raggiungerà il limite. Il file di riepilogo ti dice quando è successo. Controllalo prima di dare per scontato che l'esportazione sia completa.</p></aside>
+<p>Letture e voci del diario si fermano a <strong>25.000 record per vasca</strong>, e il file delle notifiche a 25.000 per l'intero account. Una vasca con anni di storico può raggiungere il limite. Il file di riepilogo ti dice quando è successo. Controllalo prima di dare per scontato che l'esportazione sia completa.</p></aside>
 <p>L'esportazione dei parametri comprende la <strong>fonte</strong> di ogni lettura. Così, in un foglio con la tua alcalinità, distingui ancora quello che ha detto la sonda da quello che ha detto il test.</p>
 <aside class="cal cal-note"><p class="cal-t">Esporta prima dei grandi cambiamenti</p><p>Fai un'esportazione prima di smontare una vasca o di cambiare molto l'impianto. I file non dipendono da Cora Mobile né dal tuo account.</p></aside>
 <h2 id="uscire-o-eliminare">Uscire o eliminare</h2>
@@ -198,10 +198,10 @@
 <h2 id="cosa-conserva-cora">Cosa conserva Cora</h2>
 <p>Tutti i dettagli sono nella <a href="/privacy-policy.html">informativa sulla privacy</a>. In breve, Cora conserva i dati della vasca, il tuo account e gli accessi per l'attrezzatura che hai collegato con l'account di un produttore.</p>
 <p>Quando rimuovi un dispositivo, Cora dimentica il suo accesso. Quando elimini l'account, viene rimosso tutto quello che è conservato a tuo nome, con queste eccezioni:</p>
-<ul><li>la copia anonimizzata per la ricerca, se hai lasciato attivo quell'interruttore</li><li>l'abbonamento sullo store, che solo lo store può annullare</li><li>la tua scheda cliente presso il nostro fornitore di gestione degli abbonamenti, che viene eliminata 120 giorni dopo l'account, così un rimborso dello store o una contestazione di pagamento possono ancora essere gestiti</li></ul>
+<ul><li>la copia anonimizzata per la ricerca, se hai lasciato attivo quell'interruttore</li><li>l'abbonamento sullo store, che solo lo store può annullare</li><li>la tua scheda cliente presso il nostro fornitore di gestione degli abbonamenti, che viene eliminata 120 giorni dopo l'eliminazione dell'account, così un rimborso dello store o una contestazione di pagamento possono ancora essere gestiti</li></ul>
 <p>Come accedere di nuovo su un altro telefono, o cambiare il modo di accesso, è spiegato in <a href="/it/help/mobile-account">Accesso e recupero dell'account</a>. Piani e fatturazione sono in <a href="/it/help/mobile-plans">Piani e abbonamenti</a>.</p>
       <nav class="pn" aria-label="Continua a leggere"><a class="pn-p" href="/it/help/mobile-plans"><span>Precedente</span><b>Piani e abbonamenti</b></a><a class="pn-n" href="/it/help/mobile-support"><span>Successivo</span><b>Segnalare un problema</b></a></nav>
-      <p class="stamp">Scritto per Cora Max 0.28.238 e Cora Mobile 1.4.14. Ultimo controllo il 2026-10-13.</p>
+      <p class="stamp">Scritto per Cora Max 0.28.240 e Cora Mobile 1.4.16. Ultimo controllo il 2026-10-13.</p>
       <p class="ask">Ancora bloccato? Scrivi a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, ti aiutiamo.</p>
     </article>
   </main>
@@ -592,7 +592,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/it/help/search.json?v=251de7c448').then(function (r) { return r.json(); })
+    fetch('/it/help/search.json?v=6ecfe81ff8').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "it"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La ricerca non \u00e8 disponibile. Usa la navigazione." + '</li>';

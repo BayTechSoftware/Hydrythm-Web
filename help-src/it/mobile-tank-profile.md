@@ -83,7 +83,7 @@ Se il volume è troppo alto del 20%, anche le dosi suggerite sono troppo alte de
 
 Imposta la **Data di avvio della vasca** in **Dimensioni vasca**. Cora valuta le letture rispetto a quello che è normale per una vasca di quell'età, quindi un impianto di tre mesi e uno di cinque anni vengono giudicati in modo diverso.
 
-Se la vasca sta ancora facendo il ciclo, tocca la scheda **Stai avviando una nuova vasca?** in cima a questo profilo per avviare la maturazione guidata. Funziona in qualsiasi momento, anche dopo aver registrato letture. Di più in [Percorsi guidati](/help/mobile-journeys).
+Se la vasca è ancora in maturazione, tocca la scheda **Stai avviando una nuova vasca?** in cima a questo profilo per avviare la maturazione guidata. Funziona in qualsiasi momento, anche dopo aver registrato letture. Di più in [Percorsi guidati](/help/mobile-journeys).
 
 ## Tenere aggiornato il profilo {#keeping-the-profile-current}
 

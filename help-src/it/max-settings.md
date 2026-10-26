@@ -42,7 +42,7 @@ Ogni vasca ha una riga che apre le sue impostazioni.
 
 L'ultima riga delle Impostazioni porta il nome di questo Cora Max. Apre tutto quello che vale **solo per questo schermo**.
 
-In alto c'è una scheda con il nome di questo schermo e la versione del firmware (*Cora Max · firmware 0.28.170*).
+In alto c'è una scheda con il nome di questo schermo e la versione del firmware (*Cora Max · firmware 0.28.x*).
 
 - Tocca la matita (**Rinomina questo dispositivo**) per dargli un nuovo nome, per esempio "Soggiorno".
 - **Mostra dettagli** elenca **ID Cora**, **Indirizzo MAC**, **Rete Wi-Fi**, **Indirizzo IP**, le sue vasche e l'account a cui è associato. L'assistenza potrebbe chiederteli.
@@ -67,7 +67,7 @@ Sotto la scheda ci sono queste sezioni.
 Quando lo schermo è attenuato, il primo tocco lo risveglia soltanto. Non preme niente.
 
 :::note La lingua vale per tutto il tuo account
-Quando cambi **Lingua**, ogni telefono e ogni Cora Max del tuo account cambiano con lei. I nuovi report, avvisi e briefing arrivano nella nuova lingua. I report e gli avvisi che hai già restano nella lingua in cui sono stati scritti e non vengono tradotti di nuovo.
+Quando cambi **Lingua**, ogni telefono e ogni Cora Max del tuo account cambiano insieme alla lingua. I nuovi report, avvisi e briefing arrivano nella nuova lingua. I report e gli avvisi che hai già restano nella lingua in cui sono stati scritti e non vengono tradotti di nuovo.
 :::
 
 ![Cronologia notifiche su Cora Max, con allarmi e rientri](img/max-notifications.webp "Gli allarmi e i loro rientri, dal più recente, ciascuno con il nome della vasca.")

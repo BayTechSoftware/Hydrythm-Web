@@ -179,7 +179,7 @@
 <p>Sag, was du erwartet hast und was du gesehen hast. "Alkalinität war auf dem Dashboard 2 Tage alt, obwohl der Apex normal gemessen hat" hilft viel mehr als "Messwerte kaputt".</p>
 <p>Du kannst bis zu 10 Berichte pro Tag schicken.</p>
 <h2 id="was-automatisch-angehangt-wird">Was automatisch angehängt wird</h2>
-<p>Jeder Bericht enthält eine kurze Zeile mit Zusammenhang. Das Formular zeigt sie dir vor dem Senden, unter <em>Mit deinem Bericht gesendet</em>.</p>
+<p>Jeder Bericht enthält eine kurze Zeile mit Kontext. Das Formular zeigt sie dir vor dem Senden, unter <em>Mit deinem Bericht gesendet</em>.</p>
 <ul><li>die <strong>Version von Cora Mobile</strong></li><li>deine <strong>Plattform</strong> und die Version des Betriebssystems</li><li>der <strong>Bildschirm</strong>, auf dem du warst</li></ul>
 <p>Der Bericht enthält außerdem die Sprache deines Handys und das Becken, das du ausgewählt hattest. Damit können wir meist nachstellen, was schiefgelaufen ist.</p>
 <h2 id="screenshots">Screenshots</h2>
@@ -187,13 +187,13 @@
 <aside class="cal cal-warning"><p class="cal-t">Der Cora-Support sieht deinen Screenshot</p><p>Cora Mobile sagt dir das über der Taste. Prüf das Bild, bevor du es anhängst. Ein Screenshot vom Dashboard zeigt deine Beckennamen und Messwerte und alles andere, was auf dem Bildschirm war.</p></aside>
 <aside class="cal cal-note"><p class="cal-t">Keine Screenshots im Sitter-Modus</p><p>Siehst du dir über einen geteilten Link das Becken von jemand anderem an, kannst du keinen Screenshot anhängen. Er würde <em>deren</em> Daten in <em>dein</em> Support-Ticket bringen, und sie würden es nie erfahren.</p></aside>
 <h2 id="automatische-absturzberichte">Automatische Absturzberichte</h2>
-<p><strong>Absturzberichte senden</strong>, unter <strong>Hilfe &amp; Support</strong> unter der Zeile zum Melden, erledigt dieselbe Aufgabe, ohne dass du merken musst, dass etwas kaputt ist, und es aufschreibst. Bricht Cora Mobile ab oder lädt ein Bildschirm nicht, schickt es die technischen Details. Beckendaten, Fotos oder Kontodaten sind nicht dabei. Siehe <a href="/de/help/mobile-settings#getting-help">Cora Mobile-Einstellungen</a>.</p>
+<p><strong>Absturzberichte senden</strong>, unter <strong>Hilfe &amp; Support</strong> unter der Zeile zum Melden, erledigt dieselbe Aufgabe, ohne dass du merken musst, dass etwas kaputt ist, und es aufschreibst. Stürzt Cora Mobile ab oder lädt ein Bildschirm nicht, schickt es die technischen Details. Beckendaten, Fotos oder Kontodaten sind nicht dabei. Siehe <a href="/de/help/mobile-settings#getting-help">Cora Mobile-Einstellungen</a>.</p>
 <h2 id="dem-support-schreiben">Dem Support schreiben</h2>
-<p><strong>Einstellungen → Hilfe &amp; Support → Support kontaktieren</strong> öffnet eine E-Mail an <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> mit deiner Version von Cora Mobile schon eingetragen. Wir antworten meist innerhalb eines Tages. Hat dein Handy keine Mail-App, schreib von einem beliebigen E-Mail-Konto an diese Adresse.</p>
+<p><strong>Einstellungen → Hilfe &amp; Support → Support kontaktieren</strong> öffnet eine E-Mail an <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> mit deiner Version von Cora Mobile und dem Betriebssystem deines Handys schon eingetragen. Wir antworten meist innerhalb eines Tages. Hat dein Handy keine Mail-App, schreib von einem beliebigen E-Mail-Konto an diese Adresse.</p>
 <h2 id="anderswo">Anderswo</h2>
 <ul><li>Fragen zu deinem eigenen Becken lassen sich meist schneller mit <a href="/de/help/mobile-assistant">Cora Assistant</a> beantworten, weil es deine Messwerte sehen kann.</li><li>Funktioniert etwas nicht so, wie diese Anleitung sagt, schau zuerst in die <a href="/de/help/troubleshooting">Problembehebung</a>.</li><li>Für eine Frage zur Abrechnung siehe <a href="/de/help/mobile-plans">Pläne und Abos</a>.</li></ul>
       <nav class="pn" aria-label="Weiterlesen"><a class="pn-p" href="/de/help/mobile-data-export"><span>Zurück</span><b>Daten exportieren und Konto löschen</b></a></nav>
-      <p class="stamp">Geschrieben für Cora Max 0.28.238 und Cora Mobile 1.4.14. Zuletzt geprüft am 2026-10-13.</p>
+      <p class="stamp">Geschrieben für Cora Max 0.28.240 und Cora Mobile 1.4.16. Zuletzt geprüft am 2026-10-13.</p>
       <p class="ask">Kommst du nicht weiter? Schreib eine E-Mail an <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, wir helfen dir.</p>
     </article>
   </main>
@@ -584,7 +584,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/de/help/search.json?v=f36c594b9d').then(function (r) { return r.json(); })
+    fetch('/de/help/search.json?v=78d2fe7c0c').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "de"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Die Suche ist nicht verf\u00fcgbar. Nutze die Navigation." + '</li>';

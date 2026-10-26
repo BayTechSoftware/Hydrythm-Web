@@ -178,7 +178,7 @@
 <p>Ein Cora Max zeigt <strong>bis zu vier Becken</strong>, und der Riffraum gibt jedem gleich viel Platz auf dem Bildschirm.</p>
 <div class="tw"><table class="stack"><thead><tr><th>Becken</th><th>Aufteilung</th></tr></thead><tbody><tr><td data-th="Becken">1</td><td data-th="Aufteilung">Eine große Kachel</td></tr><tr><td data-th="Becken">2</td><td data-th="Aufteilung">Nebeneinander</td></tr><tr><td data-th="Becken">3</td><td data-th="Aufteilung">Drei nebeneinander</td></tr><tr><td data-th="Becken">4</td><td data-th="Aufteilung">Zwei mal zwei</td></tr></tbody></table></div>
 <p>Mit einem Becken öffnet Cora Max direkt das Dashboard dieses Beckens. Das Raster-Symbol bringt dich trotzdem zum Riffraum.</p>
-<aside class="cal cal-note"><p class="cal-t">Vier Becken sind die Grenze</p><p>Einem Cora Max kannst du höchstens vier Becken zuweisen, beim Koppeln oder später auf dem Handy unter <strong>Geräte → dein Cora Max</strong>. Versuchst du, ein fünftes hinzuzufügen, wirst du gebeten, zuerst eins zu entfernen. Hast du mehr Becken, nimm ein zweites Cora Max. Jedes behält seine eigene Auswahl. Die Schritte stehen unter <a href="/de/help/max-setup#changing-which-tanks-it-shows">Cora Max einrichten</a>.</p></aside>
+<aside class="cal cal-note"><p class="cal-t">Vier Becken sind die Grenze</p><p>Einem Cora Max kannst du höchstens vier Becken zuweisen, beim Koppeln oder später auf dem Handy unter <strong>Geräte → dein Cora Max</strong>. Hat ein Cora Max schon vier Becken, ist die Taste <strong>Becken hinzufügen</strong> auf deinem Handy weg, entferne also zuerst eins. Hast du mehr Becken, nimm ein zweites Cora Max. Jedes behält seine eigene Auswahl. Die Schritte stehen unter <a href="/de/help/max-setup#changing-which-tanks-it-shows">Cora Max einrichten</a>.</p></aside>
 <h2 id="what-a-tile-shows">Was eine Kachel zeigt</h2>
 <p>Jede Kachel fasst ein Becken zusammen.</p>
 <ul><li>Ein farbiger Balken am linken Rand, für den schlechtesten Zustand dieses Beckens.</li><li>Eine <strong>Gesundheitsbewertung</strong> in einem Ring (bei einem bis drei Becken). Daneben steht eine Zeile wie <em>3 von 37 Wasserwerten außerhalb des Bereichs</em> (oder <em>Alle 37 Wasserwerte im Bereich</em>) und wie viele nahe an ihren Grenzen liegen.</li><li>Ein Status-Chip: <strong>N außerhalb des Bereichs</strong>, <strong>N zu beobachten</strong> für Messwerte nahe an ihren Grenzen, <strong>Gesund</strong> oder <strong>Überwachung</strong>, solange es noch nichts zu bewerten gibt.</li><li>Die wichtigsten Messwerte des Beckens. Breitere Kacheln zeigen bei jedem zusätzlich eine 24-Stunden-Trendlinie.</li><li><strong>Wann zuletzt aktualisiert wurde</strong> und <strong>Dashboard öffnen</strong>.</li></ul>
@@ -188,7 +188,7 @@
 <ul><li><strong>Tippe auf eine Kachel</strong> oder auf <strong>Dashboard öffnen</strong>, um zu diesem Becken zu gehen.</li><li><strong>Wisch auf dem Dashboard zur Seite</strong>, um zwischen den Becken und zurück zum Riffraum zu wechseln.</li><li><strong>Das Raster-Symbol</strong> bringt dich von jeder Beckenseite zurück zum Riffraum. Im Riffraum selbst siehst du es nicht.</li></ul>
 <p>Jedes Becken hat sein eigenes Dashboard-Layout, der Bildschirm ändert sich also komplett, wenn du zwischen ihnen wechselst. Mehr dazu unter <a href="/de/help/max-dashboard-editing">Das Cora Max-Dashboard bearbeiten</a>.</p>
       <nav class="pn" aria-label="Weiterlesen"><a class="pn-p" href="/de/help/max-tour"><span>Zurück</span><b>Der Cora Max-Startbildschirm</b></a><a class="pn-n" href="/de/help/max-dashboard-editing"><span>Weiter</span><b>Das Cora Max-Dashboard bearbeiten</b></a></nav>
-      <p class="stamp">Geschrieben für Cora Max 0.28.238 und Cora Mobile 1.4.14. Zuletzt geprüft am 2026-10-13.</p>
+      <p class="stamp">Geschrieben für Cora Max 0.28.240 und Cora Mobile 1.4.16. Zuletzt geprüft am 2026-10-13.</p>
       <p class="ask">Kommst du nicht weiter? Schreib eine E-Mail an <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, wir helfen dir.</p>
     </article>
   </main>
@@ -579,7 +579,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/de/help/search.json?v=f36c594b9d').then(function (r) { return r.json(); })
+    fetch('/de/help/search.json?v=78d2fe7c0c').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "de"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Die Suche ist nicht verf\u00fcgbar. Nutze die Navigation." + '</li>';

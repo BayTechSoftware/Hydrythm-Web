@@ -18,7 +18,7 @@ La scheda in alto mostra con quale account hai fatto l'accesso e che piano hai. 
 
 - **Nome visualizzato** è il nome con cui ti chiama Cora Mobile.
 - **Email laboratorio e ICP** ti permette di aggiungere fino a 3 altri indirizzi email che il tuo laboratorio può usare per raggiungere il tuo account. Vedi [ICP e report di salute](/help/mobile-icp-health#which-email-a-lab-can-use).
-- **Abbonamento** mostra il tuo piano e quando si rinnova, con **Vedi i piani**, **Passa a un piano superiore** o **Passa a Max**, poi **Gestisci abbonamento** e **Ripristina acquisti**. Su Android c'è anche **Riscatta codice**. Tutto è spiegato in [Piani e abbonamenti](/help/mobile-plans).
+- **Abbonamento** mostra il tuo piano e quando si rinnova, con **Vedi i piani**, **Passa a un piano superiore** o **Passa a Expert**, poi **Gestisci abbonamento** e **Ripristina acquisti**. Su Android c'è anche **Riscatta codice**. Tutto è spiegato in [Piani e abbonamenti](/help/mobile-plans).
 - **Esci**
 - **Esporta i miei dati** ti dà letture, voci del diario e avvisi come file, gratis con qualsiasi piano. Vedi [Esportare i tuoi dati](/help/mobile-data-export).
 - **Elimina account** è definitivo. Leggi le due note in [I tuoi dati e la privacy](#your-data-and-privacy) prima di usarlo.

@@ -20,7 +20,7 @@ Cora Mobile'ı ilk açtığınızda birkaç kısa ekran onu tanıtır. Araların
 
 İkisi sizden bir şey ister:
 
-- **Cihazlarınız Wi-Fi ağınızdadır**, iPhone'unuzun daha sonra soracağı bir soru konusunda sizi uyarır. İlk ekipmanınızı eklediğinizde iPhone, Cora'nın yerel ağınızdaki cihazları bulup bulamayacağını sorar. İzin verin, yoksa Cora Wi-Fi'ınızda hiçbir şey bulamaz. Hayır dediyseniz **Ayarlar → Cihaz erişimi** sizi anahtara götürür. [Ayarlar](/help/mobile-settings#device-access) sayfasına bakın.
+- **Cihazlarınız Wi-Fi ağınızdadır**, iPhone'unuzun daha sonra soracağı bir soru konusunda sizi uyarır. İlk ekipmanınızı eklediğinizde iPhone, Cora'nın yerel ağınızdaki cihazları bulup bulamayacağını sorar. İzin verin, yoksa Cora Wi-Fi'nizde hiçbir şey bulamaz. Hayır dediyseniz **Ayarlar → Cihaz erişimi** sizi anahtara götürür. [Ayarlar](/help/mobile-settings#device-access) sayfasına bakın.
 - Son ekran uyarılarla ilgilidir. Uyarıların bu telefona ulaşması için **Bildirimlere izin ver**'e dokunun, sonra telefonunuzun penceresinde izin verin. **Belki sonra** bunu atlar. Ayrıntılar [Bildirimler](/help/mobile-notifications) sayfasında.
 
 ## Önce bir göz atın {#looking-around-first}

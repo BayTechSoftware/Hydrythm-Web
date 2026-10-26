@@ -69,4 +69,4 @@ Quando il consumo cambia, guarda meglio prima di trarre conclusioni. Un maggiore
 
 Se hai una pompa dosometrica collegata, come un Neptune DŌS o un Red Sea ReefDose, le sue teste compaiono con le loro letture, compreso quanto resta a ogni testa e quanto ha dosato. Come farle funzionare e rifornirle è spiegato in [Controllare la tua attrezzatura](/help/mobile-device-control), e i loro avvisi di contenitore quasi vuoto e di dose mancata sono in [Avvisi della pompa dosometrica](/help/mobile-device-control#doser-alerts).
 
-Anche un'automazione può dosare da una testa DŌS, con un limite di 10 mL per testa al giorno. Vedi [Automazioni e scene](/help/mobile-automation#actions).
+Anche un'automazione può dosare da una testa DŌS, con un limite di 10 mL per testa al giorno, a meno che tu non imposti un limite giornaliero per quella testa nelle sue impostazioni. Vedi [Automazioni e scene](/help/mobile-automation#actions).

@@ -23,7 +23,7 @@ Du kannst bis zu 10 Berichte pro Tag schicken.
 
 ## Was automatisch angehängt wird
 
-Jeder Bericht enthält eine kurze Zeile mit Zusammenhang. Das Formular zeigt sie dir vor dem Senden, unter *Mit deinem Bericht gesendet*.
+Jeder Bericht enthält eine kurze Zeile mit Kontext. Das Formular zeigt sie dir vor dem Senden, unter *Mit deinem Bericht gesendet*.
 
 - die **Version von Cora Mobile**
 - deine **Plattform** und die Version des Betriebssystems
@@ -45,11 +45,11 @@ Siehst du dir über einen geteilten Link das Becken von jemand anderem an, kanns
 
 ## Automatische Absturzberichte
 
-**Absturzberichte senden**, unter **Hilfe & Support** unter der Zeile zum Melden, erledigt dieselbe Aufgabe, ohne dass du merken musst, dass etwas kaputt ist, und es aufschreibst. Bricht Cora Mobile ab oder lädt ein Bildschirm nicht, schickt es die technischen Details. Beckendaten, Fotos oder Kontodaten sind nicht dabei. Siehe [Cora Mobile-Einstellungen](/help/mobile-settings#getting-help).
+**Absturzberichte senden**, unter **Hilfe & Support** unter der Zeile zum Melden, erledigt dieselbe Aufgabe, ohne dass du merken musst, dass etwas kaputt ist, und es aufschreibst. Stürzt Cora Mobile ab oder lädt ein Bildschirm nicht, schickt es die technischen Details. Beckendaten, Fotos oder Kontodaten sind nicht dabei. Siehe [Cora Mobile-Einstellungen](/help/mobile-settings#getting-help).
 
 ## Dem Support schreiben
 
-**Einstellungen → Hilfe & Support → Support kontaktieren** öffnet eine E-Mail an **[cora@coraiq.tech](mailto:cora@coraiq.tech)** mit deiner Version von Cora Mobile schon eingetragen. Wir antworten meist innerhalb eines Tages. Hat dein Handy keine Mail-App, schreib von einem beliebigen E-Mail-Konto an diese Adresse.
+**Einstellungen → Hilfe & Support → Support kontaktieren** öffnet eine E-Mail an **[cora@coraiq.tech](mailto:cora@coraiq.tech)** mit deiner Version von Cora Mobile und dem Betriebssystem deines Handys schon eingetragen. Wir antworten meist innerhalb eines Tages. Hat dein Handy keine Mail-App, schreib von einem beliebigen E-Mail-Konto an diese Adresse.
 
 ## Anderswo
 

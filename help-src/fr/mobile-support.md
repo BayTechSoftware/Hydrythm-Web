@@ -49,7 +49,7 @@ Quand vous consultez l’aquarium de quelqu’un d’autre par un lien partagé,
 
 ## Écrire à l’assistance
 
-**Paramètres → Aide et assistance → Contacter l’assistance** ouvre un e-mail à **[cora@coraiq.tech](mailto:cora@coraiq.tech)** avec votre version de Cora Mobile déjà remplie. Nous répondons en général sous un jour. Si votre téléphone n’a pas d’application de messagerie, écrivez à cette adresse depuis n’importe quel compte e-mail.
+**Paramètres → Aide et assistance → Contacter l’assistance** ouvre un e-mail à **[cora@coraiq.tech](mailto:cora@coraiq.tech)** avec votre version de Cora Mobile et le système d’exploitation de votre téléphone déjà remplis. Nous répondons en général sous un jour. Si votre téléphone n’a pas d’application de messagerie, écrivez à cette adresse depuis n’importe quel compte e-mail.
 
 ## Ailleurs
 

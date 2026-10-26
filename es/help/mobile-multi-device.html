@@ -131,7 +131,7 @@
 <summary>Primeros pasos</summary><ul>
 <li><a href="/es/help/max-setup">Configurar Cora Max</a></li>
 <li><a href="/es/help/max-tour">La pantalla de inicio de Cora Max</a></li>
-<li><a href="/es/help/max-reef-room">El cuarto de los acuarios</a></li>
+<li><a href="/es/help/max-reef-room">La sala del arrecife</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Tu panel</summary><ul>
@@ -170,7 +170,7 @@
     <article class="doc">
       <nav class="crumbs" aria-label="Ruta de navegación"><ol><li><a href="/es/help/">Ayuda</a></li><li><a href="/es/help/mobile-setup" lang="en">Cora Mobile</a></li><li><a href="/es/help/mobile-settings">Ajustes y cuenta</a></li></ol></nav>
       <h1>Más de un dispositivo Cora</h1>
-      <p class="twin">En Cora Max: <a href="/es/help/max-reef-room">El cuarto de los acuarios</a></p>
+      <p class="twin">En Cora Max: <a href="/es/help/max-reef-room">La sala del arrecife</a></p>
       <nav class="toc" aria-label="En esta página"><p>En esta página</p><ul><li><a href="#que-se-comparte-y-que-no">Qué se comparte y qué no</a></li><li><a href="#cora-assistant-answering-device">Cora Assistant: dispositivo que responde</a></li><li><a href="#primary-cora-max">Cora Max principal</a></li><li><a href="#what-works-away-from-home">Qué funciona fuera de casa</a></li><li><a href="#donde-se-ve-el-estado-de-cada-dispositivo">Dónde se ve el estado de cada dispositivo</a></li></ul></nav>
 <p>Esta página es para un hogar con más de un Cora Max, o con un Cora Max y varios teléfonos. Con dos ajustes decides qué hace cada dispositivo, para que no repitan el mismo trabajo. También conviene saber qué comparten y qué no.</p>
 <h2 id="que-se-comparte-y-que-no">Qué se comparte y qué no</h2>
@@ -200,7 +200,7 @@
 <h2 id="donde-se-ve-el-estado-de-cada-dispositivo">Dónde se ve el estado de cada dispositivo</h2>
 <p>Cora Max muestra el estado de consulta de cada acuario en <strong>Ajustes → Ajustes de Cora Max → Estado</strong>. Más información en <a href="/es/help/max-devices">Dispositivos y estado de los dispositivos</a>.</p>
       <nav class="pn" aria-label="Seguir leyendo"><a class="pn-p" href="/es/help/mobile-settings"><span>Anterior</span><b>Ajustes de Cora Mobile</b></a><a class="pn-n" href="/es/help/mobile-plans"><span>Siguiente</span><b>Planes y suscripciones</b></a></nav>
-      <p class="stamp">Escrito para Cora Max 0.28.238 y Cora Mobile 1.4.14. Última revisión el 2026-10-13.</p>
+      <p class="stamp">Escrito para Cora Max 0.28.240 y Cora Mobile 1.4.16. Última revisión el 2026-10-13.</p>
       <p class="ask">¿Sigues atascado? Escribe a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> y te ayudamos.</p>
     </article>
   </main>
@@ -591,7 +591,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/es/help/search.json?v=9384433ffe').then(function (r) { return r.json(); })
+    fetch('/es/help/search.json?v=1d5700fe42').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "es"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La b\u00fasqueda no est\u00e1 disponible. Usa la navegaci\u00f3n." + '</li>';

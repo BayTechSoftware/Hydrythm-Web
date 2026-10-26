@@ -101,7 +101,7 @@
 <li><a href="/fr/help/mobile-alerts">Alertes et seuils</a></li>
 <li><a href="/fr/help/mobile-notifications">Notifications</a></li>
 <li><a href="/fr/help/mobile-automation">Automatisations et scènes</a></li>
-<li><a href="/fr/help/mobile-vacation">Partir en vacances : un plan pour la personne qui garde votre aquarium</a></li>
+<li><a href="/fr/help/mobile-vacation">Partir en vacances : un plan pour votre gardien</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Journaux</summary><ul>
@@ -131,7 +131,7 @@
 <summary>Prise en main</summary><ul>
 <li><a href="/fr/help/max-setup">Configurer Cora Max</a></li>
 <li><a href="/fr/help/max-tour">L’écran d’accueil de Cora Max</a></li>
-<li><a href="/fr/help/max-reef-room">La pièce du récif</a></li>
+<li><a href="/fr/help/max-reef-room">La salle du récif</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Votre tableau de bord</summary><ul>
@@ -212,7 +212,7 @@
 <p>Une ancienne mesure ne disparaît pas simplement parce qu’elle est plus ancienne que la période du graphique. Elle reste sur le widget avec son âge : une valeur périmée a donc l’air périmée, pas manquante.</p>
 <p>Pour tout le reste, voir <a href="/fr/help/troubleshooting#a-widget-shows-no-value">Résolution de problèmes</a>.</p>
       <nav class="pn" aria-label="Poursuivre la lecture"><a class="pn-p" href="/fr/help/mobile-account"><span>Précédent</span><b>Connexion et récupération de compte</b></a><a class="pn-n" href="/fr/help/mobile-metric-detail"><span>Suivant</span><b>Examiner un paramètre</b></a></nav>
-      <p class="stamp">Rédigé pour Cora Max 0.28.238 et Cora Mobile 1.4.14. Vérifié pour la dernière fois le 2026-10-18.</p>
+      <p class="stamp">Rédigé pour Cora Max 0.28.240 et Cora Mobile 1.4.16. Vérifié pour la dernière fois le 2026-10-18.</p>
       <p class="ask">Toujours bloqué ? Écrivez à <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, nous vous aiderons.</p>
     </article>
   </main>
@@ -603,7 +603,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/fr/help/search.json?v=fac77358f2').then(function (r) { return r.json(); })
+    fetch('/fr/help/search.json?v=84e649e8bc').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "fr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La recherche est indisponible. Utilisez la navigation." + '</li>';

@@ -181,7 +181,7 @@
 <p>Schreib die Checkliste für jemanden, der sich mit Riffbecken nicht auskennt. Nenn Mengen und wie man etwas macht. "Einmal am Tag einen Würfel Frostfutter füttern, aufgetaut" ist viel klarer als "füttern wie immer".</p>
 <aside class="cal cal-note"><p class="cal-t">Sag, was in Ruhe gelassen werden soll</p><p>Füg eine Aufgabe für jede Ausrüstung hinzu, die die Vertretung nicht anfassen soll, zum Beispiel "Nichts am Controller verändern". Schreib es auch in die Notizen.</p></aside>
 <h2 id="sharing">Mit deiner Vertretung teilen</h2>
-<p>Tippe auf <strong>Sitter-Link erstellen</strong>. Cora macht eine Webseite nur zum Lesen mit der Checkliste, deinen Notizen und Live-Messwerten des Beckens. Deine Vertretung braucht weder Cora Mobile noch ein Konto. Tippe auf <strong>Teilen</strong>, um sie zu verschicken, oder <strong>Kopieren</strong> den Link.</p>
+<p>Tippe auf <strong>Sitter-Link erstellen</strong>. Cora macht eine Webseite nur zum Lesen mit der Checkliste, deinen Notizen und Live-Messwerten des Beckens. Deine Vertretung braucht weder Cora Mobile noch ein Konto. Tippe auf <strong>Teilen</strong>, um sie zu verschicken, oder auf <strong>Kopieren</strong>, um den Link zu kopieren.</p>
 <p>Auf dieser Seite kann die Vertretung Aufgaben abhaken, wenn sie sie erledigt. Du siehst jede unter <strong>Sitter-Aktivität</strong>, mit der Uhrzeit. Sonst kann sie nichts ändern, keine Ausrüstung steuern und den Rest deines Kontos nicht sehen.</p>
 <p>Der Link funktioniert bis zu deinem Enddatum plus 2 Tage. <strong>Neuer Link</strong> macht einen frischen Link, und der alte funktioniert nicht mehr, was praktisch ist, wenn du ihn an die falsche Person geschickt hast.</p>
 <h2 id="while-away">Während du weg bist</h2>
@@ -191,7 +191,7 @@
 <h2 id="coming-back">Wieder zu Hause</h2>
 <p>Tippe auf <strong>Urlaubsmodus beenden</strong> und bestätige mit <strong>Beenden</strong>. Der Sitter-Link funktioniert sofort nicht mehr. Deine Checkliste bleibt für das nächste Mal gespeichert.</p>
       <nav class="pn" aria-label="Weiterlesen"><a class="pn-p" href="/de/help/mobile-automation"><span>Zurück</span><b>Automationen und Szenen</b></a><a class="pn-n" href="/de/help/mobile-journal"><span>Weiter</span><b>Das Tagebuch</b></a></nav>
-      <p class="stamp">Geschrieben für Cora Max 0.28.238 und Cora Mobile 1.4.14. Zuletzt geprüft am 2026-10-13.</p>
+      <p class="stamp">Geschrieben für Cora Max 0.28.240 und Cora Mobile 1.4.16. Zuletzt geprüft am 2026-10-13.</p>
       <p class="ask">Kommst du nicht weiter? Schreib eine E-Mail an <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, wir helfen dir.</p>
     </article>
   </main>
@@ -582,7 +582,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/de/help/search.json?v=f36c594b9d').then(function (r) { return r.json(); })
+    fetch('/de/help/search.json?v=78d2fe7c0c').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "de"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Die Suche ist nicht verf\u00fcgbar. Nutze die Navigation." + '</li>';

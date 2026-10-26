@@ -46,7 +46,7 @@ Such dir die Aufgabe aus, die du erledigen willst. Jeder Link führt zu den Schr
 - [Den Fütterungsmodus auf dem Handy starten](/help/mobile-dashboard#the-tank-header)
 - [Den Fütterungsmodus auf Cora Max starten](/help/max-controls#feed-mode)
 - [Einen DŌS-Kopf pausieren](/help/mobile-device-control#dos)
-- [Einer Pumpe ein Tagesprogramm geben](/help/mobile-schedules)
+- [Einer Pumpe einen Zeitplan geben](/help/mobile-schedules)
 - [Sehen, was meine Ausrüstung getan hat und warum](/help/mobile-activity)
 
 ## Messwerte und dein Dashboard

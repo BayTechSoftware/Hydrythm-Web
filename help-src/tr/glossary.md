@@ -1,6 +1,6 @@
 ---
 title: Sözlük
-description: Cora'nın akvaryum, kaynak, widget, eşik, Birincil Cora Max, besleme modu, sahne ve uygulamalarda göreceğiniz diğer sözcüklerle ne kastettiği.
+description: Cora'nın akvaryum, kaynak, widget, eşik, Birincil Cora Max, besleme modu, sahne ve Cora Mobile ve Cora Max'te göreceğiniz diğer sözcüklerle ne kastettiği.
 section: Help
 reviewed: 2026-10-18
 order: 5
@@ -44,7 +44,7 @@ Telefonunuzu, Cora Max'inizi ve ekipmanınızı uyum içinde tutan ve geçmişin
 
 ## Cora Max
 
-Reef odası için duvar ekranı. Akvaryumlarınızı canlı gösterir, ekipmanınızı gece gündüz okur ve onunla konuşabilirsiniz. [Cora Max'i kurma](/help/max-setup) sayfasına bakın.
+Resif odası için duvar ekranı. Akvaryumlarınızı canlı gösterir, ekipmanınızı gece gündüz okur ve onunla konuşabilirsiniz. [Cora Max'i kurma](/help/max-setup) sayfasına bakın.
 
 
 ## Cora Mobile
@@ -61,7 +61,7 @@ Bir ICP raporunun verdiği şekliyle, mg/L cinsinden sudaki CO₂. Odanızdaki h
 
 ## DŌS kafası {#dos-head}
 
-Bir Neptune DŌS dozaj pompasının tek bir pompası. Her kafaya bir kullanım amacı (su değişimi, kalkwasser, reaktör, besleme ve daha fazlası) verebilir, onu litre cinsinden ya da büyük kaplarla izleyebilir ve kendi sınırlarını ayarlayabilirsiniz. Bir kafa dozun ortasında bağlantıyı kaybederse Cora bir geri yükleme uyarısı verir. [Ekipmanınızı kontrol etme](/help/mobile-device-control) sayfasına bakın.
+Bir Neptune DŌS'un pompalarından biri. Her kafaya bir kullanım amacı (su değişimi, kalkwasser, reaktör, besleme ve daha fazlası) verebilir, onu litre cinsinden ya da büyük kaplarla izleyebilir ve kendi sınırlarını ayarlayabilirsiniz. Bir kafa dozun ortasında bağlantıyı kaybederse Cora bir geri yükleme uyarısı verir. [Ekipmanınızı kontrol etme](/help/mobile-device-control) sayfasına bakın.
 
 ## Doz {#dose}
 
@@ -91,7 +91,7 @@ Akvaryuma ne yaptığınızın kaydı. Cora da onu okur, böylece "Alkalinite d�
 
 ## Hesap dili {#account-language}
 
-Tüm Cora hesabınızın kullandığı tek dil: English, Deutsch, Français, Türkçe, Italiano, Español ya da Polski. Kişi ya da cihaz başına ayarlanmaz. Onu telefonunuzda ya da herhangi bir Cora Max'te **Ayarlar → Dil** içinde değiştirin, her cihaz birkaç saniye içinde uyar. Zaten yazılmış olan her şey kendi dilinde kalır. [Cora Mobile ayarları](/help/mobile-settings) sayfasına bakın.
+Tüm Cora hesabınızın kullandığı tek dil: English, Deutsch, Français, Türkçe, Italiano, Español ya da Polski. Kişi ya da cihaz başına ayarlanmaz. Onu telefonunuzda ya da herhangi bir Cora Max'te **Ayarlar → Dil** içinde değiştirin, her cihaz kısa süre içinde bu dile geçer. Zaten yazılmış olan her şey kendi dilinde kalır. [Cora Mobile ayarları](/help/mobile-settings) sayfasına bakın.
 
 
 ## ICP
@@ -176,7 +176,7 @@ Bütün bir sisteme dönemsel olarak daha derin bir bakış. Her parametreyi, ka
 
 ## Sahne {#scene}
 
-"Su değişimi" ya da "Gece" gibi adı olan bir eylem grubu. Onu istediğinizde, bir programa göre ya da başka bir [otomasyonun](#automation) içinden çalıştırabilirsiniz. Sahneler Cora Mobile ve Cora Max tarafından paylaşılır. [Otomasyonlar ve sahneler](/help/mobile-automation) sayfasına bakın.
+"Su değişimi" ya da "Gece" gibi adı olan bir eylem grubu. Onu istediğinizde, bir zamanlamaya göre ya da başka bir [otomasyonun](#automation) içinden çalıştırabilirsiniz. Sahneler Cora Mobile ve Cora Max tarafından paylaşılır. [Otomasyonlar ve sahneler](/help/mobile-automation) sayfasına bakın.
 
 
 ## Tatil modu {#vacation-mode}
@@ -205,7 +205,7 @@ Bir panoda tek bir şeyi gösteren kutucuk, örneğin bir değer, bir gösterge,
 
 ## Yanıtlayan cihaz {#answering-device}
 
-"Hey Cora" dediğinizde yanıt veren Cora cihazı. Onu **Ayarlar → Cora Assistant** içinde seçersiniz. Aynı anda yalnızca bir cihaz yanıt verir. [Birincil Cora Max](#primary-cora-max)'ten farklı bir ayardır.
+"Hey Cora" dediğinizde yanıt veren Cora cihazı. Onu Cora Mobile'da ya da Cora Max'te **Ayarlar → Cora Assistant** içinde seçersiniz. Aynı anda yalnızca bir cihaz yanıt verir. [Birincil Cora Max](#primary-cora-max)'ten farklı bir ayardır.
 
 ## Yapay zeka ile tasarla {#design-with-ai}
 
@@ -213,4 +213,4 @@ Pano düzenleyicisindeki bir düğme. Cora, akvaryumun bildirdiklerinden ve bağ
 
 ## Yaş {#age}
 
-Bir ölçümün ne kadar önce alındığı. Her parametre widget'ında `şimdi`, `1 sa`, `2 g` olarak gösterilir. Ekranın en son ne zaman yenilendiği değildir. Eski bir yaş, ölçümün kendisinin eski olduğu anlamına gelir.
+Bir ölçümün ne kadar önce alındığı. Her parametre widget'ında `şimdi`, `1 sa`, `2 g` olarak gösterilir. Ekranın en son ne zaman yenilendiği değildir. Yüksek bir yaş değeri, ölçümün kendisinin eski olduğu anlamına gelir.

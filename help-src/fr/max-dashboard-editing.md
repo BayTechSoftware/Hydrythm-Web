@@ -25,7 +25,7 @@ Choisissez d’abord la taille de la grille. La changer plus tard déplace toute
 | Grille | Tuiles | Rendu |
 |---|---|---|
 | 2×2, 3×2, 3×3 | 4–9 | Grand. Facile à lire depuis l’autre bout de la pièce. |
-| 4×4, 5×3, 6×4 | 16–24 | Le choix habituel pour un système complet. |
+| 4×4, 5×3, 6×4 | 15–24 | Le choix habituel pour un système complet. |
 | 6×5, 8×4, 8×5 | 30–40 | Dense. Toute une pièce de récif sur un seul écran. |
 | 9×5, 10×5 | 45–50 | Très dense. Idéal sur les plus grands écrans. |
 | **Auto** | jusqu’à 32 | Cora choisit une forme adaptée au nombre de tuiles ajoutées. |

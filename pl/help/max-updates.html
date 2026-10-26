@@ -178,7 +178,7 @@
 <p>Nie musisz nic robić, żeby mieć aktualną wersję.</p>
 <h2 id="checking-the-version-and-update-settings">Sprawdzanie wersji i ustawień aktualizacji</h2>
 <figure class="shot"><button type="button" class="zoom" aria-label="Powiększ: Sieć i aktualizacje na Cora Max"><img src="/help/img/max-updates.webp" alt="Sieć i aktualizacje na Cora Max" width="1280" height="800" loading="lazy" decoding="async"></button><figcaption>Aktualizacja oprogramowania w sekcji SIEĆ I AKTUALIZACJE w Ustawieniach Cora Max.</figcaption></figure>
-<p>Twoja wersja jest na karcie na górze <strong>Ustawienia → Ustawienia Cora Max</strong> (<em>Cora Max · oprogramowanie 0.28.170</em>) oraz w <strong>POMOC I O APLIKACJI → O aplikacji</strong>.</p>
+<p>Twoja wersja jest na karcie na górze <strong>Ustawienia → Ustawienia Cora Max</strong> (<em>Cora Max · oprogramowanie 0.28.x</em>) oraz w <strong>POMOC I O APLIKACJI → O aplikacji</strong>.</p>
 <p><strong>Ustawienia → Ustawienia Cora Max → Aktualizacja oprogramowania</strong> (w <strong>SIEĆ I AKTUALIZACJE</strong>) pokazuje Twoją wersję i to, czy czeka aktualizacja. Dotknij <strong>Sprawdź aktualizacje</strong>, żeby sprawdzić teraz, albo <strong>Pobierz i zainstaluj</strong>, gdy jakaś jest.</p>
 <p>W <strong>Ustawieniach aktualizacji</strong> na tym samym ekranie:</p>
 <ul><li><strong>Okno instalacji</strong> ustawia godziny, w których mogą instalować się aktualizacje, z godziną <strong>Początek</strong> i <strong>Koniec</strong>, w czasie lokalnym tego ekranu. Strefę czasową ustawiasz w Cora Mobile, w <strong>Urządzenia →</strong> Twój Cora Max <strong>→ Strefa czasowa</strong>.</li></ul>
@@ -208,7 +208,7 @@
 <h2 id="gdy-urzadzenie-nie-uruchamia-sie-ponownie">Gdy urządzenie nie uruchamia się ponownie</h2>
 <p>Napisz na <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> i podaj wersję widoczną na ekranie oraz wyświetlany komunikat. Nie paruj go wcześniej ponownie. Stan parowania często pomaga ustalić, co się stało.</p>
       <nav class="pn" aria-label="Czytaj dalej"><a class="pn-p" href="/pl/help/max-settings"><span>Poprzedni</span><b>Ustawienia Cora Max</b></a></nav>
-      <p class="stamp">Napisano dla Cora Max 0.28.238 i Cora Mobile 1.4.14. Ostatnio sprawdzono 2026-10-17.</p>
+      <p class="stamp">Napisano dla Cora Max 0.28.240 i Cora Mobile 1.4.16. Ostatnio sprawdzono 2026-10-17.</p>
       <p class="ask">Wciąż masz problem? Napisz na <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, pomożemy.</p>
     </article>
   </main>
@@ -599,7 +599,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/pl/help/search.json?v=aede854401').then(function (r) { return r.json(); })
+    fetch('/pl/help/search.json?v=bf578ebf0d').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "pl"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Wyszukiwanie jest niedost\u0119pne. U\u017cyj menu." + '</li>';

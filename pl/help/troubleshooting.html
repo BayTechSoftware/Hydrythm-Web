@@ -216,7 +216,7 @@
 <p>Nic w tym akwarium nie odczytuje teraz Twojego sprzętu Red Sea, więc odczyty na ekranie się nie odświeżają.</p>
 <ol><li>Otwórz <strong>Ustawienia</strong>, otwórz akwarium, a potem <strong>Główne Cora Max</strong>. Sprawdź, czy ustawiono Cora Max albo wybrano <strong>Każde aktywne (automatycznie)</strong>.</li><li>Jeśli nie masz Cora Max, otwórz akwarium w Cora Mobile, gdy telefon jest w tej samej sieci Wi-Fi co sprzęt Red Sea.</li><li>Sprawdź, czy sprzęt Red Sea jest włączony i online we własnej aplikacji.</li></ol>
 <h3 id="some-reefbeat-settings-are-greyed-out-or-missing">Część ustawień ReefBeat jest wyszarzona albo ich brakuje</h3>
-<p>To normalne. Własne ustawienia urządzenia Red Sea otwierają się tylko wtedy, gdy telefon jest w tej samej sieci co urządzenie. Poza tą siecią widzisz tylko odczyty.</p>
+<p>To normalne. Własne ustawienia urządzenia Red Sea otwierają się tylko wtedy, gdy telefon jest w tej samej sieci co urządzenie. Poza tą siecią widzisz odczyty, a polecenia nadal idą przez Cora Max w akwarium, jeśli je ma. Własne ustawienia urządzenia pozostają niedostępne.</p>
 <ol><li>Dołącz do sieci Wi-Fi akwarium, żeby zmienić te ustawienia.</li><li>Odczyty i historia działają, gdy jesteś poza domem.</li></ol>
 <h3 id="an-aquawiz-reading-is-hours-old">Odczyt AquaWiz ma kilka godzin</h3>
 <p>To może być normalne. AquaWiz pozwala Corze czytać swoją chmurę tylko co 12 godzin, więc bez Cora Max odczyt może mieć nawet pół doby. Otwórz stronę urządzenia w Cora Mobile: pokazuje, kiedy odczyt zmierzono i skąd pochodzi, a <strong>Odczytaj teraz</strong> prosi o świeży (najwyżej raz na 15 minut).</p>
@@ -240,9 +240,6 @@
 <h3 id="feed-does-not-start">Karmienie nie uruchamia się z telefonu</h3>
 <p>W telefonie <strong>Karmienie</strong> pokazuje się tylko przy akwarium z Neptune Apex i uruchamia jeden z cykli karmienia zaprogramowanych w Apex.</p>
 <ul><li><em>„Żadne urządzenie Cora w tym akwarium nie może połączyć się z Apex, a Ty nie jesteś w jego sieci.”</em> Dołącz do sieci Wi-Fi Apex albo sparuj Cora Max z akwarium.</li><li><em>„Apex nie odpowiedział, ale karmienie może już trwać.”</em> Sprawdź kontroler, zanim spróbujesz ponownie.</li></ul>
-<h3 id="a-dose-stopped-partway-through-and-a-restore-alert-appeared">Dawka zatrzymała się w połowie i pojawił się alert „przywracania”</h3>
-<p>Głowica DŌS straciła kontakt w trakcie dawki. Cora mówi Ci o tym, żeby nie trzeba było zakładać, że podano całą dawkę.</p>
-<ol><li>Otwórz alert i sprawdź, ile zdozowano, zanim się zatrzymała.</li><li>Na podstawie tej ilości zdecyduj, czy wznowić dawkę, czy ją skorygować.</li></ol>
 <h2 id="cora-max">Cora Max</h2>
 <h3 id="my-cora-max-is-offline">Mój Cora Max jest offline</h3>
 <p>W telefonie jego wiersz w zakładce <strong>Urządzenia</strong> ma czerwoną kropkę. Gdy jest offline, sprzęt, który odczytuje, przestaje się aktualizować, możesz dostać alerty „przestał raportować” dla tego sprzętu, a polecenia wysłane z daleka mogą wracać jako <em>„Nic nie zostało wysłane”</em>.</p>
@@ -334,7 +331,7 @@
 <h2 id="still-stuck">Nadal problem</h2>
 <p>Napisz na <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> albo zgłoś problem z Cora Mobile, jak opisuje <a href="/pl/help/mobile-support">Zgłaszanie problemu</a>. Podaj, które akwarium, które urządzenie, który ekran i czego się spodziewano.</p>
       <nav class="pn" aria-label="Czytaj dalej"><a class="pn-n" href="/pl/help/how-do-i"><span>Następny</span><b>Jak to zrobić?</b></a></nav>
-      <p class="stamp">Napisano dla Cora Max 0.28.238 i Cora Mobile 1.4.14. Ostatnio sprawdzono 2026-10-24.</p>
+      <p class="stamp">Napisano dla Cora Max 0.28.240 i Cora Mobile 1.4.16. Ostatnio sprawdzono 2026-10-24.</p>
       <p class="ask">Wciąż masz problem? Napisz na <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, pomożemy.</p>
     </article>
   </main>
@@ -725,7 +722,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/pl/help/search.json?v=aede854401').then(function (r) { return r.json(); })
+    fetch('/pl/help/search.json?v=bf578ebf0d').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "pl"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Wyszukiwanie jest niedost\u0119pne. U\u017cyj menu." + '</li>';

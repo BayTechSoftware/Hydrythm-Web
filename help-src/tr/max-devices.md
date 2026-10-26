@@ -40,7 +40,7 @@ Cihazları telefonunuzda ekler, atar ve kaldırırsınız. Cora Max onları gös
 Görmek ya da değiştirmek için **Ayarlar → [akvaryumunuz] → Birincil Cora Max**'i açın. İki seçeneğiniz var.
 
 - **Aktif olan herhangi biri (otomatik)**, bu akvaryumun ekipmanına ulaşabilen her çevrimiçi Cora cihazının işi paylaştığı ve en son yazanın kazandığı anlamına gelir. Tek bir cihazı sabitlemek için bir nedeniniz yoksa bunu kullanın.
-- Ekipmanı yalnızca o cihaz okusun diye bir cihazı sabitleyin. O cihaz çevrimdışı olursa başka hiçbir Cora Max devralmaz. Siz başka bir cihazı sabitleyene ya da **Aktif olan herhangi biri (otomatik)**'e dönene kadar ekipmanı yalnızca aynı Wi-Fi'da açık olan Cora Mobile okur.
+- Ekipmanı yalnızca o cihaz okusun diye bir cihazı sabitleyin. O cihaz çevrimdışı olursa başka hiçbir Cora Max devralmaz. Siz başka bir cihazı sabitleyene ya da **Aktif olan herhangi biri (otomatik)**'e dönene kadar ekipmanı yalnızca aynı Wi-Fi'de açık olan Cora Mobile okur.
 
 
 Bunu akvaryum için bir kez ayarlarsınız ve her Cora ekranında geçerli olur. Akvaryumu gösteren herhangi bir Cora Max'ten ya da Cora Mobile'dan (Cora Max'in sayfasındaki **Birincil Cora Max Yap**) değiştirebilirsiniz. Ayrıntılar [Birden fazla Cora cihazı](/help/mobile-multi-device) sayfasında.
@@ -77,4 +77,4 @@ Bu ayarlar, tıpkı duvardaki ekranda değiştirmişsiniz gibi, **yalnızca o ek
 
 **Akvaryumlar** altında, bu Cora Max'in gösterdiği her akvaryumun **Pano düzeni**, **Akvaryumu düzenle** ve yoklayan cihazını içeren bir kartı vardır. **Akvaryum Ekle** ve kaldırma simgesi hangi akvaryumları göstereceğini değiştirir ve bu değişiklikler tüm hesapta geçerlidir. Bunları yalnızca telefonunuzda yapabilirsiniz. Adımlar [Cora Max'i kurma](/help/max-setup#changing-which-tanks-it-shows) sayfasında. Bir akvaryumun Birincil Cora Max'inin hangi cihaz olacağı hem telefonunuzdan hem Cora Max'ten değiştirilebilir.
 
-**Sıfırla** altında **Ekranı sıfırla**, ekranı eşleştirme ekranına geri gönderir. Wi-Fi'ınızda kalır, böylece onu Bluetooth üzerinden yeniden eşleştirebilirsiniz, akvaryum verileriniz de korunur. **Cihazı kaldır** onu hesabınızdan çıkarır. Akvaryum ölçümleriniz korunur ve onu daha sonra yeniden eşleştirebilirsiniz.
+**Sıfırla** altında **Ekranı sıfırla**, ekranı eşleştirme ekranına geri gönderir. Wi-Fi'nizde kalır, böylece onu Bluetooth üzerinden yeniden eşleştirebilirsiniz, akvaryum verileriniz de korunur. **Cihazı kaldır** onu hesabınızdan çıkarır. Akvaryum ölçümleriniz korunur ve onu daha sonra yeniden eşleştirebilirsiniz.

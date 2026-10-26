@@ -25,7 +25,7 @@ L'attrezzatura si aggiunge, si assegna e si rimuove dal telefono. Cora Max la mo
 | **Neptune Apex** | Sonde e prese, e puoi accendere e spegnere ogni presa |
 | **Trident** | Stato del test, livelli di reagente e rifiuti, e un pulsante per avviare un test |
 | **DŌS**, compreso il DŌS QD | Il dosaggio, la programmazione, l'autonomia e il volume del contenitore di ogni testa (con pausa, riempimento, dosa ora e una misura di venti secondi da fare una volta) |
-| **Red Sea ReefBeat** | Quello che ha l'unità: teste di dosaggio, serbatoio, giorni del rotolo, modalità della pompa, più un editor completo del piano ReefDose e le impostazioni ReefMat |
+| **Red Sea ReefBeat** | Quello che ha l'unità: teste di dosaggio, serbatoio, giorni del rotolo, modalità della pompa |
 | **Jecod** | Modalità e intensità della pompa, e la sua programmazione giornaliera |
 | **AquaWiz** | Nessuna pagina propria. È elencato in **Dispositivi**, e le sue letture vanno sulla dashboard |
 
@@ -53,20 +53,13 @@ Un DŌS non ha un sensore di livello e continua a dosare da un contenitore vuoto
 
 ### A cosa serve una testa {#what-a-head-is-used-for}
 
-Nel pannello delle impostazioni di una testa puoi impostarne il **tipo di uso**. Le opzioni sono **Integratore**, **Cambio d'acqua: nuova acqua salata in entrata**, **Cambio d'acqua: acqua vecchia in uscita**, **Kalkwasser**, **Reattore di calcio**, **Cibo** o **Rabbocco**, e **Altro**. Il tipo di uso cambia due cose.
+Nel pannello delle impostazioni di una testa puoi impostarne il tipo di uso in **Usata per**. Le opzioni sono **Integratore**, **Cambio d'acqua: nuova acqua salata in entrata**, **Cambio d'acqua: acqua vecchia in uscita**, **Kalkwasser**, **Reattore di calcio**, **Cibo** o **Rabbocco**, e **Altro**. Il tipo di uso cambia due cose.
 
 - Quanto può essere grande il contenitore che segue. Ogni tipo di uso può seguire un contenitore fino a 1.000 litri. Oltre il contatore dell'Apex da 150 litri, Cora segue il volume da sé, e azzera il contatore dell'Apex ogni 100 litri.
-- Se può fare una dose grande a mano. Le teste Integratore e Cibo mantengono l'attuale limite piccolo e prudente. Ogni altro tipo di uso può avere il suo limite di **Dose massima manuale**, fino a un tetto fisso di 10 litri, e il suo **Limite giornaliero per automazioni e Assistant**. Una dose manuale grande richiede anche **Dosi grandi** attivo nelle impostazioni della testa, spento di default. Attivalo solo dopo aver guardato la prima dose grande eseguita alla vasca.
+- Se può fare una dose grande a mano. Le teste Integratore e Cibo mantengono l'attuale limite piccolo e prudente. Ogni altro tipo di uso può avere il suo limite di **Dose massima manuale**, fino a un tetto fisso di 10 litri, e il suo **Limite giornaliero per automazioni e Assistant**.
 
 Puoi collegare una coppia per il cambio d'acqua (nuova acqua salata in entrata, acqua vecchia in uscita) come **Testa abbinata** e impostare una quantità per **Avviso di squilibrio sopra**. Se i totali giornalieri delle due teste si allontanano di più di quella quantità, Cora ti avvisa. Una coppia sbilanciata di solito vuol dire che un lato non pompa come dovrebbe.
 
-### Se una dose grande si interrompe {#if-a-large-dose-is-interrupted}
-
-Una dose grande cambia per un po' quello che la testa sta facendo sull'Apex, poi rimette la sua programmazione normale. Se la connessione cade a metà, Cora Max mostra un banner nella pagina di quella testa: *"Una dose grande su [testa] non è terminata correttamente. Cora continua a provare a ripristinare il suo programma: controllalo in Apex Fusion."*
-
-Controlla tu la testa in Apex Fusion, poi tocca **Ho controllato la testa in Fusion** per togliere il banner. Fallo solo dopo aver verificato che sta funzionando la programmazione della testa, non il programma di dosaggio di Cora.
-
-Se il banner non si toglie, o continua a tornare, dai un'occhiata a [Risoluzione dei problemi](/help/troubleshooting).
 
 ## Red Sea ReefBeat {#red-sea}
 
@@ -74,7 +67,6 @@ Ogni unità Red Sea ha una pagina adatta a quello che fa: teste e contenitori de
 
 Se un'unità Red Sea si ferma da sola, la sua pagina ti dice cosa non va e mette la soluzione proprio accanto. È **Riprendi**, **Elimina emergenza**, **Sensore pulito**, **Ho già caricato un nuovo rotolo**, oppure **Ripristina** per una testa di dosaggio.
 
-Un piano ReefDose e l'avanzamento programmato, il modello, la posizione e il Nuovo rotolo del ReefMat funzionano qui come sul telefono. [Controllare la tua attrezzatura](/help/mobile-device-control) ha i dettagli.
 
 
 ## Jecod {#jecod}
@@ -99,7 +91,7 @@ AquaWiz lascia che Cora legga il suo cloud solo ogni 12 ore. Per tenere aggiorna
 - Si collega per qualche secondo al Wi-Fi del controller, legge l'ultimo risultato e torna subito al tuo Wi-Fi di casa. Il Cora Max resta offline circa 4 secondi.
 - La password del tuo Wi-Fi di casa non viene mai salvata né inviata da nessuna parte per questo.
 - Lo fa solo il Cora Max principale della vasca. Un secondo Cora Max sulla stessa vasca no.
-- Aspetta mentre il Cora Max sta parlando con te, si aggiorna, si associa o cambia Wi-Fi, e riprova l'ora dopo.
+- Aspetta finché il Cora Max è occupato (sta parlando con te, si aggiorna, si associa o cambia Wi-Fi) e riprova ogni minuto o due fino alla fine di quell'ora. Poi aspetta l'ora successiva.
 - Il controller deve essere nel raggio Wi-Fi del Cora Max e il suo firmware deve offrire l'accesso locale. Se due letture di fila falliscono, il Cora Max smette di provare per il resto della giornata e la lettura dal cloud ogni 12 ore continua.
 
 Una lettura da Cora Max mostra **Ogni ora dal tuo Cora Max** sulla scheda AquaWiz del telefono. Porta anche gli avvisi sul livello del water box descritti in [Avvisi](/help/mobile-alerts#equipment-faults). Gli avvisi di pompa e sonda pH non richiedono un Cora Max.

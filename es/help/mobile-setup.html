@@ -131,7 +131,7 @@
 <summary>Primeros pasos</summary><ul>
 <li><a href="/es/help/max-setup">Configurar Cora Max</a></li>
 <li><a href="/es/help/max-tour">La pantalla de inicio de Cora Max</a></li>
-<li><a href="/es/help/max-reef-room">El cuarto de los acuarios</a></li>
+<li><a href="/es/help/max-reef-room">La sala del arrecife</a></li>
 </ul></details>
 <details class="nav-g">
 <summary>Tu panel</summary><ul>
@@ -191,9 +191,9 @@
 <h2 id="add-your-first-tank">Añade tu primer acuario</h2>
 <p>En Cora, un <strong>acuario</strong> es cualquier volumen de agua que quieras seguir. Casi todo el mundo tiene uno. Si tienes un sistema de esquejes o un acuario de cuarentena, cada uno es un acuario aparte.</p>
 <p>Después de iniciar sesión, <strong>Conozcamos tu acuario</strong> te pregunta tres cosas. Solo el nombre es obligatorio, y puedes cambiarlo todo más tarde en el <a href="/es/help/mobile-tank-profile">perfil del acuario</a>.</p>
-<ol><li><strong>¿Cómo lo llamas?</strong> es el nombre que usas a diario, como "Principal", "Esquejes" o "Cuarentena".</li><li><strong>¿Qué tipo de acuario es?</strong> es <strong>Arrecife SPS</strong>, <strong>Arrecife LPS</strong>, <strong>Arrecife mixto</strong>, <strong>Arrecife de corales blandos</strong>, <strong>FOWLR</strong> o <strong>Solo peces</strong>. El tipo fija tus rangos de alerta iniciales. Si no lo tienes claro, elige <strong>Arrecife mixto</strong>.</li><li><strong>¿Cuánta agua tiene?</strong> es el volumen real de agua, con el sump incluido. Los cálculos de dosificación usan este número, así que intenta que se acerque. Si solo sabes el tamaño del acuario, toca <strong>¿No sabes el volumen? Introduce las dimensiones</strong> y Cora lo calcula.</li></ol>
+<ol><li><strong>¿Cómo lo llamas?</strong> es el nombre que usas a diario, como "Principal", "Esquejes" o "Cuarentena".</li><li><strong>¿Qué tipo de acuario es?</strong> es <strong>Arrecife SPS</strong>, <strong>Arrecife LPS</strong>, <strong>Arrecife mixto</strong>, <strong>Arrecife de corales blandos</strong>, <strong>FOWLR</strong> o <strong>Solo peces</strong>. El tipo fija tus rangos de alerta iniciales. Si no lo tienes claro, elige <strong>Arrecife mixto</strong>.</li><li><strong>¿Cuánta agua tiene?</strong> es el volumen real de agua, con el sump incluido. Los cálculos de dosificación usan este número, así que intenta que sea lo más aproximado posible. Si solo sabes el tamaño del acuario, toca <strong>¿No sabes el volumen? Introduce las dimensiones</strong> y Cora lo calcula.</li></ol>
 <p>Toca <strong>Crear mi acuario</strong>.</p>
-<aside class="cal cal-note"><p class="cal-t">¿Tu acuario todavía está haciendo el ciclo?</p><p>Toca <strong>¿Estás empezando un acuario nuevo?</strong> en el panel. Esa tarjeta aparece mientras el acuario no tiene lecturas. Si ya registraste una prueba, abre el perfil del acuario y toca la misma tarjeta de arriba, que funciona en cualquier momento. Más información en <a href="/es/help/mobile-journeys">Itinerarios guiados</a>.</p>
+<aside class="cal cal-note"><p class="cal-t">¿Tu acuario sigue en ciclado?</p><p>Toca <strong>¿Estás empezando un acuario nuevo?</strong> en el panel. Esa tarjeta aparece mientras el acuario no tiene lecturas. Si ya registraste una prueba, abre el perfil del acuario y toca la misma tarjeta de arriba, que funciona en cualquier momento. Más información en <a href="/es/help/mobile-journeys">Itinerarios guiados</a>.</p>
 <p>Cora también valora las lecturas según lo normal para un acuario de esa edad. El asistente no lo pregunta, así que indica la <strong>Fecha de inicio del acuario</strong> en tu perfil del acuario, en <strong>Dimensiones del acuario</strong>.</p></aside>
 <h2 id="your-tank-is-live">"Tu acuario ya está en vivo"</h2>
 <p>Después verás el nombre de tu acuario con <strong>ya está en vivo</strong>, por ejemplo <strong>"Principal" ya está en vivo</strong>. Te ofrece cuatro siguientes pasos. Elige cualquiera de ellos, o ninguno.</p>
@@ -220,7 +220,7 @@
 <p>Ya está todo listo cuando el Panel muestra el nombre de tu acuario arriba y unos cuantos widgets con números. Una tarjeta de <strong>Reef Buddy</strong> aparece cuando se genera el primer resumen durante la noche.</p>
 <p>Después, echa un vistazo a <a href="/es/help/mobile-tour">Moverte por Cora Mobile</a>. Para añadir un segundo acuario, consulta <a href="/es/help/mobile-tanks">Gestionar tus acuarios</a>.</p>
       <nav class="pn" aria-label="Seguir leyendo"><a class="pn-n" href="/es/help/mobile-tour"><span>Siguiente</span><b>Moverte por Cora Mobile</b></a></nav>
-      <p class="stamp">Escrito para Cora Max 0.28.238 y Cora Mobile 1.4.14. Última revisión el 2026-10-24.</p>
+      <p class="stamp">Escrito para Cora Max 0.28.240 y Cora Mobile 1.4.16. Última revisión el 2026-10-24.</p>
       <p class="ask">¿Sigues atascado? Escribe a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> y te ayudamos.</p>
     </article>
   </main>
@@ -611,7 +611,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/es/help/search.json?v=9384433ffe').then(function (r) { return r.json(); })
+    fetch('/es/help/search.json?v=1d5700fe42').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "es"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La b\u00fasqueda no est\u00e1 disponible. Usa la navegaci\u00f3n." + '</li>';

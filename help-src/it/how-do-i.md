@@ -86,7 +86,7 @@ Scegli l'attività che vuoi fare. Ogni link apre i passaggi. Se qualcosa non fun
 
 ## Reef Buddy, risultati di laboratorio e Assistente
 
-- [Cambiare l'orario del briefing giornaliero](/help/mobile-reef-buddy#when-it-arrives)
+- [Cambiare l'orario del riepilogo (briefing) giornaliero](/help/mobile-reef-buddy#when-it-arrives)
 - [Aggiornare il briefing dopo un nuovo test](/help/mobile-reef-buddy#updating-the-briefing-with-a-new-test)
 - [Capire perché non c'è il briefing](/help/troubleshooting#my-daily-briefing-stopped)
 - [Caricare un risultato ICP](/help/mobile-icp-health#uploading-an-icp-test)

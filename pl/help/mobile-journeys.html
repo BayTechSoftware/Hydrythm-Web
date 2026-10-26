@@ -188,7 +188,7 @@
 <p><strong>Twój dotychczasowy cykl</strong> rysuje trzy krzywe na dwóch skalach. Amoniak i azotyny używają osi po lewej, od 0 do co najmniej 5 ppm. Azotany używają osi po prawej, od 0 do co najmniej 40 ppm. Dzięki temu małe odczyty amoniaku i azotynów są widoczne obok dużej wartości azotanów. Dotknij nazwy, aby zobaczyć całą historię.</p>
 <p>Żeby poznać drugą opinię, dotknij <strong>Zapytaj Cora o cyklowanie</strong>. Otworzy się <a href="/pl/help/mobile-assistant">Cora Assistant</a> z pytaniem o Twoje ostatnie odczyty.</p>
 <aside class="cal cal-warning"><p class="cal-t">Trzy rzeczy mogą zatrzymać cykl</p><p><strong>Amoniak lub azotyny powyżej 5 ppm</strong> hamują bakterie, które próbujesz wyhodować. Jeśli przesadzisz, częściowa podmiana wody je obniży. <strong>pH poniżej 7</strong> też je hamuje. Podobnie <strong>temperatura wody poza zakresem 25 do 30 °C (77 do 86 °F)</strong>, która może też stresować zwierzęta. Ścieżka ostrzega, gdy któraś z tych rzeczy się zdarzy, a Cora wysyła powiadomienie, gdy wartość wychodzi poza zakres, i kolejne, gdy do niego wraca. Te alerty bezpieczeństwa są bezpłatne w każdym planie i są radą, nie poleceniem.</p></aside>
-<aside class="cal cal-note"><p class="cal-t">Zapisuj wszystkie trzy testy</p><p>Cora pokazuje <strong>Wygląda na zacyklowane</strong> dopiero wtedy, gdy amoniak i azotyny zostały <em>zmierzone</em> na zerze, a azotany są obecne. Same azotany nie wystarczą. Woda wyjściowa często je zawiera, a same mogłyby wyglądać jak zakończony cykl i skusić do zbyt wczesnego wpuszczenia obsady.</p></aside>
+<aside class="cal cal-note"><p class="cal-t">Zapisuj wszystkie trzy testy</p><p>Cora pokazuje <strong>Wygląda na zacyklowane</strong> dopiero wtedy, gdy amoniak i azotyny zostały <em>zmierzone</em> na zerze lub blisko zera (0,25 ppm albo mniej), a azotany są obecne. Same azotany nie wystarczą. Woda wyjściowa często je zawiera, a same mogłyby wyglądać jak zakończony cykl i skusić do zbyt wczesnego wpuszczenia obsady.</p></aside>
 <aside class="cal cal-note"><p class="cal-t">O gotowości decydują odczyty</p><p>Ścieżka ocenia gotowość na podstawie tego, co zapisano. Liczba tygodni się nie liczy. Jeśli nie testujesz przez dwa tygodnie, akwarium zostaje tam, gdzie było. Dlatego ścieżka pokazuje, ile czasu minęło od ostatniego testu.</p></aside>
 <h2 id="your-personal-read">Twoja osobista interpretacja</h2>
 <p>Etap, wykres, znane fakty, alerty bezpieczeństwa i świętowanie są bezpłatne w każdym planie. W płatnym planie (Essential, Advanced lub Expert, oraz w bezpłatnym okresie próbnym) ścieżka pokazuje też <strong>Twój cykl, odczytany dla ciebie</strong>: opis twoich odczytów prostym językiem, na przykład jak długo azotyny stoją w miejscu i co często za tym stoi. W planie bezpłatnym w tym miejscu jest <strong>Osobista interpretacja twoich testów</strong>, a dotknięcie jej otwiera plany. To szacunek na podstawie twoich odczytów, nie obietnica. Karta <strong>Dobra robota, cykl wygląda na zakończony</strong> pojawia się też u góry, gdy tylko odczyty wyglądają na zacyklowane. Po oznaczeniu akwarium ścieżka podpowiada, co dalej: zapisuj obsadę, gdy ją dodajesz, ustaw zakresy alertów i połącz kontroler lub sondę.</p>
@@ -207,9 +207,9 @@
 <p><strong>Rozwiązane</strong> · <strong>Poprawa</strong> · <strong>Bez zmian</strong> · <strong>Pogorszenie</strong> · <strong>Zatrzymane</strong></p>
 <p>Odpowiedz szczerze, nawet jeśli to <strong>Pogorszenie</strong>. Wynik zostaje zapisany ze ścieżką, więc gdy podobny problem pojawi się później, porównasz go z tym, co wypróbowano i jak poszło.</p>
 <h2 id="odrzucanie-sciezki">Odrzucanie ścieżki</h2>
-<p>Jeśli ścieżka problemu się nie przydaje, odrzuć ją. Przestanie się pokazywać, a Cora zapisze odrzucenie i będzie rzadziej proponować podobne ścieżki.</p>
+<p>Jeśli ścieżka problemu się nie przydaje, odrzuć ją. Przestanie się pokazywać. Jeśli Twoje odczyty znowu wskażą ten sam problem, Cora może zaproponować ją ponownie.</p>
       <nav class="pn" aria-label="Czytaj dalej"><a class="pn-p" href="/pl/help/mobile-icp-health"><span>Poprzedni</span><b>ICP i raporty zdrowia</b></a><a class="pn-n" href="/pl/help/mobile-settings"><span>Następny</span><b>Ustawienia Cora Mobile</b></a></nav>
-      <p class="stamp">Napisano dla Cora Max 0.28.238 i Cora Mobile 1.4.14. Ostatnio sprawdzono 2026-10-22.</p>
+      <p class="stamp">Napisano dla Cora Max 0.28.240 i Cora Mobile 1.4.16. Ostatnio sprawdzono 2026-10-22.</p>
       <p class="ask">Wciąż masz problem? Napisz na <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, pomożemy.</p>
     </article>
   </main>
@@ -600,7 +600,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/pl/help/search.json?v=aede854401').then(function (r) { return r.json(); })
+    fetch('/pl/help/search.json?v=bf578ebf0d').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "pl"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Wyszukiwanie jest niedost\u0119pne. U\u017cyj menu." + '</li>';

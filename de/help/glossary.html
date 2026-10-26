@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Glossar | Cora Hilfe</title>
-  <meta name="description" content="Was Cora mit Becken, Quelle, Widget, Schwellenwert, Primäres Cora Max, Fütterungsmodus, Szene und den anderen Begriffen in den Apps meint.">
+  <meta name="description" content="Was Cora mit Becken, Quelle, Widget, Schwellenwert, Primäres Cora Max, Fütterungsmodus, Szene und den anderen Begriffen in Cora Mobile und am Cora Max meint.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/de/help/glossary">
   <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/glossary">
@@ -17,7 +17,7 @@
   <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/glossary">
   <meta property="og:site_name" content="Cora">
   <meta property="og:title" content="Glossar | Cora Hilfe">
-  <meta property="og:description" content="Was Cora mit Becken, Quelle, Widget, Schwellenwert, Primäres Cora Max, Fütterungsmodus, Szene und den anderen Begriffen in den Apps meint.">
+  <meta property="og:description" content="Was Cora mit Becken, Quelle, Widget, Schwellenwert, Primäres Cora Max, Fütterungsmodus, Szene und den anderen Begriffen in Cora Mobile und am Cora Max meint.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/de/help/glossary">
   <meta property="og:image" content="https://coraiq.tech/og-image.png">
@@ -178,7 +178,7 @@
 <h2 id="age">Alter</h2>
 <p>Wie lange es her ist, dass ein Messwert gemessen wurde. Jedes Wasserwert-Widget zeigt es als <code>jetzt</code>, <code>1h</code>, <code>2d</code>. Es ist nicht der Zeitpunkt, zu dem der Bildschirm zuletzt aktualisiert hat. Ein hohes Alter heißt, dass der Messwert selbst alt ist.</p>
 <h2 id="answering-device">Antwortgerät</h2>
-<p>Das Cora-Gerät, das antwortet, wenn du "Hey Cora" sagst. Du wählst es unter <strong>Einstellungen → Cora Assistant</strong>. Es antwortet immer nur ein Gerät. Das ist eine andere Einstellung als <a href="#primary-cora-max">Primäres Cora Max</a>.</p>
+<p>Das Cora-Gerät, das antwortet, wenn du "Hey Cora" sagst. Du wählst es unter <strong>Einstellungen → Cora Assistant</strong>, in Cora Mobile oder am Cora Max. Es antwortet immer nur ein Gerät. Das ist eine andere Einstellung als <a href="#primary-cora-max">Primäres Cora Max</a>.</p>
 <h2 id="aquawiz">AquaWiz™</h2>
 <p>Der AquaWiz KH Controller, ein Alkalinitätstester. Cora liest ihn über die eigene Cloud von AquaWiz. Siehe <a href="/de/help/equipment-by-brand">Ausrüstung nach Marke</a>.</p>
 <h2 id="trigger">Auslöser</h2>
@@ -186,7 +186,7 @@
 <h2 id="automation">Automation</h2>
 <p>Eine Regel, die von selbst läuft, zum Beispiel "Wenn die Temperatur über 27 steigt, schalte den Lüfter ein". Jede Regel hat einen <a href="#trigger">Auslöser</a>, optionale <a href="#condition">Bedingungen</a> und eine oder mehrere Aktionen. Du findest sie in Cora Mobile unter <strong>Einstellungen → Automationen</strong>. Siehe <a href="/de/help/mobile-automation">Automationen und Szenen</a>.</p>
 <h2 id="tank">Becken</h2>
-<p>Ein Wasserkörper, den du verfolgst. Ein Ablegersystem oder ein Quarantänebecken zählt als eigenes Becken. Siehe <a href="/de/help/mobile-tank-profile">Dein Beckenprofil</a>.</p>
+<p>Ein Aquarium oder Wasservolumen, das du verfolgst. Ein Ablegersystem oder ein Quarantänebecken zählt als eigenes Becken. Siehe <a href="/de/help/mobile-tank-profile">Dein Beckenprofil</a>.</p>
 <h2 id="condition">Bedingung</h2>
 <p>Eine zusätzliche Prüfung bei einer <a href="#automation">Automation</a>, etwa dass ein Messwert über einem Wert liegt. Die Aktionen laufen nur, wenn die Bedingungen erfüllt sind. Siehe <a href="/de/help/mobile-automation">Automationen und Szenen</a>.</p>
 <h2 id="command-outcome">Befehlsergebnis</h2>
@@ -274,7 +274,7 @@
 <h2 id="recovery-pin">Wiederherstellungs-PIN</h2>
 <p>Eine sechsstellige Zahl, die Cora Max am Ende der Einrichtung zeigt. Nur mit ihr kommst du auf diesem Cora Max in die Wiederherstellung. Du findest sie auch bei den Details des Cora Max in Cora Mobile. Siehe <a href="/de/help/max-updates">Updates und Wiederherstellung</a>.</p>
       <nav class="pn" aria-label="Weiterlesen"><a class="pn-p" href="/de/help/faq"><span>Zurück</span><b>Häufige Fragen</b></a></nav>
-      <p class="stamp">Geschrieben für Cora Max 0.28.238 und Cora Mobile 1.4.14. Zuletzt geprüft am 2026-10-18.</p>
+      <p class="stamp">Geschrieben für Cora Max 0.28.240 und Cora Mobile 1.4.16. Zuletzt geprüft am 2026-10-18.</p>
       <p class="ask">Kommst du nicht weiter? Schreib eine E-Mail an <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, wir helfen dir.</p>
     </article>
   </main>
@@ -665,7 +665,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/de/help/search.json?v=f36c594b9d').then(function (r) { return r.json(); })
+    fetch('/de/help/search.json?v=78d2fe7c0c').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "de"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Die Suche ist nicht verf\u00fcgbar. Nutze die Navigation." + '</li>';
