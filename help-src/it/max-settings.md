@@ -52,7 +52,7 @@ Sotto la scheda ci sono queste sezioni.
 | Sezione | Cosa contiene |
 |---|---|
 | **SCHERMO** | **Luminosità**. **Attenua dopo** e **Livello di attenuazione**: quanto tempo senza tocchi prima che lo schermo si attenui, e quanto si attenua. **Attenuazione notturna**, con **Da**, **A** e **Luminosità notturna**. **Mostra orologio** nella barra in alto. **Attiva schermo con allarme** |
-| **AUDIO E VOCE** | **Altoparlante** (**Interna**, **3,5 mm** o **BT**), **Suono degli avvisi** e il suo volume, **Avvisi parlati** e **Parola di attivazione** accesa o spenta, e **Suoni al tocco**, il clic quando tocchi lo schermo. Di più in [Parlare con Cora](/help/max-voice#sound-and-wake-word-settings) |
+| **AUDIO E VOCE** | **Altoparlante** (**Interna**, **3,5 mm** o **BT**), **Suono degli avvisi** e il suo volume, **Avvisi parlati**, **Suoni al tocco** (il clic quando tocchi lo schermo) e **Parola di attivazione**, ognuno acceso o spento. Di più in [Parlare con Cora](/help/max-voice#sound-and-wake-word-settings) |
 | **REEF BUDDY** | **Riepilogo Reef Buddy** legge ad alta voce il briefing del mattino. **Orario del riepilogo** è quando arriva, lo stesso su ogni dispositivo |
 | **BLOCCO BAMBINI** | **Blocco bambini** acceso o spento, e **Blocca dopo**. Vedi [Blocco bambini](#child-lock) più sotto |
 | **NOTIFICHE** | **Cronologia notifiche**, la casella di tutto il tuo account con ogni briefing, allarme e comunicazione dell'account |
@@ -61,6 +61,20 @@ Sotto la scheda ci sono queste sezioni.
 | **STATO** | Una scheda per ogni vasca che mostra questo schermo. **Dispositivi** dice quanti dispositivi della vasca rispondono (*9 di 10 rispondono*), **Ultima lettura** indica quando è arrivata la lettura più recente e **Non rispondono** nomina ogni dispositivo che tace. Una vasca con un Apex mostra anche **Polling dell’Apex**, **Ultimo polling** e **Ultima scrittura cloud**. **Salvataggio cloud** compare solo quando Cora Cloud rifiuta un salvataggio. Solo visualizzazione |
 | **AIUTO E INFORMAZIONI** | **Aiuto e assistenza** (contattare l'assistenza o segnalare un problema) e **Informazioni** (versione e licenze) |
 | **RIPRISTINO** | **Riassocia questo dispositivo** e **Ripristino di fabbrica**. Vedi più sotto |
+
+**Per spegnere il clic al tocco:**
+
+1. Tocca l’**ingranaggio** all’estrema destra della barra in alto.
+2. Scorri in basso e tocca l’ultima riga, **Impostazioni Cora Max**.
+3. In **AUDIO E VOCE**, spegni **Suoni al tocco**.
+
+Vale solo per questo schermo e si applica subito.
+
+![Impostazioni audio e voce su Cora Max, con l’interruttore Suoni al tocco](img/max-sound-voice.webp "AUDIO E VOCE: Altoparlante, Suono degli avvisi, Avvisi parlati, Suoni al tocco e Parola di attivazione.")
+
+**Per vedere quali dispositivi rispondono:** in **Impostazioni Cora Max**, scorri fino a **STATO**. Ogni vasca ha una scheda. **Dispositivi** mostra quanti dei suoi dispositivi rispondono e **Non rispondono** nomina quelli che tacciono, così sai quale controllare. In una vasca con un Apex, **Polling dell’Apex** dice *Un altro dispositivo sta facendo il polling di questa vasca* quando un altro Cora Max legge quell’Apex; **Ultimo polling** e **Ultima scrittura cloud** restano allora vuoti su questo schermo.
+
+![La scheda di una vasca in STATO su Cora Max](img/max-status-card.webp "La scheda STATO di una vasca. I nomi sotto Non rispondono sono sfocati qui.")
 
 **Aiuto e assistenza** mostra anche un codice QR. Inquadralo con il telefono per aprire questa guida nella tua lingua.
 

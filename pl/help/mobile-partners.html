@@ -178,8 +178,10 @@
 <ul><li>Połączenie firmy wymaga płatnego planu, <strong>Cora Essential</strong> lub wyższego. Plan Free i okres próbny go nie obejmują, a gdy spróbujesz na jednym z nich, Cora Mobile otworzy plany. Zobacz <a href="/pl/help/mobile-plans">Plany i subskrypcje</a>.</li><li>Firma musi obsługiwać Cora. Cora Mobile nie wyszukuje firm: tworzysz kod i dajesz go swojej firmie, która wpisuje go po swojej stronie. Zapytaj firmę, czy może się połączyć.</li><li>Każde połączenie dotyczy <strong>jednego akwarium</strong>. Żeby połączyć kilka, powtórz kroki dla każdego.</li><li>Usunięcie akwarium odłącza wszystkie połączone z nim firmy.</li></ul>
 <h2 id="connecting">Łączenie firmy</h2>
 <ol><li>Otwórz <strong>Ustawienia</strong>, dotknij swojego akwarium w sekcji <strong>Akwaria</strong>, potem <strong>Połączeni partnerzy</strong> („Pozwól firmie serwisowej odczytać to akwarium”).</li><li>Dotknij <strong>Połącz firmę serwisową</strong>.</li><li><strong>Zanim połączysz</strong> wyjaśnia, co firma będzie mogła zobaczyć. Przeczytaj to i dotknij <strong>Dalej</strong>. Dotknij <strong>Anuluj</strong>, żeby przerwać; kod nie powstanie.</li><li>Cora Mobile pokazuje <strong>Kod połączenia</strong> z odliczaniem („Wygasa za”). Dotknij <strong>Kopiuj</strong> albo podyktuj go i przekaż swojej firmie.</li><li>Gdy firma użyje kodu, arkusz się zamyka i widzisz „Połączono z firmą” oraz nazwę firmy.</li></ol>
+<figure class="shot phone"><button type="button" class="zoom" aria-label="Powiększ: Przed połączeniem, z listą tego, co firma może, a czego nie może robić"><img src="/help/img/mobile-partners-consent.webp" alt="Przed połączeniem, z listą tego, co firma może, a czego nie może robić" width="620" height="1348" loading="lazy" decoding="async"></button><figcaption>Przed połączeniem: co firma zobaczy i że nie może niczym sterować.</figcaption></figure>
 <p>Kod działa <strong>tylko raz</strong> i przez 15 minut. Jeśli wygaśnie, jest przekreślony, a <strong>Utwórz nowy kod</strong> tworzy kolejny. Jeśli zamkniesz arkusz, zanim ktoś go użyje, kod przestaje działać. Nowy kod zastępuje niewykorzystany kod dla tego akwarium. Cora ogranicza też liczbę kodów, które możesz utworzyć w ciągu godziny, więc nie twórz ich seryjnie.</p>
 <p>Jeśli ta sama firma połączy się z akwarium ponownie, nowe połączenie zastępuje jej poprzednie.</p>
+<figure class="shot phone"><button type="button" class="zoom" aria-label="Powiększ: Karta połączonej firmy w Cora Mobile"><img src="/help/img/mobile-partners.webp" alt="Karta połączonej firmy w Cora Mobile" width="620" height="1348" loading="lazy" decoding="async"></button><figcaption>Karta firmy z jej dwoma przełącznikami i przyciskiem Odłącz. Nazwa firmy jest tu rozmyta.</figcaption></figure>
 <p>Każda połączona firma ma kartę z nazwą, datą połączenia i ostatnim użyciem albo „Jeszcze nie używano”. Pociągnij listę w dół, żeby ją odświeżyć.</p>
 <h2 id="what-they-see">Co firma może zobaczyć</h2>
 <p>Po połączeniu firma może odczytać to jedno akwarium:</p>
@@ -187,6 +189,8 @@
 <p>Nie może sterować Twoimi urządzeniami ani zmieniać Twoich ustawień i nie widzi niczego z Twoich innych akwariów ani z konta. Twój dziennik i notatki nigdy nie są udostępniane. Pisemna analiza Cora <strong>nie</strong> jest udostępniana, dopóki nie włączysz tego dla danej firmy (następna sekcja).</p>
 <p>To, co firma robi z odczytanymi danymi, reguluje jej własna polityka prywatności. Strona Cora jest w <a href="/privacy-policy.html">polityce prywatności</a>.</p>
 <h2 id="share-analysis">Udostępnij analizę Cora</h2>
+<p>Aby udostępnić analizę Cora firmie:</p>
+<ol><li>Otwórz <strong>Ustawienia</strong>, dotknij swojego akwarium, potem <strong>Połączeni partnerzy</strong>.</li><li>Na karcie firmy włącz <strong>Udostępnij analizę Cora</strong>.</li><li>Przeczytaj, co firma zobaczy dodatkowo, i dotknij <strong>Udostępnij</strong>.</li></ol>
 <p>Każda karta firmy ma przełącznik <strong>Udostępnij analizę Cora</strong> z opisem „Analizy ICP, historia ICP i PDF oraz Reef Buddy”. Jest <strong>wyłączony</strong>, dopóki go nie włączysz.</p>
 <p>Po włączeniu Cora Mobile pyta „Udostępnić analizę Cora firmie” z nazwą firmy i mówi, że firma zobaczy też:</p>
 <ul><li>Pisemną analizę ICP przygotowaną przez Cora: podsumowanie, uwagi do każdego pierwiastka, zanieczyszczenia, wpływ dozowania i zalecane działania</li><li>Twoje wcześniejsze raporty ICP i oryginalny plik PDF z laboratorium</li><li>Codzienne podsumowanie Reef Buddy</li></ul>
@@ -596,7 +600,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/pl/help/search.json?v=056b8cbfce').then(function (r) { return r.json(); })
+    fetch('/pl/help/search.json?v=230d946bc3').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "pl"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Wyszukiwanie jest niedost\u0119pne. U\u017cyj menu." + '</li>';

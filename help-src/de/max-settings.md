@@ -52,7 +52,7 @@ Unter der Karte stehen diese Bereiche.
 | Bereich | Enthält |
 |---|---|
 | **ANZEIGE** | **Helligkeit**. **Dimmen nach** und **Dimmstufe**: wie lange ohne Berührung, bis der Bildschirm sich dimmt, und wie dunkel er wird. **Nachtdimmung**, mit **Von**, **Bis** und **Nachthelligkeit**. **Uhr anzeigen** in der oberen Leiste. **Bildschirm bei Alarm wecken** |
-| **TON & SPRACHE** | **Lautsprecher** (**Intern**, **3.5 mm** oder **BT**), **Warnton** und seine Lautstärke, **Gesprochene Warnungen** und **Weckwort** ein oder aus, dazu **Tippgeräusche**, der Klick beim Berühren des Bildschirms. Mehr dazu unter [Mit Cora sprechen](/help/max-voice#sound-and-wake-word-settings) |
+| **TON & SPRACHE** | **Lautsprecher** (**Intern**, **3.5 mm** oder **BT**), **Warnton** und seine Lautstärke, **Gesprochene Warnungen**, **Tippgeräusche** (der Klick beim Berühren des Bildschirms) und **Weckwort**, jeweils ein oder aus. Mehr dazu unter [Mit Cora sprechen](/help/max-voice#sound-and-wake-word-settings) |
 | **REEF BUDDY** | **Reef Buddy Briefing** liest das morgendliche Briefing laut vor. **Briefing-Zeit** ist, wann es kommt, auf jedem Gerät gleich |
 | **KINDERSICHERUNG** | **Kindersicherung** ein oder aus und **Sperren nach**. Siehe [Kindersicherung](#child-lock) unten |
 | **BENACHRICHTIGUNGEN** | **Benachrichtigungsverlauf**, der Posteingang für dein ganzes Konto mit allen Briefings, Alarmen und Kontohinweisen |
@@ -61,6 +61,20 @@ Unter der Karte stehen diese Bereiche.
 | **STATUS** | Eine Karte für jedes Becken, das dieser Bildschirm zeigt. **Geräte** sagt, wie viele Geräte des Beckens sich melden (*9 von 10 melden sich*), **Letzter Messwert** zeigt, wann der neueste Messwert kam, und **Melden sich nicht** nennt jedes Gerät, das verstummt ist. Ein Becken mit Apex zeigt zusätzlich **Apex-Abfrage**, **Letzte Abfrage** und **Letzter Cloud-Schreibvorgang**. **Cloud-Speichern** erscheint nur, wenn Cora Cloud ein Speichern ablehnt. Nur zum Ansehen |
 | **HILFE & ÜBER** | **Hilfe & Support** (den Support kontaktieren oder ein Problem melden) und **Über** (Version und Lizenzen) |
 | **ZURÜCKSETZEN** | **Dieses Gerät neu koppeln** und **Werksreset**. Siehe unten |
+
+**So schaltest du den Tippklick aus:**
+
+1. Tippe ganz rechts in der oberen Leiste auf das **Zahnrad**.
+2. Scroll nach unten und tippe auf die letzte Zeile, **Cora Max-Einstellungen**.
+3. Schalte unter **TON & SPRACHE** die **Tippgeräusche** aus.
+
+Das gilt nur für diesen Bildschirm und wirkt sofort.
+
+![Ton- und Spracheinstellungen auf Cora Max mit dem Schalter Tippgeräusche](img/max-sound-voice.webp "TON & SPRACHE: Lautsprecher, Warnton, Gesprochene Warnungen, Tippgeräusche und Weckwort.")
+
+**So siehst du, welche Geräte sich melden:** Scroll in den **Cora Max-Einstellungen** nach unten zu **STATUS**. Jedes Becken hat eine Karte. **Geräte** zeigt, wie viele seiner Geräte sich melden, und **Melden sich nicht** nennt die verstummten, damit du weißt, welches Gerät du prüfen musst. Bei einem Becken mit Apex steht unter **Apex-Abfrage** *Ein anderes Gerät fragt dieses Becken ab*, wenn ein anderer Cora Max diesen Apex abfragt; **Letzte Abfrage** und **Letzter Cloud-Schreibvorgang** bleiben dann auf diesem Bildschirm leer.
+
+![Die Karte eines Beckens unter STATUS auf Cora Max](img/max-status-card.webp "Die STATUS-Karte eines Beckens. Die Namen unter Melden sich nicht sind hier unscharf gemacht.")
 
 **Hilfe & Support** zeigt außerdem einen QR-Code. Scanne ihn mit deinem Telefon, um diese Anleitung in deiner Sprache zu öffnen.
 

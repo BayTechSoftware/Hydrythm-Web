@@ -178,8 +178,10 @@
 <ul><li>Bir şirketi bağlamak ücretli bir plan gerektirir, <strong>Cora Essential</strong> ya da üstü. Free plan ve deneme bunu içermez; bunlardan birinde denerseniz Cora Mobile planları açar. Bkz. <a href="/tr/help/mobile-plans">Planlar ve abonelikler</a>.</li><li>Şirketin Cora'yı desteklemesi gerekir. Cora Mobile şirket aramaz: bir kod oluşturur ve kendi şirketinize verirsiniz, şirket de bunu kendi tarafında girer. Şirkete bağlanıp bağlanamayacağını sorun.</li><li>Her bağlantı <strong>tek bir akvaryum</strong> içindir. Birden fazla akvaryumu bağlamak için adımları her biri için tekrarlayın.</li><li>Bir akvaryumu kaldırmak, ona bağlı tüm şirketlerin bağlantısını keser.</li></ul>
 <h2 id="connecting">Bir şirketi bağlamak</h2>
 <ol><li><strong>Ayarlar</strong>'ı açın, <strong>Akvaryumlar</strong> altında akvaryumunuza dokunun, ardından <strong>Bağlı iş ortakları</strong>'na dokunun ("Bir bakım şirketinin bu akvaryumu görmesine izin verin").</li><li><strong>Bir bakım şirketi bağla</strong>'ya dokunun.</li><li><strong>Bağlamadan önce</strong>, şirketin neleri görebileceğini açıklar. Okuyun, sonra <strong>Devam</strong>'a dokunun. Durdurmak için <strong>İptal</strong>'e dokunun; kod oluşturulmaz.</li><li>Cora Mobile, geri sayımla birlikte bir <strong>Bağlantı kodu</strong> gösterir ("Kalan süre"). <strong>Kopyala</strong>'ya dokunun ya da kodu sesli okuyun ve şirketinize verin.</li><li>Şirket kodu kullandığında sayfa kapanır ve şirketin adıyla birlikte "ile bağlantı kuruldu" mesajını görürsünüz.</li></ol>
+<figure class="shot phone"><button type="button" class="zoom" aria-label="Büyüt: Bağlanmadan önce, bir şirketin neler yapıp neler yapamayacağını listeleyen sayfa"><img src="/help/img/mobile-partners-consent.webp" alt="Bağlanmadan önce, bir şirketin neler yapıp neler yapamayacağını listeleyen sayfa" width="620" height="1348" loading="lazy" decoding="async"></button><figcaption>Bağlanmadan önce: şirketin neleri göreceği ve hiçbir şeyi kontrol edemeyeceği.</figcaption></figure>
 <p>Kod <strong>bir kez</strong> ve 15 dakika boyunca geçerlidir. Süresi dolarsa üstü çizilir ve <strong>Yeni kod al</strong> yenisini oluşturur. Kimse kullanmadan sayfayı kapatırsanız kod çalışmaz olur. Yeni bir kod, o akvaryum için kullanılmamış kodun yerini alır. Cora ayrıca saatte oluşturabileceğiniz kod sayısını sınırlar, bu yüzden toplu kod üretmeyin.</p>
 <p>Aynı şirket akvaryuma yeniden bağlanırsa yeni bağlantı eskisinin yerini alır.</p>
+<figure class="shot phone"><button type="button" class="zoom" aria-label="Büyüt: Cora Mobile&#x27;da bağlı bir şirketin kartı"><img src="/help/img/mobile-partners.webp" alt="Cora Mobile&#x27;da bağlı bir şirketin kartı" width="620" height="1348" loading="lazy" decoding="async"></button><figcaption>Bir şirketin kartı: iki anahtarı ve Bağlantıyı kes düğmesi. Şirketin adı burada bulanıklaştırılmıştır.</figcaption></figure>
 <p>Bağlı her şirketin bir kartı vardır: adı, bağlandığı tarih ve son kullanımı ya da "Henüz kullanılmadı". Yenilemek için listeyi aşağı çekin.</p>
 <h2 id="what-they-see">Şirketin neleri görebileceği</h2>
 <p>Bağlandıktan sonra şirket yalnızca bu tek akvaryumu okuyabilir:</p>
@@ -187,6 +189,8 @@
 <p>Cihazlarınızı kontrol edemez, ayarlarınızı değiştiremez; diğer akvaryumlarınızı ya da hesabınızı da görmez. Günlüğünüz ve notlarınız asla paylaşılmaz. Cora'nın kendi yazılı analizi, o şirket için açmadıkça <strong>paylaşılmaz</strong> (sonraki bölüm).</p>
 <p>Şirketin okuduklarıyla ne yaptığı, kendi gizlilik politikasına bağlıdır. Cora'nın tarafı <a href="/privacy-policy.html">gizlilik politikasında</a>.</p>
 <h2 id="share-analysis">Cora'nın analizini paylaşın</h2>
+<p>Cora'nın analizini bir şirketle paylaşmak için:</p>
+<ol><li><strong>Ayarlar</strong>'ı açın, akvaryumunuza, sonra <strong>Bağlı iş ortakları</strong>'na dokunun.</li><li>Şirketin kartında <strong>Cora'nın analizini paylaşın</strong> anahtarını açın.</li><li>Şirketin ayrıca neleri göreceğini okuyun, sonra <strong>Paylaş</strong>'a dokunun.</li></ol>
 <p>Her şirket kartında "ICP değerlendirmeleri, ICP geçmişi ve PDF ile Reef Buddy" notuyla bir anahtar vardır: <strong>Cora'nın analizini paylaşın</strong>. Siz açana kadar <strong>kapalıdır</strong>.</p>
 <p>Açtığınızda Cora Mobile, şirketin adıyla birlikte "Cora'nın analizi ... ile paylaşılsın mı?" diye sorar ve şirketin ayrıca şunları göreceğini söyler:</p>
 <ul><li>Cora'nın yazılı ICP analizi: özet, her element için yorumlar, kirleticiler, dozaj etkisi ve yapılacaklar</li><li>Geçmiş ICP raporlarınız ve laboratuvarın orijinal PDF'i</li><li>Reef Buddy'nin günlük özeti</li></ul>
@@ -596,7 +600,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/tr/help/search.json?v=2874d38015').then(function (r) { return r.json(); })
+    fetch('/tr/help/search.json?v=2f9349576b').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "tr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Arama \u015fu anda kullan\u0131lam\u0131yor. Men\u00fcy\u00fc kullan\u0131n." + '</li>';

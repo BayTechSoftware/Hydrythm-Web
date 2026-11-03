@@ -24,9 +24,13 @@ group: Settings and account
 4. Cora Mobile shows a **Connection code** with a countdown ("Expires in"). Tap **Copy**, or read it out, and give it to your company.
 5. When the company uses the code, the sheet closes and you see "Connected to" and the company's name.
 
+![Before you connect, listing what a company can and can't do](img/mobile-partners-consent.webp "Before you connect: what the company will see, and that it can't control anything.")
+
 The code works **once** and for 15 minutes. If it runs out, the code is struck through and **Get a new code** makes another. If you close the sheet before anyone uses it, the code stops working. A new code replaces any unused one for that tank. Cora also limits how many codes you can make in an hour, so don't make them in bulk.
 
 If the same company connects to the tank again, the new connection replaces its earlier one.
+
+![A connected company's card in Cora Mobile](img/mobile-partners.webp "A company's card, with its two switches and Disconnect. The company name is blurred here.")
 
 Each connected company gets a card with its name, the date it was connected and when it was last used, or "Not used yet". Pull down on the list to refresh it.
 
@@ -45,6 +49,12 @@ It can't control your devices or change your settings, and it sees nothing about
 What the company does with what it reads is covered by that company's own privacy policy. Cora's side is in the [privacy policy](/privacy-policy.html).
 
 ## Share Cora's analysis {#share-analysis}
+
+To share Cora's analysis with a company:
+
+1. Open **Settings**, tap your tank, then **Connected partners**.
+2. On the company's card, turn on **Share Cora's analysis**.
+3. Read what the company will also see, then tap **Share**.
 
 Every company card has a switch, **Share Cora's analysis**, with the note "ICP write-ups, ICP history and the PDF, and Reef Buddy". It's **off** until you turn it on.
 

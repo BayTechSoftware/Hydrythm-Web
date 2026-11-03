@@ -24,9 +24,13 @@ Mit **Verbundene Partner** kann eine Wartungsfirma oder Servicefirma, die mit Co
 4. Cora Mobile zeigt einen **Verbindungscode** mit einem Countdown („Läuft ab in“). Tippe auf **Kopieren** oder lies ihn vor und gib ihn deiner Firma.
 5. Sobald die Firma den Code benutzt, schließt sich das Fenster und du siehst „Mit“ und den Namen der Firma „verbunden“.
 
+![Vor dem Verbinden: eine Liste, was eine Firma darf und was nicht](img/mobile-partners-consent.webp "Bevor du verbindest: was die Firma sehen wird und dass sie nichts steuern kann.")
+
 Der Code gilt **einmal** und 15 Minuten lang. Läuft er ab, ist er durchgestrichen, und **Neuen Code anfordern** erzeugt einen neuen. Schließt du das Fenster, bevor ihn jemand benutzt hat, wird der Code ungültig. Ein neuer Code ersetzt einen unbenutzten für dasselbe Becken. Cora begrenzt auch, wie viele Codes du pro Stunde erzeugen kannst, also erzeuge nicht massenhaft welche.
 
 Verbindet sich dieselbe Firma erneut mit dem Becken, ersetzt die neue Verbindung ihre frühere.
+
+![Die Karte einer verbundenen Firma in Cora Mobile](img/mobile-partners.webp "Die Karte einer Firma, mit ihren zwei Schaltern und Trennen. Der Name der Firma ist hier unkenntlich gemacht.")
 
 Jede verbundene Firma bekommt eine Karte mit ihrem Namen, dem Verbindungsdatum und der letzten Nutzung oder „Noch nicht genutzt“. Zieh die Liste nach unten, um sie zu aktualisieren.
 
@@ -45,6 +49,12 @@ Sie kann deine Geräte nicht steuern und deine Einstellungen nicht ändern, und 
 Was die Firma mit dem Gelesenen macht, regelt ihre eigene Datenschutzerklärung. Coras Seite steht in der [Datenschutzerklärung](/privacy-policy.html).
 
 ## Cora-Analyse teilen {#share-analysis}
+
+So teilst du die Analyse von Cora mit einer Firma:
+
+1. Öffne **Einstellungen**, tippe auf dein Becken und dann auf **Verbundene Partner**.
+2. Schalte auf der Karte der Firma **Cora-Analyse teilen** ein.
+3. Lies, was die Firma zusätzlich sieht, und tippe dann auf **Teilen**.
 
 Jede Firmenkarte hat einen Schalter, **Cora-Analyse teilen**, mit dem Hinweis „ICP-Auswertungen, ICP-Verlauf und PDF sowie Reef Buddy“. Er ist **aus**, bis du ihn einschaltest.
 

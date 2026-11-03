@@ -24,9 +24,13 @@ group: Settings and account
 4. Cora Mobile mostra un **Codice di collegamento** con un conto alla rovescia ("Scade tra"). Tocca **Copia**, oppure leggilo a voce, e dallo alla tua azienda.
 5. Quando l'azienda usa il codice, il foglio si chiude e vedi "Collegato a" con il nome dell'azienda.
 
+![Prima di collegare, con l'elenco di cosa può e non può fare un'azienda](img/mobile-partners-consent.webp "Prima di collegare: cosa vedrà l'azienda e che non può controllare nulla.")
+
 Il codice vale **una sola volta** e per 15 minuti. Se scade, appare barrato e **Ottieni un nuovo codice** ne crea un altro. Se chiudi il foglio prima che qualcuno lo usi, il codice smette di funzionare. Un nuovo codice sostituisce quello non usato per quella vasca. Cora limita anche quanti codici puoi creare in un'ora, quindi non crearne a raffica.
 
 Se la stessa azienda si ricollega alla vasca, il nuovo collegamento sostituisce il precedente.
+
+![La scheda di un'azienda collegata in Cora Mobile](img/mobile-partners.webp "La scheda di un'azienda, con i suoi due interruttori e Scollega. Qui il nome dell'azienda è sfocato.")
 
 Ogni azienda collegata ha una scheda con il suo nome, la data del collegamento e l'ultimo utilizzo, oppure "Non ancora utilizzato". Tira giù l'elenco per aggiornarlo.
 
@@ -45,6 +49,12 @@ Non può controllare i tuoi dispositivi né modificare le tue impostazioni, e no
 Ciò che l'azienda fa con quello che legge è regolato dalla sua informativa sulla privacy. La parte di Cora è nell'[informativa sulla privacy](/privacy-policy.html).
 
 ## Condividi l'analisi di Cora {#share-analysis}
+
+Per condividere l'analisi di Cora con un'azienda:
+
+1. Apri **Impostazioni**, tocca la tua vasca, poi **Partner collegati**.
+2. Sulla scheda dell'azienda accendi **Condividi l'analisi di Cora**.
+3. Leggi cosa vedrà in più l'azienda, poi tocca **Condividi**.
 
 Ogni scheda ha un interruttore, **Condividi l'analisi di Cora**, con la nota "Analisi ICP, storico ICP e PDF, e Reef Buddy". È **spento** finché non lo accendi.
 

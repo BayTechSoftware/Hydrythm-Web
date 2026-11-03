@@ -178,8 +178,10 @@
 <ul><li>Eine Firma zu verbinden setzt ein bezahltes Abo voraus, <strong>Cora Essential</strong> oder höher. Der Tarif Free und die Testphase enthalten es nicht, und wenn du es dort versuchst, öffnet Cora Mobile die Tarife. Siehe <a href="/de/help/mobile-plans">Pläne und Abos</a>.</li><li>Die Firma muss Cora unterstützen. Cora Mobile durchsucht keine Firmenlisten: Du erzeugst einen Code und gibst ihn deiner Firma, die ihn auf ihrer Seite eingibt. Frag die Firma, ob sie sich verbinden kann.</li><li>Jede Verbindung gilt für <strong>ein Becken</strong>. Willst du mehrere Becken verbinden, wiederhole die Schritte für jedes.</li><li>Wenn du ein Becken entfernst, werden alle damit verbundenen Firmen getrennt.</li></ul>
 <h2 id="connecting">Eine Firma verbinden</h2>
 <ol><li>Öffne <strong>Einstellungen</strong>, tippe unter <strong>Becken</strong> auf dein Becken und dann auf <strong>Verbundene Partner</strong> („Lass eine Wartungsfirma dieses Becken einsehen“).</li><li>Tippe auf <strong>Wartungsfirma verbinden</strong>.</li><li><strong>Bevor du verbindest</strong> erklärt, was die Firma sehen kann. Lies es und tippe dann auf <strong>Weiter</strong>. Mit <strong>Abbrechen</strong> hörst du auf; dann wird kein Code erzeugt.</li><li>Cora Mobile zeigt einen <strong>Verbindungscode</strong> mit einem Countdown („Läuft ab in“). Tippe auf <strong>Kopieren</strong> oder lies ihn vor und gib ihn deiner Firma.</li><li>Sobald die Firma den Code benutzt, schließt sich das Fenster und du siehst „Mit“ und den Namen der Firma „verbunden“.</li></ol>
+<figure class="shot phone"><button type="button" class="zoom" aria-label="Vergrößern: Vor dem Verbinden: eine Liste, was eine Firma darf und was nicht"><img src="/help/img/mobile-partners-consent.webp" alt="Vor dem Verbinden: eine Liste, was eine Firma darf und was nicht" width="620" height="1348" loading="lazy" decoding="async"></button><figcaption>Bevor du verbindest: was die Firma sehen wird und dass sie nichts steuern kann.</figcaption></figure>
 <p>Der Code gilt <strong>einmal</strong> und 15 Minuten lang. Läuft er ab, ist er durchgestrichen, und <strong>Neuen Code anfordern</strong> erzeugt einen neuen. Schließt du das Fenster, bevor ihn jemand benutzt hat, wird der Code ungültig. Ein neuer Code ersetzt einen unbenutzten für dasselbe Becken. Cora begrenzt auch, wie viele Codes du pro Stunde erzeugen kannst, also erzeuge nicht massenhaft welche.</p>
 <p>Verbindet sich dieselbe Firma erneut mit dem Becken, ersetzt die neue Verbindung ihre frühere.</p>
+<figure class="shot phone"><button type="button" class="zoom" aria-label="Vergrößern: Die Karte einer verbundenen Firma in Cora Mobile"><img src="/help/img/mobile-partners.webp" alt="Die Karte einer verbundenen Firma in Cora Mobile" width="620" height="1348" loading="lazy" decoding="async"></button><figcaption>Die Karte einer Firma, mit ihren zwei Schaltern und Trennen. Der Name der Firma ist hier unkenntlich gemacht.</figcaption></figure>
 <p>Jede verbundene Firma bekommt eine Karte mit ihrem Namen, dem Verbindungsdatum und der letzten Nutzung oder „Noch nicht genutzt“. Zieh die Liste nach unten, um sie zu aktualisieren.</p>
 <h2 id="what-they-see">Was die Firma sehen kann</h2>
 <p>Nach der Verbindung kann die Firma dieses eine Becken einsehen:</p>
@@ -187,6 +189,8 @@
 <p>Sie kann deine Geräte nicht steuern und deine Einstellungen nicht ändern, und sie sieht nichts von deinen anderen Becken oder deinem Konto. Dein Tagebuch und deine Notizen werden nie geteilt. Coras eigene schriftliche Analyse wird <strong>nicht</strong> geteilt, solange du sie für diese Firma nicht einschaltest (nächster Abschnitt).</p>
 <p>Was die Firma mit dem Gelesenen macht, regelt ihre eigene Datenschutzerklärung. Coras Seite steht in der <a href="/privacy-policy.html">Datenschutzerklärung</a>.</p>
 <h2 id="share-analysis">Cora-Analyse teilen</h2>
+<p>So teilst du die Analyse von Cora mit einer Firma:</p>
+<ol><li>Öffne <strong>Einstellungen</strong>, tippe auf dein Becken und dann auf <strong>Verbundene Partner</strong>.</li><li>Schalte auf der Karte der Firma <strong>Cora-Analyse teilen</strong> ein.</li><li>Lies, was die Firma zusätzlich sieht, und tippe dann auf <strong>Teilen</strong>.</li></ol>
 <p>Jede Firmenkarte hat einen Schalter, <strong>Cora-Analyse teilen</strong>, mit dem Hinweis „ICP-Auswertungen, ICP-Verlauf und PDF sowie Reef Buddy“. Er ist <strong>aus</strong>, bis du ihn einschaltest.</p>
 <p>Schaltest du ihn ein, fragt Cora Mobile „Cora-Analyse mit“ dem Namen der Firma „teilen?“ und sagt, dass die Firma zusätzlich sieht:</p>
 <ul><li>Die schriftliche ICP-Analyse von Cora: Zusammenfassung, Kommentare zu jedem Element, Schadstoffe, Dosierungsauswirkung und Maßnahmen</li><li>Deine bisherigen ICP-Berichte und das Original-PDF des Labors</li><li>Das tägliche Briefing von Reef Buddy</li></ul>
@@ -596,7 +600,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/de/help/search.json?v=cb3d3ca337').then(function (r) { return r.json(); })
+    fetch('/de/help/search.json?v=335834e3c7').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "de"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Die Suche ist nicht verf\u00fcgbar. Nutze die Navigation." + '</li>';

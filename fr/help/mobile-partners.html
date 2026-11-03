@@ -178,8 +178,10 @@
 <ul><li>Connecter une société demande un forfait payant, <strong>Cora Essential</strong> ou supérieur. Le forfait Gratuit et l’essai ne l’incluent pas, et si vous essayez avec l’un d’eux, Cora Mobile ouvre les forfaits. Voir <a href="/fr/help/mobile-plans">Forfaits et abonnements</a>.</li><li>La société doit prendre Cora en charge. Cora Mobile ne cherche pas de sociétés : vous créez un code et vous le donnez à la vôtre, qui le saisit de son côté. Demandez-lui si elle peut se connecter.</li><li>Chaque connexion concerne <strong>un seul aquarium</strong>. Pour en connecter plusieurs, répétez les étapes pour chacun.</li><li>Retirer un aquarium déconnecte toutes les sociétés qui lui sont connectées.</li></ul>
 <h2 id="connecting">Connecter une société</h2>
 <ol><li>Ouvrez <strong>Paramètres</strong>, touchez votre aquarium sous <strong>Aquariums</strong>, puis <strong>Partenaires connectés</strong> (« Autorisez une société d’entretien à consulter cet aquarium »).</li><li>Touchez <strong>Connecter une société d’entretien</strong>.</li><li><strong>Avant de connecter</strong> explique ce que la société pourra voir. Lisez-le, puis touchez <strong>Continuer</strong>. Touchez <strong>Annuler</strong> pour arrêter ; aucun code n’est créé.</li><li>Cora Mobile affiche un <strong>Code de connexion</strong> avec un compte à rebours (« Expire dans »). Touchez <strong>Copier</strong>, ou dictez-le, et donnez-le à votre société.</li><li>Quand la société utilise le code, la feuille se ferme et vous voyez « Connecté à » suivi du nom de la société.</li></ol>
+<figure class="shot phone"><button type="button" class="zoom" aria-label="Agrandir : Avant de connecter, la liste de ce qu’une société peut et ne peut pas faire"><img src="/help/img/mobile-partners-consent.webp" alt="Avant de connecter, la liste de ce qu’une société peut et ne peut pas faire" width="620" height="1348" loading="lazy" decoding="async"></button><figcaption>Avant de connecter : ce que la société verra, et le fait qu’elle ne peut rien piloter.</figcaption></figure>
 <p>Le code ne fonctionne qu’<strong>une fois</strong>, pendant 15 minutes. S’il expire, il est barré et <strong>Obtenir un nouveau code</strong> en crée un autre. Si vous fermez la feuille avant que quelqu’un l’utilise, le code ne fonctionne plus. Un nouveau code remplace tout code inutilisé pour cet aquarium. Cora limite aussi le nombre de codes que vous pouvez créer par heure ; n’en créez donc pas en série.</p>
 <p>Si la même société se reconnecte à l’aquarium, la nouvelle connexion remplace la précédente.</p>
+<figure class="shot phone"><button type="button" class="zoom" aria-label="Agrandir : La carte d’une société connectée dans Cora Mobile"><img src="/help/img/mobile-partners.webp" alt="La carte d’une société connectée dans Cora Mobile" width="620" height="1348" loading="lazy" decoding="async"></button><figcaption>La carte d’une société, avec ses deux interrupteurs et Déconnecter. Le nom de la société est flouté ici.</figcaption></figure>
 <p>Chaque société connectée a une carte avec son nom, la date de connexion et son dernier accès, ou « Pas encore utilisé ». Tirez la liste vers le bas pour l’actualiser.</p>
 <h2 id="what-they-see">Ce que la société peut voir</h2>
 <p>Une fois connectée, la société peut consulter cet aquarium, et lui seul :</p>
@@ -187,6 +189,8 @@
 <p>Elle ne peut ni piloter vos appareils ni modifier vos réglages, et elle ne voit rien de vos autres aquariums ni de votre compte. Votre journal et vos notes ne sont jamais partagés. L’analyse rédigée par Cora n’est <strong>pas</strong> partagée tant que vous ne l’activez pas pour cette société (section suivante).</p>
 <p>Ce que la société fait de ce qu’elle lit relève de sa propre politique de confidentialité. Le côté de Cora est dans la <a href="/privacy-policy.html">politique de confidentialité</a>.</p>
 <h2 id="share-analysis">Partager l’analyse de Cora</h2>
+<p>Pour partager l’analyse de Cora avec une société :</p>
+<ol><li>Ouvrez <strong>Paramètres</strong>, touchez votre aquarium, puis <strong>Partenaires connectés</strong>.</li><li>Sur la carte de la société, activez <strong>Partager l’analyse de Cora</strong>.</li><li>Lisez ce que la société verra en plus, puis touchez <strong>Partager</strong>.</li></ol>
 <p>Chaque carte de société a un interrupteur, <strong>Partager l’analyse de Cora</strong>, avec la mention « Analyses ICP, historique ICP et PDF, et Reef Buddy ». Il est <strong>désactivé</strong> tant que vous ne l’activez pas.</p>
 <p>Quand vous l’activez, Cora Mobile demande « Partager l’analyse de Cora avec » le nom de la société, et indique que la société verra aussi :</p>
 <ul><li>L’analyse ICP rédigée par Cora : résumé, commentaires sur chaque élément, contaminants, impact sur le dosage et actions à mener</li><li>Vos rapports ICP précédents et le PDF d’origine du laboratoire</li><li>Le briefing quotidien de Reef Buddy</li></ul>
@@ -596,7 +600,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/fr/help/search.json?v=2f74db88ae').then(function (r) { return r.json(); })
+    fetch('/fr/help/search.json?v=523ab2a433').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "fr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La recherche est indisponible. Utilisez la navigation." + '</li>';

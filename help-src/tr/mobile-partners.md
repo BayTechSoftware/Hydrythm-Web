@@ -24,9 +24,13 @@ group: Settings and account
 4. Cora Mobile, geri sayımla birlikte bir **Bağlantı kodu** gösterir ("Kalan süre"). **Kopyala**'ya dokunun ya da kodu sesli okuyun ve şirketinize verin.
 5. Şirket kodu kullandığında sayfa kapanır ve şirketin adıyla birlikte "ile bağlantı kuruldu" mesajını görürsünüz.
 
+![Bağlanmadan önce, bir şirketin neler yapıp neler yapamayacağını listeleyen sayfa](img/mobile-partners-consent.webp "Bağlanmadan önce: şirketin neleri göreceği ve hiçbir şeyi kontrol edemeyeceği.")
+
 Kod **bir kez** ve 15 dakika boyunca geçerlidir. Süresi dolarsa üstü çizilir ve **Yeni kod al** yenisini oluşturur. Kimse kullanmadan sayfayı kapatırsanız kod çalışmaz olur. Yeni bir kod, o akvaryum için kullanılmamış kodun yerini alır. Cora ayrıca saatte oluşturabileceğiniz kod sayısını sınırlar, bu yüzden toplu kod üretmeyin.
 
 Aynı şirket akvaryuma yeniden bağlanırsa yeni bağlantı eskisinin yerini alır.
+
+![Cora Mobile'da bağlı bir şirketin kartı](img/mobile-partners.webp "Bir şirketin kartı: iki anahtarı ve Bağlantıyı kes düğmesi. Şirketin adı burada bulanıklaştırılmıştır.")
 
 Bağlı her şirketin bir kartı vardır: adı, bağlandığı tarih ve son kullanımı ya da "Henüz kullanılmadı". Yenilemek için listeyi aşağı çekin.
 
@@ -45,6 +49,12 @@ Cihazlarınızı kontrol edemez, ayarlarınızı değiştiremez; diğer akvaryum
 Şirketin okuduklarıyla ne yaptığı, kendi gizlilik politikasına bağlıdır. Cora'nın tarafı [gizlilik politikasında](/privacy-policy.html).
 
 ## Cora'nın analizini paylaşın {#share-analysis}
+
+Cora'nın analizini bir şirketle paylaşmak için:
+
+1. **Ayarlar**'ı açın, akvaryumunuza, sonra **Bağlı iş ortakları**'na dokunun.
+2. Şirketin kartında **Cora'nın analizini paylaşın** anahtarını açın.
+3. Şirketin ayrıca neleri göreceğini okuyun, sonra **Paylaş**'a dokunun.
 
 Her şirket kartında "ICP değerlendirmeleri, ICP geçmişi ve PDF ile Reef Buddy" notuyla bir anahtar vardır: **Cora'nın analizini paylaşın**. Siz açana kadar **kapalıdır**.
 

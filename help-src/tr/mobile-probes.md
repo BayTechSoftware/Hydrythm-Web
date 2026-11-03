@@ -9,11 +9,15 @@ group: Equipment
 
 Her ölçümün hangi parametre olarak görüneceğini ve iki cihaz aynı şeyi bildirdiğinde hangisine güveneceğini Cora'ya söylemek için **Parametre Eşlemesi**'ni kullanın. **Ayarlar**'a gidin, akvaryumu açın ve **Parametre Eşlemesi**'ne dokunun.
 
+![Cora Mobile'da akvaryum ayarları, Parametre Eşlemesi ve Bağlı iş ortaklarıyla](img/mobile-tank-settings.webp "Ayarlar, sonra akvaryumunuz: Parametre Eşlemesi ikinci satırdır.")
+
 **Akvaryumu düzenle** ile **Uyarı eşikleri** arasında yer alır. Panonun üstündeki kalem **Akvaryumu düzenle**'yi açar ve orada bu seçenek yoktur. Ona Neptune Apex cihaz sayfalarından da ulaşabilirsiniz.
 
 Ekran tek bir cihaz listesidir ve üstünde bir arama alanı (**Parametre ara**) vardır. Arama parametre adlarına, ölçüm adlarına, cihazlara ve markalara bakar. Aynı arama alanı her parametre seçicisinde bulunur.
 
 ## Tek bir cihaz listesi {#mapping}
+
+![Cora Mobile'da Parametre Eşlemesi, bir cihaz açık](img/mobile-probe-mapping.webp "Tek bir cihaz listesi. Ölçümlerini ve her birinin ne olarak gösterildiğini görmek için bir cihazı açın.")
 
 Arama alanının altında Cora ekranı tek satırda anlatır: her cihazın ölçümleri ve hangi akvaryum parametresi olarak gösterildikleri. Değiştirmek için bir ölçüme dokunun.
 
@@ -41,6 +45,16 @@ Yazılım güncellemesi bekleyen bir cihazda *Buradaki değişiklikler bu cihaz�
 
 ## Bir ölçümün neyi göstereceğini seçme {#shows-as}
 
+Bir ölçümün neyi göstereceğini değiştirmek için:
+
+1. **Ayarlar**'a gidin, **Akvaryumlar** altında akvaryumunuza dokunun, sonra **Parametre Eşlemesi**'ne dokunun.
+2. Bir cihazın adına dokunarak açın. Bir ölçümü daha hızlı bulmak için adının bir kısmını **Parametre ara** alanına yazın.
+3. Ölçüme dokunun. **Bu ölçümü şu olarak göster** açılır.
+4. Göstermesini istediğiniz parametreye dokunun. Seçiminiz hemen kaydedilir ve sayfa kapanır.
+5. Listede ölçümün **Gösterim** etiketine bakın. Artık seçtiğiniz parametrenin adını söyler.
+
+![Bu ölçümü şu olarak göster, parametreleriniz ve her birinin ölçümlerini nereden aldığıyla](img/mobile-probes-shows-as.webp "Her parametre ölçümlerinin nereden geldiğini söyler: bir cihaz, şu anda hiçbiri ya da ICP sonuçlarınız.")
+
 **Bu ölçümü şu olarak göster**'i açmak için bir ölçüme dokunun. En üstte ölçümün kendisi vardır: cihaz, ölçümün adı ve değeri. Altında:
 
 - **Parametreleriniz** bu akvaryumun her parametresini listeler. Her seçenek ölçümlerinin nereden geldiğini söyler, böylece benzer iki ad arasında tahmin yürütmeniz gerekmez:
@@ -55,12 +69,17 @@ Yazılım güncellemesi bekleyen bir cihazda *Buradaki değişiklikler bu cihaz�
 
 Sayfa *Seçtiğiniz anda kaydedilir. Geçmiş ölçümler olduğu yerde kalır.* ile biter.
 
+![Bu ölçümü şu olarak göster sayfasının sonu: Daha fazla parametre, Yeni parametre ve Bu ölçümü gösterme](img/mobile-probes-shows-as-end.webp "Daha fazla parametre, Yeni parametre… ve Bu ölçümü gösterme için sona kaydırın.")
+
 ### Yeni parametre {#new-parameter}
 
 Bir ölçüm aynı adlı bir başkasıyla karışmasın istiyorsanız **Yeni parametre…** seçeneğini kullanın, örneğin sump'taki ikinci bir pH probu. Cora **Yeni parametre**'yi açar ve o cihazdan gelen ölçümün kendi parametresi olarak gösterileceğini, biriminin cihazdan geleceğini açıklar.
 
-1. Bir **Ad** yazın. İstediğiniz bir ad, örneğin *pH sump* veya *pH 2*, en fazla 32 karakter.
-2. **Oluştur**'a dokunun. Ad boş olduğu sürece **Oluştur** gri kalır. **İptal** pencereyi kapatır ve hiçbir şeyi değiştirmez.
+1. **Bu ölçümü şu olarak göster** sayfasında sona kaydırın ve **Yeni parametre…** seçeneğine dokunun.
+2. Bir **Ad** yazın. İstediğiniz bir ad, örneğin *pH sump* veya *pH 2*, en fazla 32 karakter.
+3. **Oluştur**'a dokunun. Ad boş olduğu sürece **Oluştur** gri kalır. **İptal** pencereyi kapatır ve hiçbir şeyi değiştirmez.
+
+![Yeni parametre penceresi](img/mobile-probes-new-parameter.webp "Yeni parametre: Ölçüm kendi parametresini alır, birimi cihazdan gelir.")
 
 Ölçüm artık yeni parametreyi besler. Ad, yazdığınız yazımı korur. Zaten sahip olduğunuz bir parametrenin adını yazarsanız ölçüm ona katılır ve adı değişmez. Başka bir parametreden uyarı aralığı kopyalanmaz.
 

@@ -9,11 +9,15 @@ group: Equipment
 
 Use **Parameter Mapping** to tell Cora which parameter each reading shows as and, when two devices report the same thing, which one to trust. Go to **Settings**, open the tank, and tap **Parameter Mapping**.
 
+![Tank settings in Cora Mobile, with Parameter Mapping and Connected partners](img/mobile-tank-settings.webp "Settings, then your tank: Parameter Mapping is the second row.")
+
 It sits between **Edit tank** and **Alert thresholds**. The pencil at the top of the dashboard opens **Edit tank**, which doesn't have it. You can also reach it from the Neptune Apex device page.
 
 The screen is one list of devices, with a search field (**Search parameters**) above it. Search looks at parameter names, reading names, devices and brands. The same search field is in every parameter picker.
 
 ## One list of devices {#mapping}
+
+![Parameter Mapping in Cora Mobile, with one device opened](img/mobile-probe-mapping.webp "One list of devices. Open a device to see its readings and what each one shows as.")
 
 Under the search field, Cora explains the screen in one line: each device's readings, and the tank parameter they show as. Tap a reading to change it.
 
@@ -41,6 +45,16 @@ A device that is waiting for a firmware update says *Changes here take effect af
 
 ## Choosing what a reading shows as {#shows-as}
 
+To change what a reading shows as:
+
+1. Go to **Settings**, tap your tank under **Tanks**, then tap **Parameter Mapping**.
+2. Tap a device's name to open it. To find a reading faster, type part of its name in **Search parameters**.
+3. Tap the reading. **Show this reading as** opens.
+4. Tap the parameter it should show as. Your choice is saved at once and the sheet closes.
+5. Check the reading's **Shows as** label in the list. It now names the parameter you picked.
+
+![Show this reading as, listing your parameters and where each one gets its readings](img/mobile-probes-shows-as.webp "Each parameter says where its readings come from: a device, nothing right now, or your ICP results.")
+
 Tap a reading to open **Show this reading as**. At the top is the reading itself: the device, the reading's name and its value. Below it:
 
 - **Your parameters** lists every parameter this tank has. Each option says where its readings come from, so you never have to guess between two similar names:
@@ -55,12 +69,17 @@ Tap a reading to open **Show this reading as**. At the top is the reading itself
 
 The sheet ends with *Saved as soon as you choose. Past readings stay where they are.*
 
+![The end of Show this reading as, with More parameters, New parameter and Don't show this reading](img/mobile-probes-shows-as-end.webp "Scroll to the end for More parameters, New parameter… and Don't show this reading.")
+
 ### New parameter {#new-parameter}
 
 Use **New parameter…** when a reading should not be mixed with another that has the same name, for example a second pH probe in the sump. Cora opens **New parameter** and explains that the reading from that device will show as a parameter of its own and that its unit comes from the device.
 
-1. Type a **Name**. Any name you like, for example *pH sump* or *pH 2*, up to 32 characters.
-2. Tap **Create**. **Create** stays greyed out until the name has something in it. **Cancel** closes the dialog and changes nothing.
+1. In **Show this reading as**, scroll to the end and tap **New parameter…**.
+2. Type a **Name**. Any name you like, for example *pH sump* or *pH 2*, up to 32 characters.
+3. Tap **Create**. **Create** stays greyed out until the name has something in it. **Cancel** closes the dialog and changes nothing.
+
+![The New parameter dialog](img/mobile-probes-new-parameter.webp "New parameter: the reading gets a parameter of its own, with the unit from the device.")
 
 The reading now feeds the new parameter. The name keeps the spelling you typed. If you type the name of a parameter you already have, the reading joins that one and its name isn't changed. No alert range is copied from another parameter.
 

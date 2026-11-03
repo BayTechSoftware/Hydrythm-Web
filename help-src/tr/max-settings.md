@@ -52,7 +52,7 @@ Kartın altında şu bölümler vardır.
 | Bölüm | Kapsadıkları |
 |---|---|
 | **EKRAN** | **Parlaklık**. **Şu kadar süre sonra karart** ve **Karartma seviyesi**: dokunulmadan ne kadar süre sonra ekranın kararacağı ve ne kadar kararacağı. **Başlangıç**, **Bitiş** ve **Gece parlaklığı** ile **Gece karartması**. Üst çubukta **Saati göster**. **Alarmda ekranı uyandır** |
-| **SES VE KONUŞMA** | **Hoparlör** (**Dahili**, **3.5 mm** ya da **BT**), **Uyarı sesi** ve ses düzeyi, **Sesli uyarılar** ve açık ya da kapalı **Uyandırma sözcüğü**, ayrıca ekrana dokunduğunuzda duyulan tık sesi için **Dokunma sesleri**. Ayrıntılar [Cora ile konuşma](/help/max-voice#sound-and-wake-word-settings) sayfasında |
+| **SES VE KONUŞMA** | **Hoparlör** (**Dahili**, **3.5 mm** ya da **BT**), **Uyarı sesi** ve ses düzeyi, **Sesli uyarılar**, **Dokunma sesleri** (ekrana dokunduğunuzda duyulan tık sesi) ve **Uyandırma sözcüğü**, her biri açık ya da kapalı. Ayrıntılar [Cora ile konuşma](/help/max-voice#sound-and-wake-word-settings) sayfasında |
 | **REEF BUDDY** | **Reef Buddy özeti** sabah özetini yüksek sesle okur. **Özet saati**, her cihazda aynı olmak üzere ne zaman geleceğidir |
 | **ÇOCUK KİLİDİ** | Açık ya da kapalı **Çocuk kilidi** ve **Şu kadar süre sonra kilitle**. Aşağıdaki [Çocuk kilidi](#child-lock) bölümüne bakın |
 | **BİLDİRİMLER** | Her özet, alarm ve hesap bildirimiyle tüm hesabınızın gelen kutusu olan **Bildirim geçmişi** |
@@ -61,6 +61,20 @@ Kartın altında şu bölümler vardır.
 | **DURUM** | Bu ekranın gösterdiği her akvaryum için bir kart. **Cihazlar**, akvaryumdaki cihazlardan kaçının veri gönderdiğini söyler (*10 cihazdan 9 tanesi veri gönderiyor*), **Son okuma** en yeni okumanın ne zaman geldiğini gösterir, **Veri göndermeyenler** ise susan her cihazın adını verir. Apex olan bir akvaryumda ayrıca **Apex yoklaması**, **Son yoklama** ve **Son bulut yazımı** görünür. **Bulut kaydı** yalnızca Cora Cloud bir kaydı reddettiğinde çıkar. Yalnızca görüntüleme |
 | **YARDIM VE HAKKINDA** | **Yardım ve Destek** (destekle iletişim ya da sorun bildirme) ve **Hakkında** (sürüm ve lisanslar) |
 | **SIFIRLA** | **Bu cihazı yeniden eşleştir** ve **Fabrika ayarlarına sıfırla**. Aşağıya bakın |
+
+**Dokunma tıkını kapatmak için:**
+
+1. Üst çubuğun en sağındaki **dişli** simgesine dokunun.
+2. Aşağı kaydırın ve son satıra, **Cora Max Ayarları**'na dokunun.
+3. **SES VE KONUŞMA** altında **Dokunma sesleri**'ni kapatın.
+
+Ayar yalnızca bu ekran için geçerlidir ve hemen uygulanır.
+
+![Cora Max'te ses ve konuşma ayarları, Dokunma sesleri anahtarıyla](img/max-sound-voice.webp "SES VE KONUŞMA: Hoparlör, Uyarı sesi, Sesli uyarılar, Dokunma sesleri ve Uyandırma sözcüğü.")
+
+**Hangi cihazların veri gönderdiğini görmek için:** **Cora Max Ayarları**'nda aşağıya, **DURUM**'a kaydırın. Her akvaryumun bir kartı vardır. **Cihazlar** kaç cihazının veri gönderdiğini gösterir, **Veri göndermeyenler** ise susanların adını verir; böylece hangi cihazı kontrol edeceğinizi bilirsiniz. Apex olan bir akvaryumda, o Apex'i başka bir Cora Max okuyorsa **Apex yoklaması** *Bu akvaryumu başka bir cihaz yokluyor* der; **Son yoklama** ve **Son bulut yazımı** bu ekranda boş kalır.
+
+![Cora Max'te DURUM altında bir akvaryumun kartı](img/max-status-card.webp "Bir akvaryumun DURUM kartı. Veri göndermeyenler altındaki adlar burada bulanıklaştırıldı.")
 
 **Yardım ve Destek** ayrıca bir QR kodu gösterir. Bu kılavuzu kendi dilinizde açmak için telefonunuzla tarayın.
 

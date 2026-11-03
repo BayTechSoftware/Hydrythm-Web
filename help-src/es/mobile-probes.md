@@ -9,11 +9,15 @@ group: Equipment
 
 Usa **Asignación de parámetros** para decirle a Cora con qué parámetro se muestra cada lectura y, cuando dos dispositivos informan de lo mismo, en cuál confiar. Ve a **Ajustes**, abre el acuario y toca **Asignación de parámetros**.
 
+![Los ajustes del acuario en Cora Mobile, con Asignación de parámetros y Socios conectados](img/mobile-tank-settings.webp "Ajustes y después tu acuario: Asignación de parámetros es la segunda fila.")
+
 Está entre **Editar acuario** y **Umbrales de alerta**. El lápiz de la parte superior del panel abre **Editar acuario**, que no la tiene. También puedes llegar desde las páginas de dispositivo de Neptune Apex.
 
 La pantalla es una sola lista de dispositivos, con un campo de búsqueda (**Buscar parámetros**) encima. La búsqueda mira los nombres de parámetros, los nombres de lecturas, los dispositivos y las marcas. El mismo campo de búsqueda está en todos los selectores de parámetros.
 
 ## Una sola lista de dispositivos {#mapping}
+
+![Asignación de parámetros en Cora Mobile, con un dispositivo abierto](img/mobile-probe-mapping.webp "Una sola lista de dispositivos. Abre un dispositivo para ver sus lecturas y como qué se muestra cada una.")
 
 Bajo el campo de búsqueda, Cora explica la pantalla en una línea: las lecturas de cada dispositivo y el parámetro del acuario como el que se muestran. Toca una lectura para cambiarla.
 
@@ -41,6 +45,16 @@ Un dispositivo que espera una actualización de firmware dice *Los cambios aquí
 
 ## Elegir como qué se muestra una lectura {#shows-as}
 
+Para cambiar como qué se muestra una lectura:
+
+1. Ve a **Ajustes**, toca tu acuario en **Acuarios** y luego **Asignación de parámetros**.
+2. Toca el nombre de un dispositivo para abrirlo. Para encontrar una lectura más rápido, escribe parte de su nombre en **Buscar parámetros**.
+3. Toca la lectura. Se abre **Mostrar esta lectura como**.
+4. Toca el parámetro como el que debe mostrarse. Tu elección se guarda al instante y la hoja se cierra.
+5. Comprueba la etiqueta **Se muestra como** de la lectura en la lista. Ahora nombra el parámetro que elegiste.
+
+![Mostrar esta lectura como, con la lista de tus parámetros y de dónde saca cada uno sus lecturas](img/mobile-probes-shows-as.webp "Cada parámetro indica de dónde vienen sus lecturas: un dispositivo, nada por ahora o tus resultados de ICP.")
+
 Toca una lectura para abrir **Mostrar esta lectura como**. Arriba está la lectura misma: el dispositivo, el nombre de la lectura y su valor. Debajo:
 
 - **Tus parámetros** lista cada parámetro de este acuario. Cada opción indica de dónde vienen sus lecturas, para que nunca tengas que adivinar entre dos nombres parecidos:
@@ -55,12 +69,17 @@ Toca una lectura para abrir **Mostrar esta lectura como**. Arriba está la lectu
 
 La hoja termina con *Se guarda en cuanto eliges. Las lecturas anteriores se quedan donde están.*
 
+![El final de Mostrar esta lectura como, con Más parámetros, Nuevo parámetro y No mostrar esta lectura](img/mobile-probes-shows-as-end.webp "Baja hasta el final para ver Más parámetros, Nuevo parámetro… y No mostrar esta lectura.")
+
 ### Nuevo parámetro {#new-parameter}
 
 Usa **Nuevo parámetro…** cuando una lectura no deba mezclarse con otra del mismo nombre, por ejemplo una segunda sonda de pH en el sump. Cora abre **Nuevo parámetro** y explica que la lectura de ese dispositivo se mostrará como un parámetro propio y que su unidad viene del dispositivo.
 
-1. Escribe un **Nombre**. Cualquier nombre, por ejemplo *pH sump* o *pH 2*, de hasta 32 caracteres.
-2. Toca **Crear**. **Crear** sigue en gris mientras el nombre esté vacío. **Cancelar** cierra la ventana y no cambia nada.
+1. En **Mostrar esta lectura como**, baja hasta el final y toca **Nuevo parámetro…**.
+2. Escribe un **Nombre**. Cualquier nombre, por ejemplo *pH sump* o *pH 2*, de hasta 32 caracteres.
+3. Toca **Crear**. **Crear** sigue en gris mientras el nombre esté vacío. **Cancelar** cierra la ventana y no cambia nada.
+
+![El cuadro Nuevo parámetro](img/mobile-probes-new-parameter.webp "Nuevo parámetro: la lectura obtiene un parámetro propio, con la unidad que viene del dispositivo.")
 
 La lectura alimenta ahora el nuevo parámetro. El nombre conserva la grafía que escribiste. Si escribes el nombre de un parámetro que ya tienes, la lectura se une a él y su nombre no se modifica. No se copia ningún rango de alerta de otro parámetro.
 

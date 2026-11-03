@@ -52,7 +52,7 @@ Pod kartą są te sekcje.
 | Sekcja | Co obejmuje |
 |---|---|
 | **EKRAN** | **Jasność**. **Przygaszaj po** i **Poziom przygaszenia**: po jakim czasie bez dotyku ekran się przyciemnia i jak bardzo. **Przygaszanie nocne**, z **Od**, **Do** i **Jasność nocna**. **Pokaż zegar** na górnym pasku. **Włącz ekran przy alarmie** |
-| **DŹWIĘK I GŁOS** | **Głośnik** (**Wewnętrzny**, **3.5 mm** albo **BT**), **Dźwięk alertu** i jego głośność, **Alerty głosowe**, włączanie i wyłączanie **Słowa aktywującego** oraz **Dźwięki dotyku**, czyli kliknięcie przy dotknięciu ekranu. Więcej w [Rozmowie z Corą](/help/max-voice#sound-and-wake-word-settings) |
+| **DŹWIĘK I GŁOS** | **Głośnik** (**Wewnętrzny**, **3.5 mm** albo **BT**), **Dźwięk alertu** i jego głośność, **Alerty głosowe**, **Dźwięki dotyku** (kliknięcie przy dotknięciu ekranu) oraz **Słowo aktywujące**, każde włączane i wyłączane. Więcej w [Rozmowie z Corą](/help/max-voice#sound-and-wake-word-settings) |
 | **REEF BUDDY** | **Podsumowanie Reef Buddy** odczytuje poranne podsumowanie na głos. **Godzina podsumowania** to godzina, o której przychodzi, taka sama na każdym urządzeniu |
 | **BLOKADA RODZICIELSKA** | Włączanie i wyłączanie **Blokady rodzicielskiej** oraz **Blokuj po**. Zobacz [Blokada rodzicielska](#child-lock) niżej |
 | **POWIADOMIENIA** | **Historia powiadomień**, skrzynka całego Twojego konta z każdym podsumowaniem, alarmem i komunikatem konta |
@@ -61,6 +61,20 @@ Pod kartą są te sekcje.
 | **STAN** | Po jednej karcie na każde akwarium, które pokazuje ten ekran. **Urządzenia** mówi, ile urządzeń akwarium się zgłasza (*Zgłasza się 9 z 10*), **Ostatni odczyt** pokazuje, kiedy przyszedł najnowszy odczyt, a **Nie zgłaszają się** wymienia każde urządzenie, które ucichło. Akwarium z Apex pokazuje też **Odpytywanie Apex**, **Ostatnie odpytanie** i **Ostatni zapis do chmury**. **Zapis w chmurze** pojawia się tylko wtedy, gdy Cora Cloud odrzuca zapis. Tylko do odczytu |
 | **POMOC I O APLIKACJI** | **Pomoc i wsparcie** (kontakt z pomocą albo zgłoszenie problemu) i **O aplikacji** (wersja i licencje) |
 | **RESET** | **Sparuj urządzenie ponownie** i **Ustawienia fabryczne**. Zobacz niżej |
+
+**Jak wyłączyć kliknięcie przy dotyku:**
+
+1. Dotknij **koła zębatego** po prawej stronie górnego paska.
+2. Przewiń w dół i dotknij ostatniego wiersza, **Ustawienia Cora Max**.
+3. W sekcji **DŹWIĘK I GŁOS** wyłącz **Dźwięki dotyku**.
+
+Dotyczy tylko tego ekranu i działa od razu.
+
+![Ustawienia dźwięku i głosu na Cora Max z przełącznikiem Dźwięki dotyku](img/max-sound-voice.webp "DŹWIĘK I GŁOS: Głośnik, Dźwięk alertu, Alerty głosowe, Dźwięki dotyku i Słowo aktywujące.")
+
+**Jak sprawdzić, które urządzenia się zgłaszają:** w **Ustawieniach Cora Max** przewiń w dół do **STAN**. Każde akwarium ma kartę. **Urządzenia** pokazuje, ile jego urządzeń się zgłasza, a **Nie zgłaszają się** wymienia te, które ucichły, żebyś wiedział, które sprawdzić. W akwarium z Apex pole **Odpytywanie Apex** pokazuje *Inne urządzenie odpytuje to akwarium*, gdy ten Apex odczytuje inny Cora Max; **Ostatnie odpytanie** i **Ostatni zapis do chmury** są wtedy puste na tym ekranie.
+
+![Karta akwarium w sekcji STAN na Cora Max](img/max-status-card.webp "Karta STAN akwarium. Nazwy pod Nie zgłaszają się są tu rozmyte.")
 
 **Pomoc i wsparcie** pokazuje też kod QR. Zeskanuj go telefonem, żeby otworzyć ten przewodnik w swoim języku.
 

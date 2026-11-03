@@ -24,9 +24,13 @@ group: Settings and account
 4. Cora Mobile muestra un **Código de conexión** con una cuenta atrás («Caduca en»). Toca **Copiar**, o dicta el código, y dáselo a tu empresa.
 5. Cuando la empresa usa el código, la hoja se cierra y ves «Conectado con» y el nombre de la empresa.
 
+![Antes de conectar, con la lista de lo que una empresa puede y no puede hacer](img/mobile-partners-consent.webp "Antes de conectar: qué verá la empresa y que no puede controlar nada.")
+
 El código funciona **una sola vez** y durante 15 minutos. Si caduca, aparece tachado y **Obtener un código nuevo** crea otro. Si cierras la hoja antes de que alguien lo use, el código deja de funcionar. Un código nuevo sustituye al que no se haya usado para ese acuario. Cora también limita cuántos códigos puedes crear por hora, así que no los crees en serie.
 
 Si la misma empresa vuelve a conectarse al acuario, la nueva conexión sustituye a la anterior.
+
+![La tarjeta de una empresa conectada en Cora Mobile](img/mobile-partners.webp "La tarjeta de una empresa, con sus dos interruptores y Desconectar. Aquí el nombre de la empresa está difuminado.")
 
 Cada empresa conectada tiene una tarjeta con su nombre, la fecha de conexión y su último uso, o «Aún no se ha usado». Desliza la lista hacia abajo para actualizarla.
 
@@ -45,6 +49,12 @@ No puede controlar tus dispositivos ni cambiar tus ajustes, y no ve nada de tus 
 Lo que la empresa hace con lo que lee lo regula su propia política de privacidad. La parte de Cora está en la [política de privacidad](/privacy-policy.html).
 
 ## Compartir el análisis de Cora {#share-analysis}
+
+Para compartir el análisis de Cora con una empresa:
+
+1. Abre **Ajustes**, toca tu acuario y luego **Socios conectados**.
+2. En la tarjeta de la empresa, activa **Compartir el análisis de Cora**.
+3. Lee qué verá además la empresa y toca **Compartir**.
 
 Cada tarjeta de empresa tiene un interruptor, **Compartir el análisis de Cora**, con la nota «Análisis ICP, historial ICP y PDF, y Reef Buddy». Está **desactivado** hasta que lo actives.
 

@@ -52,7 +52,7 @@ Sous la carte se trouvent ces sections.
 | Section | Contenu |
 |---|---|
 | **AFFICHAGE** | **Luminosité**. **Atténuer après** et **Niveau d’atténuation** : combien de temps sans contact avant que l’écran s’atténue, et à quel point. **Atténuation nocturne**, avec **De**, **À** et **Luminosité nocturne**. **Afficher l’horloge** dans la barre du haut. **Réveiller l’écran en cas d’alarme** |
-| **SON ET VOIX** | **Haut-parleur** (**Interne**, **3.5 mm** ou **BT**), **Son d’alerte** et son volume, **Alertes vocales**, et **Mot d’activation** activé ou désactivé, et **Sons au toucher**, le clic quand vous touchez l’écran. Plus de détails dans [Parler à Cora](/help/max-voice#sound-and-wake-word-settings) |
+| **SON ET VOIX** | **Haut-parleur** (**Interne**, **3.5 mm** ou **BT**), **Son d’alerte** et son volume, **Alertes vocales**, **Sons au toucher** (le clic quand vous touchez l’écran) et **Mot d’activation**, chacun activé ou désactivé. Plus de détails dans [Parler à Cora](/help/max-voice#sound-and-wake-word-settings) |
 | **REEF BUDDY** | **Briefing Reef Buddy** lit le briefing du matin à voix haute. **Heure du briefing** est l’heure à laquelle il arrive, la même sur tous les appareils |
 | **VERROUILLAGE ENFANT** | **Verrouillage enfant** activé ou désactivé, et **Verrouiller après**. Voir [Verrouillage enfant](#child-lock) plus bas |
 | **NOTIFICATIONS** | **Historique des notifications**, la boîte de réception de tout votre compte avec chaque briefing, alarme et avis de compte |
@@ -61,6 +61,20 @@ Sous la carte se trouvent ces sections.
 | **ÉTAT** | Une carte pour chaque aquarium affiché par cet écran. **Appareils** indique combien d’appareils de l’aquarium transmettent (*9 sur 10 transmettent*), **Dernière mesure** indique quand la mesure la plus récente est arrivée, et **Ne transmettent pas** nomme chaque appareil devenu silencieux. Un aquarium avec un Apex affiche aussi **Interrogation de l’Apex**, **Dernière interrogation** et **Dernière écriture cloud**. **Enregistrement cloud** n’apparaît que si Cora Cloud refuse un enregistrement. Lecture seule |
 | **AIDE ET À PROPOS** | **Aide et assistance** (contacter l’assistance ou signaler un problème) et **À propos** (version et licences) |
 | **RÉINITIALISATION** | **Réassocier cet appareil** et **Réinitialisation d’usine**. Voir plus bas |
+
+**Pour couper le clic au toucher :**
+
+1. Touchez la **roue dentée** tout à droite de la barre du haut.
+2. Faites défiler vers le bas et touchez la dernière ligne, **Paramètres Cora Max**.
+3. Sous **SON ET VOIX**, désactivez **Sons au toucher**.
+
+Le réglage ne vaut que pour cet écran et s’applique tout de suite.
+
+![Réglages du son et de la voix sur Cora Max, avec l’interrupteur Sons au toucher](img/max-sound-voice.webp "SON ET VOIX : Haut-parleur, Son d’alerte, Alertes vocales, Sons au toucher et Mot d’activation.")
+
+**Pour voir quels appareils transmettent :** dans **Paramètres Cora Max**, faites défiler jusqu’à **ÉTAT**. Chaque aquarium a une carte. **Appareils** indique combien de ses appareils transmettent, et **Ne transmettent pas** nomme ceux qui se sont tus, pour savoir lequel vérifier. Sur un aquarium avec un Apex, **Interrogation de l’Apex** indique *Un autre appareil interroge cet aquarium* quand un autre Cora Max lit cet Apex ; **Dernière interrogation** et **Dernière écriture cloud** restent alors vides sur cet écran.
+
+![La carte d’un aquarium sous ÉTAT sur Cora Max](img/max-status-card.webp "La carte ÉTAT d’un aquarium. Les noms sous Ne transmettent pas sont floutés ici.")
 
 **Aide et assistance** affiche aussi un code QR. Scannez-le avec votre téléphone pour ouvrir ce guide dans votre langue.
 

@@ -9,11 +9,15 @@ group: Equipment
 
 Usa **Mappatura parametri** per dire a Cora con quale parametro appare ogni lettura e, quando due dispositivi riportano la stessa cosa, di quale fidarsi. Vai in **Impostazioni**, apri la vasca e tocca **Mappatura parametri**.
 
+![Le impostazioni della vasca in Cora Mobile, con Mappatura parametri e Partner collegati](img/mobile-tank-settings.webp "Impostazioni, poi la tua vasca: Mappatura parametri è la seconda riga.")
+
 Si trova tra **Modifica vasca** e **Soglie di avviso**. La matita in alto sulla dashboard apre **Modifica vasca**, che non la contiene. La raggiungi anche dalle pagine dei dispositivi Neptune Apex.
 
 La schermata è un unico elenco di dispositivi, con un campo di ricerca (**Cerca parametri**) sopra. La ricerca guarda nei nomi dei parametri, nei nomi delle letture, nei dispositivi e nelle marche. Lo stesso campo di ricerca c'è in ogni selettore di parametri.
 
 ## Un unico elenco di dispositivi {#mapping}
+
+![Mappatura parametri in Cora Mobile, con un dispositivo aperto](img/mobile-probe-mapping.webp "Un unico elenco di dispositivi. Apri un dispositivo per vedere le sue letture e con quale parametro appare ognuna.")
 
 Sotto il campo di ricerca, Cora spiega la schermata in una riga: le letture di ogni dispositivo e il parametro della vasca con cui vengono mostrate. Tocca una lettura per cambiarla.
 
@@ -41,6 +45,16 @@ Un dispositivo che aspetta un aggiornamento del firmware dice *Le modifiche qui 
 
 ## Scegliere con quale parametro appare una lettura {#shows-as}
 
+Per cambiare con quale parametro appare una lettura:
+
+1. Vai in **Impostazioni**, tocca la tua vasca sotto **Vasche**, poi tocca **Mappatura parametri**.
+2. Tocca il nome di un dispositivo per aprirlo. Per trovare più in fretta una lettura, scrivi una parte del suo nome in **Cerca parametri**.
+3. Tocca la lettura. Si apre **Mostra questa lettura come**.
+4. Tocca il parametro con cui deve apparire. La tua scelta viene salvata subito e il foglio si chiude.
+5. Controlla l'etichetta **Mostrata come** della lettura nell'elenco. Ora indica il parametro che hai scelto.
+
+![Mostra questa lettura come, con l'elenco dei tuoi parametri e da dove arrivano le letture di ciascuno](img/mobile-probes-shows-as.webp "Ogni parametro dice da dove arrivano le sue letture: un dispositivo, nessuno al momento, oppure i tuoi risultati dell'ICP.")
+
 Tocca una lettura per aprire **Mostra questa lettura come**. In alto c'è la lettura stessa: il dispositivo, il nome della lettura e il suo valore. Sotto:
 
 - **I tuoi parametri** elenca ogni parametro di questa vasca. Ogni opzione dice da dove arrivano le sue letture, così non devi mai indovinare tra due nomi simili:
@@ -55,12 +69,17 @@ Tocca una lettura per aprire **Mostra questa lettura come**. In alto c'è la let
 
 Il foglio finisce con *Salvato appena scegli. Le letture passate restano dove sono.*
 
+![La fine di Mostra questa lettura come, con Altri parametri, Nuovo parametro e Non mostrare questa lettura](img/mobile-probes-shows-as-end.webp "Scorri fino in fondo per trovare Altri parametri, Nuovo parametro… e Non mostrare questa lettura.")
+
 ### Nuovo parametro {#new-parameter}
 
 Usa **Nuovo parametro…** quando una lettura non deve essere mescolata con un'altra dello stesso nome, per esempio una seconda sonda del pH nella sump. Cora apre **Nuovo parametro** e spiega che la lettura di quel dispositivo verrà mostrata come un parametro a sé e che la sua unità arriva dal dispositivo.
 
-1. Scrivi un **Nome**. Qualsiasi nome, per esempio *pH sump* o *pH 2*, fino a 32 caratteri.
-2. Tocca **Crea**. **Crea** resta grigio finché il nome è vuoto. **Annulla** chiude la finestra e non cambia nulla.
+1. In **Mostra questa lettura come**, scorri fino in fondo e tocca **Nuovo parametro…**.
+2. Scrivi un **Nome**. Qualsiasi nome, per esempio *pH sump* o *pH 2*, fino a 32 caratteri.
+3. Tocca **Crea**. **Crea** resta grigio finché il nome è vuoto. **Annulla** chiude la finestra e non cambia nulla.
+
+![La finestra Nuovo parametro](img/mobile-probes-new-parameter.webp "Nuovo parametro: la lettura ottiene un parametro tutto suo, con l'unità che arriva dal dispositivo.")
 
 La lettura ora alimenta il nuovo parametro. Il nome mantiene la grafia che hai scritto. Se scrivi il nome di un parametro che hai già, la lettura si unisce a quello e il suo nome non viene modificato. Nessun intervallo di avviso viene copiato da un altro parametro.
 

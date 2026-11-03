@@ -24,9 +24,13 @@ group: Settings and account
 4. Cora Mobile affiche un **Code de connexion** avec un compte à rebours (« Expire dans »). Touchez **Copier**, ou dictez-le, et donnez-le à votre société.
 5. Quand la société utilise le code, la feuille se ferme et vous voyez « Connecté à » suivi du nom de la société.
 
+![Avant de connecter, la liste de ce qu’une société peut et ne peut pas faire](img/mobile-partners-consent.webp "Avant de connecter : ce que la société verra, et le fait qu’elle ne peut rien piloter.")
+
 Le code ne fonctionne qu’**une fois**, pendant 15 minutes. S’il expire, il est barré et **Obtenir un nouveau code** en crée un autre. Si vous fermez la feuille avant que quelqu’un l’utilise, le code ne fonctionne plus. Un nouveau code remplace tout code inutilisé pour cet aquarium. Cora limite aussi le nombre de codes que vous pouvez créer par heure ; n’en créez donc pas en série.
 
 Si la même société se reconnecte à l’aquarium, la nouvelle connexion remplace la précédente.
+
+![La carte d’une société connectée dans Cora Mobile](img/mobile-partners.webp "La carte d’une société, avec ses deux interrupteurs et Déconnecter. Le nom de la société est flouté ici.")
 
 Chaque société connectée a une carte avec son nom, la date de connexion et son dernier accès, ou « Pas encore utilisé ». Tirez la liste vers le bas pour l’actualiser.
 
@@ -45,6 +49,12 @@ Elle ne peut ni piloter vos appareils ni modifier vos réglages, et elle ne voit
 Ce que la société fait de ce qu’elle lit relève de sa propre politique de confidentialité. Le côté de Cora est dans la [politique de confidentialité](/privacy-policy.html).
 
 ## Partager l’analyse de Cora {#share-analysis}
+
+Pour partager l’analyse de Cora avec une société :
+
+1. Ouvrez **Paramètres**, touchez votre aquarium, puis **Partenaires connectés**.
+2. Sur la carte de la société, activez **Partager l’analyse de Cora**.
+3. Lisez ce que la société verra en plus, puis touchez **Partager**.
 
 Chaque carte de société a un interrupteur, **Partager l’analyse de Cora**, avec la mention « Analyses ICP, historique ICP et PDF, et Reef Buddy ». Il est **désactivé** tant que vous ne l’activez pas.
 

@@ -52,7 +52,7 @@ Debajo de la tarjeta están estas secciones.
 | Sección | Incluye |
 |---|---|
 | **PANTALLA** | **Brillo**. **Atenuar después de** y **Nivel de atenuación**: cuánto tiempo sin tocarla antes de que la pantalla se atenúe, y cuánto se atenúa. **Atenuación nocturna**, con **Desde**, **Hasta** y **Brillo nocturno**. **Mostrar reloj** en la barra superior. **Encender pantalla con alarma** |
-| **SONIDO Y VOZ** | **Altavoz** (**Interno**, **3.5 mm** o **BT**), **Sonido de alerta** y su volumen, **Alertas habladas** y **Palabra de activación** activada o desactivada, y **Sonidos al tocar**, el clic al tocar la pantalla. Más información en [Hablar con Cora](/help/max-voice#sound-and-wake-word-settings) |
+| **SONIDO Y VOZ** | **Altavoz** (**Interno**, **3.5 mm** o **BT**), **Sonido de alerta** y su volumen, **Alertas habladas**, **Sonidos al tocar** (el clic al tocar la pantalla) y **Palabra de activación**, cada uno activado o desactivado. Más información en [Hablar con Cora](/help/max-voice#sound-and-wake-word-settings) |
 | **REEF BUDDY** | **Resumen de Reef Buddy** lee en voz alta el resumen de la mañana. **Hora del resumen** es cuándo llega, la misma en todos los dispositivos |
 | **BLOQUEO INFANTIL** | **Bloqueo infantil** activado o desactivado, y **Bloquear después de**. Consulta [Bloqueo infantil](#child-lock) más abajo |
 | **NOTIFICACIONES** | **Historial de notificaciones**, la bandeja de toda tu cuenta con cada resumen, alarma y aviso de la cuenta |
@@ -61,6 +61,20 @@ Debajo de la tarjeta están estas secciones.
 | **ESTADO** | Una tarjeta por cada acuario que muestra esta pantalla. **Dispositivos** dice cuántos dispositivos del acuario informan (*9 de 10 informan*), **Última lectura** indica cuándo llegó la lectura más reciente y **No informan** nombra cada dispositivo que ha dejado de informar. Un acuario con un Apex muestra además **Sondeo del Apex**, **Último sondeo** y **Última escritura en la nube**. **Guardado en la nube** solo aparece cuando Cora Cloud rechaza un guardado. Solo consulta |
 | **AYUDA Y ACERCA DE** | **Ayuda y soporte** (contactar con el soporte o informar de un problema) y **Acerca de** (versión y licencias) |
 | **RESTABLECER** | **Volver a emparejar este dispositivo** y **Restablecer valores de fábrica**. Mira más abajo |
+
+**Para quitar el clic al tocar:**
+
+1. Toca el **engranaje** del extremo derecho de la barra superior.
+2. Baja y toca la última fila, **Ajustes de Cora Max**.
+3. En **SONIDO Y VOZ**, desactiva **Sonidos al tocar**.
+
+Solo afecta a esta pantalla y se aplica al momento.
+
+![Ajustes de sonido y voz en Cora Max, con el interruptor Sonidos al tocar](img/max-sound-voice.webp "SONIDO Y VOZ: Altavoz, Sonido de alerta, Alertas habladas, Sonidos al tocar y Palabra de activación.")
+
+**Para ver qué dispositivos informan:** en **Ajustes de Cora Max**, baja hasta **ESTADO**. Cada acuario tiene una tarjeta. **Dispositivos** muestra cuántos de sus dispositivos informan y **No informan** nombra los que han dejado de hacerlo, para que sepas cuál revisar. En un acuario con un Apex, **Sondeo del Apex** dice *Otro dispositivo está sondeando este acuario* cuando otro Cora Max lee ese Apex; **Último sondeo** y **Última escritura en la nube** quedan entonces vacíos en esta pantalla.
+
+![La tarjeta de un acuario en ESTADO en Cora Max](img/max-status-card.webp "La tarjeta ESTADO de un acuario. Los nombres bajo No informan están difuminados aquí.")
 
 **Ayuda y soporte** también muestra un código QR. Escanéalo con tu teléfono para abrir esta guía en tu idioma.
 

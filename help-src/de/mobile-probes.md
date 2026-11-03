@@ -9,11 +9,15 @@ group: Equipment
 
 Mit der **Parameterzuordnung** legst du fest, als welcher Parameter jeder Messwert angezeigt wird und, wenn zwei Geräte dasselbe melden, welchem du vertraust. Geh zu **Einstellungen**, öffne das Becken und tippe auf **Parameterzuordnung**.
 
+![Beckeneinstellungen in Cora Mobile, mit Parameterzuordnung und Verbundene Partner](img/mobile-tank-settings.webp "Einstellungen, dann dein Becken: Die Parameterzuordnung ist die zweite Zeile.")
+
 Sie steht zwischen **Becken bearbeiten** und **Warnschwellen**. Der Stift oben auf dem Dashboard öffnet **Becken bearbeiten**, wo es sie nicht gibt. Du erreichst sie auch über die Geräteseiten von Neptune Apex.
 
 Der Bildschirm ist eine einzige Liste von Geräten, darüber ein Suchfeld (**Parameter suchen**). Die Suche durchsucht Namen von Parametern, Namen von Messwerten, Geräte und Marken. Dasselbe Suchfeld gibt es in jeder Parameterauswahl.
 
 ## Eine Liste aller Geräte {#mapping}
+
+![Parameterzuordnung in Cora Mobile, mit einem geöffneten Gerät](img/mobile-probe-mapping.webp "Eine Liste aller Geräte. Öffne ein Gerät, um seine Messwerte zu sehen und als was jeder angezeigt wird.")
 
 Unter dem Suchfeld erklärt Cora den Bildschirm in einer Zeile: die Messwerte jedes Geräts und als welcher Beckenparameter sie angezeigt werden. Tippe auf einen Messwert, um ihn zu ändern.
 
@@ -41,6 +45,16 @@ Ein Gerät, das auf ein Firmware-Update wartet, sagt *Änderungen hier wirken er
 
 ## Festlegen, als was ein Messwert angezeigt wird {#shows-as}
 
+So änderst du, als was ein Messwert angezeigt wird:
+
+1. Geh zu **Einstellungen**, tippe unter **Becken** auf dein Becken und dann auf **Parameterzuordnung**.
+2. Tippe auf den Namen eines Geräts, um es zu öffnen. Um einen Messwert schneller zu finden, gib einen Teil seines Namens in **Parameter suchen** ein.
+3. Tippe auf den Messwert. **Diesen Messwert anzeigen als** öffnet sich.
+4. Tippe auf den Parameter, als der er angezeigt werden soll. Deine Wahl wird sofort gespeichert und das Blatt schließt sich.
+5. Prüfe in der Liste die Bezeichnung **Angezeigt als** des Messwerts. Sie nennt jetzt den Parameter, den du gewählt hast.
+
+![Diesen Messwert anzeigen als, mit deinen Parametern und der Angabe, woher jeder seine Messwerte bekommt](img/mobile-probes-shows-as.webp "Jeder Parameter sagt, woher seine Messwerte kommen: von einem Gerät, gerade von keinem oder aus deinen ICP-Ergebnissen.")
+
 Tippe auf einen Messwert, um **Diesen Messwert anzeigen als** zu öffnen. Oben steht der Messwert selbst: das Gerät, der Name des Messwerts und sein Wert. Darunter:
 
 - **Deine Parameter** listet jeden Parameter dieses Beckens auf. Jede Option sagt, woher ihre Messwerte kommen, damit du nie zwischen zwei ähnlichen Namen raten musst:
@@ -55,12 +69,17 @@ Tippe auf einen Messwert, um **Diesen Messwert anzeigen als** zu öffnen. Oben s
 
 Das Blatt endet mit *Wird gespeichert, sobald du wählst. Frühere Messwerte bleiben, wo sie sind.*
 
+![Das Ende von Diesen Messwert anzeigen als, mit Weitere Parameter, Neuer Parameter und Diesen Messwert nicht anzeigen](img/mobile-probes-shows-as-end.webp "Scrolle ans Ende für Weitere Parameter, Neuer Parameter… und Diesen Messwert nicht anzeigen.")
+
 ### Neuer Parameter {#new-parameter}
 
 Nutze **Neuer Parameter…**, wenn ein Messwert nicht mit einem anderen gleichen Namens vermischt werden soll, zum Beispiel eine zweite pH-Sonde im Technikbecken. Cora öffnet **Neuer Parameter** und erklärt, dass der Messwert dieses Geräts als eigener Parameter angezeigt wird und dass seine Einheit vom Gerät kommt.
 
-1. Gib einen **Namen** ein. Ein beliebiger Name, zum Beispiel *pH Technikbecken* oder *pH 2*, bis zu 32 Zeichen.
-2. Tippe auf **Erstellen**. **Erstellen** bleibt grau, bis der Name etwas enthält. **Abbrechen** schließt das Fenster und ändert nichts.
+1. Scrolle in **Diesen Messwert anzeigen als** ans Ende und tippe auf **Neuer Parameter…**.
+2. Gib einen **Namen** ein. Ein beliebiger Name, zum Beispiel *pH Technikbecken* oder *pH 2*, bis zu 32 Zeichen.
+3. Tippe auf **Erstellen**. **Erstellen** bleibt grau, bis der Name etwas enthält. **Abbrechen** schließt das Fenster und ändert nichts.
+
+![Das Fenster Neuer Parameter](img/mobile-probes-new-parameter.webp "Neuer Parameter: Der Messwert bekommt einen eigenen Parameter, mit der Einheit vom Gerät.")
 
 Der Messwert speist nun den neuen Parameter. Der Name behält die Schreibweise, die du eingegeben hast. Gibst du den Namen eines Parameters ein, den du schon hast, wird der Messwert diesem zugeordnet, und sein Name bleibt unverändert. Es wird kein Warnbereich von einem anderen Parameter übernommen.
 

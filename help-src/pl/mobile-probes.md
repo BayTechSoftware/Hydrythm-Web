@@ -9,11 +9,15 @@ group: Equipment
 
 W **Mapowaniu parametrów** mówisz Corze, jako jaki parametr ma się pokazywać każdy odczyt, a gdy dwa urządzenia zgłaszają to samo, któremu ufać. Przejdź do **Ustawień**, otwórz akwarium i dotknij **Mapowanie parametrów**.
 
+![Ustawienia akwarium w Cora Mobile, z Mapowaniem parametrów i Połączonymi partnerami](img/mobile-tank-settings.webp "Ustawienia, potem akwarium: Mapowanie parametrów to drugi wiersz.")
+
 Jest ono między **Edytuj akwarium** a **Progi alertów**. Ołówek na górze panelu otwiera **Edytuj akwarium**, gdzie go nie ma. Trafisz tu też ze stron urządzeń Neptune Apex.
 
 Ekran to jedna lista urządzeń z polem wyszukiwania (**Szukaj parametrów**) nad nią. Wyszukiwanie obejmuje nazwy parametrów, nazwy odczytów, urządzenia i marki. To samo pole wyszukiwania jest w każdym wyborze parametru.
 
 ## Jedna lista urządzeń {#mapping}
+
+![Mapowanie parametrów w Cora Mobile, z otwartym jednym urządzeniem](img/mobile-probe-mapping.webp "Jedna lista urządzeń. Otwórz urządzenie, aby zobaczyć jego odczyty i jako co pokazuje się każdy z nich.")
 
 Pod polem wyszukiwania Cora opisuje ekran jednym zdaniem: odczyty każdego urządzenia i parametr akwarium, jako który są pokazywane. Dotknij odczytu, aby go zmienić.
 
@@ -41,6 +45,16 @@ Urządzenie czekające na aktualizację oprogramowania mówi *Zmiany tutaj zaczn
 
 ## Wybór, jako co pokazuje się odczyt {#shows-as}
 
+Aby zmienić, jako co pokazuje się odczyt:
+
+1. Przejdź do **Ustawień**, dotknij swojego akwarium w sekcji **Akwaria**, potem **Mapowanie parametrów**.
+2. Dotknij nazwy urządzenia, aby je otworzyć. Aby szybciej znaleźć odczyt, wpisz część jego nazwy w **Szukaj parametrów**.
+3. Dotknij odczytu. Otworzy się **Pokazuj ten odczyt jako**.
+4. Dotknij parametru, jako który ma się pokazywać. Wybór zapisuje się od razu, a arkusz się zamyka.
+5. Sprawdź etykietę **Pokazywany jako** przy odczycie na liście. Nazywa teraz wybrany parametr.
+
+![Pokazuj ten odczyt jako, z listą twoich parametrów i skąd każdy bierze odczyty](img/mobile-probes-shows-as.webp "Każdy parametr mówi, skąd pochodzą jego odczyty: z urządzenia, z niczego w tej chwili albo z twoich wyników ICP.")
+
 Dotknij odczytu, aby otworzyć **Pokazuj ten odczyt jako**. Na górze jest sam odczyt: urządzenie, nazwa odczytu i jego wartość. Pod nim:
 
 - **Twoje parametry** wymieniają każdy parametr tego akwarium. Każda opcja mówi, skąd pochodzą jej odczyty, więc nigdy nie musisz zgadywać między dwiema podobnymi nazwami:
@@ -55,12 +69,17 @@ Dotknij odczytu, aby otworzyć **Pokazuj ten odczyt jako**. Na górze jest sam o
 
 Arkusz kończy się napisem *Zapisywane od razu po wyborze. Wcześniejsze odczyty zostają tam, gdzie są.*
 
+![Koniec ekranu Pokazuj ten odczyt jako, z opcjami Więcej parametrów, Nowy parametr i Nie pokazuj tego odczytu](img/mobile-probes-shows-as-end.webp "Przewiń na sam koniec, aby znaleźć Więcej parametrów, Nowy parametr… i Nie pokazuj tego odczytu.")
+
 ### Nowy parametr {#new-parameter}
 
 Użyj **Nowy parametr…**, gdy odczyt nie powinien się mieszać z innym o tej samej nazwie, na przykład druga sonda pH w sumpie. Cora otwiera **Nowy parametr** i wyjaśnia, że odczyt z tego urządzenia będzie pokazywany jako osobny parametr, a jego jednostka pochodzi z urządzenia.
 
-1. Wpisz **Nazwę**. Dowolna nazwa, na przykład *pH sump* lub *pH 2*, do 32 znaków.
-2. Dotknij **Utwórz**. **Utwórz** pozostaje szare, dopóki nazwa jest pusta. **Anuluj** zamyka okno i niczego nie zmienia.
+1. W **Pokazuj ten odczyt jako** przewiń na sam koniec i dotknij **Nowy parametr…**.
+2. Wpisz **Nazwę**. Dowolna nazwa, na przykład *pH sump* lub *pH 2*, do 32 znaków.
+3. Dotknij **Utwórz**. **Utwórz** pozostaje szare, dopóki nazwa jest pusta. **Anuluj** zamyka okno i niczego nie zmienia.
+
+![Okno Nowy parametr](img/mobile-probes-new-parameter.webp "Nowy parametr: odczyt dostaje własny parametr, z jednostką pochodzącą z urządzenia.")
 
 Odczyt zasila teraz nowy parametr. Nazwa zachowuje wpisaną pisownię. Jeśli wpiszesz nazwę parametru, który już masz, odczyt do niego dołączy, a jego nazwa się nie zmieni. Żaden zakres alertów nie jest kopiowany z innego parametru.
 

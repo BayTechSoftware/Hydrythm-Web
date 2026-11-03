@@ -9,11 +9,15 @@ group: Equipment
 
 Utilisez **Association des paramètres** pour dire à Cora sous quel paramètre s’affiche chaque mesure et, quand deux appareils mesurent la même chose, auquel faire confiance. Allez dans **Paramètres**, ouvrez l’aquarium et touchez **Association des paramètres**.
 
+![Réglages de l’aquarium dans Cora Mobile, avec Association des paramètres et Partenaires connectés](img/mobile-tank-settings.webp "Paramètres, puis votre aquarium : Association des paramètres est la deuxième ligne.")
+
 Elle se trouve entre **Modifier l’aquarium** et **Seuils d’alerte**. Le crayon en haut du tableau de bord ouvre **Modifier l’aquarium**, qui ne la contient pas. Vous pouvez aussi y accéder depuis les pages d’appareil Neptune Apex.
 
 L’écran est une seule liste d’appareils, avec un champ de recherche (**Rechercher un paramètre**) au-dessus. La recherche porte sur les noms de paramètres, les noms de mesures, les appareils et les marques. Le même champ de recherche se trouve dans chaque sélecteur de paramètre.
 
 ## Une seule liste d’appareils {#mapping}
+
+![Association des paramètres dans Cora Mobile, avec un appareil ouvert](img/mobile-probe-mapping.webp "Une seule liste d’appareils. Ouvrez un appareil pour voir ses mesures et sous quel paramètre chacune s’affiche.")
 
 Sous le champ de recherche, Cora résume l’écran en une ligne : les mesures de chaque appareil et le paramètre de l’aquarium sous lequel elles s’affichent. Touchez une mesure pour la modifier.
 
@@ -41,6 +45,16 @@ Un appareil qui attend une mise à jour de son firmware indique *Les changements
 
 ## Choisir sous quel paramètre s’affiche une mesure {#shows-as}
 
+Pour changer sous quel paramètre s’affiche une mesure :
+
+1. Allez dans **Paramètres**, touchez votre aquarium sous **Aquariums**, puis **Association des paramètres**.
+2. Touchez le nom d’un appareil pour l’ouvrir. Pour trouver une mesure plus vite, saisissez une partie de son nom dans **Rechercher un paramètre**.
+3. Touchez la mesure. **Afficher cette mesure comme** s’ouvre.
+4. Touchez le paramètre sous lequel elle doit s’afficher. Votre choix est enregistré aussitôt et la feuille se ferme.
+5. Vérifiez l’étiquette **S’affiche comme** de la mesure dans la liste. Elle nomme maintenant le paramètre que vous avez choisi.
+
+![Afficher cette mesure comme, avec la liste de vos paramètres et l’origine de leurs mesures](img/mobile-probes-shows-as.webp "Chaque paramètre indique d’où viennent ses mesures : un appareil, aucun pour l’instant, ou vos résultats ICP.")
+
 Touchez une mesure pour ouvrir **Afficher cette mesure comme**. En haut figure la mesure elle-même : l’appareil, le nom de la mesure et sa valeur. En dessous :
 
 - **Vos paramètres** liste chaque paramètre de cet aquarium. Chaque option indique d’où viennent ses mesures, pour que vous n’ayez jamais à hésiter entre deux noms proches :
@@ -55,12 +69,17 @@ Touchez une mesure pour ouvrir **Afficher cette mesure comme**. En haut figure l
 
 La feuille se termine par *Enregistré dès que vous choisissez. Les mesures passées restent où elles sont.*
 
+![La fin de Afficher cette mesure comme, avec Plus de paramètres, Nouveau paramètre et Ne pas afficher cette mesure](img/mobile-probes-shows-as-end.webp "Faites défiler jusqu’à la fin pour Plus de paramètres, Nouveau paramètre… et Ne pas afficher cette mesure.")
+
 ### Nouveau paramètre {#new-parameter}
 
 Utilisez **Nouveau paramètre…** quand une mesure ne doit pas être mélangée avec une autre de même nom, par exemple une deuxième sonde de pH dans la décantation. Cora ouvre **Nouveau paramètre** et explique que la mesure de cet appareil s’affichera comme un paramètre à part et que son unité vient de l’appareil.
 
-1. Saisissez un **Nom**. Le nom de votre choix, par exemple *pH décantation* ou *pH 2*, jusqu’à 32 caractères.
-2. Touchez **Créer**. **Créer** reste grisé tant que le nom est vide. **Annuler** ferme la fenêtre et ne change rien.
+1. Dans **Afficher cette mesure comme**, faites défiler jusqu’à la fin et touchez **Nouveau paramètre…**.
+2. Saisissez un **Nom**. Le nom de votre choix, par exemple *pH décantation* ou *pH 2*, jusqu’à 32 caractères.
+3. Touchez **Créer**. **Créer** reste grisé tant que le nom est vide. **Annuler** ferme la fenêtre et ne change rien.
+
+![La fenêtre Nouveau paramètre](img/mobile-probes-new-parameter.webp "Nouveau paramètre : la mesure obtient un paramètre à elle, avec l’unité de l’appareil.")
 
 La mesure alimente maintenant le nouveau paramètre. Le nom garde l’orthographe que vous avez saisie. Si vous saisissez le nom d’un paramètre que vous avez déjà, la mesure le rejoint et son nom n’est pas modifié. Aucune plage d’alerte n’est copiée depuis un autre paramètre.
 

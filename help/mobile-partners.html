@@ -178,8 +178,10 @@
 <ul><li>Connecting a company needs a paid plan, <strong>Cora Essential</strong> or higher. The Free plan and the trial don't include it, and if you try on one of them Cora Mobile opens the plans. See <a href="/help/mobile-plans">Plans and subscriptions</a>.</li><li>The company has to support Cora. Cora Mobile doesn't search for companies: you make a code and give it to yours, and they enter it on their side. Ask the company whether they can connect.</li><li>Each connection is for <strong>one tank</strong>. Connect more than one tank by repeating the steps for each.</li><li>Removing a tank disconnects every company connected to it.</li></ul>
 <h2 id="connecting">Connecting a company</h2>
 <ol><li>Open <strong>Settings</strong>, tap your tank under <strong>Tanks</strong>, then tap <strong>Connected partners</strong> ("Let a maintenance company read this tank").</li><li>Tap <strong>Connect a maintenance company</strong>.</li><li><strong>Before you connect</strong> explains what the company will be able to see. Read it, then tap <strong>Continue</strong>. Tap <strong>Cancel</strong> to stop; no code is made.</li><li>Cora Mobile shows a <strong>Connection code</strong> with a countdown ("Expires in"). Tap <strong>Copy</strong>, or read it out, and give it to your company.</li><li>When the company uses the code, the sheet closes and you see "Connected to" and the company's name.</li></ol>
+<figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: Before you connect, listing what a company can and can&#x27;t do"><img src="/help/img/mobile-partners-consent.webp" alt="Before you connect, listing what a company can and can&#x27;t do" width="620" height="1348" loading="lazy" decoding="async"></button><figcaption>Before you connect: what the company will see, and that it can't control anything.</figcaption></figure>
 <p>The code works <strong>once</strong> and for 15 minutes. If it runs out, the code is struck through and <strong>Get a new code</strong> makes another. If you close the sheet before anyone uses it, the code stops working. A new code replaces any unused one for that tank. Cora also limits how many codes you can make in an hour, so don't make them in bulk.</p>
 <p>If the same company connects to the tank again, the new connection replaces its earlier one.</p>
+<figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: A connected company&#x27;s card in Cora Mobile"><img src="/help/img/mobile-partners.webp" alt="A connected company&#x27;s card in Cora Mobile" width="620" height="1348" loading="lazy" decoding="async"></button><figcaption>A company's card, with its two switches and Disconnect. The company name is blurred here.</figcaption></figure>
 <p>Each connected company gets a card with its name, the date it was connected and when it was last used, or "Not used yet". Pull down on the list to refresh it.</p>
 <h2 id="what-they-see">What the company can see</h2>
 <p>Once connected, the company can read this one tank:</p>
@@ -187,6 +189,8 @@
 <p>It can't control your devices or change your settings, and it sees nothing about your other tanks or your account. Your Journal and notes are never shared. Cora's own written analysis is <strong>not</strong> shared unless you turn it on for that company (next section).</p>
 <p>What the company does with what it reads is covered by that company's own privacy policy. Cora's side is in the <a href="/privacy-policy.html">privacy policy</a>.</p>
 <h2 id="share-analysis">Share Cora's analysis</h2>
+<p>To share Cora's analysis with a company:</p>
+<ol><li>Open <strong>Settings</strong>, tap your tank, then <strong>Connected partners</strong>.</li><li>On the company's card, turn on <strong>Share Cora's analysis</strong>.</li><li>Read what the company will also see, then tap <strong>Share</strong>.</li></ol>
 <p>Every company card has a switch, <strong>Share Cora's analysis</strong>, with the note "ICP write-ups, ICP history and the PDF, and Reef Buddy". It's <strong>off</strong> until you turn it on.</p>
 <p>When you turn it on, Cora Mobile asks "Share Cora's analysis with" the company's name, and says the company will also see:</p>
 <ul><li>Cora's written ICP analysis: the summary, comments on each element, contaminants, dosing impact and action items</li><li>Your past ICP reports and the original lab PDF</li><li>The daily Reef Buddy briefing</li></ul>
@@ -596,7 +600,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/help/search.json?v=0cb74b3874').then(function (r) { return r.json(); })
+    fetch('/help/search.json?v=2f8fb0b457').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "en"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';

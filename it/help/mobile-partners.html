@@ -178,8 +178,10 @@
 <ul><li>Collegare un'azienda richiede un piano a pagamento, <strong>Cora Essential</strong> o superiore. Il piano Gratuito e la prova non lo includono, e se ci provi con uno dei due Cora Mobile apre i piani. Vedi <a href="/it/help/mobile-plans">Piani e abbonamenti</a>.</li><li>L'azienda deve supportare Cora. Cora Mobile non cerca aziende: crei un codice e lo dai alla tua, che lo inserisce dalla sua parte. Chiedi all'azienda se può collegarsi.</li><li>Ogni collegamento riguarda <strong>una sola vasca</strong>. Per collegarne più di una, ripeti i passaggi per ciascuna.</li><li>Rimuovere una vasca scollega tutte le aziende collegate a essa.</li></ul>
 <h2 id="connecting">Collegare un'azienda</h2>
 <ol><li>Apri <strong>Impostazioni</strong>, tocca la tua vasca sotto <strong>Vasche</strong>, poi tocca <strong>Partner collegati</strong> ("Consenti a un'azienda di manutenzione di leggere questa vasca").</li><li>Tocca <strong>Collega un'azienda di manutenzione</strong>.</li><li><strong>Prima di collegare</strong> spiega cosa potrà vedere l'azienda. Leggilo, poi tocca <strong>Continua</strong>. Tocca <strong>Annulla</strong> per fermarti; non viene creato nessun codice.</li><li>Cora Mobile mostra un <strong>Codice di collegamento</strong> con un conto alla rovescia ("Scade tra"). Tocca <strong>Copia</strong>, oppure leggilo a voce, e dallo alla tua azienda.</li><li>Quando l'azienda usa il codice, il foglio si chiude e vedi "Collegato a" con il nome dell'azienda.</li></ol>
+<figure class="shot phone"><button type="button" class="zoom" aria-label="Ingrandisci: Prima di collegare, con l&#x27;elenco di cosa può e non può fare un&#x27;azienda"><img src="/help/img/mobile-partners-consent.webp" alt="Prima di collegare, con l&#x27;elenco di cosa può e non può fare un&#x27;azienda" width="620" height="1348" loading="lazy" decoding="async"></button><figcaption>Prima di collegare: cosa vedrà l'azienda e che non può controllare nulla.</figcaption></figure>
 <p>Il codice vale <strong>una sola volta</strong> e per 15 minuti. Se scade, appare barrato e <strong>Ottieni un nuovo codice</strong> ne crea un altro. Se chiudi il foglio prima che qualcuno lo usi, il codice smette di funzionare. Un nuovo codice sostituisce quello non usato per quella vasca. Cora limita anche quanti codici puoi creare in un'ora, quindi non crearne a raffica.</p>
 <p>Se la stessa azienda si ricollega alla vasca, il nuovo collegamento sostituisce il precedente.</p>
+<figure class="shot phone"><button type="button" class="zoom" aria-label="Ingrandisci: La scheda di un&#x27;azienda collegata in Cora Mobile"><img src="/help/img/mobile-partners.webp" alt="La scheda di un&#x27;azienda collegata in Cora Mobile" width="620" height="1348" loading="lazy" decoding="async"></button><figcaption>La scheda di un'azienda, con i suoi due interruttori e Scollega. Qui il nome dell'azienda è sfocato.</figcaption></figure>
 <p>Ogni azienda collegata ha una scheda con il suo nome, la data del collegamento e l'ultimo utilizzo, oppure "Non ancora utilizzato". Tira giù l'elenco per aggiornarlo.</p>
 <h2 id="what-they-see">Cosa può vedere l'azienda</h2>
 <p>Una volta collegata, l'azienda può leggere questa vasca, e solo questa:</p>
@@ -187,6 +189,8 @@
 <p>Non può controllare i tuoi dispositivi né modificare le tue impostazioni, e non vede nulla delle tue altre vasche o del tuo account. Il tuo diario e le tue note non vengono mai condivisi. L'analisi scritta di Cora <strong>non</strong> viene condivisa a meno che tu non la attivi per quell'azienda (sezione successiva).</p>
 <p>Ciò che l'azienda fa con quello che legge è regolato dalla sua informativa sulla privacy. La parte di Cora è nell'<a href="/privacy-policy.html">informativa sulla privacy</a>.</p>
 <h2 id="share-analysis">Condividi l'analisi di Cora</h2>
+<p>Per condividere l'analisi di Cora con un'azienda:</p>
+<ol><li>Apri <strong>Impostazioni</strong>, tocca la tua vasca, poi <strong>Partner collegati</strong>.</li><li>Sulla scheda dell'azienda accendi <strong>Condividi l'analisi di Cora</strong>.</li><li>Leggi cosa vedrà in più l'azienda, poi tocca <strong>Condividi</strong>.</li></ol>
 <p>Ogni scheda ha un interruttore, <strong>Condividi l'analisi di Cora</strong>, con la nota "Analisi ICP, storico ICP e PDF, e Reef Buddy". È <strong>spento</strong> finché non lo accendi.</p>
 <p>Quando lo accendi, Cora Mobile chiede "Condividere l'analisi di Cora con" il nome dell'azienda, e dice che l'azienda vedrà anche:</p>
 <ul><li>L'analisi ICP scritta da Cora: riepilogo, commenti su ogni elemento, contaminanti, impatto sul dosaggio e azioni consigliate</li><li>I tuoi report ICP passati e il PDF originale del laboratorio</li><li>Il riepilogo giornaliero di Reef Buddy</li></ul>
@@ -596,7 +600,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/it/help/search.json?v=ddb8319b30').then(function (r) { return r.json(); })
+    fetch('/it/help/search.json?v=cd415795c0').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "it"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La ricerca non \u00e8 disponibile. Usa la navigazione." + '</li>';

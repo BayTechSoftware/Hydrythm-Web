@@ -24,9 +24,13 @@ group: Settings and account
 4. Cora Mobile pokazuje **Kod połączenia** z odliczaniem („Wygasa za”). Dotknij **Kopiuj** albo podyktuj go i przekaż swojej firmie.
 5. Gdy firma użyje kodu, arkusz się zamyka i widzisz „Połączono z firmą” oraz nazwę firmy.
 
+![Przed połączeniem, z listą tego, co firma może, a czego nie może robić](img/mobile-partners-consent.webp "Przed połączeniem: co firma zobaczy i że nie może niczym sterować.")
+
 Kod działa **tylko raz** i przez 15 minut. Jeśli wygaśnie, jest przekreślony, a **Utwórz nowy kod** tworzy kolejny. Jeśli zamkniesz arkusz, zanim ktoś go użyje, kod przestaje działać. Nowy kod zastępuje niewykorzystany kod dla tego akwarium. Cora ogranicza też liczbę kodów, które możesz utworzyć w ciągu godziny, więc nie twórz ich seryjnie.
 
 Jeśli ta sama firma połączy się z akwarium ponownie, nowe połączenie zastępuje jej poprzednie.
+
+![Karta połączonej firmy w Cora Mobile](img/mobile-partners.webp "Karta firmy z jej dwoma przełącznikami i przyciskiem Odłącz. Nazwa firmy jest tu rozmyta.")
 
 Każda połączona firma ma kartę z nazwą, datą połączenia i ostatnim użyciem albo „Jeszcze nie używano”. Pociągnij listę w dół, żeby ją odświeżyć.
 
@@ -45,6 +49,12 @@ Nie może sterować Twoimi urządzeniami ani zmieniać Twoich ustawień i nie wi
 To, co firma robi z odczytanymi danymi, reguluje jej własna polityka prywatności. Strona Cora jest w [polityce prywatności](/privacy-policy.html).
 
 ## Udostępnij analizę Cora {#share-analysis}
+
+Aby udostępnić analizę Cora firmie:
+
+1. Otwórz **Ustawienia**, dotknij swojego akwarium, potem **Połączeni partnerzy**.
+2. Na karcie firmy włącz **Udostępnij analizę Cora**.
+3. Przeczytaj, co firma zobaczy dodatkowo, i dotknij **Udostępnij**.
 
 Każda karta firmy ma przełącznik **Udostępnij analizę Cora** z opisem „Analizy ICP, historia ICP i PDF oraz Reef Buddy”. Jest **wyłączony**, dopóki go nie włączysz.
 
