@@ -2,7 +2,7 @@
 title: Aggiungere, modificare e rimuovere dispositivi
 description: Aggiungi attrezzatura a Cora, assegnala a una vasca, rinominala, controlla che funzioni e rimuovila, tutto dalla scheda Dispositivi.
 section: Cora Mobile
-reviewed: 2026-10-17
+reviewed: 2026-11-03
 order: 11
 group: Equipment
 twin: max-devices
@@ -48,7 +48,7 @@ Cora controlla il Cora Max principale della vasca o, se non ne è scelto uno, il
 
 Tocca un dispositivo qualsiasi nell'elenco per aprirne la pagina. Prima vengono i suoi comandi, poi sezioni che funzionano allo stesso modo per ogni marca.
 
-- **Stato** mostra **Modello**, **Seriale**, **Firmware** e quando Cora l'ha sentito l'ultima volta (**Ultimo contatto**).
+- **Stato** mostra il suo stato, **Modello** e **Firmware** e, quando il dispositivo non funziona normalmente, quando Cora l'ha sentito l'ultima volta (**Ultimo contatto**). Il numero di serie e gli altri identificativi (ID del dispositivo, ID hardware, indirizzo MAC) restano nascosti finché non tocchi **Mostra dettagli**. Tocca **Nascondi dettagli** per richiuderli.
 - **Vasche** mostra a quale vasca (o vasche) è assegnato. Tocca **Modifica** per riassegnarlo.
 - **Connessione** è dove modifichi il suo indirizzo IP, l'accesso o la chiave dispositivo.
 - **Rimuovi dispositivo**, in fondo.
@@ -59,13 +59,13 @@ Cora Max e Neptune Apex possono servire più di una vasca, quindi il loro selett
 Un dispositivo senza vasca continua a inviare dati, ma i suoi numeri non hanno dove andare. Se un dispositivo appena aggiunto non compare su una dashboard, controlla prima questo.
 :::
 
-Cosa fanno i comandi di ogni marca è spiegato in [Controllare la tua attrezzatura](/help/mobile-device-control).
+Cosa fanno i comandi di ogni marca è spiegato in [Controllare la tua attrezzatura](/help/mobile-device-control). Quale parametro alimenta ciascuna lettura di un dispositivo si imposta in [Mappatura parametri](/help/mobile-probes).
 
 ## Rinominare {#renaming}
 
 Apri il dispositivo e tocca la matita accanto al nome. Usa il nome con cui lo chiami tutti i giorni, come "Risalita", "Gyre sinistra" o "Riscaldatore sump". Il nome compare sui widget, negli avvisi e in tutto quello che chiedi a Cora.
 
-I nomi possono avere fino a 40 caratteri. Lascia vuoto il nome per tornare al nome originale del dispositivo. Se due dispositivi dello stesso tipo non hanno un nome, Cora li distingue con un breve codice dopo il nome. Cora non usa mai un numero di serie come nome.
+I nomi possono avere fino a 40 caratteri. Lascia vuoto il nome per tornare al nome originale del dispositivo. Se due dispositivi dello stesso tipo non hanno un nome, Cora li distingue con un breve codice dopo il nome. Cora non usa mai un numero di serie come nome. Ovunque un dispositivo sia elencato, per esempio in Mappatura parametri o nell'editor della dashboard di Cora Max, compare con il nome che gli hai dato; il numero di serie o l'ID stanno solo dietro **Mostra dettagli** nella sua pagina.
 
 Il nuovo nome vale solo in Cora. Non cambia il nome nell'app del produttore.
 

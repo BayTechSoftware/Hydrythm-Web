@@ -2,7 +2,7 @@
 title: ¿Cómo hago...?
 description: Una lista de tareas habituales en Cora Mobile y en Cora Max, cada una enlazada a los pasos exactos, desde crear tu cuenta hasta emparejar Cora Max o cancelar un plan.
 section: Help
-reviewed: 2026-10-17
+reviewed: 2026-11-03
 order: 2
 ---
 
@@ -17,6 +17,8 @@ Elige la tarea que quieres hacer. Cada enlace abre los pasos para hacerla. Si al
 - [Cambiar mi correo o mi contraseña](/help/faq#change-email-or-password)
 - [Iniciar sesión con Apple y seguir recibiendo los correos del laboratorio](/help/mobile-account#lab-and-icp-emails)
 - [Dejar que mi pareja vea el acuario](/help/faq#can-two-people-use-the-same-tank)
+- [Dejar que una empresa de mantenimiento vea mi acuario](/help/mobile-partners#connecting)
+- [Desconectar una empresa de mantenimiento](/help/mobile-partners#disconnecting)
 - [Cambiar el idioma](/help/mobile-settings#language)
 
 ## Tus acuarios

@@ -2,7 +2,7 @@
 title: Cora Max settings
 description: Every Cora Max setting, from rename, brightness, night dimming, speaker and wake word to child lock, language, Wi-Fi, re-pairing and factory reset.
 section: Cora Max
-reviewed: 2026-10-18
+reviewed: 2026-11-03
 order: 14
 group: Settings and account
 twin: mobile-settings
@@ -52,13 +52,13 @@ Below the card are these sections.
 | Section | Covers |
 |---|---|
 | **DISPLAY** | **Brightness**. **Dim after** and **Dim level**: how long with no touch before the screen dims, and how dim it gets. **Night dimming**, with **From**, **To** and **Night brightness**. **Show clock** in the top bar. **Wake screen on alarm** |
-| **SOUND & VOICE** | **Speaker** (**Internal**, **3.5 mm** or **BT**), **Alert sound** and its volume, **Spoken alerts**, and **Wake word** on or off. More in [Talking to Cora](/help/max-voice#sound-and-wake-word-settings) |
+| **SOUND & VOICE** | **Speaker** (**Internal**, **3.5 mm** or **BT**), **Alert sound** and its volume, **Spoken alerts**, and **Wake word** on or off, and **Tap sounds**, the click when you touch the screen. More in [Talking to Cora](/help/max-voice#sound-and-wake-word-settings) |
 | **REEF BUDDY** | **Reef Buddy briefing** reads the morning briefing aloud. **Briefing time** is when it arrives, the same on every device |
 | **CHILD LOCK** | **Child lock** on or off, and **Lock after**. See [Child lock](#child-lock) below |
 | **NOTIFICATIONS** | **Notification history**, the inbox for your whole account with every briefing, alarm and account notice |
 | **LANGUAGE** | The one language your whole account uses: English, Deutsch, Español, Français, Italiano, Polski or Türkçe. See the note below |
 | **NETWORK & UPDATES** | **Wi-Fi**, **Firmware Update**, and **Device polling**, which shows how often this Cora Max reads your devices (you change it in Cora Mobile) |
-| **STATUS** | One card for each tank this screen shows, with **Polling status**, **Last poll**, **Last cloud write** and **Cloud save**. View only |
+| **STATUS** | One card for each tank this screen shows. **Devices** says how many of the tank's devices are reporting (*9 of 10 reporting*), **Last reading** is when the newest reading arrived, and **Not reporting** names any device that has gone quiet. A tank with an Apex also shows **Apex polling**, **Last poll** and **Last cloud write**. **Cloud save** appears only when Cora Cloud is refusing a save. View only |
 | **HELP & ABOUT** | **Help & Support** (contact support or report a problem) and **About** (version and licenses) |
 | **RESET** | **Re-pair this device** and **Factory reset**. See below |
 

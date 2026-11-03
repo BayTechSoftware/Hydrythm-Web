@@ -2,7 +2,7 @@
 title: Cora Mobile-Einstellungen
 description: Wo alles im Tab Einstellungen von Cora Mobile steht, von deinem Konto und Abo über Becken, Cora Assistant, Sprache, Dunkelmodus und Benachrichtigungen bis zum Support.
 section: Cora Mobile
-reviewed: 2026-10-18
+reviewed: 2026-11-03
 order: 36
 group: Settings and account
 twin: max-settings
@@ -46,13 +46,15 @@ Becken hinzufügen, entfernen und wiederherstellen ist Schritt für Schritt unte
 
 Öffnest du ein Becken, hat seine Einstellungsseite drei Teile.
 
-- **Einstellungen** enthält **Becken bearbeiten**, **Parameterzuordnung**, **Warnschwellen**, **Einheiten**, **Primäres Cora Max** und **Urlaubsmodus**.
+- **Einstellungen** enthält **Becken bearbeiten**, **Parameterzuordnung**, **Warnschwellen**, **Einheiten**, **Primäres Cora Max**, **Urlaubsmodus** und **Verbundene Partner**.
 - **Aufzeichnungen & Berichte** enthält **Tagebuch**, **Wartung**, **Besatz**, **Reef Buddy**, **Gesundheitsberichte**, **ICP-Berichte**, **Aktivität** und **Geführte Einrichtung**.
 - **Geräte an diesem Becken** ist eine Liste nur zum Lesen.
 
 Unter **Parameterzuordnung** wählst du, welches Gerät welchen Messwert liefert. Siehe [Parameterzuordnung](/help/mobile-probes). **Einheiten** legt fest, wie dieses Becken seine Messwerte zeigt, auch Liter oder US- oder UK-Gallonen für das Volumen. Siehe [Dein Beckenprofil](/help/mobile-tank-profile). **Primäres Cora Max** ist das Gerät, das die Ausrüstung dieses Beckens abfragt, und wird unter [Mehr als ein Cora-Gerät](/help/mobile-multi-device#primary-cora-max) erklärt. Um ein Gerät hinzuzufügen oder zu entfernen, nutze den [Tab Geräte](/help/mobile-devices).
 
 **Urlaubsmodus** ist ein Plan für die Person, die sich um das Becken kümmert, während du weg bist. Du legst die Daten fest und stellst eine Checkliste mit Aufgaben zusammen, jeweils mit Angabe, wie oft sie anfallen. Cora macht daraus eine einfache Seite nur zum Lesen, die du mit deiner Urlaubsvertretung teilen kannst. Sie braucht kein Konto. Mehr dazu unter [Verreisen](/help/mobile-vacation).
+
+**Verbundene Partner** lässt eine Wartungsfirma dieses Becken mit einem Einmalcode einsehen, den du ihr gibst, und, wenn du es erlaubst, Wartungen in deinem Tagebuch eintragen. Dafür brauchst du ein bezahltes Abo. Mehr unter [Verbundene Partner](/help/mobile-partners).
 
 ## App-Einstellungen
 

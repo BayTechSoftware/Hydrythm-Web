@@ -2,7 +2,7 @@
 title: Podłączanie sprzętu
 description: Jak podłączyć do Cory urządzenie Neptune Apex, Red Sea ReefBeat, Jecod albo AquaWiz, używać go bez Cora Max i naprawić przerwane połączenie.
 section: Cora Mobile
-reviewed: 2026-10-24
+reviewed: 2026-11-03
 order: 12
 group: Equipment
 ---
@@ -41,6 +41,8 @@ Cora odczytuje Twój Apex przez sieć lokalną, w tym sondy, gniazda i zamontowa
 6. Dotknij **Dalej**. Cora najpierw sprawdza login. Jeśli Apex odpowie i go odrzuci, komunikat mówi **Apex odrzucił ten login**: dotknij **Anuluj**, żeby poprawić nazwę użytkownika lub hasło, albo **Zapisz mimo to**, żeby iść dalej. Jeśli Cora nie może połączyć się z Apex (na przykład nie ma Cię w domu), pomija test. Potem zaznacz każde akwarium w **Którym akwariom służy ten Apex?** i dotknij **Zapisz**. Apex może obsługiwać więcej niż jedno akwarium.
 
 Jeśli skanowanie nic nie znajdzie, sprawdź, czy telefon jest w tej samej sieci Wi-Fi co Apex, albo wpisz adres IP samodzielnie.
+
+Jeśli strona www Twojego Apex używa innego portu niż 80 (**Network Setup** w Apex, **HTTP Port**), skanowanie sprawdza też porty 81, 8080, 8000, 8081 i 88, a Cora zapisuje port razem z adresem. Wpisując adres samodzielnie, dodaj port po dwukropku, na przykład `192.168.1.50:81`.
 
 Po połączeniu każda sonda, którą zgłasza Apex, staje się źródłem, które możesz umieścić na panelu. Gniazda pojawiają się jako elementy sterowania, a każdy zamontowany moduł rozszerzeń dostaje własny kafelek urządzenia. Twoje własne programowanie Apex działa dalej dokładnie tak, jak je ustawiono. Czym możesz sterować, opisuje [Sterowanie sprzętem](/help/mobile-device-control#neptune-apex).
 

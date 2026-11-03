@@ -2,7 +2,7 @@
 title: Looking into a parameter
 description: Tap a widget to see a parameter's full history, compare sources and parameters, exclude a bad reading and record probe care.
 section: Cora Mobile
-reviewed: 2026-10-17
+reviewed: 2026-11-03
 order: 7
 group: Your dashboard
 ---
@@ -51,7 +51,7 @@ A line that hasn't moved can mean the parameter is stable. It can also mean the 
 
 When more than one source reports a parameter, Cora keeps them separate and doesn't average them. Use the **Source** dropdown to look at each one. It's the quickest way to compare a probe with a test kit.
 
-Which one shows on the dashboard is the newest. A live value is only replaced by a reading with a later measurement time, from any source. An older reading goes into history and doesn't overwrite what's on the widget. If you pinned a source in **Parameter Mapping**, Cora follows that source instead.
+Which one shows on the dashboard is the newest. A live value is only replaced by a reading with a later measurement time, from any source. An older reading goes into history and doesn't overwrite what's on the widget. If you picked a device in **Parameter Mapping**, Cora follows that device instead.
 
 If a probe and your hand-logged tests stay apart by the same amount, the probe usually needs calibrating.
 
@@ -59,7 +59,7 @@ An [ICP result](/help/mobile-icp-health) is a useful third opinion, but it doesn
 
 ## Choosing which source a reading follows {#choosing-which-source-a-widget-trusts}
 
-The source is set per tank and per parameter, not per widget. Go to **Settings**, tap the tank, tap **Parameter Mapping**, then the **Sources** tab. Pick a probe, or **Automatic (newest reading wins)**. The choice applies to that parameter everywhere for the tank. More in [Parameter Mapping](/help/mobile-probes).
+The source is set per tank and per parameter, not per widget. Go to **Settings**, tap the tank and tap **Parameter Mapping**. When more than one device reports a parameter, a banner at the top of the list, such as *pH gets readings from 2 devices*, lets you tap **Choose one**. Pick a device, or **Newest reading**. The choice applies to that parameter everywhere for the tank. To keep a reading apart as a parameter of its own, for example a second probe in the sump, use **Show one of them separately** or **New parameter…**. More in [Parameter Mapping](/help/mobile-probes#multiple-probes).
 
 ## Excluding a bad reading {#excluding-a-bad-reading}
 
@@ -81,7 +81,7 @@ Tap **Record probe care** (the sensor icon in the top bar) and pick what you did
 
 ## Logging a reading by hand {#logging-a-reading-by-hand}
 
-You log readings from the dashboard, not from this screen. Tap **Log Parameters** under the widgets and enter what your test kit says. The list is grouped, and the **Trace** group covers iodine, iron and copper in µg/L, and potassium in mg/L. Hand-logged readings count as much as any other. They get their own source and time, show on the chart and feed Reef Buddy. They're also what Cora checks your equipment against.
+You log readings from the dashboard, not from this screen. Tap **Log Parameters** under the widgets and enter what your test kit says. The list is grouped, and the **Trace** group covers iodine, iron and copper in µg/L, and potassium in mg/L. Hand-logged readings count as much as any other. They get their own source and time, show on the chart and feed Reef Buddy. They're also what Cora checks your equipment against. If you want a test kit's result to show as a parameter of its own, apart from a probe's, choose it in **Tests and lab results** in [Parameter Mapping](/help/mobile-probes#tests-and-lab-results).
 
 :::note Cora double-checks odd-looking entries
 If a value is far from where the tank has been, Cora asks you to confirm it before saving. This catches a decimal point in the wrong place, or a reading entered under the wrong parameter. Once you confirm, the reading is saved as usual.

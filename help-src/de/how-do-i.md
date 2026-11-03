@@ -2,7 +2,7 @@
 title: Wie mache ich...?
 description: Häufige Aufgaben in Cora Mobile und auf Cora Max, jeweils mit Link zu den genauen Schritten, vom Anlegen deines Kontos bis zum Kündigen eines Abos.
 section: Help
-reviewed: 2026-10-17
+reviewed: 2026-11-03
 order: 2
 ---
 
@@ -17,6 +17,8 @@ Such dir die Aufgabe aus, die du erledigen willst. Jeder Link führt zu den Schr
 - [Meine E-Mail-Adresse oder mein Passwort ändern](/help/faq#change-email-or-password)
 - [Mit Apple anmelden und trotzdem Labor-E-Mails bekommen](/help/mobile-account#lab-and-icp-emails)
 - [Meinen Partner oder meine Partnerin das Becken sehen lassen](/help/faq#can-two-people-use-the-same-tank)
+- [Eine Wartungsfirma mein Becken einsehen lassen](/help/mobile-partners#connecting)
+- [Eine Wartungsfirma trennen](/help/mobile-partners#disconnecting)
 - [Die Sprache ändern](/help/mobile-settings#language)
 
 ## Deine Becken

@@ -2,7 +2,7 @@
 title: Bir parametreyi inceleme
 description: Bir parametrenin tüm geçmişini görmek, kaynakları ve parametreleri karşılaştırmak, hatalı bir ölçümü hariç tutmak ve prob bakımını kaydetmek için bir widget'a dokunun.
 section: Cora Mobile
-reviewed: 2026-10-17
+reviewed: 2026-11-03
 order: 7
 group: Your dashboard
 ---
@@ -51,7 +51,7 @@ Hiç kıpırdamayan bir çizgi parametrenin kararlı olduğu anlamına gelebilir
 
 Bir parametreyi birden fazla kaynak bildirdiğinde Cora onları ayrı tutar ve ortalamalarını almaz. Her birine bakmak için **Kaynak** açılır listesini kullanın. Bir probu bir test kitiyle karşılaştırmanın en hızlı yolu budur.
 
-Panoda en yenisi görünür. Canlı bir değerin yerini, hangi kaynaktan olursa olsun, yalnızca daha geç bir ölçüm zamanı olan bir ölçüm alır. Daha eski bir ölçüm geçmişe gider ve widget'taki değerin üzerine yazmaz. **Parametre Eşlemesi**'nde bir kaynağı sabitlediyseniz Cora onun yerine o kaynağı izler.
+Panoda en yenisi görünür. Canlı bir değerin yerini, hangi kaynaktan olursa olsun, yalnızca daha geç bir ölçüm zamanı olan bir ölçüm alır. Daha eski bir ölçüm geçmişe gider ve widget'taki değerin üzerine yazmaz. **Parametre Eşlemesi**'nde bir cihaz seçtiyseniz Cora onun yerine o cihazı izler.
 
 Bir prob ile elle kaydettiğiniz testler hep aynı miktarda farklı kalıyorsa prob genellikle kalibrasyon ister.
 
@@ -59,7 +59,7 @@ Bir [ICP sonucu](/help/mobile-icp-health) işe yarar bir üçüncü görüştür
 
 ## Bir ölçümün hangi kaynağı izleyeceğini seçme {#choosing-which-source-a-widget-trusts}
 
-Kaynak widget başına değil, akvaryum ve parametre başına ayarlanır. **Ayarlar**'a gidin, akvaryuma, **Parametre Eşlemesi**'ne, ardından **Kaynaklar** sekmesine dokunun. Bir prob ya da **Otomatik (en yeni ölçüm kazanır)** seçin. Seçim, akvaryum için o parametrenin her yerinde geçerli olur. Ayrıntılar [Parametre Eşlemesi](/help/mobile-probes) sayfasında.
+Kaynak widget başına değil, akvaryum ve parametre başına ayarlanır. **Ayarlar**'a gidin, akvaryuma, ardından **Parametre Eşlemesi**'ne dokunun. Birden fazla cihaz bir parametreyi bildiriyorsa listenin en üstündeki *pH, 2 cihazdan ölçüm alıyor* gibi bir afişte **Birini seçin**'e dokunabilirsiniz. Bir cihaz ya da **En yeni ölçüm**'ü seçin. Seçim, akvaryum için o parametrenin her yerinde geçerli olur. Bir ölçümü kendi parametresi olarak ayrı tutmak için, örneğin sump'taki ikinci bir prob, **Birini ayrı göster** ya da **Yeni parametre…** seçeneğini kullanın. Ayrıntılar [Parametre Eşlemesi](/help/mobile-probes#multiple-probes) sayfasında.
 
 ## Hatalı bir ölçümü hariç tutma {#excluding-a-bad-reading}
 
@@ -81,7 +81,7 @@ Yalnızca geçersiz olduğunu bildiğiniz bir ölçümü hariç tutun. Bir ölç
 
 ## Ölçümü elle kaydetme {#logging-a-reading-by-hand}
 
-Ölçümleri bu ekrandan değil, panodan kaydedersiniz. Widget'ların altındaki **Parametreleri Kaydet**'e dokunun ve test kitinizin gösterdiğini girin. Liste gruplanmıştır ve **İz Elementler** grubu iyot, demir ve bakırı µg/L, potasyumu mg/L cinsinden kapsar. Elle kaydedilen ölçümler diğerleri kadar sayılır. Kendi kaynakları ve zamanları olur, grafikte görünürler ve Reef Buddy'yi beslerler. Cora'nın ekipmanınızı karşılaştırdığı da onlardır.
+Ölçümleri bu ekrandan değil, panodan kaydedersiniz. Widget'ların altındaki **Parametreleri Kaydet**'e dokunun ve test kitinizin gösterdiğini girin. Liste gruplanmıştır ve **İz Elementler** grubu iyot, demir ve bakırı µg/L, potasyumu mg/L cinsinden kapsar. Elle kaydedilen ölçümler diğerleri kadar sayılır. Kendi kaynakları ve zamanları olur, grafikte görünürler ve Reef Buddy'yi beslerler. Cora'nın ekipmanınızı karşılaştırdığı da onlardır. Bir test kiti sonucunun, bir probunkinden ayrı olarak kendi parametresi olarak görünmesini istiyorsanız onu [Parametre Eşlemesi](/help/mobile-probes#tests-and-lab-results) içindeki **Testler ve laboratuvar sonuçları**'ndan seçin.
 
 :::note Cora tuhaf görünen girişleri iki kez kontrol eder
 Bir değer akvaryumun olduğu yerden çok uzaksa Cora kaydetmeden önce onaylamanızı ister. Bu, yanlış yere konmuş bir ondalık ayırıcıyı ya da yanlış parametreye girilmiş bir ölçümü yakalar. Onayladığınızda ölçüm her zamanki gibi kaydedilir.

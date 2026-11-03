@@ -2,7 +2,7 @@
 title: Słownik
 description: Co Cora rozumie przez akwarium, źródło, widżet, próg, Główne Cora Max, tryb karmienia, scenę i inne słowa, które zobaczysz w Cora Mobile i na Cora Max.
 section: Help
-reviewed: 2026-10-18
+reviewed: 2026-11-03
 order: 5
 ---
 
@@ -100,7 +100,7 @@ Kolorowa kropka w każdym wierszu zakładki Urządzenia w Cora Mobile. Zielona o
 
 ## Mapowanie parametrów {#parameter-mapping}
 
-Miejsce, w którym mówisz Corze, co mierzy każda sonda kontrolera i które urządzenie dostarcza każdy odczyt. Zobacz [Mapowanie parametrów i sondy](/help/mobile-probes).
+Jedna lista odczytów każdego urządzenia, na której wybierasz, jako jaki parametr akwarium pokazuje się każdy odczyt (także jako osobny parametr dla wyniku testu lub ICP) i które urządzenie zasila parametr, gdy zgłasza go kilka. Zobacz [Mapowanie parametrów i sondy](/help/mobile-probes).
 
 ## Neptune Apex
 
@@ -213,4 +213,4 @@ Przycisk w edytorze panelu. Cora proponuje cały układ na podstawie tego, co ak
 
 ## Źródło {#source}
 
-Skąd pochodzi odczyt: z sondy, kontrolera, wyniku z laboratorium albo od Ciebie z testu kropelkowego. Każdy odczyt ma źródło, więc Cora może powiedzieć Ci, gdy dwa źródła się nie zgadzają. Jeśli ten sam odczyt zgłasza więcej niż jedno źródło, w [Mapowaniu parametrów](/help/mobile-probes) wybierasz, któremu ufać, albo zostawiasz Automatycznie.
+Skąd pochodzi odczyt: z sondy, kontrolera, wyniku z laboratorium albo od Ciebie z testu kropelkowego. Każdy odczyt ma źródło, więc Cora może powiedzieć Ci, gdy dwa źródła się nie zgadzają. Jeśli ten sam odczyt zgłasza więcej niż jedno źródło, w [Mapowaniu parametrów](/help/mobile-probes) wybierasz, któremu ufać, albo zostajesz przy najnowszym odczycie.

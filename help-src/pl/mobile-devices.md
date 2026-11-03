@@ -2,7 +2,7 @@
 title: Dodawanie, edytowanie i usuwanie urządzeń
 description: Dodaj sprzęt do Cory, przypisz go do akwarium, zmień jego nazwę, sprawdź, czy działa poprawnie, i usuń go, wszystko z zakładki Urządzenia.
 section: Cora Mobile
-reviewed: 2026-10-17
+reviewed: 2026-11-03
 order: 11
 group: Equipment
 twin: max-devices
@@ -48,7 +48,7 @@ Cora sprawdza główny Cora Max akwarium albo, jeśli żaden nie jest wybrany, C
 
 Dotknij dowolnego urządzenia na liście, żeby otworzyć jego stronę. Najpierw są jego elementy sterowania, a potem sekcje, które działają tak samo dla każdej marki.
 
-- **Stan** pokazuje **Model**, **Numer seryjny**, **Oprogramowanie** i to, kiedy Cora ostatnio miała z nim kontakt (**Ostatnio widziano**).
+- **Stan** pokazuje stan urządzenia, **Model** i **Oprogramowanie** oraz, gdy urządzenie nie działa normalnie, to, kiedy Cora ostatnio miała z nim kontakt (**Ostatnio widziano**). Numer seryjny i inne identyfikatory (ID urządzenia, ID sprzętowy, adres MAC) są ukryte, dopóki nie dotkniesz **Pokaż szczegóły**. Dotknij **Ukryj szczegóły**, aby je ponownie schować.
 - **Akwaria** pokazuje, do którego akwarium (albo akwariów) jest przypisane. Dotknij **Zmień**, żeby przypisać je inaczej.
 - **Połączenie** to miejsce, w którym edytujesz jego adres IP, dane logowania albo klucz urządzenia.
 - **Usuń urządzenie**, na samym dole.
@@ -59,13 +59,13 @@ Cora Max i Neptune Apex mogą obsługiwać więcej niż jedno akwarium, więc ic
 Urządzenie bez akwarium nadal raportuje, ale jego liczby nie mają gdzie trafić. Jeśli właśnie dodane urządzenie nie pokazuje się na panelu, najpierw sprawdź to.
 :::
 
-Co robią elementy sterowania każdej marki, opisuje [Sterowanie sprzętem](/help/mobile-device-control).
+Co robią elementy sterowania każdej marki, opisuje [Sterowanie sprzętem](/help/mobile-device-control). To, który parametr zasila każdy odczyt urządzenia, ustawia się w [Mapowaniu parametrów](/help/mobile-probes).
 
 ## Zmiana nazwy {#renaming}
 
 Otwórz urządzenie i dotknij ołówka obok nazwy. Użyj nazwy, której używasz na co dzień, na przykład „Powrotna”, „Lewy gyre” albo „Grzałka w sumpie”. Nazwa pojawia się na widżetach, w alertach i we wszystkim, o co pytasz Corę.
 
-Nazwa może mieć do 40 znaków. Zostaw ją pustą, żeby wrócić do własnej nazwy urządzenia. Jeśli dwa urządzenia tego samego rodzaju nie mają nazwy, Cora odróżnia je krótkim kodem po nazwie. Cora nigdy nie używa numeru seryjnego jako nazwy.
+Nazwa może mieć do 40 znaków. Zostaw ją pustą, żeby wrócić do własnej nazwy urządzenia. Jeśli dwa urządzenia tego samego rodzaju nie mają nazwy, Cora odróżnia je krótkim kodem po nazwie. Cora nigdy nie używa numeru seryjnego jako nazwy. Wszędzie tam, gdzie urządzenie jest wymienione, na przykład w Mapowaniu parametrów albo w edytorze panelu Cora Max, widnieje pod nazwą, którą mu nadano; jego numer seryjny lub ID są tylko za przyciskiem **Pokaż szczegóły** na jego stronie.
 
 Nowa nazwa obowiązuje tylko w Corze. Nie zmienia nazwy w aplikacji producenta.
 

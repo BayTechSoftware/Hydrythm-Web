@@ -2,7 +2,7 @@
 title: Akvaryumunuzu paylaşın
 description: Akvaryum anlık görüntüsü kartıyla akvaryumunuzun ölçümlerini gösteren bir resmi sosyal medyada ya da bir arkadaşınızla paylaşın.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-11-03
 order: 10
 group: Your dashboard
 ---
@@ -37,5 +37,5 @@ Bu telefon, o akvaryum için yaptığınız seçimi bir dahaki sefere hatırlar.
 **Paylaş**, telefonunuzun her zamanki paylaşım menüsünü açar. Kartı, telefonunuzun resim gönderebildiği her yere yollayabilirsiniz. Siz nereye gideceğini seçene kadar hiçbir şey hesabınızdan dışarı çıkmaz.
 
 :::note Anlık görüntü erişim vermez
-Anlık görüntü yalnızca bir resimdir. Kimseye hesabınıza, geçmişinize ya da ekipmanınıza erişim vermez. Siz yokken akvaryuma biri bakacaksa [Tatile çıkarken](/help/mobile-vacation) sayfasındaki özelliği kullanın. Bu özellik bakıcı için salt okunur bir sayfa hazırlar.
+Anlık görüntü yalnızca bir resimdir. Kimseye hesabınıza, geçmişinize ya da ekipmanınıza erişim vermez. Siz yokken akvaryuma biri bakacaksa [Tatile çıkarken](/help/mobile-vacation) sayfasındaki özelliği kullanın. Bu özellik bakıcı için salt okunur bir sayfa hazırlar. Akvaryumunuza bir bakım şirketi bakıyorsa, [Bağlı iş ortakları](/help/mobile-partners) ona verdiğiniz bir kodla akvaryumu görme imkânı tanır.
 :::

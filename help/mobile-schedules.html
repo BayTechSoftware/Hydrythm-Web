@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Scheduling equipment | Cora Help</title>
-  <meta name="description" content="Build a daily schedule for a Jecod pump, copy a program between pumps, save and share it, and check that the pump took it.">
+  <meta name="description" content="Build a daily schedule for a Jecod pump in the editor, copy a program from or to other pumps, save and share it, and check that the pump took it.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/help/mobile-schedules">
   <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/mobile-schedules">
@@ -17,7 +17,7 @@
   <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/mobile-schedules">
   <meta property="og:site_name" content="Cora">
   <meta property="og:title" content="Scheduling equipment | Cora Help">
-  <meta property="og:description" content="Build a daily schedule for a Jecod pump, copy a program between pumps, save and share it, and check that the pump took it.">
+  <meta property="og:description" content="Build a daily schedule for a Jecod pump in the editor, copy a program from or to other pumps, save and share it, and check that the pump took it.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/help/mobile-schedules">
   <meta property="og:image" content="https://coraiq.tech/og-image.png">
@@ -125,6 +125,7 @@
 <li><a href="/help/mobile-plans">Plans and subscriptions</a></li>
 <li><a href="/help/mobile-data-export">Exporting your data and deleting your account</a></li>
 <li><a href="/help/mobile-support">Reporting a problem</a></li>
+<li><a href="/help/mobile-partners">Connected partners</a></li>
 </ul></details>
 <p class="nav-sec" lang="en">Cora Max</p>
 <details class="nav-g">
@@ -171,38 +172,39 @@
       <nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="/help/">Help</a></li><li><a href="/help/mobile-setup" lang="en">Cora Mobile</a></li><li><a href="/help/mobile-devices">Equipment</a></li></ol></nav>
       <h1>Scheduling equipment</h1>
       
-      <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#same-all-day-or-schedule">Same all day, or Schedule</a></li><li><a href="#the-schedule-editor">The schedule editor</a></li><li><a href="#copying-a-program-between-pumps">Copying a program between pumps</a></li><li><a href="#keeping-and-sharing-a-schedule">Keeping and sharing a schedule</a></li><li><a href="#away-from-the-pumps-network">Away from the pump&#x27;s network</a></li><li><a href="#applying-a-program">Applying a program</a></li><li><a href="#checking-it-took">Checking it took</a></li></ul></nav>
+      <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#same-all-day-or-schedule">Manual, or Schedule</a></li><li><a href="#the-schedule-editor">The schedule editor</a></li><li><a href="#copying-a-program-between-pumps">Copying a program between pumps</a></li><li><a href="#keeping-and-sharing-a-schedule">Keeping and sharing a schedule</a></li><li><a href="#away-from-the-pumps-network">Away from the pump&#x27;s network</a></li><li><a href="#applying-a-program">Applying a program</a></li><li><a href="#checking-it-took">Checking it took</a></li></ul></nav>
 <p>Use this page to give a Jecod™ pump a <strong>schedule</strong>: a set of periods, each with its own intensity, that repeats every day. Open it from <strong>Devices</strong> → tap the pump.</p>
 <p>Lights and pumps from other brands keep their schedules in their own pages: Red Sea™'s ReefDose in <a href="/help/mobile-device-control#red-sea">Controlling your equipment</a>.</p>
 <figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: A Jecod pump page in Cora Mobile with Schedule picked"><img src="/help/img/mobile-schedules.webp" alt="A Jecod pump page in Cora Mobile with Schedule picked" width="620" height="1347" loading="lazy" decoding="async"></button><figcaption>Schedule picked at the top, the feeding pause, then the day graph.</figcaption></figure>
-<h2 id="same-all-day-or-schedule">Same all day, or Schedule</h2>
+<h2 id="same-all-day-or-schedule">Manual, or Schedule</h2>
 <p>A pump runs in one of two modes. Pick one with the switch on its page. The one that is running is marked <em>· running</em>, and the page opens on it.</p>
-<ul><li><strong>Same all day</strong> runs at one intensity the whole time.</li><li><strong>Schedule</strong> follows a set of periods.</li></ul>
+<ul><li><strong>Manual</strong> runs at one intensity the whole time.</li><li><strong>Schedule</strong> follows a set of periods.</li></ul>
 <p>Cora sends your choice straight to the pump when your phone is on its network. If your phone isn't, it goes through the Cora Max at the tank. A Bluetooth pump has to be in range. Until it is, your choice only changes what you see on screen.</p>
 <p>A feeding pause takes the pump off its schedule for a while, and on your phone the schedule comes back only while the pump's page stays open. See <a href="/help/mobile-device-control#jecod-feeding">Feeding pause</a>.</p>
 <h2 id="the-schedule-editor">The schedule editor</h2>
 <p>Every schedule screen has the same three parts.</p>
 <p>At the top is the day graph. It shows the whole day from 0 to 24 hours, and each period is a block whose height is its intensity. It's the quickest way to check that a program does what you think.</p>
 <p>Below the graph is the period list. Each period shows its hours, mode and intensity, for example <em>Random, 00:00–03:00, Freq 50%, 40%</em>. You add, edit and remove periods here.</p>
-<p>Tap <strong>Add to schedule</strong> to add a period. To change one, open it and tap <strong>Save</strong>. To remove it, tap <strong>Delete</strong> and confirm.</p>
-<aside class="cal cal-warning"><p class="cal-t">Saving writes the schedule to the device</p><p>When you save, Cora sends the program to the equipment, and the equipment runs it on its own clock. It keeps running whether Cora can reach it or not.</p></aside>
+<p>Every change to a schedule goes through the editor. <strong>Edit</strong> opens it on the pump's day, and so does tapping a period or <strong>Add to schedule</strong> on the pump's page: the editor opens with that period, or a new one, ready to change. In the editor, change a period and tap <strong>Save</strong>, or remove it with <strong>Delete plan</strong>. <strong>Undo</strong> steps back. The ⋮ menu has <strong>Save schedule as…</strong>, <strong>Saved schedules…</strong> and <strong>Copy from…</strong>.</p>
+<p>Nothing is sent to the pump until you tap <strong>Save to pump</strong>. Cora then writes the whole day in one go. If it can't, the editor says why and keeps your changes. If you close the editor before saving, Cora asks <em>Discard these changes?</em> first.</p>
+<aside class="cal cal-warning"><p class="cal-t">Save to pump writes the schedule to the device</p><p>When you tap <strong>Save to pump</strong>, Cora sends the program to the equipment, and the equipment runs it on its own clock. It keeps running whether Cora can reach it or not.</p></aside>
 <h2 id="copying-a-program-between-pumps">Copying a program between pumps</h2>
-<p>If you have several pumps that should behave the same way, build one program and copy it.</p>
-<p>Open the pump that has the program you want, tap <strong>Copy schedule to…</strong> and choose the pump to copy it to.</p>
+<p>If you have several pumps that should behave the same way, build one program and copy it. You can copy in either direction, and nothing is sent until you tap <strong>Save to pump</strong>.</p>
+<ul><li><strong>Copy from…</strong> (in the schedule's ⋮ menu and the editor's) takes the schedule of another wavemaker on any of your tanks. Each period gets the closest mode this pump has, speeds are kept to what it can run, and <strong>What changes on this pump</strong> lists every change. <strong>Load in editor</strong> puts the copy in this pump's editor, where you can adjust it and then tap <strong>Save to pump</strong>. A pump whose schedule Cora hasn't read yet is greyed out, with the reason.</li><li><strong>Copy schedule to…</strong> gives this pump's day to other pumps on any of your tanks, each listed as <em>Tank · Pump</em>. Tick the pumps and tap <strong>Review</strong>. Nothing is sent yet. <strong>Review copies</strong> lists each pump with its state, <strong>Not saved</strong>, <strong>Saved to pump</strong> or <strong>Failed</strong> with the reason, and how many changes it gets. <strong>Open editor</strong> opens that pump's own editor on the copied day, with its own <strong>Save to pump</strong>, which sends it to that pump only. If a save fails, the draft is kept so you can try again. If you leave while some pumps are not saved, Cora asks <em>Discard unsaved copies?</em> first.</li></ul>
 <h2 id="keeping-and-sharing-a-schedule">Keeping and sharing a schedule</h2>
 <p>Once you have a schedule you like, you don't have to build it again.</p>
-<ul><li><strong>Save schedule as…</strong> keeps it under a name. <strong>Saved schedules…</strong> applies it again later.</li><li><strong>Share this schedule</strong> turns it into a short code. <strong>Paste a schedule code…</strong> applies a code someone sent you. This is a Cora Mobile feature. The code only carries the schedule. It gives no one access to your account.</li></ul>
+<ul><li><strong>Save schedule as…</strong> keeps it under a name. <strong>Saved schedules…</strong> brings it back later: <strong>Load in editor</strong> opens it in the editor, and <strong>Save to pump</strong> sends it.</li><li><strong>Share this schedule</strong> turns it into a short code. <strong>Paste a schedule code…</strong> loads a code someone sent you into the editor, and nothing is sent until you tap <strong>Save to pump</strong>. This is a Cora Mobile feature. The code only carries the schedule. It gives no one access to your account.</li></ul>
 <h2 id="away-from-the-pumps-network">Away from the pump's network</h2>
 <p>When your phone isn't on the pump's network, Cora Mobile goes through the Cora Max at the tank. A few things work differently.</p>
-<ul><li><strong>Same all day</strong> and <strong>Schedule</strong> switch the pump through that Cora Max.</li><li>A period you add or change only goes through if that Cora Max has reached the pump in the last hour. If it hasn't, the schedule tells you, and you can't change it from where you are.</li><li><strong>Copy schedule to…</strong>, <strong>Save schedule as…</strong>, <strong>Saved schedules…</strong>, <strong>Share this schedule</strong> and <strong>Paste a schedule code…</strong> need your phone on the pump's network. Until it is, they're greyed out and the menu tells you why.</li></ul>
+<ul><li><strong>Manual</strong> and <strong>Schedule</strong> switch the pump through that Cora Max.</li><li>A schedule you save to the pump only goes through if that Cora Max has reached the pump in the last hour. If it hasn't, the schedule tells you, and you can't change it from where you are.</li><li><strong>Copy schedule to…</strong>, <strong>Save schedule as…</strong>, <strong>Saved schedules…</strong>, <strong>Share this schedule</strong> and <strong>Paste a schedule code…</strong> need your phone on the pump's network. Until it is, they're greyed out and the menu tells you why.</li></ul>
 <p>Without a Cora Max at the tank, you can only change a pump while your phone is on its network. More in <a href="/help/mobile-connections#local-only">Connecting your equipment</a>.</p>
 <p>You can only reach a Bluetooth pump from a phone close to it. Stand in range to switch it, change its schedule or use any of those menu items.</p>
 <h2 id="applying-a-program">Applying a program</h2>
-<p>You can give a pump a saved schedule in one step, without building the periods again. Open the pump, tap <strong>More</strong> at the top and choose <strong>Saved schedules…</strong>. The list holds every schedule saved on this tank, including ones you built on another pump. Pick one and tap <strong>Apply</strong>. It replaces the pump's whole day.</p>
+<p>You can give a pump a saved schedule in one step, without building the periods again. Open the pump, tap <strong>More</strong> at the top and choose <strong>Saved schedules…</strong>. The list holds every schedule saved on this tank, including ones you built on another pump. Pick one and tap <strong>Load in editor</strong>. Check it in the editor, then tap <strong>Save to pump</strong>. It replaces the pump's whole day.</p>
 <h2 id="checking-it-took">Checking it took</h2>
 <p>After you save, the device page shows the program the pump is running. If it doesn't match what you saved, the change didn't get through. Check that the device is reachable and try again.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-device-control"><span>Previous</span><b>Controlling your equipment</b></a><a class="pn-n" href="/help/mobile-probes"><span>Next</span><b>Parameter Mapping and probes</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.240 and Cora Mobile 1.4.16. Last checked 2026-10-17.</p>
+      <p class="stamp">Written for Cora Max 0.28.275 and Cora Mobile 1.4.24. Last checked 2026-11-03.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>
@@ -593,7 +595,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/help/search.json?v=d076232951').then(function (r) { return r.json(); })
+    fetch('/help/search.json?v=0cb74b3874').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "en"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';

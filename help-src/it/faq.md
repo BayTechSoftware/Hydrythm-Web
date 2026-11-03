@@ -2,7 +2,7 @@
 title: Domande frequenti
 description: Risposte brevi su cosa ti serve, Cora Max, usare Cora fuori casa, attrezzatura, avvisi, Reef Buddy, lingue, piani e i tuoi dati.
 section: Help
-reviewed: 2026-10-24
+reviewed: 2026-11-03
 order: 4
 ---
 
@@ -90,7 +90,7 @@ Sì, se un Cora Max nella vasca è online e può raggiungere quell'attrezzatura.
 
 ### Due persone possono usare la stessa vasca? {#can-two-people-use-the-same-tank}
 
-Non c'è ancora un accesso condiviso tra due account separati. Una famiglia può accedere allo stesso account Cora su più di un telefono. Tutti vedono le stesse vasche, ricevono le stesse notifiche, e le modifiche valgono per tutto l'account. Per chi si occupa della vasca mentre sei via, [Andare in vacanza](/help/mobile-vacation) crea una pagina in sola lettura che non richiede un account. Un'[istantanea condivisa](/help/mobile-sharing) è solo un'immagine.
+Non c'è ancora un accesso condiviso tra due account separati. Una famiglia può accedere allo stesso account Cora su più di un telefono. Tutti vedono le stesse vasche, ricevono le stesse notifiche, e le modifiche valgono per tutto l'account. Per chi si occupa della vasca mentre sei via, [Andare in vacanza](/help/mobile-vacation) crea una pagina in sola lettura che non richiede un account. Un'[istantanea condivisa](/help/mobile-sharing) è solo un'immagine. Un'azienda di manutenzione può leggere una vasca con un codice monouso, ma non è un secondo accesso: vedi [Partner collegati](/help/mobile-partners).
 
 ### Come aggiungo un'altra vasca? {#how-do-i-add-another-tank}
 

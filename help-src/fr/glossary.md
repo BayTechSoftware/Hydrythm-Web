@@ -2,7 +2,7 @@
 title: Glossaire
 description: Ce que Cora entend par aquarium, source, widget, seuil, Cora Max principal, mode nourrissage, scène et les autres mots que vous verrez dans Cora Mobile et sur Cora Max.
 section: Help
-reviewed: 2026-10-18
+reviewed: 2026-11-03
 order: 5
 ---
 
@@ -136,7 +136,7 @@ Quelque chose que vous pouvez mesurer dans votre eau, comme l’alcalinité, le 
 
 ## Association des paramètres {#parameter-mapping}
 
-L’endroit où vous dites à Cora ce que mesure chaque sonde d’un contrôleur, et quel appareil alimente chaque mesure. Voir [Association des paramètres et sondes](/help/mobile-probes).
+Une liste des mesures de tous les appareils, où vous choisissez sous quel paramètre de l’aquarium s’affiche chaque mesure, y compris un paramètre à part pour un résultat de kit de test ou d’ICP, et quel appareil alimente un paramètre quand plusieurs le signalent. Voir [Association des paramètres et sondes](/help/mobile-probes).
 
 ## Cora Max principal {#primary-cora-max}
 
@@ -178,7 +178,7 @@ Un bouton sur une alerte de Cora Max. Il coupe l’alerte sur ce Cora Max pendan
 
 ## Source
 
-L’origine d’une mesure : une sonde, un contrôleur, un résultat de laboratoire, ou vous avec un kit de test. Chaque mesure en a une, pour que Cora puisse vous dire quand deux sources ne sont pas d’accord. Si plusieurs sources signalent la même mesure, l’[Association des paramètres](/help/mobile-probes) est l’endroit où vous choisissez laquelle croire, ou la laissez sur Automatique.
+L’origine d’une mesure : une sonde, un contrôleur, un résultat de laboratoire, ou vous avec un kit de test. Chaque mesure en a une, pour que Cora puisse vous dire quand deux sources ne sont pas d’accord. Si plusieurs sources signalent la même mesure, l’[Association des paramètres](/help/mobile-probes) est l’endroit où vous choisissez laquelle croire, ou gardez la mesure la plus récente.
 
 ## Point d’état {#status-dot}
 

@@ -2,7 +2,7 @@
 title: Ajustes de Cora Max
 description: Todos los ajustes de Cora Max, desde el nombre y el brillo hasta el bloqueo infantil, el idioma, el Wi-Fi, volver a emparejar y el restablecimiento de fábrica.
 section: Cora Max
-reviewed: 2026-10-18
+reviewed: 2026-11-03
 order: 14
 group: Settings and account
 twin: mobile-settings
@@ -52,13 +52,13 @@ Debajo de la tarjeta están estas secciones.
 | Sección | Incluye |
 |---|---|
 | **PANTALLA** | **Brillo**. **Atenuar después de** y **Nivel de atenuación**: cuánto tiempo sin tocarla antes de que la pantalla se atenúe, y cuánto se atenúa. **Atenuación nocturna**, con **Desde**, **Hasta** y **Brillo nocturno**. **Mostrar reloj** en la barra superior. **Encender pantalla con alarma** |
-| **SONIDO Y VOZ** | **Altavoz** (**Interno**, **3.5 mm** o **BT**), **Sonido de alerta** y su volumen, **Alertas habladas** y **Palabra de activación** activada o desactivada. Más información en [Hablar con Cora](/help/max-voice#sound-and-wake-word-settings) |
+| **SONIDO Y VOZ** | **Altavoz** (**Interno**, **3.5 mm** o **BT**), **Sonido de alerta** y su volumen, **Alertas habladas** y **Palabra de activación** activada o desactivada, y **Sonidos al tocar**, el clic al tocar la pantalla. Más información en [Hablar con Cora](/help/max-voice#sound-and-wake-word-settings) |
 | **REEF BUDDY** | **Resumen de Reef Buddy** lee en voz alta el resumen de la mañana. **Hora del resumen** es cuándo llega, la misma en todos los dispositivos |
 | **BLOQUEO INFANTIL** | **Bloqueo infantil** activado o desactivado, y **Bloquear después de**. Consulta [Bloqueo infantil](#child-lock) más abajo |
 | **NOTIFICACIONES** | **Historial de notificaciones**, la bandeja de toda tu cuenta con cada resumen, alarma y aviso de la cuenta |
 | **IDIOMA** | El único idioma que usa toda tu cuenta: English, Deutsch, Español, Français, Italiano, Polski o Türkçe. Lee la nota de más abajo |
 | **RED Y ACTUALIZACIONES** | **Wi-Fi**, **Actualización de firmware** y **Sondeo de dispositivos**, que muestra cada cuánto lee este Cora Max tus dispositivos (se cambia en Cora Mobile) |
-| **ESTADO** | Una tarjeta por cada acuario que muestra esta pantalla, con **Estado de sondeo**, **Último sondeo**, **Última escritura en la nube** y **Guardado en la nube**. Solo consulta |
+| **ESTADO** | Una tarjeta por cada acuario que muestra esta pantalla. **Dispositivos** dice cuántos dispositivos del acuario informan (*9 de 10 informan*), **Última lectura** indica cuándo llegó la lectura más reciente y **No informan** nombra cada dispositivo que ha dejado de informar. Un acuario con un Apex muestra además **Sondeo del Apex**, **Último sondeo** y **Última escritura en la nube**. **Guardado en la nube** solo aparece cuando Cora Cloud rechaza un guardado. Solo consulta |
 | **AYUDA Y ACERCA DE** | **Ayuda y soporte** (contactar con el soporte o informar de un problema) y **Acerca de** (versión y licencias) |
 | **RESTABLECER** | **Volver a emparejar este dispositivo** y **Restablecer valores de fábrica**. Mira más abajo |
 

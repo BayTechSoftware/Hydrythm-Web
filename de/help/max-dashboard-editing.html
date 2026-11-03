@@ -125,6 +125,7 @@
 <li><a href="/de/help/mobile-plans">Pläne und Abos</a></li>
 <li><a href="/de/help/mobile-data-export">Daten exportieren und Konto löschen</a></li>
 <li><a href="/de/help/mobile-support">Ein Problem melden</a></li>
+<li><a href="/de/help/mobile-partners">Verbundene Partner</a></li>
 </ul></details>
 <p class="nav-sec" lang="en">Cora Max</p>
 <details class="nav-g">
@@ -184,6 +185,7 @@
 <aside class="cal cal-warning"><p class="cal-t">Beim Rasterwechsel fallen Kacheln nur weg, wenn sie nicht passen</p><p>Wenn du das Raster wechselst, wirft Cora keine Kacheln wegen ihrer Position weg. Kacheln, die noch eine gültige Zelle haben, bleiben, wo sie sind, und der Rest wird der Reihe nach wieder einsortiert. Kacheln verlierst du nur, wenn das neue Raster <strong>weniger Zellen hat, als du Kacheln hast</strong>, und Cora sagt dir, wie viele weggefallen sind. Von 10×5 (50 Zellen) auf 3×3 (9) verlierst du die meisten.</p></aside>
 <h2 id="adding-and-arranging">Kacheln hinzufügen und anordnen</h2>
 <ol><li>Tippe auf eine leere Zelle (sie zeigt ein <strong>+</strong>), um <strong>Widget hinzufügen</strong> zu öffnen.</li><li>Wähl unter <strong>TYP</strong> die Art der Kachel und dann, was sie zeigt (einen Messwert, eine Steckdose, ein Gerät oder eine Szene).</li><li>Wähl unter <strong>GRÖSSE</strong>, wie groß sie ist. Eine Kachel kann eine oder zwei Zellen breit und eine oder zwei Zellen hoch sein. Ein Diagramm hat außerdem einen <strong>ZEITRAUM</strong>. Eine Dosierpumpen-Kachel hat <strong>Restmenge anzeigen als</strong>, in <strong>Tage</strong> oder <strong>Milliliter (mL)</strong>.</li><li>Tippe auf <strong>Hinzufügen</strong>.</li></ol>
+<p>Auf einer Kachel <strong>Wert</strong>, <strong>Anzeige</strong>, <strong>Diagramm</strong> oder <strong>Status</strong> sagt die Zeile unter dem Namen, welches Gerät diesen Messwert gerade speist, zum Beispiel <em>Anzeige · Main Apex</em>. Sie nennt den Namen, den du dem Gerät gegeben hast, oder seine Marke, wenn du ihm nie einen gegeben hast, und nie eine Seriennummer oder ID. Hat noch nichts einen Messwert gemeldet, steht dort <em>Noch keine Messung</em>. Die Messwertauswahl und die Einstellungen der Kachel nennen die Quelle genauso. Welches Gerät einen Messwert speist, änderst du in der <strong>Parameterzuordnung</strong> in Cora Mobile. Siehe <a href="/de/help/mobile-probes">Parameterzuordnung</a>.</p>
 <p>Die Gesten stehen oben im Editor: <strong>Tippen zum Bearbeiten</strong>, <strong>Lange drücken zum Verschieben</strong> und <strong>✕ zum Entfernen</strong>. <strong>Alles löschen</strong> leert das Raster, damit du neu anfangen kannst.</p>
 <p>Die Kacheltypen sind Wert, Anzeige, Diagramm, Status, Steckdose, Szene, ReefBeat, Apex-Modul und Jecod™. <strong>Licht</strong>, <strong>Strömungspumpe</strong> und <strong>Pumpe</strong> listen alle Leuchten, Strömungspumpen und Pumpen des Beckens auf, egal von welcher Marke, und jede erscheint nur, wenn das Becken so ein Gerät hat. Du findest die Kacheln in der <a href="/de/help/mobile-widgets">Widget-Referenz</a>. Die Kachel <strong>Szene</strong> gibt es nur auf Cora Max. Sie startet eine <a href="/de/help/max-automation">Szene</a> mit einem Tippen.</p>
 <h2 id="outlets-feed">Steckdosen &amp; Füttern</h2>
@@ -208,7 +210,7 @@
 <h2 id="multiple-tanks">Mehrere Becken</h2>
 <p>Jedes Becken hat sein eigenes Layout. Wechsle zu diesem Becken und öffne <strong>Dashboard-Layout</strong> über sein Beckenmenü, oder nutze <strong>Einstellungen → [dieses Becken] → Dashboard-Layout</strong>.</p>
       <nav class="pn" aria-label="Weiterlesen"><a class="pn-p" href="/de/help/max-reef-room"><span>Zurück</span><b>Der Riffraum</b></a><a class="pn-n" href="/de/help/max-controls"><span>Weiter</span><b>Steckdosen und Steuerung</b></a></nav>
-      <p class="stamp">Geschrieben für Cora Max 0.28.240 und Cora Mobile 1.4.16. Zuletzt geprüft am 2026-10-18.</p>
+      <p class="stamp">Geschrieben für Cora Max 0.28.275 und Cora Mobile 1.4.24. Zuletzt geprüft am 2026-11-03.</p>
       <p class="ask">Kommst du nicht weiter? Schreib eine E-Mail an <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, wir helfen dir.</p>
     </article>
   </main>
@@ -599,7 +601,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/de/help/search.json?v=78d2fe7c0c').then(function (r) { return r.json(); })
+    fetch('/de/help/search.json?v=cb3d3ca337').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "de"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Die Suche ist nicht verf\u00fcgbar. Nutze die Navigation." + '</li>';

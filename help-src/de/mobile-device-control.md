@@ -2,7 +2,7 @@
 title: Deine Ausrüstung steuern
 description: Die Seite eines Geräts öffnen, um seinen Live-Zustand zu sehen und Steckdosen, Pumpen, Dosierköpfe und Tester zu schalten, Marke für Marke.
 section: Cora Mobile
-reviewed: 2026-10-24
+reviewed: 2026-11-01
 order: 13
 group: Equipment
 twin: max-device-control
@@ -165,7 +165,9 @@ Standardwerte und anderes Verbrauchsmaterial stehen unter [Verbrauchsmaterial un
 
 ## Jecod / Jebao-Pumpen {#jecod}
 
-Die Pumpenseite zeigt das aktuelle Wellenmuster (Modus) und die Intensität, und du kannst beides ändern. Ihr Status steht in der Titelzeile neben dem Namen der Pumpe. Ein Schalter mit **Den ganzen Tag gleich** und **Zeitplan** markiert den laufenden Modus mit *· läuft*, und die Seite öffnet sich auf ihm. Wie du einen Zeitplan baust und ihn kopierst, speicherst oder teilst, steht unter [Ausrüstung planen](/help/mobile-schedules).
+Die Pumpenseite zeigt das aktuelle Wellenmuster (Modus) und die Intensität, und du kannst beides ändern. Jede Strömungspumpen-Seite in Cora Mobile (Jecod) hat denselben Aufbau: der Status in der Titelzeile neben dem Namen der Pumpe, dann die obere Karte mit dem Ein/Aus-Schalter und **Füttern**, dann ein Schalter mit **Manuell** und **Zeitplan** und je eine Karte dafür. Der Schalter markiert den laufenden Modus mit *· läuft*, und die Seite öffnet sich auf ihm.
+
+Jede Änderung am Zeitplan läuft über den Zeitplan-Editor, und nichts wird gesendet, bis du dort auf **Auf Pumpe speichern** tippst. Wie du einen Zeitplan baust, ihn von anderen Pumpen oder auf andere Pumpen kopierst, speicherst oder teilst, steht unter [Ausrüstung planen](/help/mobile-schedules).
 
 Gehört die Pumpe zu einer Gruppe, zeigt die Seite ihre Rolle, etwa **Führt die Gruppe an**, **Folgt: im Gleichschritt** oder **Folgt: wechselnd**.
 

@@ -125,6 +125,7 @@
 <li><a href="/fr/help/mobile-plans">Forfaits et abonnements</a></li>
 <li><a href="/fr/help/mobile-data-export">Exporter vos données et supprimer votre compte</a></li>
 <li><a href="/fr/help/mobile-support">Signaler un problème</a></li>
+<li><a href="/fr/help/mobile-partners">Partenaires connectés</a></li>
 </ul></details>
 <p class="nav-sec" lang="en">Cora Max</p>
 <details class="nav-g">
@@ -231,7 +232,8 @@
 <p>Sur la page d’un ReefDose, touchez la cloche de la barre de titre. Chaque tête a son propre seuil en jours restants et son interrupteur.</p>
 <p>Les valeurs par défaut et les autres consommables sont dans <a href="/fr/help/mobile-consumables">Consommables</a>.</p>
 <h2 id="jecod">Pompes Jecod / Jebao™</h2>
-<p>La page de la pompe affiche le type de vague actuel (le mode) et l’intensité, et vous pouvez changer les deux. Son état s’affiche dans la ligne de titre, à côté du nom de la pompe. Un sélecteur <strong>Identique toute la journée</strong> / <strong>Programme</strong> marque celui qui fonctionne avec <em>· en cours</em>, et la page s’ouvre dessus. La création d’un programme journalier, et sa copie, son enregistrement ou son partage, sont dans <a href="/fr/help/mobile-schedules">Programmer l’équipement</a>.</p>
+<p>La page de la pompe affiche le type de vague actuel (le mode) et l’intensité, et vous pouvez changer les deux. Toutes les pages de pompe de brassage de Cora Mobile (Jecod) ont la même organisation : l’état dans la ligne de titre, à côté du nom de la pompe, puis la carte du haut avec l’interrupteur et <strong>Nourrissage</strong>, puis un sélecteur <strong>Manuel</strong> / <strong>Programme</strong> et une carte pour chacun. Le sélecteur marque celui qui fonctionne avec <em>· en cours</em>, et la page s’ouvre dessus.</p>
+<p>Toute modification du programme passe par l’éditeur de programme, et rien n’est envoyé avant que vous touchiez <strong>Enregistrer sur la pompe</strong> dans l’éditeur. La création d’un programme journalier, sa copie depuis ou vers d’autres pompes, son enregistrement ou son partage, sont dans <a href="/fr/help/mobile-schedules">Programmer l’équipement</a>.</p>
 <p>Si la pompe fait partie d’un groupe, la page affiche son rôle, comme <strong>Mène le groupe</strong>, <strong>Suit : en phase</strong> ou <strong>Suit : en alternance</strong>.</p>
 <h3 id="jecod-feeding">Pause nourrissage</h3>
 <p>Lancez une pause nourrissage depuis <strong>Nourrissage</strong> sur la page de la pompe : touchez <strong>5</strong>, <strong>10</strong>, <strong>15</strong> ou <strong>30</strong> min. Certaines pompes terminent la pause d’elles-mêmes, et la page indique <em>La pompe met fin à cela elle-même.</em></p>
@@ -250,7 +252,7 @@
 <h2 id="what-happens-after-you-change-something">Ce qui se passe après un changement</h2>
 <p>Chaque changement est enregistré dans <a href="/fr/help/mobile-activity">Activité</a>, avec l’interface d’où il vient. Si un appareil n’accepte pas un changement, c’est aussi enregistré là.</p>
       <nav class="pn" aria-label="Poursuivre la lecture"><a class="pn-p" href="/fr/help/mobile-connections"><span>Précédent</span><b>Connecter votre équipement</b></a><a class="pn-n" href="/fr/help/mobile-schedules"><span>Suivant</span><b>Programmer l’équipement</b></a></nav>
-      <p class="stamp">Rédigé pour Cora Max 0.28.240 et Cora Mobile 1.4.16. Vérifié pour la dernière fois le 2026-10-24.</p>
+      <p class="stamp">Rédigé pour Cora Max 0.28.275 et Cora Mobile 1.4.24. Vérifié pour la dernière fois le 2026-11-01.</p>
       <p class="ask">Toujours bloqué ? Écrivez à <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, nous vous aiderons.</p>
     </article>
   </main>
@@ -641,7 +643,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/fr/help/search.json?v=84e649e8bc').then(function (r) { return r.json(); })
+    fetch('/fr/help/search.json?v=2f74db88ae').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "fr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La recherche est indisponible. Utilisez la navigation." + '</li>';

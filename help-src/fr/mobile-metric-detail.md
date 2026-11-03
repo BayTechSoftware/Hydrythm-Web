@@ -2,7 +2,7 @@
 title: Examiner un paramètre
 description: Touchez un widget pour voir tout l’historique d’un paramètre, comparer des sources et des paramètres, exclure une mesure erronée et noter l’entretien d’une sonde.
 section: Cora Mobile
-reviewed: 2026-10-17
+reviewed: 2026-11-03
 order: 7
 group: Your dashboard
 ---
@@ -51,7 +51,7 @@ Une ligne qui ne bouge pas peut vouloir dire que le paramètre est stable. Elle 
 
 Quand plusieurs sources signalent un paramètre, Cora les garde séparées et n’en fait pas la moyenne. Utilisez la liste **Source** pour regarder chacune. C’est le moyen le plus rapide de comparer une sonde avec un kit de test.
 
-Celle qui s’affiche sur le tableau de bord est la plus récente. Une valeur en direct n’est remplacée que par une mesure dont l’heure de mesure est plus tardive, quelle que soit la source. Une mesure plus ancienne va dans l’historique et n’écrase pas ce qu’affiche le widget. Si vous avez épinglé une source dans l’**Association des paramètres**, Cora suit cette source à la place.
+Celle qui s’affiche sur le tableau de bord est la plus récente. Une valeur en direct n’est remplacée que par une mesure dont l’heure de mesure est plus tardive, quelle que soit la source. Une mesure plus ancienne va dans l’historique et n’écrase pas ce qu’affiche le widget. Si vous avez choisi un appareil dans l’**Association des paramètres**, Cora suit cet appareil à la place.
 
 Si une sonde et vos tests notés à la main restent écartés du même écart, la sonde a en général besoin d’être étalonnée.
 
@@ -59,7 +59,7 @@ Un [résultat ICP](/help/mobile-icp-health) est un troisième avis utile, mais i
 
 ## Choisir la source que suit une mesure {#choosing-which-source-a-widget-trusts}
 
-La source se règle par aquarium et par paramètre, pas par widget. Allez dans **Paramètres**, touchez l’aquarium, touchez **Association des paramètres**, puis l’onglet **Sources**. Choisissez une sonde, ou **Automatique (la mesure la plus récente l’emporte)**. Le choix s’applique à ce paramètre partout pour l’aquarium. Plus de détails dans [Association des paramètres](/help/mobile-probes).
+La source se règle par aquarium et par paramètre, pas par widget. Allez dans **Paramètres**, touchez l’aquarium puis **Association des paramètres**. Quand plusieurs appareils mesurent un même paramètre, une bannière en haut de la liste, comme *pH reçoit des mesures de 2 appareils*, vous permet de toucher **En choisir une**. Choisissez un appareil, ou **Mesure la plus récente**. Le choix s’applique à ce paramètre partout pour l’aquarium. Pour garder une mesure à part comme paramètre à elle, par exemple une deuxième sonde dans la décantation, utilisez **En afficher une séparément** ou **Nouveau paramètre…**. Plus de détails dans [Association des paramètres](/help/mobile-probes#multiple-probes).
 
 ## Exclure une mesure erronée {#excluding-a-bad-reading}
 
@@ -81,7 +81,7 @@ Touchez **Enregistrer l’entretien de la sonde** (l’icône de capteur dans la
 
 ## Noter une mesure à la main {#logging-a-reading-by-hand}
 
-Vous notez les mesures depuis le tableau de bord, pas depuis cet écran. Touchez **Enregistrer les paramètres** sous les widgets et saisissez ce qu’indique votre kit de test. La liste est groupée, et le groupe **Oligoéléments** couvre l’iode, le fer et le cuivre en µg/L, et le potassium en mg/L. Les mesures notées à la main comptent autant que les autres. Elles ont leur propre source et leur propre heure, s’affichent sur le graphique et alimentent Reef Buddy. C’est aussi à elles que Cora compare votre équipement.
+Vous notez les mesures depuis le tableau de bord, pas depuis cet écran. Touchez **Enregistrer les paramètres** sous les widgets et saisissez ce qu’indique votre kit de test. La liste est groupée, et le groupe **Oligoéléments** couvre l’iode, le fer et le cuivre en µg/L, et le potassium en mg/L. Les mesures notées à la main comptent autant que les autres. Elles ont leur propre source et leur propre heure, s’affichent sur le graphique et alimentent Reef Buddy. C’est aussi à elles que Cora compare votre équipement. Si vous voulez qu’un résultat de kit de test s’affiche comme un paramètre à part, distinct de celui d’une sonde, choisissez-le dans **Tests et résultats de laboratoire** de l’[Association des paramètres](/help/mobile-probes#tests-and-lab-results).
 
 :::note Cora revérifie les saisies qui semblent bizarres
 Si une valeur est loin de là où se trouvait l’aquarium, Cora vous demande de la confirmer avant de l’enregistrer. Cela attrape une virgule mal placée, ou une mesure saisie sous le mauvais paramètre. Une fois confirmée, la mesure est enregistrée comme d’habitude.

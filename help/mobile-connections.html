@@ -125,6 +125,7 @@
 <li><a href="/help/mobile-plans">Plans and subscriptions</a></li>
 <li><a href="/help/mobile-data-export">Exporting your data and deleting your account</a></li>
 <li><a href="/help/mobile-support">Reporting a problem</a></li>
+<li><a href="/help/mobile-partners">Connected partners</a></li>
 </ul></details>
 <p class="nav-sec" lang="en">Cora Max</p>
 <details class="nav-g">
@@ -183,6 +184,7 @@
 <p>Cora reads your Apex over your local network, including probes, outlets and any expansion modules you've fitted.</p>
 <ol><li>Go to <strong>Devices → Add Device → Neptune Apex</strong>.</li><li>Tap <strong>Scan Network for APEX</strong> and pick your Apex, or type its address under <strong>Or enter IP manually:</strong>.</li><li>Fill in <strong>Apex login (only if you set one on the Apex):</strong>. Leave the password blank if you haven't set one.</li><li>Tap <strong>Load metrics from APEX</strong> and tick the ones you want under <strong>Metrics to track</strong>.</li><li>Set <strong>Poll Frequency</strong>. Don't leave it off: with polling off, nothing reads the Apex and its readings go stale.</li><li>Tap <strong>Continue</strong>. Cora tests the login first. If the Apex answers and turns it down, a message says <strong>The Apex refused this login</strong>: tap <strong>Cancel</strong> to fix the username or password, or <strong>Save anyway</strong> to go on. If Cora can't reach the Apex (for example you are away from home), it skips the test. Then tick every tank under <strong>Which tanks does this Apex serve?</strong> and tap <strong>Save</strong>. An Apex can serve more than one tank.</li></ol>
 <p>If the scan finds nothing, check that your phone is on the same Wi-Fi as the Apex, or enter the IP address yourself.</p>
+<p>If your Apex's web page uses a port other than 80 (<strong>Network Setup</strong> on the Apex, <strong>HTTP Port</strong>), the scan also tries ports 81, 8080, 8000, 8081 and 88, and Cora keeps the port with the address. To type it yourself, put the port after a colon, for example <code>192.168.1.50:81</code>.</p>
 <p>Once it's connected, every probe your Apex reports becomes a source you can put on a dashboard. Outlets show up as controls, and each fitted expansion module gets its own device tile. Your own Apex programming keeps running exactly as you set it up. What you can control is in <a href="/help/mobile-device-control#neptune-apex">Controlling your equipment</a>.</p>
 <h2 id="red-sea-reefbeat">Red Sea ReefBeat</h2>
 <p>Cora talks to ReefBeat equipment on your local network. It supports <strong>ReefDose</strong>, <strong>ReefATO+</strong>, <strong>ReefMat</strong> and <strong>ReefRun</strong>.</p>
@@ -217,7 +219,7 @@
 <h2 id="if-a-connection-stops-working">If a connection stops working</h2>
 <p>The device row tells you what kind of problem it is. Look it up in the table in <a href="/help/mobile-devices#health">Adding, editing and removing devices</a>. For anything that doesn't cover, see <a href="/help/troubleshooting">Troubleshooting</a>.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-devices"><span>Previous</span><b>Adding, editing and removing devices</b></a><a class="pn-n" href="/help/mobile-device-control"><span>Next</span><b>Controlling your equipment</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.240 and Cora Mobile 1.4.16. Last checked 2026-10-24.</p>
+      <p class="stamp">Written for Cora Max 0.28.275 and Cora Mobile 1.4.24. Last checked 2026-11-03.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>
@@ -608,7 +610,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/help/search.json?v=d076232951').then(function (r) { return r.json(); })
+    fetch('/help/search.json?v=0cb74b3874').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "en"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';

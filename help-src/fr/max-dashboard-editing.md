@@ -2,7 +2,7 @@
 title: Modifier le tableau de bord Cora Max
 description: Ajoutez, déplacez et retirez des tuiles du tableau de bord Cora Max, choisissez une grille, utilisez les modèles ou Concevoir avec l’IA, et enregistrez vos dispositions.
 section: Cora Max
-reviewed: 2026-10-18
+reviewed: 2026-11-03
 order: 4
 group: Your dashboard
 twin: mobile-dashboard-editing
@@ -46,6 +46,8 @@ Quand vous changez de grille, Cora ne jette pas les tuiles selon leur position. 
 2. Sous **TYPE**, choisissez le genre de tuile, puis ce qu’elle affiche (une mesure, une prise, un appareil ou une scène).
 3. Sous **TAILLE**, choisissez sa taille. Une tuile peut faire une ou deux cases de large et une ou deux cases de haut. Un graphique a aussi une **PLAGE DE TEMPS**. Une tuile de doseur a **Afficher le reste en**, en **Jours** ou **Millilitres (mL)**.
 4. Touchez **Ajouter**.
+
+Sur une tuile **Valeur**, **Jauge**, **Graphique** ou **État**, la ligne sous le nom indique quel appareil alimente cette mesure en ce moment, par exemple *Jauge · Main Apex*. Elle utilise le nom que vous avez donné à l’appareil, ou sa marque si vous ne lui en avez jamais donné, et jamais un numéro de série ni un ID. Une mesure que rien n’a encore signalée indique *Pas encore de relevé*. Le sélecteur de mesure et les réglages de la tuile nomment la source de la même façon. Pour changer l’appareil qui alimente une mesure, utilisez l’**Association des paramètres** dans Cora Mobile. Voir [Association des paramètres](/help/mobile-probes).
 
 Les gestes sont rappelés en haut de l’éditeur : **Touchez une tuile pour modifier**, **appui long pour déplacer** et **✕ pour retirer**. **Tout effacer** vide la grille pour repartir de zéro.
 

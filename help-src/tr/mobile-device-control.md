@@ -2,7 +2,7 @@
 title: Ekipmanınızı kontrol etme
 description: Canlı durumunu görmek ve prizleri, pompaları, dozaj kafalarını ve test cihazlarını marka marka değiştirmek için bir cihazın sayfasını açın.
 section: Cora Mobile
-reviewed: 2026-10-24
+reviewed: 2026-11-01
 order: 13
 group: Equipment
 twin: max-device-control
@@ -165,7 +165,9 @@ Varsayılanlar ve diğer sarf malzemeleri [Sarf malzemeleri](/help/mobile-consum
 
 ## Jecod / Jebao pompaları {#jecod}
 
-Pompa sayfası mevcut dalga desenini (mod) ve yoğunluğu gösterir ve ikisini de değiştirebilirsiniz. Durumu başlık satırında, pompanın adının yanındadır. **Tüm gün aynı** ve **Zamanlama** seçenekli bir anahtar çalışanı *· çalışıyor* ile işaretler ve sayfa onda açılır. Günlük zamanlama hazırlamak ve onu kopyalamak, kaydetmek ya da paylaşmak [Ekipman zamanlamaları](/help/mobile-schedules) sayfasında.
+Pompa sayfası mevcut dalga desenini (mod) ve yoğunluğu gösterir ve ikisini de değiştirebilirsiniz. Cora Mobile'daki her dalga pompası sayfası (Jecod) aynı düzene sahiptir: durum başlık satırında, pompanın adının yanında, ardından güç anahtarı ve **Besleme** bulunan üst kart, ardından **Manuel** ve **Zamanlama** seçenekli bir anahtar ve her biri için bir kart. Anahtar çalışanı *· çalışıyor* ile işaretler ve sayfa onda açılır.
+
+Zamanlamadaki her değişiklik zamanlama düzenleyicisinden geçer ve orada **Pompaya kaydet**'e dokunana kadar hiçbir şey gönderilmez. Günlük zamanlama hazırlamak, onu başka pompalardan ya da başka pompalara kopyalamak, kaydetmek ya da paylaşmak [Ekipman zamanlamaları](/help/mobile-schedules) sayfasında.
 
 Pompa bir grubun parçasıysa sayfa onun rolünü gösterir, örneğin **Grubu yönetir**, **Takip eder: eş zamanlı** ya da **Takip eder: dönüşümlü**.
 

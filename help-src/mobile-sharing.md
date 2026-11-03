@@ -2,7 +2,7 @@
 title: Sharing your tank
 description: Share a picture of your tank's readings to social media or a friend with a tank snapshot card.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-11-03
 order: 10
 group: Your dashboard
 ---
@@ -37,5 +37,5 @@ There are two formats.
 **Share** opens your phone's usual share sheet, so you can send the card anywhere your phone can send a picture. Nothing leaves your account until you pick where it goes.
 
 :::note A snapshot doesn't give access
-A snapshot is only a picture. It doesn't let anyone into your account, your history or your equipment. If someone's looking after the tank while you're away, use [Going away](/help/mobile-vacation). It makes a read-only page for them.
+A snapshot is only a picture. It doesn't let anyone into your account, your history or your equipment. If someone's looking after the tank while you're away, use [Going away](/help/mobile-vacation). It makes a read-only page for them. If a maintenance company looks after your tank, [Connected partners](/help/mobile-partners) lets it read the tank with a code you give it.
 :::

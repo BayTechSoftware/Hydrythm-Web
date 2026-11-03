@@ -2,7 +2,7 @@
 title: Impostazioni di Cora Mobile
 description: Dove si trova tutto nella scheda Impostazioni di Cora Mobile, dall'account e dal piano a vasche, Cora Assistant, lingua, modalità scura, notifiche e assistenza.
 section: Cora Mobile
-reviewed: 2026-10-18
+reviewed: 2026-11-03
 order: 36
 group: Settings and account
 twin: max-settings
@@ -46,13 +46,15 @@ Aggiungere, rimuovere e ripristinare le vasche è spiegato passo per passo in [G
 
 Apri una vasca e la sua pagina delle impostazioni ha tre parti.
 
-- **Impostazioni** contiene **Modifica vasca**, **Mappatura parametri**, **Soglie di avviso**, **Unità**, **Cora Max principale** e **Modalità vacanza**.
+- **Impostazioni** contiene **Modifica vasca**, **Mappatura parametri**, **Soglie di avviso**, **Unità**, **Cora Max principale**, **Modalità vacanza** e **Partner collegati**.
 - **Registri e rapporti** contiene **Diario**, **Manutenzione**, **Popolazione**, **Reef Buddy**, **Report di salute**, **Report ICP**, **Attività** e **Configurazione guidata**.
 - **Dispositivi su questa vasca** è un elenco in sola lettura.
 
 **Mappatura parametri** è dove scegli quale dispositivo alimenta ogni lettura. Vedi [Mappatura parametri](/help/mobile-probes). **Unità** imposta come questa vasca mostra le letture, compresi litri o galloni USA o UK per il volume. Vedi [Il profilo della vasca](/help/mobile-tank-profile). **Cora Max principale** è il dispositivo che legge l'attrezzatura di quella vasca, ed è spiegato in [Più di un dispositivo Cora](/help/mobile-multi-device#primary-cora-max). Per aggiungere o rimuovere un dispositivo, usa la [scheda Dispositivi](/help/mobile-devices).
 
 **Modalità vacanza** è un piano per chi si occupa della vasca mentre sei via. Imposti le date e prepari una lista di lavori, con ogni quanto va fatto ciascuno. Cora la trasforma in una semplice pagina in sola lettura da condividere con chi si occupa della vasca. Non gli serve un account. Di più in [Andare in vacanza](/help/mobile-vacation).
+
+**Partner collegati** permette a un'azienda di manutenzione di leggere questa vasca con un codice monouso che le dai e, se lo consenti, di registrare interventi nel tuo diario. Serve un piano a pagamento. Di più in [Partner collegati](/help/mobile-partners).
 
 ## Impostazioni app
 

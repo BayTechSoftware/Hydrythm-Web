@@ -125,6 +125,7 @@
 <li><a href="/pl/help/mobile-plans">Plany i subskrypcje</a></li>
 <li><a href="/pl/help/mobile-data-export">Eksport danych i usuwanie konta</a></li>
 <li><a href="/pl/help/mobile-support">Zgłaszanie problemu</a></li>
+<li><a href="/pl/help/mobile-partners">Połączeni partnerzy</a></li>
 </ul></details>
 <p class="nav-sec" lang="en">Cora Max</p>
 <details class="nav-g">
@@ -231,7 +232,8 @@
 <p>Na stronie ReefDose dotknij dzwonka na pasku tytułu. Każda głowica ma własny próg pozostałych dni i przełącznik.</p>
 <p>Wartości domyślne i inne materiały eksploatacyjne opisują <a href="/pl/help/mobile-consumables">Materiały eksploatacyjne</a>.</p>
 <h2 id="jecod">Pompy Jecod / Jebao™</h2>
-<p>Strona pompy pokazuje bieżący wzór fali (tryb) i intensywność, a Ty możesz zmienić oba. Jej stan jest w wierszu tytułu, obok nazwy pompy. Przełącznik z <strong>Cały dzień tak samo</strong> i <strong>Harmonogram</strong> oznacza działający tryb napisem <em>· działa</em>, a strona otwiera się na nim. Układanie programu dnia, jego kopiowanie, zapisywanie i udostępnianie opisują <a href="/pl/help/mobile-schedules">Harmonogramy sprzętu</a>.</p>
+<p>Strona pompy pokazuje bieżący wzór fali (tryb) i intensywność, a Ty możesz zmienić oba. Każda strona pompy cyrkulacyjnej w Cora Mobile (Jecod) ma ten sam układ: stan w wierszu tytułu, obok nazwy pompy, potem górna karta z przełącznikiem zasilania i <strong>Karmienie</strong>, a potem przełącznik z <strong>Ręcznie</strong> i <strong>Harmonogram</strong> oraz karta dla każdego z nich. Przełącznik oznacza działający tryb napisem <em>· działa</em>, a strona otwiera się na nim.</p>
+<p>Każda zmiana harmonogramu przechodzi przez edytor harmonogramu i nic nie jest wysyłane, dopóki nie dotkniesz tam <strong>Zapisz w pompie</strong>. Układanie programu dnia, jego kopiowanie z innych pomp lub na inne pompy, zapisywanie i udostępnianie opisują <a href="/pl/help/mobile-schedules">Harmonogramy sprzętu</a>.</p>
 <p>Jeśli pompa należy do grupy, strona pokazuje jej rolę, na przykład <strong>Prowadzi grupę</strong>, <strong>Podąża: zgodnie</strong> albo <strong>Podąża: przemiennie</strong>.</p>
 <h3 id="jecod-feeding">Przerwa na karmienie</h3>
 <p>Przerwę na karmienie uruchomisz w <strong>Karmienie</strong> na stronie pompy: dotknij <strong>5</strong>, <strong>10</strong>, <strong>15</strong> lub <strong>30</strong> min. Niektóre pompy same kończą przerwę, a strona pokazuje wtedy <em>Pompa zakończy to sama.</em></p>
@@ -250,7 +252,7 @@
 <h2 id="what-happens-after-you-change-something">Co się dzieje po zmianie</h2>
 <p>Każda zmiana jest zapisywana w <a href="/pl/help/mobile-activity">Aktywności</a>, razem z miejscem, z którego przyszła. Jeśli urządzenie nie przyjmie zmiany, to też jest tam zapisane.</p>
       <nav class="pn" aria-label="Czytaj dalej"><a class="pn-p" href="/pl/help/mobile-connections"><span>Poprzedni</span><b>Podłączanie sprzętu</b></a><a class="pn-n" href="/pl/help/mobile-schedules"><span>Następny</span><b>Harmonogramy sprzętu</b></a></nav>
-      <p class="stamp">Napisano dla Cora Max 0.28.240 i Cora Mobile 1.4.16. Ostatnio sprawdzono 2026-10-24.</p>
+      <p class="stamp">Napisano dla Cora Max 0.28.275 i Cora Mobile 1.4.24. Ostatnio sprawdzono 2026-11-01.</p>
       <p class="ask">Wciąż masz problem? Napisz na <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, pomożemy.</p>
     </article>
   </main>
@@ -641,7 +643,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/pl/help/search.json?v=bf578ebf0d').then(function (r) { return r.json(); })
+    fetch('/pl/help/search.json?v=056b8cbfce').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "pl"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Wyszukiwanie jest niedost\u0119pne. U\u017cyj menu." + '</li>';

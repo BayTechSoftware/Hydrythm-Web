@@ -2,7 +2,7 @@
 title: Condividere la tua vasca
 description: Condividi sui social o con un amico un'immagine delle letture della tua vasca, con la scheda istantanea della vasca.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-11-03
 order: 10
 group: Your dashboard
 ---
@@ -37,5 +37,5 @@ Ci sono due formati.
 **Condividi** apre il normale menu di condivisione del telefono, quindi puoi mandare la scheda ovunque il telefono possa mandare un'immagine. Non esce niente dal tuo account finché non scegli dove inviarla.
 
 :::note Un'istantanea non dà accesso
-Un'istantanea è solo un'immagine. Non fa entrare nessuno nel tuo account, nel tuo storico o nella tua attrezzatura. Se qualcuno si occupa della vasca mentre sei via, usa [Andare in vacanza](/help/mobile-vacation): crea una pagina in sola lettura per quella persona.
+Un'istantanea è solo un'immagine. Non fa entrare nessuno nel tuo account, nel tuo storico o nella tua attrezzatura. Se qualcuno si occupa della vasca mentre sei via, usa [Andare in vacanza](/help/mobile-vacation): crea una pagina in sola lettura per quella persona. Se un'azienda di manutenzione si occupa della tua vasca, [Partner collegati](/help/mobile-partners) le permette di leggerla con un codice che le dai.
 :::

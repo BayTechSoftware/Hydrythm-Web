@@ -2,7 +2,7 @@
 title: Jak to zrobić?
 description: Lista typowych zadań w Cora Mobile i na Cora Max, każde z linkiem do dokładnych kroków, od założenia konta po parowanie Cora Max i anulowanie planu.
 section: Help
-reviewed: 2026-10-17
+reviewed: 2026-11-03
 order: 2
 ---
 
@@ -17,6 +17,8 @@ Wybierz zadanie, które chcesz wykonać. Każdy link otwiera kroki. Jeśli coś 
 - [Zmień e-mail albo hasło](/help/faq#change-email-or-password)
 - [Zaloguj się przez Apple i nadal dostawaj e-maile z laboratorium](/help/mobile-account#lab-and-icp-emails)
 - [Pozwól partnerowi widzieć akwarium](/help/faq#can-two-people-use-the-same-tank)
+- [Pozwól firmie serwisowej odczytać akwarium](/help/mobile-partners#connecting)
+- [Odłącz firmę serwisową](/help/mobile-partners#disconnecting)
 - [Zmień język](/help/mobile-settings#language)
 
 ## Twoje akwaria

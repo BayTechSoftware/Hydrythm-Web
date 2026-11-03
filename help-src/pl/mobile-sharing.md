@@ -2,7 +2,7 @@
 title: Udostępnianie akwarium
 description: Udostępnij w mediach społecznościowych albo znajomemu obraz z odczytami akwarium, czyli kartę Zdjęcie akwarium.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-11-03
 order: 10
 group: Your dashboard
 ---
@@ -37,5 +37,5 @@ Są dwa formaty.
 **Udostępnij** otwiera zwykłe okno udostępniania w telefonie, więc kartę wyślesz wszędzie, gdzie telefon może wysłać obraz. Nic nie wychodzi z Twojego konta, dopóki nie wybierzesz, dokąd ma trafić.
 
 :::note Zdjęcie nie daje dostępu
-Zdjęcie akwarium to tylko obraz. Nie daje nikomu dostępu do Twojego konta, historii ani sprzętu. Jeśli ktoś ma zająć się akwarium pod Twoją nieobecność, użyj [Wyjazdu](/help/mobile-vacation). Tworzy on dla tej osoby stronę tylko do odczytu.
+Zdjęcie akwarium to tylko obraz. Nie daje nikomu dostępu do Twojego konta, historii ani sprzętu. Jeśli ktoś ma zająć się akwarium pod Twoją nieobecność, użyj [Wyjazdu](/help/mobile-vacation). Tworzy on dla tej osoby stronę tylko do odczytu. Jeśli akwarium obsługuje firma serwisowa, [Połączeni partnerzy](/help/mobile-partners) pozwalają jej odczytać je kodem, który jej dasz.
 :::

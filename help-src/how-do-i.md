@@ -2,7 +2,7 @@
 title: How do I...?
 description: A list of common tasks in Cora Mobile and on Cora Max, each linked to the exact steps, from creating your account to pairing Cora Max and cancelling a plan.
 section: Help
-reviewed: 2026-10-17
+reviewed: 2026-11-03
 order: 2
 ---
 
@@ -17,6 +17,8 @@ Pick the task you want to do. Each link opens the steps for it. If something isn
 - [Change my email or password](/help/faq#change-email-or-password)
 - [Sign in with Apple and still get lab emails](/help/mobile-account#lab-and-icp-emails)
 - [Let my partner see the tank](/help/faq#can-two-people-use-the-same-tank)
+- [Let a maintenance company read my tank](/help/mobile-partners#connecting)
+- [Disconnect a maintenance company](/help/mobile-partners#disconnecting)
 - [Change the language](/help/mobile-settings#language)
 
 ## Your tanks

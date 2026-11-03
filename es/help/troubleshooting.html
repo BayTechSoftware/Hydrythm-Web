@@ -125,6 +125,7 @@
 <li><a href="/es/help/mobile-plans">Planes y suscripciones</a></li>
 <li><a href="/es/help/mobile-data-export">Exportar tus datos y eliminar tu cuenta</a></li>
 <li><a href="/es/help/mobile-support">Informar de un problema</a></li>
+<li><a href="/es/help/mobile-partners">Socios conectados</a></li>
 </ul></details>
 <p class="nav-sec" lang="en">Cora Max</p>
 <details class="nav-g">
@@ -331,7 +332,7 @@
 <h2 id="still-stuck">¿Sigues atascado?</h2>
 <p>Escribe a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>, o infórmanos desde Cora Mobile como se explica en <a href="/es/help/mobile-support">Informar de un problema</a>. Dinos qué acuario, qué dispositivo, qué pantalla y qué esperabas ver.</p>
       <nav class="pn" aria-label="Seguir leyendo"><a class="pn-n" href="/es/help/how-do-i"><span>Siguiente</span><b>¿Cómo hago...?</b></a></nav>
-      <p class="stamp">Escrito para Cora Max 0.28.240 y Cora Mobile 1.4.16. Última revisión el 2026-10-24.</p>
+      <p class="stamp">Escrito para Cora Max 0.28.275 y Cora Mobile 1.4.24. Última revisión el 2026-10-24.</p>
       <p class="ask">¿Sigues atascado? Escribe a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> y te ayudamos.</p>
     </article>
   </main>
@@ -722,7 +723,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/es/help/search.json?v=1d5700fe42').then(function (r) { return r.json(); })
+    fetch('/es/help/search.json?v=19a56b83f9').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "es"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La b\u00fasqueda no est\u00e1 disponible. Usa la navegaci\u00f3n." + '</li>';

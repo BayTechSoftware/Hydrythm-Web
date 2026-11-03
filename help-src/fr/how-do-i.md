@@ -2,7 +2,7 @@
 title: Comment faire...?
 description: Une liste de tâches courantes dans Cora Mobile et sur Cora Max, chacune avec les étapes exactes, de la création de votre compte à la résiliation d’un forfait.
 section: Help
-reviewed: 2026-10-17
+reviewed: 2026-11-03
 order: 2
 ---
 
@@ -17,6 +17,8 @@ Choisissez la tâche que vous voulez faire. Chaque lien ouvre les étapes corres
 - [Changer mon e-mail ou mon mot de passe](/help/faq#change-email-or-password)
 - [Me connecter avec Apple et recevoir quand même les e-mails du laboratoire](/help/mobile-account#lab-and-icp-emails)
 - [Permettre à mon conjoint de voir l’aquarium](/help/faq#can-two-people-use-the-same-tank)
+- [Laisser une société d’entretien consulter mon aquarium](/help/mobile-partners#connecting)
+- [Déconnecter une société d’entretien](/help/mobile-partners#disconnecting)
 - [Changer la langue](/help/mobile-settings#language)
 
 ## Vos aquariums

@@ -2,7 +2,7 @@
 title: Controllare la tua attrezzatura
 description: Apri la pagina di un dispositivo per vederne lo stato in tempo reale e comandare prese, pompe, teste di dosaggio e tester, marca per marca.
 section: Cora Mobile
-reviewed: 2026-10-24
+reviewed: 2026-11-01
 order: 13
 group: Equipment
 twin: max-device-control
@@ -165,7 +165,9 @@ I valori predefiniti e gli altri materiali di consumo sono in [Materiali di cons
 
 ## Pompe Jecod / Jebao {#jecod}
 
-La pagina della pompa mostra lo schema d'onda attuale (modalità) e l'intensità, e puoi cambiarli entrambi. Il suo stato è nella riga del titolo, accanto al nome della pompa. Un selettore con **Uguale tutto il giorno** e **Programmazione** segna quello in corso con *· in corso*, e la pagina si apre su di esso. Creare una programmazione giornaliera, e copiarla, salvarla o condividerla, è spiegato in [Programmare l'attrezzatura](/help/mobile-schedules).
+La pagina della pompa mostra lo schema d'onda attuale (modalità) e l'intensità, e puoi cambiarli entrambi. Ogni pagina di pompa di movimento in Cora Mobile (Jecod) ha la stessa struttura: lo stato nella riga del titolo, accanto al nome della pompa, poi la scheda in alto con l'interruttore e **Alimentazione**, poi un selettore con **Manuale** e **Programmazione** e una scheda per ciascuno. Il selettore segna quello in corso con *· in corso*, e la pagina si apre su di esso.
+
+Ogni modifica alla programmazione passa dall'editor della programmazione, e non viene inviato nulla finché non tocchi **Salva sulla pompa** lì. Creare una programmazione giornaliera, e copiarla da altre pompe o su altre pompe, salvarla o condividerla, è spiegato in [Programmare l'attrezzatura](/help/mobile-schedules).
 
 Se la pompa fa parte di un gruppo, la pagina mostra il suo ruolo, come **Guida il gruppo**, **Segue: in sincrono** o **Segue: alternata**.
 

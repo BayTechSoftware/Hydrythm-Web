@@ -125,6 +125,7 @@
 <li><a href="/fr/help/mobile-plans">Forfaits et abonnements</a></li>
 <li><a href="/fr/help/mobile-data-export">Exporter vos données et supprimer votre compte</a></li>
 <li><a href="/fr/help/mobile-support">Signaler un problème</a></li>
+<li><a href="/fr/help/mobile-partners">Partenaires connectés</a></li>
 </ul></details>
 <p class="nav-sec" lang="en">Cora Max</p>
 <details class="nav-g">
@@ -183,6 +184,7 @@
 <p>Cora lit votre Apex sur votre réseau local, y compris les sondes, les prises et les modules d’extension que vous avez installés.</p>
 <ol><li>Allez dans <strong>Appareils → Ajouter un appareil → Neptune Apex</strong>.</li><li>Touchez <strong>Rechercher un APEX sur le réseau</strong> et choisissez votre Apex, ou tapez son adresse sous <strong>Ou saisissez l’IP manuellement :</strong>.</li><li>Remplissez <strong>Connexion Apex (seulement si vous en avez défini une sur l’Apex) :</strong>. Laissez le mot de passe vide si vous n’en avez pas défini.</li><li>Touchez <strong>Charger les mesures depuis l’APEX</strong> et cochez celles que vous voulez sous <strong>Mesures à suivre</strong>.</li><li>Réglez la <strong>Fréquence d’interrogation</strong>. Ne la laissez pas désactivée : sans interrogation, rien ne lit l’Apex et ses mesures deviennent périmées.</li><li>Touchez <strong>Continuer</strong>. Cora teste d’abord les identifiants. Si l’Apex répond et les refuse, un message indique <strong>L’Apex a refusé cet identifiant</strong> : touchez <strong>Annuler</strong> pour corriger le nom d’utilisateur ou le mot de passe, ou <strong>Enregistrer quand même</strong> pour continuer. Si Cora ne peut pas joindre l’Apex (par exemple parce que vous n’êtes pas chez vous), elle saute le test. Cochez ensuite chaque aquarium sous <strong>Quels aquariums cet Apex dessert-il ?</strong>, puis touchez <strong>Enregistrer</strong>. Un Apex peut desservir plusieurs aquariums.</li></ol>
 <p>Si la recherche ne trouve rien, vérifiez que votre téléphone est sur le même Wi-Fi que l’Apex, ou saisissez vous-même l’adresse IP.</p>
+<p>Si la page web de votre Apex utilise un autre port que 80 (<strong>Network Setup</strong> sur l’Apex, <strong>HTTP Port</strong>), la recherche essaie aussi les ports 81, 8080, 8000, 8081 et 88, et Cora garde le port avec l’adresse. Pour la saisir vous-même, ajoutez le port après deux-points, par exemple <code>192.168.1.50:81</code>.</p>
 <p>Une fois connecté, chaque sonde que signale votre Apex devient une source que vous pouvez mettre sur un tableau de bord. Les prises apparaissent comme des commandes, et chaque module d’extension installé a sa propre tuile d’appareil. Votre propre programmation Apex continue de tourner exactement comme vous l’avez configurée. Ce que vous pouvez commander est dans <a href="/fr/help/mobile-device-control#neptune-apex">Contrôler votre équipement</a>.</p>
 <h2 id="red-sea-reefbeat">Red Sea ReefBeat</h2>
 <p>Cora communique avec l’équipement ReefBeat sur votre réseau local. Il prend en charge <strong>ReefDose</strong>, <strong>ReefATO+</strong>, <strong>ReefMat</strong> et <strong>ReefRun</strong>.</p>
@@ -217,7 +219,7 @@
 <h2 id="if-a-connection-stops-working">Si une connexion cesse de fonctionner</h2>
 <p>La ligne de l’appareil vous dit de quel genre de problème il s’agit. Cherchez-le dans le tableau de <a href="/fr/help/mobile-devices#health">Ajouter, modifier et retirer des appareils</a>. Pour tout ce qu’il ne couvre pas, voir <a href="/fr/help/troubleshooting">Résolution de problèmes</a>.</p>
       <nav class="pn" aria-label="Poursuivre la lecture"><a class="pn-p" href="/fr/help/mobile-devices"><span>Précédent</span><b>Ajouter, modifier et retirer des appareils</b></a><a class="pn-n" href="/fr/help/mobile-device-control"><span>Suivant</span><b>Contrôler votre équipement</b></a></nav>
-      <p class="stamp">Rédigé pour Cora Max 0.28.240 et Cora Mobile 1.4.16. Vérifié pour la dernière fois le 2026-10-24.</p>
+      <p class="stamp">Rédigé pour Cora Max 0.28.275 et Cora Mobile 1.4.24. Vérifié pour la dernière fois le 2026-11-03.</p>
       <p class="ask">Toujours bloqué ? Écrivez à <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, nous vous aiderons.</p>
     </article>
   </main>
@@ -608,7 +610,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/fr/help/search.json?v=84e649e8bc').then(function (r) { return r.json(); })
+    fetch('/fr/help/search.json?v=2f74db88ae').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "fr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La recherche est indisponible. Utilisez la navigation." + '</li>';

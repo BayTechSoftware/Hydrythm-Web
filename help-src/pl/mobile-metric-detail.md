@@ -2,7 +2,7 @@
 title: Szczegóły parametru
 description: Dotknij widżetu, żeby zobaczyć pełną historię parametru, porównać źródła i parametry, wykluczyć błędny odczyt i zapisać konserwację sondy.
 section: Cora Mobile
-reviewed: 2026-10-17
+reviewed: 2026-11-03
 order: 7
 group: Your dashboard
 ---
@@ -51,7 +51,7 @@ Linia, która się nie rusza, może oznaczać stabilny parametr. Może też ozna
 
 Gdy parametr zgłasza więcej niż jedno źródło, Cora trzyma je osobno i ich nie uśrednia. Użyj listy **Źródło**, żeby obejrzeć każde z nich. To najszybszy sposób na porównanie sondy z testem kropelkowym.
 
-Na panelu widać najnowsze. Wartość na żywo zastępuje tylko odczyt z późniejszym czasem pomiaru, z dowolnego źródła. Starszy odczyt trafia do historii i nie nadpisuje tego, co jest na widżecie. Jeśli przypięto źródło w **Mapowaniu parametrów**, Cora trzyma się tego źródła.
+Na panelu widać najnowsze. Wartość na żywo zastępuje tylko odczyt z późniejszym czasem pomiaru, z dowolnego źródła. Starszy odczyt trafia do historii i nie nadpisuje tego, co jest na widżecie. Jeśli wybrano urządzenie w **Mapowaniu parametrów**, Cora trzyma się tego urządzenia.
 
 Jeśli sonda i testy zapisywane ręcznie stale różnią się o tyle samo, sondę zwykle trzeba skalibrować.
 
@@ -59,7 +59,7 @@ Jeśli sonda i testy zapisywane ręcznie stale różnią się o tyle samo, sond�
 
 ## Za którym źródłem idzie odczyt {#choosing-which-source-a-widget-trusts}
 
-Źródło ustawia się dla akwarium i parametru, a nie dla widżetu. Przejdź do **Ustawień**, dotknij akwarium, dotknij **Mapowanie parametrów**, a potem zakładki **Źródła**. Wybierz sondę albo **Automatycznie (wygrywa najnowszy odczyt)**. Wybór dotyczy tego parametru wszędzie w tym akwarium. Więcej w [Mapowaniu parametrów](/help/mobile-probes).
+Źródło ustawia się dla akwarium i parametru, a nie dla widżetu. Przejdź do **Ustawień**, dotknij akwarium, a potem **Mapowanie parametrów**. Gdy parametr zgłasza więcej niż jedno urządzenie, baner na górze listy, taki jak *pH dostaje odczyty z 2 urządzeń*, pozwala dotknąć **Wybierz jeden**. Wybierz urządzenie albo **Najnowszy odczyt**. Wybór dotyczy tego parametru wszędzie w tym akwarium. Aby zachować odczyt osobno jako własny parametr, na przykład drugą sondę w sumpie, użyj **Pokaż jeden z nich osobno** lub **Nowy parametr…**. Więcej w [Mapowaniu parametrów](/help/mobile-probes#multiple-probes).
 
 ## Wykluczanie błędnego odczytu {#excluding-a-bad-reading}
 
@@ -81,7 +81,7 @@ Dotknij **Zapisz konserwację sondy** (ikona czujnika na górnym pasku) i wybier
 
 ## Ręczne zapisywanie odczytu {#logging-a-reading-by-hand}
 
-Odczyty zapisujesz z panelu, a nie z tego ekranu. Dotknij **Zapisz parametry** pod widżetami i wpisz wynik testu kropelkowego. Lista jest pogrupowana, a grupa **Pierwiastki śladowe** obejmuje jod, żelazo i miedź w µg/L oraz potas w mg/L. Odczyty zapisane ręcznie liczą się tak samo jak inne. Dostają własne źródło i czas, pojawiają się na wykresie i trafiają do Reef Buddy. To też z nimi Cora porównuje Twój sprzęt.
+Odczyty zapisujesz z panelu, a nie z tego ekranu. Dotknij **Zapisz parametry** pod widżetami i wpisz wynik testu kropelkowego. Lista jest pogrupowana, a grupa **Pierwiastki śladowe** obejmuje jod, żelazo i miedź w µg/L oraz potas w mg/L. Odczyty zapisane ręcznie liczą się tak samo jak inne. Dostają własne źródło i czas, pojawiają się na wykresie i trafiają do Reef Buddy. To też z nimi Cora porównuje Twój sprzęt. Jeśli chcesz, by wynik testu kropelkowego pokazywał się jako własny parametr, osobno od sondy, wybierz go w **Testy i wyniki laboratoryjne** w [Mapowaniu parametrów](/help/mobile-probes#tests-and-lab-results).
 
 :::note Cora sprawdza wpisy, które wyglądają dziwnie
 Jeśli wartość mocno odbiega od tego, gdzie akwarium było dotąd, Cora poprosi o potwierdzenie przed zapisaniem. Tak wyłapie przecinek w złym miejscu albo odczyt wpisany przy złym parametrze. Po potwierdzeniu odczyt zapisuje się normalnie.

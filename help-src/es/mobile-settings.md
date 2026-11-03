@@ -2,7 +2,7 @@
 title: Ajustes de Cora Mobile
 description: Dónde está cada cosa en la pestaña Ajustes de Cora Mobile: tu cuenta y tu plan, los acuarios, Cora Assistant, el idioma, el modo oscuro, las notificaciones y el soporte.
 section: Cora Mobile
-reviewed: 2026-10-18
+reviewed: 2026-11-03
 order: 36
 group: Settings and account
 twin: max-settings
@@ -46,13 +46,15 @@ Añadir, quitar y restaurar acuarios se explica paso a paso en [Gestionar tus ac
 
 Al abrir un acuario, su página de ajustes tiene tres partes.
 
-- **Ajustes** incluye **Editar acuario**, **Asignación de parámetros**, **Umbrales de alerta**, **Unidades**, **Cora Max principal** y **Modo vacaciones**.
+- **Ajustes** incluye **Editar acuario**, **Asignación de parámetros**, **Umbrales de alerta**, **Unidades**, **Cora Max principal**, **Modo vacaciones** y **Socios conectados**.
 - **Registros e informes** incluye **Diario**, **Mantenimiento**, **Fauna**, **Reef Buddy**, **Informes de salud**, **Informes ICP**, **Actividad** y **Configuración guiada**.
 - **Dispositivos en este acuario** es una lista de solo lectura.
 
 **Asignación de parámetros** es donde eliges qué dispositivo alimenta cada lectura. Consulta [Asignación de parámetros](/help/mobile-probes). **Unidades** fija cómo muestra este acuario sus lecturas, incluidos litros o galones de EE. UU. o del Reino Unido para el volumen. Consulta [El perfil de tu acuario](/help/mobile-tank-profile). **Cora Max principal** es el dispositivo que consulta el equipo de ese acuario, y se explica en [Más de un dispositivo Cora](/help/mobile-multi-device#primary-cora-max). Para añadir o quitar un dispositivo, usa la [pestaña Dispositivos](/help/mobile-devices).
 
 **Modo vacaciones** es un plan para quien cuide el acuario mientras estás fuera. Pones las fechas y haces una lista de tareas, con la frecuencia de cada una. Cora la convierte en una página sencilla de solo lectura que puedes compartir con quien cuida tu acuario. No necesita cuenta. Más información en [Irse de viaje](/help/mobile-vacation).
+
+**Socios conectados** permite que una empresa de mantenimiento vea este acuario con un código de un solo uso que tú le das y, si lo permites, registre servicios en tu diario. Requiere un plan de pago. Más información en [Socios conectados](/help/mobile-partners).
 
 ## Ajustes de la aplicación
 

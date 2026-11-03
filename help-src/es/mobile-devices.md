@@ -2,7 +2,7 @@
 title: Añadir, editar y eliminar dispositivos
 description: Añade equipos a Cora, asígnalos a un acuario, cámbiales el nombre, comprueba que funcionan bien y quítalos, todo desde la pestaña Dispositivos.
 section: Cora Mobile
-reviewed: 2026-10-17
+reviewed: 2026-11-03
 order: 11
 group: Equipment
 twin: max-devices
@@ -48,7 +48,7 @@ Cora comprueba el Cora Max principal del acuario o, si no hay ninguno elegido, e
 
 Toca cualquier dispositivo de la lista para abrir su página. Primero están sus controles, y después secciones que funcionan igual para todas las marcas.
 
-- **Estado** muestra el **Modelo**, el **N.º de serie**, el **Firmware** y cuándo supo Cora de él por última vez (**Visto por última vez**).
+- **Estado** muestra su estado, el **Modelo** y el **Firmware** y, cuando el dispositivo no funciona con normalidad, cuándo supo Cora de él por última vez (**Visto por última vez**). El número de serie y otros identificadores (ID del dispositivo, ID de hardware, dirección MAC) quedan ocultos hasta que tocas **Mostrar detalles**. Toca **Ocultar detalles** para cerrarlos de nuevo.
 - **Acuarios** muestra a qué acuario (o acuarios) está asignado. Toca **Cambiar** para reasignarlo.
 - **Conexión** es donde editas su dirección IP, su inicio de sesión o su clave de dispositivo.
 - **Quitar dispositivo**, al final.
@@ -59,13 +59,13 @@ Cora Max y Neptune Apex pueden servir a más de un acuario, así que su selector
 Un dispositivo sin acuario sigue informando, pero sus números no tienen dónde ir. Si un dispositivo que acabas de añadir no sale en ningún panel, revisa esto primero.
 :::
 
-Lo que hacen los controles de cada marca está en [Controlar tus equipos](/help/mobile-device-control).
+Lo que hacen los controles de cada marca está en [Controlar tus equipos](/help/mobile-device-control). Qué parámetro alimenta cada lectura de un dispositivo se fija en [Asignación de parámetros](/help/mobile-probes).
 
 ## Cambiar el nombre {#renaming}
 
 Abre el dispositivo y toca el lápiz junto a su nombre. Ponle el que usas en el día a día, como "Retorno", "Gyre izquierdo" o "Calentador del sump". El nombre sale en los widgets, en las alertas y en todo lo que le preguntes a Cora.
 
-Los nombres pueden tener hasta 40 caracteres. Deja el nombre vacío para volver al nombre propio del dispositivo. Si dos dispositivos del mismo tipo no tienen nombre, Cora los distingue con un código corto después del nombre. Cora nunca usa un número de serie como nombre.
+Los nombres pueden tener hasta 40 caracteres. Deja el nombre vacío para volver al nombre propio del dispositivo. Si dos dispositivos del mismo tipo no tienen nombre, Cora los distingue con un código corto después del nombre. Cora nunca usa un número de serie como nombre. Allí donde se lista un dispositivo, por ejemplo en Asignación de parámetros o en el editor del panel de Cora Max, aparece con el nombre que le diste; su número de serie o ID solo están tras **Mostrar detalles** en su página.
 
 El nombre nuevo solo se aplica en Cora. No cambia el nombre en la app del propio fabricante.
 

@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Parameter Mapping and probes | Cora Help</title>
-  <meta name="description" content="Choose which probe drives each reading, tell Cora what each probe measures, and record probe calibration and cleaning.">
+  <meta name="description" content="See every device&#x27;s readings in one list, choose which parameter each reading shows as and which device drives it, and record probe calibration and cleaning.">
   <meta name="theme-color" content="#F7FAFD">
   <link rel="canonical" href="https://coraiq.tech/help/mobile-probes">
   <link rel="alternate" hreflang="en" href="https://coraiq.tech/help/mobile-probes">
@@ -17,7 +17,7 @@
   <link rel="alternate" hreflang="x-default" href="https://coraiq.tech/help/mobile-probes">
   <meta property="og:site_name" content="Cora">
   <meta property="og:title" content="Parameter Mapping and probes | Cora Help">
-  <meta property="og:description" content="Choose which probe drives each reading, tell Cora what each probe measures, and record probe calibration and cleaning.">
+  <meta property="og:description" content="See every device&#x27;s readings in one list, choose which parameter each reading shows as and which device drives it, and record probe calibration and cleaning.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://coraiq.tech/help/mobile-probes">
   <meta property="og:image" content="https://coraiq.tech/og-image.png">
@@ -125,6 +125,7 @@
 <li><a href="/help/mobile-plans">Plans and subscriptions</a></li>
 <li><a href="/help/mobile-data-export">Exporting your data and deleting your account</a></li>
 <li><a href="/help/mobile-support">Reporting a problem</a></li>
+<li><a href="/help/mobile-partners">Connected partners</a></li>
 </ul></details>
 <p class="nav-sec" lang="en">Cora Max</p>
 <details class="nav-g">
@@ -171,37 +172,44 @@
       <nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="/help/">Help</a></li><li><a href="/help/mobile-setup" lang="en">Cora Mobile</a></li><li><a href="/help/mobile-devices">Equipment</a></li></ol></nav>
       <h1>Parameter Mapping and probes</h1>
       
-      <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#mapping">Probes: telling Cora what each one is</a></li><li><a href="#sources">Where each reading comes from</a></li><li><a href="#multiple-probes">Multiple probes for one parameter</a></li><li><a href="#recording-probe-care">Recording probe care</a></li></ul></nav>
-<p>Use <strong>Parameter Mapping</strong> to tell Cora what each probe measures and, when two probes report the same thing, which one to trust. Go to <strong>Settings</strong>, open the tank, and tap <strong>Parameter Mapping</strong>.</p>
+      <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#mapping">One list of devices</a></li><li><a href="#shows-as">Choosing what a reading shows as</a></li><li><a href="#tests-and-lab-results">Tests and lab results</a></li><li><a href="#multiple-probes">Multiple probes for one parameter</a></li><li><a href="#recording-probe-care">Recording probe care</a></li></ul></nav>
+<p>Use <strong>Parameter Mapping</strong> to tell Cora which parameter each reading shows as and, when two devices report the same thing, which one to trust. Go to <strong>Settings</strong>, open the tank, and tap <strong>Parameter Mapping</strong>.</p>
 <p>It sits between <strong>Edit tank</strong> and <strong>Alert thresholds</strong>. The pencil at the top of the dashboard opens <strong>Edit tank</strong>, which doesn't have it. You can also reach it from the Neptune™ Apex device page.</p>
-<p>The screen has a search field (<strong>Search parameters</strong>) and two tabs, <strong>Mapping</strong> and <strong>Sources</strong>. Search looks at parameter names, probe names, devices and brands. The same search field is in every parameter picker.</p>
-<h2 id="mapping">Probes: telling Cora what each one is</h2>
-<figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: The Mapping tab"><img src="/help/img/mobile-probe-mapping.webp" alt="The Mapping tab" width="620" height="1347" loading="lazy" decoding="async"></button><figcaption>Each probe, grouped by the device that reports it, with the parameter it's mapped to.</figcaption></figure>
-<p>The <strong>Mapping</strong> tab opens first. It lists every probe Cora knows about, grouped by the device that reports it, with its current reading. Cora recognises standard probe names on its own, and each row shows what it matched. Usually you only need to fix the few it couldn't place.</p>
-<p>Each row gives you three choices.</p>
-<ul><li><strong>A Cora parameter</strong> is the metric that probe measures.</li><li><strong>Custom…</strong> is for a probe Cora has no standard parameter for. Type a short upper-case name in <strong>Custom metric (UPPER token)</strong>, and Cora tracks it under that name.</li><li><strong>Ignore</strong> is for probes you don't want recorded at all.</li></ul>
-<p>An ignored or unmapped probe won't show on a dashboard and won't trigger alerts.</p>
-<p>A mapping starts working the next time readings come in. Fixing one here doesn't rewrite history. It only changes what gets saved from then on. Tap <strong>Save</strong> to apply your changes.</p>
-<aside class="cal cal-warning"><p class="cal-t">Cora can't see an unmapped probe</p><p>If a parameter shows no readings but the probe is working, check its mapping first.</p></aside>
-<h2 id="sources">Where each reading comes from</h2>
-<figure class="shot phone"><button type="button" class="zoom" aria-label="Enlarge: The Sources tab"><img src="/help/img/mobile-probes.webp" alt="The Sources tab" width="620" height="1347" loading="lazy" decoding="async"></button><figcaption>Each reading, the probe feeding it, and whether it's Automatic or Chosen by you.</figcaption></figure>
-<p>The <strong>Sources</strong> tab lists every metric Cora tracks for this tank, such as pH or temperature, and shows which probe is feeding it now.</p>
-<p>Tap a reading to see every probe that reports it, across every controller you've connected. Each one shows its brand, its own name for the probe, and its live value. Pick one to pin it, or choose <strong>Automatic (newest reading wins)</strong> to let Cora use whichever probe reported most recently. The others stay in history.</p>
-<p>A tag next to each reading shows which is in effect: <strong>Automatic</strong>, or <strong>Chosen by you</strong> once you've pinned a probe. Your choice applies to that reading across the whole tank, not to one widget.</p>
-<p>If a pinned probe stops reporting, Cora shows when it was last heard from and offers <strong>Back to Automatic</strong>, so a dead probe can't leave a reading stuck.</p>
-<p>Tap <strong>Rename</strong> to give a reading its own display name. This is separate from any name you give the probe itself. It's what shows up on your dashboard, in alerts and in Reef Buddy.</p>
-<p>The tank profile also has a <strong>Parameter Sources</strong> section (it's hidden while you create a new tank). It sets the same thing in a shorter form. Use Parameter Mapping when you want every probe on every controller in one place.</p>
-<aside class="cal cal-note"><p class="cal-t">A leak sensor can't be reassigned here</p><p>A leak sensor's alarm depends on its own name, so it's excluded from this picker. It works the same as always.</p></aside>
+<p>The screen is one list of devices, with a search field (<strong>Search parameters</strong>) above it. Search looks at parameter names, reading names, devices and brands. The same search field is in every parameter picker.</p>
+<h2 id="mapping">One list of devices</h2>
+<p>Under the search field, Cora explains the screen in one line: each device's readings, and the tank parameter they show as. Tap a reading to change it.</p>
+<ul><li><strong>Every device appears under the name you gave it.</strong> A device you never named appears under its brand, and two unnamed devices of one brand are numbered ("AquaWiz™ 1", "AquaWiz 2"). Serial numbers and device IDs are never used as names; they sit behind <strong>Show details</strong> on the device's own page. See <a href="/help/mobile-devices#a-devices-page">A device's page</a>.</li><li><strong>Every reading is listed under the device that really reports it.</strong> Each row shows the device's own name for the reading, its latest value, and <strong>Shows as</strong>, the tank parameter it feeds. A reading you chose to hide says <strong>Not shown</strong>.</li><li><strong>A tank has one Neptune Apex</strong>, however many Cora devices read it. Its probes are one list under one <strong>Apex</strong> section (or the name you gave it). An Apex expansion module, such as a DŌS or Trident, is listed under its own name. Its readings can't be re-pointed, so tapping one lets you rename the parameter instead.</li><li><strong>A device shared with other tanks appears in the list of every tank it is linked to.</strong> Its section says <em>Also on</em> and the other tanks' names, followed by <em>Changes here apply to this tank only.</em></li><li><strong>A device with two readings or fewer starts open</strong>; a longer one starts closed and shows its reading count, unless one of its readings shares a parameter with another device. Tap a device's name to open or close it. While you search, every match is open.</li></ul>
+<p>Cora recognises standard reading names on its own, so most rows already show the right parameter. Fix only the few it couldn't place.</p>
+<p>A change is saved the moment you choose it, and there is no Save button. It starts working the next time readings come in. Fixing one here doesn't rewrite history: past readings stay where they are, and only what gets saved from then on changes. Mappings you made before this layout carry over unchanged.</p>
+<aside class="cal cal-warning"><p class="cal-t">Cora can't see a reading you hid</p><p>If a parameter shows no readings but the device is working, check whether its reading says <strong>Not shown</strong>.</p></aside>
+<aside class="cal cal-note"><p class="cal-t">A leak sensor can't be reassigned here</p><p>A leak sensor's alarm depends on its own name, so its row says <em>The leak alarm depends on this name, so it can't be changed here.</em> It works the same as always.</p></aside>
+<aside class="cal cal-note"><p class="cal-t">Devices that still need an update</p><p>A device that is waiting for a firmware update says <em>Changes here take effect after this device's firmware update.</em> Your choice is saved and applies once the update is installed.</p></aside>
+<h2 id="shows-as">Choosing what a reading shows as</h2>
+<p>Tap a reading to open <strong>Show this reading as</strong>. At the top is the reading itself: the device, the reading's name and its value. Below it:</p>
+<ul><li><strong>Your parameters</strong> lists every parameter this tank has. Each option says where its readings come from, so you never have to guess between two similar names:</li><li><em>Fed by</em> and the name of the device that feeds it, or <em>Also fed by</em> and the name of another device when this reading already shows as that parameter.</li><li><em>No device feeds it now. Last value …</em> with how long ago, for a parameter whose device has gone quiet.</li><li><em>From your test results</em> or <em>From ICP results</em>, with the last value, for a parameter that only has your own results.  The pencil (<strong>Rename</strong>) beside a parameter gives it your own name, which is what shows on your dashboard, in alerts and in Reef Buddy. Leave the name empty to reset it.</li><li><strong>More parameters</strong> is folded. It holds the standard parameters this tank doesn't have yet.</li><li><strong>New parameter…</strong> makes a parameter of its own, kept apart from your other parameters. See below.</li><li><strong>Don't show this reading</strong> (<em>Cora ignores it</em>) stops the reading being recorded as any parameter. A hidden reading doesn't appear on a dashboard and doesn't trigger alerts.</li></ul>
+<p>The sheet ends with <em>Saved as soon as you choose. Past readings stay where they are.</em></p>
+<h3 id="new-parameter">New parameter</h3>
+<p>Use <strong>New parameter…</strong> when a reading should not be mixed with another that has the same name, for example a second pH probe in the sump. Cora opens <strong>New parameter</strong> and explains that the reading from that device will show as a parameter of its own and that its unit comes from the device.</p>
+<ol><li>Type a <strong>Name</strong>. Any name you like, for example <em>pH sump</em> or <em>pH 2</em>, up to 32 characters.</li><li>Tap <strong>Create</strong>. <strong>Create</strong> stays greyed out until the name has something in it. <strong>Cancel</strong> closes the dialog and changes nothing.</li></ol>
+<p>The reading now feeds the new parameter. The name keeps the spelling you typed. If you type the name of a parameter you already have, the reading joins that one and its name isn't changed. No alert range is copied from another parameter.</p>
+<h2 id="tests-and-lab-results">Tests and lab results</h2>
+<p>Your own test kit results and your ICP results are listed at the bottom, in <strong>Tests and lab results</strong>. The section starts closed, because an ICP report alone has dozens of elements. Tap it to open it. Results are grouped under <strong>ICP results</strong> and <strong>Your test results</strong>.</p>
+<p>Each result maps to a parameter the same way a device's reading does. Tap one to open <strong>Show this reading as</strong> and pick the parameter it shows as, for example to keep a test kit's pH apart from a probe's pH. Cora says so in the section: new results follow your choice, and past ones stay where they are. A test or ICP result is never dropped, so <strong>Don't show this reading</strong> isn't offered for it.</p>
+<p>Parameters that no device reading above feeds, and that aren't tests, are listed under <strong>Other parameters</strong>. Tap one to rename it.</p>
 <h2 id="multiple-probes">Multiple probes for one parameter</h2>
-<p>If you have two temperature probes, whether on the same controller or on two different ones, map them both. Cora keeps them as separate sources, and the <strong>Sources</strong> tab is where you pick which one drives the reading, or leave it on Automatic. You can compare them in <a href="/help/mobile-metric-detail">the parameter view</a>.</p>
-<p>When two sources report the same parameter, the newest measurement wins. A value on screen is only replaced by a reading with a later measurement time, whichever device it comes from. An older reading, or a device that re-sends an old one, goes to history and doesn't overwrite the current value. If you pinned a source in the <strong>Sources</strong> tab, Cora follows that source instead.</p>
+<p>If two readings show as the same parameter, whether from two probes on one device or from two different devices, a banner appears at the top of the list. It says, for example, <em>pH gets readings from 2 devices</em> (or <em>2 probes</em>) and is followed by what Cora is doing: <em>Showing the newest one.</em> or <em>Using</em> the device you chose. Tap it, or tap <strong>Choose one</strong>, to open the sheet.</p>
+<ul><li><strong>Newest reading</strong> (<em>Whichever device reported last</em>) lets Cora use whichever device reported most recently. The others stay in history.</li><li>Pick a device or probe to follow only that one. Each shows its value and how many minutes ago it reported. Your choice applies to that parameter everywhere in the tank: its tile, chart and alerts, not just one widget.</li><li><strong>Show one of them separately</strong> (<em>For example a second probe in the sump</em>) asks <strong>Which one should show separately?</strong> and then opens <strong>Show this reading as</strong> for the one you pick.</li></ul>
+<p>If a device you picked stops reporting, the banner says <em>Not reporting since</em> and the time, and offers <strong>Use the newest</strong>, so a dead probe can't leave a reading stuck.</p>
+<p>You can compare the sources in <a href="/help/mobile-metric-detail">the parameter view</a>.</p>
+<p>When two sources report the same parameter, the newest measurement wins. A value on screen is only replaced by a reading with a later measurement time, whichever device it comes from. An older reading, or a device that re-sends an old one, goes to history and doesn't overwrite the current value. If you picked a device, Cora follows that device instead.</p>
+<p>The tank profile also has a <strong>Parameter Sources</strong> section (it's hidden while you create a new tank). It covers the same choice in a shorter form. Use Parameter Mapping when you want every device and reading in one place.</p>
 <h2 id="recording-probe-care">Recording probe care</h2>
 <p>Probes drift. When you calibrate, clean or replace a probe, tell Cora, so it doesn't mistake the jump in the reading for a real change in the tank.</p>
 <ol><li>Tap the parameter's widget on the dashboard, for example pH, temperature, salinity or ORP.</li><li>Tap <strong>Record probe care</strong> (the sensor icon) in the top bar.</li><li>Pick what you did: <strong>Calibrated</strong>, <strong>Cleaned</strong>, <strong>Replaced</strong>, <strong>Repositioned</strong> or <strong>Compared to reference</strong>. You can add a <strong>Reference reading</strong> and a note.</li><li>Tap <strong>Log probe care</strong>.</li></ol>
 <p>The parameter view then shows how long ago that probe was calibrated. Probe care also works well as a recurring <a href="/help/mobile-maintenance">maintenance task</a>.</p>
 <aside class="cal cal-note"><p class="cal-t">Calibration dates explain disagreements</p><p>When a probe and a test kit disagree, check when you last calibrated the probe. That's usually the answer.</p></aside>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-schedules"><span>Previous</span><b>Scheduling equipment</b></a><a class="pn-n" href="/help/mobile-consumables"><span>Next</span><b>Consumables and refill alerts</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.240 and Cora Mobile 1.4.16. Last checked 2026-10-13.</p>
+      <p class="stamp">Written for Cora Max 0.28.275 and Cora Mobile 1.4.24. Last checked 2026-11-03.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>
@@ -592,7 +600,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/help/search.json?v=d076232951').then(function (r) { return r.json(); })
+    fetch('/help/search.json?v=0cb74b3874').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "en"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';

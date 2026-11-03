@@ -2,7 +2,7 @@
 title: Einen Wasserwert genauer ansehen
 description: Tippe auf ein Widget, um den ganzen Verlauf eines Wasserwerts zu sehen, Quellen zu vergleichen, einen falschen Messwert auszuschließen und Sondenpflege festzuhalten.
 section: Cora Mobile
-reviewed: 2026-10-17
+reviewed: 2026-11-03
 order: 7
 group: Your dashboard
 ---
@@ -51,7 +51,7 @@ Eine Linie, die sich nicht bewegt, kann heißen, dass der Wasserwert stabil ist.
 
 Melden mehrere Quellen einen Wasserwert, hält Cora sie getrennt und mittelt sie nicht. Nutze das Dropdown **Quelle**, um dir jede anzusehen. So vergleichst du am schnellsten eine Sonde mit einem Testkit.
 
-Auf dem Dashboard steht der neueste. Ein aktueller Wert wird nur durch einen Messwert mit späterem Messzeitpunkt ersetzt, aus welcher Quelle auch immer. Ein älterer Messwert geht in den Verlauf und überschreibt nicht, was auf dem Widget steht. Hast du unter **Parameterzuordnung** eine Quelle festgelegt, folgt Cora stattdessen dieser Quelle.
+Auf dem Dashboard steht der neueste. Ein aktueller Wert wird nur durch einen Messwert mit späterem Messzeitpunkt ersetzt, aus welcher Quelle auch immer. Ein älterer Messwert geht in den Verlauf und überschreibt nicht, was auf dem Widget steht. Hast du unter **Parameterzuordnung** ein Gerät gewählt, folgt Cora stattdessen diesem Gerät.
 
 Liegen eine Sonde und deine von Hand eingetragenen Tests dauerhaft um denselben Betrag auseinander, muss meist die Sonde kalibriert werden.
 
@@ -59,7 +59,7 @@ Ein [ICP-Ergebnis](/help/mobile-icp-health) ist eine nützliche dritte Meinung, 
 
 ## Festlegen, welcher Quelle ein Messwert folgt {#choosing-which-source-a-widget-trusts}
 
-Die Quelle wird pro Becken und pro Wasserwert festgelegt, nicht pro Widget. Geh zu **Einstellungen**, tippe auf das Becken, dann auf **Parameterzuordnung** und dann auf den Tab **Quellen**. Wähl eine Sonde oder **Automatisch (neueste Messung gewinnt)**. Die Wahl gilt für diesen Wasserwert überall im Becken. Mehr dazu unter [Parameterzuordnung](/help/mobile-probes).
+Die Quelle wird pro Becken und pro Wasserwert festgelegt, nicht pro Widget. Geh zu **Einstellungen**, tippe auf das Becken, dann auf **Parameterzuordnung**. Melden mehrere Geräte einen Parameter, gibt es oben in der Liste ein Banner wie *pH erhält Messwerte von 2 Geräten*, auf dem du **Einen wählen** antippst. Wähl ein Gerät oder **Neuester Messwert**. Die Wahl gilt für diesen Wasserwert überall im Becken. Willst du einen Messwert als eigenen Parameter getrennt halten, zum Beispiel eine zweite Sonde im Technikbecken, nutze **Einen davon separat anzeigen** oder **Neuer Parameter…**. Mehr dazu unter [Parameterzuordnung](/help/mobile-probes#multiple-probes).
 
 ## Einen falschen Messwert ausschließen {#excluding-a-bad-reading}
 
@@ -81,7 +81,7 @@ Tippe auf **Sondenpflege erfassen** (das Sensorsymbol in der oberen Leiste) und 
 
 ## Einen Messwert von Hand eintragen {#logging-a-reading-by-hand}
 
-Messwerte trägst du auf dem Dashboard ein, nicht auf diesem Bildschirm. Tippe unter den Widgets auf **Wasserwerte protokollieren** und gib ein, was dein Testkit anzeigt. Die Liste ist gruppiert, und die Gruppe **Spurenelemente** umfasst Jod, Eisen und Kupfer in µg/L und Kalium in mg/L. Von Hand eingetragene Messwerte zählen genauso viel wie alle anderen. Sie bekommen ihre eigene Quelle und Zeit, erscheinen im Diagramm und fließen in Reef Buddy ein. Mit ihnen prüft Cora auch deine Ausrüstung.
+Messwerte trägst du auf dem Dashboard ein, nicht auf diesem Bildschirm. Tippe unter den Widgets auf **Wasserwerte protokollieren** und gib ein, was dein Testkit anzeigt. Die Liste ist gruppiert, und die Gruppe **Spurenelemente** umfasst Jod, Eisen und Kupfer in µg/L und Kalium in mg/L. Von Hand eingetragene Messwerte zählen genauso viel wie alle anderen. Sie bekommen ihre eigene Quelle und Zeit, erscheinen im Diagramm und fließen in Reef Buddy ein. Mit ihnen prüft Cora auch deine Ausrüstung. Soll das Ergebnis eines Testkits als eigener Parameter getrennt von dem einer Sonde angezeigt werden, wähl es unter **Tests und Laborergebnisse** in der [Parameterzuordnung](/help/mobile-probes#tests-and-lab-results) aus.
 
 :::note Cora prüft seltsam aussehende Eingaben nach
 Liegt ein Wert weit weg von dem, wo das Becken bisher war, bittet Cora dich vor dem Speichern um Bestätigung. Das fängt ein Komma an der falschen Stelle ab oder einen Messwert, der beim falschen Wasserwert eingetragen wurde. Bestätigst du, wird der Messwert wie gewohnt gespeichert.

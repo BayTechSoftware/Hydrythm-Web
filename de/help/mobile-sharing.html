@@ -125,6 +125,7 @@
 <li><a href="/de/help/mobile-plans">Pläne und Abos</a></li>
 <li><a href="/de/help/mobile-data-export">Daten exportieren und Konto löschen</a></li>
 <li><a href="/de/help/mobile-support">Ein Problem melden</a></li>
+<li><a href="/de/help/mobile-partners">Verbundene Partner</a></li>
 </ul></details>
 <p class="nav-sec" lang="en">Cora Max</p>
 <details class="nav-g">
@@ -186,9 +187,9 @@
 <ul><li><strong>Quadratisch</strong> (1:1) ist für einen Beitrag oder eine Nachricht.</li><li><strong>Story</strong> (9:16) ist für eine Story im Vollbild.</li></ul>
 <h2 id="sending-it">Verschicken</h2>
 <p><strong>Teilen</strong> öffnet das übliche Teilen-Menü deines Handys, du kannst die Karte also überallhin schicken, wohin dein Handy ein Bild schicken kann. Nichts verlässt dein Konto, bis du wählst, wohin es geht.</p>
-<aside class="cal cal-note"><p class="cal-t">Ein Schnappschuss gibt keinen Zugang</p><p>Ein Schnappschuss ist nur ein Bild. Er lässt niemanden in dein Konto, deinen Verlauf oder an deine Ausrüstung. Kümmert sich jemand um das Becken, während du weg bist, nutze <a href="/de/help/mobile-vacation">Verreisen</a>. Das erstellt eine Seite nur zum Lesen für diese Person.</p></aside>
+<aside class="cal cal-note"><p class="cal-t">Ein Schnappschuss gibt keinen Zugang</p><p>Ein Schnappschuss ist nur ein Bild. Er lässt niemanden in dein Konto, deinen Verlauf oder an deine Ausrüstung. Kümmert sich jemand um das Becken, während du weg bist, nutze <a href="/de/help/mobile-vacation">Verreisen</a>. Das erstellt eine Seite nur zum Lesen für diese Person. Kümmert sich eine Wartungsfirma um dein Becken, kann sie es über <a href="/de/help/mobile-partners">Verbundene Partner</a> mit einem Code einsehen, den du ihr gibst.</p></aside>
       <nav class="pn" aria-label="Weiterlesen"><a class="pn-p" href="/de/help/mobile-widgets"><span>Zurück</span><b>Widget-Referenz</b></a><a class="pn-n" href="/de/help/mobile-devices"><span>Weiter</span><b>Geräte hinzufügen, bearbeiten und entfernen</b></a></nav>
-      <p class="stamp">Geschrieben für Cora Max 0.28.240 und Cora Mobile 1.4.16. Zuletzt geprüft am 2026-10-13.</p>
+      <p class="stamp">Geschrieben für Cora Max 0.28.275 und Cora Mobile 1.4.24. Zuletzt geprüft am 2026-11-03.</p>
       <p class="ask">Kommst du nicht weiter? Schreib eine E-Mail an <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, wir helfen dir.</p>
     </article>
   </main>
@@ -579,7 +580,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/de/help/search.json?v=78d2fe7c0c').then(function (r) { return r.json(); })
+    fetch('/de/help/search.json?v=cb3d3ca337').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "de"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Die Suche ist nicht verf\u00fcgbar. Nutze die Navigation." + '</li>';

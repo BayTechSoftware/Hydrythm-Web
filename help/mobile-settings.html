@@ -125,6 +125,7 @@
 <li><a href="/help/mobile-plans">Plans and subscriptions</a></li>
 <li><a href="/help/mobile-data-export">Exporting your data and deleting your account</a></li>
 <li><a href="/help/mobile-support">Reporting a problem</a></li>
+<li><a href="/help/mobile-partners">Connected partners</a></li>
 </ul></details>
 <p class="nav-sec" lang="en">Cora Max</p>
 <details class="nav-g">
@@ -185,9 +186,10 @@
 <ul><li><strong>Add tank</strong> opens a new tank profile.</li><li><strong>Reorder tanks</strong> sets the order they come up when you swipe the dashboard. It also decides which tanks get Reef Buddy and AI monitoring when your plan covers fewer tanks than you have. See <a href="/help/mobile-plans#paid-tiers">Plans and subscriptions</a>.</li><li><strong>Removed tanks</strong> keeps tanks you've removed. Removing only hides a tank, and <strong>Restore</strong> brings it back with its readings, journal and devices.</li></ul>
 <p>Adding, removing and restoring tanks are covered step by step in <a href="/help/mobile-tanks">Managing your tanks</a>.</p>
 <p>Open a tank and its settings page has three parts.</p>
-<ul><li><strong>Settings</strong> holds <strong>Edit tank</strong>, <strong>Parameter Mapping</strong>, <strong>Alert thresholds</strong>, <strong>Units</strong>, <strong>Primary Cora Max</strong> and <strong>Vacation mode</strong>.</li><li><strong>Records &amp; Reports</strong> holds <strong>Journal</strong>, <strong>Maintenance</strong>, <strong>Livestock</strong>, <strong>Reef Buddy</strong>, <strong>Health Reports</strong>, <strong>ICP Reports</strong>, <strong>Activity</strong> and <strong>Guided setup</strong>.</li><li><strong>Devices on this tank</strong> is a read-only list.</li></ul>
+<ul><li><strong>Settings</strong> holds <strong>Edit tank</strong>, <strong>Parameter Mapping</strong>, <strong>Alert thresholds</strong>, <strong>Units</strong>, <strong>Primary Cora Max</strong>, <strong>Vacation mode</strong> and <strong>Connected partners</strong>.</li><li><strong>Records &amp; Reports</strong> holds <strong>Journal</strong>, <strong>Maintenance</strong>, <strong>Livestock</strong>, <strong>Reef Buddy</strong>, <strong>Health Reports</strong>, <strong>ICP Reports</strong>, <strong>Activity</strong> and <strong>Guided setup</strong>.</li><li><strong>Devices on this tank</strong> is a read-only list.</li></ul>
 <p><strong>Parameter Mapping</strong> is where you choose which device feeds each reading. See <a href="/help/mobile-probes">Parameter Mapping</a>. <strong>Units</strong> sets how this tank shows its readings, including litres or US or UK gallons for volume. See <a href="/help/mobile-tank-profile">Your tank profile</a>. <strong>Primary Cora Max</strong> is which device polls that tank's equipment, and is explained in <a href="/help/mobile-multi-device#primary-cora-max">More than one Cora device</a>. To add or remove a device, use the <a href="/help/mobile-devices">Devices tab</a>.</p>
 <p><strong>Vacation mode</strong> is a plan for whoever looks after the tank while you're away. You set the dates and make a checklist of jobs, with how often each one needs doing. Cora turns it into a simple read-only page you can share with your tank sitter. They don't need an account. More in <a href="/help/mobile-vacation">Going away</a>.</p>
+<p><strong>Connected partners</strong> lets a maintenance company read this tank with a one-time code you give it and, if you allow it, log services in your Journal. It needs a paid plan. More in <a href="/help/mobile-partners">Connected partners</a>.</p>
 <h2 id="app-settings">App Settings</h2>
 <ul><li><strong>Notifications</strong> decides what reaches your phone. More in <a href="/help/mobile-notifications">Notifications</a>.</li><li><strong>Briefing time</strong> is the hour your daily Reef Buddy briefing arrives, in your own time zone. It's one setting for the account, shared with Cora Max. More in <a href="/help/mobile-reef-buddy#when-it-arrives">Reef Buddy</a>.</li><li><strong>Language</strong> is the account's language. See below.</li><li><strong>Appearance</strong> has a <strong>Dark Mode</strong> switch. On, Cora Mobile uses the dark Deep Reef theme. Off, it uses the light Luminous Azure theme.</li><li><strong>Device access</strong> is explained below.</li><li><strong>Help &amp; Support</strong> is where you contact support, report a bug and find the Cora website and FAQ. See below.</li><li><strong>About</strong> is explained below.</li></ul>
 <h2 id="language">Language</h2>
@@ -211,7 +213,7 @@
 <p>This shows the version you're running, and a few more rows.</p>
 <ul><li><strong>Replay tips</strong> plays the first-run dashboard tour again, the one described in <a href="/help/mobile-tour#the-first-run-tour">The first-run tour</a>. It's handy after an update, or when someone new starts using Cora Mobile.</li><li><strong>Privacy Policy</strong> and <strong>Terms and Conditions</strong> link to the legal pages.</li><li><strong>Licenses</strong> lists the open-source software Cora Mobile is built on.</li></ul>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-journeys"><span>Previous</span><b>Guided journeys</b></a><a class="pn-n" href="/help/mobile-multi-device"><span>Next</span><b>More than one Cora device</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.240 and Cora Mobile 1.4.16. Last checked 2026-10-18.</p>
+      <p class="stamp">Written for Cora Max 0.28.275 and Cora Mobile 1.4.24. Last checked 2026-11-03.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>
@@ -602,7 +604,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/help/search.json?v=d076232951').then(function (r) { return r.json(); })
+    fetch('/help/search.json?v=0cb74b3874').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "en"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';

@@ -2,7 +2,7 @@
 title: Sözlük
 description: Cora'nın akvaryum, kaynak, widget, eşik, Birincil Cora Max, besleme modu, sahne ve Cora Mobile ve Cora Max'te göreceğiniz diğer sözcüklerle ne kastettiği.
 section: Help
-reviewed: 2026-10-18
+reviewed: 2026-11-03
 order: 5
 ---
 
@@ -120,7 +120,7 @@ Bir probu, ölçümleri bilinen bir referansla, genellikle bir kalibrasyon çöz
 
 ## Kaynak {#source}
 
-Bir ölçümün nereden geldiği: bir prob, bir kontrolör, bir laboratuvar sonucu ya da test kitiyle siz. Her ölçümün bir kaynağı vardır, böylece Cora iki kaynak uyuşmadığında size söyleyebilir. Aynı ölçümü birden fazla kaynak bildiriyorsa hangisine güveneceğinizi [Parametre Eşlemesi](/help/mobile-probes) içinde seçersiniz ya da onu Otomatik bırakırsınız.
+Bir ölçümün nereden geldiği: bir prob, bir kontrolör, bir laboratuvar sonucu ya da test kitiyle siz. Her ölçümün bir kaynağı vardır, böylece Cora iki kaynak uyuşmadığında size söyleyebilir. Aynı ölçümü birden fazla kaynak bildiriyorsa hangisine güveneceğinizi [Parametre Eşlemesi](/help/mobile-probes) içinde seçersiniz ya da en yeni ölçümü kullanmaya devam edersiniz.
 
 ## Komut sonucu {#command-outcome}
 
@@ -148,7 +148,7 @@ Suyunuzda ölçebileceğiniz alkalinite, kalsiyum, nitrat ya da sıcaklık gibi 
 
 ## Parametre Eşlemesi {#parameter-mapping}
 
-Bir kontrolördeki her probun neyi ölçtüğünü ve her ölçümü hangi cihazın sağladığını Cora'ya söylediğiniz yer. [Parametre Eşlemesi ve problar](/help/mobile-probes) sayfasına bakın.
+Her cihazın ölçümlerinin tek listede göründüğü, her ölçümün hangi akvaryum parametresi olarak gösterileceğini (bir test kiti ya da ICP sonucu için kendi parametresi dahil) ve birden fazla cihaz bildirdiğinde bir parametreyi hangisinin besleyeceğini seçtiğiniz yer. [Parametre Eşlemesi ve problar](/help/mobile-probes) sayfasına bakın.
 
 ## Priz {#outlet}
 

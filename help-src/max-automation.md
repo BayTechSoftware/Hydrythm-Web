@@ -2,7 +2,7 @@
 title: Scenes on Cora Max
 description: Build, run, edit and delete scenes on Cora Max, from Settings → Automations or a scene tile on the dashboard.
 section: Cora Max
-reviewed: 2026-10-24
+reviewed: 2026-11-01
 order: 9
 group: Alerts and automation
 twin: mobile-automation

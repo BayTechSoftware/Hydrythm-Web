@@ -2,7 +2,7 @@
 title: Ustawienia Cora Max
 description: Wszystkie ustawienia Cora Max, od nazwy, jasności i nocnego przygaszania po blokadę rodzicielską, język, Wi-Fi, ponowne parowanie i ustawienia fabryczne.
 section: Cora Max
-reviewed: 2026-10-18
+reviewed: 2026-11-03
 order: 14
 group: Settings and account
 twin: mobile-settings
@@ -52,13 +52,13 @@ Pod kartą są te sekcje.
 | Sekcja | Co obejmuje |
 |---|---|
 | **EKRAN** | **Jasność**. **Przygaszaj po** i **Poziom przygaszenia**: po jakim czasie bez dotyku ekran się przyciemnia i jak bardzo. **Przygaszanie nocne**, z **Od**, **Do** i **Jasność nocna**. **Pokaż zegar** na górnym pasku. **Włącz ekran przy alarmie** |
-| **DŹWIĘK I GŁOS** | **Głośnik** (**Wewnętrzny**, **3.5 mm** albo **BT**), **Dźwięk alertu** i jego głośność, **Alerty głosowe** oraz włączanie i wyłączanie **Słowa aktywującego**. Więcej w [Rozmowie z Corą](/help/max-voice#sound-and-wake-word-settings) |
+| **DŹWIĘK I GŁOS** | **Głośnik** (**Wewnętrzny**, **3.5 mm** albo **BT**), **Dźwięk alertu** i jego głośność, **Alerty głosowe**, włączanie i wyłączanie **Słowa aktywującego** oraz **Dźwięki dotyku**, czyli kliknięcie przy dotknięciu ekranu. Więcej w [Rozmowie z Corą](/help/max-voice#sound-and-wake-word-settings) |
 | **REEF BUDDY** | **Podsumowanie Reef Buddy** odczytuje poranne podsumowanie na głos. **Godzina podsumowania** to godzina, o której przychodzi, taka sama na każdym urządzeniu |
 | **BLOKADA RODZICIELSKA** | Włączanie i wyłączanie **Blokady rodzicielskiej** oraz **Blokuj po**. Zobacz [Blokada rodzicielska](#child-lock) niżej |
 | **POWIADOMIENIA** | **Historia powiadomień**, skrzynka całego Twojego konta z każdym podsumowaniem, alarmem i komunikatem konta |
 | **JĘZYK** | Jeden język, którego używa całe konto: English, Deutsch, Español, Français, Italiano, Polski albo Türkçe. Zobacz notatkę niżej |
 | **SIEĆ I AKTUALIZACJE** | **Wi-Fi**, **Aktualizacja oprogramowania** i **Odpytywanie urządzeń**, które pokazuje, jak często ten Cora Max odczytuje Twoje urządzenia (zmieniasz to w Cora Mobile) |
-| **STAN** | Po jednej karcie na każde akwarium, które pokazuje ten ekran, ze **Stanem odpytywania**, **Ostatnim odpytaniem**, **Ostatnim zapisem do chmury** i **Zapisem w chmurze**. Tylko do odczytu |
+| **STAN** | Po jednej karcie na każde akwarium, które pokazuje ten ekran. **Urządzenia** mówi, ile urządzeń akwarium się zgłasza (*Zgłasza się 9 z 10*), **Ostatni odczyt** pokazuje, kiedy przyszedł najnowszy odczyt, a **Nie zgłaszają się** wymienia każde urządzenie, które ucichło. Akwarium z Apex pokazuje też **Odpytywanie Apex**, **Ostatnie odpytanie** i **Ostatni zapis do chmury**. **Zapis w chmurze** pojawia się tylko wtedy, gdy Cora Cloud odrzuca zapis. Tylko do odczytu |
 | **POMOC I O APLIKACJI** | **Pomoc i wsparcie** (kontakt z pomocą albo zgłoszenie problemu) i **O aplikacji** (wersja i licencje) |
 | **RESET** | **Sparuj urządzenie ponownie** i **Ustawienia fabryczne**. Zobacz niżej |
 

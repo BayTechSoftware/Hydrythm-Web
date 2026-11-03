@@ -2,7 +2,7 @@
 title: Nasıl yaparım...?
 description: Cora Mobile'da ve Cora Max'te sık yapılan işlerin listesi. Hesap açmaktan Cora Max'i eşleştirmeye ve bir planı iptal etmeye kadar her biri tam adımlara bağlanır.
 section: Help
-reviewed: 2026-10-17
+reviewed: 2026-11-03
 order: 2
 ---
 
@@ -17,6 +17,8 @@ Yapmak istediğiniz işi seçin. Her bağlantı o işin adımlarını açar. Bir
 - [E-postamı ya da şifremi değiştirme](/help/faq#change-email-or-password)
 - [Apple ile giriş yapıp laboratuvar e-postalarını yine de alma](/help/mobile-account#lab-and-icp-emails)
 - [Eşimin de akvaryumu görmesini sağlama](/help/faq#can-two-people-use-the-same-tank)
+- [Bir bakım şirketinin akvaryumumu görmesine izin verme](/help/mobile-partners#connecting)
+- [Bir bakım şirketinin bağlantısını kesme](/help/mobile-partners#disconnecting)
 - [Dili değiştirme](/help/mobile-settings#language)
 
 ## Akvaryumlarınız

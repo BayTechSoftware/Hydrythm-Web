@@ -2,7 +2,7 @@
 title: El perfil de tu acuario
 description: Rellena o cambia el volumen, el tipo, la fauna, la iluminación, la dosificación y el equipo de tu acuario, que Cora usa para valorar las lecturas y calcular dosis.
 section: Cora Mobile
-reviewed: 2026-10-24
+reviewed: 2026-11-03
 order: 3
 group: Getting started
 ---
@@ -57,7 +57,7 @@ En el perfil, las secciones aparecen así. Toca una para abrirla. El icono de in
 
 Cuando añades un calentador, una bomba, una luz o un skimmer en **Control de temperatura**, **Flujo y filtración** o **Iluminación**, Cora te sugiere marcas y modelos mientras escribes. Si el tuyo no está en la lista, escríbelo igual. Cora guarda lo que pongas.
 
-**Fuentes de parámetros** no aparece mientras añades un acuario nuevo. Cubre la misma elección que **Asignación de parámetros** en los ajustes del acuario, que te da control total sobre cada sonda. Consulta [Asignación de parámetros](/help/mobile-probes).
+**Fuentes de parámetros** no aparece mientras añades un acuario nuevo. Cubre la misma elección que **Asignación de parámetros** en los ajustes del acuario, que muestra cada dispositivo y sus lecturas en un solo lugar. Consulta [Asignación de parámetros](/help/mobile-probes).
 
 ![La mitad inferior de un perfil de acuario en Cora Mobile](img/mobile-tank-profile-devices.webp "Fuentes de parámetros y Plagas y tratamiento, y Quitar acuario al final.")
 

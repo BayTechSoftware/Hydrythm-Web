@@ -2,7 +2,7 @@
 title: Güncellemeler ve kurtarma
 description: Cora Max kendini nasıl günceller, yükleme penceresi ve güncelleme kanalı, sürümü kontrol etme, Kurtarma PIN'i ve Cora Max açılmazsa ne yapılacağı.
 section: Cora Max
-reviewed: 2026-10-17
+reviewed: 2026-11-03
 order: 15
 group: Settings and account
 ---
@@ -27,7 +27,7 @@ Aynı ekranda **Güncelleme ayarları** altında:
 
 - **Yükleme penceresi**, güncellemelerin yüklenebileceği saatleri bu ekranın yerel saatine göre bir **Başlangıç** ve **Bitiş** saatiyle belirler. Saat dilimi Cora Mobile'da **Cihazlar →** Cora Max'iniz **→ Saat dilimi** altında ayarlanır.
 
-Bu ekranın cihazlarınızı okuyup okumadığını ve Cora Cloud'a kaydedip kaydetmediğini görmek için **Cora Max Ayarları**'na dönün ve **DURUM**'a kaydırın. Her akvaryum için **Yoklama durumu**, **Son yoklama**, **Son bulut yazımı** ve **Bulut kaydı** gösterilir.
+Bu ekranın cihazlarınızı okuyup okumadığını ve Cora Cloud'a kaydedip kaydetmediğini görmek için **Cora Max Ayarları**'na dönün ve **DURUM**'a kaydırın. Her akvaryum için kaç cihazın veri gönderdiği ve son okumanın ne zaman geldiği gösterilir; Apex olan bir akvaryumda ayrıca **Apex yoklaması**, **Son yoklama** ve **Son bulut yazımı** görünür, bir kayıt reddedildiğinde de **Bulut kaydı** çıkar.
 
 Bir güncelleme yavaş iniyorsa aynı ekrandaki **Ağ hız testi** ile bağlantınızı kontrol edin. **Testi başlat**, güncelleme dosyasının en fazla 16 MB'ını Cora Cloud'dan en çok 20 saniye boyunca indirir ve hızı MB/s olarak gösterir.
 

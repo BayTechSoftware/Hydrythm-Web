@@ -1,63 +1,92 @@
 ---
 title: Parametre Eşlemesi ve problar
-description: Her ölçümü hangi probun sağlayacağını seçin, her probun neyi ölçtüğünü Cora'ya söyleyin, prob kalibrasyonunu ve temizliğini kaydedin.
+description: Her cihazın ölçümlerini tek listede görün, her ölçümün hangi parametre olarak göründüğünü ve hangi cihazın beslediğini seçin, prob kalibrasyonunu ve temizliğini kaydedin.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-11-03
 order: 15
 group: Equipment
 ---
 
-Her probun neyi ölçtüğünü ve iki prob aynı şeyi bildirdiğinde hangisine güveneceğini Cora'ya söylemek için **Parametre Eşlemesi**'ni kullanın. **Ayarlar**'a gidin, akvaryumu açın ve **Parametre Eşlemesi**'ne dokunun.
+Her ölçümün hangi parametre olarak görüneceğini ve iki cihaz aynı şeyi bildirdiğinde hangisine güveneceğini Cora'ya söylemek için **Parametre Eşlemesi**'ni kullanın. **Ayarlar**'a gidin, akvaryumu açın ve **Parametre Eşlemesi**'ne dokunun.
 
 **Akvaryumu düzenle** ile **Uyarı eşikleri** arasında yer alır. Panonun üstündeki kalem **Akvaryumu düzenle**'yi açar ve orada bu seçenek yoktur. Ona Neptune Apex cihaz sayfalarından da ulaşabilirsiniz.
 
-Ekranda bir arama alanı (**Parametre ara**) ve iki sekme var: **Eşleme** ve **Kaynaklar**. Arama parametre adlarına, prob adlarına, cihazlara ve markalara bakar. Aynı arama alanı her parametre seçicisinde bulunur.
+Ekran tek bir cihaz listesidir ve üstünde bir arama alanı (**Parametre ara**) vardır. Arama parametre adlarına, ölçüm adlarına, cihazlara ve markalara bakar. Aynı arama alanı her parametre seçicisinde bulunur.
 
-## Problar: her birinin ne olduğunu Cora'ya söyleme {#mapping}
+## Tek bir cihaz listesi {#mapping}
 
-![Eşleme sekmesi](img/mobile-probe-mapping.webp "Her prob, onu bildiren cihaza göre gruplanmış ve eşlendiği parametreyle.")
+Arama alanının altında Cora ekranı tek satırda anlatır: her cihazın ölçümleri ve hangi akvaryum parametresi olarak gösterildikleri. Değiştirmek için bir ölçüme dokunun.
 
-İlk **Eşleme** sekmesi açılır. Cora'nın bildiği her probu, onu bildiren cihaza göre gruplanmış ve güncel ölçümüyle birlikte listeler. Cora standart prob adlarını kendisi tanır ve her satır neyle eşleştirdiğini gösterir. Genellikle yalnızca yerleştiremediği birkaçını düzeltmeniz gerekir.
+- **Her cihaz, ona verdiğiniz adla görünür.** Adı olmayan bir cihaz markasının altında görünür, aynı markadan adsız iki cihaz numaralanır ("AquaWiz 1", "AquaWiz 2"). Seri numaraları ve cihaz kimlikleri hiçbir zaman ad olarak kullanılmaz; cihazın kendi sayfasında **Ayrıntıları göster** düğmesinin arkasındadır. Bkz. [Bir cihazın sayfası](/help/mobile-devices#a-devices-page).
+- **Her ölçüm, onu gerçekten bildiren cihazın altında listelenir.** Her satır cihazın ölçüm için kullandığı adı, son değerini ve **Gösterim**'i, yani beslediği akvaryum parametresini gösterir. Gizlediğiniz bir ölçümde **Gösterilmiyor** yazar.
+- **Bir akvaryumun tek bir Neptune Apex'i vardır**, onu kaç Cora cihazı okursa okusun. Probları tek bir **Apex** bölümünün (ya da ona verdiğiniz adın) altında tek listedir. DŌS ya da Trident gibi bir Apex genişletme modülü kendi adıyla listelenir. Ölçümleri başka yere yönlendirilemez; birine dokunmak bunun yerine parametreyi yeniden adlandırmanızı sağlar.
+- **Başka akvaryumlarla paylaşılan bir cihaz, bağlı olduğu her akvaryumun listesinde görünür.** Bölümünde *Şu akvaryumlarda da var:* ve diğer akvaryumların adları, ardından *Buradaki değişiklikler yalnızca bu akvaryuma uygulanır.* yazar.
+- **İki ya da daha az ölçümü olan bir cihaz açık başlar**; daha uzun olan kapalı başlar ve ölçüm sayısını gösterir, ölçümlerinden biri başka bir cihazla aynı parametreyi paylaşıyorsa o hariç. Açmak ya da kapatmak için cihazın adına dokunun. Arama yaparken tüm eşleşmeler açıktır.
 
-Her satırda üç seçenek var.
+Cora standart ölçüm adlarını kendisi tanır, bu yüzden çoğu satır zaten doğru parametreyi gösterir. Yalnızca yerleştiremediği birkaçını düzeltin.
 
-- **Bir Cora parametresi**, o probun ölçtüğü metriktir.
-- **Özel…**, Cora'da standart bir parametresi olmayan problar içindir. **Özel metrik (BÜYÜK HARF token)** alanına kısa, büyük harfli bir ad yazın, Cora da onu bu adla izler.
-- **Yok say**, hiç kaydedilmesini istemediğiniz problar içindir.
+Bir değişiklik seçtiğiniz anda kaydedilir ve Kaydet düğmesi yoktur. Bir sonraki ölçümler geldiğinde çalışmaya başlar. Burada yaptığınız bir düzeltme geçmişi yeniden yazmaz: geçmiş ölçümler olduğu yerde kalır, yalnızca o andan sonra kaydedilenler değişir. Bu düzenden önce yaptığınız eşlemeler olduğu gibi korunur.
 
-Yok sayılan ya da eşlenmemiş bir prob panoda görünmez ve uyarı tetiklemez.
-
-Bir eşleme, bir sonraki ölçümler geldiğinde çalışmaya başlar. Burada yaptığınız bir düzeltme geçmişi yeniden yazmaz, yalnızca o andan sonra kaydedilenleri değiştirir. Değişikliklerinizi uygulamak için **Kaydet**'e dokunun.
-
-:::warning Cora eşlenmemiş bir probu göremez
-Prob çalıştığı halde bir parametrede hiç ölçüm görünmüyorsa önce eşlemesini kontrol edin.
+:::warning Cora gizlediğiniz bir ölçümü göremez
+Cihaz çalıştığı halde bir parametrede hiç ölçüm görünmüyorsa ölçümünde **Gösterilmiyor** yazıp yazmadığına bakın.
 :::
-
-## Her ölçüm nereden geliyor {#sources}
-
-![Kaynaklar sekmesi](img/mobile-probes.webp "Her ölçüm, onu sağlayan prob ve Otomatik mi yoksa sizin seçiminiz mi olduğu.")
-
-**Kaynaklar** sekmesi, Cora'nın bu akvaryum için izlediği pH ya da sıcaklık gibi her metriği listeler ve şu anda onu hangi probun sağladığını gösterir.
-
-Bağladığınız tüm kontrolörlerde onu bildiren her probu görmek için bir ölçüme dokunun. Her biri markasını, prob için kullandığı kendi adını ve canlı değerini gösterir. Sabitlemek için birini seçin ya da Cora'nın en son bildiren probu kullanması için **Otomatik (en yeni ölçüm kazanır)**'ı seçin. Diğerleri geçmişte kalır.
-
-Her ölçümün yanındaki etiket hangisinin geçerli olduğunu gösterir: **Otomatik** ya da bir probu sabitlediğinizde **Sizin seçiminiz**. Seçiminiz tek bir widget için değil, o ölçüm için tüm akvaryumda geçerlidir.
-
-Sabitlenmiş bir prob bildirmeyi bırakırsa Cora ondan en son ne zaman haber alındığını gösterir ve **Otomatik'e Dön**'ü önerir. Böylece ölü bir prob bir ölçümü takılı bırakamaz.
-
-Bir ölçüme kendi görünen adını vermek için **Yeniden adlandır**'a dokunun. Bu, probun kendisine verdiğiniz addan ayrıdır. Panonuzda, uyarılarda ve Reef Buddy'de görünen budur.
-
-Akvaryum profilinde de bir **Parametre Kaynakları** bölümü vardır (yeni bir akvaryum oluştururken gizlidir). Aynı şeyi daha kısa bir biçimde ayarlar. Her kontrolördeki her probu tek yerde görmek istediğinizde Parametre Eşlemesi'ni kullanın.
 
 :::note Sızıntı sensörü burada yeniden atanamaz
-Bir sızıntı sensörünün alarmı kendi adına bağlıdır, bu yüzden bu seçicinin dışında tutulur. Her zamanki gibi çalışır.
+Bir sızıntı sensörünün alarmı kendi adına bağlıdır, bu yüzden satırında *Sızıntı alarmı bu ada bağlı olduğundan burada değiştirilemez.* yazar. Her zamanki gibi çalışır.
 :::
+
+:::note Güncelleme bekleyen cihazlar
+Yazılım güncellemesi bekleyen bir cihazda *Buradaki değişiklikler bu cihazın yazılım güncellemesinden sonra geçerli olur.* yazar. Seçiminiz kaydedilir ve güncelleme kurulunca uygulanır.
+:::
+
+## Bir ölçümün neyi göstereceğini seçme {#shows-as}
+
+**Bu ölçümü şu olarak göster**'i açmak için bir ölçüme dokunun. En üstte ölçümün kendisi vardır: cihaz, ölçümün adı ve değeri. Altında:
+
+- **Parametreleriniz** bu akvaryumun her parametresini listeler. Her seçenek ölçümlerinin nereden geldiğini söyler, böylece benzer iki ad arasında tahmin yürütmeniz gerekmez:
+  - *Kaynak:* ve onu besleyen cihazın adı, ya da bu ölçüm zaten o parametre olarak gösteriliyorsa *Ayrıca kaynak:* ve başka bir cihazın adı.
+  - Cihazı susmuş bir parametre için, geçen süreyle birlikte *Şu anda hiçbir cihaz beslemiyor. Son değer …*
+  - Yalnızca kendi sonuçlarınız olan bir parametre için, son değerle birlikte *Kendi test sonuçlarınızdan* ya da *ICP sonuçlarından*.
+
+  Bir parametrenin yanındaki kalem (**Yeniden adlandır**) ona kendi adınızı verir. Panonuzda, uyarılarda ve Reef Buddy'de görünen budur. Sıfırlamak için adı boş bırakın.
+- **Daha fazla parametre** kapalıdır. Bu akvaryumda henüz olmayan standart parametreleri içerir.
+- **Yeni parametre…** diğer parametrelerinizden ayrı, kendi başına bir parametre oluşturur. Aşağıya bakın.
+- **Bu ölçümü gösterme** (*Cora bunu yok sayar*) ölçümün herhangi bir parametre olarak kaydedilmesini engeller. Gizlenen bir ölçüm hiçbir panoda görünmez ve uyarı tetiklemez.
+
+Sayfa *Seçtiğiniz anda kaydedilir. Geçmiş ölçümler olduğu yerde kalır.* ile biter.
+
+### Yeni parametre {#new-parameter}
+
+Bir ölçüm aynı adlı bir başkasıyla karışmasın istiyorsanız **Yeni parametre…** seçeneğini kullanın, örneğin sump'taki ikinci bir pH probu. Cora **Yeni parametre**'yi açar ve o cihazdan gelen ölçümün kendi parametresi olarak gösterileceğini, biriminin cihazdan geleceğini açıklar.
+
+1. Bir **Ad** yazın. İstediğiniz bir ad, örneğin *pH sump* veya *pH 2*, en fazla 32 karakter.
+2. **Oluştur**'a dokunun. Ad boş olduğu sürece **Oluştur** gri kalır. **İptal** pencereyi kapatır ve hiçbir şeyi değiştirmez.
+
+Ölçüm artık yeni parametreyi besler. Ad, yazdığınız yazımı korur. Zaten sahip olduğunuz bir parametrenin adını yazarsanız ölçüm ona katılır ve adı değişmez. Başka bir parametreden uyarı aralığı kopyalanmaz.
+
+## Testler ve laboratuvar sonuçları {#tests-and-lab-results}
+
+Kendi test kiti sonuçlarınız ve ICP sonuçlarınız en altta, **Testler ve laboratuvar sonuçları** içinde listelenir. Tek bir ICP raporu bile onlarca eleman içerdiğinden bölüm kapalı başlar. Açmak için dokunun. Sonuçlar **ICP sonuçları** ve **Test sonuçlarınız** altında gruplanır.
+
+Her sonuç, bir cihazın ölçümüyle aynı şekilde bir parametreye eşlenir. **Bu ölçümü şu olarak göster**'i açmak ve hangi parametre olarak görüneceğini seçmek için birine dokunun, örneğin bir test kitinin pH'ını bir probun pH'ından ayrı tutmak için. Cora bunu bölümde söyler: yeni sonuçlar seçiminize göre görünür, eskiler olduğu yerde kalır. Bir test ya da ICP sonucu asla atılmaz, bu yüzden onlar için **Bu ölçümü gösterme** sunulmaz.
+
+Yukarıdaki hiçbir ölçümün beslemediği ve test olmayan parametreler **Diğer parametreler** altında listelenir. Yeniden adlandırmak için birine dokunun.
 
 ## Bir parametre için birden fazla prob {#multiple-probes}
 
-İki sıcaklık probunuz varsa, ister aynı kontrolörde ister iki farklı kontrolörde olsun, ikisini de eşleyin. Cora onları ayrı kaynaklar olarak tutar. Ölçümü hangisinin sağlayacağını **Kaynaklar** sekmesinde seçersiniz ya da Otomatik'te bırakırsınız. İkisini [parametre görünümünde](/help/mobile-metric-detail) karşılaştırabilirsiniz.
+İki ölçüm aynı parametre olarak gösteriliyorsa, ister aynı cihazdaki iki probdan ister iki farklı cihazdan gelsin, listenin en üstünde bir afiş görünür. Örneğin *pH, 2 cihazdan ölçüm alıyor* (ya da *2 probdan*) der ve ardından Cora'nın ne yaptığını söyler: *En yenisi gösteriliyor.* ya da seçtiğiniz cihaz için *kullanılıyor*. Sayfayı açmak için ona ya da **Birini seçin**'e dokunun.
 
-İki kaynak aynı parametreyi bildirdiğinde en yeni ölçüm kazanır. Ekrandaki bir değerin yerini, hangi cihazdan gelirse gelsin, yalnızca daha geç bir ölçüm zamanı olan bir ölçüm alır. Daha eski bir ölçüm ya da eski bir ölçümü yeniden gönderen bir cihaz geçmişe gider ve güncel değerin üzerine yazmaz. **Kaynaklar** sekmesinde bir kaynağı sabitlediyseniz Cora onun yerine o kaynağı izler.
+- **En yeni ölçüm** (*En son bildiren cihaz*) Cora'nın en son bildiren cihazı kullanmasını sağlar. Diğerleri geçmişte kalır.
+- Yalnızca onu izlemek için bir cihaz ya da prob seçin. Her biri değerini ve kaç dakika önce bildirdiğini gösterir. Seçiminiz o parametre için akvaryumun her yerinde geçerlidir: kutucuğu, grafiği ve uyarıları, yalnızca tek bir widget değil.
+- **Birini ayrı göster** (*Örneğin sump'taki ikinci bir prob*) **Hangisi ayrı gösterilsin?** diye sorar, sonra seçtiğiniz için **Bu ölçümü şu olarak göster**'i açar.
+
+Seçtiğiniz bir cihaz bildirmeyi bırakırsa afiş *… tarihinden beri veri göndermiyor* der, saati gösterir ve **En yenisini kullan**'ı önerir. Böylece ölü bir prob bir ölçümü takılı bırakamaz.
+
+Kaynakları [parametre görünümünde](/help/mobile-metric-detail) karşılaştırabilirsiniz.
+
+İki kaynak aynı parametreyi bildirdiğinde en yeni ölçüm kazanır. Ekrandaki bir değerin yerini, hangi cihazdan gelirse gelsin, yalnızca daha geç bir ölçüm zamanı olan bir ölçüm alır. Daha eski bir ölçüm ya da eski bir ölçümü yeniden gönderen bir cihaz geçmişe gider ve güncel değerin üzerine yazmaz. Bir cihaz seçtiyseniz Cora onun yerine o cihazı izler.
+
+Akvaryum profilinde de bir **Parametre Kaynakları** bölümü vardır (yeni bir akvaryum oluştururken gizlidir). Aynı şeyi daha kısa bir biçimde ayarlar. Her cihazı ve her ölçümü tek yerde görmek istediğinizde Parametre Eşlemesi'ni kullanın.
 
 ## Prob bakımını kaydetme {#recording-probe-care}
 

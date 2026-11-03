@@ -2,7 +2,7 @@
 title: Paramètres de Cora Max
 description: Tous les réglages de Cora Max, du nom et de la luminosité au verrouillage enfant, à la langue, au Wi-Fi et à la réinitialisation d’usine.
 section: Cora Max
-reviewed: 2026-10-18
+reviewed: 2026-11-03
 order: 14
 group: Settings and account
 twin: mobile-settings
@@ -52,13 +52,13 @@ Sous la carte se trouvent ces sections.
 | Section | Contenu |
 |---|---|
 | **AFFICHAGE** | **Luminosité**. **Atténuer après** et **Niveau d’atténuation** : combien de temps sans contact avant que l’écran s’atténue, et à quel point. **Atténuation nocturne**, avec **De**, **À** et **Luminosité nocturne**. **Afficher l’horloge** dans la barre du haut. **Réveiller l’écran en cas d’alarme** |
-| **SON ET VOIX** | **Haut-parleur** (**Interne**, **3.5 mm** ou **BT**), **Son d’alerte** et son volume, **Alertes vocales**, et **Mot d’activation** activé ou désactivé. Plus de détails dans [Parler à Cora](/help/max-voice#sound-and-wake-word-settings) |
+| **SON ET VOIX** | **Haut-parleur** (**Interne**, **3.5 mm** ou **BT**), **Son d’alerte** et son volume, **Alertes vocales**, et **Mot d’activation** activé ou désactivé, et **Sons au toucher**, le clic quand vous touchez l’écran. Plus de détails dans [Parler à Cora](/help/max-voice#sound-and-wake-word-settings) |
 | **REEF BUDDY** | **Briefing Reef Buddy** lit le briefing du matin à voix haute. **Heure du briefing** est l’heure à laquelle il arrive, la même sur tous les appareils |
 | **VERROUILLAGE ENFANT** | **Verrouillage enfant** activé ou désactivé, et **Verrouiller après**. Voir [Verrouillage enfant](#child-lock) plus bas |
 | **NOTIFICATIONS** | **Historique des notifications**, la boîte de réception de tout votre compte avec chaque briefing, alarme et avis de compte |
 | **LANGUE** | La langue unique qu’utilise tout votre compte : English, Deutsch, Español, Français, Italiano, Polski ou Türkçe. Voir la note plus bas |
 | **RÉSEAU ET MISES À JOUR** | **Wi-Fi**, **Mise à jour du micrologiciel**, et **Interrogation des appareils**, qui indique à quelle fréquence ce Cora Max lit vos appareils (vous la changez dans Cora Mobile) |
-| **ÉTAT** | Une carte pour chaque aquarium affiché par cet écran, avec **État de l’interrogation**, **Dernière interrogation**, **Dernière écriture cloud** et **Enregistrement cloud**. Lecture seule |
+| **ÉTAT** | Une carte pour chaque aquarium affiché par cet écran. **Appareils** indique combien d’appareils de l’aquarium transmettent (*9 sur 10 transmettent*), **Dernière mesure** indique quand la mesure la plus récente est arrivée, et **Ne transmettent pas** nomme chaque appareil devenu silencieux. Un aquarium avec un Apex affiche aussi **Interrogation de l’Apex**, **Dernière interrogation** et **Dernière écriture cloud**. **Enregistrement cloud** n’apparaît que si Cora Cloud refuse un enregistrement. Lecture seule |
 | **AIDE ET À PROPOS** | **Aide et assistance** (contacter l’assistance ou signaler un problème) et **À propos** (version et licences) |
 | **RÉINITIALISATION** | **Réassocier cet appareil** et **Réinitialisation d’usine**. Voir plus bas |
 

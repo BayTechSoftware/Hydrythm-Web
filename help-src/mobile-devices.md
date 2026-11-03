@@ -2,7 +2,7 @@
 title: Adding, editing and removing devices
 description: Add equipment to Cora, assign it to a tank, rename it, check it's healthy and remove it, all from the Devices tab.
 section: Cora Mobile
-reviewed: 2026-10-17
+reviewed: 2026-11-03
 order: 11
 group: Equipment
 twin: max-devices
@@ -48,7 +48,7 @@ Cora checks the tank's primary Cora Max or, if none is chosen, the Cora Max with
 
 Tap any device in the list to open its page. Its controls come first, then sections that work the same way for every brand.
 
-- **Status** shows the **Model**, **Serial**, **Firmware** and when Cora last heard from it (**Last seen**).
+- **Status** shows its state, its **Model** and **Firmware** and, when the device isn't working normally, when Cora last heard from it (**Last seen**). Its serial number and other identifiers (device ID, hardware ID, MAC address) are hidden until you tap **Show details**. Tap **Hide details** to close them again.
 - **Tanks** shows which tank (or tanks) it's assigned to. Tap **Change** to reassign it.
 - **Connection** is where you edit its IP address, sign-in or device key.
 - **Remove device**, at the bottom.
@@ -59,13 +59,13 @@ Cora Max and Neptune Apex can serve more than one tank, so their tank picker is 
 A device without a tank still reports, but its numbers have nowhere to go. If a device you just added isn't showing on a dashboard, check this first.
 :::
 
-What each brand's controls do is in [Controlling your equipment](/help/mobile-device-control).
+What each brand's controls do is in [Controlling your equipment](/help/mobile-device-control). Which parameter each of a device's readings feeds is set in [Parameter Mapping](/help/mobile-probes).
 
 ## Renaming {#renaming}
 
 Open the device and tap the pencil beside its name. Use what you call it day to day, like "Return", "Left gyre" or "Sump heater". The name shows up on widgets, in alerts and in anything you ask Cora.
 
-Names can be up to 40 characters. Leave the name empty to go back to the device's own name. If two devices of the same kind have no name, Cora tells them apart with a short code after the name. Cora never uses a serial number as a name.
+Names can be up to 40 characters. Leave the name empty to go back to the device's own name. If two devices of the same kind have no name, Cora tells them apart with a short code after the name. Cora never uses a serial number as a name. Wherever a device is listed, such as in Parameter Mapping or in the Cora Max dashboard editor, it appears under the name you gave it; its serial number or ID is only behind **Show details** on its page.
 
 The new name only applies in Cora. It doesn't change the name in the manufacturer's own app.
 

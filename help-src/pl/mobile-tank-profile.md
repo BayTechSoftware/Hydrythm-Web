@@ -2,7 +2,7 @@
 title: Profil akwarium
 description: Uzupełnij albo zmień objętość, typ, obsadę, oświetlenie, dozowanie i sprzęt akwarium, na podstawie których Cora ocenia odczyty i liczy dawki.
 section: Cora Mobile
-reviewed: 2026-10-24
+reviewed: 2026-11-03
 order: 3
 group: Getting started
 ---
@@ -57,7 +57,7 @@ W profilu sekcje są wymienione tak. Dotknij jednej, żeby ją otworzyć. Ikona 
 
 Gdy dodajesz grzałkę, pompę, lampę albo odpieniacz w **Kontrola temperatury**, **Przepływ i filtracja** albo **Oświetlenie**, Cora podpowiada marki i modele podczas pisania. Jeśli Twojego nie ma na liście, i tak go wpisz. Cora zachowa to, co wpiszesz.
 
-**Źródła parametrów** nie są widoczne podczas dodawania nowego akwarium. Obejmują ten sam wybór co **Mapowanie parametrów** w ustawieniach akwarium, które daje pełną kontrolę nad każdą sondą. Zobacz [Mapowanie parametrów](/help/mobile-probes).
+**Źródła parametrów** nie są widoczne podczas dodawania nowego akwarium. Obejmują ten sam wybór co **Mapowanie parametrów** w ustawieniach akwarium, które pokazuje każde urządzenie i jego odczyty w jednym miejscu. Zobacz [Mapowanie parametrów](/help/mobile-probes).
 
 ![Dolna połowa profilu akwarium w Cora Mobile](img/mobile-tank-profile-devices.webp "Źródła parametrów oraz Szkodniki i leczenie, a na dole Usuń akwarium.")
 

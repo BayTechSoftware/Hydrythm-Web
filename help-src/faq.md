@@ -2,7 +2,7 @@
 title: Frequently asked questions
 description: Short answers about what you need, Cora Max, using Cora away from home, equipment, alerts, Reef Buddy, languages, plans and your data.
 section: Help
-reviewed: 2026-10-24
+reviewed: 2026-11-03
 order: 4
 ---
 
@@ -90,7 +90,7 @@ Yes, if a Cora Max at the tank is online and can reach that equipment. Your comm
 
 ### Can two people use the same tank? {#can-two-people-use-the-same-tank}
 
-There's no shared access between two separate accounts yet. A household can sign in to the same Cora account on more than one phone. Everyone sees the same tanks, gets the same notifications, and changes apply to the whole account. For a tank sitter, [Going away](/help/mobile-vacation) makes a read-only page that needs no account. A [shared snapshot](/help/mobile-sharing) is only a picture.
+There's no shared access between two separate accounts yet. A household can sign in to the same Cora account on more than one phone. Everyone sees the same tanks, gets the same notifications, and changes apply to the whole account. For a tank sitter, [Going away](/help/mobile-vacation) makes a read-only page that needs no account. A [shared snapshot](/help/mobile-sharing) is only a picture. A maintenance company can read one tank with a one-time code, but that is not a second login: see [Connected partners](/help/mobile-partners).
 
 ### How do I add another tank? {#how-do-i-add-another-tank}
 

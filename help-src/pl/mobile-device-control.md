@@ -2,7 +2,7 @@
 title: Sterowanie sprzętem
 description: Otwórz stronę urządzenia, żeby zobaczyć jego stan na żywo i przełączać gniazda, pompy, głowice dozujące i testery, marka po marce.
 section: Cora Mobile
-reviewed: 2026-10-24
+reviewed: 2026-11-01
 order: 13
 group: Equipment
 twin: max-device-control
@@ -165,7 +165,9 @@ Wartości domyślne i inne materiały eksploatacyjne opisują [Materiały eksplo
 
 ## Pompy Jecod / Jebao {#jecod}
 
-Strona pompy pokazuje bieżący wzór fali (tryb) i intensywność, a Ty możesz zmienić oba. Jej stan jest w wierszu tytułu, obok nazwy pompy. Przełącznik z **Cały dzień tak samo** i **Harmonogram** oznacza działający tryb napisem *· działa*, a strona otwiera się na nim. Układanie programu dnia, jego kopiowanie, zapisywanie i udostępnianie opisują [Harmonogramy sprzętu](/help/mobile-schedules).
+Strona pompy pokazuje bieżący wzór fali (tryb) i intensywność, a Ty możesz zmienić oba. Każda strona pompy cyrkulacyjnej w Cora Mobile (Jecod) ma ten sam układ: stan w wierszu tytułu, obok nazwy pompy, potem górna karta z przełącznikiem zasilania i **Karmienie**, a potem przełącznik z **Ręcznie** i **Harmonogram** oraz karta dla każdego z nich. Przełącznik oznacza działający tryb napisem *· działa*, a strona otwiera się na nim.
+
+Każda zmiana harmonogramu przechodzi przez edytor harmonogramu i nic nie jest wysyłane, dopóki nie dotkniesz tam **Zapisz w pompie**. Układanie programu dnia, jego kopiowanie z innych pomp lub na inne pompy, zapisywanie i udostępnianie opisują [Harmonogramy sprzętu](/help/mobile-schedules).
 
 Jeśli pompa należy do grupy, strona pokazuje jej rolę, na przykład **Prowadzi grupę**, **Podąża: zgodnie** albo **Podąża: przemiennie**.
 

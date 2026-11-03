@@ -2,7 +2,7 @@
 title: Contrôler votre équipement
 description: Ouvrez la page d’un appareil pour voir son état en direct et commander prises, pompes, têtes de dosage et testeurs, marque par marque.
 section: Cora Mobile
-reviewed: 2026-10-24
+reviewed: 2026-11-01
 order: 13
 group: Equipment
 twin: max-device-control
@@ -165,7 +165,9 @@ Les valeurs par défaut et les autres consommables sont dans [Consommables](/hel
 
 ## Pompes Jecod / Jebao {#jecod}
 
-La page de la pompe affiche le type de vague actuel (le mode) et l’intensité, et vous pouvez changer les deux. Son état s’affiche dans la ligne de titre, à côté du nom de la pompe. Un sélecteur **Identique toute la journée** / **Programme** marque celui qui fonctionne avec *· en cours*, et la page s’ouvre dessus. La création d’un programme journalier, et sa copie, son enregistrement ou son partage, sont dans [Programmer l’équipement](/help/mobile-schedules).
+La page de la pompe affiche le type de vague actuel (le mode) et l’intensité, et vous pouvez changer les deux. Toutes les pages de pompe de brassage de Cora Mobile (Jecod) ont la même organisation : l’état dans la ligne de titre, à côté du nom de la pompe, puis la carte du haut avec l’interrupteur et **Nourrissage**, puis un sélecteur **Manuel** / **Programme** et une carte pour chacun. Le sélecteur marque celui qui fonctionne avec *· en cours*, et la page s’ouvre dessus.
+
+Toute modification du programme passe par l’éditeur de programme, et rien n’est envoyé avant que vous touchiez **Enregistrer sur la pompe** dans l’éditeur. La création d’un programme journalier, sa copie depuis ou vers d’autres pompes, son enregistrement ou son partage, sont dans [Programmer l’équipement](/help/mobile-schedules).
 
 Si la pompe fait partie d’un groupe, la page affiche son rôle, comme **Mène le groupe**, **Suit : en phase** ou **Suit : en alternance**.
 

@@ -2,7 +2,7 @@
 title: Modificare la dashboard di Cora Max
 description: Aggiungi, sposta e togli riquadri sulla dashboard di Cora Max, scegli una griglia, usa i modelli o Progetta con l'IA, e salva layout da riusare su qualsiasi Cora Max.
 section: Cora Max
-reviewed: 2026-10-18
+reviewed: 2026-11-03
 order: 4
 group: Your dashboard
 twin: mobile-dashboard-editing
@@ -46,6 +46,8 @@ Quando cambi la griglia, Cora non butta via i riquadri in base alla posizione. I
 2. In **TIPO**, scegli il tipo di riquadro, poi cosa mostra (una lettura, una presa, un dispositivo o una scena).
 3. In **DIMENSIONE**, scegli quanto è grande. Un riquadro può essere largo una o due celle e alto una o due celle. Un Grafico ha anche un **INTERVALLO DI TEMPO**. Un riquadro di una pompa dosometrica ha **Mostra il rimanente come**, in **Giorni** o **Millilitri (mL)**.
 4. Tocca **Aggiungi**.
+
+Su un riquadro **Valore**, **Indicatore**, **Grafico** o **Stato**, la riga sotto il nome dice quale dispositivo sta alimentando quella lettura in questo momento, per esempio *Indicatore · Main Apex*. Usa il nome che hai dato al dispositivo, o la sua marca se non gliene hai mai dato uno, e mai un numero di serie o un ID. Una lettura che nessuno ha ancora riportato dice *Nessuna lettura ancora*. Il selettore delle letture e le impostazioni del riquadro nominano la fonte allo stesso modo. Per cambiare quale dispositivo alimenta una lettura, usa **Mappatura parametri** in Cora Mobile. Vedi [Mappatura parametri](/help/mobile-probes).
 
 I gesti sono elencati in alto nell'editor: **tocca un riquadro per modificarlo**, **tieni premuto per spostarlo** e **✕ per rimuoverlo**. **Svuota tutto** svuota la griglia così puoi ricominciare.
 

@@ -2,7 +2,7 @@
 title: Compartir tu acuario
 description: Comparte una imagen con las lecturas de tu acuario en redes sociales o con un amigo, con una tarjeta de instantánea del acuario.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-11-03
 order: 10
 group: Your dashboard
 ---
@@ -37,5 +37,5 @@ Hay dos formatos.
 **Compartir** abre el menú de compartir de tu teléfono, así que puedes mandar la tarjeta a cualquier sitio al que tu teléfono envíe imágenes. No sale nada de tu cuenta hasta que eliges un destino.
 
 :::note Una instantánea no da acceso
-Una instantánea es solo una imagen. No da a nadie acceso a tu cuenta, tu historial ni tus equipos. Si alguien va a cuidar el acuario mientras estás fuera, usa [Irse de viaje](/help/mobile-vacation). Ahí se crea una página de solo lectura para esa persona.
+Una instantánea es solo una imagen. No da a nadie acceso a tu cuenta, tu historial ni tus equipos. Si alguien va a cuidar el acuario mientras estás fuera, usa [Irse de viaje](/help/mobile-vacation). Ahí se crea una página de solo lectura para esa persona. Si una empresa de mantenimiento cuida tu acuario, [Socios conectados](/help/mobile-partners) le permite verlo con un código que tú le das.
 :::

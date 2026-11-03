@@ -2,7 +2,7 @@
 title: Controlar equipos desde Cora Max
 description: Las páginas de dispositivo en Cora Max para Neptune Apex, Trident y DŌS, Red Sea ReefBeat, Jecod y AquaWiz, marca a marca.
 section: Cora Max
-reviewed: 2026-10-24
+reviewed: 2026-11-03
 order: 6
 group: Equipment
 twin: mobile-device-control
@@ -71,14 +71,22 @@ Si una unidad Red Sea se detiene sola, su página te dice qué pasa y pone la so
 
 ## Jecod {#jecod}
 
-La página de Jecod muestra el modo y la intensidad de la bomba, y puedes cambiar los dos. Su estado está en la fila del título, junto al nombre de la bomba. La barra superior tiene el interruptor, el patrón que se ejecuta ahora y **Alimentación** con cuatro botones: **5**, **10**, **15** y **30** min. Toca uno para pausar la bomba ese tiempo. Debajo hay dos tarjetas:
+La página de Jecod muestra el modo y la intensidad de la bomba, y puedes cambiar los dos. Todas las páginas de bombas de circulación en Cora Max (Jecod) tienen la misma organización: el estado de la bomba en la fila del título, junto a su nombre, luego una barra superior con el interruptor y **Alimentación**, y luego dos tarjetas, **Manual** y **Horario**.
 
-- **Igual todo el día**: toca un ajuste para ejecutarlo todo el día.
-- **Horario**: el gráfico del día y la lista de planes, con **ahora** en el actual. **Editar** abre el editor y el menú ⋮ tiene **Copiar horario a…**, **Guardar horario como…** y **Horarios guardados…**.
+En una bomba Jecod, la barra superior tiene el interruptor, el patrón que se ejecuta ahora y **Alimentación** con cuatro botones: **5**, **10**, **15** y **30** min. Toca uno para pausar la bomba ese tiempo. Debajo de la barra están las dos tarjetas:
+
+- **Manual**: toca un ajuste para ejecutarlo todo el día.
+- **Horario**: el gráfico del día y la lista de planes, con **ahora** en el actual. **Editar** abre el editor y el menú ⋮ tiene **Copiar horario a…**, **Guardar horario como…**, **Horarios guardados…** y **Copiar de…**.
 
 La tarjeta en marcha tiene un contorno y una etiqueta **En marcha**. Una bomba Jecod no tiene el botón **Terminar alimentación**. Toda bomba Jecod que puede pausarse para alimentar muestra los botones de **5**, **10**, **15** y **30** min. En una Jecod Pro, la tarjeta Alimentación de los patrones de ola hace lo mismo, durante 10 minutos. Por un Cora Max lejos del acuario, una bomba Jecod solo alimenta 10 minutos. Una bomba que ahora no puede alimentar muestra el motivo en una línea corta bajo los botones, y una pulsación larga muestra la frase completa. Una alimentación iniciada desde el teléfono también la termina Cora Max: cuando acaba el tiempo, la bomba vuelve a su programa.
 
-Puedes crear horarios diarios de bombas Jecod en la pantalla de pared igual que en tu teléfono. El editor es el mismo, con un gráfico del día, una lista de periodos y una fila de acciones. Más información en [Programar equipos](/help/mobile-schedules).
+Puedes crear horarios diarios de bombas Jecod en la pantalla de pared igual que en tu teléfono. El editor es el mismo, con un gráfico del día, una lista de periodos y una fila de acciones. Los planes de la tarjeta Horario son solo de lectura: todo cambio en el horario pasa por el editor, y no se envía nada hasta que tocas **Guardar en la bomba** allí. Un horario elegido en **Horarios guardados…** o **Copiar de…** se abre en el editor de la misma forma. Si cierras el editor con cambios sin guardar, primero te pregunta. Más información en [Programar equipos](/help/mobile-schedules).
+
+### Copiar un horario {#copying-a-schedule}
+
+**Copiar de…** toma el horario de otra bomba de circulación de cualquier acuario que atienda este Cora Max. Cada plan recibe el modo más parecido que tenga esta bomba, las velocidades se ajustan a lo que puede dar, y **Qué cambia en esta bomba** muestra cada cambio. **Cargar en el editor** pone la copia en el editor de esta bomba. No se envía nada hasta que tocas **Guardar en la bomba** allí. Una bomba cuyo horario Cora aún no ha leído aparece en gris, con el motivo.
+
+**Copiar horario a…** pasa este día a otras bombas de cualquier acuario que atiende este Cora Max, cada una con el formato *Acuario · Bomba*. Marca las bombas y toca **Revisar**. Todavía no se envía nada. **Revisar copias** muestra cada bomba con su estado, **Sin guardar**, **Guardado en la bomba** o **Error** con el motivo, y cuántos cambios recibe. **Abrir editor** abre el editor propio de esa bomba con el día copiado, y solo su propio guardado lo envía, y solo a esa bomba. Si un guardado falla, el borrador se conserva para que puedas intentarlo de nuevo. Si sales con bombas sin guardar, Cora pregunta primero *¿Descartar las copias sin guardar?*
 
 ## AquaWiz {#aquawiz}
 
@@ -119,7 +127,7 @@ Cuando más de un Cora Max muestra un acuario, uno de ellos lee los equipos de e
 Algunas cosas solo funcionan en el Cora Max del acuario.
 
 - **Medir para dosificar** y **Volver a medir** solo aparecen ahí. Cuando un cabezal está medido, **Dosificar ahora** funciona desde cualquier Cora Max.
-- Puedes cambiar un horario de Jecod desde otro Cora Max solo si el Cora Max del acuario ha leído la bomba en la última hora, y nunca en una bomba que solo se comunica por Bluetooth. Un **Aplicar a la bomba** desde ahí envía como mucho 12 cambios, así que envía una edición más grande por partes.
+- Puedes cambiar un horario de Jecod desde otro Cora Max solo si el Cora Max del acuario ha leído la bomba en la última hora, y nunca en una bomba que solo se comunica por Bluetooth. Un **Guardar en la bomba** desde ahí envía como mucho 12 cambios, así que envía una edición más grande por partes.
 
 ## Qué se cambió, y qué lo cambió {#what-was-changed-and-by-what}
 

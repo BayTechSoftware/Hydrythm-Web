@@ -125,6 +125,7 @@
 <li><a href="/it/help/mobile-plans">Piani e abbonamenti</a></li>
 <li><a href="/it/help/mobile-data-export">Esportare i tuoi dati ed eliminare l&#x27;account</a></li>
 <li><a href="/it/help/mobile-support">Segnalare un problema</a></li>
+<li><a href="/it/help/mobile-partners">Partner collegati</a></li>
 </ul></details>
 <p class="nav-sec" lang="en">Cora Max</p>
 <details class="nav-g">
@@ -214,7 +215,7 @@
 <h3 id="can-i-control-equipment-away">Posso comandare l'attrezzatura quando sono fuori casa?</h3>
 <p>Sì, se un Cora Max nella vasca è online e può raggiungere quell'attrezzatura. Il tuo comando va a Cora Cloud e il Cora Max lo esegue. Senza un Cora Max, puoi comandare un dispositivo Neptune Apex, Red Sea o Jecod solo mentre il telefono è sulla sua rete. Di più in <a href="/it/help/mobile-multi-device">Più di un dispositivo Cora</a>.</p>
 <h3 id="can-two-people-use-the-same-tank">Due persone possono usare la stessa vasca?</h3>
-<p>Non c'è ancora un accesso condiviso tra due account separati. Una famiglia può accedere allo stesso account Cora su più di un telefono. Tutti vedono le stesse vasche, ricevono le stesse notifiche, e le modifiche valgono per tutto l'account. Per chi si occupa della vasca mentre sei via, <a href="/it/help/mobile-vacation">Andare in vacanza</a> crea una pagina in sola lettura che non richiede un account. Un'<a href="/it/help/mobile-sharing">istantanea condivisa</a> è solo un'immagine.</p>
+<p>Non c'è ancora un accesso condiviso tra due account separati. Una famiglia può accedere allo stesso account Cora su più di un telefono. Tutti vedono le stesse vasche, ricevono le stesse notifiche, e le modifiche valgono per tutto l'account. Per chi si occupa della vasca mentre sei via, <a href="/it/help/mobile-vacation">Andare in vacanza</a> crea una pagina in sola lettura che non richiede un account. Un'<a href="/it/help/mobile-sharing">istantanea condivisa</a> è solo un'immagine. Un'azienda di manutenzione può leggere una vasca con un codice monouso, ma non è un secondo accesso: vedi <a href="/it/help/mobile-partners">Partner collegati</a>.</p>
 <h3 id="how-do-i-add-another-tank">Come aggiungo un'altra vasca?</h3>
 <p>In Cora Mobile, apri <strong>Impostazioni</strong> e tocca <strong>Aggiungi vasca</strong>. Poi sposta lì i suoi dispositivi, e aggiungila al tuo Cora Max se ne hai uno. Di più in <a href="/it/help/mobile-tanks">Gestire le tue vasche</a>.</p>
 <h3 id="can-i-get-a-removed-tank-back">Ho rimosso una vasca per sbaglio. Posso recuperarla?</h3>
@@ -279,7 +280,7 @@
 <hr>
 <p>Ancora non trovi la risposta? <a href="/it/help/troubleshooting">Risoluzione dei problemi</a> passa in rassegna le soluzioni sintomo per sintomo, oppure scrivi a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>.</p>
       <nav class="pn" aria-label="Continua a leggere"><a class="pn-p" href="/it/help/equipment-by-brand"><span>Precedente</span><b>Attrezzatura per marca</b></a><a class="pn-n" href="/it/help/glossary"><span>Successivo</span><b>Glossario</b></a></nav>
-      <p class="stamp">Scritto per Cora Max 0.28.240 e Cora Mobile 1.4.16. Ultimo controllo il 2026-10-24.</p>
+      <p class="stamp">Scritto per Cora Max 0.28.275 e Cora Mobile 1.4.24. Ultimo controllo il 2026-11-03.</p>
       <p class="ask">Ancora bloccato? Scrivi a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, ti aiutiamo.</p>
     </article>
   </main>
@@ -670,7 +671,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/it/help/search.json?v=6ecfe81ff8').then(function (r) { return r.json(); })
+    fetch('/it/help/search.json?v=ddb8319b30').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "it"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La ricerca non \u00e8 disponibile. Usa la navigazione." + '</li>';

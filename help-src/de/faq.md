@@ -2,7 +2,7 @@
 title: Häufige Fragen
 description: Kurze Antworten dazu, was du brauchst, zu Cora Max, Cora unterwegs, Ausrüstung, Warnungen, Reef Buddy, Sprachen, Abos und deinen Daten.
 section: Help
-reviewed: 2026-10-24
+reviewed: 2026-11-03
 order: 4
 ---
 
@@ -90,7 +90,7 @@ Ja, wenn ein Cora Max am Becken online ist und diese Ausrüstung erreicht. Dein 
 
 ### Können zwei Personen dasselbe Becken nutzen? {#can-two-people-use-the-same-tank}
 
-Einen gemeinsamen Zugriff zwischen zwei getrennten Konten gibt es noch nicht. Ein Haushalt kann sich auf mehr als einem Handy mit demselben Cora-Konto anmelden. Alle sehen dieselben Becken, bekommen dieselben Benachrichtigungen, und Änderungen gelten für das ganze Konto. Für eine Urlaubsvertretung erstellt [Verreisen](/help/mobile-vacation) eine Seite nur zum Lesen, für die man kein Konto braucht. Ein [geteilter Schnappschuss](/help/mobile-sharing) ist nur ein Bild.
+Einen gemeinsamen Zugriff zwischen zwei getrennten Konten gibt es noch nicht. Ein Haushalt kann sich auf mehr als einem Handy mit demselben Cora-Konto anmelden. Alle sehen dieselben Becken, bekommen dieselben Benachrichtigungen, und Änderungen gelten für das ganze Konto. Für eine Urlaubsvertretung erstellt [Verreisen](/help/mobile-vacation) eine Seite nur zum Lesen, für die man kein Konto braucht. Ein [geteilter Schnappschuss](/help/mobile-sharing) ist nur ein Bild. Eine Wartungsfirma kann ein Becken mit einem Einmalcode einsehen, das ist aber kein zweiter Zugang: siehe [Verbundene Partner](/help/mobile-partners).
 
 ### Wie füge ich ein weiteres Becken hinzu? {#how-do-i-add-another-tank}
 

@@ -2,7 +2,7 @@
 title: Your tank profile
 description: Fill in or change your tank's volume, type, livestock, lighting, dosing and equipment, which Cora uses to judge readings and work out doses.
 section: Cora Mobile
-reviewed: 2026-10-24
+reviewed: 2026-11-03
 order: 3
 group: Getting started
 ---
@@ -57,7 +57,7 @@ In the profile, the sections are listed like this. Tap one to open it. The info 
 
 When you add a heater, pump, light or skimmer under **Temperature Control**, **Flow & Filtration** or **Lighting**, Cora suggests brands and models as you type. If yours isn't on the list, type it in anyway. Cora keeps whatever you enter.
 
-**Parameter Sources** isn't shown while you're adding a new tank. It covers the same choice as **Parameter Mapping** in the tank's settings, which gives you full control over every probe. See [Parameter Mapping](/help/mobile-probes).
+**Parameter Sources** isn't shown while you're adding a new tank. It covers the same choice as **Parameter Mapping** in the tank's settings, which lists every device and its readings in one place. See [Parameter Mapping](/help/mobile-probes).
 
 ![The lower half of a tank profile in Cora Mobile](img/mobile-tank-profile-devices.webp "Parameter Sources and Pest & Treatment, then Remove Tank at the bottom.")
 

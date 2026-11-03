@@ -2,7 +2,7 @@
 title: Ekipmanınızı bağlama
 description: Bir Neptune Apex, Red Sea ReefBeat, Jecod ya da AquaWiz ünitesini Cora'ya nasıl bağlayacağınız.
 section: Cora Mobile
-reviewed: 2026-10-24
+reviewed: 2026-11-03
 order: 12
 group: Equipment
 ---
@@ -41,6 +41,8 @@ Cora, Apex'inizi problar, prizler ve taktığınız tüm genişletme modülleri 
 6. **Devam et**'e dokunun. Cora önce girişi dener. Apex yanıt verip girişi reddederse bir mesaj **Apex bu girişi reddetti** der: kullanıcı adını ya da şifreyi düzeltmek için **İptal**'e, devam etmek için **Yine de kaydet**'e dokunun. Cora Apex'e ulaşamazsa (örneğin evde değilseniz) testi atlar. Sonra **Bu Apex hangi akvaryumlara hizmet veriyor?** altında her akvaryumu işaretleyin ve **Kaydet**'e dokunun. Bir Apex birden fazla akvaryuma hizmet edebilir.
 
 Tarama hiçbir şey bulamazsa telefonunuzun Apex ile aynı Wi-Fi'de olduğunu kontrol edin ya da IP adresini kendiniz girin.
+
+Apex'inizin web sayfası 80 dışında bir port kullanıyorsa (Apex'te **Network Setup**, **HTTP Port**), tarama 81, 8080, 8000, 8081 ve 88 portlarını da dener ve Cora portu adresle birlikte saklar. Adresi kendiniz girerken portu iki noktadan sonra yazın, örneğin `192.168.1.50:81`.
 
 Bağlandıktan sonra Apex'inizin bildirdiği her prob panoya koyabileceğiniz bir kaynak olur. Prizler kontrol olarak görünür ve takılı her genişletme modülü kendi cihaz kutucuğunu alır. Kendi Apex programınız tam olarak ayarladığınız gibi çalışmaya devam eder. Neleri kontrol edebileceğiniz [Ekipmanınızı kontrol etme](/help/mobile-device-control#neptune-apex) sayfasında.
 

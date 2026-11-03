@@ -2,7 +2,7 @@
 title: Contrôler l’équipement depuis Cora Max
 description: Les pages d’appareils sur Cora Max pour Neptune Apex, Trident et DŌS, Red Sea ReefBeat, Jecod et AquaWiz, marque par marque.
 section: Cora Max
-reviewed: 2026-10-24
+reviewed: 2026-11-03
 order: 6
 group: Equipment
 twin: mobile-device-control
@@ -71,14 +71,22 @@ Si un appareil Red Sea s’arrête de lui-même, sa page vous dit ce qui ne va p
 
 ## Jecod {#jecod}
 
-La page Jecod affiche le mode et l’intensité de la pompe, et vous pouvez changer les deux. Son état s’affiche dans la ligne de titre, à côté du nom de la pompe. La barre du haut contient l’interrupteur, le motif en cours et **Nourrissage** avec quatre pastilles : **5**, **10**, **15** et **30** min. Touchez une pastille pour mettre la pompe en pause pendant ce temps. Sous la barre, deux cartes :
+La page Jecod affiche le mode et l’intensité de la pompe, et vous pouvez changer les deux. Toutes les pages de pompe de brassage du Cora Max (Jecod) ont la même organisation : l’état de la pompe dans la ligne de titre, à côté de son nom, puis une barre du haut avec l’interrupteur et **Nourrissage**, puis deux cartes, **Manuel** et **Programme**.
 
-- **Identique toute la journée** : touchez un réglage pour l’exécuter toute la journée.
-- **Programme** : le graphique de la journée et la liste des plans, avec **maintenant** sur le plan en cours. **Modifier** ouvre l’éditeur, et le menu ⋮ contient **Copier le programme vers…**, **Enregistrer le programme sous…** et **Programmes enregistrés…**.
+Sur une pompe Jecod, la barre du haut contient l’interrupteur, le motif en cours et **Nourrissage** avec quatre pastilles : **5**, **10**, **15** et **30** min. Touchez une pastille pour mettre la pompe en pause pendant ce temps. Sous la barre, les deux cartes :
+
+- **Manuel** : touchez un réglage pour l’exécuter toute la journée.
+- **Programme** : le graphique de la journée et la liste des plans, avec **maintenant** sur le plan en cours. **Modifier** ouvre l’éditeur, et le menu ⋮ contient **Copier le programme vers…**, **Enregistrer le programme sous…**, **Programmes enregistrés…** et **Copier depuis…**.
 
 La carte en cours a un contour et une pastille **En marche**. Une pompe Jecod n’a pas de bouton **Terminer le nourrissage**. Toute pompe Jecod qui peut se mettre en pause pour le nourrissage affiche les pastilles **5**, **10**, **15** et **30** min. Sur une Jecod Pro, la tuile Nourrissage des types de vague fait la même chose, pour 10 minutes. Par un Cora Max éloigné de l’aquarium, une pompe Jecod ne se nourrit que 10 minutes. Une pompe qui ne peut pas se nourrir pour le moment en donne la raison en une courte ligne sous les pastilles, et un appui long affiche la phrase complète. Un nourrissage lancé depuis le téléphone est aussi terminé par le Cora Max : à la fin du temps, la pompe revient à son programme.
 
-Vous pouvez écrire les programmes journaliers des pompes Jecod au mur comme sur votre téléphone. L’éditeur est le même, avec un graphique de la journée, une liste de périodes et une rangée d’actions. Plus de détails dans [Programmer l’équipement](/help/mobile-schedules).
+Vous pouvez écrire les programmes journaliers des pompes Jecod au mur comme sur votre téléphone. L’éditeur est le même, avec un graphique de la journée, une liste de périodes et une rangée d’actions. Les plans de la carte Programme sont seulement à lire : toute modification du programme passe par l’éditeur, et rien n’est envoyé avant que vous touchiez **Enregistrer sur la pompe** dans l’éditeur. Un programme choisi dans **Programmes enregistrés…** ou **Copier depuis…** s’ouvre de la même façon dans l’éditeur. Si vous fermez l’éditeur avec des modifications non enregistrées, il vous le demande d’abord. Plus de détails dans [Programmer l’équipement](/help/mobile-schedules).
+
+### Copier un programme {#copying-a-schedule}
+
+**Copier depuis…** reprend le programme d’une autre pompe de brassage, sur n’importe quel aquarium servi par ce Cora Max. Chaque plan reçoit le mode le plus proche dont dispose cette pompe, les vitesses sont limitées à ce qu’elle peut faire, et **Ce qui change sur cette pompe** liste chaque changement. **Charger dans l’éditeur** place la copie dans l’éditeur de cette pompe. Rien n’est envoyé avant que vous y touchiez **Enregistrer sur la pompe**. Une pompe dont Cora n’a pas encore lu le programme est grisée, avec la raison.
+
+**Copier le programme vers…** donne cette journée à d’autres pompes de chaque aquarium que ce Cora Max dessert, chacune affichée comme *Aquarium · Pompe*. Cochez les pompes et touchez **Vérifier**. Rien n’est encore envoyé. **Vérifier les copies** liste chaque pompe avec son état, **Non enregistré**, **Enregistré sur la pompe** ou **Échec** avec la raison, et le nombre de changements qu’elle reçoit. **Ouvrir l'éditeur** ouvre l’éditeur propre de cette pompe sur la journée copiée, et seul son propre enregistrement l’envoie, à cette pompe seulement. Si un enregistrement échoue, le brouillon est gardé pour que vous puissiez réessayer. Si vous partez alors que certaines pompes ne sont pas enregistrées, Cora demande d’abord *Abandonner les copies non enregistrées ?*
 
 ## AquaWiz {#aquawiz}
 
@@ -119,7 +127,7 @@ Quand plusieurs Cora Max affichent un aquarium, l’un d’eux lit l’équipeme
 Quelques fonctions ne marchent que sur le Cora Max de l’aquarium.
 
 - **Mesurer pour doser** et **Remesurer** n’apparaissent que là. Une fois une tête mesurée, **Doser maintenant** fonctionne depuis n’importe quel Cora Max.
-- Vous ne pouvez changer un programme Jecod depuis un autre Cora Max que si le Cora Max de l’aquarium a lu la pompe dans la dernière heure, et jamais pour une pompe qui ne communique qu’en Bluetooth. Un seul **Appliquer à la pompe** depuis là envoie au plus 12 changements, alors envoyez une grosse modification en plusieurs fois.
+- Vous ne pouvez changer un programme Jecod depuis un autre Cora Max que si le Cora Max de l’aquarium a lu la pompe dans la dernière heure, et jamais pour une pompe qui ne communique qu’en Bluetooth. Un seul **Enregistrer sur la pompe** depuis là envoie au plus 12 changements, alors envoyez une grosse modification en plusieurs fois.
 
 ## Ce qui a été changé, et par quoi {#what-was-changed-and-by-what}
 

@@ -125,6 +125,7 @@
 <li><a href="/de/help/mobile-plans">Pläne und Abos</a></li>
 <li><a href="/de/help/mobile-data-export">Daten exportieren und Konto löschen</a></li>
 <li><a href="/de/help/mobile-support">Ein Problem melden</a></li>
+<li><a href="/de/help/mobile-partners">Verbundene Partner</a></li>
 </ul></details>
 <p class="nav-sec" lang="en">Cora Max</p>
 <details class="nav-g">
@@ -209,7 +210,7 @@
 <h2 id="eine-journey-verwerfen">Eine Journey verwerfen</h2>
 <p>Ist eine Problem-Journey nicht hilfreich, verwirf sie. Sie erscheint dann nicht mehr. Deuten deine Messwerte erneut auf dasselbe Problem hin, kann Cora sie wieder anbieten.</p>
       <nav class="pn" aria-label="Weiterlesen"><a class="pn-p" href="/de/help/mobile-icp-health"><span>Zurück</span><b>ICP und Gesundheitsberichte</b></a><a class="pn-n" href="/de/help/mobile-settings"><span>Weiter</span><b>Cora Mobile-Einstellungen</b></a></nav>
-      <p class="stamp">Geschrieben für Cora Max 0.28.240 und Cora Mobile 1.4.16. Zuletzt geprüft am 2026-10-22.</p>
+      <p class="stamp">Geschrieben für Cora Max 0.28.275 und Cora Mobile 1.4.24. Zuletzt geprüft am 2026-10-22.</p>
       <p class="ask">Kommst du nicht weiter? Schreib eine E-Mail an <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, wir helfen dir.</p>
     </article>
   </main>
@@ -600,7 +601,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/de/help/search.json?v=78d2fe7c0c').then(function (r) { return r.json(); })
+    fetch('/de/help/search.json?v=cb3d3ca337').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "de"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Die Suche ist nicht verf\u00fcgbar. Nutze die Navigation." + '</li>';

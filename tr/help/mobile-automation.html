@@ -125,6 +125,7 @@
 <li><a href="/tr/help/mobile-plans">Planlar ve abonelikler</a></li>
 <li><a href="/tr/help/mobile-data-export">Verilerinizi dışa aktarma ve hesabınızı silme</a></li>
 <li><a href="/tr/help/mobile-support">Sorun bildirme</a></li>
+<li><a href="/tr/help/mobile-partners">Bağlı iş ortakları</a></li>
 </ul></details>
 <p class="nav-sec" lang="en">Cora Max</p>
 <details class="nav-g">
@@ -214,7 +215,7 @@
 <p>Bir kuralın yaptığı her eylem, nedeni olarak <strong>Otomasyon kuralı</strong> ile kaydedilir. Onu <a href="/tr/help/mobile-activity">Etkinlik</a> içinde bulursunuz.</p>
 <p>Başarısız olan ya da bekleyecek olan bir adım beklemede kalmaz. Hemen süresi dolar, çalıştırma başarısız olarak kaydedilir ve otomasyonun adını, adımı ve nedenini söyleyen bir bildirim alırsınız. Örneğin cihazı çevrimdışıysa, onu yürütecek bir Cora Max yoksa, cihaz reddederse ya da yanıt vermezse veya bir ısıtıcı ya da soğutucu az önce açılıp kapatıldıysa adım başarısız olur. Kaldırılmış bir akvaryumdaki bir adım için bildirim gelmez.</p>
       <nav class="pn" aria-label="Okumaya devam edin"><a class="pn-p" href="/tr/help/mobile-notifications"><span>Önceki</span><b>Bildirimler</b></a><a class="pn-n" href="/tr/help/mobile-vacation"><span>Sonraki</span><b>Tatile çıkarken: akvaryum bakıcınız için bir plan</b></a></nav>
-      <p class="stamp">Cora Max 0.28.240 ve Cora Mobile 1.4.16 için yazılmıştır. Son kontrol: 2026-10-24.</p>
+      <p class="stamp">Cora Max 0.28.275 ve Cora Mobile 1.4.24 için yazılmıştır. Son kontrol: 2026-10-24.</p>
       <p class="ask">Sorun devam ediyor mu? <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> adresine yazın, yardımcı olalım.</p>
     </article>
   </main>
@@ -605,7 +606,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/tr/help/search.json?v=1a2be35337').then(function (r) { return r.json(); })
+    fetch('/tr/help/search.json?v=2874d38015').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "tr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Arama \u015fu anda kullan\u0131lam\u0131yor. Men\u00fcy\u00fc kullan\u0131n." + '</li>';

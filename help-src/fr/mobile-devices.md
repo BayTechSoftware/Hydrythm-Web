@@ -2,7 +2,7 @@
 title: Ajouter, modifier et retirer des appareils
 description: Ajoutez un équipement à Cora, attribuez-le à un aquarium, renommez-le, vérifiez qu’il fonctionne bien et retirez-le, le tout depuis l’onglet Appareils.
 section: Cora Mobile
-reviewed: 2026-10-17
+reviewed: 2026-11-03
 order: 11
 group: Equipment
 twin: max-devices
@@ -48,7 +48,7 @@ Cora vérifie le Cora Max principal de l’aquarium ou, si aucun n’est choisi,
 
 Touchez n’importe quel appareil de la liste pour ouvrir sa page. Ses commandes viennent en premier, puis des sections qui fonctionnent de la même façon pour toutes les marques.
 
-- **État** affiche le **Modèle**, le **N° de série**, le **Micrologiciel** et la dernière fois que Cora a eu de ses nouvelles (**Dernière connexion**).
+- **État** affiche son état, son **Modèle** et son **Micrologiciel** et, si l’appareil ne fonctionne pas normalement, la dernière fois que Cora a eu de ses nouvelles (**Dernière connexion**). Son numéro de série et ses autres identifiants (ID d’appareil, ID matériel, adresse MAC) restent masqués jusqu’à ce que vous touchiez **Afficher les détails**. Touchez **Masquer les détails** pour les refermer.
 - **Aquariums** indique à quel aquarium (ou à quels aquariums) il est attribué. Touchez **Modifier** pour le réattribuer.
 - **Connexion** est l’endroit où vous modifiez son adresse IP, ses identifiants ou sa clé d’appareil.
 - **Retirer l'appareil**, en bas.
@@ -59,13 +59,13 @@ Cora Max et Neptune Apex peuvent servir plusieurs aquariums, leur choix d’aqua
 Un appareil sans aquarium transmet quand même, mais ses chiffres ne vont nulle part. Si un appareil que vous venez d’ajouter n’apparaît sur aucun tableau de bord, vérifiez cela en premier.
 :::
 
-Ce que font les commandes de chaque marque est expliqué dans [Contrôler votre équipement](/help/mobile-device-control).
+Ce que font les commandes de chaque marque est expliqué dans [Contrôler votre équipement](/help/mobile-device-control). Le paramètre qu’alimente chaque mesure d’un appareil se règle dans l’[Association des paramètres](/help/mobile-probes).
 
 ## Renommer {#renaming}
 
 Ouvrez l’appareil et touchez le crayon à côté de son nom. Utilisez le nom que vous lui donnez au quotidien, comme « Remontée », « Gyre gauche » ou « Chauffage décantation ». Le nom apparaît sur les widgets, dans les alertes et dans tout ce que vous demandez à Cora.
 
-Les noms peuvent faire jusqu’à 40 caractères. Laissez le nom vide pour revenir au nom propre de l’appareil. Si deux appareils du même type n’ont pas de nom, Cora les distingue par un code court après le nom. Cora n’utilise jamais un numéro de série comme nom.
+Les noms peuvent faire jusqu’à 40 caractères. Laissez le nom vide pour revenir au nom propre de l’appareil. Si deux appareils du même type n’ont pas de nom, Cora les distingue par un code court après le nom. Cora n’utilise jamais un numéro de série comme nom. Partout où un appareil est listé, par exemple dans l’Association des paramètres ou dans l’éditeur de tableau de bord de Cora Max, il apparaît sous le nom que vous lui avez donné ; son numéro de série ou son ID ne se trouvent que derrière **Afficher les détails** sur sa page.
 
 Le nouveau nom ne s’applique que dans Cora. Il ne change pas le nom dans l’application du fabricant.
 

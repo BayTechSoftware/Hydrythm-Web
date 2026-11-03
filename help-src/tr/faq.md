@@ -2,7 +2,7 @@
 title: Sıkça sorulan sorular
 description: Neye ihtiyacınız olduğu, Cora Max, Cora'yı evden uzaktayken kullanma, ekipman, uyarılar, Reef Buddy, diller, planlar ve verileriniz hakkında kısa yanıtlar.
 section: Help
-reviewed: 2026-10-24
+reviewed: 2026-11-03
 order: 4
 ---
 
@@ -90,7 +90,7 @@ Evet, akvaryumdaki bir Cora Max çevrimiçiyse ve o ekipmana ulaşabiliyorsa. Ko
 
 ### İki kişi aynı akvaryumu kullanabilir mi? {#can-two-people-use-the-same-tank}
 
-İki ayrı hesap arasında henüz paylaşılan erişim yoktur. Bir ev, aynı Cora hesabına birden fazla telefondan giriş yapabilir. Herkes aynı akvaryumları görür, aynı bildirimleri alır ve değişiklikler tüm hesap için geçerli olur. Bir akvaryum bakıcısı için [Tatile çıkarken](/help/mobile-vacation), hesap gerektirmeyen salt okunur bir sayfa hazırlar. [Paylaşılan bir anlık görüntü](/help/mobile-sharing) yalnızca bir resimdir.
+İki ayrı hesap arasında henüz paylaşılan erişim yoktur. Bir ev, aynı Cora hesabına birden fazla telefondan giriş yapabilir. Herkes aynı akvaryumları görür, aynı bildirimleri alır ve değişiklikler tüm hesap için geçerli olur. Bir akvaryum bakıcısı için [Tatile çıkarken](/help/mobile-vacation), hesap gerektirmeyen salt okunur bir sayfa hazırlar. [Paylaşılan bir anlık görüntü](/help/mobile-sharing) yalnızca bir resimdir. Bir bakım şirketi tek kullanımlık bir kodla bir akvaryumu görebilir, ama bu ikinci bir giriş değildir: bkz. [Bağlı iş ortakları](/help/mobile-partners).
 
 ### Başka bir akvaryumu nasıl eklerim? {#how-do-i-add-another-tank}
 

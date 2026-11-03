@@ -2,7 +2,7 @@
 title: Impostazioni di Cora Max
 description: Ogni impostazione di Cora Max, da nome, luminosità e attenuazione notturna a blocco bambini, lingua, Wi-Fi e ripristino di fabbrica.
 section: Cora Max
-reviewed: 2026-10-18
+reviewed: 2026-11-03
 order: 14
 group: Settings and account
 twin: mobile-settings
@@ -52,13 +52,13 @@ Sotto la scheda ci sono queste sezioni.
 | Sezione | Cosa contiene |
 |---|---|
 | **SCHERMO** | **Luminosità**. **Attenua dopo** e **Livello di attenuazione**: quanto tempo senza tocchi prima che lo schermo si attenui, e quanto si attenua. **Attenuazione notturna**, con **Da**, **A** e **Luminosità notturna**. **Mostra orologio** nella barra in alto. **Attiva schermo con allarme** |
-| **AUDIO E VOCE** | **Altoparlante** (**Interna**, **3,5 mm** o **BT**), **Suono degli avvisi** e il suo volume, **Avvisi parlati** e **Parola di attivazione** accesa o spenta. Di più in [Parlare con Cora](/help/max-voice#sound-and-wake-word-settings) |
+| **AUDIO E VOCE** | **Altoparlante** (**Interna**, **3,5 mm** o **BT**), **Suono degli avvisi** e il suo volume, **Avvisi parlati** e **Parola di attivazione** accesa o spenta, e **Suoni al tocco**, il clic quando tocchi lo schermo. Di più in [Parlare con Cora](/help/max-voice#sound-and-wake-word-settings) |
 | **REEF BUDDY** | **Riepilogo Reef Buddy** legge ad alta voce il briefing del mattino. **Orario del riepilogo** è quando arriva, lo stesso su ogni dispositivo |
 | **BLOCCO BAMBINI** | **Blocco bambini** acceso o spento, e **Blocca dopo**. Vedi [Blocco bambini](#child-lock) più sotto |
 | **NOTIFICHE** | **Cronologia notifiche**, la casella di tutto il tuo account con ogni briefing, allarme e comunicazione dell'account |
 | **LINGUA** | L'unica lingua che usa tutto il tuo account: English, Deutsch, Español, Français, Italiano, Polski o Türkçe. Vedi la nota più sotto |
 | **RETE E AGGIORNAMENTI** | **Wi-Fi**, **Aggiornamento firmware** e **Polling dispositivi**, che mostra ogni quanto questo Cora Max legge i tuoi dispositivi (lo cambi in Cora Mobile) |
-| **STATO** | Una scheda per ogni vasca che mostra questo schermo, con **Stato polling**, **Ultimo polling**, **Ultima scrittura cloud** e **Salvataggio cloud**. Solo visualizzazione |
+| **STATO** | Una scheda per ogni vasca che mostra questo schermo. **Dispositivi** dice quanti dispositivi della vasca rispondono (*9 di 10 rispondono*), **Ultima lettura** indica quando è arrivata la lettura più recente e **Non rispondono** nomina ogni dispositivo che tace. Una vasca con un Apex mostra anche **Polling dell’Apex**, **Ultimo polling** e **Ultima scrittura cloud**. **Salvataggio cloud** compare solo quando Cora Cloud rifiuta un salvataggio. Solo visualizzazione |
 | **AIUTO E INFORMAZIONI** | **Aiuto e assistenza** (contattare l'assistenza o segnalare un problema) e **Informazioni** (versione e licenze) |
 | **RIPRISTINO** | **Riassocia questo dispositivo** e **Ripristino di fabbrica**. Vedi più sotto |
 

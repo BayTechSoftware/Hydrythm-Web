@@ -2,7 +2,7 @@
 title: Dein Beckenprofil
 description: Volumen, Typ, Besatz, Beleuchtung, Dosierung und Ausrüstung deines Beckens eintragen oder ändern, die Cora nutzt, um Messwerte zu beurteilen und Dosierungen zu berechnen.
 section: Cora Mobile
-reviewed: 2026-10-24
+reviewed: 2026-11-03
 order: 3
 group: Getting started
 ---
@@ -57,7 +57,7 @@ Im Profil stehen die Abschnitte so. Tippe auf einen, um ihn zu öffnen. Das Info
 
 Fügst du unter **Temperaturregelung**, **Strömung & Filterung** oder **Beleuchtung** einen Heizer, eine Pumpe, eine Leuchte oder einen Abschäumer hinzu, schlägt Cora beim Tippen Marken und Modelle vor. Steht deins nicht in der Liste, tipp es trotzdem ein. Cora behält, was du eingibst.
 
-**Wasserwert-Quellen** erscheint nicht, während du ein neues Becken hinzufügst. Es behandelt dieselbe Wahl wie **Parameterzuordnung** in den Einstellungen des Beckens, die dir volle Kontrolle über jede Sonde gibt. Siehe [Parameterzuordnung](/help/mobile-probes).
+**Wasserwert-Quellen** erscheint nicht, während du ein neues Becken hinzufügst. Es behandelt dieselbe Wahl wie **Parameterzuordnung** in den Einstellungen des Beckens, die jedes Gerät mit seinen Messwerten an einer Stelle auflistet. Siehe [Parameterzuordnung](/help/mobile-probes).
 
 ![Die untere Hälfte eines Beckenprofils in Cora Mobile](img/mobile-tank-profile-devices.webp "Wasserwert-Quellen und Schädlinge & Behandlung, dann ganz unten Becken entfernen.")
 

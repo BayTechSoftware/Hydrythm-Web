@@ -2,7 +2,7 @@
 title: Cora Mobile settings
 description: Where everything is in Cora Mobile's Settings tab, from your account and plan to tanks, Cora Assistant, language, dark mode, notifications and support.
 section: Cora Mobile
-reviewed: 2026-10-18
+reviewed: 2026-11-03
 order: 36
 group: Settings and account
 twin: max-settings
@@ -46,13 +46,15 @@ Adding, removing and restoring tanks are covered step by step in [Managing your 
 
 Open a tank and its settings page has three parts.
 
-- **Settings** holds **Edit tank**, **Parameter Mapping**, **Alert thresholds**, **Units**, **Primary Cora Max** and **Vacation mode**.
+- **Settings** holds **Edit tank**, **Parameter Mapping**, **Alert thresholds**, **Units**, **Primary Cora Max**, **Vacation mode** and **Connected partners**.
 - **Records & Reports** holds **Journal**, **Maintenance**, **Livestock**, **Reef Buddy**, **Health Reports**, **ICP Reports**, **Activity** and **Guided setup**.
 - **Devices on this tank** is a read-only list.
 
 **Parameter Mapping** is where you choose which device feeds each reading. See [Parameter Mapping](/help/mobile-probes). **Units** sets how this tank shows its readings, including litres or US or UK gallons for volume. See [Your tank profile](/help/mobile-tank-profile). **Primary Cora Max** is which device polls that tank's equipment, and is explained in [More than one Cora device](/help/mobile-multi-device#primary-cora-max). To add or remove a device, use the [Devices tab](/help/mobile-devices).
 
 **Vacation mode** is a plan for whoever looks after the tank while you're away. You set the dates and make a checklist of jobs, with how often each one needs doing. Cora turns it into a simple read-only page you can share with your tank sitter. They don't need an account. More in [Going away](/help/mobile-vacation).
+
+**Connected partners** lets a maintenance company read this tank with a one-time code you give it and, if you allow it, log services in your Journal. It needs a paid plan. More in [Connected partners](/help/mobile-partners).
 
 ## App Settings
 

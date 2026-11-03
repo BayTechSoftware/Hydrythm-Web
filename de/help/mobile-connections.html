@@ -125,6 +125,7 @@
 <li><a href="/de/help/mobile-plans">Pläne und Abos</a></li>
 <li><a href="/de/help/mobile-data-export">Daten exportieren und Konto löschen</a></li>
 <li><a href="/de/help/mobile-support">Ein Problem melden</a></li>
+<li><a href="/de/help/mobile-partners">Verbundene Partner</a></li>
 </ul></details>
 <p class="nav-sec" lang="en">Cora Max</p>
 <details class="nav-g">
@@ -183,6 +184,7 @@
 <p>Cora liest deinen Apex über dein lokales Netzwerk, mit Sonden, Steckdosen und allen Erweiterungsmodulen, die du eingebaut hast.</p>
 <ol><li>Geh zu <strong>Geräte → Gerät hinzufügen → Neptune Apex</strong>.</li><li>Tippe auf <strong>Netzwerk nach APEX durchsuchen</strong> und wähl deinen Apex, oder gib seine Adresse unter <strong>Oder gib die IP manuell ein:</strong> ein.</li><li>Füll <strong>Apex-Anmeldung (nur wenn du eine am Apex eingerichtet hast):</strong> aus. Lass das Passwort leer, wenn du keins festgelegt hast.</li><li>Tippe auf <strong>Wasserwerte von APEX laden</strong> und hak unter <strong>Zu verfolgende Wasserwerte</strong> die an, die du willst.</li><li>Stell die <strong>Abfragehäufigkeit</strong> ein. Lass sie nicht auf aus: Ohne Abfrage liest niemand den Apex, und seine Messwerte veralten.</li><li>Tippe auf <strong>Weiter</strong>. Cora testet zuerst die Anmeldung. Antwortet der Apex und lehnt sie ab, steht in einer Meldung <strong>Der Apex hat diese Anmeldung abgelehnt</strong>: Tippe auf <strong>Abbrechen</strong>, um Benutzernamen oder Passwort zu korrigieren, oder auf <strong>Trotzdem speichern</strong>, um weiterzumachen. Erreicht Cora den Apex nicht (etwa weil du nicht zu Hause bist), überspringt sie den Test. Hak dann unter <strong>Welche Becken versorgt dieser Apex?</strong> jedes Becken an und tippe auf <strong>Speichern</strong>. Ein Apex kann mehr als ein Becken versorgen.</li></ol>
 <p>Findet der Scan nichts, prüf, ob dein Handy im selben WLAN ist wie der Apex, oder gib die IP-Adresse selbst ein.</p>
+<p>Nutzt die Weboberfläche deines Apex einen anderen Port als 80 (<strong>Network Setup</strong> am Apex, <strong>HTTP Port</strong>), probiert der Scan auch die Ports 81, 8080, 8000, 8081 und 88, und Cora speichert den Port mit der Adresse. Gibst du sie selbst ein, setz den Port mit einem Doppelpunkt dahinter, zum Beispiel <code>192.168.1.50:81</code>.</p>
 <p>Sobald er verbunden ist, wird jede Sonde, die dein Apex meldet, zu einer Quelle, die du auf ein Dashboard legen kannst. Steckdosen erscheinen als Steuerungen, und jedes eingebaute Erweiterungsmodul bekommt seine eigene Gerätekachel. Deine eigene Apex-Programmierung läuft genau so weiter, wie du sie eingerichtet hast. Was du steuern kannst, steht unter <a href="/de/help/mobile-device-control#neptune-apex">Deine Ausrüstung steuern</a>.</p>
 <h2 id="red-sea-reefbeat">Red Sea ReefBeat</h2>
 <p>Cora spricht mit ReefBeat-Ausrüstung in deinem lokalen Netzwerk. Unterstützt werden <strong>ReefDose</strong>, <strong>ReefATO+</strong>, <strong>ReefMat</strong> und <strong>ReefRun</strong>.</p>
@@ -217,7 +219,7 @@
 <h2 id="if-a-connection-stops-working">Wenn eine Verbindung nicht mehr funktioniert</h2>
 <p>Die Gerätezeile sagt dir, welche Art von Problem es ist. Schlag es in der Tabelle unter <a href="/de/help/mobile-devices#health">Geräte hinzufügen, bearbeiten und entfernen</a> nach. Für alles, was dort nicht steht, siehe <a href="/de/help/troubleshooting">Problembehebung</a>.</p>
       <nav class="pn" aria-label="Weiterlesen"><a class="pn-p" href="/de/help/mobile-devices"><span>Zurück</span><b>Geräte hinzufügen, bearbeiten und entfernen</b></a><a class="pn-n" href="/de/help/mobile-device-control"><span>Weiter</span><b>Deine Ausrüstung steuern</b></a></nav>
-      <p class="stamp">Geschrieben für Cora Max 0.28.240 und Cora Mobile 1.4.16. Zuletzt geprüft am 2026-10-24.</p>
+      <p class="stamp">Geschrieben für Cora Max 0.28.275 und Cora Mobile 1.4.24. Zuletzt geprüft am 2026-11-03.</p>
       <p class="ask">Kommst du nicht weiter? Schreib eine E-Mail an <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, wir helfen dir.</p>
     </article>
   </main>
@@ -608,7 +610,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/de/help/search.json?v=78d2fe7c0c').then(function (r) { return r.json(); })
+    fetch('/de/help/search.json?v=cb3d3ca337').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "de"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Die Suche ist nicht verf\u00fcgbar. Nutze die Navigation." + '</li>';

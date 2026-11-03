@@ -2,7 +2,7 @@
 title: Updates und Wiederherstellung
 description: Wie sich Cora Max selbst aktualisiert, Installationsfenster und Update-Kanal, Version prüfen, Wiederherstellungs-PIN und was du tust, wenn Cora Max nicht startet.
 section: Cora Max
-reviewed: 2026-10-17
+reviewed: 2026-11-03
 order: 15
 group: Settings and account
 ---
@@ -27,7 +27,7 @@ Unter **Update-Einstellungen** auf demselben Bildschirm:
 
 - **Installationsfenster** legt die Stunden fest, in denen sich Updates installieren dürfen, mit einer Zeit für **Start** und **Ende**, in der Ortszeit dieses Bildschirms. Die Zeitzone stellst du in Cora Mobile ein, unter **Geräte →** dein Cora Max **→ Zeitzone**.
 
-Um zu sehen, ob dieser Bildschirm deine Geräte abfragt und in Cora Cloud speichert, geh zurück zu **Cora Max-Einstellungen** und scroll zu **STATUS**. Dort stehen für jedes Becken **Abfragestatus**, **Letzte Abfrage**, **Letzter Cloud-Schreibvorgang** und **Cloud-Speichern**.
+Um zu sehen, ob dieser Bildschirm deine Geräte abfragt und in Cora Cloud speichert, geh zurück zu **Cora Max-Einstellungen** und scroll zu **STATUS**. Dort steht für jedes Becken, wie viele Geräte sich melden und wann der letzte Messwert kam; ein Becken mit Apex zeigt zusätzlich **Apex-Abfrage**, **Letzte Abfrage** und **Letzter Cloud-Schreibvorgang**, und **Cloud-Speichern** erscheint, wenn ein Speichern abgelehnt wird.
 
 Lädt ein Update langsam herunter, prüf deine Verbindung mit dem **Netzwerk-Geschwindigkeitstest** auf demselben Bildschirm. **Test starten** lädt bis zu 16 MB der Update-Datei aus Cora Cloud herunter, höchstens 20 Sekunden lang, und zeigt die Geschwindigkeit in MB/s.
 

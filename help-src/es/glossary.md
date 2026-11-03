@@ -2,7 +2,7 @@
 title: Glosario
 description: Qué quiere decir Cora con acuario, fuente, widget, umbral, Cora Max principal, modo alimentación, escena y las demás palabras que verás en Cora Mobile y en Cora Max.
 section: Help
-reviewed: 2026-10-18
+reviewed: 2026-11-03
 order: 5
 ---
 
@@ -35,7 +35,7 @@ El AquaWiz KH Controller, un analizador de alcalinidad. Cora lo lee a través de
 
 ## Asignación de parámetros {#parameter-mapping}
 
-Donde le dices a Cora qué mide cada sonda de un controlador, y qué dispositivo alimenta cada lectura. Consulta [Asignación de parámetros y sondas](/help/mobile-probes).
+Una lista con las lecturas de cada dispositivo, donde eliges con qué parámetro del acuario se muestra cada lectura, incluido un parámetro propio para un resultado de pruebas o de ICP, y qué dispositivo alimenta un parámetro cuando varios informan de él. Consulta [Asignación de parámetros y sondas](/help/mobile-probes).
 
 ## Automatización {#automation}
 
@@ -116,7 +116,7 @@ La etiqueta de la barra superior de Cora Max que dice cómo recibe sus datos est
 
 ## Fuente {#source}
 
-De dónde vino una lectura: una sonda, un controlador, un resultado de laboratorio o tú con un kit de pruebas. Cada lectura tiene una, así que Cora puede avisarte cuando dos fuentes no coinciden. Si más de una fuente informa de la misma lectura, [Asignación de parámetros](/help/mobile-probes) es donde eliges en cuál confiar, o la dejas en Automático.
+De dónde vino una lectura: una sonda, un controlador, un resultado de laboratorio o tú con un kit de pruebas. Cada lectura tiene una, así que Cora puede avisarte cuando dos fuentes no coinciden. Si más de una fuente informa de la misma lectura, [Asignación de parámetros](/help/mobile-probes) es donde eliges en cuál confiar, o te quedas con la lectura más reciente.
 
 
 

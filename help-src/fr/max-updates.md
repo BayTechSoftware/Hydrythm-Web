@@ -2,7 +2,7 @@
 title: Mises à jour et récupération
 description: Comment Cora Max se met à jour tout seul, la plage d’installation, le canal de mise à jour, la version, le PIN de récupération, et que faire s’il ne démarre pas.
 section: Cora Max
-reviewed: 2026-10-17
+reviewed: 2026-11-03
 order: 15
 group: Settings and account
 ---
@@ -27,7 +27,7 @@ Sous **Paramètres de mise à jour**, sur le même écran :
 
 - **Plage d’installation** définit les heures pendant lesquelles les mises à jour peuvent s’installer, avec une heure de **Début** et de **Fin**, à l’heure locale de cet écran. Le fuseau horaire se règle dans Cora Mobile, sous **Appareils →** votre Cora Max **→ Fuseau horaire**.
 
-Pour voir si cet écran lit vos appareils et enregistre dans Cora Cloud, revenez à **Paramètres Cora Max** et faites défiler jusqu’à **ÉTAT**. La section affiche pour chaque aquarium l’**État de l’interrogation**, la **Dernière interrogation**, la **Dernière écriture cloud** et l’**Enregistrement cloud**.
+Pour voir si cet écran lit vos appareils et enregistre dans Cora Cloud, revenez à **Paramètres Cora Max** et faites défiler jusqu’à **ÉTAT**. Pour chaque aquarium, la section indique combien d’appareils transmettent et quand la dernière mesure est arrivée ; un aquarium avec un Apex affiche aussi **Interrogation de l’Apex**, **Dernière interrogation** et **Dernière écriture cloud**, et **Enregistrement cloud** apparaît quand un enregistrement est refusé.
 
 Si une mise à jour se télécharge lentement, vérifiez votre connexion avec le **Test de débit réseau** sur le même écran. **Lancer le test** télécharge jusqu’à 16 Mo du fichier de mise à jour depuis Cora Cloud, pendant 20 secondes au plus, et affiche le débit en Mo/s.
 

@@ -2,7 +2,7 @@
 title: Partager votre aquarium
 description: Partagez une image des mesures de votre aquarium sur les réseaux sociaux ou avec un ami grâce à une carte d’instantané.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-11-03
 order: 10
 group: Your dashboard
 ---
@@ -37,5 +37,5 @@ Deux formats sont proposés.
 **Partager** ouvre le menu de partage habituel de votre téléphone. Vous pouvez donc envoyer la carte partout où votre téléphone peut envoyer une image. Rien ne quitte votre compte tant que vous n’avez pas choisi la destination.
 
 :::note Un instantané ne donne aucun accès
-Un instantané n’est qu’une image. Il ne donne à personne l’accès à votre compte, à votre historique ou à votre équipement. Si quelqu’un s’occupe de l’aquarium pendant votre absence, utilisez [Partir en vacances](/help/mobile-vacation). Cela crée une page en lecture seule pour cette personne.
+Un instantané n’est qu’une image. Il ne donne à personne l’accès à votre compte, à votre historique ou à votre équipement. Si quelqu’un s’occupe de l’aquarium pendant votre absence, utilisez [Partir en vacances](/help/mobile-vacation). Cela crée une page en lecture seule pour cette personne. Si une société d’entretien s’occupe de votre aquarium, [Partenaires connectés](/help/mobile-partners) lui permet de le consulter avec un code que vous lui donnez.
 :::

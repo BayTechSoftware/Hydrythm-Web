@@ -2,7 +2,7 @@
 title: Controllare l'attrezzatura da Cora Max
 description: Le pagine dispositivo su Cora Max per Neptune Apex, Trident e DŌS, Red Sea ReefBeat, Jecod e AquaWiz, marca per marca.
 section: Cora Max
-reviewed: 2026-10-24
+reviewed: 2026-11-03
 order: 6
 group: Equipment
 twin: mobile-device-control
@@ -71,14 +71,22 @@ Se un'unità Red Sea si ferma da sola, la sua pagina ti dice cosa non va e mette
 
 ## Jecod {#jecod}
 
-La pagina Jecod mostra la modalità e l'intensità della pompa, e puoi cambiarle entrambe. Il suo stato è nella riga del titolo, accanto al nome della pompa. La barra in alto contiene l'interruttore, lo schema in corso e **Alimentazione** con quattro pulsanti: **5**, **10**, **15** e **30** min. Tocca un pulsante per mettere in pausa la pompa per quel tempo. Sotto la barra ci sono due schede:
+La pagina Jecod mostra la modalità e l'intensità della pompa, e puoi cambiarle entrambe. Ogni pagina di pompa di movimento su Cora Max (Jecod) ha la stessa struttura: lo stato della pompa nella riga del titolo, accanto al suo nome, poi una barra in alto con l'interruttore e **Alimentazione**, poi due schede, **Manuale** e **Programmazione**.
 
-- **Uguale tutto il giorno**: tocca un'impostazione per eseguirla tutto il giorno.
-- **Programmazione**: il grafico della giornata e l'elenco dei piani, con **ora** su quello attuale. **Modifica** apre l'editor e il menu ⋮ contiene **Copia programmazione su…**, **Salva programmazione come…** e **Programmazioni salvate…**.
+Su una pompa Jecod la barra in alto contiene l'interruttore, lo schema in corso e **Alimentazione** con quattro pulsanti: **5**, **10**, **15** e **30** min. Tocca un pulsante per mettere in pausa la pompa per quel tempo. Sotto la barra ci sono le due schede:
+
+- **Manuale**: tocca un'impostazione per eseguirla tutto il giorno.
+- **Programmazione**: il grafico della giornata e l'elenco dei piani, con **ora** su quello attuale. **Modifica** apre l'editor e il menu ⋮ contiene **Copia programmazione su…**, **Salva programmazione come…**, **Programmazioni salvate…** e **Copia da…**.
 
 La scheda in funzione ha un contorno e un'etichetta **In funzione**. Una pompa Jecod non ha il pulsante **Termina alimentazione**. Ogni pompa Jecod che può mettersi in pausa per l'alimentazione mostra i pulsanti **5**, **10**, **15** e **30** min. Su una Jecod Pro il riquadro Alimentazione tra gli schemi d'onda fa lo stesso, per 10 minuti. Tramite un Cora Max lontano dalla vasca, una pompa Jecod alimenta solo per 10 minuti. Una pompa che non può alimentare in questo momento mostra il motivo in una breve riga sotto i pulsanti, e una pressione lunga mostra la frase completa. Un'alimentazione avviata dal telefono viene conclusa anche dal Cora Max: allo scadere del tempo la pompa torna al suo programma.
 
-Puoi scrivere le programmazioni giornaliere delle pompe Jecod sullo schermo a parete oltre che sul telefono. L'editor è lo stesso, con un grafico della giornata, un elenco di fasce e una fila di azioni. Di più in [Programmare l'attrezzatura](/help/mobile-schedules).
+Puoi scrivere le programmazioni giornaliere delle pompe Jecod sullo schermo a parete oltre che sul telefono. L'editor è lo stesso, con un grafico della giornata, un elenco di fasce e una fila di azioni. I piani sulla scheda Programmazione sono solo da leggere: ogni modifica alla programmazione passa dall'editor, e non viene inviato nulla finché non tocchi **Salva sulla pompa** lì. Una programmazione scelta in **Programmazioni salvate…** o **Copia da…** si apre nell'editor allo stesso modo. Se chiudi l'editor con modifiche non salvate, prima te lo chiede. Di più in [Programmare l'attrezzatura](/help/mobile-schedules).
+
+### Copiare una programmazione {#copying-a-schedule}
+
+**Copia da…** prende la programmazione di un'altra pompa di movimento su qualsiasi vasca servita da questo Cora Max. Ogni piano riceve la modalità più vicina che ha questa pompa, le velocità restano entro quelle che può usare, e **Cosa cambia su questa pompa** elenca ogni modifica. **Carica nell’editor** mette la copia nell'editor di questa pompa. Non viene inviato nulla finché non tocchi **Salva sulla pompa** lì. Una pompa di cui Cora non ha ancora letto la programmazione è disattivata, con il motivo.
+
+**Copia programmazione su…** dà questa giornata ad altre pompe di qualsiasi vasca servita da questo Cora Max, ciascuna indicata come *Vasca · Pompa*. Spunta le pompe e tocca **Rivedi**. Non viene ancora inviato nulla. **Rivedi le copie** elenca ogni pompa con il suo stato, **Non salvato**, **Salvato sulla pompa** o **Non riuscito** con il motivo, e quante modifiche riceve. **Apri editor** apre l'editor di quella pompa sulla giornata copiata, e solo il suo salvataggio la invia, e solo a quella pompa. Se un salvataggio non riesce, la bozza resta così puoi riprovare. Se esci mentre alcune pompe non sono salvate, Cora chiede prima *Scartare le copie non salvate?*
 
 ## AquaWiz {#aquawiz}
 
@@ -119,7 +127,7 @@ Quando più di un Cora Max mostra una vasca, uno di loro legge l'attrezzatura di
 Alcune cose funzionano solo sul Cora Max nella vasca.
 
 - **Misura per dosare** e **Rimisura** compaiono solo lì. Una volta misurata una testa, **Dosa ora** funziona da qualsiasi Cora Max.
-- Puoi cambiare una programmazione Jecod da un altro Cora Max solo se il Cora Max nella vasca ha letto la pompa nell'ultima ora, e mai per una pompa che comunica solo via Bluetooth. Un solo **Applica alla pompa** da lì invia al massimo 12 modifiche, quindi invia una modifica più grande in più parti.
+- Puoi cambiare una programmazione Jecod da un altro Cora Max solo se il Cora Max nella vasca ha letto la pompa nell'ultima ora, e mai per una pompa che comunica solo via Bluetooth. Un solo **Salva sulla pompa** da lì invia al massimo 12 modifiche, quindi invia una modifica più grande in più parti.
 
 ## Cosa è stato cambiato, e da cosa {#what-was-changed-and-by-what}
 

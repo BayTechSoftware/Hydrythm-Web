@@ -2,7 +2,7 @@
 title: Aggiornamenti e ripristino
 description: Come si aggiorna da solo Cora Max, finestra di installazione e canale di aggiornamento, controllo della versione, PIN di ripristino e cosa fare se Cora Max non si avvia.
 section: Cora Max
-reviewed: 2026-10-17
+reviewed: 2026-11-03
 order: 15
 group: Settings and account
 ---
@@ -27,7 +27,7 @@ In **Impostazioni aggiornamento** nella stessa schermata:
 
 - **Finestra di installazione** imposta le ore in cui gli aggiornamenti possono installarsi, con un orario di **Inizio** e di **Fine**, nell'ora locale di questo schermo. Il fuso orario si imposta in Cora Mobile, in **Dispositivi →** il tuo Cora Max **→ Fuso orario**.
 
-Per vedere se questo schermo sta leggendo i tuoi dispositivi e salvando in Cora Cloud, torna in **Impostazioni Cora Max** e scorri fino a **STATO**. Mostra per ogni vasca **Stato polling**, **Ultimo polling**, **Ultima scrittura cloud** e **Salvataggio cloud**.
+Per vedere se questo schermo sta leggendo i tuoi dispositivi e salvando in Cora Cloud, torna in **Impostazioni Cora Max** e scorri fino a **STATO**. Per ogni vasca mostra quanti dispositivi rispondono e quando è arrivata l’ultima lettura; una vasca con un Apex mostra anche **Polling dell’Apex**, **Ultimo polling** e **Ultima scrittura cloud**, e **Salvataggio cloud** compare quando un salvataggio viene rifiutato.
 
 Se un aggiornamento si scarica lentamente, controlla la connessione con il **Test di velocità della rete** nella stessa schermata. **Avvia test** scarica fino a 16 MB del file di aggiornamento da Cora Cloud, per al massimo 20 secondi, e mostra la velocità in MB/s.
 

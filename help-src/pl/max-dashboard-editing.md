@@ -2,7 +2,7 @@
 title: Edytowanie panelu Cora Max
 description: Dodawaj, przenoś i usuwaj kafelki na panelu Cora Max, wybierz siatkę, użyj szablonów albo Zaprojektuj z AI i zapisuj układy do ponownego użycia na dowolnym Cora Max.
 section: Cora Max
-reviewed: 2026-10-18
+reviewed: 2026-11-03
 order: 4
 group: Your dashboard
 twin: mobile-dashboard-editing
@@ -46,6 +46,8 @@ Gdy zmieniasz siatkę, Cora nie wyrzuca kafelków według pozycji. Kafelki, któ
 2. W **TYP** wybierz rodzaj kafelka, a potem to, co ma pokazywać (odczyt, gniazdo, urządzenie albo scenę).
 3. W **ROZMIAR** wybierz, jak duży ma być. Kafelek może mieć jedną albo dwie komórki szerokości i jedną albo dwie wysokości. Wykres ma też **ZAKRES CZASU**. Kafelek dozownika ma **Pokaż pozostałe jako**, w **Dni** albo **Mililitry (mL)**.
 4. Dotknij **Dodaj**.
+
+Na kafelku **Wartość**, **Wskaźnik**, **Wykres** lub **Stan** wiersz pod nazwą mówi, które urządzenie zasila teraz ten odczyt, na przykład *Wskaźnik · Main Apex*. Używa nazwy nadanej urządzeniu albo jego marki, jeśli nigdy nie dostało nazwy, i nigdy numeru seryjnego ani ID. Odczyt, którego nic jeszcze nie zgłosiło, mówi *Brak jeszcze odczytu*. Wybór odczytu i ustawienia kafelka nazywają źródło tak samo. Aby zmienić, które urządzenie zasila odczyt, użyj **Mapowania parametrów** w Cora Mobile. Zobacz [Mapowanie parametrów](/help/mobile-probes).
 
 Gesty są wymienione u góry edytora: **dotknij kafelka, aby edytować**, **przytrzymaj, aby przenieść** i **✕, aby usunąć**. **Wyczyść wszystko** opróżnia siatkę, żeby zacząć od nowa.
 

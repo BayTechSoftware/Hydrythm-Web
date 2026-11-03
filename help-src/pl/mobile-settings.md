@@ -2,7 +2,7 @@
 title: Ustawienia Cora Mobile
 description: Gdzie co jest w zakładce Ustawienia w Cora Mobile, od konta i planu po akwaria, Cora Assistant, język, tryb ciemny, powiadomienia i pomoc.
 section: Cora Mobile
-reviewed: 2026-10-18
+reviewed: 2026-11-03
 order: 36
 group: Settings and account
 twin: max-settings
@@ -46,13 +46,15 @@ Dodawanie, usuwanie i przywracanie akwariów opisuje krok po kroku [Zarządzanie
 
 Otwórz akwarium, a jego strona ustawień ma trzy części.
 
-- **Ustawienia** zawierają **Edytuj akwarium**, **Mapowanie parametrów**, **Progi alertów**, **Jednostki**, **Główne Cora Max** i **Tryb wakacyjny**.
+- **Ustawienia** zawierają **Edytuj akwarium**, **Mapowanie parametrów**, **Progi alertów**, **Jednostki**, **Główne Cora Max**, **Tryb wakacyjny** i **Połączeni partnerzy**.
 - **Zapisy i raporty** zawierają **Dziennik**, **Konserwacja**, **Obsada**, **Reef Buddy**, **Raporty zdrowia**, **Raporty ICP**, **Aktywność** i **Prowadzona konfiguracja**.
 - **Urządzenia w tym akwarium** to lista tylko do odczytu.
 
 W **Mapowaniu parametrów** wybierasz, które urządzenie dostarcza każdy odczyt. Zobacz [Mapowanie parametrów](/help/mobile-probes). **Jednostki** ustalają, jak to akwarium pokazuje odczyty, w tym litry albo galony amerykańskie lub brytyjskie dla objętości. Zobacz [Profil akwarium](/help/mobile-tank-profile). **Główne Cora Max** to urządzenie, które odpytuje sprzęt tego akwarium. Wyjaśnia je [Więcej niż jedno urządzenie Cora](/help/mobile-multi-device#primary-cora-max). Żeby dodać albo usunąć urządzenie, użyj [zakładki Urządzenia](/help/mobile-devices).
 
 **Tryb wakacyjny** to plan dla osoby, która zajmuje się akwarium pod Twoją nieobecność. Ustawiasz daty i listę zadań, z tym, jak często trzeba wykonywać każde z nich. Cora zamienia to w prostą stronę tylko do odczytu, którą udostępnisz opiekunowi. Nie potrzebuje on konta. Więcej w [Wyjeździe](/help/mobile-vacation).
+
+**Połączeni partnerzy** pozwalają firmie serwisowej odczytać to akwarium jednorazowym kodem, który jej dajesz, a jeśli pozwolisz, zapisywać usługi w Twoim dzienniku. Wymaga płatnego planu. Więcej w [Połączeni partnerzy](/help/mobile-partners).
 
 ## Ustawienia aplikacji
 

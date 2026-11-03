@@ -2,7 +2,7 @@
 title: Cora Max-Einstellungen
 description: Jede Cora Max-Einstellung, vom Umbenennen über Helligkeit, Nachtdimmung, Lautsprecher und Weckwort bis zu Kindersicherung, Sprache, WLAN, neu koppeln und Werksreset.
 section: Cora Max
-reviewed: 2026-10-18
+reviewed: 2026-11-03
 order: 14
 group: Settings and account
 twin: mobile-settings
@@ -52,13 +52,13 @@ Unter der Karte stehen diese Bereiche.
 | Bereich | Enthält |
 |---|---|
 | **ANZEIGE** | **Helligkeit**. **Dimmen nach** und **Dimmstufe**: wie lange ohne Berührung, bis der Bildschirm sich dimmt, und wie dunkel er wird. **Nachtdimmung**, mit **Von**, **Bis** und **Nachthelligkeit**. **Uhr anzeigen** in der oberen Leiste. **Bildschirm bei Alarm wecken** |
-| **TON & SPRACHE** | **Lautsprecher** (**Intern**, **3.5 mm** oder **BT**), **Warnton** und seine Lautstärke, **Gesprochene Warnungen** und **Weckwort** ein oder aus. Mehr dazu unter [Mit Cora sprechen](/help/max-voice#sound-and-wake-word-settings) |
+| **TON & SPRACHE** | **Lautsprecher** (**Intern**, **3.5 mm** oder **BT**), **Warnton** und seine Lautstärke, **Gesprochene Warnungen** und **Weckwort** ein oder aus, dazu **Tippgeräusche**, der Klick beim Berühren des Bildschirms. Mehr dazu unter [Mit Cora sprechen](/help/max-voice#sound-and-wake-word-settings) |
 | **REEF BUDDY** | **Reef Buddy Briefing** liest das morgendliche Briefing laut vor. **Briefing-Zeit** ist, wann es kommt, auf jedem Gerät gleich |
 | **KINDERSICHERUNG** | **Kindersicherung** ein oder aus und **Sperren nach**. Siehe [Kindersicherung](#child-lock) unten |
 | **BENACHRICHTIGUNGEN** | **Benachrichtigungsverlauf**, der Posteingang für dein ganzes Konto mit allen Briefings, Alarmen und Kontohinweisen |
 | **SPRACHE** | Die eine Sprache, die dein ganzes Konto nutzt: English, Deutsch, Español, Français, Italiano, Polski oder Türkçe. Siehe den Hinweis unten |
 | **NETZWERK & UPDATES** | **WLAN**, **Firmware-Update** und **Geräteabfrage**, die zeigt, wie oft dieses Cora Max deine Geräte abfragt (ändern kannst du es in Cora Mobile) |
-| **STATUS** | Eine Karte für jedes Becken, das dieser Bildschirm zeigt, mit **Abfragestatus**, **Letzte Abfrage**, **Letzter Cloud-Schreibvorgang** und **Cloud-Speichern**. Nur zum Ansehen |
+| **STATUS** | Eine Karte für jedes Becken, das dieser Bildschirm zeigt. **Geräte** sagt, wie viele Geräte des Beckens sich melden (*9 von 10 melden sich*), **Letzter Messwert** zeigt, wann der neueste Messwert kam, und **Melden sich nicht** nennt jedes Gerät, das verstummt ist. Ein Becken mit Apex zeigt zusätzlich **Apex-Abfrage**, **Letzte Abfrage** und **Letzter Cloud-Schreibvorgang**. **Cloud-Speichern** erscheint nur, wenn Cora Cloud ein Speichern ablehnt. Nur zum Ansehen |
 | **HILFE & ÜBER** | **Hilfe & Support** (den Support kontaktieren oder ein Problem melden) und **Über** (Version und Lizenzen) |
 | **ZURÜCKSETZEN** | **Dieses Gerät neu koppeln** und **Werksreset**. Siehe unten |
 

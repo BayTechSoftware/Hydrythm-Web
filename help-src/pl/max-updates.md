@@ -2,7 +2,7 @@
 title: Aktualizacje i odzyskiwanie
 description: Jak Cora Max sam się aktualizuje, okno instalacji i kanał aktualizacji, sprawdzanie wersji, PIN odzyskiwania i co zrobić, gdy Cora Max się nie uruchamia.
 section: Cora Max
-reviewed: 2026-10-17
+reviewed: 2026-11-03
 order: 15
 group: Settings and account
 ---
@@ -27,7 +27,7 @@ W **Ustawieniach aktualizacji** na tym samym ekranie:
 
 - **Okno instalacji** ustawia godziny, w których mogą instalować się aktualizacje, z godziną **Początek** i **Koniec**, w czasie lokalnym tego ekranu. Strefę czasową ustawiasz w Cora Mobile, w **Urządzenia →** Twój Cora Max **→ Strefa czasowa**.
 
-Żeby sprawdzić, czy ten ekran odczytuje Twoje urządzenia i zapisuje do Cora Cloud, wróć do **Ustawienia Cora Max** i przewiń do **STAN**. Pokazuje dla każdego akwarium **Stan odpytywania**, **Ostatnie odpytanie**, **Ostatni zapis do chmury** i **Zapis w chmurze**.
+Żeby sprawdzić, czy ten ekran odczytuje Twoje urządzenia i zapisuje do Cora Cloud, wróć do **Ustawienia Cora Max** i przewiń do **STAN**. Dla każdego akwarium pokazuje, ile urządzeń się zgłasza i kiedy przyszedł ostatni odczyt; akwarium z Apex pokazuje też **Odpytywanie Apex**, **Ostatnie odpytanie** i **Ostatni zapis do chmury**, a **Zapis w chmurze** pojawia się, gdy zapis zostanie odrzucony.
 
 Jeśli aktualizacja pobiera się wolno, sprawdź połączenie za pomocą **Testu prędkości sieci** na tym samym ekranie. **Uruchom test** pobiera do 16 MB pliku aktualizacji z Cora Cloud, przez najwyżej 20 sekund, i pokazuje prędkość w MB/s.
 

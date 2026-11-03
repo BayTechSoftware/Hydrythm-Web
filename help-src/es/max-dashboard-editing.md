@@ -2,7 +2,7 @@
 title: Editar el panel de Cora Max
 description: Añade, mueve y quita tarjetas en el panel de Cora Max, elige una cuadrícula, usa plantillas o Diseñar con IA y guarda diseños para reutilizarlos en cualquier Cora Max.
 section: Cora Max
-reviewed: 2026-10-18
+reviewed: 2026-11-03
 order: 4
 group: Your dashboard
 twin: mobile-dashboard-editing
@@ -46,6 +46,8 @@ Cuando cambias la cuadrícula, Cora no descarta tarjetas según su posición. La
 2. En **TIPO**, elige el tipo de tarjeta, y después qué muestra (una lectura, una toma, un dispositivo o una escena).
 3. En **TAMAÑO**, elige lo grande que es. Una tarjeta puede ocupar una o dos celdas de ancho y una o dos de alto. Un Gráfico también tiene un **RANGO DE TIEMPO**. Una tarjeta de dosificadora tiene **Mostrar lo restante como**, en **Días** o **Mililitros (mL)**.
 4. Toca **Agregar**.
+
+En una tarjeta **Valor**, **Medidor**, **Gráfico** o **Estado**, la línea bajo el nombre dice qué dispositivo alimenta esa lectura ahora mismo, por ejemplo *Medidor · Main Apex*. Usa el nombre que le diste al dispositivo, o su marca si nunca le pusiste uno, y nunca un número de serie ni un ID. Una lectura que nadie ha informado aún dice *Aún sin lectura*. El selector de lecturas y los ajustes de la tarjeta nombran la fuente del mismo modo. Para cambiar qué dispositivo alimenta una lectura, usa **Asignación de parámetros** en Cora Mobile. Consulta [Asignación de parámetros](/help/mobile-probes).
 
 Los gestos aparecen arriba en el editor: **toca una tarjeta para editar**, **mantén pulsado para mover** y **✕ para eliminar**. **Vaciar todo** vacía la cuadrícula para que empieces de nuevo.
 

@@ -2,7 +2,7 @@
 title: Glossario
 description: Cosa intende Cora con vasca, fonte, widget, soglia, Cora Max principale, modalità alimentazione, scena e le altre parole che vedi in Cora Mobile e su Cora Max.
 section: Help
-reviewed: 2026-10-18
+reviewed: 2026-11-03
 order: 5
 ---
 
@@ -93,7 +93,7 @@ L'etichetta nella barra in alto di Cora Max che dice come questo schermo riceve 
 
 ## Fonte {#source}
 
-Da dove arriva una lettura: una sonda, un controller, un risultato di laboratorio, oppure tu con un test. Ogni lettura ne ha una, così Cora può dirti quando due fonti non concordano. Se più di una fonte riporta la stessa lettura, [Mappatura parametri](/help/mobile-probes) è dove scegli di quale fidarti, oppure la lasci su Automatico.
+Da dove arriva una lettura: una sonda, un controller, un risultato di laboratorio, oppure tu con un test. Ogni lettura ne ha una, così Cora può dirti quando due fonti non concordano. Se più di una fonte riporta la stessa lettura, [Mappatura parametri](/help/mobile-probes) è dove scegli di quale fidarti, oppure resti sulla lettura più recente.
 
 
 
@@ -112,7 +112,7 @@ L'unica lingua che usa tutto il tuo account Cora: inglese, tedesco, francese, tu
 
 ## Mappatura parametri {#parameter-mapping}
 
-Dove dici a Cora cosa misura ogni sonda di un controller, e quale dispositivo alimenta ogni lettura. Vedi [Mappatura parametri e sonde](/help/mobile-probes).
+Un unico elenco delle letture di ogni dispositivo, dove scegli con quale parametro della vasca appare ogni lettura, anche un parametro a sé per un risultato di test o ICP, e quale dispositivo alimenta un parametro quando più dispositivi lo riportano. Vedi [Mappatura parametri e sonde](/help/mobile-probes).
 
 ## Modalità alimentazione {#feed-mode}
 

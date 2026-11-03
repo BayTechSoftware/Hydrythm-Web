@@ -2,7 +2,7 @@
 title: Ver un parámetro a fondo
 description: Toca un widget para ver todo el historial de un parámetro, comparar fuentes y parámetros, excluir una lectura errónea y registrar el cuidado de una sonda.
 section: Cora Mobile
-reviewed: 2026-10-17
+reviewed: 2026-11-03
 order: 7
 group: Your dashboard
 ---
@@ -51,7 +51,7 @@ Una línea que no se ha movido puede significar que el parámetro es estable. Ta
 
 Cuando varias fuentes informan de un parámetro, Cora las mantiene separadas y no hace la media. Usa el desplegable **Fuente** para mirar cada una. Es la forma más rápida de comparar una sonda con un kit de pruebas.
 
-La que sale en el panel es la más reciente. Un valor en directo solo lo reemplaza una lectura con una hora de medición posterior, de cualquier fuente. Una lectura más antigua va al historial y no sobrescribe lo que hay en el widget. Si fijaste una fuente en **Asignación de parámetros**, Cora sigue esa fuente.
+La que sale en el panel es la más reciente. Un valor en directo solo lo reemplaza una lectura con una hora de medición posterior, de cualquier fuente. Una lectura más antigua va al historial y no sobrescribe lo que hay en el widget. Si elegiste un dispositivo en **Asignación de parámetros**, Cora sigue ese dispositivo.
 
 Si una sonda y tus pruebas anotadas a mano se mantienen separadas por la misma cantidad, normalmente hay que calibrar la sonda.
 
@@ -59,7 +59,7 @@ Un [resultado de ICP](/help/mobile-icp-health) es una tercera opinión útil, pe
 
 ## Elegir qué fuente sigue una lectura {#choosing-which-source-a-widget-trusts}
 
-La fuente se elige para cada acuario y cada parámetro, no para cada widget. Ve a **Ajustes**, toca el acuario, toca **Asignación de parámetros** y después la pestaña **Fuentes**. Elige una sonda, o **Automático (gana la lectura más reciente)**. La elección se aplica a ese parámetro en todo el acuario. Más información en [Asignación de parámetros](/help/mobile-probes).
+La fuente se elige para cada acuario y cada parámetro, no para cada widget. Ve a **Ajustes**, toca el acuario y después **Asignación de parámetros**. Cuando más de un dispositivo informa de un parámetro, un aviso arriba de la lista, como *pH recibe lecturas de 2 dispositivos*, te permite tocar **Elegir una**. Elige un dispositivo, o **Lectura más reciente**. La elección se aplica a ese parámetro en todo el acuario. Para mantener una lectura aparte como parámetro propio, por ejemplo una segunda sonda en el sump, usa **Mostrar una por separado** o **Nuevo parámetro…**. Más información en [Asignación de parámetros](/help/mobile-probes#multiple-probes).
 
 ## Excluir una lectura errónea {#excluding-a-bad-reading}
 
@@ -81,7 +81,7 @@ Toca **Registrar cuidado de sonda** (el icono del sensor en la barra superior) y
 
 ## Registrar una lectura a mano {#logging-a-reading-by-hand}
 
-Las lecturas se registran desde el panel, no desde esta pantalla. Toca **Registrar parámetros** debajo de los widgets e introduce lo que marca tu kit de pruebas. La lista está agrupada, y el grupo **Oligoelementos** incluye yodo, hierro y cobre en µg/L, y potasio en mg/L. Las lecturas a mano cuentan igual que las demás. Tienen su propia fuente y su hora, aparecen en el gráfico y Reef Buddy las usa. También son con lo que Cora compara tus equipos.
+Las lecturas se registran desde el panel, no desde esta pantalla. Toca **Registrar parámetros** debajo de los widgets e introduce lo que marca tu kit de pruebas. La lista está agrupada, y el grupo **Oligoelementos** incluye yodo, hierro y cobre en µg/L, y potasio en mg/L. Las lecturas a mano cuentan igual que las demás. Tienen su propia fuente y su hora, aparecen en el gráfico y Reef Buddy las usa. También son con lo que Cora compara tus equipos. Si quieres que el resultado de un kit de pruebas se muestre como parámetro propio, aparte del de una sonda, elígelo en **Pruebas y resultados de laboratorio** en [Asignación de parámetros](/help/mobile-probes#tests-and-lab-results).
 
 :::note Cora revisa los valores que parecen raros
 Si un valor está muy lejos de lo que viene marcando el acuario, Cora te pide que lo confirmes antes de guardarlo. Así se detecta una coma decimal fuera de sitio o una lectura puesta en el parámetro equivocado. Cuando la confirmas, la lectura se guarda con normalidad.

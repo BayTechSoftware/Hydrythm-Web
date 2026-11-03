@@ -2,7 +2,7 @@
 title: Escenas en Cora Max
 description: Crea, ejecuta, edita y elimina escenas en Cora Max, desde Ajustes → Automatizaciones o desde una tarjeta de escena en el panel.
 section: Cora Max
-reviewed: 2026-10-24
+reviewed: 2026-11-01
 order: 9
 group: Alerts and automation
 twin: mobile-automation

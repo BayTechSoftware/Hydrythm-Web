@@ -2,7 +2,7 @@
 title: Controlar tus equipos
 description: Abre la página de un dispositivo para ver su estado en directo y manejar tomas, bombas, cabezales de dosificación y analizadores, marca a marca.
 section: Cora Mobile
-reviewed: 2026-10-24
+reviewed: 2026-11-01
 order: 13
 group: Equipment
 twin: max-device-control
@@ -165,7 +165,9 @@ Los valores predeterminados y otros consumibles están en [Consumibles](/help/mo
 
 ## Bombas Jecod / Jebao {#jecod}
 
-La página de la bomba muestra el patrón de olas (modo) y la intensidad actuales, y puedes cambiar los dos. Su estado está en la fila del título, junto al nombre de la bomba. Un selector con **Igual todo el día** y **Horario** marca el que está en marcha con *· en marcha*, y la página se abre en él. Crear un horario diario, y copiarlo, guardarlo o compartirlo, se explica en [Programar equipos](/help/mobile-schedules).
+La página de la bomba muestra el patrón de olas (modo) y la intensidad actuales, y puedes cambiar los dos. Todas las páginas de bombas de circulación en Cora Mobile (Jecod) tienen la misma organización: el estado en la fila del título, junto al nombre de la bomba, luego la tarjeta superior con el interruptor y **Alimentación**, y luego un selector con **Manual** y **Horario** y una tarjeta para cada uno. El selector marca el que está en marcha con *· en marcha*, y la página se abre en él.
+
+Todo cambio en el horario pasa por el editor del horario, y no se envía nada hasta que tocas **Guardar en la bomba** allí. Crear un horario diario, y copiarlo desde otras bombas o a ellas, guardarlo o compartirlo, se explica en [Programar equipos](/help/mobile-schedules).
 
 Si la bomba forma parte de un grupo, la página muestra su papel, como **Lidera el grupo**, **Sigue: en sincronía** o **Sigue: alternando**.
 

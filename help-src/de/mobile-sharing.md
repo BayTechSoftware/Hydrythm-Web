@@ -2,7 +2,7 @@
 title: Dein Becken teilen
 description: Ein Bild der Messwerte deines Beckens mit einer Schnappschuss-Karte in sozialen Medien oder mit einem Freund teilen.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-11-03
 order: 10
 group: Your dashboard
 ---
@@ -37,5 +37,5 @@ Es gibt zwei Formate.
 **Teilen** öffnet das übliche Teilen-Menü deines Handys, du kannst die Karte also überallhin schicken, wohin dein Handy ein Bild schicken kann. Nichts verlässt dein Konto, bis du wählst, wohin es geht.
 
 :::note Ein Schnappschuss gibt keinen Zugang
-Ein Schnappschuss ist nur ein Bild. Er lässt niemanden in dein Konto, deinen Verlauf oder an deine Ausrüstung. Kümmert sich jemand um das Becken, während du weg bist, nutze [Verreisen](/help/mobile-vacation). Das erstellt eine Seite nur zum Lesen für diese Person.
+Ein Schnappschuss ist nur ein Bild. Er lässt niemanden in dein Konto, deinen Verlauf oder an deine Ausrüstung. Kümmert sich jemand um das Becken, während du weg bist, nutze [Verreisen](/help/mobile-vacation). Das erstellt eine Seite nur zum Lesen für diese Person. Kümmert sich eine Wartungsfirma um dein Becken, kann sie es über [Verbundene Partner](/help/mobile-partners) mit einem Code einsehen, den du ihr gibst.
 :::

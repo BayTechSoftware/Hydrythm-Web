@@ -2,7 +2,7 @@
 title: Cora Max panosunu düzenleme
 description: Cora Max panosunda kutucuk ekleyin, taşıyın ve kaldırın, bir ızgara seçin, şablonları ya da Yapay zeka ile tasarla'yı kullanın ve düzenleri kaydedin.
 section: Cora Max
-reviewed: 2026-10-18
+reviewed: 2026-11-03
 order: 4
 group: Your dashboard
 twin: mobile-dashboard-editing
@@ -46,6 +46,8 @@ Izgarayı değiştirdiğinizde Cora kutucukları konumlarına göre atmaz. Hâl�
 2. **TÜR** altında kutucuğun türünü, ardından ne göstereceğini (bir ölçüm, bir priz, bir cihaz ya da bir sahne) seçin.
 3. **BOYUT** altında ne kadar büyük olacağını seçin. Bir kutucuk bir ya da iki hücre genişliğinde ve bir ya da iki hücre yüksekliğinde olabilir. Bir Grafik'in ayrıca bir **ZAMAN ARALIĞI** vardır. Bir dozaj pompası kutucuğunda **Gün** ya da **Mililitre (mL)** olarak **Kalanı şu şekilde göster** bulunur.
 4. **Ekle**'ye dokunun.
+
+**Değer**, **Gösterge**, **Grafik** ya da **Durum** kutucuğunda, adın altındaki satır o ölçümü şu anda hangi cihazın beslediğini söyler, örneğin *Gösterge · Main Apex*. Cihaza verdiğiniz adı, hiç ad vermediyseniz markasını kullanır; hiçbir zaman seri numarası ya da kimlik göstermez. Henüz hiçbir şeyin bildirmediği bir ölçümde *Henüz veri yok* yazar. Ölçüm seçici ve kutucuğun ayarları kaynağı aynı şekilde adlandırır. Bir ölçümü hangi cihazın besleyeceğini değiştirmek için Cora Mobile'daki **Parametre Eşlemesi**'ni kullanın. Bkz. [Parametre Eşlemesi](/help/mobile-probes).
 
 Hareketler düzenleyicinin üstünde listelenir: **düzenlemek için bir kutucuğa dokunun**, **taşımak için uzun basın** ve **kaldırmak için ✕**. **Tümünü temizle**, baştan başlayabilmeniz için ızgarayı boşaltır.
 

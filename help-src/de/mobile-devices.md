@@ -2,7 +2,7 @@
 title: Geräte hinzufügen, bearbeiten und entfernen
 description: Ausrüstung zu Cora hinzufügen, einem Becken zuweisen, umbenennen, prüfen, ob sie in Ordnung ist, und entfernen, alles im Tab Geräte.
 section: Cora Mobile
-reviewed: 2026-10-17
+reviewed: 2026-11-03
 order: 11
 group: Equipment
 twin: max-devices
@@ -48,7 +48,7 @@ Cora prüft das primäre Cora Max des Beckens oder, wenn keins gewählt ist, das
 
 Tippe auf ein beliebiges Gerät in der Liste, um seine Seite zu öffnen. Zuerst kommen seine Steuerungen, dann Bereiche, die bei jeder Marke gleich funktionieren.
 
-- **Status** zeigt **Modell**, **Seriennummer**, **Firmware** und wann Cora zuletzt von ihm gehört hat (**Zuletzt gesehen**).
+- **Status** zeigt den Zustand, **Modell** und **Firmware** und, wenn das Gerät nicht normal arbeitet, wann Cora zuletzt von ihm gehört hat (**Zuletzt gesehen**). Seriennummer und andere Kennungen (Geräte-ID, Hardware-ID, MAC-Adresse) bleiben verborgen, bis du auf **Details anzeigen** tippst. Mit **Details ausblenden** schließt du sie wieder.
 - **Becken** zeigt, welchem Becken (oder welchen Becken) es zugewiesen ist. Tippe auf **Ändern**, um es neu zuzuweisen.
 - **Verbindung** ist, wo du seine IP-Adresse, Anmeldung oder seinen Geräteschlüssel bearbeitest.
 - **Gerät entfernen**, ganz unten.
@@ -59,13 +59,13 @@ Cora Max und Neptune Apex können mehr als ein Becken versorgen, deshalb ist ihr
 Ein Gerät ohne Becken meldet trotzdem, aber seine Zahlen landen nirgends. Erscheint ein Gerät, das du gerade hinzugefügt hast, auf keinem Dashboard, prüf das zuerst.
 :::
 
-Was die Steuerungen jeder Marke tun, steht unter [Deine Ausrüstung steuern](/help/mobile-device-control).
+Was die Steuerungen jeder Marke tun, steht unter [Deine Ausrüstung steuern](/help/mobile-device-control). Welchen Parameter die Messwerte eines Geräts speisen, legst du in der [Parameterzuordnung](/help/mobile-probes) fest.
 
 ## Umbenennen {#renaming}
 
 Öffne das Gerät und tippe auf den Stift neben seinem Namen. Nimm den Namen, den du im Alltag benutzt, etwa "Rückförderung", "Gyre links" oder "Heizer Technikbecken". Der Name erscheint auf Widgets, in Warnungen und in allem, was du Cora fragst.
 
-Namen können bis zu 40 Zeichen lang sein. Lass den Namen leer, um zum eigenen Namen des Geräts zurückzukehren. Haben zwei Geräte derselben Art keinen Namen, unterscheidet Cora sie mit einem kurzen Code hinter dem Namen. Eine Seriennummer nutzt Cora nie als Namen.
+Namen können bis zu 40 Zeichen lang sein. Lass den Namen leer, um zum eigenen Namen des Geräts zurückzukehren. Haben zwei Geräte derselben Art keinen Namen, unterscheidet Cora sie mit einem kurzen Code hinter dem Namen. Eine Seriennummer nutzt Cora nie als Namen. Überall, wo ein Gerät aufgelistet ist, etwa in der Parameterzuordnung oder im Dashboard-Editor von Cora Max, steht es unter dem Namen, den du ihm gegeben hast; Seriennummer oder ID stehen nur hinter **Details anzeigen** auf seiner Seite.
 
 Der neue Name gilt nur in Cora. Den Namen in der eigenen App des Herstellers ändert er nicht.
 

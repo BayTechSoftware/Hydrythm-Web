@@ -2,7 +2,7 @@
 title: Cihaz ekleme, düzenleme ve kaldırma
 description: Cihazlar sekmesinden ekipmanı Cora'ya ekleyin, bir akvaryuma atayın, adını değiştirin, sağlıklı çalışıp çalışmadığını kontrol edin ve kaldırın.
 section: Cora Mobile
-reviewed: 2026-10-17
+reviewed: 2026-11-03
 order: 11
 group: Equipment
 twin: max-devices
@@ -48,7 +48,7 @@ Yeni bir Cora Max'i **Cora** ile eşleştirirsiniz. Wi-Fi'nizde zaten bulunan ü
 
 Sayfasını açmak için listedeki herhangi bir cihaza dokunun. Önce kontrolleri, ardından her markada aynı çalışan bölümler gelir.
 
-- **Durum**, **Model**, **Seri no**, **Yazılım** bilgilerini ve Cora'nın ondan en son ne zaman haber aldığını (**Son görülme**) gösterir.
+- **Durum**, durumunu, **Model** ve **Yazılım** bilgilerini ve cihaz normal çalışmıyorsa Cora'nın ondan en son ne zaman haber aldığını (**Son görülme**) gösterir. Seri numarası ve diğer tanımlayıcılar (cihaz kimliği, donanım kimliği, MAC adresi) **Ayrıntıları göster**'e dokunana kadar gizlidir. Tekrar kapatmak için **Ayrıntıları gizle**'ye dokunun.
 - **Akvaryumlar**, hangi akvaryuma (ya da akvaryumlara) atandığını gösterir. Yeniden atamak için **Değiştir**'e dokunun.
 - **Bağlantı**, IP adresini, giriş bilgisini ya da cihaz anahtarını düzenlediğiniz yerdir.
 - En altta **Cihazı kaldır**.
@@ -59,13 +59,13 @@ Cora Max ve Neptune Apex birden fazla akvaryuma hizmet edebilir, bu yüzden akva
 Akvaryumu olmayan bir cihaz bildirmeye devam eder ama sayılarının gidecek yeri yoktur. Yeni eklediğiniz bir cihaz panoda görünmüyorsa önce bunu kontrol edin.
 :::
 
-Her markanın kontrollerinin ne yaptığı [Ekipmanınızı kontrol etme](/help/mobile-device-control) sayfasında.
+Her markanın kontrollerinin ne yaptığı [Ekipmanınızı kontrol etme](/help/mobile-device-control) sayfasında. Bir cihazın her ölçümünün hangi parametreyi beslediği [Parametre Eşlemesi](/help/mobile-probes) içinde ayarlanır.
 
 ## Adını değiştirme {#renaming}
 
 Cihazı açın ve adının yanındaki kaleme dokunun. Gündelik hayatta ona ne diyorsanız onu kullanın, "Ana pompa", "Sol gyre" ya da "Sump ısıtıcısı" gibi. Ad widget'larda, uyarılarda ve Cora'ya sorduğunuz her şeyde görünür.
 
-Adlar en fazla 40 karakter olabilir. Cihazın kendi adına dönmek için adı boş bırakın. Aynı türden iki cihazın adı yoksa Cora onları adın arkasındaki kısa bir kodla ayırt eder. Cora seri numarasını hiçbir zaman ad olarak kullanmaz.
+Adlar en fazla 40 karakter olabilir. Cihazın kendi adına dönmek için adı boş bırakın. Aynı türden iki cihazın adı yoksa Cora onları adın arkasındaki kısa bir kodla ayırt eder. Cora seri numarasını hiçbir zaman ad olarak kullanmaz. Parametre Eşlemesi ya da Cora Max pano düzenleyicisi gibi bir cihazın listelendiği her yerde cihaz, ona verdiğiniz adla görünür; seri numarası ya da kimliği yalnızca sayfasındaki **Ayrıntıları göster**'in arkasındadır.
 
 Yeni ad yalnızca Cora'da geçerlidir. Üreticinin kendi uygulamasındaki adı değiştirmez.
 

@@ -2,7 +2,7 @@
 title: Editing the Cora Max dashboard
 description: Add, move and remove tiles on the Cora Max dashboard, pick a grid, use templates or Design with AI, and save layouts to reuse on any Cora Max.
 section: Cora Max
-reviewed: 2026-10-18
+reviewed: 2026-11-03
 order: 4
 group: Your dashboard
 twin: mobile-dashboard-editing
@@ -46,6 +46,8 @@ When you change the grid, Cora doesn't throw tiles away by position. Tiles that 
 2. Under **TYPE**, pick the kind of tile, then what it shows (a reading, an outlet, a device or a scene).
 3. Under **SIZE**, pick how big it is. A tile can be one or two cells wide and one or two cells tall. A Graph also has a **TIME RANGE**. A doser tile has **Show remaining as**, in **Days** or **Milliliters (mL)**.
 4. Tap **Add**.
+
+On a **Value**, **Gauge**, **Graph** or **Status** tile, the line under the name says which device is feeding that reading right now, for example *Gauge · Main Apex*. It uses the name you gave the device, or its brand if you never named it, and never a serial number or ID. A reading nothing has reported yet says *No reading yet*. The metric picker and the tile's settings name the source the same way. To change which device feeds a reading, use **Parameter Mapping** in Cora Mobile. See [Parameter Mapping](/help/mobile-probes).
 
 The gestures are listed along the top of the editor: **tap a tile to edit**, **long-press to move it**, and **✕ to remove it**. **Clear all** empties the grid so you can start over.
 

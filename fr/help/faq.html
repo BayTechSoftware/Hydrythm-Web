@@ -125,6 +125,7 @@
 <li><a href="/fr/help/mobile-plans">Forfaits et abonnements</a></li>
 <li><a href="/fr/help/mobile-data-export">Exporter vos données et supprimer votre compte</a></li>
 <li><a href="/fr/help/mobile-support">Signaler un problème</a></li>
+<li><a href="/fr/help/mobile-partners">Partenaires connectés</a></li>
 </ul></details>
 <p class="nav-sec" lang="en">Cora Max</p>
 <details class="nav-g">
@@ -214,7 +215,7 @@
 <h3 id="can-i-control-equipment-away">Puis-je commander l’équipement quand je suis loin de chez moi ?</h3>
 <p>Oui, si un Cora Max à l’aquarium est en ligne et peut joindre cet équipement. Votre commande part vers Cora Cloud et le Cora Max l’exécute. Sans Cora Max, vous ne pouvez commander un appareil Neptune Apex, Red Sea ou Jecod que tant que votre téléphone est sur son réseau. Plus de détails dans <a href="/fr/help/mobile-multi-device">Plus d’un appareil Cora</a>.</p>
 <h3 id="can-two-people-use-the-same-tank">Deux personnes peuvent-elles utiliser le même aquarium ?</h3>
-<p>Il n’y a pas encore d’accès partagé entre deux comptes distincts. Un foyer peut se connecter au même compte Cora sur plusieurs téléphones. Tout le monde voit les mêmes aquariums, reçoit les mêmes notifications, et les changements s’appliquent à tout le compte. Pour la personne qui garde votre aquarium, <a href="/fr/help/mobile-vacation">Partir en vacances</a> crée une page en lecture seule qui ne demande pas de compte. Un <a href="/fr/help/mobile-sharing">instantané partagé</a> n’est qu’une image.</p>
+<p>Il n’y a pas encore d’accès partagé entre deux comptes distincts. Un foyer peut se connecter au même compte Cora sur plusieurs téléphones. Tout le monde voit les mêmes aquariums, reçoit les mêmes notifications, et les changements s’appliquent à tout le compte. Pour la personne qui garde votre aquarium, <a href="/fr/help/mobile-vacation">Partir en vacances</a> crée une page en lecture seule qui ne demande pas de compte. Un <a href="/fr/help/mobile-sharing">instantané partagé</a> n’est qu’une image. Une société d’entretien peut consulter un aquarium avec un code à usage unique, mais ce n’est pas un second accès : voir <a href="/fr/help/mobile-partners">Partenaires connectés</a>.</p>
 <h3 id="how-do-i-add-another-tank">Comment ajouter un autre aquarium ?</h3>
 <p>Dans Cora Mobile, ouvrez <strong>Paramètres</strong> et touchez <strong>Ajouter un aquarium</strong>. Déplacez ensuite ses appareils vers lui, et ajoutez-le à votre Cora Max si vous en avez un. Plus de détails dans <a href="/fr/help/mobile-tanks">Gérer vos aquariums</a>.</p>
 <h3 id="can-i-get-a-removed-tank-back">J’ai retiré un aquarium par erreur. Puis-je le récupérer ?</h3>
@@ -279,7 +280,7 @@
 <hr>
 <p>Vous ne trouvez toujours pas votre réponse ? <a href="/fr/help/troubleshooting">Résolution de problèmes</a> passe en revue les solutions symptôme par symptôme, ou écrivez à <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong>.</p>
       <nav class="pn" aria-label="Poursuivre la lecture"><a class="pn-p" href="/fr/help/equipment-by-brand"><span>Précédent</span><b>L’équipement par marque</b></a><a class="pn-n" href="/fr/help/glossary"><span>Suivant</span><b>Glossaire</b></a></nav>
-      <p class="stamp">Rédigé pour Cora Max 0.28.240 et Cora Mobile 1.4.16. Vérifié pour la dernière fois le 2026-10-24.</p>
+      <p class="stamp">Rédigé pour Cora Max 0.28.275 et Cora Mobile 1.4.24. Vérifié pour la dernière fois le 2026-11-03.</p>
       <p class="ask">Toujours bloqué ? Écrivez à <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, nous vous aiderons.</p>
     </article>
   </main>
@@ -670,7 +671,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/fr/help/search.json?v=84e649e8bc').then(function (r) { return r.json(); })
+    fetch('/fr/help/search.json?v=2f74db88ae').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "fr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La recherche est indisponible. Utilisez la navigation." + '</li>';

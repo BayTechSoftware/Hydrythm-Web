@@ -2,7 +2,7 @@
 title: Cora Max ayarları
 description: Yeniden adlandırma, parlaklık, gece karartması ve uyandırma sözcüğünden çocuk kilidine, dile, Wi-Fi'ye ve fabrika ayarlarına sıfırlamaya kadar her Cora Max ayarı.
 section: Cora Max
-reviewed: 2026-10-18
+reviewed: 2026-11-03
 order: 14
 group: Settings and account
 twin: mobile-settings
@@ -52,13 +52,13 @@ Kartın altında şu bölümler vardır.
 | Bölüm | Kapsadıkları |
 |---|---|
 | **EKRAN** | **Parlaklık**. **Şu kadar süre sonra karart** ve **Karartma seviyesi**: dokunulmadan ne kadar süre sonra ekranın kararacağı ve ne kadar kararacağı. **Başlangıç**, **Bitiş** ve **Gece parlaklığı** ile **Gece karartması**. Üst çubukta **Saati göster**. **Alarmda ekranı uyandır** |
-| **SES VE KONUŞMA** | **Hoparlör** (**Dahili**, **3.5 mm** ya da **BT**), **Uyarı sesi** ve ses düzeyi, **Sesli uyarılar** ve açık ya da kapalı **Uyandırma sözcüğü**. Ayrıntılar [Cora ile konuşma](/help/max-voice#sound-and-wake-word-settings) sayfasında |
+| **SES VE KONUŞMA** | **Hoparlör** (**Dahili**, **3.5 mm** ya da **BT**), **Uyarı sesi** ve ses düzeyi, **Sesli uyarılar** ve açık ya da kapalı **Uyandırma sözcüğü**, ayrıca ekrana dokunduğunuzda duyulan tık sesi için **Dokunma sesleri**. Ayrıntılar [Cora ile konuşma](/help/max-voice#sound-and-wake-word-settings) sayfasında |
 | **REEF BUDDY** | **Reef Buddy özeti** sabah özetini yüksek sesle okur. **Özet saati**, her cihazda aynı olmak üzere ne zaman geleceğidir |
 | **ÇOCUK KİLİDİ** | Açık ya da kapalı **Çocuk kilidi** ve **Şu kadar süre sonra kilitle**. Aşağıdaki [Çocuk kilidi](#child-lock) bölümüne bakın |
 | **BİLDİRİMLER** | Her özet, alarm ve hesap bildirimiyle tüm hesabınızın gelen kutusu olan **Bildirim geçmişi** |
 | **DİL** | Tüm hesabınızın kullandığı tek dil: English, Deutsch, Español, Français, Italiano, Polski ya da Türkçe. Aşağıdaki nota bakın |
 | **AĞ VE GÜNCELLEMELER** | **Wi-Fi**, **Yazılım Güncellemesi** ve bu Cora Max'in cihazlarınızı ne sıklıkla okuduğunu gösteren **Cihaz yoklaması** (Cora Mobile'da değiştirirsiniz) |
-| **DURUM** | Bu ekranın gösterdiği her akvaryum için **Yoklama durumu**, **Son yoklama**, **Son bulut yazımı** ve **Bulut kaydı** içeren bir kart. Yalnızca görüntüleme |
+| **DURUM** | Bu ekranın gösterdiği her akvaryum için bir kart. **Cihazlar**, akvaryumdaki cihazlardan kaçının veri gönderdiğini söyler (*10 cihazdan 9 tanesi veri gönderiyor*), **Son okuma** en yeni okumanın ne zaman geldiğini gösterir, **Veri göndermeyenler** ise susan her cihazın adını verir. Apex olan bir akvaryumda ayrıca **Apex yoklaması**, **Son yoklama** ve **Son bulut yazımı** görünür. **Bulut kaydı** yalnızca Cora Cloud bir kaydı reddettiğinde çıkar. Yalnızca görüntüleme |
 | **YARDIM VE HAKKINDA** | **Yardım ve Destek** (destekle iletişim ya da sorun bildirme) ve **Hakkında** (sürüm ve lisanslar) |
 | **SIFIRLA** | **Bu cihazı yeniden eşleştir** ve **Fabrika ayarlarına sıfırla**. Aşağıya bakın |
 

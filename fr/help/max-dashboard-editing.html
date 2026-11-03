@@ -125,6 +125,7 @@
 <li><a href="/fr/help/mobile-plans">Forfaits et abonnements</a></li>
 <li><a href="/fr/help/mobile-data-export">Exporter vos données et supprimer votre compte</a></li>
 <li><a href="/fr/help/mobile-support">Signaler un problème</a></li>
+<li><a href="/fr/help/mobile-partners">Partenaires connectés</a></li>
 </ul></details>
 <p class="nav-sec" lang="en">Cora Max</p>
 <details class="nav-g">
@@ -184,6 +185,7 @@
 <aside class="cal cal-warning"><p class="cal-t">Changer de grille ne retire des tuiles que si elles ne tiennent pas</p><p>Quand vous changez de grille, Cora ne jette pas les tuiles selon leur position. Les tuiles qui ont encore une case valide restent en place, et les autres sont replacées dans l’ordre. Vous ne perdez des tuiles que si la nouvelle grille a <strong>moins de cases que vous n’avez de tuiles</strong>, et Cora vous dit combien ont disparu. Passer de 10×5 (50 cases) à 3×3 (9) en retire la plupart.</p></aside>
 <h2 id="adding-and-arranging">Ajouter et disposer les tuiles</h2>
 <ol><li>Touchez une case vide (elle affiche un <strong>+</strong>) pour ouvrir <strong>Ajouter un widget</strong>.</li><li>Sous <strong>TYPE</strong>, choisissez le genre de tuile, puis ce qu’elle affiche (une mesure, une prise, un appareil ou une scène).</li><li>Sous <strong>TAILLE</strong>, choisissez sa taille. Une tuile peut faire une ou deux cases de large et une ou deux cases de haut. Un graphique a aussi une <strong>PLAGE DE TEMPS</strong>. Une tuile de doseur a <strong>Afficher le reste en</strong>, en <strong>Jours</strong> ou <strong>Millilitres (mL)</strong>.</li><li>Touchez <strong>Ajouter</strong>.</li></ol>
+<p>Sur une tuile <strong>Valeur</strong>, <strong>Jauge</strong>, <strong>Graphique</strong> ou <strong>État</strong>, la ligne sous le nom indique quel appareil alimente cette mesure en ce moment, par exemple <em>Jauge · Main Apex</em>. Elle utilise le nom que vous avez donné à l’appareil, ou sa marque si vous ne lui en avez jamais donné, et jamais un numéro de série ni un ID. Une mesure que rien n’a encore signalée indique <em>Pas encore de relevé</em>. Le sélecteur de mesure et les réglages de la tuile nomment la source de la même façon. Pour changer l’appareil qui alimente une mesure, utilisez l’<strong>Association des paramètres</strong> dans Cora Mobile. Voir <a href="/fr/help/mobile-probes">Association des paramètres</a>.</p>
 <p>Les gestes sont rappelés en haut de l’éditeur : <strong>Touchez une tuile pour modifier</strong>, <strong>appui long pour déplacer</strong> et <strong>✕ pour retirer</strong>. <strong>Tout effacer</strong> vide la grille pour repartir de zéro.</p>
 <p>Les types de tuiles sont Valeur, Jauge, Graphique, État, Prise, Scène, ReefBeat, Module Apex et Jecod™. <strong>Éclairage</strong>, <strong>Pompe de brassage</strong> et <strong>Pompe</strong> listent tous les éclairages, pompes de brassage et pompes de l’aquarium, quelle que soit la marque, et chacun n’apparaît que si l’aquarium en a un. Vous trouverez les tuiles dans la <a href="/fr/help/mobile-widgets">Référence des widgets</a>. La tuile <strong>Scène</strong> n’existe que sur Cora Max. Elle lance une <a href="/fr/help/max-automation">scène</a> d’un seul appui.</p>
 <h2 id="outlets-feed">Prises et nourrissage</h2>
@@ -208,7 +210,7 @@
 <h2 id="multiple-tanks">Plusieurs aquariums</h2>
 <p>Chaque aquarium a sa propre disposition. Passez sur cet aquarium et ouvrez <strong>Disposition du tableau de bord</strong> depuis son menu d’aquarium, ou utilisez <strong>Paramètres → [cet aquarium] → Disposition du tableau de bord</strong>.</p>
       <nav class="pn" aria-label="Poursuivre la lecture"><a class="pn-p" href="/fr/help/max-reef-room"><span>Précédent</span><b>La salle du récif</b></a><a class="pn-n" href="/fr/help/max-controls"><span>Suivant</span><b>Prises et commandes</b></a></nav>
-      <p class="stamp">Rédigé pour Cora Max 0.28.240 et Cora Mobile 1.4.16. Vérifié pour la dernière fois le 2026-10-18.</p>
+      <p class="stamp">Rédigé pour Cora Max 0.28.275 et Cora Mobile 1.4.24. Vérifié pour la dernière fois le 2026-11-03.</p>
       <p class="ask">Toujours bloqué ? Écrivez à <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, nous vous aiderons.</p>
     </article>
   </main>
@@ -599,7 +601,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/fr/help/search.json?v=84e649e8bc').then(function (r) { return r.json(); })
+    fetch('/fr/help/search.json?v=2f74db88ae').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "fr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La recherche est indisponible. Utilisez la navigation." + '</li>';

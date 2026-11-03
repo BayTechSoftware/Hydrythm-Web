@@ -125,6 +125,7 @@
 <li><a href="/pl/help/mobile-plans">Plany i subskrypcje</a></li>
 <li><a href="/pl/help/mobile-data-export">Eksport danych i usuwanie konta</a></li>
 <li><a href="/pl/help/mobile-support">Zgłaszanie problemu</a></li>
+<li><a href="/pl/help/mobile-partners">Połączeni partnerzy</a></li>
 </ul></details>
 <p class="nav-sec" lang="en">Cora Max</p>
 <details class="nav-g">
@@ -184,6 +185,7 @@
 <aside class="cal cal-warning"><p class="cal-t">Zmiana siatki usuwa kafelki tylko wtedy, gdy się nie mieszczą</p><p>Gdy zmieniasz siatkę, Cora nie wyrzuca kafelków według pozycji. Kafelki, które nadal mają prawidłową komórkę, zostają na miejscu, a pozostałe są dokładane z powrotem po kolei. Tracisz kafelki tylko wtedy, gdy nowa siatka ma <strong>mniej komórek, niż masz kafelków</strong>, a Cora powie Ci, ile ubyło. Przejście z 10×5 (50 komórek) na 3×3 (9) usuwa większość z nich.</p></aside>
 <h2 id="adding-and-arranging">Dodawanie i układanie kafelków</h2>
 <ol><li>Dotknij pustej komórki (pokazuje <strong>+</strong>), żeby otworzyć <strong>Dodaj widżet</strong>.</li><li>W <strong>TYP</strong> wybierz rodzaj kafelka, a potem to, co ma pokazywać (odczyt, gniazdo, urządzenie albo scenę).</li><li>W <strong>ROZMIAR</strong> wybierz, jak duży ma być. Kafelek może mieć jedną albo dwie komórki szerokości i jedną albo dwie wysokości. Wykres ma też <strong>ZAKRES CZASU</strong>. Kafelek dozownika ma <strong>Pokaż pozostałe jako</strong>, w <strong>Dni</strong> albo <strong>Mililitry (mL)</strong>.</li><li>Dotknij <strong>Dodaj</strong>.</li></ol>
+<p>Na kafelku <strong>Wartość</strong>, <strong>Wskaźnik</strong>, <strong>Wykres</strong> lub <strong>Stan</strong> wiersz pod nazwą mówi, które urządzenie zasila teraz ten odczyt, na przykład <em>Wskaźnik · Main Apex</em>. Używa nazwy nadanej urządzeniu albo jego marki, jeśli nigdy nie dostało nazwy, i nigdy numeru seryjnego ani ID. Odczyt, którego nic jeszcze nie zgłosiło, mówi <em>Brak jeszcze odczytu</em>. Wybór odczytu i ustawienia kafelka nazywają źródło tak samo. Aby zmienić, które urządzenie zasila odczyt, użyj <strong>Mapowania parametrów</strong> w Cora Mobile. Zobacz <a href="/pl/help/mobile-probes">Mapowanie parametrów</a>.</p>
 <p>Gesty są wymienione u góry edytora: <strong>dotknij kafelka, aby edytować</strong>, <strong>przytrzymaj, aby przenieść</strong> i <strong>✕, aby usunąć</strong>. <strong>Wyczyść wszystko</strong> opróżnia siatkę, żeby zacząć od nowa.</p>
 <p>Typy kafelków to Wartość, Wskaźnik, Wykres, Stan, Gniazdo, Scena, ReefBeat, Moduł Apex i Jecod™. <strong>Oświetlenie</strong>, <strong>Pompa cyrkulacyjna</strong> i <strong>Pompa</strong> wymieniają wszystkie lampy, pompy cyrkulacyjne i pompy w akwarium, niezależnie od marki, a każdy wiersz pojawia się tylko wtedy, gdy akwarium ma takie urządzenie. Znajdziesz je w <a href="/pl/help/mobile-widgets">Rodzajach widżetów</a>. Kafelek <strong>Scena</strong> istnieje tylko na Cora Max. Uruchamia <a href="/pl/help/max-automation">scenę</a> jednym dotknięciem.</p>
 <h2 id="outlets-feed">Gniazda i karmienie</h2>
@@ -208,7 +210,7 @@
 <h2 id="multiple-tanks">Kilka akwariów</h2>
 <p>Każde akwarium ma własny układ. Przełącz się na to akwarium i otwórz <strong>Układ panelu</strong> z jego menu akwarium albo użyj <strong>Ustawienia → [to akwarium] → Układ panelu</strong>.</p>
       <nav class="pn" aria-label="Czytaj dalej"><a class="pn-p" href="/pl/help/max-reef-room"><span>Poprzedni</span><b>Reef Room</b></a><a class="pn-n" href="/pl/help/max-controls"><span>Następny</span><b>Gniazda i sterowanie</b></a></nav>
-      <p class="stamp">Napisano dla Cora Max 0.28.240 i Cora Mobile 1.4.16. Ostatnio sprawdzono 2026-10-18.</p>
+      <p class="stamp">Napisano dla Cora Max 0.28.275 i Cora Mobile 1.4.24. Ostatnio sprawdzono 2026-11-03.</p>
       <p class="ask">Wciąż masz problem? Napisz na <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, pomożemy.</p>
     </article>
   </main>
@@ -599,7 +601,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/pl/help/search.json?v=bf578ebf0d').then(function (r) { return r.json(); })
+    fetch('/pl/help/search.json?v=056b8cbfce').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "pl"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Wyszukiwanie jest niedost\u0119pne. U\u017cyj menu." + '</li>';

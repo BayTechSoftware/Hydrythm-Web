@@ -2,7 +2,7 @@
 title: Glossary
 description: What Cora means by tank, source, widget, threshold, Primary Cora Max, feed mode, scene and the other words you'll see in Cora Mobile and on Cora Max.
 section: Help
-reviewed: 2026-10-18
+reviewed: 2026-11-03
 order: 5
 ---
 
@@ -135,7 +135,7 @@ Something you can measure in your water, like alkalinity, calcium, nitrate or te
 
 ## Parameter Mapping
 
-Where you tell Cora what each probe on a controller measures, and which device feeds each reading. See [Parameter Mapping and probes](/help/mobile-probes).
+One list of every device's readings, where you choose which tank parameter each reading shows as, including a parameter of its own for a test kit or ICP result, and which device feeds a parameter when several report it. See [Parameter Mapping and probes](/help/mobile-probes).
 
 ## Primary Cora Max
 
@@ -177,7 +177,7 @@ A button on a Cora Max alert. It mutes the alert on that Cora Max for the rule's
 
 ## Source
 
-Where a reading came from: a probe, a controller, a lab result, or you with a test kit. Every reading has one, so Cora can tell you when two sources disagree. If more than one source reports the same reading, [Parameter Mapping](/help/mobile-probes) is where you choose which one to trust, or leave it Automatic.
+Where a reading came from: a probe, a controller, a lab result, or you with a test kit. Every reading has one, so Cora can tell you when two sources disagree. If more than one source reports the same reading, [Parameter Mapping](/help/mobile-probes) is where you choose which one to trust, or leave it on the newest reading.
 
 ## Status dot
 

@@ -2,7 +2,7 @@
 title: Paramètres de Cora Mobile
 description: Où tout se trouve dans l’onglet Paramètres de Cora Mobile : compte et forfait, aquariums, Cora Assistant, langue, mode sombre, notifications et assistance.
 section: Cora Mobile
-reviewed: 2026-10-18
+reviewed: 2026-11-03
 order: 36
 group: Settings and account
 twin: max-settings
@@ -46,13 +46,15 @@ L’ajout, le retrait et la restauration d’aquariums sont expliqués pas à pa
 
 Ouvrez un aquarium : sa page de réglages a trois parties.
 
-- **Paramètres** contient **Modifier l’aquarium**, **Association des paramètres**, **Seuils d’alerte**, **Unités**, **Cora Max principal** et **Mode vacances**.
+- **Paramètres** contient **Modifier l’aquarium**, **Association des paramètres**, **Seuils d’alerte**, **Unités**, **Cora Max principal**, **Mode vacances** et **Partenaires connectés**.
 - **Registres et rapports** contient **Journal**, **Entretien**, **Population**, **Reef Buddy**, **Rapports de santé**, **Rapports ICP**, **Activité** et **Configuration guidée**.
 - **Appareils sur cet aquarium** est une liste en lecture seule.
 
 **Association des paramètres** est l’endroit où vous choisissez quel appareil alimente chaque mesure. Voir [Association des paramètres](/help/mobile-probes). **Unités** définit comment cet aquarium affiche ses mesures, y compris les litres ou les gallons US ou UK pour le volume. Voir [Le profil de votre aquarium](/help/mobile-tank-profile). **Cora Max principal** est l’appareil qui interroge l’équipement de cet aquarium, expliqué dans [Plus d’un appareil Cora](/help/mobile-multi-device#primary-cora-max). Pour ajouter ou retirer un appareil, utilisez l’[onglet Appareils](/help/mobile-devices).
 
 **Mode vacances** est un plan pour la personne qui s’occupe de l’aquarium pendant votre absence. Vous fixez les dates et faites une liste de tâches, avec la fréquence de chacune. Cora en fait une page simple en lecture seule que vous pouvez partager avec votre gardien. Il n’a pas besoin de compte. Plus de détails dans [Partir en vacances](/help/mobile-vacation).
+
+**Partenaires connectés** permet à une société d’entretien de consulter cet aquarium avec un code à usage unique que vous lui donnez et, si vous l’autorisez, d’enregistrer des interventions dans votre journal. Cela demande un forfait payant. Plus de détails dans [Partenaires connectés](/help/mobile-partners).
 
 ## Paramètres de l’application
 

@@ -2,7 +2,7 @@
 title: Conectar tus equipos
 description: Cómo conectar a Cora una unidad Neptune Apex, Red Sea ReefBeat, Jecod o AquaWiz, usarla sin Cora Max y resolver una conexión que se corta.
 section: Cora Mobile
-reviewed: 2026-10-24
+reviewed: 2026-11-03
 order: 12
 group: Equipment
 ---
@@ -41,6 +41,8 @@ Cora lee tu Apex por tu red local, incluidas las sondas, las tomas y los módulo
 6. Toca **Continuar**. Cora prueba primero el inicio de sesión. Si el Apex responde y lo rechaza, un mensaje dice **El Apex rechazó este inicio de sesión**: toca **Cancelar** para corregir el usuario o la contraseña, o **Guardar de todos modos** para seguir. Si Cora no puede contactar con el Apex (por ejemplo, porque no estás en casa), se salta la prueba. Después marca todos los acuarios en **¿A qué acuarios sirve este Apex?** y toca **Guardar**. Un Apex puede servir a más de un acuario.
 
 Si el escaneo no encuentra nada, comprueba que tu teléfono está en el mismo Wi-Fi que el Apex, o escribe tú la dirección IP.
+
+Si la página web de tu Apex usa un puerto distinto del 80 (**Network Setup** en el Apex, **HTTP Port**), el escaneo prueba también los puertos 81, 8080, 8000, 8081 y 88, y Cora guarda el puerto junto con la dirección. Para escribirla tú, pon el puerto tras dos puntos, por ejemplo `192.168.1.50:81`.
 
 Una vez conectado, cada sonda que informa tu Apex pasa a ser una fuente que puedes poner en un panel. Las tomas aparecen como controles, y cada módulo de expansión instalado tiene su propia tarjeta de dispositivo. Tu propia programación del Apex sigue funcionando exactamente como la configuraste. Lo que puedes controlar está en [Controlar tus equipos](/help/mobile-device-control#neptune-apex).
 

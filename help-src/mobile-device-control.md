@@ -2,7 +2,7 @@
 title: Controlling your equipment
 description: Open a device's page to see its live state and switch outlets, pumps, dosing heads and testers, brand by brand.
 section: Cora Mobile
-reviewed: 2026-10-24
+reviewed: 2026-11-01
 order: 13
 group: Equipment
 twin: max-device-control
@@ -165,7 +165,9 @@ Defaults and other consumables are in [Consumables](/help/mobile-consumables).
 
 ## Jecod / Jebao pumps {#jecod}
 
-The pump page shows the current wave pattern (mode) and intensity, and you can change both. Its status sits in the title row, next to the pump's name. A switch with **Same all day** and **Schedule** marks the one that is running with *· running*, and the page opens on it. Building a schedule, and copying, saving or sharing it, is in [Scheduling equipment](/help/mobile-schedules).
+The pump page shows the current wave pattern (mode) and intensity, and you can change both. Every wavemaker page in Cora Mobile (Jecod) has the same layout: the status in the title row, next to the pump's name, then the top card with the power switch and **Feeding**, then a switch with **Manual** and **Schedule** and a card for each. The switch marks the one that is running with *· running*, and the page opens on it.
+
+Every change to the schedule goes through the schedule editor, and nothing is sent until you tap **Save to pump** there. Building a schedule, and copying it from or to other pumps, saving or sharing it, is in [Scheduling equipment](/help/mobile-schedules).
 
 If the pump is part of a group, the page shows its role, such as **Leads the group**, **Follows: in step** or **Follows: alternating**.
 

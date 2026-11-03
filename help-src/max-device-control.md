@@ -2,7 +2,7 @@
 title: Controlling equipment from Cora Max
 description: Device pages on Cora Max for Neptune Apex, Trident and DŌS, Red Sea ReefBeat, Jecod and AquaWiz, by brand.
 section: Cora Max
-reviewed: 2026-10-24
+reviewed: 2026-11-03
 order: 6
 group: Equipment
 twin: mobile-device-control
@@ -71,14 +71,22 @@ If a Red Sea unit stops itself, its page tells you what's wrong and puts the fix
 
 ## Jecod {#jecod}
 
-The Jecod page shows the pump's mode and intensity, and you can change both. Its status sits in the title row, next to the pump's name. The top bar holds the power switch, the pattern running now and **Feeding** with four pills: **5**, **10**, **15** and **30** min. Tap a pill to pause the pump for that long. Below the bar are two cards:
+The Jecod page shows the pump's mode and intensity, and you can change both. Every wavemaker page on Cora Max (Jecod) has the same layout: the pump's status in the title row, next to its name, then a top bar with the power switch and **Feeding**, then two cards, **Manual** and **Schedule**.
 
-- **Same all day**: tap a setting to run it all day.
-- **Schedule**: the day graph and the list of plans, with **now** on the current one. **Edit** opens the editor, and the ⋮ menu holds **Copy schedule to…**, **Save schedule as…** and **Saved schedules…**.
+On a Jecod pump the top bar holds the power switch, the pattern running now and **Feeding** with four pills: **5**, **10**, **15** and **30** min. Tap a pill to pause the pump for that long. Below the bar are the two cards:
+
+- **Manual**: tap a setting to run it all day.
+- **Schedule**: the day graph and the list of plans, with **now** on the current one. **Edit** opens the editor, and the ⋮ menu holds **Copy schedule to…**, **Save schedule as…**, **Saved schedules…** and **Copy from…**.
 
 The card that is running has an outline and a **Running** chip. A Jecod pump has no **End feed** button. Every Jecod pump that can pause for feeding shows the **5**, **10**, **15** and **30** min pills. On a Jecod Pro the Feeding tile in the wave patterns does the same, for 10 minutes. Through a Cora Max that is away from the tank, a Jecod pump feeds for 10 minutes only. A pump that cannot feed right now shows the reason in one short line under the pills, and a long press shows the full sentence. A feed started from your phone is ended by Cora Max too: when the time is up, the pump returns to its program.
 
-You can write Jecod pump schedules at the wall as well as on your phone. The editor is the same, with a day graph, a list of periods and a row of actions. More in [Scheduling equipment](/help/mobile-schedules).
+You can write Jecod pump schedules at the wall as well as on your phone. The editor is the same, with a day graph, a list of periods and a row of actions. The plans on the Schedule card are only for reading: every change to the schedule goes through the editor, and nothing is sent until you tap **Save to pump** there. A schedule picked in **Saved schedules…** or **Copy from…** opens in the editor the same way. If you close the editor with unsaved changes, it asks first. More in [Scheduling equipment](/help/mobile-schedules).
+
+### Copying a schedule {#copying-a-schedule}
+
+**Copy from…** takes the schedule of another wavemaker on any tank this Cora Max serves. Each plan gets the closest mode this pump has, speeds are kept to what it can run, and **What changes on this pump** lists every change. **Load in editor** puts the copy in this pump's editor. Nothing is sent until you tap **Save to pump** there. A pump whose schedule Cora hasn't read yet is greyed out, with the reason.
+
+**Copy schedule to…** gives this day to other pumps on any tank this Cora Max serves, each listed as *Tank · Pump*. Tick the pumps and tap **Review**. Nothing is sent yet. **Review copies** lists each pump with its state, **Not saved**, **Saved to pump** or **Failed** with the reason, and how many changes it gets. **Open editor** opens that pump's own editor on the copied day, and only its own save sends it, to that pump alone. If a save fails, the draft is kept so you can try again. If you leave while some pumps are not saved, Cora asks *Discard unsaved copies?* first.
 
 ## AquaWiz {#aquawiz}
 
@@ -119,7 +127,7 @@ When more than one Cora Max shows a tank, one of them reads that tank's equipmen
 A few things only work on the Cora Max at the tank.
 
 - **Measure to dose** and **Re-measure** only show up there. Once a head is measured, **Dose now** works from any Cora Max.
-- You can change a Jecod schedule from another Cora Max only if the Cora Max at the tank has read the pump in the last hour, and never for a pump that only talks over Bluetooth. One **Apply to the pump** from there sends at most 12 changes, so send a bigger edit in parts.
+- You can change a Jecod schedule from another Cora Max only if the Cora Max at the tank has read the pump in the last hour, and never for a pump that only talks over Bluetooth. One **Save to pump** from there sends at most 12 changes, so send a bigger edit in parts.
 
 ## What was changed, and by what {#what-was-changed-and-by-what}
 

@@ -125,6 +125,7 @@
 <li><a href="/tr/help/mobile-plans">Planlar ve abonelikler</a></li>
 <li><a href="/tr/help/mobile-data-export">Verilerinizi dışa aktarma ve hesabınızı silme</a></li>
 <li><a href="/tr/help/mobile-support">Sorun bildirme</a></li>
+<li><a href="/tr/help/mobile-partners">Bağlı iş ortakları</a></li>
 </ul></details>
 <p class="nav-sec" lang="en">Cora Max</p>
 <details class="nav-g">
@@ -231,7 +232,8 @@
 <p>Bir ReefDose sayfasında başlık çubuğundaki zile dokunun. Her kafanın kendi kalan gün eşiği ve anahtarı vardır.</p>
 <p>Varsayılanlar ve diğer sarf malzemeleri <a href="/tr/help/mobile-consumables">Sarf malzemeleri</a> sayfasında.</p>
 <h2 id="jecod">Jecod / Jebao™ pompaları</h2>
-<p>Pompa sayfası mevcut dalga desenini (mod) ve yoğunluğu gösterir ve ikisini de değiştirebilirsiniz. Durumu başlık satırında, pompanın adının yanındadır. <strong>Tüm gün aynı</strong> ve <strong>Zamanlama</strong> seçenekli bir anahtar çalışanı <em>· çalışıyor</em> ile işaretler ve sayfa onda açılır. Günlük zamanlama hazırlamak ve onu kopyalamak, kaydetmek ya da paylaşmak <a href="/tr/help/mobile-schedules">Ekipman zamanlamaları</a> sayfasında.</p>
+<p>Pompa sayfası mevcut dalga desenini (mod) ve yoğunluğu gösterir ve ikisini de değiştirebilirsiniz. Cora Mobile'daki her dalga pompası sayfası (Jecod) aynı düzene sahiptir: durum başlık satırında, pompanın adının yanında, ardından güç anahtarı ve <strong>Besleme</strong> bulunan üst kart, ardından <strong>Manuel</strong> ve <strong>Zamanlama</strong> seçenekli bir anahtar ve her biri için bir kart. Anahtar çalışanı <em>· çalışıyor</em> ile işaretler ve sayfa onda açılır.</p>
+<p>Zamanlamadaki her değişiklik zamanlama düzenleyicisinden geçer ve orada <strong>Pompaya kaydet</strong>'e dokunana kadar hiçbir şey gönderilmez. Günlük zamanlama hazırlamak, onu başka pompalardan ya da başka pompalara kopyalamak, kaydetmek ya da paylaşmak <a href="/tr/help/mobile-schedules">Ekipman zamanlamaları</a> sayfasında.</p>
 <p>Pompa bir grubun parçasıysa sayfa onun rolünü gösterir, örneğin <strong>Grubu yönetir</strong>, <strong>Takip eder: eş zamanlı</strong> ya da <strong>Takip eder: dönüşümlü</strong>.</p>
 <h3 id="jecod-feeding">Besleme duraklatması</h3>
 <p>Pompanın sayfasında <strong>Besleme</strong> bölümünden bir besleme duraklatması başlatın: <strong>5</strong>, <strong>10</strong>, <strong>15</strong> ya da <strong>30</strong> dk'ya dokunun. Bazı pompalar duraklatmayı kendileri bitirir ve sayfada <em>Pompa bunu kendiliğinden bitirir.</em> yazar.</p>
@@ -250,7 +252,7 @@
 <h2 id="what-happens-after-you-change-something">Bir şeyi değiştirdikten sonra ne olur</h2>
 <p>Her değişiklik, geldiği yüzeyle birlikte <a href="/tr/help/mobile-activity">Etkinlik</a> içine kaydedilir. Bir cihaz bir değişikliği kabul etmezse bu da orada kaydedilir.</p>
       <nav class="pn" aria-label="Okumaya devam edin"><a class="pn-p" href="/tr/help/mobile-connections"><span>Önceki</span><b>Ekipmanınızı bağlama</b></a><a class="pn-n" href="/tr/help/mobile-schedules"><span>Sonraki</span><b>Ekipman zamanlamaları</b></a></nav>
-      <p class="stamp">Cora Max 0.28.240 ve Cora Mobile 1.4.16 için yazılmıştır. Son kontrol: 2026-10-24.</p>
+      <p class="stamp">Cora Max 0.28.275 ve Cora Mobile 1.4.24 için yazılmıştır. Son kontrol: 2026-11-01.</p>
       <p class="ask">Sorun devam ediyor mu? <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> adresine yazın, yardımcı olalım.</p>
     </article>
   </main>
@@ -641,7 +643,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/tr/help/search.json?v=1a2be35337').then(function (r) { return r.json(); })
+    fetch('/tr/help/search.json?v=2874d38015').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "tr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Arama \u015fu anda kullan\u0131lam\u0131yor. Men\u00fcy\u00fc kullan\u0131n." + '</li>';

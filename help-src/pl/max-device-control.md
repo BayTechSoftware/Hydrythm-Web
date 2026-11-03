@@ -2,7 +2,7 @@
 title: Sterowanie sprzętem z Cora Max
 description: Strony urządzeń na Cora Max dla Neptune Apex, Trident i DŌS, Red Sea ReefBeat, Jecod i AquaWiz, według marki.
 section: Cora Max
-reviewed: 2026-10-24
+reviewed: 2026-11-03
 order: 6
 group: Equipment
 twin: mobile-device-control
@@ -71,14 +71,22 @@ Jeśli urządzenie Red Sea samo się zatrzyma, jego strona mówi, co jest nie ta
 
 ## Jecod {#jecod}
 
-Strona Jecod pokazuje tryb i intensywność pompy, a Ty możesz zmienić oba. Jej stan jest w wierszu tytułu, obok nazwy pompy. Górny pasek ma przełącznik, wzór działający teraz i **Karmienie** z czterema przyciskami: **5**, **10**, **15** i **30** min. Dotknij przycisku, aby wstrzymać pompę na ten czas. Pod paskiem są dwie karty:
+Strona Jecod pokazuje tryb i intensywność pompy, a Ty możesz zmienić oba. Każda strona pompy cyrkulacyjnej na Cora Max (Jecod) ma ten sam układ: stan pompy w wierszu tytułu, obok jej nazwy, potem górny pasek z przełącznikiem i **Karmienie**, a potem dwie karty, **Ręcznie** i **Harmonogram**.
 
-- **Cały dzień tak samo**: dotknij ustawienia, aby działało cały dzień.
-- **Harmonogram**: wykres doby i lista planów, z **teraz** przy bieżącym. **Edytuj** otwiera edytor, a menu ⋮ zawiera **Skopiuj harmonogram do…**, **Zapisz harmonogram jako…** i **Zapisane harmonogramy…**.
+W pompie Jecod górny pasek ma przełącznik, wzór działający teraz i **Karmienie** z czterema przyciskami: **5**, **10**, **15** i **30** min. Dotknij przycisku, aby wstrzymać pompę na ten czas. Pod paskiem są obie karty:
+
+- **Ręcznie**: dotknij ustawienia, aby działało cały dzień.
+- **Harmonogram**: wykres doby i lista planów, z **teraz** przy bieżącym. **Edytuj** otwiera edytor, a menu ⋮ zawiera **Skopiuj harmonogram do…**, **Zapisz harmonogram jako…**, **Zapisane harmonogramy…** i **Kopiuj z…**.
 
 Działająca karta ma obwódkę i znacznik **Działa**. Pompa Jecod nie ma przycisku **Zakończ karmienie**. Każda pompa Jecod, która może się wstrzymać na czas karmienia, pokazuje przyciski **5**, **10**, **15** i **30** min. W Jecod Pro robi to samo kafelek Karmienie we wzorach fal, na 10 minut. Przez Cora Max oddalony od akwarium pompa Jecod karmi tylko przez 10 minut. Pompa, która teraz nie może karmić, pokazuje powód w jednym krótkim wierszu pod przyciskami, a długie dotknięcie pokazuje całe zdanie. Karmienie rozpoczęte z telefonu kończy też Cora Max: po upływie czasu pompa wraca do swojego programu.
 
-Programy dnia pomp Jecod możesz pisać przy ścianie tak samo jak w telefonie. Edytor jest taki sam, z wykresem dnia, listą okresów i rzędem akcji. Więcej w [Harmonogramach sprzętu](/help/mobile-schedules).
+Programy dnia pomp Jecod możesz pisać przy ścianie tak samo jak w telefonie. Edytor jest taki sam, z wykresem dnia, listą okresów i rzędem akcji. Plany na karcie Harmonogram są tylko do odczytu: każda zmiana harmonogramu przechodzi przez edytor i nic nie jest wysyłane, dopóki nie dotkniesz tam **Zapisz w pompie**. Harmonogram wybrany w **Zapisane harmonogramy…** albo **Kopiuj z…** otwiera się w edytorze tak samo. Jeśli zamykasz edytor z niezapisanymi zmianami, najpierw pyta. Więcej w [Harmonogramach sprzętu](/help/mobile-schedules).
+
+### Kopiowanie harmonogramu {#copying-a-schedule}
+
+**Kopiuj z…** pobiera harmonogram innej pompy cyrkulacyjnej z dowolnego akwarium obsługiwanego przez ten Cora Max. Każdy plan dostaje najbliższy tryb, jaki ma ta pompa, prędkości są ograniczane do tego, co może ona uruchomić, a **Co zmieni się w tej pompie** wymienia każdą zmianę. **Wczytaj do edytora** umieszcza kopię w edytorze tej pompy. Nic nie jest wysyłane, dopóki nie dotkniesz tam **Zapisz w pompie**. Pompa, której harmonogramu Cora jeszcze nie odczytała, jest wyszarzona, z podanym powodem.
+
+**Skopiuj harmonogram do…** przekazuje tę dobę innym pompom w każdym akwarium obsługiwanym przez ten Cora Max, każda wymieniona jako *Akwarium · Pompa*. Zaznacz pompy i dotknij **Przejrzyj**. Nic nie jest jeszcze wysyłane. **Przejrzyj kopie** wymienia każdą pompę z jej stanem, **Nie zapisano**, **Zapisano na pompie** albo **Niepowodzenie** z powodem, oraz z liczbą zmian, które dostaje. **Otwórz edytor** otwiera własny edytor tej pompy ze skopiowaną dobą, a dopiero jego zapis wysyła ją, tylko do tej pompy. Jeśli zapis się nie uda, wersja robocza zostaje, więc możesz spróbować ponownie. Jeśli wychodzisz, gdy część pomp nie jest zapisana, Cora najpierw pyta: *Odrzucić niezapisane kopie?*
 
 ## AquaWiz {#aquawiz}
 
@@ -119,7 +127,7 @@ Gdy akwarium pokazuje więcej niż jeden Cora Max, jeden z nich odczytuje sprzę
 Kilka rzeczy działa tylko na Cora Max przy akwarium.
 
 - **Zmierz, aby dozować** i **Zmierz ponownie** pojawiają się tylko tam. Gdy głowica jest już zmierzona, **Dozuj teraz** działa z każdego Cora Max.
-- Harmonogram Jecod zmienisz z innego Cora Max tylko wtedy, gdy Cora Max przy akwarium odczytał pompę w ciągu ostatniej godziny, i nigdy dla pompy, która łączy się tylko przez Bluetooth. Jedno **Zastosuj do pompy** z innego Cora Max wysyła najwyżej 12 zmian, więc większą edycję wyślij w częściach.
+- Harmonogram Jecod zmienisz z innego Cora Max tylko wtedy, gdy Cora Max przy akwarium odczytał pompę w ciągu ostatniej godziny, i nigdy dla pompy, która łączy się tylko przez Bluetooth. Jedno **Zapisz w pompie** z innego Cora Max wysyła najwyżej 12 zmian, więc większą edycję wyślij w częściach.
 
 ## Co zostało zmienione i przez co {#what-was-changed-and-by-what}
 

@@ -2,7 +2,7 @@
 title: Akvaryum profiliniz
 description: Cora'nın ölçümleri değerlendirmek ve dozları hesaplamak için kullandığı akvaryum hacmini, türünü, canlıları, aydınlatmayı, dozajı ve ekipmanı doldurun ya da değiştirin.
 section: Cora Mobile
-reviewed: 2026-10-24
+reviewed: 2026-11-03
 order: 3
 group: Getting started
 ---
@@ -57,7 +57,7 @@ Profilde bölümler şöyle listelenir. Açmak için birine dokunun. Her birinin
 
 **Sıcaklık Kontrolü**, **Akış ve Filtrasyon** ya da **Aydınlatma** altında bir ısıtıcı, pompa, ışık ya da skimmer eklediğinizde Cora siz yazarken marka ve model önerir. Sizinki listede yoksa yine de yazın. Cora ne girerseniz onu saklar.
 
-**Parametre Kaynakları** yeni bir akvaryum eklerken gösterilmez. Akvaryum ayarlarındaki ve her prob üzerinde tam kontrol sağlayan **Parametre Eşlemesi** ile aynı seçimi kapsar. [Parametre Eşlemesi](/help/mobile-probes) sayfasına bakın.
+**Parametre Kaynakları** yeni bir akvaryum eklerken gösterilmez. Akvaryum ayarlarında her cihazı ve okumalarını tek yerde listeleyen **Parametre Eşlemesi** ile aynı seçimi kapsar. [Parametre Eşlemesi](/help/mobile-probes) sayfasına bakın.
 
 ![Cora Mobile'da bir akvaryum profilinin alt yarısı](img/mobile-tank-profile-devices.webp "Parametre Kaynakları ve Zararlı ve Tedavi, en altta da Akvaryumu Kaldır.")
 

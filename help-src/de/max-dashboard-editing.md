@@ -2,7 +2,7 @@
 title: Das Cora Max-Dashboard bearbeiten
 description: Kacheln auf dem Cora Max-Dashboard hinzufügen, verschieben und entfernen, ein Raster wählen, Vorlagen oder Mit KI gestalten nutzen und Layouts speichern.
 section: Cora Max
-reviewed: 2026-10-18
+reviewed: 2026-11-03
 order: 4
 group: Your dashboard
 twin: mobile-dashboard-editing
@@ -46,6 +46,8 @@ Wenn du das Raster wechselst, wirft Cora keine Kacheln wegen ihrer Position weg.
 2. Wähl unter **TYP** die Art der Kachel und dann, was sie zeigt (einen Messwert, eine Steckdose, ein Gerät oder eine Szene).
 3. Wähl unter **GRÖSSE**, wie groß sie ist. Eine Kachel kann eine oder zwei Zellen breit und eine oder zwei Zellen hoch sein. Ein Diagramm hat außerdem einen **ZEITRAUM**. Eine Dosierpumpen-Kachel hat **Restmenge anzeigen als**, in **Tage** oder **Milliliter (mL)**.
 4. Tippe auf **Hinzufügen**.
+
+Auf einer Kachel **Wert**, **Anzeige**, **Diagramm** oder **Status** sagt die Zeile unter dem Namen, welches Gerät diesen Messwert gerade speist, zum Beispiel *Anzeige · Main Apex*. Sie nennt den Namen, den du dem Gerät gegeben hast, oder seine Marke, wenn du ihm nie einen gegeben hast, und nie eine Seriennummer oder ID. Hat noch nichts einen Messwert gemeldet, steht dort *Noch keine Messung*. Die Messwertauswahl und die Einstellungen der Kachel nennen die Quelle genauso. Welches Gerät einen Messwert speist, änderst du in der **Parameterzuordnung** in Cora Mobile. Siehe [Parameterzuordnung](/help/mobile-probes).
 
 Die Gesten stehen oben im Editor: **Tippen zum Bearbeiten**, **Lange drücken zum Verschieben** und **✕ zum Entfernen**. **Alles löschen** leert das Raster, damit du neu anfangen kannst.
 

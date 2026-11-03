@@ -125,6 +125,7 @@
 <li><a href="/es/help/mobile-plans">Planes y suscripciones</a></li>
 <li><a href="/es/help/mobile-data-export">Exportar tus datos y eliminar tu cuenta</a></li>
 <li><a href="/es/help/mobile-support">Informar de un problema</a></li>
+<li><a href="/es/help/mobile-partners">Socios conectados</a></li>
 </ul></details>
 <p class="nav-sec" lang="en">Cora Max</p>
 <details class="nav-g">
@@ -231,7 +232,8 @@
 <p>En la página de una ReefDose, toca la campana de la barra de título. Cada cabezal tiene su propio umbral de días restantes y su interruptor.</p>
 <p>Los valores predeterminados y otros consumibles están en <a href="/es/help/mobile-consumables">Consumibles</a>.</p>
 <h2 id="jecod">Bombas Jecod / Jebao™</h2>
-<p>La página de la bomba muestra el patrón de olas (modo) y la intensidad actuales, y puedes cambiar los dos. Su estado está en la fila del título, junto al nombre de la bomba. Un selector con <strong>Igual todo el día</strong> y <strong>Horario</strong> marca el que está en marcha con <em>· en marcha</em>, y la página se abre en él. Crear un horario diario, y copiarlo, guardarlo o compartirlo, se explica en <a href="/es/help/mobile-schedules">Programar equipos</a>.</p>
+<p>La página de la bomba muestra el patrón de olas (modo) y la intensidad actuales, y puedes cambiar los dos. Todas las páginas de bombas de circulación en Cora Mobile (Jecod) tienen la misma organización: el estado en la fila del título, junto al nombre de la bomba, luego la tarjeta superior con el interruptor y <strong>Alimentación</strong>, y luego un selector con <strong>Manual</strong> y <strong>Horario</strong> y una tarjeta para cada uno. El selector marca el que está en marcha con <em>· en marcha</em>, y la página se abre en él.</p>
+<p>Todo cambio en el horario pasa por el editor del horario, y no se envía nada hasta que tocas <strong>Guardar en la bomba</strong> allí. Crear un horario diario, y copiarlo desde otras bombas o a ellas, guardarlo o compartirlo, se explica en <a href="/es/help/mobile-schedules">Programar equipos</a>.</p>
 <p>Si la bomba forma parte de un grupo, la página muestra su papel, como <strong>Lidera el grupo</strong>, <strong>Sigue: en sincronía</strong> o <strong>Sigue: alternando</strong>.</p>
 <h3 id="jecod-feeding">Pausa de alimentación</h3>
 <p>Empieza una pausa de alimentación desde <strong>Alimentación</strong> en la página de la bomba: toca <strong>5</strong>, <strong>10</strong>, <strong>15</strong> o <strong>30</strong> min. Algunas bombas terminan la pausa por sí mismas, y la página dice <em>La bomba termina esto por sí misma.</em></p>
@@ -250,7 +252,7 @@
 <h2 id="what-happens-after-you-change-something">Qué pasa después de cambiar algo</h2>
 <p>Cada cambio queda registrado en <a href="/es/help/mobile-activity">Actividad</a>, con la superficie desde la que se hizo. Si un dispositivo no acepta un cambio, también queda registrado ahí.</p>
       <nav class="pn" aria-label="Seguir leyendo"><a class="pn-p" href="/es/help/mobile-connections"><span>Anterior</span><b>Conectar tus equipos</b></a><a class="pn-n" href="/es/help/mobile-schedules"><span>Siguiente</span><b>Programar equipos</b></a></nav>
-      <p class="stamp">Escrito para Cora Max 0.28.240 y Cora Mobile 1.4.16. Última revisión el 2026-10-24.</p>
+      <p class="stamp">Escrito para Cora Max 0.28.275 y Cora Mobile 1.4.24. Última revisión el 2026-11-01.</p>
       <p class="ask">¿Sigues atascado? Escribe a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> y te ayudamos.</p>
     </article>
   </main>
@@ -641,7 +643,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/es/help/search.json?v=1d5700fe42').then(function (r) { return r.json(); })
+    fetch('/es/help/search.json?v=19a56b83f9').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "es"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La b\u00fasqueda no est\u00e1 disponible. Usa la navegaci\u00f3n." + '</li>';

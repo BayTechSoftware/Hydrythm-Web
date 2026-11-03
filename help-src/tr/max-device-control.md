@@ -2,7 +2,7 @@
 title: Cora Max'ten ekipman kontrolü
 description: Cora Max'te Neptune Apex, Trident ve DŌS, Red Sea ReefBeat, Jecod ve AquaWiz için cihaz sayfaları, markaya göre.
 section: Cora Max
-reviewed: 2026-10-24
+reviewed: 2026-11-03
 order: 6
 group: Equipment
 twin: mobile-device-control
@@ -71,14 +71,22 @@ Bir Red Sea ünitesi kendini durdurursa sayfası neyin yanlış olduğunu söyle
 
 ## Jecod {#jecod}
 
-Jecod sayfası pompanın modunu ve yoğunluğunu gösterir ve ikisini de değiştirebilirsiniz. Durumu başlık satırında, pompanın adının yanındadır. Üst çubukta güç anahtarı, şu an çalışan desen ve dört etiketli **Besleme** bulunur: **5**, **10**, **15** ve **30** dk. Pompayı o kadar duraklatmak için bir etikete dokunun. Çubuğun altında iki kart vardır:
+Jecod sayfası pompanın modunu ve yoğunluğunu gösterir ve ikisini de değiştirebilirsiniz. Cora Max'teki her dalga pompası sayfası (Jecod) aynı düzene sahiptir: pompanın durumu başlık satırında, adının yanında, ardından güç anahtarı ve **Besleme** bulunan üst çubuk, ardından iki kart, **Manuel** ve **Zamanlama**.
 
-- **Tüm gün aynı**: bir ayara dokunarak tüm gün çalıştırın.
-- **Zamanlama**: gün grafiği ve plan listesi; geçerli planda **şimdi** yazar. **Düzenle** düzenleyiciyi açar, ⋮ menüsünde **Zamanlamayı şuraya kopyala…**, **Zamanlamayı farklı kaydet…** ve **Kayıtlı zamanlamalar…** bulunur.
+Bir Jecod pompasında üst çubukta güç anahtarı, şu an çalışan desen ve dört etiketli **Besleme** bulunur: **5**, **10**, **15** ve **30** dk. Pompayı o kadar duraklatmak için bir etikete dokunun. Çubuğun altında bu iki kart vardır:
+
+- **Manuel**: bir ayara dokunarak tüm gün çalıştırın.
+- **Zamanlama**: gün grafiği ve plan listesi; geçerli planda **şimdi** yazar. **Düzenle** düzenleyiciyi açar, ⋮ menüsünde **Zamanlamayı şuraya kopyala…**, **Zamanlamayı farklı kaydet…**, **Kayıtlı zamanlamalar…** ve **Şuradan kopyala…** bulunur.
 
 Çalışan kartın bir çerçevesi ve **Çalışıyor** etiketi vardır. Jecod pompasında **Beslemeyi bitir** düğmesi yoktur. Besleme için duraklayabilen her Jecod pompası **5**, **10**, **15** ve **30** dk düğmelerini gösterir. Bir Jecod Pro pompasında dalga desenlerindeki Besleme kutucuğu aynı işi 10 dakika için yapar. Akvaryumdan uzaktaki bir Cora Max üzerinden ulaşılan Jecod pompası yalnızca 10 dakika besler. Şu anda besleyemeyen bir pompa nedenini düğmelerin altında kısa bir satırda gösterir, uzun basınca tam cümleyi görürsünüz. Telefondan başlatılan bir beslemeyi Cora Max de bitirir: süre dolunca pompa programına döner.
 
-Jecod pompası günlük zamanlamalarını telefonunuzda olduğu gibi duvardaki ekranda da yazabilirsiniz. Düzenleyici aynıdır: bir gün grafiği, bir periyot listesi ve bir eylem satırı. Ayrıntılar [Ekipman zamanlamaları](/help/mobile-schedules) sayfasında.
+Jecod pompası günlük zamanlamalarını telefonunuzda olduğu gibi duvardaki ekranda da yazabilirsiniz. Düzenleyici aynıdır: bir gün grafiği, bir periyot listesi ve bir eylem satırı. Zamanlama kartındaki planlar yalnızca okumak içindir: zamanlamadaki her değişiklik düzenleyiciden geçer ve orada **Pompaya kaydet**'e dokunana kadar hiçbir şey gönderilmez. **Kayıtlı zamanlamalar…** ya da **Şuradan kopyala…** içinde seçilen bir zamanlama da aynı şekilde düzenleyicide açılır. Düzenleyiciyi kaydedilmemiş değişikliklerle kapatırsanız önce sorar. Ayrıntılar [Ekipman zamanlamaları](/help/mobile-schedules) sayfasında.
+
+### Bir zamanlamayı kopyalama {#copying-a-schedule}
+
+**Şuradan kopyala…**, bu Cora Max'in hizmet verdiği herhangi bir akvaryumdaki başka bir dalga pompasının zamanlamasını alır. Her plan bu pompanın sahip olduğu en yakın modu alır, hızlar pompanın çalıştırabileceği sınırlarda tutulur ve **Bu pompada ne değişir** her değişikliği listeler. **Düzenleyiciye yükle** kopyayı bu pompanın düzenleyicisine koyar. Orada **Pompaya kaydet**'e dokunana kadar hiçbir şey gönderilmez. Zamanlamasını Cora'nın henüz okumadığı bir pompa, nedeniyle birlikte soluk görünür.
+
+**Zamanlamayı şuraya kopyala…** bu günü bu Cora Max'in hizmet verdiği her akvaryumdaki diğer pompalara verir; her pompa *Akvaryum · Pompa* olarak listelenir. Pompaları işaretleyin ve **İncele**'ye dokunun. Henüz hiçbir şey gönderilmez. **Kopyaları incele** her pompayı durumuyla (**Kaydedilmedi**, **Pompaya kaydedildi** ya da nedeniyle birlikte **Başarısız**) ve kaç değişiklik alacağıyla listeler. **Düzenleyiciyi aç** o pompanın kendi düzenleyicisini kopyalanan günle açar ve günü yalnızca o düzenleyicideki kaydetme gönderir, yalnızca o pompaya. Bir kaydetme başarısız olursa taslak saklanır, böylece yeniden deneyebilirsiniz. Bazı pompalar kaydedilmemişken çıkarsanız Cora önce sorar: *Kaydedilmemiş kopyalar silinsin mi?*
 
 ## AquaWiz {#aquawiz}
 
@@ -119,7 +127,7 @@ Bir akvaryumu birden fazla Cora Max gösterdiğinde, o akvaryumun ekipmanını b
 Birkaç şey yalnızca akvaryumdaki Cora Max'te çalışır.
 
 - **Dozajlamak için ölç** ve **Yeniden ölç** yalnızca orada görünür. Bir kafa ölçüldükten sonra **Şimdi dozajla** her Cora Max'ten çalışır.
-- Bir Jecod zamanlamasını başka bir Cora Max'ten ancak akvaryumdaki Cora Max pompayı son bir saat içinde okuduysa değiştirebilirsiniz ve yalnızca Bluetooth üzerinden konuşan bir pompa için asla değiştiremezsiniz. Oradan tek bir **Pompaya uygula** en fazla 12 değişiklik gönderir, bu yüzden daha büyük bir düzenlemeyi parçalar halinde gönderin.
+- Bir Jecod zamanlamasını başka bir Cora Max'ten ancak akvaryumdaki Cora Max pompayı son bir saat içinde okuduysa değiştirebilirsiniz ve yalnızca Bluetooth üzerinden konuşan bir pompa için asla değiştiremezsiniz. Oradan tek bir **Pompaya kaydet** en fazla 12 değişiklik gönderir, bu yüzden daha büyük bir düzenlemeyi parçalar halinde gönderin.
 
 ## Neyin, neyle değiştirildiği {#what-was-changed-and-by-what}
 

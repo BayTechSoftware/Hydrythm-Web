@@ -125,6 +125,7 @@
 <li><a href="/help/mobile-plans">Plans and subscriptions</a></li>
 <li><a href="/help/mobile-data-export">Exporting your data and deleting your account</a></li>
 <li><a href="/help/mobile-support">Reporting a problem</a></li>
+<li><a href="/help/mobile-partners">Connected partners</a></li>
 </ul></details>
 <p class="nav-sec" lang="en">Cora Max</p>
 <details class="nav-g">
@@ -197,10 +198,14 @@
 <p>Each Red Sea unit has a page that fits what it does: ReefDose heads and containers, the ReefATO+ reservoir, ReefMat roll days and ReefRun pump speeds. Supply alerts for ReefDose heads, the ReefATO+ reservoir and the ReefMat roll are set with <strong>Alert settings</strong> on the unit's page.</p>
 <p>If a Red Sea unit stops itself, its page tells you what's wrong and puts the fix right next to it. That's <strong>Resume</strong>, <strong>Clear emergency</strong>, <strong>Sensor cleaned</strong>, <strong>I already loaded a new roll</strong>, or <strong>Reset</strong> for a dosing head.</p>
 <h2 id="jecod">Jecod</h2>
-<p>The Jecod page shows the pump's mode and intensity, and you can change both. Its status sits in the title row, next to the pump's name. The top bar holds the power switch, the pattern running now and <strong>Feeding</strong> with four pills: <strong>5</strong>, <strong>10</strong>, <strong>15</strong> and <strong>30</strong> min. Tap a pill to pause the pump for that long. Below the bar are two cards:</p>
-<ul><li><strong>Same all day</strong>: tap a setting to run it all day.</li><li><strong>Schedule</strong>: the day graph and the list of plans, with <strong>now</strong> on the current one. <strong>Edit</strong> opens the editor, and the ⋮ menu holds <strong>Copy schedule to…</strong>, <strong>Save schedule as…</strong> and <strong>Saved schedules…</strong>.</li></ul>
+<p>The Jecod page shows the pump's mode and intensity, and you can change both. Every wavemaker page on Cora Max (Jecod) has the same layout: the pump's status in the title row, next to its name, then a top bar with the power switch and <strong>Feeding</strong>, then two cards, <strong>Manual</strong> and <strong>Schedule</strong>.</p>
+<p>On a Jecod pump the top bar holds the power switch, the pattern running now and <strong>Feeding</strong> with four pills: <strong>5</strong>, <strong>10</strong>, <strong>15</strong> and <strong>30</strong> min. Tap a pill to pause the pump for that long. Below the bar are the two cards:</p>
+<ul><li><strong>Manual</strong>: tap a setting to run it all day.</li><li><strong>Schedule</strong>: the day graph and the list of plans, with <strong>now</strong> on the current one. <strong>Edit</strong> opens the editor, and the ⋮ menu holds <strong>Copy schedule to…</strong>, <strong>Save schedule as…</strong>, <strong>Saved schedules…</strong> and <strong>Copy from…</strong>.</li></ul>
 <p>The card that is running has an outline and a <strong>Running</strong> chip. A Jecod pump has no <strong>End feed</strong> button. Every Jecod pump that can pause for feeding shows the <strong>5</strong>, <strong>10</strong>, <strong>15</strong> and <strong>30</strong> min pills. On a Jecod Pro the Feeding tile in the wave patterns does the same, for 10 minutes. Through a Cora Max that is away from the tank, a Jecod pump feeds for 10 minutes only. A pump that cannot feed right now shows the reason in one short line under the pills, and a long press shows the full sentence. A feed started from your phone is ended by Cora Max too: when the time is up, the pump returns to its program.</p>
-<p>You can write Jecod pump schedules at the wall as well as on your phone. The editor is the same, with a day graph, a list of periods and a row of actions. More in <a href="/help/mobile-schedules">Scheduling equipment</a>.</p>
+<p>You can write Jecod pump schedules at the wall as well as on your phone. The editor is the same, with a day graph, a list of periods and a row of actions. The plans on the Schedule card are only for reading: every change to the schedule goes through the editor, and nothing is sent until you tap <strong>Save to pump</strong> there. A schedule picked in <strong>Saved schedules…</strong> or <strong>Copy from…</strong> opens in the editor the same way. If you close the editor with unsaved changes, it asks first. More in <a href="/help/mobile-schedules">Scheduling equipment</a>.</p>
+<h3 id="copying-a-schedule">Copying a schedule</h3>
+<p><strong>Copy from…</strong> takes the schedule of another wavemaker on any tank this Cora Max serves. Each plan gets the closest mode this pump has, speeds are kept to what it can run, and <strong>What changes on this pump</strong> lists every change. <strong>Load in editor</strong> puts the copy in this pump's editor. Nothing is sent until you tap <strong>Save to pump</strong> there. A pump whose schedule Cora hasn't read yet is greyed out, with the reason.</p>
+<p><strong>Copy schedule to…</strong> gives this day to other pumps on any tank this Cora Max serves, each listed as <em>Tank · Pump</em>. Tick the pumps and tap <strong>Review</strong>. Nothing is sent yet. <strong>Review copies</strong> lists each pump with its state, <strong>Not saved</strong>, <strong>Saved to pump</strong> or <strong>Failed</strong> with the reason, and how many changes it gets. <strong>Open editor</strong> opens that pump's own editor on the copied day, and only its own save sends it, to that pump alone. If a save fails, the draft is kept so you can try again. If you leave while some pumps are not saved, Cora asks <em>Discard unsaved copies?</em> first.</p>
 <h2 id="aquawiz">AquaWiz</h2>
 <p>An AquaWiz KH Controller has no page of its own on Cora Max. It's listed in <strong>Devices</strong>, where you can rename it, and its readings show on the dashboard like any other source. Set it up and manage it on your phone, see <a href="/help/mobile-connections">Connecting your equipment</a>.</p>
 <h3 id="aquawiz-hourly">Hourly reading from Cora Max</h3>
@@ -217,11 +222,11 @@
 <h2 id="on-a-second-cora-max">On a second Cora Max</h2>
 <p>When more than one Cora Max shows a tank, one of them reads that tank's equipment. The device pages call it the Cora Max at the tank. The others can still open the device pages, and a status tag reading <strong>Cloud</strong> means you're on one of them. They show what the Cora Max at the tank last read and how long ago. Each command goes through Cora Cloud to the Cora Max at the tank, which carries it out.</p>
 <p>A few things only work on the Cora Max at the tank.</p>
-<ul><li><strong>Measure to dose</strong> and <strong>Re-measure</strong> only show up there. Once a head is measured, <strong>Dose now</strong> works from any Cora Max.</li><li>You can change a Jecod schedule from another Cora Max only if the Cora Max at the tank has read the pump in the last hour, and never for a pump that only talks over Bluetooth. One <strong>Apply to the pump</strong> from there sends at most 12 changes, so send a bigger edit in parts.</li></ul>
+<ul><li><strong>Measure to dose</strong> and <strong>Re-measure</strong> only show up there. Once a head is measured, <strong>Dose now</strong> works from any Cora Max.</li><li>You can change a Jecod schedule from another Cora Max only if the Cora Max at the tank has read the pump in the last hour, and never for a pump that only talks over Bluetooth. One <strong>Save to pump</strong> from there sends at most 12 changes, so send a bigger edit in parts.</li></ul>
 <h2 id="what-was-changed-and-by-what">What was changed, and by what</h2>
 <p>Every action is logged along with what caused it. More in <a href="/help/max-activity">Activity on Cora Max</a>.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/max-controls"><span>Previous</span><b>Outlets and controls</b></a><a class="pn-n" href="/help/max-devices"><span>Next</span><b>Devices and device health</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.240 and Cora Mobile 1.4.16. Last checked 2026-10-24.</p>
+      <p class="stamp">Written for Cora Max 0.28.275 and Cora Mobile 1.4.24. Last checked 2026-11-03.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>
@@ -612,7 +617,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/help/search.json?v=d076232951').then(function (r) { return r.json(); })
+    fetch('/help/search.json?v=0cb74b3874').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "en"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';

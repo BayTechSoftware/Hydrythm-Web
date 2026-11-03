@@ -2,7 +2,7 @@
 title: Ausrüstung mit Cora Max steuern
 description: Geräteseiten auf Cora Max für Neptune Apex, Trident und DŌS, Red Sea ReefBeat, Jecod und AquaWiz, nach Marke sortiert.
 section: Cora Max
-reviewed: 2026-10-24
+reviewed: 2026-11-03
 order: 6
 group: Equipment
 twin: mobile-device-control
@@ -71,14 +71,22 @@ Stoppt sich ein Red Sea-Gerät selbst, sagt dir seine Seite, was los ist, und se
 
 ## Jecod {#jecod}
 
-Die Jecod-Seite zeigt Modus und Intensität der Pumpe, und du kannst beides ändern. Ihr Status steht in der Titelzeile neben dem Namen der Pumpe. Die obere Leiste enthält den Ein/Aus-Schalter, das Muster, das gerade läuft, und **Füttern** mit vier Chips: **5**, **10**, **15** und **30** Min. Tippe auf einen Chip, um die Pumpe so lange zu pausieren. Darunter liegen zwei Karten:
+Die Jecod-Seite zeigt Modus und Intensität der Pumpe, und du kannst beides ändern. Jede Strömungspumpen-Seite auf Cora Max (Jecod) hat denselben Aufbau: der Status der Pumpe in der Titelzeile neben ihrem Namen, dann eine obere Leiste mit dem Ein/Aus-Schalter und **Füttern**, dann zwei Karten, **Manuell** und **Zeitplan**.
 
-- **Den ganzen Tag gleich**: tippe auf eine Einstellung, um sie den ganzen Tag laufen zu lassen.
-- **Zeitplan**: die Tagesgrafik und die Liste der Pläne, mit **jetzt** beim aktuellen. **Ändern** öffnet den Editor, und das ⋮-Menü enthält **Zeitplan kopieren nach…**, **Zeitplan speichern als…** und **Gespeicherte Zeitpläne…**.
+Bei einer Jecod-Pumpe enthält die obere Leiste den Ein/Aus-Schalter, das Muster, das gerade läuft, und **Füttern** mit vier Chips: **5**, **10**, **15** und **30** Min. Tippe auf einen Chip, um die Pumpe so lange zu pausieren. Darunter liegen die zwei Karten:
+
+- **Manuell**: tippe auf eine Einstellung, um sie den ganzen Tag laufen zu lassen.
+- **Zeitplan**: die Tagesgrafik und die Liste der Pläne, mit **jetzt** beim aktuellen. **Ändern** öffnet den Editor, und das ⋮-Menü enthält **Zeitplan kopieren nach…**, **Zeitplan speichern als…**, **Gespeicherte Zeitpläne…** und **Kopieren von…**.
 
 Die Karte, die läuft, hat einen Rahmen und einen Chip **Läuft**. Eine Jecod-Pumpe hat keine Schaltfläche **Fütterung beenden**. Jede Jecod-Pumpe, die für die Fütterung pausieren kann, zeigt die Chips **5**, **10**, **15** und **30** Min. Bei einer Jecod Pro tut die Kachel Füttern in den Wellenmustern dasselbe, für 10 Minuten. Über ein Cora Max, das nicht am Becken ist, füttert eine Jecod-Pumpe nur 10 Minuten lang. Kann eine Pumpe gerade nicht füttern, steht der Grund in einer kurzen Zeile unter den Chips, und ein langer Druck zeigt den ganzen Satz. Eine vom Telefon gestartete Fütterung beendet auch das Cora Max: Läuft die Zeit ab, kehrt die Pumpe zu ihrem Programm zurück.
 
-Zeitpläne für Jecod-Pumpen kannst du an der Wand genauso schreiben wie auf dem Handy. Der Editor ist derselbe, mit einer Tagesgrafik, einer Liste der Zeiträume und einer Reihe von Aktionen. Mehr dazu unter [Ausrüstung planen](/help/mobile-schedules).
+Zeitpläne für Jecod-Pumpen kannst du an der Wand genauso schreiben wie auf dem Handy. Der Editor ist derselbe, mit einer Tagesgrafik, einer Liste der Zeiträume und einer Reihe von Aktionen. Die Pläne auf der Karte Zeitplan sind nur zum Lesen: Jede Änderung am Zeitplan läuft über den Editor, und nichts wird gesendet, bis du dort auf **Auf Pumpe speichern** tippst. Ein Zeitplan, den du unter **Gespeicherte Zeitpläne…** oder **Kopieren von…** auswählst, öffnet sich genauso im Editor. Schließt du den Editor mit ungespeicherten Änderungen, fragt er zuerst nach. Mehr dazu unter [Ausrüstung planen](/help/mobile-schedules).
+
+### Einen Zeitplan kopieren {#copying-a-schedule}
+
+**Kopieren von…** übernimmt den Zeitplan einer anderen Strömungspumpe an einem beliebigen Becken, das dieses Cora Max betreut. Jeder Plan bekommt den ähnlichsten Modus, den diese Pumpe hat, die Geschwindigkeiten bleiben in dem Bereich, den sie fahren kann, und **Was sich an dieser Pumpe ändert** listet jede Änderung auf. **In den Editor laden** legt die Kopie in den Editor dieser Pumpe. Nichts wird gesendet, bis du dort auf **Auf Pumpe speichern** tippst. Eine Pumpe, deren Zeitplan Cora noch nicht gelesen hat, ist ausgegraut, und der Grund steht dabei.
+
+**Zeitplan kopieren nach…** gibt diesen Tag an andere Pumpen an jedem Becken weiter, das dieses Cora Max versorgt, jede als *Becken · Pumpe* aufgeführt. Hake die Pumpen an und tippe auf **Prüfen**. Noch wird nichts gesendet. **Kopien prüfen** listet jede Pumpe mit ihrem Zustand, **Nicht gespeichert**, **Auf Pumpe gespeichert** oder **Fehlgeschlagen** mit dem Grund, und wie viele Änderungen sie bekommt. **Editor öffnen** öffnet den eigenen Editor dieser Pumpe mit dem kopierten Tag, und erst dort sendet das Speichern ihn, nur an diese Pumpe. Schlägt ein Speichern fehl, bleibt der Entwurf erhalten, damit du es noch einmal versuchen kannst. Verlässt du die Seite, solange einige Pumpen nicht gespeichert sind, fragt Cora zuerst *Nicht gespeicherte Kopien verwerfen?*
 
 ## AquaWiz {#aquawiz}
 
@@ -119,7 +127,7 @@ Zeigt mehr als ein Cora Max ein Becken, fragt eins davon die Ausrüstung dieses 
 Ein paar Dinge funktionieren nur am Cora Max am Becken.
 
 - **Zum Dosieren messen** und **Erneut messen** erscheinen nur dort. Ist ein Kopf gemessen, funktioniert **Jetzt dosieren** auf jedem Cora Max.
-- Einen Jecod-Zeitplan kannst du von einem anderen Cora Max nur ändern, wenn das Cora Max am Becken die Pumpe in der letzten Stunde gelesen hat, und nie bei einer Pumpe, die nur über Bluetooth spricht. Ein **Auf die Pumpe anwenden** von dort schickt höchstens 12 Änderungen, schick eine größere Änderung also in Teilen.
+- Einen Jecod-Zeitplan kannst du von einem anderen Cora Max nur ändern, wenn das Cora Max am Becken die Pumpe in der letzten Stunde gelesen hat, und nie bei einer Pumpe, die nur über Bluetooth spricht. Ein **Auf Pumpe speichern** von dort schickt höchstens 12 Änderungen, schick eine größere Änderung also in Teilen.
 
 ## Was geändert wurde, und wodurch {#what-was-changed-and-by-what}
 

@@ -2,7 +2,7 @@
 title: Connecting your equipment
 description: Connect a Neptune Apex, Red Sea ReefBeat, Jecod or AquaWiz unit to Cora, use it without a Cora Max, and fix a connection that stops working.
 section: Cora Mobile
-reviewed: 2026-10-24
+reviewed: 2026-11-03
 order: 12
 group: Equipment
 ---
@@ -41,6 +41,8 @@ Cora reads your Apex over your local network, including probes, outlets and any 
 6. Tap **Continue**. Cora tests the login first. If the Apex answers and turns it down, a message says **The Apex refused this login**: tap **Cancel** to fix the username or password, or **Save anyway** to go on. If Cora can't reach the Apex (for example you are away from home), it skips the test. Then tick every tank under **Which tanks does this Apex serve?** and tap **Save**. An Apex can serve more than one tank.
 
 If the scan finds nothing, check that your phone is on the same Wi-Fi as the Apex, or enter the IP address yourself.
+
+If your Apex's web page uses a port other than 80 (**Network Setup** on the Apex, **HTTP Port**), the scan also tries ports 81, 8080, 8000, 8081 and 88, and Cora keeps the port with the address. To type it yourself, put the port after a colon, for example `192.168.1.50:81`.
 
 Once it's connected, every probe your Apex reports becomes a source you can put on a dashboard. Outlets show up as controls, and each fitted expansion module gets its own device tile. Your own Apex programming keeps running exactly as you set it up. What you can control is in [Controlling your equipment](/help/mobile-device-control#neptune-apex).
 

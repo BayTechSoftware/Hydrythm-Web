@@ -2,7 +2,7 @@
 title: Cora Mobile ayarları
 description: Hesabınız ve planınızdan akvaryumlara, Cora Assistant'a, dile, koyu moda, bildirimlere ve desteğe kadar Cora Mobile'ın Ayarlar sekmesinde her şeyin nerede olduğu.
 section: Cora Mobile
-reviewed: 2026-10-18
+reviewed: 2026-11-03
 order: 36
 group: Settings and account
 twin: max-settings
@@ -46,13 +46,15 @@ Akvaryum ekleme, kaldırma ve geri getirme [Akvaryumlarınızı yönetme](/help/
 
 Bir akvaryumu açın, ayarlar sayfası üç bölümden oluşur.
 
-- **Ayarlar**: **Akvaryumu düzenle**, **Parametre Eşlemesi**, **Uyarı eşikleri**, **Birimler**, **Birincil Cora Max** ve **Tatil modu**.
+- **Ayarlar**: **Akvaryumu düzenle**, **Parametre Eşlemesi**, **Uyarı eşikleri**, **Birimler**, **Birincil Cora Max**, **Tatil modu** ve **Bağlı iş ortakları**.
 - **Kayıtlar ve Raporlar**: **Günlük**, **Bakım**, **Canlılar**, **Reef Buddy**, **Sağlık Raporları**, **ICP Raporları**, **Etkinlik** ve **Rehberli kurulum**.
 - **Bu akvaryumdaki cihazlar**, salt okunur bir listedir.
 
 **Parametre Eşlemesi**, her ölçümü hangi cihazın sağlayacağını seçtiğiniz yerdir. [Parametre Eşlemesi](/help/mobile-probes) sayfasına bakın. **Birimler**, hacim için litre ya da ABD veya İngiliz galonu dahil, bu akvaryumun ölçümlerini nasıl göstereceğini ayarlar. [Akvaryum profiliniz](/help/mobile-tank-profile) sayfasına bakın. **Birincil Cora Max**, o akvaryumun ekipmanını hangi cihazın yokladığıdır ve [Birden fazla Cora cihazı](/help/mobile-multi-device#primary-cora-max) sayfasında açıklanır. Bir cihaz eklemek ya da kaldırmak için [Cihazlar sekmesini](/help/mobile-devices) kullanın.
 
 **Tatil modu**, siz yokken akvaryuma bakacak kişi için bir plandır. Tarihleri ayarlar ve her birinin ne sıklıkla yapılacağıyla birlikte işlerin bir kontrol listesini hazırlarsınız. Cora bunu akvaryum bakıcınızla paylaşabileceğiniz sade, salt okunur bir sayfaya dönüştürür. Bakıcının hesaba ihtiyacı yoktur. Ayrıntılar [Tatile çıkarken](/help/mobile-vacation) sayfasında.
+
+**Bağlı iş ortakları**, bir bakım şirketinin ona verdiğiniz tek kullanımlık kodla bu akvaryumu görmesini ve siz izin verirseniz günlüğünüze servis kaydı eklemesini sağlar. Ücretli bir plan gerekir. Ayrıntılar [Bağlı iş ortakları](/help/mobile-partners) sayfasında.
 
 ## Uygulama Ayarları
 

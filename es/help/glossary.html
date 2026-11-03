@@ -125,6 +125,7 @@
 <li><a href="/es/help/mobile-plans">Planes y suscripciones</a></li>
 <li><a href="/es/help/mobile-data-export">Exportar tus datos y eliminar tu cuenta</a></li>
 <li><a href="/es/help/mobile-support">Informar de un problema</a></li>
+<li><a href="/es/help/mobile-partners">Socios conectados</a></li>
 </ul></details>
 <p class="nav-sec" lang="en">Cora Max</p>
 <details class="nav-g">
@@ -186,7 +187,7 @@
 <h2 id="aquawiz">AquaWiz™</h2>
 <p>El AquaWiz KH Controller, un analizador de alcalinidad. Cora lo lee a través de la nube propia de AquaWiz. Consulta <a href="/es/help/equipment-by-brand">Equipos por marca</a>.</p>
 <h2 id="parameter-mapping">Asignación de parámetros</h2>
-<p>Donde le dices a Cora qué mide cada sonda de un controlador, y qué dispositivo alimenta cada lectura. Consulta <a href="/es/help/mobile-probes">Asignación de parámetros y sondas</a>.</p>
+<p>Una lista con las lecturas de cada dispositivo, donde eliges con qué parámetro del acuario se muestra cada lectura, incluido un parámetro propio para un resultado de pruebas o de ICP, y qué dispositivo alimenta un parámetro cuando varios informan de él. Consulta <a href="/es/help/mobile-probes">Asignación de parámetros y sondas</a>.</p>
 <h2 id="automation">Automatización</h2>
 <p>Una regla que funciona sola, como "si la temperatura pasa de 27, enciende el ventilador". Cada regla tiene un <a href="#trigger">disparador</a>, <a href="#condition">condiciones</a> opcionales y una o más acciones. Las encontrarás en Cora Mobile en <strong>Ajustes → Automatizaciones</strong>. Consulta <a href="/es/help/mobile-automation">Automatizaciones y escenas</a>.</p>
 <h2 id="child-lock">Bloqueo infantil</h2>
@@ -226,7 +227,7 @@
 <h2 id="status-tag">Etiqueta de estado</h2>
 <p>La etiqueta de la barra superior de Cora Max que dice cómo recibe sus datos esta pantalla, como <strong>En línea</strong>, <strong>Nube</strong>, <strong>Desactualizado</strong> o <strong>Sin conexión</strong>. Consulta <a href="/es/help/max-tour">La pantalla de inicio de Cora Max</a>.</p>
 <h2 id="source">Fuente</h2>
-<p>De dónde vino una lectura: una sonda, un controlador, un resultado de laboratorio o tú con un kit de pruebas. Cada lectura tiene una, así que Cora puede avisarte cuando dos fuentes no coinciden. Si más de una fuente informa de la misma lectura, <a href="/es/help/mobile-probes">Asignación de parámetros</a> es donde eliges en cuál confiar, o la dejas en Automático.</p>
+<p>De dónde vino una lectura: una sonda, un controlador, un resultado de laboratorio o tú con un kit de pruebas. Cada lectura tiene una, así que Cora puede avisarte cuando dos fuentes no coinciden. Si más de una fuente informa de la misma lectura, <a href="/es/help/mobile-probes">Asignación de parámetros</a> es donde eliges en cuál confiar, o te quedas con la lectura más reciente.</p>
 <h2 id="icp">ICP</h2>
 <p>Un análisis de agua de laboratorio que cubre una amplia gama de elementos. Sube el PDF que te envía tu laboratorio, o haz que el laboratorio lo envíe a Cora, y Cora sigue cada elemento a lo largo del tiempo. Consulta <a href="/es/help/mobile-icp-health">ICP e informes de salud</a>.</p>
 <h2 id="account-language">Idioma de la cuenta</h2>
@@ -274,7 +275,7 @@
 <h2 id="widget">Widget</h2>
 <p>Una casilla de un panel que muestra una sola cosa, como un valor, un medidor, un gráfico o una toma. Consulta <a href="/es/help/mobile-widgets">Referencia de widgets</a>.</p>
       <nav class="pn" aria-label="Seguir leyendo"><a class="pn-p" href="/es/help/faq"><span>Anterior</span><b>Preguntas frecuentes</b></a></nav>
-      <p class="stamp">Escrito para Cora Max 0.28.240 y Cora Mobile 1.4.16. Última revisión el 2026-10-18.</p>
+      <p class="stamp">Escrito para Cora Max 0.28.275 y Cora Mobile 1.4.24. Última revisión el 2026-11-03.</p>
       <p class="ask">¿Sigues atascado? Escribe a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> y te ayudamos.</p>
     </article>
   </main>
@@ -665,7 +666,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/es/help/search.json?v=1d5700fe42').then(function (r) { return r.json(); })
+    fetch('/es/help/search.json?v=19a56b83f9').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "es"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La b\u00fasqueda no est\u00e1 disponible. Usa la navegaci\u00f3n." + '</li>';

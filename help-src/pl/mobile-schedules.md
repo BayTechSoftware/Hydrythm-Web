@@ -1,8 +1,8 @@
 ---
 title: Harmonogramy sprzętu
-description: Ułóż harmonogram dla pompy Jecod, skopiuj go na inne pompy, zapisz i udostępnij oraz sprawdź, czy pompa go przyjęła.
+description: Ułóż harmonogram dla pompy Jecod w edytorze, skopiuj program z innych pomp lub na inne pompy, zapisz i udostępnij oraz sprawdź, czy pompa go przyjęła.
 section: Cora Mobile
-reviewed: 2026-10-17
+reviewed: 2026-11-03
 order: 14
 group: Equipment
 ---
@@ -13,11 +13,11 @@ Lampy i pompy innych marek mają harmonogramy na własnych stronach: ReefDose od
 
 ![Strona pompy Jecod w Cora Mobile z wybranym Harmonogramem](img/mobile-schedules.webp "Harmonogram wybrany na górze, przerwa na karmienie, a pod nimi wykres dnia.")
 
-## Cały dzień tak samo albo Harmonogram {#same-all-day-or-schedule}
+## Ręcznie albo Harmonogram {#same-all-day-or-schedule}
 
 Pompa pracuje w jednym z dwóch trybów. Wybierz go przełącznikiem na jej stronie. Działający jest oznaczony *· działa*, a strona otwiera się na nim.
 
-- **Cały dzień tak samo** to jedna intensywność przez cały czas.
+- **Ręcznie** to jedna intensywność przez cały czas.
 - **Harmonogram** to zestaw okresów powtarzany codziennie.
 
 Gdy telefon jest w sieci pompy, Cora wysyła Twój wybór prosto do pompy. Jeśli nie jest, wybór idzie przez Cora Max przy akwarium. Pompa Bluetooth musi być w zasięgu. Dopóki nie jest, wybór zmienia tylko to, co widzisz na ekranie.
@@ -32,32 +32,35 @@ Na górze jest wykres dnia. Pokazuje cały dzień od 0 do 24 godzin, a każdy ok
 
 Pod wykresem jest lista okresów. Przy każdym widać godziny, tryb i intensywność, na przykład *Random, 00:00–03:00, Freq 50%, 40%*. Tutaj dodajesz, zmieniasz i usuwasz okresy.
 
-Dotknij **Dodaj do harmonogramu**, żeby dodać okres. Żeby go zmienić, otwórz go i dotknij **Zapisz**. Żeby go usunąć, dotknij **Usuń** i potwierdź.
+Każda zmiana harmonogramu przechodzi przez edytor. **Edytuj** otwiera go na dobie pompy, tak samo jak dotknięcie okresu albo **Dodaj do harmonogramu** na stronie pompy: edytor otwiera się z tym okresem albo nowym, gotowym do zmiany. W edytorze zmień okres i dotknij **Zapisz** albo usuń go przez **Usuń przedział**. **Cofnij** cofa o krok. Menu ⋮ ma **Zapisz harmonogram jako…**, **Zapisane harmonogramy…** i **Kopiuj z…**.
+
+Nic nie jest wysyłane do pompy, dopóki nie dotkniesz **Zapisz w pompie**. Cora zapisuje wtedy całą dobę za jednym razem. Jeśli się nie uda, edytor mówi dlaczego i zachowuje Twoje zmiany. Jeśli zamykasz edytor przed zapisaniem, Cora najpierw pyta: *Odrzucić te zmiany?*
 
 
-:::warning Zapis wysyła harmonogram do urządzenia
-Po zapisaniu Cora wysyła program do sprzętu, a sprzęt realizuje go według własnego zegara. Działa dalej niezależnie od tego, czy Cora może się z nim połączyć.
+:::warning Zapisz w pompie wysyła harmonogram do urządzenia
+Gdy dotkniesz **Zapisz w pompie**, Cora wysyła program do sprzętu, a sprzęt realizuje go według własnego zegara. Działa dalej niezależnie od tego, czy Cora może się z nim połączyć.
 :::
 
-## Kopiowanie programu na inne pompy
+## Kopiowanie programu na inne pompy {#copying-a-program-between-pumps}
 
-Jeśli masz kilka pomp, które powinny pracować tak samo, ułóż jeden program i go skopiuj.
+Jeśli masz kilka pomp, które powinny pracować tak samo, ułóż jeden program i go skopiuj. Możesz kopiować w obie strony, a nic nie jest wysyłane, dopóki nie dotkniesz **Zapisz w pompie**.
 
-Otwórz pompę z programem, który chcesz skopiować, dotknij **Skopiuj harmonogram do…** i wybierz pompę docelową.
+- **Kopiuj z…** (w menu ⋮ harmonogramu i w menu edytora) pobiera harmonogram innej pompy cyrkulacyjnej z dowolnego Twojego akwarium. Każdy okres dostaje najbliższy tryb, jaki ma ta pompa, prędkości są ograniczane do tego, co może ona uruchomić, a **Co zmieni się w tej pompie** wymienia każdą zmianę. **Wczytaj do edytora** umieszcza kopię w edytorze tej pompy, gdzie możesz ją dopracować, a potem dotknąć **Zapisz w pompie**. Pompa, której harmonogramu Cora jeszcze nie odczytała, jest wyszarzona, z podanym powodem.
+- **Skopiuj harmonogram do…** przekazuje dobę tej pompy innym pompom w dowolnym z Twoich akwariów, każda opisana jako *Akwarium · Pompa*. Zaznacz pompy i dotknij **Przejrzyj**. Nic nie jest jeszcze wysyłane. **Przejrzyj kopie** wymienia każdą pompę z jej stanem, **Nie zapisano**, **Zapisano na pompie** albo **Niepowodzenie** z powodem, oraz z liczbą zmian, które dostaje. **Otwórz edytor** otwiera własny edytor tej pompy ze skopiowaną dobą, z jego własnym **Zapisz w pompie**, które wysyła ją tylko do tej pompy. Jeśli zapis się nie uda, wersja robocza zostaje, więc możesz spróbować ponownie. Jeśli wychodzisz, gdy część pomp nie jest zapisana, Cora najpierw pyta: *Odrzucić niezapisane kopie?*
 
 ## Zachowywanie i udostępnianie harmonogramu
 
 Gdy masz harmonogram, który Ci odpowiada, nie musisz układać go od nowa.
 
-- **Zapisz harmonogram jako…** zachowuje go pod nazwą. **Zapisane harmonogramy…** stosuje go ponownie później.
-- **Udostępnij ten harmonogram** zamienia go w krótki kod. **Wklej kod harmonogramu…** stosuje kod, który ktoś Ci wysłał. To funkcja Cora Mobile. Kod przenosi tylko harmonogram. Nie daje nikomu dostępu do Twojego konta.
+- **Zapisz harmonogram jako…** zachowuje go pod nazwą. **Zapisane harmonogramy…** przywraca go później: **Wczytaj do edytora** otwiera go w edytorze, a **Zapisz w pompie** go wysyła.
+- **Udostępnij ten harmonogram** zamienia go w krótki kod. **Wklej kod harmonogramu…** wczytuje do edytora kod, który ktoś Ci wysłał, a nic nie jest wysyłane, dopóki nie dotkniesz **Zapisz w pompie**. To funkcja Cora Mobile. Kod przenosi tylko harmonogram. Nie daje nikomu dostępu do Twojego konta.
 
 ## Poza siecią pompy
 
 Gdy telefon nie jest w sieci pompy, Cora Mobile łączy się przez Cora Max przy akwarium. Kilka rzeczy działa wtedy inaczej.
 
-- **Cały dzień tak samo** i **Harmonogram** przełączają pompę przez ten Cora Max.
-- Dodany albo zmieniony okres przejdzie tylko wtedy, gdy ten Cora Max połączył się z pompą w ciągu ostatniej godziny. Jeśli nie, harmonogram Ci o tym powie i nie zmienisz go z miejsca, w którym jesteś.
+- **Ręcznie** i **Harmonogram** przełączają pompę przez ten Cora Max.
+- Harmonogram, który zapisujesz w pompie, przejdzie tylko wtedy, gdy ten Cora Max połączył się z pompą w ciągu ostatniej godziny. Jeśli nie, harmonogram Ci o tym powie i nie zmienisz go z miejsca, w którym jesteś.
 - **Skopiuj harmonogram do…**, **Zapisz harmonogram jako…**, **Zapisane harmonogramy…**, **Udostępnij ten harmonogram** i **Wklej kod harmonogramu…** wymagają telefonu w sieci pompy. Do tego czasu są wyszarzone, a menu wyjaśnia dlaczego.
 
 Bez Cora Max przy akwarium możesz zmieniać pompę tylko wtedy, gdy telefon jest w jej sieci. Więcej w [Podłączaniu sprzętu](/help/mobile-connections#local-only).
@@ -66,7 +69,7 @@ Z pompą Bluetooth połączy się tylko telefon, który jest blisko niej. Stań 
 
 ## Stosowanie programu
 
-Pompie możesz jednym krokiem nadać zapisany harmonogram, bez ponownego układania okresów. Otwórz pompę, dotknij **Więcej** na górze i wybierz **Zapisane harmonogramy…**. Na liście są wszystkie harmonogramy zapisane dla tego akwarium, także te utworzone na innej pompie. Wybierz jeden i dotknij **Zastosuj**. Zastąpi on cały dzień pompy.
+Pompie możesz jednym krokiem nadać zapisany harmonogram, bez ponownego układania okresów. Otwórz pompę, dotknij **Więcej** na górze i wybierz **Zapisane harmonogramy…**. Na liście są wszystkie harmonogramy zapisane dla tego akwarium, także te utworzone na innej pompie. Wybierz jeden i dotknij **Wczytaj do edytora**. Sprawdź go w edytorze, a potem dotknij **Zapisz w pompie**. Zastąpi on cały dzień pompy.
 
 ## Czy się zapisało
 

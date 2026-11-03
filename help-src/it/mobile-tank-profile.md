@@ -2,7 +2,7 @@
 title: Il profilo della tua vasca
 description: Compila o cambia volume, tipo, popolazione, illuminazione, dosaggio e attrezzatura della vasca, che Cora usa per valutare le letture e calcolare le dosi.
 section: Cora Mobile
-reviewed: 2026-10-24
+reviewed: 2026-11-03
 order: 3
 group: Getting started
 ---
@@ -57,7 +57,7 @@ Nel profilo le sezioni sono elencate così. Toccane una per aprirla. L'icona del
 
 Quando aggiungi un riscaldatore, una pompa, una luce o uno schiumatoio in **Controllo della temperatura**, **Flusso e filtrazione** o **Illuminazione**, Cora ti suggerisce marche e modelli mentre scrivi. Se il tuo non è nell'elenco, scrivilo lo stesso. Cora tiene quello che inserisci.
 
-**Fonti dei parametri** non compare mentre aggiungi una vasca nuova. Riguarda la stessa scelta di **Mappatura parametri** nelle impostazioni della vasca, che ti dà il pieno controllo su ogni sonda. Vedi [Mappatura parametri](/help/mobile-probes).
+**Fonti dei parametri** non compare mentre aggiungi una vasca nuova. Riguarda la stessa scelta di **Mappatura parametri** nelle impostazioni della vasca, che elenca ogni dispositivo e le sue letture in un unico posto. Vedi [Mappatura parametri](/help/mobile-probes).
 
 ![La metà inferiore del profilo di una vasca in Cora Mobile](img/mobile-tank-profile-devices.webp "Fonti dei parametri e Parassiti e trattamento, poi Rimuovi vasca in fondo.")
 

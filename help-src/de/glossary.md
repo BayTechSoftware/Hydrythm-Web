@@ -2,7 +2,7 @@
 title: Glossar
 description: Was Cora mit Becken, Quelle, Widget, Schwellenwert, Primäres Cora Max, Fütterungsmodus, Szene und den anderen Begriffen in Cora Mobile und am Cora Max meint.
 section: Help
-reviewed: 2026-10-18
+reviewed: 2026-11-03
 order: 5
 ---
 
@@ -134,7 +134,7 @@ Der Controller von Neptune Systems, mit seiner DŌS-Dosierpumpe und dem Trident-
 
 ## Parameterzuordnung {#parameter-mapping}
 
-Hier sagst du Cora, was jede Sonde an einem Controller misst und welches Gerät welchen Messwert liefert. Siehe [Parameterzuordnung und Sonden](/help/mobile-probes).
+Eine Liste der Messwerte aller Geräte, in der du wählst, als welcher Beckenparameter jeder Messwert angezeigt wird, auch als eigener Parameter für ein Testkit- oder ICP-Ergebnis, und welches Gerät einen Parameter speist, wenn mehrere ihn melden. Siehe [Parameterzuordnung und Sonden](/help/mobile-probes).
 
 ## Primäres Cora Max {#primary-cora-max}
 
@@ -142,7 +142,7 @@ Das Cora Max, das für dich die Ausrüstung eines Beckens in deinem Netzwerk abf
 
 ## Quelle {#source}
 
-Woher ein Messwert kommt: von einer Sonde, einem Controller, einem Laborergebnis oder von dir mit einem Testkit. Jeder Messwert hat eine, damit Cora dir sagen kann, wenn sich zwei Quellen widersprechen. Meldet mehr als eine Quelle denselben Messwert, wählst du unter [Parameterzuordnung](/help/mobile-probes), welcher du vertraust, oder lässt es auf Automatisch.
+Woher ein Messwert kommt: von einer Sonde, einem Controller, einem Laborergebnis oder von dir mit einem Testkit. Jeder Messwert hat eine, damit Cora dir sagen kann, wenn sich zwei Quellen widersprechen. Meldet mehr als eine Quelle denselben Messwert, wählst du unter [Parameterzuordnung](/help/mobile-probes), welcher du vertraust, oder bleibst beim neuesten Messwert.
 
 ## Red Sea ReefBeat
 

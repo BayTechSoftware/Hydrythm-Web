@@ -125,6 +125,7 @@
 <li><a href="/de/help/mobile-plans">Pläne und Abos</a></li>
 <li><a href="/de/help/mobile-data-export">Daten exportieren und Konto löschen</a></li>
 <li><a href="/de/help/mobile-support">Ein Problem melden</a></li>
+<li><a href="/de/help/mobile-partners">Verbundene Partner</a></li>
 </ul></details>
 <p class="nav-sec" lang="en">Cora Max</p>
 <details class="nav-g">
@@ -234,11 +235,11 @@
 <h2 id="neptune-apex">Neptune Apex</h2>
 <p>Der Controller von Neptune Systems, mit seiner DŌS-Dosierpumpe und dem Trident-Tester. Cora liest ihn in deinem Heimnetz. Siehe <a href="/de/help/equipment-by-brand">Ausrüstung nach Marke</a>.</p>
 <h2 id="parameter-mapping">Parameterzuordnung</h2>
-<p>Hier sagst du Cora, was jede Sonde an einem Controller misst und welches Gerät welchen Messwert liefert. Siehe <a href="/de/help/mobile-probes">Parameterzuordnung und Sonden</a>.</p>
+<p>Eine Liste der Messwerte aller Geräte, in der du wählst, als welcher Beckenparameter jeder Messwert angezeigt wird, auch als eigener Parameter für ein Testkit- oder ICP-Ergebnis, und welches Gerät einen Parameter speist, wenn mehrere ihn melden. Siehe <a href="/de/help/mobile-probes">Parameterzuordnung und Sonden</a>.</p>
 <h2 id="primary-cora-max">Primäres Cora Max</h2>
 <p>Das Cora Max, das für dich die Ausrüstung eines Beckens in deinem Netzwerk abfragt. Stell es auf ein bestimmtes Cora Max oder auf <strong>Jedes aktive (automatisch)</strong>, dann teilen sich alle Cora Max des Beckens, die online sind, die Arbeit. Es geht dabei um das Abfragen der Ausrüstung, nicht um Sprache (das ist das <a href="#answering-device">Antwortgerät</a>). Du änderst es in Cora Mobile: <strong>Einstellungen</strong>, das Becken öffnen, dann <strong>Primäres Cora Max</strong>. Siehe <a href="/de/help/mobile-multi-device">Mehr als ein Cora-Gerät</a>.</p>
 <h2 id="source">Quelle</h2>
-<p>Woher ein Messwert kommt: von einer Sonde, einem Controller, einem Laborergebnis oder von dir mit einem Testkit. Jeder Messwert hat eine, damit Cora dir sagen kann, wenn sich zwei Quellen widersprechen. Meldet mehr als eine Quelle denselben Messwert, wählst du unter <a href="/de/help/mobile-probes">Parameterzuordnung</a>, welcher du vertraust, oder lässt es auf Automatisch.</p>
+<p>Woher ein Messwert kommt: von einer Sonde, einem Controller, einem Laborergebnis oder von dir mit einem Testkit. Jeder Messwert hat eine, damit Cora dir sagen kann, wenn sich zwei Quellen widersprechen. Meldet mehr als eine Quelle denselben Messwert, wählst du unter <a href="/de/help/mobile-probes">Parameterzuordnung</a>, welcher du vertraust, oder bleibst beim neuesten Messwert.</p>
 <h2 id="red-sea-reefbeat">Red Sea™ ReefBeat</h2>
 <p>Die vernetzte Ausrüstung von Red Sea: ReefDose, ReefRun, ReefMat und ReefATO+. Cora liest sie in deinem Heimnetz. Siehe <a href="/de/help/equipment-by-brand">Ausrüstung nach Marke</a>.</p>
 <h2 id="reef-buddy">Reef Buddy</h2>
@@ -274,7 +275,7 @@
 <h2 id="recovery-pin">Wiederherstellungs-PIN</h2>
 <p>Eine sechsstellige Zahl, die Cora Max am Ende der Einrichtung zeigt. Nur mit ihr kommst du auf diesem Cora Max in die Wiederherstellung. Du findest sie auch bei den Details des Cora Max in Cora Mobile. Siehe <a href="/de/help/max-updates">Updates und Wiederherstellung</a>.</p>
       <nav class="pn" aria-label="Weiterlesen"><a class="pn-p" href="/de/help/faq"><span>Zurück</span><b>Häufige Fragen</b></a></nav>
-      <p class="stamp">Geschrieben für Cora Max 0.28.240 und Cora Mobile 1.4.16. Zuletzt geprüft am 2026-10-18.</p>
+      <p class="stamp">Geschrieben für Cora Max 0.28.275 und Cora Mobile 1.4.24. Zuletzt geprüft am 2026-11-03.</p>
       <p class="ask">Kommst du nicht weiter? Schreib eine E-Mail an <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, wir helfen dir.</p>
     </article>
   </main>
@@ -665,7 +666,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/de/help/search.json?v=78d2fe7c0c').then(function (r) { return r.json(); })
+    fetch('/de/help/search.json?v=cb3d3ca337').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "de"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Die Suche ist nicht verf\u00fcgbar. Nutze die Navigation." + '</li>';

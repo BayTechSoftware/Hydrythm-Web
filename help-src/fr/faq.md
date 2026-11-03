@@ -2,7 +2,7 @@
 title: Questions fréquentes
 description: Des réponses courtes sur ce qu’il vous faut, Cora Max, l’accès à distance, l’équipement, les alertes, Reef Buddy, les langues, les forfaits et vos données.
 section: Help
-reviewed: 2026-10-24
+reviewed: 2026-11-03
 order: 4
 ---
 
@@ -90,7 +90,7 @@ Oui, si un Cora Max à l’aquarium est en ligne et peut joindre cet équipement
 
 ### Deux personnes peuvent-elles utiliser le même aquarium ? {#can-two-people-use-the-same-tank}
 
-Il n’y a pas encore d’accès partagé entre deux comptes distincts. Un foyer peut se connecter au même compte Cora sur plusieurs téléphones. Tout le monde voit les mêmes aquariums, reçoit les mêmes notifications, et les changements s’appliquent à tout le compte. Pour la personne qui garde votre aquarium, [Partir en vacances](/help/mobile-vacation) crée une page en lecture seule qui ne demande pas de compte. Un [instantané partagé](/help/mobile-sharing) n’est qu’une image.
+Il n’y a pas encore d’accès partagé entre deux comptes distincts. Un foyer peut se connecter au même compte Cora sur plusieurs téléphones. Tout le monde voit les mêmes aquariums, reçoit les mêmes notifications, et les changements s’appliquent à tout le compte. Pour la personne qui garde votre aquarium, [Partir en vacances](/help/mobile-vacation) crée une page en lecture seule qui ne demande pas de compte. Un [instantané partagé](/help/mobile-sharing) n’est qu’une image. Une société d’entretien peut consulter un aquarium avec un code à usage unique, mais ce n’est pas un second accès : voir [Partenaires connectés](/help/mobile-partners).
 
 ### Comment ajouter un autre aquarium ? {#how-do-i-add-another-tank}
 

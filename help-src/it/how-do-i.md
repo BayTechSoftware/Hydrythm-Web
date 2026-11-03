@@ -2,7 +2,7 @@
 title: Come faccio a...?
 description: Un elenco di attività comuni in Cora Mobile e su Cora Max, ognuna con i passaggi esatti, dalla creazione dell'account all'annullamento di un piano.
 section: Help
-reviewed: 2026-10-17
+reviewed: 2026-11-03
 order: 2
 ---
 
@@ -17,6 +17,8 @@ Scegli l'attività che vuoi fare. Ogni link apre i passaggi. Se qualcosa non fun
 - [Cambiare la mia email o la mia password](/help/faq#change-email-or-password)
 - [Accedere con Apple e ricevere comunque le email del laboratorio](/help/mobile-account#lab-and-icp-emails)
 - [Far vedere la vasca al mio partner](/help/faq#can-two-people-use-the-same-tank)
+- [Far leggere la mia vasca a un'azienda di manutenzione](/help/mobile-partners#connecting)
+- [Scollegare un'azienda di manutenzione](/help/mobile-partners#disconnecting)
 - [Cambiare la lingua](/help/mobile-settings#language)
 
 ## Le tue vasche

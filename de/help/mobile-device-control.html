@@ -125,6 +125,7 @@
 <li><a href="/de/help/mobile-plans">Pläne und Abos</a></li>
 <li><a href="/de/help/mobile-data-export">Daten exportieren und Konto löschen</a></li>
 <li><a href="/de/help/mobile-support">Ein Problem melden</a></li>
+<li><a href="/de/help/mobile-partners">Verbundene Partner</a></li>
 </ul></details>
 <p class="nav-sec" lang="en">Cora Max</p>
 <details class="nav-g">
@@ -231,7 +232,8 @@
 <p>Tippe auf einer ReefDose-Seite auf die Glocke in der Titelleiste. Jeder Kopf hat seinen eigenen Schwellenwert für die verbleibenden Tage und seinen eigenen Schalter.</p>
 <p>Standardwerte und anderes Verbrauchsmaterial stehen unter <a href="/de/help/mobile-consumables">Verbrauchsmaterial und Nachfüllwarnungen</a>.</p>
 <h2 id="jecod">Jecod / Jebao™-Pumpen</h2>
-<p>Die Pumpenseite zeigt das aktuelle Wellenmuster (Modus) und die Intensität, und du kannst beides ändern. Ihr Status steht in der Titelzeile neben dem Namen der Pumpe. Ein Schalter mit <strong>Den ganzen Tag gleich</strong> und <strong>Zeitplan</strong> markiert den laufenden Modus mit <em>· läuft</em>, und die Seite öffnet sich auf ihm. Wie du einen Zeitplan baust und ihn kopierst, speicherst oder teilst, steht unter <a href="/de/help/mobile-schedules">Ausrüstung planen</a>.</p>
+<p>Die Pumpenseite zeigt das aktuelle Wellenmuster (Modus) und die Intensität, und du kannst beides ändern. Jede Strömungspumpen-Seite in Cora Mobile (Jecod) hat denselben Aufbau: der Status in der Titelzeile neben dem Namen der Pumpe, dann die obere Karte mit dem Ein/Aus-Schalter und <strong>Füttern</strong>, dann ein Schalter mit <strong>Manuell</strong> und <strong>Zeitplan</strong> und je eine Karte dafür. Der Schalter markiert den laufenden Modus mit <em>· läuft</em>, und die Seite öffnet sich auf ihm.</p>
+<p>Jede Änderung am Zeitplan läuft über den Zeitplan-Editor, und nichts wird gesendet, bis du dort auf <strong>Auf Pumpe speichern</strong> tippst. Wie du einen Zeitplan baust, ihn von anderen Pumpen oder auf andere Pumpen kopierst, speicherst oder teilst, steht unter <a href="/de/help/mobile-schedules">Ausrüstung planen</a>.</p>
 <p>Gehört die Pumpe zu einer Gruppe, zeigt die Seite ihre Rolle, etwa <strong>Führt die Gruppe an</strong>, <strong>Folgt: im Gleichschritt</strong> oder <strong>Folgt: wechselnd</strong>.</p>
 <h3 id="jecod-feeding">Futterpause</h3>
 <p>Starte eine Futterpause unter <strong>Füttern</strong> auf der Seite der Pumpe: Tippe auf <strong>5</strong>, <strong>10</strong>, <strong>15</strong> oder <strong>30</strong> Min. Manche Pumpen beenden die Pause selbst, und die Seite sagt <em>Die Pumpe beendet das von selbst.</em></p>
@@ -250,7 +252,7 @@
 <h2 id="what-happens-after-you-change-something">Was passiert, nachdem du etwas geändert hast</h2>
 <p>Jede Änderung wird unter <a href="/de/help/mobile-activity">Aktivität</a> festgehalten, mit der Oberfläche, von der sie kam. Nimmt ein Gerät eine Änderung nicht an, wird auch das dort festgehalten.</p>
       <nav class="pn" aria-label="Weiterlesen"><a class="pn-p" href="/de/help/mobile-connections"><span>Zurück</span><b>Deine Ausrüstung verbinden</b></a><a class="pn-n" href="/de/help/mobile-schedules"><span>Weiter</span><b>Ausrüstung planen</b></a></nav>
-      <p class="stamp">Geschrieben für Cora Max 0.28.240 und Cora Mobile 1.4.16. Zuletzt geprüft am 2026-10-24.</p>
+      <p class="stamp">Geschrieben für Cora Max 0.28.275 und Cora Mobile 1.4.24. Zuletzt geprüft am 2026-11-01.</p>
       <p class="ask">Kommst du nicht weiter? Schreib eine E-Mail an <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, wir helfen dir.</p>
     </article>
   </main>
@@ -641,7 +643,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/de/help/search.json?v=78d2fe7c0c').then(function (r) { return r.json(); })
+    fetch('/de/help/search.json?v=cb3d3ca337').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "de"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Die Suche ist nicht verf\u00fcgbar. Nutze die Navigation." + '</li>';

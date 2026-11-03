@@ -2,7 +2,7 @@
 title: Le profil de votre aquarium
 description: Renseignez le volume, le type, la population, l’éclairage, le dosage et l’équipement de votre aquarium, que Cora utilise pour juger les mesures et calculer les doses.
 section: Cora Mobile
-reviewed: 2026-10-24
+reviewed: 2026-11-03
 order: 3
 group: Getting started
 ---
@@ -57,7 +57,7 @@ Dans le profil, les sections sont listées ainsi. Touchez-en une pour l’ouvrir
 
 Quand vous ajoutez un chauffage, une pompe, une lampe ou un écumeur sous **Contrôle de la température**, **Brassage et filtration** ou **Éclairage**, Cora suggère des marques et des modèles pendant que vous tapez. Si le vôtre n’est pas dans la liste, tapez-le quand même. Cora garde ce que vous saisissez.
 
-**Sources des paramètres** n’apparaît pas pendant que vous ajoutez un nouvel aquarium. Il couvre le même choix que l’**Association des paramètres** dans les paramètres de l’aquarium, qui vous donne le contrôle complet sur chaque sonde. Voir [Association des paramètres](/help/mobile-probes).
+**Sources des paramètres** n’apparaît pas pendant que vous ajoutez un nouvel aquarium. Il couvre le même choix que l’**Association des paramètres** dans les paramètres de l’aquarium, qui liste chaque appareil et ses mesures au même endroit. Voir [Association des paramètres](/help/mobile-probes).
 
 ![La moitié inférieure d’un profil d’aquarium dans Cora Mobile](img/mobile-tank-profile-devices.webp "Sources des paramètres et Nuisibles et traitement, puis Retirer l’aquarium en bas.")
 

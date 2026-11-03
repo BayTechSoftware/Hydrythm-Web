@@ -1,63 +1,92 @@
 ---
 title: Asignación de parámetros y sondas
-description: Elige qué sonda da cada lectura, dile a Cora qué mide cada sonda y registra la calibración y la limpieza de las sondas.
+description: Ve las lecturas de cada dispositivo en una lista, elige con qué parámetro se muestra cada una y qué dispositivo la alimenta, y registra calibración y limpieza de sondas.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-11-03
 order: 15
 group: Equipment
 ---
 
-Usa **Asignación de parámetros** para decirle a Cora qué mide cada sonda y, cuando dos sondas informan de lo mismo, en cuál confiar. Ve a **Ajustes**, abre el acuario y toca **Asignación de parámetros**.
+Usa **Asignación de parámetros** para decirle a Cora con qué parámetro se muestra cada lectura y, cuando dos dispositivos informan de lo mismo, en cuál confiar. Ve a **Ajustes**, abre el acuario y toca **Asignación de parámetros**.
 
 Está entre **Editar acuario** y **Umbrales de alerta**. El lápiz de la parte superior del panel abre **Editar acuario**, que no la tiene. También puedes llegar desde las páginas de dispositivo de Neptune Apex.
 
-La pantalla tiene un campo de búsqueda (**Buscar parámetros**) y dos pestañas, **Asignación** y **Fuentes**. La búsqueda mira los nombres de parámetros, los nombres de sondas, los dispositivos y las marcas. El mismo campo de búsqueda está en todos los selectores de parámetros.
+La pantalla es una sola lista de dispositivos, con un campo de búsqueda (**Buscar parámetros**) encima. La búsqueda mira los nombres de parámetros, los nombres de lecturas, los dispositivos y las marcas. El mismo campo de búsqueda está en todos los selectores de parámetros.
 
-## Sondas: decirle a Cora qué es cada una {#mapping}
+## Una sola lista de dispositivos {#mapping}
 
-![La pestaña Asignación](img/mobile-probe-mapping.webp "Cada sonda, agrupada por el dispositivo del que procede, con el parámetro al que está asignada.")
+Bajo el campo de búsqueda, Cora explica la pantalla en una línea: las lecturas de cada dispositivo y el parámetro del acuario como el que se muestran. Toca una lectura para cambiarla.
 
-La pestaña **Asignación** se abre primero. Lista todas las sondas que Cora conoce, agrupadas por el dispositivo del que proceden, con su lectura actual. Cora reconoce sola los nombres estándar de las sondas, y cada fila indica con qué la ha emparejado. Normalmente solo tienes que corregir las pocas que no ha sabido identificar.
+- **Cada dispositivo aparece con el nombre que le diste.** Un dispositivo sin nombre aparece con su marca, y dos dispositivos sin nombre de la misma marca se numeran ("AquaWiz 1", "AquaWiz 2"). Los números de serie y los ID de dispositivo nunca se usan como nombres; están tras **Mostrar detalles** en la página del dispositivo. Consulta [La página de un dispositivo](/help/mobile-devices#a-devices-page).
+- **Cada lectura aparece bajo el dispositivo que realmente la informa.** Cada fila muestra el nombre que el dispositivo da a la lectura, su último valor y **Se muestra como**, el parámetro del acuario que alimenta. Una lectura que ocultaste dice **No se muestra**.
+- **Un acuario tiene un solo Neptune Apex**, por muchos dispositivos Cora que lo lean. Sus sondas son una sola lista bajo una sola sección **Apex** (o bajo el nombre que le diste). Un módulo de expansión del Apex, como un DŌS o un Trident, aparece con su propio nombre. Sus lecturas no se pueden redirigir; al tocar una puedes cambiar el nombre del parámetro.
+- **Un dispositivo compartido con otros acuarios aparece en la lista de cada acuario al que está vinculado.** Su sección dice *También en* y los nombres de los otros acuarios, seguido de *Los cambios aquí solo se aplican a este acuario.*
+- **Un dispositivo con dos lecturas o menos empieza abierto**; uno más largo empieza cerrado y muestra su número de lecturas, salvo que una de sus lecturas comparta un parámetro con otro dispositivo. Toca el nombre de un dispositivo para abrirlo o cerrarlo. Mientras buscas, todas las coincidencias están abiertas.
 
-Cada fila te da tres opciones.
+Cora reconoce sola los nombres estándar de las lecturas, así que la mayoría de las filas ya muestran el parámetro correcto. Corrige solo las pocas que no ha sabido identificar.
 
-- **Un parámetro de Cora** es lo que mide esa sonda.
-- **Personalizado…** es para una sonda sin parámetro estándar en Cora. Escribe un nombre corto en mayúsculas en **Parámetro personalizado (token en MAYÚSCULAS)**, y Cora la sigue con ese nombre.
-- **Ignorar** es para las sondas que no quieres registrar en absoluto.
+Un cambio se guarda en cuanto lo eliges, y no hay botón de guardar. Empieza a funcionar con las siguientes lecturas. Corregirlo aquí no reescribe el historial: las lecturas anteriores se quedan donde están, y solo cambia lo que se guarda desde ese momento. Las asignaciones que hiciste antes de este diseño se conservan sin cambios.
 
-Una sonda ignorada o sin asignar no sale en ningún panel y no genera alertas.
-
-Una asignación empieza a funcionar con las siguientes lecturas. Corregirla aquí no reescribe el historial. Solo cambia lo que se guarda desde ese momento. Toca **Guardar** para aplicar los cambios.
-
-:::warning Cora no ve una sonda sin asignar
-Si un parámetro no muestra lecturas pero la sonda funciona, revisa primero su asignación.
+:::warning Cora no ve una lectura oculta
+Si un parámetro no muestra lecturas pero el dispositivo funciona, comprueba si su lectura dice **No se muestra**.
 :::
-
-## De dónde viene cada lectura {#sources}
-
-![La pestaña Fuentes](img/mobile-probes.webp "Cada lectura, la sonda que la alimenta y si está en Automático o Elegido por ti.")
-
-La pestaña **Fuentes** lista cada parámetro que Cora sigue para este acuario, como el pH o la temperatura, y muestra qué sonda lo está alimentando ahora.
-
-Toca una lectura para ver todas las sondas que informan de ella, entre todos los controladores que has conectado. Cada una muestra su marca, el nombre que le da a la sonda su propio controlador y su valor en directo. Elige una para fijarla, o elige **Automático (gana la lectura más reciente)** para que Cora use la sonda que haya informado más recientemente. Las demás se quedan en el historial.
-
-Una etiqueta junto a cada lectura indica cuál está en efecto: **Automático**, o **Elegido por ti** una vez que has fijado una sonda. Tu elección se aplica a esa lectura en todo el acuario, no a un solo widget.
-
-Si una sonda fijada deja de informar, Cora muestra cuándo se supo de ella por última vez y ofrece **Volver a Automático**, para que una sonda muerta no deje una lectura bloqueada.
-
-Toca **Renombrar** para darle a una lectura su propio nombre. Es independiente del nombre que le des a la propia sonda. Es lo que aparece en tu panel, en las alertas y en Reef Buddy.
-
-El perfil del acuario también tiene una sección **Fuentes de parámetros** (está oculta mientras creas un acuario nuevo). Configura lo mismo de forma más resumida. Usa Asignación de parámetros cuando quieras ver todas las sondas de todos los controladores en un solo sitio.
 
 :::note Un sensor de fugas no se puede reasignar aquí
-La alarma de un sensor de fugas depende de su propio nombre, así que queda fuera de este selector. Funciona igual que siempre.
+La alarma de un sensor de fugas depende de su propio nombre, así que su fila dice *La alarma de fuga depende de este nombre, así que no se puede cambiar aquí.* Funciona igual que siempre.
 :::
+
+:::note Dispositivos que aún necesitan una actualización
+Un dispositivo que espera una actualización de firmware dice *Los cambios aquí se aplican tras actualizar el firmware de este dispositivo.* Tu elección se guarda y se aplica cuando la actualización esté instalada.
+:::
+
+## Elegir como qué se muestra una lectura {#shows-as}
+
+Toca una lectura para abrir **Mostrar esta lectura como**. Arriba está la lectura misma: el dispositivo, el nombre de la lectura y su valor. Debajo:
+
+- **Tus parámetros** lista cada parámetro de este acuario. Cada opción indica de dónde vienen sus lecturas, para que nunca tengas que adivinar entre dos nombres parecidos:
+  - *Viene de* y el nombre del dispositivo que lo alimenta, o *También viene de* y el nombre de otro dispositivo cuando esta lectura ya se muestra como ese parámetro.
+  - *Ningún dispositivo lo alimenta ahora. Último valor …* con hace cuánto, para un parámetro cuyo dispositivo ha dejado de informar.
+  - *De tus resultados de pruebas* o *De resultados de ICP*, con el último valor, para un parámetro que solo tiene tus propios resultados.
+
+  El lápiz (**Cambiar nombre**) junto a un parámetro le da tu propio nombre. Es el que aparece en tu panel, en las alertas y en Reef Buddy. Deja el nombre vacío para restablecerlo.
+- **Más parámetros** está plegado. Contiene los parámetros estándar que este acuario aún no tiene.
+- **Nuevo parámetro…** crea un parámetro propio, separado de tus otros parámetros. Mira más abajo.
+- **No mostrar esta lectura** (*Cora la ignora*) impide que la lectura se registre como ningún parámetro. Una lectura oculta no sale en ningún panel y no genera alertas.
+
+La hoja termina con *Se guarda en cuanto eliges. Las lecturas anteriores se quedan donde están.*
+
+### Nuevo parámetro {#new-parameter}
+
+Usa **Nuevo parámetro…** cuando una lectura no deba mezclarse con otra del mismo nombre, por ejemplo una segunda sonda de pH en el sump. Cora abre **Nuevo parámetro** y explica que la lectura de ese dispositivo se mostrará como un parámetro propio y que su unidad viene del dispositivo.
+
+1. Escribe un **Nombre**. Cualquier nombre, por ejemplo *pH sump* o *pH 2*, de hasta 32 caracteres.
+2. Toca **Crear**. **Crear** sigue en gris mientras el nombre esté vacío. **Cancelar** cierra la ventana y no cambia nada.
+
+La lectura alimenta ahora el nuevo parámetro. El nombre conserva la grafía que escribiste. Si escribes el nombre de un parámetro que ya tienes, la lectura se une a él y su nombre no se modifica. No se copia ningún rango de alerta de otro parámetro.
+
+## Pruebas y resultados de laboratorio {#tests-and-lab-results}
+
+Los resultados de tus propias pruebas y tus resultados de ICP aparecen al final, en **Pruebas y resultados de laboratorio**. La sección empieza cerrada, porque solo un informe de ICP tiene decenas de elementos. Tócala para abrirla. Los resultados se agrupan en **Resultados de ICP** y **Tus resultados de pruebas**.
+
+Cada resultado se asigna a un parámetro igual que la lectura de un dispositivo. Toca uno para abrir **Mostrar esta lectura como** y elegir el parámetro con el que aparece, por ejemplo para mantener el pH de un kit de pruebas separado del de una sonda. Cora lo dice en la sección: los resultados nuevos siguen tu elección, y los anteriores se quedan donde están. Un resultado de prueba o de ICP nunca se descarta, así que **No mostrar esta lectura** no se ofrece para él.
+
+Los parámetros que no alimenta ninguna lectura de arriba y que no son pruebas aparecen en **Otros parámetros**. Toca uno para cambiarle el nombre.
 
 ## Varias sondas para un mismo parámetro {#multiple-probes}
 
-Si tienes dos sondas de temperatura, ya sea en el mismo controlador o en dos distintos, asigna las dos. Cora las guarda como fuentes distintas, y la pestaña **Fuentes** es donde eliges cuál da la lectura, o la dejas en Automático. Puedes compararlas en [la vista del parámetro](/help/mobile-metric-detail).
+Si dos lecturas se muestran como el mismo parámetro, ya sean de dos sondas de un dispositivo o de dos dispositivos distintos, aparece un aviso arriba de la lista. Dice por ejemplo *pH recibe lecturas de 2 dispositivos* (o *2 sondas*), seguido de lo que hace Cora: *Se muestra la más reciente.* o *Usando* el dispositivo que elegiste. Tócalo, o toca **Elegir una**, para abrir la hoja.
 
-Cuando dos fuentes informan del mismo parámetro, gana la medición más reciente. Un valor en pantalla solo lo reemplaza una lectura con una hora de medición posterior, venga del dispositivo que venga. Una lectura más antigua, o un dispositivo que reenvía una antigua, va al historial y no sobrescribe el valor actual. Si fijaste una fuente en la pestaña **Fuentes**, Cora sigue esa fuente.
+- **Lectura más reciente** (*El dispositivo que informó por última vez*) deja que Cora use el dispositivo que informó más recientemente. Los demás se quedan en el historial.
+- Elige un dispositivo o una sonda para seguir solo esa. Cada una muestra su valor y hace cuántos minutos informó. Tu elección se aplica a ese parámetro en todo el acuario: su mosaico, su gráfico y sus alertas, no un solo widget.
+- **Mostrar una por separado** (*Por ejemplo, una segunda sonda en el sump*) pregunta **¿Cuál se debe mostrar por separado?** y después abre **Mostrar esta lectura como** para la que elijas.
+
+Si un dispositivo que elegiste deja de informar, el aviso dice *No reporta desde* y la hora, y ofrece **Usar la más reciente**, para que una sonda muerta no deje una lectura bloqueada.
+
+Puedes comparar las fuentes en [la vista del parámetro](/help/mobile-metric-detail).
+
+Cuando dos fuentes informan del mismo parámetro, gana la medición más reciente. Un valor en pantalla solo lo reemplaza una lectura con una hora de medición posterior, venga del dispositivo que venga. Una lectura más antigua, o un dispositivo que reenvía una antigua, va al historial y no sobrescribe el valor actual. Si elegiste un dispositivo, Cora sigue ese dispositivo.
+
+El perfil del acuario también tiene una sección **Fuentes de parámetros** (está oculta mientras creas un acuario nuevo). Configura lo mismo de forma más resumida. Usa Asignación de parámetros cuando quieras ver todos los dispositivos y lecturas en un solo sitio.
 
 ## Registrar el cuidado de las sondas {#recording-probe-care}
 

@@ -125,6 +125,7 @@
 <li><a href="/it/help/mobile-plans">Piani e abbonamenti</a></li>
 <li><a href="/it/help/mobile-data-export">Esportare i tuoi dati ed eliminare l&#x27;account</a></li>
 <li><a href="/it/help/mobile-support">Segnalare un problema</a></li>
+<li><a href="/it/help/mobile-partners">Partner collegati</a></li>
 </ul></details>
 <p class="nav-sec" lang="en">Cora Max</p>
 <details class="nav-g">
@@ -214,7 +215,7 @@
 <h2 id="status-tag">Etichetta di stato</h2>
 <p>L'etichetta nella barra in alto di Cora Max che dice come questo schermo riceve i suoi dati, come <strong>Online</strong>, <strong>Cloud</strong>, <strong>Non aggiornato</strong> o <strong>Offline</strong>. Vedi <a href="/it/help/max-tour">La schermata principale di Cora Max</a>.</p>
 <h2 id="source">Fonte</h2>
-<p>Da dove arriva una lettura: una sonda, un controller, un risultato di laboratorio, oppure tu con un test. Ogni lettura ne ha una, così Cora può dirti quando due fonti non concordano. Se più di una fonte riporta la stessa lettura, <a href="/it/help/mobile-probes">Mappatura parametri</a> è dove scegli di quale fidarti, oppure la lasci su Automatico.</p>
+<p>Da dove arriva una lettura: una sonda, un controller, un risultato di laboratorio, oppure tu con un test. Ogni lettura ne ha una, così Cora può dirti quando due fonti non concordano. Se più di una fonte riporta la stessa lettura, <a href="/it/help/mobile-probes">Mappatura parametri</a> è dove scegli di quale fidarti, oppure resti sulla lettura più recente.</p>
 <h2 id="icp">ICP</h2>
 <p>Un test di laboratorio dell'acqua che copre un'ampia gamma di elementi. Carica il PDF che ti manda il laboratorio, oppure fallo inviare a Cora dal laboratorio, e Cora segue ogni elemento nel tempo. Vedi <a href="/it/help/mobile-icp-health">ICP e report di salute</a>.</p>
 <h2 id="jecod">Jecod™</h2>
@@ -222,7 +223,7 @@
 <h2 id="account-language">Lingua dell'account</h2>
 <p>L'unica lingua che usa tutto il tuo account Cora: inglese, tedesco, francese, turco, italiano, spagnolo o polacco. Non si imposta per persona o per dispositivo. Cambiala in <strong>Impostazioni → Lingua</strong> sul telefono o su qualsiasi Cora Max, e ogni dispositivo si adegua in pochi istanti. Quello che è già stato scritto resta nella lingua originale. Vedi <a href="/it/help/mobile-settings">Impostazioni di Cora Mobile</a>.</p>
 <h2 id="parameter-mapping">Mappatura parametri</h2>
-<p>Dove dici a Cora cosa misura ogni sonda di un controller, e quale dispositivo alimenta ogni lettura. Vedi <a href="/it/help/mobile-probes">Mappatura parametri e sonde</a>.</p>
+<p>Un unico elenco delle letture di ogni dispositivo, dove scegli con quale parametro della vasca appare ogni lettura, anche un parametro a sé per un risultato di test o ICP, e quale dispositivo alimenta un parametro quando più dispositivi lo riportano. Vedi <a href="/it/help/mobile-probes">Mappatura parametri e sonde</a>.</p>
 <h2 id="feed-mode">Modalità alimentazione</h2>
 <p>Una pausa per l'alimentazione. Su un Neptune™ Apex, <strong>Alimenta</strong> avvia uno dei cicli di alimentazione, da <strong>A</strong> a <strong>D</strong>, programmati sull'Apex, e l'Apex decide cosa si mette in pausa e quando riparte. Una pompa Jecod può mettersi in pausa per l'alimentazione dalla sua pagina. Alcune pompe Jecod non riescono a terminare la pausa da sole: tieni aperta la pagina della pompa sul telefono finché la pausa non finisce, altrimenti la pompa resta ferma. Vedi <a href="/it/help/max-controls">Prese e comandi</a> e <a href="/it/help/mobile-device-control">Controllare la tua attrezzatura</a>.</p>
 <h2 id="vacation-mode">Modalità vacanza</h2>
@@ -274,7 +275,7 @@
 <h2 id="widget">Widget</h2>
 <p>Un riquadro di una dashboard che mostra una cosa, come un valore, un indicatore, un grafico o una presa. Vedi <a href="/it/help/mobile-widgets">Guida ai widget</a>.</p>
       <nav class="pn" aria-label="Continua a leggere"><a class="pn-p" href="/it/help/faq"><span>Precedente</span><b>Domande frequenti</b></a></nav>
-      <p class="stamp">Scritto per Cora Max 0.28.240 e Cora Mobile 1.4.16. Ultimo controllo il 2026-10-18.</p>
+      <p class="stamp">Scritto per Cora Max 0.28.275 e Cora Mobile 1.4.24. Ultimo controllo il 2026-11-03.</p>
       <p class="ask">Ancora bloccato? Scrivi a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, ti aiutiamo.</p>
     </article>
   </main>
@@ -665,7 +666,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/it/help/search.json?v=6ecfe81ff8').then(function (r) { return r.json(); })
+    fetch('/it/help/search.json?v=ddb8319b30').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "it"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La ricerca non \u00e8 disponibile. Usa la navigazione." + '</li>';

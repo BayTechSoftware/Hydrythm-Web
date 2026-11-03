@@ -125,6 +125,7 @@
 <li><a href="/help/mobile-plans">Plans and subscriptions</a></li>
 <li><a href="/help/mobile-data-export">Exporting your data and deleting your account</a></li>
 <li><a href="/help/mobile-support">Reporting a problem</a></li>
+<li><a href="/help/mobile-partners">Connected partners</a></li>
 </ul></details>
 <p class="nav-sec" lang="en">Cora Max</p>
 <details class="nav-g">
@@ -234,7 +235,7 @@
 <h2 id="parameter">Parameter</h2>
 <p>Something you can measure in your water, like alkalinity, calcium, nitrate or temperature.</p>
 <h2 id="parameter-mapping">Parameter Mapping</h2>
-<p>Where you tell Cora what each probe on a controller measures, and which device feeds each reading. See <a href="/help/mobile-probes">Parameter Mapping and probes</a>.</p>
+<p>One list of every device's readings, where you choose which tank parameter each reading shows as, including a parameter of its own for a test kit or ICP result, and which device feeds a parameter when several report it. See <a href="/help/mobile-probes">Parameter Mapping and probes</a>.</p>
 <h2 id="primary-cora-max">Primary Cora Max</h2>
 <p>The Cora Max that reads a tank's equipment on your network for you. Set it to one Cora Max, or to <strong>Any active (automatic)</strong>, where every online Cora Max for the tank shares the job. It's about reading equipment, not voice (that's the <a href="#answering-device">answering device</a>). Change it in Cora Mobile: <strong>Settings</strong>, open the tank, then <strong>Primary Cora Max</strong>. See <a href="/help/mobile-multi-device">More than one Cora device</a>.</p>
 <h2 id="recovery-pin">Recovery PIN</h2>
@@ -254,7 +255,7 @@
 <h2 id="snooze">Snooze</h2>
 <p>A button on a Cora Max alert. It mutes the alert on that Cora Max for the rule's cooldown (up to a week) without closing it. <strong>Dismiss</strong>, the other button, closes it on that Cora Max until the reading is back in range. Your phone's notifications aren't affected by either. See <a href="/help/max-alerts">Alerts on Cora Max</a>.</p>
 <h2 id="source">Source</h2>
-<p>Where a reading came from: a probe, a controller, a lab result, or you with a test kit. Every reading has one, so Cora can tell you when two sources disagree. If more than one source reports the same reading, <a href="/help/mobile-probes">Parameter Mapping</a> is where you choose which one to trust, or leave it Automatic.</p>
+<p>Where a reading came from: a probe, a controller, a lab result, or you with a test kit. Every reading has one, so Cora can tell you when two sources disagree. If more than one source reports the same reading, <a href="/help/mobile-probes">Parameter Mapping</a> is where you choose which one to trust, or leave it on the newest reading.</p>
 <h2 id="status-dot">Status dot</h2>
 <p>The coloured dot on each row of the Devices tab in Cora Mobile. Green is working, orange is a warning or fault, red is offline and grey means Cora doesn't know yet. See <a href="/help/mobile-devices">Adding, editing and removing devices</a>.</p>
 <h2 id="status-tag">Status tag</h2>
@@ -274,7 +275,7 @@
 <h2 id="widget">Widget</h2>
 <p>One tile on a dashboard that shows one thing, such as a value, a gauge, a graph or an outlet. See <a href="/help/mobile-widgets">Widget reference</a>.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/faq"><span>Previous</span><b>Frequently asked questions</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.240 and Cora Mobile 1.4.16. Last checked 2026-10-18.</p>
+      <p class="stamp">Written for Cora Max 0.28.275 and Cora Mobile 1.4.24. Last checked 2026-11-03.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>
@@ -665,7 +666,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/help/search.json?v=d076232951').then(function (r) { return r.json(); })
+    fetch('/help/search.json?v=0cb74b3874').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "en"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';

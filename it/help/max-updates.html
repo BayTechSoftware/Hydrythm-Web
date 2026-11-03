@@ -125,6 +125,7 @@
 <li><a href="/it/help/mobile-plans">Piani e abbonamenti</a></li>
 <li><a href="/it/help/mobile-data-export">Esportare i tuoi dati ed eliminare l&#x27;account</a></li>
 <li><a href="/it/help/mobile-support">Segnalare un problema</a></li>
+<li><a href="/it/help/mobile-partners">Partner collegati</a></li>
 </ul></details>
 <p class="nav-sec" lang="en">Cora Max</p>
 <details class="nav-g">
@@ -182,7 +183,7 @@
 <p><strong>Impostazioni → Impostazioni Cora Max → Aggiornamento firmware</strong> (in <strong>RETE E AGGIORNAMENTI</strong>) mostra la versione che hai e se c'è un aggiornamento in attesa. Tocca <strong>Controlla aggiornamenti</strong> per controllare subito, oppure <strong>Scarica e installa</strong> quando ce n'è uno.</p>
 <p>In <strong>Impostazioni aggiornamento</strong> nella stessa schermata:</p>
 <ul><li><strong>Finestra di installazione</strong> imposta le ore in cui gli aggiornamenti possono installarsi, con un orario di <strong>Inizio</strong> e di <strong>Fine</strong>, nell'ora locale di questo schermo. Il fuso orario si imposta in Cora Mobile, in <strong>Dispositivi →</strong> il tuo Cora Max <strong>→ Fuso orario</strong>.</li></ul>
-<p>Per vedere se questo schermo sta leggendo i tuoi dispositivi e salvando in Cora Cloud, torna in <strong>Impostazioni Cora Max</strong> e scorri fino a <strong>STATO</strong>. Mostra per ogni vasca <strong>Stato polling</strong>, <strong>Ultimo polling</strong>, <strong>Ultima scrittura cloud</strong> e <strong>Salvataggio cloud</strong>.</p>
+<p>Per vedere se questo schermo sta leggendo i tuoi dispositivi e salvando in Cora Cloud, torna in <strong>Impostazioni Cora Max</strong> e scorri fino a <strong>STATO</strong>. Per ogni vasca mostra quanti dispositivi rispondono e quando è arrivata l’ultima lettura; una vasca con un Apex mostra anche <strong>Polling dell’Apex</strong>, <strong>Ultimo polling</strong> e <strong>Ultima scrittura cloud</strong>, e <strong>Salvataggio cloud</strong> compare quando un salvataggio viene rifiutato.</p>
 <p>Se un aggiornamento si scarica lentamente, controlla la connessione con il <strong>Test di velocità della rete</strong> nella stessa schermata. <strong>Avvia test</strong> scarica fino a 16 MB del file di aggiornamento da Cora Cloud, per al massimo 20 secondi, e mostra la velocità in MB/s.</p>
 <h2 id="quando-ce-un-aggiornamento-disponibile">Quando c'è un aggiornamento disponibile</h2>
 <p>Un messaggio ti dice cosa c'è di nuovo e ti dà due scelte.</p>
@@ -208,7 +209,7 @@
 <h2 id="se-ununita-non-si-riavvia">Se un'unità non si riavvia</h2>
 <p>Scrivi a <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> indicando la versione mostrata sullo schermo e il messaggio che mostra. Non associarla di nuovo prima. Lo stato dell'associazione spesso aiuta a capire cosa è successo.</p>
       <nav class="pn" aria-label="Continua a leggere"><a class="pn-p" href="/it/help/max-settings"><span>Precedente</span><b>Impostazioni di Cora Max</b></a></nav>
-      <p class="stamp">Scritto per Cora Max 0.28.240 e Cora Mobile 1.4.16. Ultimo controllo il 2026-10-17.</p>
+      <p class="stamp">Scritto per Cora Max 0.28.275 e Cora Mobile 1.4.24. Ultimo controllo il 2026-11-03.</p>
       <p class="ask">Ancora bloccato? Scrivi a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, ti aiutiamo.</p>
     </article>
   </main>
@@ -599,7 +600,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/it/help/search.json?v=6ecfe81ff8').then(function (r) { return r.json(); })
+    fetch('/it/help/search.json?v=ddb8319b30').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "it"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La ricerca non \u00e8 disponibile. Usa la navigazione." + '</li>';

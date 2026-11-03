@@ -125,6 +125,7 @@
 <li><a href="/fr/help/mobile-plans">Forfaits et abonnements</a></li>
 <li><a href="/fr/help/mobile-data-export">Exporter vos données et supprimer votre compte</a></li>
 <li><a href="/fr/help/mobile-support">Signaler un problème</a></li>
+<li><a href="/fr/help/mobile-partners">Partenaires connectés</a></li>
 </ul></details>
 <p class="nav-sec" lang="en">Cora Max</p>
 <details class="nav-g">
@@ -182,7 +183,7 @@
 <p><strong>Paramètres → Paramètres Cora Max → Mise à jour du micrologiciel</strong> (dans <strong>RÉSEAU ET MISES À JOUR</strong>) affiche la version que vous avez et indique si une mise à jour attend. Touchez <strong>Rechercher des mises à jour</strong> pour vérifier maintenant, ou <strong>Télécharger et installer</strong> quand il y en a une.</p>
 <p>Sous <strong>Paramètres de mise à jour</strong>, sur le même écran :</p>
 <ul><li><strong>Plage d’installation</strong> définit les heures pendant lesquelles les mises à jour peuvent s’installer, avec une heure de <strong>Début</strong> et de <strong>Fin</strong>, à l’heure locale de cet écran. Le fuseau horaire se règle dans Cora Mobile, sous <strong>Appareils →</strong> votre Cora Max <strong>→ Fuseau horaire</strong>.</li></ul>
-<p>Pour voir si cet écran lit vos appareils et enregistre dans Cora Cloud, revenez à <strong>Paramètres Cora Max</strong> et faites défiler jusqu’à <strong>ÉTAT</strong>. La section affiche pour chaque aquarium l’<strong>État de l’interrogation</strong>, la <strong>Dernière interrogation</strong>, la <strong>Dernière écriture cloud</strong> et l’<strong>Enregistrement cloud</strong>.</p>
+<p>Pour voir si cet écran lit vos appareils et enregistre dans Cora Cloud, revenez à <strong>Paramètres Cora Max</strong> et faites défiler jusqu’à <strong>ÉTAT</strong>. Pour chaque aquarium, la section indique combien d’appareils transmettent et quand la dernière mesure est arrivée ; un aquarium avec un Apex affiche aussi <strong>Interrogation de l’Apex</strong>, <strong>Dernière interrogation</strong> et <strong>Dernière écriture cloud</strong>, et <strong>Enregistrement cloud</strong> apparaît quand un enregistrement est refusé.</p>
 <p>Si une mise à jour se télécharge lentement, vérifiez votre connexion avec le <strong>Test de débit réseau</strong> sur le même écran. <strong>Lancer le test</strong> télécharge jusqu’à 16 Mo du fichier de mise à jour depuis Cora Cloud, pendant 20 secondes au plus, et affiche le débit en Mo/s.</p>
 <h2 id="quand-une-mise-a-jour-est-disponible">Quand une mise à jour est disponible</h2>
 <p>Un message vous dit ce qui est nouveau et vous propose deux choix.</p>
@@ -208,7 +209,7 @@
 <h2 id="si-un-appareil-ne-redemarre-pas">Si un appareil ne redémarre pas</h2>
 <p>Écrivez à <strong><a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a></strong> en indiquant la version affichée à l’écran et le message qu’il affiche. Ne le réappairez pas avant. L’état de l’association aide souvent à comprendre ce qui s’est passé.</p>
       <nav class="pn" aria-label="Poursuivre la lecture"><a class="pn-p" href="/fr/help/max-settings"><span>Précédent</span><b>Paramètres de Cora Max</b></a></nav>
-      <p class="stamp">Rédigé pour Cora Max 0.28.240 et Cora Mobile 1.4.16. Vérifié pour la dernière fois le 2026-10-17.</p>
+      <p class="stamp">Rédigé pour Cora Max 0.28.275 et Cora Mobile 1.4.24. Vérifié pour la dernière fois le 2026-11-03.</p>
       <p class="ask">Toujours bloqué ? Écrivez à <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, nous vous aiderons.</p>
     </article>
   </main>
@@ -599,7 +600,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/fr/help/search.json?v=84e649e8bc').then(function (r) { return r.json(); })
+    fetch('/fr/help/search.json?v=2f74db88ae').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "fr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La recherche est indisponible. Utilisez la navigation." + '</li>';

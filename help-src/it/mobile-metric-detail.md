@@ -2,7 +2,7 @@
 title: Approfondire un parametro
 description: Tocca un widget per vedere lo storico completo di un parametro, confrontare fonti e parametri, escludere una lettura sbagliata e registrare la cura delle sonde.
 section: Cora Mobile
-reviewed: 2026-10-17
+reviewed: 2026-11-03
 order: 7
 group: Your dashboard
 ---
@@ -51,7 +51,7 @@ Una linea che non si muove può voler dire che il parametro è stabile. Può anc
 
 Quando più di una fonte riporta un parametro, Cora le tiene separate e non ne fa la media. Usa il menu a tendina **Fonte** per guardarle una alla volta. È il modo più veloce per confrontare una sonda con un test.
 
-Quella che compare sulla dashboard è la più recente. Un valore in tempo reale viene sostituito solo da una lettura con un orario di misura successivo, da qualsiasi fonte. Una lettura più vecchia va nello storico e non sovrascrive quello che c'è sul widget. Se hai fissato una fonte in **Mappatura parametri**, Cora segue invece quella fonte.
+Quella che compare sulla dashboard è la più recente. Un valore in tempo reale viene sostituito solo da una lettura con un orario di misura successivo, da qualsiasi fonte. Una lettura più vecchia va nello storico e non sovrascrive quello che c'è sul widget. Se hai scelto un dispositivo in **Mappatura parametri**, Cora segue invece quel dispositivo.
 
 Se una sonda e i tuoi test registrati a mano restano distanti della stessa quantità, di solito la sonda va calibrata.
 
@@ -59,7 +59,7 @@ Un [risultato ICP](/help/mobile-icp-health) è un utile terzo parere, ma non chi
 
 ## Scegliere quale fonte segue una lettura {#choosing-which-source-a-widget-trusts}
 
-La fonte si imposta per vasca e per parametro, non per widget. Vai in **Impostazioni**, tocca la vasca, tocca **Mappatura parametri**, poi la scheda **Fonti**. Scegli una sonda, oppure **Automatico (vince la lettura più recente)**. La scelta vale per quel parametro ovunque nella vasca. Di più in [Mappatura parametri](/help/mobile-probes).
+La fonte si imposta per vasca e per parametro, non per widget. Vai in **Impostazioni**, tocca la vasca, poi **Mappatura parametri**. Quando più dispositivi riportano un parametro, un banner in cima all'elenco, come *pH riceve letture da 2 dispositivi*, ti permette di toccare **Scegline una**. Scegli un dispositivo, oppure **Lettura più recente**. La scelta vale per quel parametro ovunque nella vasca. Per tenere una lettura a parte come parametro a sé, per esempio una seconda sonda nella sump, usa **Mostrane una a parte** o **Nuovo parametro…**. Di più in [Mappatura parametri](/help/mobile-probes#multiple-probes).
 
 ## Escludere una lettura sbagliata {#excluding-a-bad-reading}
 
@@ -81,7 +81,7 @@ Tocca **Registra cura della sonda** (l'icona del sensore nella barra in alto) e 
 
 ## Registrare una lettura a mano {#logging-a-reading-by-hand}
 
-Le letture si registrano dalla dashboard, non da questa schermata. Tocca **Registra parametri** sotto i widget e inserisci quello che dice il tuo test. L'elenco è raggruppato, e il gruppo **Oligoelementi** comprende iodio, ferro e rame in µg/L, e potassio in mg/L. Le letture registrate a mano contano come tutte le altre. Hanno una fonte e un orario propri, compaiono sul grafico e alimentano Reef Buddy. Sono anche il riferimento con cui Cora controlla la tua attrezzatura.
+Le letture si registrano dalla dashboard, non da questa schermata. Tocca **Registra parametri** sotto i widget e inserisci quello che dice il tuo test. L'elenco è raggruppato, e il gruppo **Oligoelementi** comprende iodio, ferro e rame in µg/L, e potassio in mg/L. Le letture registrate a mano contano come tutte le altre. Hanno una fonte e un orario propri, compaiono sul grafico e alimentano Reef Buddy. Sono anche il riferimento con cui Cora controlla la tua attrezzatura. Se vuoi che il risultato di un test appaia come parametro a sé, separato da quello di una sonda, sceglilo in **Test e risultati di laboratorio** in [Mappatura parametri](/help/mobile-probes#tests-and-lab-results).
 
 :::note Cora ricontrolla i valori strani
 Se un valore è molto lontano da quelli della vasca finora, Cora ti chiede di confermarlo prima di salvarlo. Così intercetta una virgola al posto sbagliato, o una lettura inserita nel parametro sbagliato. Quando confermi, la lettura viene salvata come al solito.

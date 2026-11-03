@@ -1,63 +1,92 @@
 ---
 title: Parameterzuordnung und Sonden
-description: Festlegen, welche Sonde jeden Messwert liefert, Cora sagen, was jede Sonde misst, und Kalibrierung und Reinigung von Sonden festhalten.
+description: Alle Messwerte der Geräte in einer Liste, wählen, als welcher Parameter jeder erscheint und welches Gerät ihn liefert, und Sondenkalibrierung und -reinigung festhalten.
 section: Cora Mobile
-reviewed: 2026-10-13
+reviewed: 2026-11-03
 order: 15
 group: Equipment
 ---
 
-Mit der **Parameterzuordnung** sagst du Cora, was jede Sonde misst und, wenn zwei Sonden dasselbe melden, welcher es vertrauen soll. Geh zu **Einstellungen**, öffne das Becken und tippe auf **Parameterzuordnung**.
+Mit der **Parameterzuordnung** legst du fest, als welcher Parameter jeder Messwert angezeigt wird und, wenn zwei Geräte dasselbe melden, welchem du vertraust. Geh zu **Einstellungen**, öffne das Becken und tippe auf **Parameterzuordnung**.
 
 Sie steht zwischen **Becken bearbeiten** und **Warnschwellen**. Der Stift oben auf dem Dashboard öffnet **Becken bearbeiten**, wo es sie nicht gibt. Du erreichst sie auch über die Geräteseiten von Neptune Apex.
 
-Der Bildschirm hat ein Suchfeld (**Parameter suchen**) und zwei Tabs, **Zuordnung** und **Quellen**. Die Suche durchsucht Namen von Wasserwerten, Namen von Sonden, Geräte und Marken. Dasselbe Suchfeld gibt es in jeder Auswahl von Wasserwerten.
+Der Bildschirm ist eine einzige Liste von Geräten, darüber ein Suchfeld (**Parameter suchen**). Die Suche durchsucht Namen von Parametern, Namen von Messwerten, Geräte und Marken. Dasselbe Suchfeld gibt es in jeder Parameterauswahl.
 
-## Sonden: Cora sagen, was jede ist {#mapping}
+## Eine Liste aller Geräte {#mapping}
 
-![Der Tab Zuordnung](img/mobile-probe-mapping.webp "Jede Sonde, gruppiert nach dem Gerät, das sie meldet, mit dem Wasserwert, dem sie zugeordnet ist.")
+Unter dem Suchfeld erklärt Cora den Bildschirm in einer Zeile: die Messwerte jedes Geräts und als welcher Beckenparameter sie angezeigt werden. Tippe auf einen Messwert, um ihn zu ändern.
 
-Der Tab **Zuordnung** öffnet sich zuerst. Er listet jede Sonde auf, die Cora kennt, gruppiert nach dem Gerät, das sie meldet, mit ihrem aktuellen Messwert. Cora erkennt Standardnamen von Sonden selbst, und jede Zeile zeigt, was es zugeordnet hat. Meist musst du nur die paar korrigieren, die es nicht einordnen konnte.
+- **Jedes Gerät steht unter dem Namen, den du ihm gegeben hast.** Ein Gerät ohne Namen steht unter seiner Marke, und zwei unbenannte Geräte derselben Marke werden nummeriert („AquaWiz 1“, „AquaWiz 2“). Seriennummern und Geräte-IDs dienen nie als Namen; sie stehen hinter **Details anzeigen** auf der Seite des Geräts. Siehe [Die Seite eines Geräts](/help/mobile-devices#a-devices-page).
+- **Jeder Messwert steht unter dem Gerät, das ihn wirklich meldet.** Jede Zeile zeigt den eigenen Namen des Geräts für den Messwert, seinen letzten Wert und **Angezeigt als**, den Beckenparameter, den er speist. Ein Messwert, den du ausgeblendet hast, zeigt **Nicht angezeigt**.
+- **Ein Becken hat ein Neptune Apex**, egal wie viele Cora-Geräte es auslesen. Seine Sonden stehen in einer Liste unter einem Abschnitt **Apex** (oder unter dem Namen, den du ihm gegeben hast). Ein Apex-Erweiterungsmodul wie DŌS oder Trident steht unter seinem eigenen Namen. Seine Messwerte lassen sich nicht umlenken; ein Tipp darauf benennt stattdessen den Parameter um.
+- **Ein Gerät, das mit anderen Becken geteilt wird, steht in der Liste jedes Beckens, mit dem es verbunden ist.** Sein Abschnitt sagt *Auch in* und die Namen der anderen Becken, danach *Änderungen hier gelten nur für dieses Becken.*
+- **Ein Gerät mit höchstens zwei Messwerten ist von Anfang an offen**; ein längeres ist zunächst zugeklappt und zeigt die Anzahl seiner Messwerte, es sei denn, einer seiner Messwerte teilt sich einen Parameter mit einem anderen Gerät. Tippe auf den Namen eines Geräts, um es zu öffnen oder zu schließen. Während du suchst, sind alle Treffer offen.
 
-Jede Zeile gibt dir drei Möglichkeiten.
+Cora erkennt Standardnamen von Messwerten selbst, daher zeigen die meisten Zeilen schon den richtigen Parameter. Korrigiere nur die wenigen, die es nicht einordnen konnte.
 
-- **Ein Cora-Wasserwert** ist der Wert, den diese Sonde misst.
-- **Eigener…** ist für eine Sonde, für die Cora keinen Standard-Wasserwert hat. Gib unter **Eigener Wert (GROSSBUCHSTABEN-Token)** einen kurzen Namen in Großbuchstaben ein, und Cora verfolgt sie unter diesem Namen.
-- **Ignorieren** ist für Sonden, die gar nicht aufgezeichnet werden sollen.
+Eine Änderung wird gespeichert, sobald du sie wählst; es gibt keinen Speichern-Knopf. Sie wirkt, sobald das nächste Mal Messwerte ankommen. Eine Korrektur hier schreibt den Verlauf nicht um: frühere Messwerte bleiben, wo sie sind, und es ändert sich nur, was ab dann gespeichert wird. Zuordnungen, die du vor diesem Aufbau gemacht hast, bleiben unverändert erhalten.
 
-Eine ignorierte oder nicht zugeordnete Sonde erscheint auf keinem Dashboard und löst keine Warnungen aus.
-
-Eine Zuordnung wirkt, sobald das nächste Mal Messwerte ankommen. Korrigierst du hier eine, wird der Verlauf nicht umgeschrieben. Es ändert sich nur, was ab dann gespeichert wird. Tippe auf **Speichern**, um deine Änderungen zu übernehmen.
-
-:::warning Eine nicht zugeordnete Sonde sieht Cora nicht
-Zeigt ein Wasserwert keine Messwerte, obwohl die Sonde funktioniert, prüf zuerst ihre Zuordnung.
+:::warning Cora sieht einen ausgeblendeten Messwert nicht
+Zeigt ein Parameter keine Messwerte, obwohl das Gerät funktioniert, prüf, ob sein Messwert **Nicht angezeigt** sagt.
 :::
-
-## Woher jeder Messwert kommt {#sources}
-
-![Der Tab Quellen](img/mobile-probes.webp "Jeder Messwert, die Sonde, die ihn liefert, und ob er Automatisch oder Von dir gewählt ist.")
-
-Der Tab **Quellen** listet jeden Wert auf, den Cora für dieses Becken verfolgt, etwa pH oder Temperatur, und zeigt, welche Sonde ihn gerade liefert.
-
-Tippe auf einen Messwert, um jede Sonde zu sehen, die ihn meldet, über alle Controller, die du verbunden hast. Jede zeigt ihre Marke, ihren eigenen Namen für die Sonde und ihren Live-Wert. Wähl eine, um sie festzulegen, oder wähl **Automatisch (neueste Messung gewinnt)**, damit Cora die Sonde nimmt, die zuletzt gemeldet hat. Die anderen bleiben im Verlauf.
-
-Ein Hinweis neben jedem Messwert zeigt, was gilt: **Automatisch** oder **Von dir gewählt**, sobald du eine Sonde festgelegt hast. Deine Wahl gilt für diesen Messwert im ganzen Becken, nicht für ein einzelnes Widget.
-
-Meldet sich eine festgelegte Sonde nicht mehr, zeigt Cora, wann sie zuletzt gehört wurde, und bietet **Zurück zu Automatisch** an, damit eine tote Sonde einen Messwert nicht festhalten kann.
-
-Tippe auf **Umbenennen**, um einem Messwert einen eigenen Anzeigenamen zu geben. Das ist getrennt von jedem Namen, den du der Sonde selbst gibst. Er erscheint auf deinem Dashboard, in Warnungen und in Reef Buddy.
-
-Das Beckenprofil hat außerdem einen Bereich **Wasserwert-Quellen** (er ist ausgeblendet, während du ein neues Becken anlegst). Er legt dasselbe in kürzerer Form fest. Nutze die Parameterzuordnung, wenn du jede Sonde an jedem Controller an einem Ort haben willst.
 
 :::note Ein Lecksensor lässt sich hier nicht neu zuordnen
-Der Alarm eines Lecksensors hängt von seinem eigenen Namen ab, deshalb ist er aus dieser Auswahl ausgenommen. Er funktioniert wie immer.
+Der Alarm eines Lecksensors hängt von seinem eigenen Namen ab, daher sagt seine Zeile *Der Leckalarm hängt von diesem Namen ab und kann hier nicht geändert werden.* Er funktioniert wie immer.
 :::
 
-## Mehrere Sonden für einen Wasserwert {#multiple-probes}
+:::note Geräte, die noch ein Update brauchen
+Ein Gerät, das auf ein Firmware-Update wartet, sagt *Änderungen hier wirken erst nach dem Firmware-Update dieses Geräts.* Deine Wahl wird gespeichert und gilt, sobald das Update installiert ist.
+:::
 
-Hast du zwei Temperatursonden, egal ob am selben Controller oder an zwei verschiedenen, ordne beide zu. Cora behält sie als getrennte Quellen, und im Tab **Quellen** wählst du, welche den Messwert liefert, oder lässt es auf Automatisch. Vergleichen kannst du sie in [der Wasserwert-Ansicht](/help/mobile-metric-detail).
+## Festlegen, als was ein Messwert angezeigt wird {#shows-as}
 
-Melden zwei Quellen denselben Wasserwert, gewinnt die neueste Messung. Ein Wert auf dem Bildschirm wird nur durch einen Messwert mit späterem Messzeitpunkt ersetzt, egal von welchem Gerät. Ein älterer Messwert, oder ein Gerät, das einen alten noch einmal schickt, geht in den Verlauf und überschreibt den aktuellen Wert nicht. Hast du im Tab **Quellen** eine Quelle festgelegt, folgt Cora stattdessen dieser Quelle.
+Tippe auf einen Messwert, um **Diesen Messwert anzeigen als** zu öffnen. Oben steht der Messwert selbst: das Gerät, der Name des Messwerts und sein Wert. Darunter:
+
+- **Deine Parameter** listet jeden Parameter dieses Beckens auf. Jede Option sagt, woher ihre Messwerte kommen, damit du nie zwischen zwei ähnlichen Namen raten musst:
+  - *Kommt von* und der Name des Geräts, das ihn liefert, oder *Kommt auch von* und der Name eines anderen Geräts, wenn dieser Messwert bereits als dieser Parameter angezeigt wird.
+  - *Kein Gerät liefert ihn gerade. Letzter Wert …* mit der Zeitangabe, für einen Parameter, dessen Gerät verstummt ist.
+  - *Aus deinen Testergebnissen* oder *Aus ICP-Ergebnissen*, mit dem letzten Wert, für einen Parameter, der nur deine eigenen Ergebnisse hat.
+
+  Der Stift (**Umbenennen**) neben einem Parameter gibt ihm deinen eigenen Namen. Er erscheint auf deinem Dashboard, in Warnungen und in Reef Buddy. Lass den Namen leer, um ihn zurückzusetzen.
+- **Weitere Parameter** ist eingeklappt. Dort stehen die Standardparameter, die dieses Becken noch nicht hat.
+- **Neuer Parameter…** erstellt einen eigenen Parameter, getrennt von deinen anderen Parametern. Siehe unten.
+- **Diesen Messwert nicht anzeigen** (*Cora ignoriert ihn*) verhindert, dass der Messwert als irgendein Parameter aufgezeichnet wird. Ein ausgeblendeter Messwert erscheint auf keinem Dashboard und löst keine Warnungen aus.
+
+Das Blatt endet mit *Wird gespeichert, sobald du wählst. Frühere Messwerte bleiben, wo sie sind.*
+
+### Neuer Parameter {#new-parameter}
+
+Nutze **Neuer Parameter…**, wenn ein Messwert nicht mit einem anderen gleichen Namens vermischt werden soll, zum Beispiel eine zweite pH-Sonde im Technikbecken. Cora öffnet **Neuer Parameter** und erklärt, dass der Messwert dieses Geräts als eigener Parameter angezeigt wird und dass seine Einheit vom Gerät kommt.
+
+1. Gib einen **Namen** ein. Ein beliebiger Name, zum Beispiel *pH Technikbecken* oder *pH 2*, bis zu 32 Zeichen.
+2. Tippe auf **Erstellen**. **Erstellen** bleibt grau, bis der Name etwas enthält. **Abbrechen** schließt das Fenster und ändert nichts.
+
+Der Messwert speist nun den neuen Parameter. Der Name behält die Schreibweise, die du eingegeben hast. Gibst du den Namen eines Parameters ein, den du schon hast, wird der Messwert diesem zugeordnet, und sein Name bleibt unverändert. Es wird kein Warnbereich von einem anderen Parameter übernommen.
+
+## Tests und Laborergebnisse {#tests-and-lab-results}
+
+Deine eigenen Testkit-Ergebnisse und deine ICP-Ergebnisse stehen ganz unten unter **Tests und Laborergebnisse**. Der Abschnitt ist zunächst zugeklappt, weil allein ein ICP-Bericht Dutzende Elemente hat. Tippe darauf, um ihn zu öffnen. Die Ergebnisse sind gruppiert unter **ICP-Ergebnisse** und **Deine Testergebnisse**.
+
+Jedes Ergebnis wird wie der Messwert eines Geräts einem Parameter zugeordnet. Tippe auf eines, um **Diesen Messwert anzeigen als** zu öffnen und den Parameter zu wählen, als der es angezeigt wird, zum Beispiel um den pH-Wert eines Testkits getrennt von dem einer Sonde zu halten. Cora sagt es im Abschnitt: Neue Ergebnisse folgen deiner Wahl, frühere bleiben, wo sie sind. Ein Test- oder ICP-Ergebnis wird nie verworfen, deshalb gibt es dafür kein **Diesen Messwert nicht anzeigen**.
+
+Parameter, die kein Messwert oben speist und die keine Tests sind, stehen unter **Andere Parameter**. Tippe auf einen, um ihn umzubenennen.
+
+## Mehrere Sonden für einen Parameter {#multiple-probes}
+
+Werden zwei Messwerte als derselbe Parameter angezeigt, ob von zwei Sonden an einem Gerät oder von zwei verschiedenen Geräten, erscheint oben in der Liste ein Banner. Es sagt zum Beispiel *pH erhält Messwerte von 2 Geräten* (oder *2 Sonden*), gefolgt davon, was Cora tut: *Der neueste wird angezeigt.* oder *Verwendet* das Gerät, das du gewählt hast. Tippe darauf oder auf **Einen wählen**, um das Blatt zu öffnen.
+
+- **Neuester Messwert** (*Das Gerät, das zuletzt gemeldet hat*) lässt Cora das Gerät nehmen, das zuletzt gemeldet hat. Die anderen bleiben im Verlauf.
+- Wähl ein Gerät oder eine Sonde, um nur ihr zu folgen. Jede zeigt ihren Wert und vor wie vielen Minuten sie gemeldet hat. Deine Wahl gilt für diesen Parameter überall im Becken: Kachel, Diagramm und Alarme, nicht nur ein Widget.
+- **Einen davon separat anzeigen** (*Zum Beispiel eine zweite Sonde im Technikbecken*) fragt **Welcher soll separat angezeigt werden?** und öffnet dann **Diesen Messwert anzeigen als** für den, den du wählst.
+
+Meldet sich ein gewähltes Gerät nicht mehr, sagt das Banner *Meldet sich nicht mehr seit* und die Zeit und bietet **Neuesten verwenden** an, damit eine tote Sonde einen Messwert nicht festhalten kann.
+
+Vergleichen kannst du die Quellen in [der Parameteransicht](/help/mobile-metric-detail).
+
+Melden zwei Quellen denselben Parameter, gewinnt die neueste Messung. Ein Wert auf dem Bildschirm wird nur durch einen Messwert mit späterem Messzeitpunkt ersetzt, egal von welchem Gerät. Ein älterer Messwert, oder ein Gerät, das einen alten noch einmal schickt, geht in den Verlauf und überschreibt den aktuellen Wert nicht. Hast du ein Gerät gewählt, folgt Cora stattdessen diesem Gerät.
+
+Das Beckenprofil hat außerdem einen Bereich **Wasserwert-Quellen** (er ist ausgeblendet, während du ein neues Becken anlegst). Er legt dasselbe in kürzerer Form fest. Nutze die Parameterzuordnung, wenn du alle Geräte und Messwerte an einem Ort haben willst.
 
 ## Sondenpflege erfassen {#recording-probe-care}
 
