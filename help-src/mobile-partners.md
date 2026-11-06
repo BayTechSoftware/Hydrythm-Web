@@ -80,6 +80,18 @@ In the [Journal](/help/mobile-journal), an entry from a company carries a small 
 
 Tap one to open **Journal entry**. It shows the title, who it is from, "Performed" with the date, "Equipment" with the item and any details, and **Notes**. The text is the company's own words, shown exactly as written and never translated. You can't edit it: the screen says "Written by the company, so it can't be edited. To remove it, swipe it away in your Journal." Delete it the way you delete any entry. If you delete one, the company can't bring it back by sending it again. The company can also withdraw an entry it logged by mistake.
 
+## Letting a company add water tests {#add-tests}
+
+To let a company add the water tests it takes at your tank:
+
+1. Open **Settings**, tap your tank, then **Connected partners**.
+2. On the company's card, turn on **Let this company add water tests** (it shows the company's name when Cora Mobile knows it).
+3. Read what that means, then tap **Allow**.
+
+It's **off** until you turn it on. A test the company adds counts like one you log yourself: it updates that reading on your dashboard and in your history, and it can trigger your alerts and your automations. If you or a device already have a newer reading of that parameter, the company's test goes to your history only and the dashboard keeps the newer one. Your Parameter Mapping applies to these tests as it does to yours (see [Tests and lab results](/help/mobile-probes#tests-and-lab-results)).
+
+Turning the switch off takes effect straight away and doesn't ask. Tests the company already added stay in your history.
+
 ## Disconnecting a company {#disconnecting}
 
 1. Open **Connected partners** for the tank.
@@ -88,7 +100,7 @@ Tap one to open **Journal entry**. It shows the title, who it is from, "Performe
 
 You can connect it again later with a new code. Entries the company already added to your Journal stay there until you delete them. The company can also end a connection from its side, and the card then disappears when the list refreshes.
 
-To narrow what a company sees without disconnecting, turn off **Share Cora's analysis** or **Let this company log services**.
+To narrow what a company sees without disconnecting, turn off **Share Cora's analysis**, **Let this company log services** or **Let this company add water tests**.
 
 ## If something looks wrong {#if-something-looks-wrong}
 

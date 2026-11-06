@@ -172,7 +172,7 @@
       <nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="/help/">Help</a></li><li><a href="/help/mobile-setup" lang="en">Cora Mobile</a></li><li><a href="/help/mobile-settings">Settings and account</a></li></ol></nav>
       <h1>Connected partners</h1>
       
-      <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#before-you-start">Before you start</a></li><li><a href="#connecting">Connecting a company</a></li><li><a href="#what-they-see">What the company can see</a></li><li><a href="#share-analysis">Share Cora&#x27;s analysis</a></li><li><a href="#log-services">Letting a company log services</a></li><li><a href="#disconnecting">Disconnecting a company</a></li><li><a href="#if-something-looks-wrong">If something looks wrong</a></li></ul></nav>
+      <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#before-you-start">Before you start</a></li><li><a href="#connecting">Connecting a company</a></li><li><a href="#what-they-see">What the company can see</a></li><li><a href="#share-analysis">Share Cora&#x27;s analysis</a></li><li><a href="#log-services">Letting a company log services</a></li><li><a href="#add-tests">Letting a company add water tests</a></li><li><a href="#disconnecting">Disconnecting a company</a></li><li><a href="#if-something-looks-wrong">If something looks wrong</a></li></ul></nav>
 <p><strong>Connected partners</strong> lets a maintenance company or service company that works with Cora look at one of your tanks, so it can see how the tank is doing without asking you for photos and numbers. You decide which tank, what the company can see and for how long. A company can read, and it can add service records to your Journal only if you allow that. It can never control your equipment.</p>
 <h2 id="before-you-start">Before you start</h2>
 <ul><li>Connecting a company needs a paid plan, <strong>Cora Essential</strong> or higher. The Free plan and the trial don't include it, and if you try on one of them Cora Mobile opens the plans. See <a href="/help/mobile-plans">Plans and subscriptions</a>.</li><li>The company has to support Cora. Cora Mobile doesn't search for companies: you make a code and give it to yours, and they enter it on their side. Ask the company whether they can connect.</li><li>Each connection is for <strong>one tank</strong>. Connect more than one tank by repeating the steps for each.</li><li>Removing a tank disconnects every company connected to it.</li></ul>
@@ -202,14 +202,19 @@
 <h3 id="how-entries-look">How these entries look</h3>
 <p>In the <a href="/help/mobile-journal">Journal</a>, an entry from a company carries a small building icon and <strong>From</strong> the company's name. If the company has no name on record, it says "From a connected service company". An entry for a service that wasn't done has a <strong>Skipped</strong> chip.</p>
 <p>Tap one to open <strong>Journal entry</strong>. It shows the title, who it is from, "Performed" with the date, "Equipment" with the item and any details, and <strong>Notes</strong>. The text is the company's own words, shown exactly as written and never translated. You can't edit it: the screen says "Written by the company, so it can't be edited. To remove it, swipe it away in your Journal." Delete it the way you delete any entry. If you delete one, the company can't bring it back by sending it again. The company can also withdraw an entry it logged by mistake.</p>
+<h2 id="add-tests">Letting a company add water tests</h2>
+<p>To let a company add the water tests it takes at your tank:</p>
+<ol><li>Open <strong>Settings</strong>, tap your tank, then <strong>Connected partners</strong>.</li><li>On the company's card, turn on <strong>Let this company add water tests</strong> (it shows the company's name when Cora Mobile knows it).</li><li>Read what that means, then tap <strong>Allow</strong>.</li></ol>
+<p>It's <strong>off</strong> until you turn it on. A test the company adds counts like one you log yourself: it updates that reading on your dashboard and in your history, and it can trigger your alerts and your automations. If you or a device already have a newer reading of that parameter, the company's test goes to your history only and the dashboard keeps the newer one. Your Parameter Mapping applies to these tests as it does to yours (see <a href="/help/mobile-probes#tests-and-lab-results">Tests and lab results</a>).</p>
+<p>Turning the switch off takes effect straight away and doesn't ask. Tests the company already added stay in your history.</p>
 <h2 id="disconnecting">Disconnecting a company</h2>
 <ol><li>Open <strong>Connected partners</strong> for the tank.</li><li>Tap <strong>Disconnect</strong> on the company's card.</li><li>Confirm the question "Disconnect" followed by the company's name. The company loses access to this tank right away.</li></ol>
 <p>You can connect it again later with a new code. Entries the company already added to your Journal stay there until you delete them. The company can also end a connection from its side, and the card then disappears when the list refreshes.</p>
-<p>To narrow what a company sees without disconnecting, turn off <strong>Share Cora's analysis</strong> or <strong>Let this company log services</strong>.</p>
+<p>To narrow what a company sees without disconnecting, turn off <strong>Share Cora's analysis</strong>, <strong>Let this company log services</strong> or <strong>Let this company add water tests</strong>.</p>
 <h2 id="if-something-looks-wrong">If something looks wrong</h2>
 <ul><li><strong>Paused: not included in your plan.</strong> Your plan no longer includes connected partners. The company stays on the list but can't read the tank. Tap the chip, which says <strong>See plans</strong>, to open the plans. Upgrading to Cora Essential or higher lifts the pause.</li><li><strong>Could not create a code, or could not load the connected companies.</strong> Check your connection and try again. <strong>Retry</strong> is on the list.</li><li><strong>The company says the code doesn't work.</strong> It may have expired or already been used. Make a new one with <strong>Get a new code</strong>.</li><li><strong>The company isn't on the list after it connected.</strong> Pull down to refresh.</li><li><strong>You can't find Connected partners.</strong> It's on the tank's settings page, so open the tank first. A removed tank doesn't show it.</li></ul>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/mobile-support"><span>Previous</span><b>Reporting a problem</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.275 and Cora Mobile 1.4.24. Last checked 2026-11-03.</p>
+      <p class="stamp">Written for Cora Max 0.28.293 and Cora Mobile 1.4.29. Last checked 2026-11-03.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>
@@ -600,7 +605,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/help/search.json?v=2f8fb0b457').then(function (r) { return r.json(); })
+    fetch('/help/search.json?v=ee17f87eb6').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "en"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';

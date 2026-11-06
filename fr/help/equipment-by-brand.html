@@ -175,7 +175,7 @@
       <nav class="toc" aria-label="Sur cette page"><p>Sur cette page</p><ul><li><a href="#neptune-apex">Neptune Apex, DŌS et Trident</a></li><li><a href="#red-sea">Red Sea ReefBeat</a></li><li><a href="#jecod">Jecod et Jebao</a></li><li><a href="#aquawiz">AquaWiz KH Controller</a></li><li><a href="#anything-else">Tout le reste</a></li></ul></nav>
 <p>Trouvez votre marque pour voir toutes les pages qui la concernent : comment l’ajouter, comment la commander sur votre téléphone et sur Cora Max, quelles alertes elle déclenche, et que faire quand elle se comporte mal.</p>
 <ul><li><a href="#neptune-apex">Neptune™ Apex, DŌS et Trident</a></li><li><a href="#red-sea">Red Sea™ ReefBeat</a></li><li><a href="#jecod">Jecod™ et Jebao™</a></li><li><a href="#aquawiz">AquaWiz™ KH Controller</a></li></ul>
-<p>Vous ajoutez toutes les marques sur votre téléphone, depuis <strong>Appareils → Ajouter un appareil</strong>. Neptune Apex, Red Sea et Jecod sont lus sur votre réseau domestique : sans Cora Max, votre téléphone ne les lit que tant que Cora Mobile est ouvert sur le même Wi-Fi. Plus de détails dans <a href="/fr/help/mobile-connections#local-only">Connecter votre équipement</a>.</p>
+<p>Vous ajoutez toutes les marques sur votre téléphone, depuis <strong>Appareils → Ajouter un appareil</strong>, ou sur Cora Max, depuis <strong>Ajouter un appareil</strong> (voir <a href="/fr/help/max-devices#adding-and-removing-devices">Ajouter et retirer des appareils</a>). Neptune Apex, Red Sea et Jecod sont lus sur votre réseau domestique : sans Cora Max, votre téléphone ne les lit que tant que Cora Mobile est ouvert sur le même Wi-Fi. Plus de détails dans <a href="/fr/help/mobile-connections#local-only">Connecter votre équipement</a>.</p>
 <h2 id="neptune-apex">Neptune Apex, DŌS et Trident</h2>
 <p>Cora lit les sondes et les prises de votre Apex, lance ses cycles de nourrissage, et fonctionne avec son doseur DŌS et son testeur Trident.</p>
 <ul><li>L’ajouter : <a href="/fr/help/mobile-connections#neptune-apex">Connecter votre équipement</a></li><li>Indiquer à Cora ce que mesure chaque sonde : <a href="/fr/help/mobile-probes">Association des paramètres et sondes</a></li><li>Le commander sur votre téléphone : <a href="/fr/help/mobile-device-control#neptune-apex">Apex</a>, <a href="/fr/help/mobile-device-control#dos">DŌS</a>, <a href="/fr/help/mobile-device-control#trident">Trident</a></li><li>Sur Cora Max : <a href="/fr/help/max-controls">prises et mode nourrissage</a>, <a href="/fr/help/max-device-control#neptune-apex">Apex et Trident</a>, <a href="/fr/help/max-device-control#dos-heads">têtes DŌS</a></li><li>Alertes : <a href="/fr/help/mobile-alerts#stopped-reporting">ne remonte plus de mesures</a>, <a href="/fr/help/mobile-device-control#doser-alerts">alertes des doseurs</a></li><li>Solutions : <a href="/fr/help/troubleshooting#could-not-reach-the-apex-nothing-changed-nothing-was-dosed">"Impossible de joindre l’Apex"</a>, <a href="/fr/help/troubleshooting#this-could-not-be-sent-no-device-on-this-tank-can-send-it">"… n’a pas les identifiants Apex"</a>, <a href="/fr/help/troubleshooting#cora-max-shows-apex-password">"Mot de passe Apex"</a>, <a href="/fr/help/troubleshooting#the-apex-refused-this-login">"L’Apex a refusé cet identifiant"</a>, <a href="/fr/help/troubleshooting#feed-does-not-start">Le nourrissage ne démarre pas</a></li></ul>
@@ -191,7 +191,7 @@
 <h2 id="anything-else">Tout le reste</h2>
 <p>Pour l’équipement auquel Cora ne se connecte pas, notez les mesures à la main. Voir <a href="/fr/help/mobile-connections#logging-by-hand">Saisie manuelle</a>.</p>
       <nav class="pn" aria-label="Poursuivre la lecture"><a class="pn-p" href="/fr/help/how-do-i"><span>Précédent</span><b>Comment faire...?</b></a><a class="pn-n" href="/fr/help/faq"><span>Suivant</span><b>Questions fréquentes</b></a></nav>
-      <p class="stamp">Rédigé pour Cora Max 0.28.275 et Cora Mobile 1.4.24. Vérifié pour la dernière fois le 2026-10-24.</p>
+      <p class="stamp">Rédigé pour Cora Max 0.28.293 et Cora Mobile 1.4.29. Vérifié pour la dernière fois le 2026-10-24.</p>
       <p class="ask">Toujours bloqué ? Écrivez à <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, nous vous aiderons.</p>
     </article>
   </main>
@@ -582,7 +582,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/fr/help/search.json?v=523ab2a433').then(function (r) { return r.json(); })
+    fetch('/fr/help/search.json?v=4c7a7ce8c7').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "fr"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La recherche est indisponible. Utilisez la navigation." + '</li>';

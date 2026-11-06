@@ -80,6 +80,18 @@ En el [diario](/help/mobile-journal), una entrada de una empresa lleva un peque�
 
 Toca una para abrir **Entrada del diario**. Muestra el título, de quién es, «Realizado el» con la fecha, «Equipo» con el elemento y sus detalles, y **Notas**. El texto son las palabras de la empresa, mostradas tal cual y nunca traducidas. No puedes editarlo: la pantalla dice «Escrita por la empresa, por lo que no se puede editar. Para quitarla, desliza la entrada en tu diario.» Elimínala como cualquier entrada. Si eliminas una, la empresa no puede recuperarla volviéndola a enviar. La empresa también puede retirar una entrada que registró por error.
 
+## Dejar que una empresa añada pruebas de agua {#add-tests}
+
+Para dejar que una empresa añada las pruebas de agua que hace en tu acuario:
+
+1. Abre **Ajustes**, toca tu acuario y luego **Socios conectados**.
+2. En la tarjeta de la empresa, activa **Permitir que esta empresa añada pruebas de agua** (con el nombre de la empresa cuando Cora Mobile lo conoce).
+3. Lee lo que implica y toca **Permitir**.
+
+Está **desactivado** hasta que lo actives. Una prueba que añade la empresa cuenta como una que registras tú: actualiza esa lectura en tu panel y en tu historial, y puede activar tus alertas y tus automatizaciones. Si tú o un dispositivo ya tenéis una lectura más reciente de ese parámetro, la prueba de la empresa solo va a tu historial y el panel mantiene la más reciente. Tu asignación de parámetros se aplica a estas pruebas igual que a las tuyas (consulta [Pruebas y resultados de laboratorio](/help/mobile-probes#tests-and-lab-results)).
+
+Desactivarlo surte efecto al instante y no pregunta. Las pruebas que la empresa ya añadió se quedan en tu historial.
+
 ## Desconectar una empresa {#disconnecting}
 
 1. Abre **Socios conectados** del acuario.
@@ -88,7 +100,7 @@ Toca una para abrir **Entrada del diario**. Muestra el título, de quién es, «
 
 Puedes volver a conectarla más tarde con un código nuevo. Las entradas que la empresa ya añadió a tu diario se quedan ahí hasta que las elimines. La empresa también puede terminar una conexión por su lado; la tarjeta desaparece cuando se actualiza la lista.
 
-Para limitar lo que ve una empresa sin desconectarla, desactiva **Compartir el análisis de Cora** o **Permitir que esta empresa registre servicios**.
+Para limitar lo que ve una empresa sin desconectarla, desactiva **Compartir el análisis de Cora**, **Permitir que esta empresa registre servicios** o **Permitir que esta empresa añada pruebas de agua**.
 
 ## Si algo no va bien {#if-something-looks-wrong}
 

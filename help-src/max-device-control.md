@@ -16,7 +16,7 @@ This page covers what you can see and do on each device's page on Cora Max, bran
 There's no preview and no undo. A command goes out the moment you tap, but sending it doesn't mean it's done. It comes back **Confirmed**, **Unconfirmed**, **Refused** or **No change**, and you can see which in [Activity](/help/max-activity).
 :::
 
-You add, assign and remove equipment on your phone. Cora Max shows it once your account has it. See [Connecting your equipment](/help/mobile-connections).
+You add equipment on Cora Max (**Add device** in **Settings → Devices**) or on your phone. Moving it to another tank and removing it are done on your phone. Cora Max shows it once your account has it. See [Adding and removing devices](/help/max-devices#adding-and-removing-devices) and [Connecting your equipment](/help/mobile-connections).
 
 ## What has a page {#what-has-a-page}
 
@@ -90,7 +90,7 @@ You can write Jecod pump schedules at the wall as well as on your phone. The edi
 
 ## AquaWiz {#aquawiz}
 
-An AquaWiz KH Controller has no page of its own on Cora Max. It's listed in **Devices**, where you can rename it, and its readings show on the dashboard like any other source. Set it up and manage it on your phone, see [Connecting your equipment](/help/mobile-connections).
+An AquaWiz KH Controller has no page of its own on Cora Max. It's listed in **Devices**, where you can rename it, and its readings show on the dashboard like any other source. Add it here with **Add device → AquaWiz** or on your phone, and manage it on your phone. See [Connecting your equipment](/help/mobile-connections).
 
 ### Hourly reading from Cora Max {#aquawiz-hourly}
 

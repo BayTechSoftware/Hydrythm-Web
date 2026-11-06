@@ -80,6 +80,18 @@ Nel [diario](/help/mobile-journal), una voce di un'azienda ha una piccola icona 
 
 Toccane una per aprire **Voce del diario**. Mostra il titolo, da chi viene, "Eseguito il" con la data, "Attrezzatura" con l'elemento e i dettagli, e **Note**. Il testo è quello dell'azienda, mostrato esattamente com'è e mai tradotto. Non puoi modificarlo: la schermata dice "Scritta dall'azienda, quindi non modificabile. Per rimuoverla, scorrila via nel diario." Eliminala come qualsiasi voce. Se ne elimini una, l'azienda non può riportarla indietro inviandola di nuovo. L'azienda può anche ritirare una voce che ha registrato per errore.
 
+## Lasciare che un'azienda aggiunga test dell’acqua {#add-tests}
+
+Per consentire a un'azienda di aggiungere i test dell'acqua che fa sulla tua vasca:
+
+1. Apri **Impostazioni**, tocca la tua vasca, poi **Partner collegati**.
+2. Sulla scheda dell'azienda accendi **Consenti a questa azienda di aggiungere test dell’acqua** (con il nome dell'azienda quando Cora Mobile lo conosce).
+3. Leggi cosa comporta, poi tocca **Consenti**.
+
+È **spento** finché non lo accendi. Un test aggiunto dall'azienda conta come uno che registri tu: aggiorna quella lettura nella tua dashboard e nella tua cronologia, e può attivare i tuoi avvisi e le tue automazioni. Se tu o un dispositivo avete già una lettura più recente di quel parametro, il test dell'azienda va solo nella cronologia e la dashboard mantiene quella più recente. La tua mappatura dei parametri vale per questi test come per i tuoi (vedi [Test e risultati di laboratorio](/help/mobile-probes#tests-and-lab-results)).
+
+Spegnerlo ha effetto subito e non chiede conferma. I test che l'azienda ha già aggiunto restano nella tua cronologia.
+
 ## Scollegare un'azienda {#disconnecting}
 
 1. Apri **Partner collegati** per la vasca.
@@ -88,7 +100,7 @@ Toccane una per aprire **Voce del diario**. Mostra il titolo, da chi viene, "Ese
 
 Potrai ricollegarla più tardi con un nuovo codice. Le voci che l'azienda ha già aggiunto al tuo diario restano lì finché non le elimini. Anche l'azienda può chiudere un collegamento dalla sua parte; la scheda sparisce quando l'elenco si aggiorna.
 
-Per restringere ciò che un'azienda vede senza scollegarla, spegni **Condividi l'analisi di Cora** o **Consenti a questa azienda di registrare gli interventi**.
+Per restringere ciò che un'azienda vede senza scollegarla, spegni **Condividi l'analisi di Cora**, **Consenti a questa azienda di registrare gli interventi** o **Consenti a questa azienda di aggiungere test dell’acqua**.
 
 ## Se qualcosa non va {#if-something-looks-wrong}
 

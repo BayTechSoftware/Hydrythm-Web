@@ -80,6 +80,18 @@ Dans le [journal](/help/mobile-journal), une entrée d’une société porte une
 
 Touchez-en une pour ouvrir **Entrée du journal**. Elle montre le titre, de qui elle vient, « Réalisée le » avec la date, « Équipement » avec l’élément et ses détails, et **Notes**. Le texte est celui de la société, affiché tel quel et jamais traduit. Vous ne pouvez pas le modifier : l’écran dit « Rédigée par la société, donc non modifiable. Pour la retirer, faites-la glisser dans votre journal. » Supprimez-la comme n’importe quelle entrée. Si vous en supprimez une, la société ne peut pas la rétablir en la renvoyant. La société peut aussi retirer une entrée qu’elle a consignée par erreur.
 
+## Autoriser une société à ajouter des tests d’eau {#add-tests}
+
+Pour autoriser une société à ajouter les tests d’eau qu’elle fait sur votre aquarium :
+
+1. Ouvrez **Paramètres**, touchez votre aquarium, puis **Partenaires connectés**.
+2. Sur la carte de la société, activez **Autoriser cette société à ajouter des tests d’eau** (avec le nom de la société quand Cora Mobile le connaît).
+3. Lisez ce que cela implique, puis touchez **Autoriser**.
+
+Il est **désactivé** tant que vous ne l’activez pas. Un test ajouté par la société compte comme un test que vous enregistrez vous-même : il met à jour cette mesure sur votre tableau de bord et dans votre historique, et il peut déclencher vos alertes et vos automatisations. Si vous ou un appareil avez déjà une mesure plus récente de ce paramètre, le test de la société va seulement dans votre historique et le tableau de bord garde la plus récente. Votre association des paramètres s’applique à ces tests comme aux vôtres (voir [Tests et résultats de laboratoire](/help/mobile-probes#tests-and-lab-results)).
+
+La désactivation prend effet tout de suite, sans confirmation. Les tests déjà ajoutés par la société restent dans votre historique.
+
 ## Déconnecter une société {#disconnecting}
 
 1. Ouvrez **Partenaires connectés** pour l’aquarium.
@@ -88,7 +100,7 @@ Touchez-en une pour ouvrir **Entrée du journal**. Elle montre le titre, de qui 
 
 Vous pourrez la reconnecter plus tard avec un nouveau code. Les entrées que la société a déjà ajoutées à votre journal y restent jusqu’à ce que vous les supprimiez. La société peut aussi mettre fin à une connexion de son côté ; la carte disparaît alors à l’actualisation de la liste.
 
-Pour limiter ce qu’une société voit sans la déconnecter, désactivez **Partager l’analyse de Cora** ou **Autoriser cette société à enregistrer des interventions**.
+Pour limiter ce qu’une société voit sans la déconnecter, désactivez **Partager l’analyse de Cora**, **Autoriser cette société à enregistrer des interventions** ou **Autoriser cette société à ajouter des tests d’eau**.
 
 ## Si quelque chose cloche {#if-something-looks-wrong}
 

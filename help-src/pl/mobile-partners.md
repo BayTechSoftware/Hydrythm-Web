@@ -80,6 +80,18 @@ W [dzienniku](/help/mobile-journal) wpis od firmy ma małą ikonę budynku i **O
 
 Dotknij wpisu, żeby otworzyć **Wpis w dzienniku**. Pokazuje tytuł, od kogo pochodzi, „Wykonano” z datą, „Sprzęt” z nazwą i szczegółami oraz **Notatki**. Tekst to własne słowa firmy, pokazane dokładnie tak, jak je napisano, i nigdy nie tłumaczone. Nie możesz go edytować: ekran mówi „Wpis napisała firma, więc nie można go edytować. Aby go usunąć, przesuń go w dzienniku.” Usuń go jak każdy inny wpis. Jeśli usuniesz wpis, firma nie przywróci go, wysyłając go ponownie. Firma może też wycofać wpis, który zapisała przez pomyłkę.
 
+## Pozwolenie firmie na dodawanie testów wody {#add-tests}
+
+Aby pozwolić firmie dodawać testy wody, które robi w Twoim akwarium:
+
+1. Otwórz **Ustawienia**, dotknij swojego akwarium, potem **Połączeni partnerzy**.
+2. Na karcie firmy włącz **Pozwól tej firmie dodawać testy wody** (z nazwą firmy, gdy Cora Mobile ją zna).
+3. Przeczytaj, co to oznacza, i dotknij **Pozwól**.
+
+Jest **wyłączone**, dopóki go nie włączysz. Test dodany przez firmę liczy się jak test zapisany przez Ciebie: aktualizuje ten odczyt na Twoim panelu i w historii oraz może uruchamiać Twoje alerty i automatyzacje. Jeśli Ty albo urządzenie macie już nowszy odczyt tego parametru, test firmy trafia tylko do historii, a panel zostawia nowszy. Twoje mapowanie parametrów działa na te testy tak samo jak na Twoje (zobacz [Testy i wyniki laboratoryjne](/help/mobile-probes#tests-and-lab-results)).
+
+Wyłączenie działa od razu i o nic nie pyta. Testy, które firma już dodała, zostają w historii.
+
 ## Odłączanie firmy {#disconnecting}
 
 1. Otwórz **Połączeni partnerzy** dla akwarium.
@@ -88,7 +100,7 @@ Dotknij wpisu, żeby otworzyć **Wpis w dzienniku**. Pokazuje tytuł, od kogo po
 
 Możesz ją później połączyć ponownie nowym kodem. Wpisy, które firma już dodała do Twojego dziennika, zostają tam, dopóki ich nie usuniesz. Firma może też zakończyć połączenie ze swojej strony; karta znika po odświeżeniu listy.
 
-Żeby ograniczyć to, co widzi firma, bez odłączania jej, wyłącz **Udostępnij analizę Cora** albo **Pozwól tej firmie zapisywać usługi serwisowe**.
+Żeby ograniczyć to, co widzi firma, bez odłączania jej, wyłącz **Udostępnij analizę Cora**, **Pozwól tej firmie zapisywać usługi serwisowe** albo **Pozwól tej firmie dodawać testy wody**.
 
 ## Gdy coś wygląda nie tak {#if-something-looks-wrong}
 

@@ -13,7 +13,7 @@ Markanızla ilgili tüm sayfaları görmek için markanızı bulun: nasıl eklen
 - [Jecod ve Jebao](#jecod)
 - [AquaWiz KH Controller](#aquawiz)
 
-Her markayı telefonunuzdan, **Cihazlar → Cihaz Ekle** yolundan eklersiniz. Neptune Apex, Red Sea ve Jecod ev ağınız üzerinden okunur: Cora Max yoksa telefonunuz onları yalnızca Cora Mobile aynı Wi-Fi'de açıkken okur. Ayrıntılar [Ekipmanınızı bağlama](/help/mobile-connections#local-only) sayfasında.
+Her markayı telefonunuzdan, **Cihazlar → Cihaz Ekle** yolundan ya da Cora Max'te **Cihaz ekle** düğmesinden eklersiniz (bkz. [Cihaz ekleme ve kaldırma](/help/max-devices#adding-and-removing-devices)). Neptune Apex, Red Sea ve Jecod ev ağınız üzerinden okunur: Cora Max yoksa telefonunuz onları yalnızca Cora Mobile aynı Wi-Fi'de açıkken okur. Ayrıntılar [Ekipmanınızı bağlama](/help/mobile-connections#local-only) sayfasında.
 
 ## Neptune Apex, DŌS ve Trident {#neptune-apex}
 

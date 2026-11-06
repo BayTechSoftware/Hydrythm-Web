@@ -16,7 +16,7 @@ Bu sayfa, Cora Max'te her cihazın sayfasında neleri görüp yapabileceğinizi 
 Önizleme ve geri alma yoktur. Dokunduğunuz anda bir komut gider, ama göndermek yapıldığı anlamına gelmez. Sonuç **Onaylandı**, **Onaylanmadı**, **Reddedildi** ya da **Değişiklik yok** olarak döner ve hangisi olduğunu [Etkinlik](/help/max-activity) içinde görebilirsiniz.
 :::
 
-Ekipmanı telefonunuzda ekler, atar ve kaldırırsınız. Hesabınızda olduğunda Cora Max onu gösterir. [Ekipmanınızı bağlama](/help/mobile-connections) sayfasına bakın.
+Ekipmanı Cora Max'te (**Ayarlar → Cihazlar** içindeki **Cihaz ekle**) veya telefonunuzda eklersiniz. Başka bir akvaryuma taşımak ve kaldırmak telefonunuzda yapılır. Hesabınızda olduğunda Cora Max onu gösterir. [Cihaz ekleme ve kaldırma](/help/max-devices#adding-and-removing-devices) ve [Ekipmanınızı bağlama](/help/mobile-connections) sayfalarına bakın.
 
 ## Neyin sayfası var {#what-has-a-page}
 
@@ -90,7 +90,7 @@ Jecod pompası günlük zamanlamalarını telefonunuzda olduğu gibi duvardaki e
 
 ## AquaWiz {#aquawiz}
 
-Bir AquaWiz KH Controller'ın Cora Max'te kendi sayfası yoktur. **Cihazlar** içinde listelenir, orada adını değiştirebilirsiniz, ölçümleri de diğer kaynaklar gibi panoda görünür. Onu telefonunuzda kurun ve yönetin, [Ekipmanınızı bağlama](/help/mobile-connections) sayfasına bakın.
+Bir AquaWiz KH Controller'ın Cora Max'te kendi sayfası yoktur. **Cihazlar** içinde listelenir, orada adını değiştirebilirsiniz, ölçümleri de diğer kaynaklar gibi panoda görünür. Onu burada **Cihaz ekle → AquaWiz** ile veya telefonunuzda ekleyin, telefonunuzda yönetin. [Ekipmanınızı bağlama](/help/mobile-connections) sayfasına bakın.
 
 ### Cora Max'ten saatlik okuma {#aquawiz-hourly}
 

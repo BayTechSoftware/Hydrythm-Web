@@ -172,7 +172,7 @@
       <nav class="crumbs" aria-label="Ścieżka nawigacji"><ol><li><a href="/pl/help/">Pomoc</a></li><li><a href="/pl/help/mobile-setup" lang="en">Cora Mobile</a></li><li><a href="/pl/help/mobile-settings">Ustawienia i konto</a></li></ol></nav>
       <h1>Połączeni partnerzy</h1>
       
-      <nav class="toc" aria-label="Na tej stronie"><p>Na tej stronie</p><ul><li><a href="#before-you-start">Zanim zaczniesz</a></li><li><a href="#connecting">Łączenie firmy</a></li><li><a href="#what-they-see">Co firma może zobaczyć</a></li><li><a href="#share-analysis">Udostępnij analizę Cora</a></li><li><a href="#log-services">Pozwolenie firmie na zapisywanie usług</a></li><li><a href="#disconnecting">Odłączanie firmy</a></li><li><a href="#if-something-looks-wrong">Gdy coś wygląda nie tak</a></li></ul></nav>
+      <nav class="toc" aria-label="Na tej stronie"><p>Na tej stronie</p><ul><li><a href="#before-you-start">Zanim zaczniesz</a></li><li><a href="#connecting">Łączenie firmy</a></li><li><a href="#what-they-see">Co firma może zobaczyć</a></li><li><a href="#share-analysis">Udostępnij analizę Cora</a></li><li><a href="#log-services">Pozwolenie firmie na zapisywanie usług</a></li><li><a href="#add-tests">Pozwolenie firmie na dodawanie testów wody</a></li><li><a href="#disconnecting">Odłączanie firmy</a></li><li><a href="#if-something-looks-wrong">Gdy coś wygląda nie tak</a></li></ul></nav>
 <p><strong>Połączeni partnerzy</strong> pozwalają firmie serwisowej, która współpracuje z Cora, zajrzeć do jednego z Twoich akwariów, żeby zobaczyć, jak sobie radzi, bez proszenia Cię o zdjęcia i liczby. To Ty decydujesz, które akwarium, co firma może zobaczyć i jak długo. Firma może odczytywać dane, a wpisy o usługach w Twoim dzienniku może dodawać tylko wtedy, gdy na to pozwolisz. Nigdy nie może sterować Twoim sprzętem.</p>
 <h2 id="before-you-start">Zanim zaczniesz</h2>
 <ul><li>Połączenie firmy wymaga płatnego planu, <strong>Cora Essential</strong> lub wyższego. Plan Free i okres próbny go nie obejmują, a gdy spróbujesz na jednym z nich, Cora Mobile otworzy plany. Zobacz <a href="/pl/help/mobile-plans">Plany i subskrypcje</a>.</li><li>Firma musi obsługiwać Cora. Cora Mobile nie wyszukuje firm: tworzysz kod i dajesz go swojej firmie, która wpisuje go po swojej stronie. Zapytaj firmę, czy może się połączyć.</li><li>Każde połączenie dotyczy <strong>jednego akwarium</strong>. Żeby połączyć kilka, powtórz kroki dla każdego.</li><li>Usunięcie akwarium odłącza wszystkie połączone z nim firmy.</li></ul>
@@ -202,14 +202,19 @@
 <h3 id="how-entries-look">Jak wyglądają te wpisy</h3>
 <p>W <a href="/pl/help/mobile-journal">dzienniku</a> wpis od firmy ma małą ikonę budynku i <strong>Od firmy</strong> z jej nazwą. Jeśli firma nie ma zapisanej nazwy, widać „Od połączonej firmy serwisowej”. Wpis o usłudze, której nie wykonano, ma znaczek <strong>Pominięto</strong>.</p>
 <p>Dotknij wpisu, żeby otworzyć <strong>Wpis w dzienniku</strong>. Pokazuje tytuł, od kogo pochodzi, „Wykonano” z datą, „Sprzęt” z nazwą i szczegółami oraz <strong>Notatki</strong>. Tekst to własne słowa firmy, pokazane dokładnie tak, jak je napisano, i nigdy nie tłumaczone. Nie możesz go edytować: ekran mówi „Wpis napisała firma, więc nie można go edytować. Aby go usunąć, przesuń go w dzienniku.” Usuń go jak każdy inny wpis. Jeśli usuniesz wpis, firma nie przywróci go, wysyłając go ponownie. Firma może też wycofać wpis, który zapisała przez pomyłkę.</p>
+<h2 id="add-tests">Pozwolenie firmie na dodawanie testów wody</h2>
+<p>Aby pozwolić firmie dodawać testy wody, które robi w Twoim akwarium:</p>
+<ol><li>Otwórz <strong>Ustawienia</strong>, dotknij swojego akwarium, potem <strong>Połączeni partnerzy</strong>.</li><li>Na karcie firmy włącz <strong>Pozwól tej firmie dodawać testy wody</strong> (z nazwą firmy, gdy Cora Mobile ją zna).</li><li>Przeczytaj, co to oznacza, i dotknij <strong>Pozwól</strong>.</li></ol>
+<p>Jest <strong>wyłączone</strong>, dopóki go nie włączysz. Test dodany przez firmę liczy się jak test zapisany przez Ciebie: aktualizuje ten odczyt na Twoim panelu i w historii oraz może uruchamiać Twoje alerty i automatyzacje. Jeśli Ty albo urządzenie macie już nowszy odczyt tego parametru, test firmy trafia tylko do historii, a panel zostawia nowszy. Twoje mapowanie parametrów działa na te testy tak samo jak na Twoje (zobacz <a href="/pl/help/mobile-probes#tests-and-lab-results">Testy i wyniki laboratoryjne</a>).</p>
+<p>Wyłączenie działa od razu i o nic nie pyta. Testy, które firma już dodała, zostają w historii.</p>
 <h2 id="disconnecting">Odłączanie firmy</h2>
 <ol><li>Otwórz <strong>Połączeni partnerzy</strong> dla akwarium.</li><li>Dotknij <strong>Odłącz</strong> na karcie firmy.</li><li>Potwierdź pytanie „Odłączyć” z nazwą firmy. Firma natychmiast traci dostęp do tego akwarium.</li></ol>
 <p>Możesz ją później połączyć ponownie nowym kodem. Wpisy, które firma już dodała do Twojego dziennika, zostają tam, dopóki ich nie usuniesz. Firma może też zakończyć połączenie ze swojej strony; karta znika po odświeżeniu listy.</p>
-<p>Żeby ograniczyć to, co widzi firma, bez odłączania jej, wyłącz <strong>Udostępnij analizę Cora</strong> albo <strong>Pozwól tej firmie zapisywać usługi serwisowe</strong>.</p>
+<p>Żeby ograniczyć to, co widzi firma, bez odłączania jej, wyłącz <strong>Udostępnij analizę Cora</strong>, <strong>Pozwól tej firmie zapisywać usługi serwisowe</strong> albo <strong>Pozwól tej firmie dodawać testy wody</strong>.</p>
 <h2 id="if-something-looks-wrong">Gdy coś wygląda nie tak</h2>
 <ul><li><strong>Wstrzymano: nie wchodzi w skład Twojego planu.</strong> Twój plan nie obejmuje już połączonych partnerów. Firma zostaje na liście, ale nie może odczytać akwarium. Dotknij znaczka z napisem <strong>Zobacz plany</strong>, żeby otworzyć plany. Przejście na Cora Essential lub wyższy zdejmuje wstrzymanie.</li><li><strong>Nie udało się utworzyć kodu ani wczytać połączonych firm.</strong> Sprawdź połączenie i spróbuj ponownie. <strong>Spróbuj ponownie</strong> jest na liście.</li><li><strong>Firma mówi, że kod nie działa.</strong> Mógł wygasnąć albo zostać już użyty. Utwórz nowy przyciskiem <strong>Utwórz nowy kod</strong>.</li><li><strong>Firmy nie ma na liście po połączeniu.</strong> Pociągnij w dół, żeby odświeżyć.</li><li><strong>Nie możesz znaleźć Połączeni partnerzy.</strong> Jest na stronie ustawień akwarium, więc najpierw otwórz akwarium. Usunięte akwarium go nie pokazuje.</li></ul>
       <nav class="pn" aria-label="Czytaj dalej"><a class="pn-p" href="/pl/help/mobile-support"><span>Poprzedni</span><b>Zgłaszanie problemu</b></a></nav>
-      <p class="stamp">Napisano dla Cora Max 0.28.275 i Cora Mobile 1.4.24. Ostatnio sprawdzono 2026-11-03.</p>
+      <p class="stamp">Napisano dla Cora Max 0.28.293 i Cora Mobile 1.4.29. Ostatnio sprawdzono 2026-11-03.</p>
       <p class="ask">Wciąż masz problem? Napisz na <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, pomożemy.</p>
     </article>
   </main>
@@ -600,7 +605,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/pl/help/search.json?v=230d946bc3').then(function (r) { return r.json(); })
+    fetch('/pl/help/search.json?v=9859bfc996').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "pl"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Wyszukiwanie jest niedost\u0119pne. U\u017cyj menu." + '</li>';

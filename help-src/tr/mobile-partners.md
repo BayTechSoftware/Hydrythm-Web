@@ -80,6 +80,18 @@ Bir kayıt, [Bakım](/help/mobile-maintenance) sayfasındaki hiçbir görevi tam
 
 **Günlük girişi**ni açmak için birine dokunun. Başlığı, kimden geldiğini, tarihle birlikte "Yapıldığı tarih", ekipman ve ayrıntıları ile "Ekipman" ve **Notlar**'ı gösterir. Metin şirketin kendi sözleridir; olduğu gibi gösterilir ve hiçbir zaman çevrilmez. Düzenleyemezsiniz: ekran "Şirket tarafından yazıldığı için düzenlenemez. Kaldırmak için günlükte kaydırarak silin." der. Diğer girişler gibi silin. Birini silerseniz şirket onu yeniden göndererek geri getiremez. Şirket, yanlışlıkla kaydettiği bir girişi geri de çekebilir.
 
+## Bir şirketin su testi eklemesine izin vermek {#add-tests}
+
+Bir şirketin akvaryumunuzda yaptığı su testlerini eklemesine izin vermek için:
+
+1. **Ayarlar**'ı açın, akvaryumunuza, sonra **Bağlı iş ortakları**'na dokunun.
+2. Şirketin kartında **Bu şirket su testi ekleyebilsin** anahtarını açın (Cora Mobile şirketin adını biliyorsa adı görünür).
+3. Bunun ne anlama geldiğini okuyun, sonra **İzin ver**'e dokunun.
+
+Siz açana kadar **kapalıdır**. Şirketin eklediği bir test, sizin kaydettiğiniz bir test gibi sayılır: panonuzdaki ve geçmişinizdeki o ölçümü günceller, uyarılarınızı ve otomasyonlarınızı tetikleyebilir. Sizin ya da bir cihazın o parametre için daha yeni bir ölçümü varsa şirketin testi yalnızca geçmişinize eklenir ve pano daha yeni olanı gösterir. Parametre eşlemeniz bu testlere de sizinkiler gibi uygulanır (bkz. [Testler ve laboratuvar sonuçları](/help/mobile-probes#tests-and-lab-results)).
+
+Anahtarı kapatmak hemen etkili olur ve onay istemez. Şirketin daha önce eklediği testler geçmişinizde kalır.
+
 ## Bir şirketin bağlantısını kesmek {#disconnecting}
 
 1. Akvaryum için **Bağlı iş ortakları**'nı açın.
@@ -88,7 +100,7 @@ Bir kayıt, [Bakım](/help/mobile-maintenance) sayfasındaki hiçbir görevi tam
 
 Daha sonra yeni bir kodla yeniden bağlayabilirsiniz. Şirketin günlüğünüze zaten eklediği girişler, siz silene kadar orada kalır. Şirket de bağlantıyı kendi tarafından bitirebilir; liste yenilendiğinde kart kaybolur.
 
-Bağlantıyı kesmeden şirketin gördüklerini daraltmak için **Cora'nın analizini paylaşın** ya da **Bu şirket servisleri kaydedebilsin** anahtarını kapatın.
+Bağlantıyı kesmeden şirketin gördüklerini daraltmak için **Cora'nın analizini paylaşın**, **Bu şirket servisleri kaydedebilsin** ya da **Bu şirket su testi ekleyebilsin** anahtarını kapatın.
 
 ## Bir şey yolunda görünmüyorsa {#if-something-looks-wrong}
 

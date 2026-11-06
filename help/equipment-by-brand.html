@@ -175,7 +175,7 @@
       <nav class="toc" aria-label="On this page"><p>On this page</p><ul><li><a href="#neptune-apex">Neptune Apex, DŌS and Trident</a></li><li><a href="#red-sea">Red Sea ReefBeat</a></li><li><a href="#jecod">Jecod and Jebao</a></li><li><a href="#aquawiz">AquaWiz KH Controller</a></li><li><a href="#anything-else">Anything else</a></li></ul></nav>
 <p>Find your brand to see every page about it: how to add it, how to control it on your phone and on Cora Max, which alerts it raises, and what to do when it misbehaves.</p>
 <ul><li><a href="#neptune-apex">Neptune™ Apex, DŌS and Trident</a></li><li><a href="#red-sea">Red Sea™ ReefBeat</a></li><li><a href="#jecod">Jecod™ and Jebao™</a></li><li><a href="#aquawiz">AquaWiz™ KH Controller</a></li></ul>
-<p>You add every brand on your phone, from <strong>Devices → Add Device</strong>. Neptune Apex, Red Sea and Jecod are read on your home network: without a Cora Max, your phone reads them only while Cora Mobile is open on the same Wi-Fi. More in <a href="/help/mobile-connections#local-only">Connecting your equipment</a>.</p>
+<p>You add every brand on your phone, from <strong>Devices → Add Device</strong>, or on Cora Max, from <strong>Add device</strong> (see <a href="/help/max-devices#adding-and-removing-devices">Adding and removing devices</a>). Neptune Apex, Red Sea and Jecod are read on your home network: without a Cora Max, your phone reads them only while Cora Mobile is open on the same Wi-Fi. More in <a href="/help/mobile-connections#local-only">Connecting your equipment</a>.</p>
 <h2 id="neptune-apex">Neptune Apex, DŌS and Trident</h2>
 <p>Cora reads your Apex's probes and outlets, runs its feed cycles, and works with its DŌS doser and Trident tester.</p>
 <ul><li>Add it: <a href="/help/mobile-connections#neptune-apex">Connecting your equipment</a></li><li>Tell Cora what each probe measures: <a href="/help/mobile-probes">Parameter Mapping and probes</a></li><li>Control it on your phone: <a href="/help/mobile-device-control#neptune-apex">Apex</a>, <a href="/help/mobile-device-control#dos">DŌS</a>, <a href="/help/mobile-device-control#trident">Trident</a></li><li>On Cora Max: <a href="/help/max-controls">outlets and feed mode</a>, <a href="/help/max-device-control#neptune-apex">Apex and Trident</a>, <a href="/help/max-device-control#dos-heads">DŌS heads</a></li><li>Alerts: <a href="/help/mobile-alerts#stopped-reporting">stopped reporting</a>, <a href="/help/mobile-device-control#doser-alerts">doser alerts</a></li><li>Fixes: <a href="/help/troubleshooting#could-not-reach-the-apex-nothing-changed-nothing-was-dosed">"Could not reach the Apex"</a>, <a href="/help/troubleshooting#this-could-not-be-sent-no-device-on-this-tank-can-send-it">"… has no Apex details"</a>, <a href="/help/troubleshooting#cora-max-shows-apex-password">"Apex password"</a>, <a href="/help/troubleshooting#the-apex-refused-this-login">"The Apex refused this login"</a>, <a href="/help/troubleshooting#feed-does-not-start">Feed doesn't start</a></li></ul>
@@ -191,7 +191,7 @@
 <h2 id="anything-else">Anything else</h2>
 <p>For equipment Cora doesn't connect to, log readings by hand. See <a href="/help/mobile-connections#logging-by-hand">Logging by hand</a>.</p>
       <nav class="pn" aria-label="Continue reading"><a class="pn-p" href="/help/how-do-i"><span>Previous</span><b>How do I...?</b></a><a class="pn-n" href="/help/faq"><span>Next</span><b>Frequently asked questions</b></a></nav>
-      <p class="stamp">Written for Cora Max 0.28.275 and Cora Mobile 1.4.24. Last checked 2026-10-24.</p>
+      <p class="stamp">Written for Cora Max 0.28.293 and Cora Mobile 1.4.29. Last checked 2026-10-24.</p>
       <p class="ask">Still stuck? Email <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a> and we&#x27;ll help.</p>
     </article>
   </main>
@@ -582,7 +582,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/help/search.json?v=2f8fb0b457').then(function (r) { return r.json(); })
+    fetch('/help/search.json?v=ee17f87eb6').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "en"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "Search is unavailable. Use the navigation instead." + '</li>';

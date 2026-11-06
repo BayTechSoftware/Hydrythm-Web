@@ -80,6 +80,18 @@ Im [Tagebuch](/help/mobile-journal) trägt ein Eintrag einer Firma ein kleines G
 
 Tippe auf einen Eintrag, um **Tagebucheintrag** zu öffnen. Er zeigt den Titel, von wem er stammt, „Durchgeführt am“ mit dem Datum, „Gerät“ mit dem Gerät und seinen Angaben sowie **Notizen**. Der Text sind die eigenen Worte der Firma, genau so angezeigt und nie übersetzt. Du kannst ihn nicht bearbeiten: Der Bildschirm sagt „Von der Firma verfasst und deshalb nicht bearbeitbar. Zum Entfernen wische ihn im Tagebuch weg.“ Lösche ihn wie jeden anderen Eintrag. Hast du einen gelöscht, kann die Firma ihn nicht durch erneutes Senden zurückbringen. Die Firma kann auch einen Eintrag zurückziehen, den sie versehentlich angelegt hat.
 
+## Eine Firma Wassertests hinzufügen lassen {#add-tests}
+
+So lässt du eine Firma die Wassertests hinzufügen, die sie an deinem Becken macht:
+
+1. Öffne **Einstellungen**, tippe auf dein Becken und dann auf **Verbundene Partner**.
+2. Schalte auf der Karte der Firma **Diese Firma darf Wassertests hinzufügen** ein (mit dem Namen der Firma, wenn Cora Mobile ihn kennt).
+3. Lies, was das bedeutet, und tippe dann auf **Erlauben**.
+
+Der Schalter ist **aus**, bis du ihn einschaltest. Ein Test der Firma zählt wie einer, den du selbst einträgst: Er aktualisiert diesen Messwert auf deinem Dashboard und im Verlauf und kann deine Warnungen und Automationen auslösen. Gibt es von dir oder einem Gerät schon einen neueren Messwert dieses Parameters, landet der Test der Firma nur im Verlauf und das Dashboard behält den neueren. Deine Parameterzuordnung gilt für diese Tests genau wie für deine (siehe [Tests und Laborergebnisse](/help/mobile-probes#tests-and-lab-results)).
+
+Ausschalten wirkt sofort und fragt nicht nach. Tests, die die Firma schon hinzugefügt hat, bleiben in deinem Verlauf.
+
 ## Eine Firma trennen {#disconnecting}
 
 1. Öffne **Verbundene Partner** für das Becken.
@@ -88,7 +100,7 @@ Tippe auf einen Eintrag, um **Tagebucheintrag** zu öffnen. Er zeigt den Titel, 
 
 Mit einem neuen Code kannst du sie später wieder verbinden. Einträge, die die Firma schon in dein Tagebuch geschrieben hat, bleiben dort, bis du sie löschst. Auch die Firma kann eine Verbindung von ihrer Seite beenden; die Karte verschwindet dann, sobald die Liste aktualisiert wird.
 
-Um einzuschränken, was eine Firma sieht, ohne sie zu trennen, schalte **Cora-Analyse teilen** oder **Diese Firma darf Wartungen eintragen** aus.
+Um einzuschränken, was eine Firma sieht, ohne sie zu trennen, schalte **Cora-Analyse teilen**, **Diese Firma darf Wartungen eintragen** oder **Diese Firma darf Wassertests hinzufügen** aus.
 
 ## Wenn etwas nicht stimmt {#if-something-looks-wrong}
 

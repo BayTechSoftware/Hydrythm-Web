@@ -16,7 +16,7 @@ Ta strona opisuje, co możesz zobaczyć i zrobić na stronie każdego urządzeni
 Nie ma podglądu ani cofania. Polecenie wychodzi w chwili dotknięcia, ale wysłanie nie oznacza wykonania. Wraca jako **Potwierdzono**, **Niepotwierdzone**, **Odmówiono** albo **Bez zmian**, a który wynik, zobaczysz w [Aktywności](/help/max-activity).
 :::
 
-Sprzęt dodajesz, przypisujesz i usuwasz w telefonie. Cora Max pokazuje go, gdy Twoje konto go ma. Zobacz [Podłączanie sprzętu](/help/mobile-connections).
+Sprzęt dodajesz na Cora Max (**Dodaj urządzenie** w **Ustawienia → Urządzenia**) albo w telefonie. Przeniesienie do innego akwarium i usunięcie robisz w telefonie. Cora Max pokazuje go, gdy Twoje konto go ma. Zobacz [Dodawanie i usuwanie urządzeń](/help/max-devices#adding-and-removing-devices) i [Podłączanie sprzętu](/help/mobile-connections).
 
 ## Co ma stronę {#what-has-a-page}
 
@@ -90,7 +90,7 @@ Programy dnia pomp Jecod możesz pisać przy ścianie tak samo jak w telefonie. 
 
 ## AquaWiz {#aquawiz}
 
-AquaWiz KH Controller nie ma na Cora Max własnej strony. Jest na liście w **Urządzenia**, gdzie możesz zmienić jego nazwę, a jego odczyty pokazują się na panelu jak każde inne źródło. Konfigurujesz go i zarządzasz nim w telefonie, zobacz [Podłączanie sprzętu](/help/mobile-connections).
+AquaWiz KH Controller nie ma na Cora Max własnej strony. Jest na liście w **Urządzenia**, gdzie możesz zmienić jego nazwę, a jego odczyty pokazują się na panelu jak każde inne źródło. Dodajesz go tutaj przez **Dodaj urządzenie → AquaWiz** albo w telefonie, a zarządzasz nim w telefonie. Zobacz [Podłączanie sprzętu](/help/mobile-connections).
 
 ### Godzinowy odczyt z Cora Max {#aquawiz-hourly}
 

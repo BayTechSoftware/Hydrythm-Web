@@ -175,7 +175,7 @@
       <nav class="toc" aria-label="In questa pagina"><p>In questa pagina</p><ul><li><a href="#neptune-apex">Neptune Apex, DŌS e Trident</a></li><li><a href="#red-sea">Red Sea ReefBeat</a></li><li><a href="#jecod">Jecod e Jebao</a></li><li><a href="#aquawiz">Controller KH AquaWiz</a></li><li><a href="#anything-else">Tutto il resto</a></li></ul></nav>
 <p>Trova la tua marca per vedere tutte le pagine che la riguardano: come aggiungerla, come comandarla sul telefono e su Cora Max, quali avvisi genera e cosa fare quando fa i capricci.</p>
 <ul><li><a href="#neptune-apex">Neptune™ Apex, DŌS e Trident</a></li><li><a href="#red-sea">Red Sea™ ReefBeat</a></li><li><a href="#jecod">Jecod™ e Jebao™</a></li><li><a href="#aquawiz">Controller KH AquaWiz™</a></li></ul>
-<p>Ogni marca si aggiunge dal telefono, da <strong>Dispositivi → Aggiungi dispositivo</strong>. Neptune Apex, Red Sea e Jecod vengono letti sulla rete di casa: senza un Cora Max, il telefono li legge solo mentre Cora Mobile è aperta sullo stesso Wi-Fi. Di più in <a href="/it/help/mobile-connections#local-only">Collegare la tua attrezzatura</a>.</p>
+<p>Ogni marca si aggiunge dal telefono, da <strong>Dispositivi → Aggiungi dispositivo</strong>, o da Cora Max, da <strong>Aggiungi dispositivo</strong> (vedi <a href="/it/help/max-devices#adding-and-removing-devices">Aggiungere e rimuovere dispositivi</a>). Neptune Apex, Red Sea e Jecod vengono letti sulla rete di casa: senza un Cora Max, il telefono li legge solo mentre Cora Mobile è aperta sullo stesso Wi-Fi. Di più in <a href="/it/help/mobile-connections#local-only">Collegare la tua attrezzatura</a>.</p>
 <h2 id="neptune-apex">Neptune Apex, DŌS e Trident</h2>
 <p>Cora legge sonde e prese del tuo Apex, avvia i suoi cicli di alimentazione e lavora con la sua pompa dosometrica DŌS e il suo tester Trident.</p>
 <ul><li>Aggiungerlo: <a href="/it/help/mobile-connections#neptune-apex">Collegare la tua attrezzatura</a></li><li>Dire a Cora cosa misura ogni sonda: <a href="/it/help/mobile-probes">Mappatura parametri e sonde</a></li><li>Comandarlo dal telefono: <a href="/it/help/mobile-device-control#neptune-apex">Apex</a>, <a href="/it/help/mobile-device-control#dos">DŌS</a>, <a href="/it/help/mobile-device-control#trident">Trident</a></li><li>Su Cora Max: <a href="/it/help/max-controls">prese e modalità alimentazione</a>, <a href="/it/help/max-device-control#neptune-apex">Apex e Trident</a>, <a href="/it/help/max-device-control#dos-heads">teste DŌS</a></li><li>Avvisi: <a href="/it/help/mobile-alerts#stopped-reporting">ha smesso di inviare dati</a>, <a href="/it/help/mobile-device-control#doser-alerts">avvisi della pompa dosometrica</a></li><li>Soluzioni: <a href="/it/help/troubleshooting#could-not-reach-the-apex-nothing-changed-nothing-was-dosed">"Impossibile raggiungere l'Apex"</a>, <a href="/it/help/troubleshooting#this-could-not-be-sent-no-device-on-this-tank-can-send-it">"… non ha i dati dell'Apex"</a>, <a href="/it/help/troubleshooting#cora-max-shows-apex-password">"Password Apex"</a>, <a href="/it/help/troubleshooting#the-apex-refused-this-login">"L’Apex ha rifiutato queste credenziali"</a>, <a href="/it/help/troubleshooting#feed-does-not-start">l'alimentazione non parte</a></li></ul>
@@ -191,7 +191,7 @@
 <h2 id="anything-else">Tutto il resto</h2>
 <p>Per l'attrezzatura a cui Cora non si collega, registra le letture a mano. Vedi <a href="/it/help/mobile-connections#logging-by-hand">Registrare a mano</a>.</p>
       <nav class="pn" aria-label="Continua a leggere"><a class="pn-p" href="/it/help/how-do-i"><span>Precedente</span><b>Come faccio a...?</b></a><a class="pn-n" href="/it/help/faq"><span>Successivo</span><b>Domande frequenti</b></a></nav>
-      <p class="stamp">Scritto per Cora Max 0.28.275 e Cora Mobile 1.4.24. Ultimo controllo il 2026-10-24.</p>
+      <p class="stamp">Scritto per Cora Max 0.28.293 e Cora Mobile 1.4.29. Ultimo controllo il 2026-10-24.</p>
       <p class="ask">Ancora bloccato? Scrivi a <a href="mailto:cora@coraiq.tech">cora@coraiq.tech</a>, ti aiutiamo.</p>
     </article>
   </main>
@@ -582,7 +582,7 @@ if (typeof module !== 'undefined') module.exports = CoraSearch;
     if (P) { run(); return; }
     // ⭐ Versioned by content hash: GitHub Pages caches each file for its
     // own 600 s, and a new page reading an old-format index would fail.
-    fetch('/it/help/search.json?v=cd415795c0').then(function (r) { return r.json(); })
+    fetch('/it/help/search.json?v=e4af391ccd').then(function (r) { return r.json(); })
       .then(function (j) { P = CoraSearch.prep(j, "it"); run(); })
       .catch(function () {
         list.innerHTML = '<li class="snone">' + "La ricerca non \u00e8 disponibile. Usa la navigazione." + '</li>';

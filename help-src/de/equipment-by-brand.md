@@ -13,7 +13,7 @@ Such deine Marke, um alle Seiten dazu zu sehen: wie du sie hinzufügst, wie du s
 - [Jecod und Jebao](#jecod)
 - [AquaWiz KH Controller](#aquawiz)
 
-Jede Marke fügst du auf dem Handy hinzu, über **Geräte → Gerät hinzufügen**. Neptune Apex, Red Sea und Jecod werden in deinem Heimnetz abgefragt: Ohne Cora Max liest dein Handy sie nur, solange Cora Mobile im selben WLAN geöffnet ist. Mehr dazu unter [Deine Ausrüstung verbinden](/help/mobile-connections#local-only).
+Jede Marke fügst du auf dem Handy hinzu, über **Geräte → Gerät hinzufügen**, oder am Cora Max, über **Gerät hinzufügen** (siehe [Geräte hinzufügen und entfernen](/help/max-devices#adding-and-removing-devices)). Neptune Apex, Red Sea und Jecod werden in deinem Heimnetz abgefragt: Ohne Cora Max liest dein Handy sie nur, solange Cora Mobile im selben WLAN geöffnet ist. Mehr dazu unter [Deine Ausrüstung verbinden](/help/mobile-connections#local-only).
 
 ## Neptune Apex, DŌS und Trident {#neptune-apex}
 

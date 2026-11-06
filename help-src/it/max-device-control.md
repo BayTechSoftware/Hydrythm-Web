@@ -16,7 +16,7 @@ Questa pagina spiega cosa puoi vedere e fare nella pagina di ogni dispositivo su
 Non c'è anteprima e non c'è annulla. Un comando parte appena tocchi, ma inviarlo non vuol dire che sia fatto. Torna come **Confermato**, **Non confermato**, **Rifiutato** o **Nessun cambiamento**, e puoi vedere quale in [Attività](/help/max-activity).
 :::
 
-L'attrezzatura si aggiunge, si assegna e si rimuove dal telefono. Cora Max la mostra quando il tuo account ce l'ha. Vedi [Collegare la tua attrezzatura](/help/mobile-connections).
+L'attrezzatura si aggiunge da Cora Max (**Aggiungi dispositivo** in **Impostazioni → Dispositivi**) o dal telefono. Spostarla su un'altra vasca e rimuoverla si fa dal telefono. Cora Max la mostra quando il tuo account ce l'ha. Vedi [Aggiungere e rimuovere dispositivi](/help/max-devices#adding-and-removing-devices) e [Collegare la tua attrezzatura](/help/mobile-connections).
 
 ## Cosa ha una pagina {#what-has-a-page}
 
@@ -90,7 +90,7 @@ Puoi scrivere le programmazioni giornaliere delle pompe Jecod sullo schermo a pa
 
 ## AquaWiz {#aquawiz}
 
-Un controller KH AquaWiz non ha una pagina propria su Cora Max. È elencato in **Dispositivi**, dove puoi rinominarlo, e le sue letture compaiono sulla dashboard come qualsiasi altra fonte. Configuralo e gestiscilo dal telefono, vedi [Collegare la tua attrezzatura](/help/mobile-connections).
+Un controller KH AquaWiz non ha una pagina propria su Cora Max. È elencato in **Dispositivi**, dove puoi rinominarlo, e le sue letture compaiono sulla dashboard come qualsiasi altra fonte. Aggiungilo qui con **Aggiungi dispositivo → AquaWiz** o dal telefono, e gestiscilo dal telefono. Vedi [Collegare la tua attrezzatura](/help/mobile-connections).
 
 ### Lettura oraria da Cora Max {#aquawiz-hourly}
 

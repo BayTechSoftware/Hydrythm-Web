@@ -16,7 +16,7 @@ Esta página explica qué puedes ver y hacer en la página de cada dispositivo e
 No hay vista previa ni deshacer. Una orden sale en cuanto tocas, pero enviarla no significa que esté hecha. Vuelve como **Confirmado**, **Sin confirmar**, **Rechazado** o **Sin cambios**, y puedes ver cuál en [Actividad](/help/max-activity).
 :::
 
-Los equipos se añaden, se asignan y se quitan en tu teléfono. Cora Max los muestra en cuanto tu cuenta los tiene. Consulta [Conectar tus equipos](/help/mobile-connections).
+Los equipos se añaden en Cora Max (**Añadir dispositivo** en **Ajustes → Dispositivos**) o en tu teléfono. Moverlos a otro acuario y quitarlos se hace en tu teléfono. Cora Max los muestra en cuanto tu cuenta los tiene. Consulta [Añadir y quitar dispositivos](/help/max-devices#adding-and-removing-devices) y [Conectar tus equipos](/help/mobile-connections).
 
 ## Qué tiene página {#what-has-a-page}
 
@@ -90,7 +90,7 @@ Puedes crear horarios diarios de bombas Jecod en la pantalla de pared igual que 
 
 ## AquaWiz {#aquawiz}
 
-Un AquaWiz KH Controller no tiene página propia en Cora Max. Aparece en **Dispositivos**, donde puedes cambiarle el nombre, y sus lecturas salen en el panel como cualquier otra fuente. Configúralo y gestiónalo en tu teléfono, consulta [Conectar tus equipos](/help/mobile-connections).
+Un AquaWiz KH Controller no tiene página propia en Cora Max. Aparece en **Dispositivos**, donde puedes cambiarle el nombre, y sus lecturas salen en el panel como cualquier otra fuente. Añádelo aquí con **Añadir dispositivo → AquaWiz** o en tu teléfono, y gestiónalo en tu teléfono. Consulta [Conectar tus equipos](/help/mobile-connections).
 
 ### Lectura cada hora desde Cora Max {#aquawiz-hourly}
 

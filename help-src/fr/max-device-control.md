@@ -16,7 +16,7 @@ Cette page explique ce que vous pouvez voir et faire sur la page de chaque appar
 Il n’y a ni aperçu ni annulation. Une commande part dès que vous touchez, mais l’envoyer ne veut pas dire qu’elle est faite. Elle revient **Confirmé**, **Non confirmé**, **Refusé** ou **Aucun changement**, et vous voyez lequel dans [Activité](/help/max-activity).
 :::
 
-Vous ajoutez, attribuez et retirez l’équipement sur votre téléphone. Cora Max l’affiche dès que votre compte l’a. Voir [Connecter votre équipement](/help/mobile-connections).
+Vous ajoutez l’équipement sur Cora Max (**Ajouter un appareil** dans **Paramètres → Appareils**) ou sur votre téléphone. Le déplacer vers un autre aquarium et le retirer se font sur votre téléphone. Cora Max l’affiche dès que votre compte l’a. Voir [Ajouter et retirer des appareils](/help/max-devices#adding-and-removing-devices) et [Connecter votre équipement](/help/mobile-connections).
 
 ## Ce qui a une page {#what-has-a-page}
 
@@ -90,7 +90,7 @@ Vous pouvez écrire les programmes journaliers des pompes Jecod au mur comme sur
 
 ## AquaWiz {#aquawiz}
 
-Un AquaWiz KH Controller n’a pas de page à lui sur Cora Max. Il est listé dans **Appareils**, où vous pouvez le renommer, et ses mesures s’affichent sur le tableau de bord comme n’importe quelle autre source. Configurez-le et gérez-le sur votre téléphone, voir [Connecter votre équipement](/help/mobile-connections).
+Un AquaWiz KH Controller n’a pas de page à lui sur Cora Max. Il est listé dans **Appareils**, où vous pouvez le renommer, et ses mesures s’affichent sur le tableau de bord comme n’importe quelle autre source. Ajoutez-le ici avec **Ajouter un appareil → AquaWiz** ou sur votre téléphone, et gérez-le sur votre téléphone. Voir [Connecter votre équipement](/help/mobile-connections).
 
 ### Lecture horaire par Cora Max {#aquawiz-hourly}
 

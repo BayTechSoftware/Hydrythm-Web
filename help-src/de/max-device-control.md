@@ -16,7 +16,7 @@ Auf dieser Seite geht es darum, was du auf der Seite jedes Geräts auf Cora Max 
 Es gibt keine Vorschau und kein Rückgängig. Ein Befehl geht raus, sobald du tippst, aber gesendet heißt nicht erledigt. Er kommt mit **Bestätigt**, **Unbestätigt**, **Abgelehnt** oder **Keine Änderung** zurück, und unter [Aktivität](/help/max-activity) siehst du, was davon.
 :::
 
-Ausrüstung fügst du auf dem Handy hinzu, weist sie dort zu und entfernst sie dort. Cora Max zeigt sie, sobald dein Konto sie hat. Siehe [Deine Ausrüstung verbinden](/help/mobile-connections).
+Ausrüstung fügst du am Cora Max (**Gerät hinzufügen** unter **Einstellungen → Geräte**) oder auf dem Handy hinzu. An ein anderes Becken verschieben und entfernen geht auf dem Handy. Cora Max zeigt sie, sobald dein Konto sie hat. Siehe [Geräte hinzufügen und entfernen](/help/max-devices#adding-and-removing-devices) und [Deine Ausrüstung verbinden](/help/mobile-connections).
 
 ## Was eine Seite hat {#what-has-a-page}
 
@@ -90,7 +90,7 @@ Zeitpläne für Jecod-Pumpen kannst du an der Wand genauso schreiben wie auf dem
 
 ## AquaWiz {#aquawiz}
 
-Ein AquaWiz KH Controller hat auf Cora Max keine eigene Seite. Er steht unter **Geräte**, wo du ihn umbenennen kannst, und seine Messwerte erscheinen auf dem Dashboard wie jede andere Quelle. Richte ihn auf dem Handy ein und verwalte ihn dort, siehe [Deine Ausrüstung verbinden](/help/mobile-connections).
+Ein AquaWiz KH Controller hat auf Cora Max keine eigene Seite. Er steht unter **Geräte**, wo du ihn umbenennen kannst, und seine Messwerte erscheinen auf dem Dashboard wie jede andere Quelle. Füge ihn hier mit **Gerät hinzufügen → AquaWiz** oder auf dem Handy hinzu und verwalte ihn auf dem Handy. Siehe [Deine Ausrüstung verbinden](/help/mobile-connections).
 
 ### Stündliches Auslesen durch Cora Max {#aquawiz-hourly}
 
